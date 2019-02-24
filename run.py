@@ -1,5 +1,5 @@
 #!usr/bin/env python
-"""
+"""c
 from oscheck import *
 import wx
 """
