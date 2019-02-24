@@ -71,6 +71,8 @@ class WindowUtama ( main ):
 
 		self.m_scrolledWindow71 = wx.ScrolledWindow( self.halaman1, wx.ID_ANY, wx.DefaultPosition, wx.DefaultSize, wx.HSCROLL|wx.VSCROLL )
 		self.m_scrolledWindow71.SetScrollRate( 5, 5 )
+		self.m_scrolledWindow71.SetBackgroundColour( wx.Colour( 243, 181, 36 ) )
+
 		bSizer57 = wx.BoxSizer( wx.HORIZONTAL )
 
 		self.m_panel7 = wx.Panel( self.m_scrolledWindow71, wx.ID_ANY, wx.DefaultPosition, wx.DefaultSize, wx.TAB_TRAVERSAL )
@@ -535,14 +537,20 @@ class WindowUtama ( main ):
 
 		bSizer27 = wx.BoxSizer( wx.VERTICAL )
 
-		self.m_scrolledWindow7 = wx.ScrolledWindow( self.halaman5, wx.ID_ANY, wx.DefaultPosition, wx.DefaultSize, wx.HSCROLL|wx.VSCROLL )
-		self.m_scrolledWindow7.SetScrollRate( 5, 5 )
-		self.m_scrolledWindow7.SetBackgroundColour( wx.Colour( 0, 148, 67 ) )
+		self.m_scrolledWindow71 = wx.ScrolledWindow( self.halaman5, wx.ID_ANY, wx.DefaultPosition, wx.DefaultSize, wx.HSCROLL|wx.VSCROLL )
+		self.m_scrolledWindow71.SetScrollRate( 5, 5 )
+		self.m_scrolledWindow71.SetBackgroundColour( wx.Colour( 0, 148, 67 ) )
+		self.m_scrolledWindow71.Hide()
+
+		bSizer27.Add( self.m_scrolledWindow71, 1, wx.ALL|wx.EXPAND, 5 )
+
+		self.m_panel25 = wx.Panel( self.halaman5, wx.ID_ANY, wx.DefaultPosition, wx.DefaultSize, wx.TAB_TRAVERSAL )
+		self.m_panel25.SetBackgroundColour( wx.Colour( 0, 148, 67 ) )
 
 		bSizer29 = wx.BoxSizer( wx.VERTICAL )
 
 		from AppsSDS.dPage5 import dPage5
-		self.m_panelPage5 = dPage5( self.m_scrolledWindow7)
+		self.m_panelPage5 = dPage5( self.m_panel25)
 		self.m_panelPage5.m_tombolHitung.Bind( wx.EVT_BUTTON, self.m_tombolHitungOnButtonClick )
 
 		self.m_panelPage5.m_tampilgrafik.Bind( wx.EVT_BUTTON, self.m_tampilgrafikOnButtonClick )
@@ -558,16 +566,16 @@ class WindowUtama ( main ):
 		bSizer29.Add( self.m_panelPage5, 1, wx.ALL|wx.EXPAND, 5 )
 
 
-		self.m_scrolledWindow7.SetSizer( bSizer29 )
-		self.m_scrolledWindow7.Layout()
-		bSizer29.Fit( self.m_scrolledWindow7 )
-		bSizer27.Add( self.m_scrolledWindow7, 1, wx.ALL|wx.EXPAND, 5 )
+		self.m_panel25.SetSizer( bSizer29 )
+		self.m_panel25.Layout()
+		bSizer29.Fit( self.m_panel25 )
+		bSizer27.Add( self.m_panel25, 1, wx.EXPAND |wx.ALL, 5 )
 
 
 		self.halaman5.SetSizer( bSizer27 )
 		self.halaman5.Layout()
 		bSizer27.Fit( self.halaman5 )
-		bSizer101.Add( self.halaman5, 1, wx.EXPAND |wx.ALL, 5 )
+		bSizer101.Add( self.halaman5, 1, wx.EXPAND|wx.ALL|wx.ALIGN_CENTER_HORIZONTAL, 5 )
 
 		self.halaman6 = wx.Panel( self.m_panel1, wx.ID_ANY, wx.DefaultPosition, wx.DefaultSize, wx.TAB_TRAVERSAL )
 		self.halaman6.SetBackgroundColour( wx.Colour( 249, 250, 249 ) )
@@ -598,9 +606,10 @@ class WindowUtama ( main ):
 		self.halaman6.SetSizer( bSizer30 )
 		self.halaman6.Layout()
 		bSizer30.Fit( self.halaman6 )
-		bSizer101.Add( self.halaman6, 1, wx.EXPAND |wx.ALL, 5 )
+		bSizer101.Add( self.halaman6, 1, wx.EXPAND|wx.ALL|wx.ALIGN_CENTER_HORIZONTAL, 5 )
 
 		self.halaman7 = wx.Panel( self.m_panel1, wx.ID_ANY, wx.DefaultPosition, wx.DefaultSize, wx.TAB_TRAVERSAL )
+		self.halaman7.SetBackgroundColour( wx.Colour( 249, 250, 249 ) )
 		self.halaman7.Hide()
 
 		bSizer31 = wx.BoxSizer( wx.VERTICAL )
@@ -629,7 +638,7 @@ class WindowUtama ( main ):
 		self.halaman7.SetSizer( bSizer31 )
 		self.halaman7.Layout()
 		bSizer31.Fit( self.halaman7 )
-		bSizer101.Add( self.halaman7, 1, wx.EXPAND |wx.ALL, 5 )
+		bSizer101.Add( self.halaman7, 1, wx.EXPAND|wx.ALL|wx.ALIGN_CENTER_HORIZONTAL, 5 )
 
 		self.m_panel9 = wx.Panel( self.m_panel1, wx.ID_ANY, wx.DefaultPosition, wx.DefaultSize, wx.TAB_TRAVERSAL )
 		self.m_panel9.SetBackgroundColour( wx.Colour( 243, 181, 36 ) )
@@ -1824,7 +1833,7 @@ class Page5 ( wx.Panel ):
 		fgSizer26.Add( self.m_grafikproperties, 0, wx.ALL, 5 )
 
 
-		bSizer45.Add( fgSizer26, 0, wx.EXPAND, 5 )
+		bSizer45.Add( fgSizer26, 0, 0, 5 )
 
 		bSizer44 = wx.BoxSizer( wx.VERTICAL )
 
@@ -1987,14 +1996,14 @@ class Page5 ( wx.Panel ):
 		fgSizer31.Add( self.m_lbsummaryscores, 0, wx.ALL|wx.EXPAND, 5 )
 
 
-		bSizer44.Add( fgSizer31, 0, wx.EXPAND, 5 )
+		bSizer44.Add( fgSizer31, 0, 0, 5 )
 
 		from AppsSDS.MplotLib import MatplotPanelA
 
 		self.m_plota=MatplotPanelA(self)
 		self.m_plota.canvas.mpl_connect('motion_notify_event', self.onMotion)
 
-		bSizer44.Add( self.m_plota, 0, wx.ALL|wx.EXPAND, 5 )
+		bSizer44.Add( self.m_plota, 1, wx.ALL|wx.EXPAND, 5 )
 
 		from AppsSDS.MplotLib import MatplotPanelB
 
@@ -2003,7 +2012,7 @@ class Page5 ( wx.Panel ):
 
 		self.m_plotb.Hide()
 
-		bSizer44.Add( self.m_plotb, 0, wx.ALL, 5 )
+		bSizer44.Add( self.m_plotb, 1, wx.ALL|wx.EXPAND, 5 )
 
 
 		bSizer45.Add( bSizer44, 0, 0, 5 )
@@ -2068,6 +2077,9 @@ class Page6 ( wx.Panel ):
 		bSizer32 = wx.BoxSizer( wx.VERTICAL )
 
 		fgSizer28 = wx.FlexGridSizer( 1, 2, 0, 0 )
+		fgSizer28.AddGrowableCol( 0 )
+		fgSizer28.AddGrowableCol( 1 )
+		fgSizer28.AddGrowableRow( 0 )
 		fgSizer28.SetFlexibleDirection( wx.BOTH )
 		fgSizer28.SetNonFlexibleGrowMode( wx.FLEX_GROWMODE_SPECIFIED )
 
@@ -2076,7 +2088,7 @@ class Page6 ( wx.Panel ):
 
 		self.m_staticText195.SetFont( wx.Font( 12, wx.FONTFAMILY_SWISS, wx.FONTSTYLE_NORMAL, wx.FONTWEIGHT_NORMAL, False, "Sans" ) )
 
-		fgSizer28.Add( self.m_staticText195, 0, wx.ALL|wx.ALIGN_CENTER_HORIZONTAL|wx.ALIGN_CENTER_VERTICAL, 5 )
+		fgSizer28.Add( self.m_staticText195, 0, wx.ALL|wx.ALIGN_CENTER_VERTICAL|wx.ALIGN_CENTER_HORIZONTAL, 5 )
 
 		self.m_panelWarnaHasil = wx.Panel( self, wx.ID_ANY, wx.DefaultPosition, wx.DefaultSize, wx.TAB_TRAVERSAL )
 		self.m_panelWarnaHasil.SetBackgroundColour( wx.Colour( 219, 227, 37 ) )
@@ -2089,7 +2101,7 @@ class Page6 ( wx.Panel ):
 		self.m_stHasil1.SetFont( wx.Font( 20, wx.FONTFAMILY_SWISS, wx.FONTSTYLE_NORMAL, wx.FONTWEIGHT_NORMAL, False, "Sans" ) )
 		self.m_stHasil1.SetBackgroundColour( wx.Colour( 93, 218, 193 ) )
 
-		bSizer48.Add( self.m_stHasil1, 0, wx.ALL, 5 )
+		bSizer48.Add( self.m_stHasil1, 0, wx.ALL|wx.ALIGN_CENTER_HORIZONTAL, 5 )
 
 
 		self.m_panelWarnaHasil.SetSizer( bSizer48 )
@@ -2098,7 +2110,7 @@ class Page6 ( wx.Panel ):
 		fgSizer28.Add( self.m_panelWarnaHasil, 1, wx.EXPAND |wx.ALL, 5 )
 
 
-		bSizer32.Add( fgSizer28, 0, wx.EXPAND, 5 )
+		bSizer32.Add( fgSizer28, 0, wx.ALIGN_CENTER_HORIZONTAL, 5 )
 
 		fgSizer36 = wx.FlexGridSizer( 2, 2, 0, 0 )
 		fgSizer36.AddGrowableCol( 0 )

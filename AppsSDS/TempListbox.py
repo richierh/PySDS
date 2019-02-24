@@ -77,6 +77,7 @@ class TempListbox( temp.Listbox1 ):
         i = 0
         for key,value in klik.items() :
            self.m_listCtrl1.InsertStringItem(i,key)
+           print (value)
            i+=1
                
         
@@ -103,6 +104,7 @@ class TempListbox( temp.Listbox1 ):
         i = 0
         for key,value in klik.items() :
            self.m_listCtrl1.InsertStringItem(i,key)
+           print (value)
            i+=1
        
 
