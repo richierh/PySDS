@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<resource xmlns="http://www.wxwindows.org/wxxrc" version="2.3.0.1">
+	<object class="wxFrame" name="Listbox1">
+		<style>wxDEFAULT_FRAME_STYLE|wxTAB_TRAVERSAL</style>
+		<size>500,300</size>
+		<title>Cari Pekerjaan</title>
+		<centered>1</centered>
+		<aui_managed>0</aui_managed>
+		<object class="wxPanel" name="m_panel1">
+			<style>wxTAB_TRAVERSAL</style>
+			<font>
+				<size>14</size>
+				<style>normal</style>
+				<weight>normal</weight>
+				<underlined>0</underlined>
+				<face>Tw Cen MT</face>
+			</font>
+			<object class="wxBoxSizer">
+				<orient>wxVERTICAL</orient>
+				<object class="sizeritem">
+					<option>0</option>
+					<flag>wxEXPAND</flag>
+					<border>5</border>
+					<object class="wxBoxSizer">
+						<orient>wxHORIZONTAL</orient>
+						<object class="spacer">
+							<option>1</option>
+							<flag>wxEXPAND</flag>
+							<border>5</border>
+							<size>0,0</size>
+						</object>
+						<object class="sizeritem">
+							<option>0</option>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<object class="wxStaticText" name="m_staticText1">
+								<label>Cari</label>
+								<wrap>-1</wrap>
+							</object>
+						</object>
+						<object class="sizeritem">
+							<option>1</option>
+							<flag>wxALL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<object class="wxTextCtrl" name="m_textCtrl1">
+								<font>
+									<size>14</size>
+									<style>normal</style>
+									<weight>normal</weight>
+									<underlined>0</underlined>
+									<face>Tw Cen MT</face>
+								</font>
+								<value></value>
+							</object>
+						</object>
+						<object class="sizeritem">
+							<option>0</option>
+							<flag>wxALL</flag>
+							<border>5</border>
+							<object class="wxButton" name="m_button3">
+								<label></label>
+								<default>0</default>
+								<markup>0</markup>
+								<bitmap></bitmap>
+							</object>
+						</object>
+					</object>
+				</object>
+				<object class="sizeritem">
+					<option>1</option>
+					<flag>wxALL|wxEXPAND</flag>
+					<border>5</border>
+					<object class="wxListBox" name="m_listBox1">
+						<style>wxLB_NEEDED_SB|wxLB_SORT</style>
+						<content>
+							<item>list&amp;of&amp;occupation</item>
+						</content>
+					</object>
+				</object>
+				<object class="sizeritem">
+					<option>0</option>
+					<flag>wxEXPAND|wxALIGN_RIGHT</flag>
+					<border>5</border>
+					<object class="wxFlexGridSizer">
+						<rows>0</rows>
+						<cols>2</cols>
+						<vgap>0</vgap>
+						<hgap>0</hgap>
+						<growablecols>0,1</growablecols>
+						<growablerows>0</growablerows>
+						<object class="sizeritem">
+							<option>0</option>
+							<flag>wxALL|wxALIGN_CENTER_VERTICAL|wxALIGN_RIGHT</flag>
+							<border>5</border>
+							<object class="wxButton" name="cancel">
+								<label>Cancel</label>
+								<default>0</default>
+								<markup>0</markup>
+								<bitmap />
+							</object>
+						</object>
+						<object class="sizeritem">
+							<option>0</option>
+							<flag>wxALL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<object class="wxButton" name="ok">
+								<label>Ok</label>
+								<default>0</default>
+								<markup>0</markup>
+								<bitmap />
+							</object>
+						</object>
+					</object>
+				</object>
+			</object>
+		</object>
+	</object>
+</resource>
