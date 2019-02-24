@@ -61,3 +61,4 @@ class Warningid(wx.Frame):
     def m_button1OnButtonClick( self, event ):
         self.Close()
         event.Skip()
+
