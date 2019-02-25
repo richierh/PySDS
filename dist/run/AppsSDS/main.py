@@ -32,20 +32,31 @@ def openWindows():
 	start = run(None)
 	start.Show()
 	root.MainLoop()	
+	print ("lewat sini")
+	return None
 
 def close():
-	
-	pass
+	from AppsSDS.authenticationFrameWarningKey import authenticationFrameWarningKey
+	start = authenticationFrameWarningKey(None)
+	start.Show()
+	root.MainLoop()
+	print ("lewat close")
+	return None
 
 
 KeyVerification = VerifyKey("1")
-print (KeyVerification)
+print (KeyVerification.Verify())
 print (type(KeyVerification))
 
-KeyVerification_dict = {
-	"1" : openWindows() ,
-	"2" : close()
-}
-print  (KeyVerification_dict.get(str(KeyVerification.Verify())))
+# KeyVerification_dict = {
+# 	"1" : openWindows() ,
+# 	# "2" : close
+# }
+# KeyVerification_dict.get("1"
+# ,close())
 
+if KeyVerification.Verify() == "1":
+	openWindows()
 
+else :
+	close()

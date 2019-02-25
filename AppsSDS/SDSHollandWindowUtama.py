@@ -23,11 +23,23 @@ class SDSHollandWindowUtama(sds.WindowUtama):
 		self.m_panelPage7.m_SimpanPage6.Bind( wx.EVT_BUTTON, self.m_SimpanPage6OnButtonClick )
 		self.__properties()
 
+		self.image1 = wx.Image(str(pathlib.Path.cwd()/'images/binakarir.png'))
+		self.image2 = wx.Image(str(pathlib.Path.cwd()/'images/logosds.png'))
+		self.re_image1 = self.image1.Rescale(317,103)
+		self.re_image2 = self.image2.Rescale(350,350)
+		self.m_bitmap3.SetBitmap(wx.Bitmap(self.re_image1))
+		self.m_bitmap31.SetBitmap(wx.Bitmap(self.re_image2))
+		self.Refresh()
 
-	
+		self.Layout()
+
+
+
+
 	def __properties(self):
 		self.m_panelPage7.m_statictextfromcircle1.SetLabel("___")
 		self.m_panelPage7.m_staticfromcircle2.SetLabel("___")
+		
 
 		
 		self.listmctrol = [
@@ -957,9 +969,9 @@ class SDSHollandWindowUtama(sds.WindowUtama):
 
 		print (datetime.datetime.now().month)
 		
-		displayDatefrom = wx.DateTime.FromDMY(int(1), int(self.curr_month) - 1, int(self.curr_year))
-		displayDateuntil = wx.DateTime.FromDMY(int(31), int(self.curr_month) - 1, int(self.curr_year))
-
+		displayDatefrom = wx.DateTime.FromDMY(int(1), int(self.curr_month) , int(self.curr_year))
+		displayDateuntil = wx.DateTime.FromDMY(int(31), int(self.curr_month), int(self.curr_year))
+		print (displayDatefrom)
 		self.BukaWindowFilter.m_datePickerdaritgl.SetValue(displayDatefrom)
 		self.BukaWindowFilter.m_datePickersampaitgl.SetValue(displayDateuntil)
 
@@ -970,14 +982,12 @@ class SDSHollandWindowUtama(sds.WindowUtama):
 		
 		self.BukaWindowFilter.Show()
 		
-		
 		pass
 	
 	def m_buttonBersihkanOnButtonClick(self,event):
 		from AppsSDS.clear_data import ClearData
 		self.clear = ClearData(self)
 
-		
 		pass
 	
 	def m_SimpanPage6OnButtonClick(self,event):

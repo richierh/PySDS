@@ -1,0 +1,4981 @@
+Occupations;Code
+Model Maker;AIC
+Costumer;AIC
+Molding and Casting Worker;AIC
+Ornamental Metalwork Designer;AIC
+Stage Technician;AIC
+"Photographer, Still";AIC
+Miniature Set Constructor;AIC
+Prepress Technician;AIC
+Cake Decorator;AIC
+"Displayer, Merchandise";AIC
+Floral Designer;AIC
+Stone Carver;AIC
+"Painter, Hand";AIC
+Architect;AIC
+Landscape Architect;AIC
+Philologist;AIC
+"Restorer, Paper and Prints";AIC
+"Illustrator, Medical and Scientific";AIC
+"Set Designer, Theater and Film";AIC
+Video Game Designer;AIC
+"Writer, Fiction and Nonfiction";AIC
+"Restorer, Painting";AIC
+Exhibit Builder;AIC
+Fashion Designer;AIC
+Optical Effects Camera Operator;AIC
+Pewterer;AIC
+"Faculty, English Language and Literature";AIC
+"Faculty, Fine Arts";AIC
+"Artist, Exhibit";AIC
+Copywriter;AIC
+Dance Therapist;AIC
+"Painter, Hand";AIC
+Reporter/News Correspondent;AIC
+"Restorer, Ceramic";AIC
+Laserist;AIC
+"Faculty, Foreign Laguage and Literature";AIC
+"Artist, Quick Sketch";AIC
+Drama Coach;AIC
+"Editor, Story";AIC
+"Editor, Technical and Scientific Publications";AIC
+Exhibit Designer;AIC
+"Illustrator, Medical and Scientific";AIE
+"Set Designer, Theater and Film";AIE
+Video Game Designer;AIE
+"Writer, Fiction and Nonfiction";AIE
+Architect;AIR
+Landscape Architect;AIR
+Model Maker (ARI);AIR
+Costumer (ARI);AIR
+Molding and Casting Worker (ARI);AIR
+Oral and Maxillofacial Surgeon (IRA);AIR
+Surgeon (IRA);AIR
+Audio and Video Equipment Technician (RIA);AIR
+Biologist (IAR);AIR
+Television Technician (RIA);AIR
+Philologist;AIS
+"Restorer, Paper and Prints";AIS
+Economist (IAS);AIS
+Instructional Designer and Technologit (IAS);AIS
+Art Appraiser (IAS);AIS
+"Faculty, Anthropology and Archeology (ISA)";AIS
+Hospitalist (ISA);AIS
+Medical Technologist (ISA);AIS
+Neoropsychologist (ISA);AIS
+Nurse Practitioner (ISA);AIS
+Physician Assistant (ISA);AIS
+"Physician, Internist (ISA)";AIS
+"Physician, Preventive Medicine (ISA)";AIS
+Psychiatrist (ISA);AIS
+"Artist, Exhibit (ASI)";AIS
+Copywriter (ASI);AIS
+Dance Therapist (ASI);AIS
+"Faculty, English Language and Literature (ASI)";AIS
+"Faculty, Fine Arts (ASI)";AIS
+Laserist (ASI);AIS
+Painter (ASI);AIS
+Reporter/News Correspondent (ASI);AIS
+"Restorer, Ceramic (ASI)";AIS
+"Faculty, Communications (SIA)";AIS
+Genetic Counselor (SIA);AIS
+"Indpector, Heating and Refrigeration (SIA)";AIS
+"Nurse, General Duty (RN) (SIA)";AIS
+"Psychologist, Clinical (SIA)";AIS
+"Psychologist, Counseling (SIA)";AIS
+Acquisitions Librarian (SAI);AIS
+Art Therapist (SAI);AIS
+Dental Assistant (SAI);AIS
+Dental Hygienist (SAI);AIS
+Librarian (SAI);AIS
+Marriage and Family Therapist (SAI);AIS
+Speech-Language Pathologist (SAI);AIS
+Model Maker;ARC
+Costumer;ARC
+Molding and Casting Worker;ARC
+Ornamental Metalwork Designer;ARC
+Stage Technician;ARC
+"Photographer, Still";ARC
+Miniature Set Constructor;ARC
+Prepress Technician;ARC
+Cake Decorator;ARC
+"Displayer, Merchandise";ARC
+Floral Designer;ARC
+Stone Carver;ARC
+"Painter, Hand";ARC
+Architect;ARC
+Landscape Architect;ARC
+Philologist;ARC
+"Restorer, Paper and Prints";ARC
+"Illustrator, Medical and Scientific";ARC
+"Set Designer, Theater and Film";ARC
+Video Game Designer;ARC
+"Writer, Fiction and Nonfiction";ARC
+"Restorer, Painting";ARC
+Exhibit Builder;ARC
+Fashion Designer;ARC
+Optical Effects Camera Operator;ARC
+Pewterer;ARC
+"Faculty, English Language and Literature";ARC
+"Faculty, Fine Arts";ARC
+"Artist, Exhibit";ARC
+Copywriter;ARC
+Dance Therapist;ARC
+"Painter, Hand";ARC
+Reporter/News Correspondent;ARC
+"Restorer, Ceramic";ARC
+Laserist;ARC
+"Faculty, Foreign Laguage and Literature";ARC
+"Artist, Quick Sketch";ARC
+Drama Coach;ARC
+"Editor, Story";ARC
+"Editor, Technical and Scientific Publications";ARC
+Exhibit Designer;ARC
+Miniature Set Constructor;ARE
+Prepress Technician;ARE
+Cake Decorator;ARE
+"Displayer, Merchandise";ARE
+Floral Designer;ARE
+Stone Carver;ARE
+"Painter, Hand";ARE
+Model Maker;ARI
+Costumer;ARI
+Molding and Casting Worker;ARI
+Oral and Maxillofacial Surgeon (IRA);ARI
+Surgeon (IRA);ARI
+Architect (AIR);ARI
+Audio and Video Equipment Technician (RIA);ARI
+Biologist (IAR);ARI
+Television Technician (RIA);ARI
+Landscape Architect (AIR);ARI
+Ornamental Metalwork Designer;ARS
+Stage Technician;ARS
+"Photographer, Still";ARS
+"Restorer, Painting (ASR)";ARS
+Exhibit Builder (ASR);ARS
+Fashion Designer (ASR);ARS
+Optical Effects Camera Operator (ASR);ARS
+Pewterer (ASR);ARS
+Cook Apprentice (RAS);ARS
+Manicurist/Pedicurist (RAS);ARS
+Pastry Chef (RAS);ARS
+Skincare Specialist (RSA);ARS
+"Faculty, Foreign Laguage and Literature";ASE
+"Artist, Quick Sketch";ASE
+Drama Coach;ASE
+"Editor, Story";ASE
+"Editor, Technical and Scientific Publications";ASE
+Exhibit Designer;ASE
+"Faculty, English Language and Literature";ASI
+"Faculty, Fine Arts";ASI
+"Artist, Exhibit";ASI
+Copywriter;ASI
+Dance Therapist;ASI
+"Painter, Hand";ASI
+Reporter/News Correspondent;ASI
+"Restorer, Ceramic";ASI
+Laserist;ASI
+"Restorer, Painting";ASR
+Exhibit Builder;ASR
+Fashion Designer;ASR
+Optical Effects Camera Operator;ASR
+Pewterer;ASR
+Fire Protection Engineering Technician;CAE
+Receipt and Report Clerk;CAE
+Stock Control Clerk;CAE
+Desktop Publisher;CAE
+"Inspector, Screen Printing";CAE
+Credit Annalyst;CAE
+Mortgage Clerk;CAE
+Transportation Inspector;CAE
+"Assembler, Electric Signs";CAE
+"Assembler, Musical Instruments";CAE
+Assembly Line Inspector;CAE
+Billing Clerk;CAE
+Cost Clerk;CAE
+Crew Scheduler;CAE
+Furniture Assembler;CAE
+Music Copyist;CAE
+Night Auditor;CAE
+Office Clerk;CAE
+Postal Service Mail Carrier;CAE
+Property Clerk;CAE
+Solderer and Brazer;CAE
+Television Production Clerk;CAE
+Traffic Clerk;CAE
+Typist/Transcriptionist;CAE
+"Assembler, Small Pruducts";CAE
+Landscape Specialist;CAE
+Crane and Tower Operator;CAE
+Airline Radio Operator;CAE
+"Assembler, Electronics";CAE
+"Assembler, Leather Goods";CAE
+"Assembler, Switchboard Contact";CAE
+Communications Equipment  Operator;CAE
+Electrologist;CAE
+Fabric Inspector;CAE
+"Knitter, Hand";CAE
+Parking Lot Attendant;CAE
+Payroll Clerk;CAE
+Preventive Maintenance Coordinator;CAE
+"Counter Clerk, Photofinishing ";CAE
+Direct Mail Clerk;CAE
+Mail Clerk;CAE
+Judicial Law Clerk;CAE
+Appraiser;CAE
+Data Warehousing Specialist;CAE
+Pesticide Control Inspector;CAE
+Medical Records Technician ;CAE
+"Editor, Web Site";CAE
+Editorial Assistant ;CAE
+Clinical Data Manager;CAE
+Computer Security Coordinator;CAE
+Computer Security Specialist;CAE
+Polygraph Examiner;CAE
+Social Science Research Assistant;CAE
+Ophthalmic Medical Technician;CAE
+Ophthalmic Medical Technologist;CAE
+Ophthalmic Technician;CAE
+"Accountant, Cost";CAE
+Investment Analyst;CAE
+Building Inspector;CAE
+Bibliographer;CAE
+Brokerage Clerk;CAE
+Computer Operator;CAE
+Computer Peripheral Equipment Operator;CAE
+File Clerk;CAE
+Medical Transcriptionist;CAE
+Accounting Clerk;CAE
+"Assignment Clerk, Motor Transportation";CAE
+Budget Clerk;CAE
+Cabinet Assembler;CAE
+Collection Clerk;CAE
+Custumer Service Representative;CAE
+Customs Broker;CAE
+Insurance Processing Clerk;CAE
+Production Clerk;CAE
+"Quality Control Clerk, Drug Preparation and Related Products";CAE
+Surveillance System Monitor;CAE
+Sewing Machine Operator;CAE
+Accountant;CAE
+Proofreader;CAE
+Abstractor;CAE
+Freight Forwarder;CAE
+Medical Records Clerk;CAE
+"Accountant, Systems";CAE
+Underwriter;CAE
+Court Reporter;CAE
+Personnel Clerk;CAE
+Bank Teller;CAE
+Cargo and Freight Agent;CAE
+Court Clerk;CAE
+Data Entry Clerk;CAE
+Expediter;CAE
+Insurance Clerk;CAE
+Library Assistant;CAE
+Licensse Clerk;CAE
+Media Coordinator ;CAE
+Meter Reader;CAE
+Petroleum Inspector;CAE
+Post Office Clerk;CAE
+"Rate Analyst, Freight";CAE
+Receptionist;CAE
+Secretary;CAE
+Securities Clerk;CAE
+Statement Clerk;CAE
+Switchboard Operator/Answering Service Operator;CAE
+Ticket Sales Agent;CAE
+Title Examiner;CAE
+"Registrar, Museum";CAE
+"Accountant, Property";CAE
+Budget Analyst;CAE
+"Investigator, Dealer Accounts ";CAE
+Stock Transfer Clerk;CAE
+Broadcast Checker;CAE
+Central Supply Worker;CAE
+Credit Card Clerk;CAE
+Directory Assistant Operator;CAE
+"Painter, Animated Cartoons";CAE
+Utility Clerk;CAE
+Counter Attendant;CAE
+Investment Underwriter;CAE
+Regulatory Affairs Specialists;CAE
+Customs Inspector;CAE
+Fingerprint Clerk;CAE
+Credit Authorizer;CAE
+Data Entry Supervisor;CAE
+"Engineer, Fire Prevention Protection";CAE
+Occupational Health and Safety Technicians;CAE
+Passport Application Examiner;CAE
+Employment Clerk;CAE
+Fire Inspector;CAE
+Medical Secretary;CAE
+Procurement Clerk;CAE
+Quality Control Coordinator;CAE
+"Referral Clerk, Temporary Employment Agecy";CAE
+Tax Preparer ;CAE
+Casino Booth Cashier;CAE
+Congressional District Aide;CAE
+Correspondence Clerk;CAE
+"Dispatcher, Maintenance Service";CAE
+"Information Clerk, Motor Transportation";CAE
+Reservation Clerk;CAE
+"Reservations Agent, Air Transportation";CAE
+"Shipping and Receiving, Order Clerk";CAE
+ Cashier;CAE
+Fire Protection Engineering Technician;CAI
+Receipt and Report Clerk;CAI
+Stock Control Clerk;CAI
+Desktop Publisher;CAI
+"Inspector, Screen Printing";CAI
+Credit Annalyst;CAI
+Mortgage Clerk;CAI
+Transportation Inspector;CAI
+"Assembler, Electric Signs";CAI
+"Assembler, Musical Instruments";CAI
+Assembly Line Inspector;CAI
+Billing Clerk;CAI
+Cost Clerk;CAI
+Crew Scheduler;CAI
+Furniture Assembler;CAI
+Music Copyist;CAI
+Night Auditor;CAI
+Office Clerk;CAI
+Postal Service Mail Carrier;CAI
+Property Clerk;CAI
+Solderer and Brazer;CAI
+Television Production Clerk;CAI
+Traffic Clerk;CAI
+Typist/Transcriptionist;CAI
+"Assembler, Small Pruducts";CAI
+Landscape Specialist;CAI
+Crane and Tower Operator;CAI
+Airline Radio Operator;CAI
+"Assembler, Electronics";CAI
+"Assembler, Leather Goods";CAI
+"Assembler, Switchboard Contact";CAI
+Communications Equipment  Operator;CAI
+Electrologist;CAI
+Fabric Inspector;CAI
+"Knitter, Hand";CAI
+Parking Lot Attendant;CAI
+Payroll Clerk;CAI
+Preventive Maintenance Coordinator;CAI
+"Counter Clerk, Photofinishing ";CAI
+Direct Mail Clerk;CAI
+Mail Clerk;CAI
+Judicial Law Clerk;CAI
+Appraiser;CAI
+Data Warehousing Specialist;CAI
+Pesticide Control Inspector;CAI
+Medical Records Technician ;CAI
+"Editor, Web Site";CAI
+Editorial Assistant ;CAI
+Clinical Data Manager;CAI
+Computer Security Coordinator;CAI
+Computer Security Specialist;CAI
+Polygraph Examiner;CAI
+Social Science Research Assistant;CAI
+Ophthalmic Medical Technician;CAI
+Ophthalmic Medical Technologist;CAI
+Ophthalmic Technician;CAI
+"Accountant, Cost";CAI
+Investment Analyst;CAI
+Building Inspector;CAI
+Bibliographer;CAI
+Brokerage Clerk;CAI
+Computer Operator;CAI
+Computer Peripheral Equipment Operator;CAI
+File Clerk;CAI
+Medical Transcriptionist;CAI
+Accounting Clerk;CAI
+"Assignment Clerk, Motor Transportation";CAI
+Budget Clerk;CAI
+Cabinet Assembler;CAI
+Collection Clerk;CAI
+Custumer Service Representative;CAI
+Customs Broker;CAI
+Insurance Processing Clerk;CAI
+Production Clerk;CAI
+"Quality Control Clerk, Drug Preparation and Related Products";CAI
+Surveillance System Monitor;CAI
+Sewing Machine Operator;CAI
+Accountant;CAI
+Proofreader;CAI
+Abstractor;CAI
+Freight Forwarder;CAI
+Medical Records Clerk;CAI
+"Accountant, Systems";CAI
+Underwriter;CAI
+Court Reporter;CAI
+Personnel Clerk;CAI
+Bank Teller;CAI
+Cargo and Freight Agent;CAI
+Court Clerk;CAI
+Data Entry Clerk;CAI
+Expediter;CAI
+Insurance Clerk;CAI
+Library Assistant;CAI
+Licensse Clerk;CAI
+Media Coordinator ;CAI
+Meter Reader;CAI
+Petroleum Inspector;CAI
+Post Office Clerk;CAI
+"Rate Analyst, Freight";CAI
+Receptionist;CAI
+Secretary;CAI
+Securities Clerk;CAI
+Statement Clerk;CAI
+Switchboard Operator/Answering Service Operator;CAI
+Ticket Sales Agent;CAI
+Title Examiner;CAI
+"Registrar, Museum";CAI
+"Accountant, Property";CAI
+Budget Analyst;CAI
+"Investigator, Dealer Accounts ";CAI
+Stock Transfer Clerk;CAI
+Broadcast Checker;CAI
+Central Supply Worker;CAI
+Credit Card Clerk;CAI
+Directory Assistant Operator;CAI
+"Painter, Animated Cartoons";CAI
+Utility Clerk;CAI
+Counter Attendant;CAI
+Investment Underwriter;CAI
+Regulatory Affairs Specialists;CAI
+Customs Inspector;CAI
+Fingerprint Clerk;CAI
+Credit Authorizer;CAI
+Data Entry Supervisor;CAI
+"Engineer, Fire Prevention Protection";CAI
+Occupational Health and Safety Technicians;CAI
+Passport Application Examiner;CAI
+Employment Clerk;CAI
+Fire Inspector;CAI
+Medical Secretary;CAI
+Procurement Clerk;CAI
+Quality Control Coordinator;CAI
+"Referral Clerk, Temporary Employment Agecy";CAI
+Tax Preparer ;CAI
+Casino Booth Cashier;CAI
+Congressional District Aide;CAI
+Correspondence Clerk;CAI
+"Dispatcher, Maintenance Service";CAI
+"Information Clerk, Motor Transportation";CAI
+Reservation Clerk;CAI
+"Reservations Agent, Air Transportation";CAI
+"Shipping and Receiving, Order Clerk";CAI
+ Cashier;CAI
+Fire Protection Engineering Technician;CAR
+Receipt and Report Clerk;CAR
+Stock Control Clerk;CAR
+Desktop Publisher;CAR
+"Inspector, Screen Printing";CAR
+Credit Annalyst;CAR
+Mortgage Clerk;CAR
+Transportation Inspector;CAR
+"Assembler, Electric Signs";CAR
+"Assembler, Musical Instruments";CAR
+Assembly Line Inspector;CAR
+Billing Clerk;CAR
+Cost Clerk;CAR
+Crew Scheduler;CAR
+Furniture Assembler;CAR
+Music Copyist;CAR
+Night Auditor;CAR
+Office Clerk;CAR
+Postal Service Mail Carrier;CAR
+Property Clerk;CAR
+Solderer and Brazer;CAR
+Television Production Clerk;CAR
+Traffic Clerk;CAR
+Typist/Transcriptionist;CAR
+"Assembler, Small Pruducts";CAR
+Landscape Specialist;CAR
+Crane and Tower Operator;CAR
+Airline Radio Operator;CAR
+"Assembler, Electronics";CAR
+"Assembler, Leather Goods";CAR
+"Assembler, Switchboard Contact";CAR
+Communications Equipment  Operator;CAR
+Electrologist;CAR
+Fabric Inspector;CAR
+"Knitter, Hand";CAR
+Parking Lot Attendant;CAR
+Payroll Clerk;CAR
+Preventive Maintenance Coordinator;CAR
+"Counter Clerk, Photofinishing ";CAR
+Direct Mail Clerk;CAR
+Mail Clerk;CAR
+Judicial Law Clerk;CAR
+Appraiser;CAR
+Data Warehousing Specialist;CAR
+Pesticide Control Inspector;CAR
+Medical Records Technician ;CAR
+"Editor, Web Site";CAR
+Editorial Assistant ;CAR
+Clinical Data Manager;CAR
+Computer Security Coordinator;CAR
+Computer Security Specialist;CAR
+Polygraph Examiner;CAR
+Social Science Research Assistant;CAR
+Ophthalmic Medical Technician;CAR
+Ophthalmic Medical Technologist;CAR
+Ophthalmic Technician;CAR
+"Accountant, Cost";CAR
+Investment Analyst;CAR
+Building Inspector;CAR
+Bibliographer;CAR
+Brokerage Clerk;CAR
+Computer Operator;CAR
+Computer Peripheral Equipment Operator;CAR
+File Clerk;CAR
+Medical Transcriptionist;CAR
+Accounting Clerk;CAR
+"Assignment Clerk, Motor Transportation";CAR
+Budget Clerk;CAR
+Cabinet Assembler;CAR
+Collection Clerk;CAR
+Custumer Service Representative;CAR
+Customs Broker;CAR
+Insurance Processing Clerk;CAR
+Production Clerk;CAR
+"Quality Control Clerk, Drug Preparation and Related Products";CAR
+Surveillance System Monitor;CAR
+Sewing Machine Operator;CAR
+Accountant;CAR
+Proofreader;CAR
+Abstractor;CAR
+Freight Forwarder;CAR
+Medical Records Clerk;CAR
+"Accountant, Systems";CAR
+Underwriter;CAR
+Court Reporter;CAR
+Personnel Clerk;CAR
+Bank Teller;CAR
+Cargo and Freight Agent;CAR
+Court Clerk;CAR
+Data Entry Clerk;CAR
+Expediter;CAR
+Insurance Clerk;CAR
+Library Assistant;CAR
+Licensse Clerk;CAR
+Media Coordinator ;CAR
+Meter Reader;CAR
+Petroleum Inspector;CAR
+Post Office Clerk;CAR
+"Rate Analyst, Freight";CAR
+Receptionist;CAR
+Secretary;CAR
+Securities Clerk;CAR
+Statement Clerk;CAR
+Switchboard Operator/Answering Service Operator;CAR
+Ticket Sales Agent;CAR
+Title Examiner;CAR
+"Registrar, Museum";CAR
+"Accountant, Property";CAR
+Budget Analyst;CAR
+"Investigator, Dealer Accounts ";CAR
+Stock Transfer Clerk;CAR
+Broadcast Checker;CAR
+Central Supply Worker;CAR
+Credit Card Clerk;CAR
+Directory Assistant Operator;CAR
+"Painter, Animated Cartoons";CAR
+Utility Clerk;CAR
+Counter Attendant;CAR
+Investment Underwriter;CAR
+Regulatory Affairs Specialists;CAR
+Customs Inspector;CAR
+Fingerprint Clerk;CAR
+Credit Authorizer;CAR
+Data Entry Supervisor;CAR
+"Engineer, Fire Prevention Protection";CAR
+Occupational Health and Safety Technicians;CAR
+Passport Application Examiner;CAR
+Employment Clerk;CAR
+Fire Inspector;CAR
+Medical Secretary;CAR
+Procurement Clerk;CAR
+Quality Control Coordinator;CAR
+"Referral Clerk, Temporary Employment Agecy";CAR
+Tax Preparer ;CAR
+Casino Booth Cashier;CAR
+Congressional District Aide;CAR
+Correspondence Clerk;CAR
+"Dispatcher, Maintenance Service";CAR
+"Information Clerk, Motor Transportation";CAR
+Reservation Clerk;CAR
+"Reservations Agent, Air Transportation";CAR
+"Shipping and Receiving, Order Clerk";CAR
+ Cashier;CAR
+Fire Protection Engineering Technician;CAS
+Receipt and Report Clerk;CAS
+Stock Control Clerk;CAS
+Desktop Publisher;CAS
+"Inspector, Screen Printing";CAS
+Credit Annalyst;CAS
+Mortgage Clerk;CAS
+Transportation Inspector;CAS
+"Assembler, Electric Signs";CAS
+"Assembler, Musical Instruments";CAS
+Assembly Line Inspector;CAS
+Billing Clerk;CAS
+Cost Clerk;CAS
+Crew Scheduler;CAS
+Furniture Assembler;CAS
+Music Copyist;CAS
+Night Auditor;CAS
+Office Clerk;CAS
+Postal Service Mail Carrier;CAS
+Property Clerk;CAS
+Solderer and Brazer;CAS
+Television Production Clerk;CAS
+Traffic Clerk;CAS
+Typist/Transcriptionist;CAS
+"Assembler, Small Pruducts";CAS
+Landscape Specialist;CAS
+Crane and Tower Operator;CAS
+Airline Radio Operator;CAS
+"Assembler, Electronics";CAS
+"Assembler, Leather Goods";CAS
+"Assembler, Switchboard Contact";CAS
+Communications Equipment  Operator;CAS
+Electrologist;CAS
+Fabric Inspector;CAS
+"Knitter, Hand";CAS
+Parking Lot Attendant;CAS
+Payroll Clerk;CAS
+Preventive Maintenance Coordinator;CAS
+"Counter Clerk, Photofinishing ";CAS
+Direct Mail Clerk;CAS
+Mail Clerk;CAS
+Judicial Law Clerk;CAS
+Appraiser;CAS
+Data Warehousing Specialist;CAS
+Pesticide Control Inspector;CAS
+Medical Records Technician ;CAS
+"Editor, Web Site";CAS
+Editorial Assistant ;CAS
+Clinical Data Manager;CAS
+Computer Security Coordinator;CAS
+Computer Security Specialist;CAS
+Polygraph Examiner;CAS
+Social Science Research Assistant;CAS
+Ophthalmic Medical Technician;CAS
+Ophthalmic Medical Technologist;CAS
+Ophthalmic Technician;CAS
+"Accountant, Cost";CAS
+Investment Analyst;CAS
+Building Inspector;CAS
+Bibliographer;CAS
+Brokerage Clerk;CAS
+Computer Operator;CAS
+Computer Peripheral Equipment Operator;CAS
+File Clerk;CAS
+Medical Transcriptionist;CAS
+Accounting Clerk;CAS
+"Assignment Clerk, Motor Transportation";CAS
+Budget Clerk;CAS
+Cabinet Assembler;CAS
+Collection Clerk;CAS
+Custumer Service Representative;CAS
+Customs Broker;CAS
+Insurance Processing Clerk;CAS
+Production Clerk;CAS
+"Quality Control Clerk, Drug Preparation and Related Products";CAS
+Surveillance System Monitor;CAS
+Sewing Machine Operator;CAS
+Accountant;CAS
+Proofreader;CAS
+Abstractor;CAS
+Freight Forwarder;CAS
+Medical Records Clerk;CAS
+"Accountant, Systems";CAS
+Underwriter;CAS
+Court Reporter;CAS
+Personnel Clerk;CAS
+Bank Teller;CAS
+Cargo and Freight Agent;CAS
+Court Clerk;CAS
+Data Entry Clerk;CAS
+Expediter;CAS
+Insurance Clerk;CAS
+Library Assistant;CAS
+Licensse Clerk;CAS
+Media Coordinator ;CAS
+Meter Reader;CAS
+Petroleum Inspector;CAS
+Post Office Clerk;CAS
+"Rate Analyst, Freight";CAS
+Receptionist;CAS
+Secretary;CAS
+Securities Clerk;CAS
+Statement Clerk;CAS
+Switchboard Operator/Answering Service Operator;CAS
+Ticket Sales Agent;CAS
+Title Examiner;CAS
+"Registrar, Museum";CAS
+"Accountant, Property";CAS
+Budget Analyst;CAS
+"Investigator, Dealer Accounts ";CAS
+Stock Transfer Clerk;CAS
+Broadcast Checker;CAS
+Central Supply Worker;CAS
+Credit Card Clerk;CAS
+Directory Assistant Operator;CAS
+"Painter, Animated Cartoons";CAS
+Utility Clerk;CAS
+Counter Attendant;CAS
+Investment Underwriter;CAS
+Regulatory Affairs Specialists;CAS
+Customs Inspector;CAS
+Fingerprint Clerk;CAS
+Credit Authorizer;CAS
+Data Entry Supervisor;CAS
+"Engineer, Fire Prevention Protection";CAS
+Occupational Health and Safety Technicians;CAS
+Passport Application Examiner;CAS
+Employment Clerk;CAS
+Fire Inspector;CAS
+Medical Secretary;CAS
+Procurement Clerk;CAS
+Quality Control Coordinator;CAS
+"Referral Clerk, Temporary Employment Agecy";CAS
+Tax Preparer ;CAS
+Casino Booth Cashier;CAS
+Congressional District Aide;CAS
+Correspondence Clerk;CAS
+"Dispatcher, Maintenance Service";CAS
+"Information Clerk, Motor Transportation";CAS
+Reservation Clerk;CAS
+"Reservations Agent, Air Transportation";CAS
+"Shipping and Receiving, Order Clerk";CAS
+ Cashier;CAS
+Fire Protection Engineering Technician;CEA
+Receipt and Report Clerk;CEA
+Stock Control Clerk;CEA
+Desktop Publisher;CEA
+"Inspector, Screen Printing";CEA
+Credit Annalyst;CEA
+Mortgage Clerk;CEA
+Transportation Inspector;CEA
+"Assembler, Electric Signs";CEA
+"Assembler, Musical Instruments";CEA
+Assembly Line Inspector;CEA
+Billing Clerk;CEA
+Cost Clerk;CEA
+Crew Scheduler;CEA
+Furniture Assembler;CEA
+Music Copyist;CEA
+Night Auditor;CEA
+Office Clerk;CEA
+Postal Service Mail Carrier;CEA
+Property Clerk;CEA
+Solderer and Brazer;CEA
+Television Production Clerk;CEA
+Traffic Clerk;CEA
+Typist/Transcriptionist;CEA
+"Assembler, Small Pruducts";CEA
+Landscape Specialist;CEA
+Crane and Tower Operator;CEA
+Airline Radio Operator;CEA
+"Assembler, Electronics";CEA
+"Assembler, Leather Goods";CEA
+"Assembler, Switchboard Contact";CEA
+Communications Equipment  Operator;CEA
+Electrologist;CEA
+Fabric Inspector;CEA
+"Knitter, Hand";CEA
+Parking Lot Attendant;CEA
+Payroll Clerk;CEA
+Preventive Maintenance Coordinator;CEA
+"Counter Clerk, Photofinishing ";CEA
+Direct Mail Clerk;CEA
+Mail Clerk;CEA
+Judicial Law Clerk;CEA
+Appraiser;CEA
+Data Warehousing Specialist;CEA
+Pesticide Control Inspector;CEA
+Medical Records Technician ;CEA
+"Editor, Web Site";CEA
+Editorial Assistant ;CEA
+Clinical Data Manager;CEA
+Computer Security Coordinator;CEA
+Computer Security Specialist;CEA
+Polygraph Examiner;CEA
+Social Science Research Assistant;CEA
+Ophthalmic Medical Technician;CEA
+Ophthalmic Medical Technologist;CEA
+Ophthalmic Technician;CEA
+"Accountant, Cost";CEA
+Investment Analyst;CEA
+Building Inspector;CEA
+Bibliographer;CEA
+Brokerage Clerk;CEA
+Computer Operator;CEA
+Computer Peripheral Equipment Operator;CEA
+File Clerk;CEA
+Medical Transcriptionist;CEA
+Accounting Clerk;CEA
+"Assignment Clerk, Motor Transportation";CEA
+Budget Clerk;CEA
+Cabinet Assembler;CEA
+Collection Clerk;CEA
+Custumer Service Representative;CEA
+Customs Broker;CEA
+Insurance Processing Clerk;CEA
+Production Clerk;CEA
+"Quality Control Clerk, Drug Preparation and Related Products";CEA
+Surveillance System Monitor;CEA
+Sewing Machine Operator;CEA
+Accountant;CEA
+Proofreader;CEA
+Abstractor;CEA
+Freight Forwarder;CEA
+Medical Records Clerk;CEA
+"Accountant, Systems";CEA
+Underwriter;CEA
+Court Reporter;CEA
+Personnel Clerk;CEA
+Bank Teller;CEA
+Cargo and Freight Agent;CEA
+Court Clerk;CEA
+Data Entry Clerk;CEA
+Expediter;CEA
+Insurance Clerk;CEA
+Library Assistant;CEA
+Licensse Clerk;CEA
+Media Coordinator ;CEA
+Meter Reader;CEA
+Petroleum Inspector;CEA
+Post Office Clerk;CEA
+"Rate Analyst, Freight";CEA
+Receptionist;CEA
+Secretary;CEA
+Securities Clerk;CEA
+Statement Clerk;CEA
+Switchboard Operator/Answering Service Operator;CEA
+Ticket Sales Agent;CEA
+Title Examiner;CEA
+"Registrar, Museum";CEA
+"Accountant, Property";CEA
+Budget Analyst;CEA
+"Investigator, Dealer Accounts ";CEA
+Stock Transfer Clerk;CEA
+Broadcast Checker;CEA
+Central Supply Worker;CEA
+Credit Card Clerk;CEA
+Directory Assistant Operator;CEA
+"Painter, Animated Cartoons";CEA
+Utility Clerk;CEA
+Counter Attendant;CEA
+Investment Underwriter;CEA
+Regulatory Affairs Specialists;CEA
+Customs Inspector;CEA
+Fingerprint Clerk;CEA
+Credit Authorizer;CEA
+Data Entry Supervisor;CEA
+"Engineer, Fire Prevention Protection";CEA
+Occupational Health and Safety Technicians;CEA
+Passport Application Examiner;CEA
+Employment Clerk;CEA
+Fire Inspector;CEA
+Medical Secretary;CEA
+Procurement Clerk;CEA
+Quality Control Coordinator;CEA
+"Referral Clerk, Temporary Employment Agecy";CEA
+Tax Preparer ;CEA
+Casino Booth Cashier;CEA
+Congressional District Aide;CEA
+Correspondence Clerk;CEA
+"Dispatcher, Maintenance Service";CEA
+"Information Clerk, Motor Transportation";CEA
+Reservation Clerk;CEA
+"Reservations Agent, Air Transportation";CEA
+"Shipping and Receiving, Order Clerk";CEA
+Cashier;CEA
+Investment Underwriter;CEI
+Regulatory Affairs Specialists;CEI
+Customs Inspector;CEI
+Fingerprint Clerk;CEI
+"Registrar, Museum";CER
+"Accountant, Property";CER
+Budget Analyst;CER
+"Investigator, Dealer Accounts ";CER
+Stock Transfer Clerk;CER
+Broadcast Checker;CER
+Central Supply Worker;CER
+Credit Card Clerk;CER
+Directory Assistant Operator;CER
+"Painter, Animated Cartoons";CER
+Utility Clerk;CER
+Counter Attendant;CER
+Credit Authorizer;CES
+Data Entry Supervisor;CES
+"Engineer, Fire Prevention Protection";CES
+Occupational Health and Safety Technicians;CES
+Passport Application Examiner;CES
+Employment Clerk;CES
+Fire Inspector;CES
+Medical Secretary;CES
+Procurement Clerk;CES
+Quality Control Coordinator;CES
+"Referral Clerk, Temporary Employment Agecy";CES
+Tax Preparer ;CES
+Casino Booth Cashier;CES
+Congressional District Aide;CES
+Correspondence Clerk;CES
+"Dispatcher, Maintenance Service";CES
+"Information Clerk, Motor Transportation";CES
+Reservation Clerk;CES
+"Reservations Agent, Air Transportation";CES
+"Shipping and Receiving, Order Clerk";CES
+ Cashier;CES
+"Editor, Web Site";CIA
+Editorial Assistant ;CIA
+"Accountant, Cost";CIE
+Investment Analyst;CIE
+Building Inspector;CIE
+Judicial Law Clerk;CIR
+Appraiser;CIR
+Data Warehousing Specialist;CIR
+Pesticide Control Inspector;CIR
+Medical Records Technician ;CIR
+Clinical Data Manager;CIS
+Computer Security Coordinator;CIS
+Computer Security Specialist;CIS
+Polygraph Examiner;CIS
+Social Science Research Assistant;CIS
+Ophthalmic Medical Technician;CIS
+Ophthalmic Medical Technologist;CIS
+Ophthalmic Technician;CIS
+Desktop Publisher;CRA
+"Inspector, Screen Printing";CRA
+Crane and Tower Operator;CRE
+Airline Radio Operator;CRE
+"Assembler, Electronics";CRE
+"Assembler, Leather Goods";CRE
+"Assembler, Switchboard Contact";CRE
+Communications Equipment  Operator;CRE
+Electrologist;CRE
+Fabric Inspector;CRE
+"Knitter, Hand";CRE
+Parking Lot Attendant;CRE
+Payroll Clerk;CRE
+Preventive Maintenance Coordinator;CRE
+"Counter Clerk, Photofinishing ";CRE
+Direct Mail Clerk;CRE
+Mail Clerk;CRE
+Fire Protection Engineering Technician;CRI
+Receipt and Report Clerk;CRI
+Stock Control Clerk;CRI
+Credit Annalyst;CRS
+Mortgage Clerk;CRS
+Transportation Inspector;CRS
+"Assembler, Electric Signs";CRS
+"Assembler, Musical Instruments";CRS
+Assembly Line Inspector;CRS
+Billing Clerk;CRS
+Cost Clerk;CRS
+Crew Scheduler;CRS
+Furniture Assembler;CRS
+Music Copyist;CRS
+Night Auditor;CRS
+Office Clerk;CRS
+Postal Service Mail Carrier;CRS
+Property Clerk;CRS
+Solderer and Brazer;CRS
+Television Production Clerk;CRS
+Traffic Clerk;CRS
+Typist/Transcriptionist;CRS
+"Assembler, Small Pruducts";CRS
+Landscape Specialist;CRS
+Fire Protection Engineering Technician;CSA
+Receipt and Report Clerk;CSA
+Stock Control Clerk;CSA
+Desktop Publisher;CSA
+"Inspector, Screen Printing";CSA
+Credit Annalyst;CSA
+Mortgage Clerk;CSA
+Transportation Inspector;CSA
+"Assembler, Electric Signs";CSA
+"Assembler, Musical Instruments";CSA
+Assembly Line Inspector;CSA
+Billing Clerk;CSA
+Cost Clerk;CSA
+Crew Scheduler;CSA
+Furniture Assembler;CSA
+Music Copyist;CSA
+Night Auditor;CSA
+Office Clerk;CSA
+Postal Service Mail Carrier;CSA
+Property Clerk;CSA
+Solderer and Brazer;CSA
+Television Production Clerk;CSA
+Traffic Clerk;CSA
+Typist/Transcriptionist;CSA
+"Assembler, Small Pruducts";CSA
+Landscape Specialist;CSA
+Crane and Tower Operator;CSA
+Airline Radio Operator;CSA
+"Assembler, Electronics";CSA
+"Assembler, Leather Goods";CSA
+"Assembler, Switchboard Contact";CSA
+Communications Equipment  Operator;CSA
+Electrologist;CSA
+Fabric Inspector;CSA
+"Knitter, Hand";CSA
+Parking Lot Attendant;CSA
+Payroll Clerk;CSA
+Preventive Maintenance Coordinator;CSA
+"Counter Clerk, Photofinishing ";CSA
+Direct Mail Clerk;CSA
+Mail Clerk;CSA
+Judicial Law Clerk;CSA
+Appraiser;CSA
+Data Warehousing Specialist;CSA
+Pesticide Control Inspector;CSA
+Medical Records Technician ;CSA
+"Editor, Web Site";CSA
+Editorial Assistant ;CSA
+Clinical Data Manager;CSA
+Computer Security Coordinator;CSA
+Computer Security Specialist;CSA
+Polygraph Examiner;CSA
+Social Science Research Assistant;CSA
+Ophthalmic Medical Technician;CSA
+Ophthalmic Medical Technologist;CSA
+Ophthalmic Technician;CSA
+"Accountant, Cost";CSA
+Investment Analyst;CSA
+Building Inspector;CSA
+Bibliographer;CSA
+Brokerage Clerk;CSA
+Computer Operator;CSA
+Computer Peripheral Equipment Operator;CSA
+File Clerk;CSA
+Medical Transcriptionist;CSA
+Accounting Clerk;CSA
+"Assignment Clerk, Motor Transportation";CSA
+Budget Clerk;CSA
+Cabinet Assembler;CSA
+Collection Clerk;CSA
+Custumer Service Representative;CSA
+Customs Broker;CSA
+Insurance Processing Clerk;CSA
+Production Clerk;CSA
+"Quality Control Clerk, Drug Preparation and Related Products";CSA
+Surveillance System Monitor;CSA
+Sewing Machine Operator;CSA
+Accountant;CSA
+Proofreader;CSA
+Abstractor;CSA
+Freight Forwarder;CSA
+Medical Records Clerk;CSA
+"Accountant, Systems";CSA
+Underwriter;CSA
+Court Reporter;CSA
+Personnel Clerk;CSA
+Bank Teller;CSA
+Cargo and Freight Agent;CSA
+Court Clerk;CSA
+Data Entry Clerk;CSA
+Expediter;CSA
+Insurance Clerk;CSA
+Library Assistant;CSA
+Licensse Clerk;CSA
+Media Coordinator ;CSA
+Meter Reader;CSA
+Petroleum Inspector;CSA
+Post Office Clerk;CSA
+"Rate Analyst, Freight";CSA
+Receptionist;CSA
+Secretary;CSA
+Securities Clerk;CSA
+Statement Clerk;CSA
+Switchboard Operator/Answering Service Operator;CSA
+Ticket Sales Agent;CSA
+Title Examiner;CSA
+"Registrar, Museum";CSA
+"Accountant, Property";CSA
+Budget Analyst;CSA
+"Investigator, Dealer Accounts ";CSA
+Stock Transfer Clerk;CSA
+Broadcast Checker;CSA
+Central Supply Worker;CSA
+Credit Card Clerk;CSA
+Directory Assistant Operator;CSA
+"Painter, Animated Cartoons";CSA
+Utility Clerk;CSA
+Counter Attendant;CSA
+Investment Underwriter;CSA
+Regulatory Affairs Specialists;CSA
+Customs Inspector;CSA
+Fingerprint Clerk;CSA
+Credit Authorizer;CSA
+Data Entry Supervisor;CSA
+"Engineer, Fire Prevention Protection";CSA
+Occupational Health and Safety Technicians;CSA
+Passport Application Examiner;CSA
+Employment Clerk;CSA
+Fire Inspector;CSA
+Medical Secretary;CSA
+Procurement Clerk;CSA
+Quality Control Coordinator;CSA
+"Referral Clerk, Temporary Employment Agecy";CSA
+Tax Preparer ;CSA
+Casino Booth Cashier;CSA
+Congressional District Aide;CSA
+Correspondence Clerk;CSA
+"Dispatcher, Maintenance Service";CSA
+"Information Clerk, Motor Transportation";CSA
+Reservation Clerk;CSA
+"Reservations Agent, Air Transportation";CSA
+"Shipping and Receiving, Order Clerk";CSA
+ Cashier;CSA
+"Accountant, Systems";CSE
+Underwriter;CSE
+Court Reporter;CSE
+Personnel Clerk;CSE
+Bank Teller;CSE
+Cargo and Freight Agent;CSE
+Court Clerk;CSE
+Data Entry Clerk;CSE
+Expediter;CSE
+Insurance Clerk;CSE
+Library Assistant;CSE
+Licensse Clerk;CSE
+Media Coordinator ;CSE
+Meter Reader;CSE
+Petroleum Inspector;CSE
+Post Office Clerk;CSE
+"Rate Analyst, Freight";CSE
+Receptionist;CSE
+Secretary;CSE
+Securities Clerk;CSE
+Statement Clerk;CSE
+Switchboard Operator/Answering Service Operator;CSE
+Ticket Sales Agent;CSE
+Title Examiner;CSE
+Accountant;CSI
+Proofreader;CSI
+Abstractor;CSI
+Freight Forwarder;CSI
+Medical Records Clerk;CSI
+Bibliographer;CSR
+Brokerage Clerk;CSR
+Computer Operator;CSR
+Computer Peripheral Equipment Operator;CSR
+File Clerk;CSR
+Medical Transcriptionist;CSR
+Accounting Clerk;CSR
+"Assignment Clerk, Motor Transportation";CSR
+Budget Clerk;CSR
+Cabinet Assembler;CSR
+Collection Clerk;CSR
+Custumer Service Representative;CSR
+Customs Broker;CSR
+Insurance Processing Clerk;CSR
+Production Clerk;CSR
+"Quality Control Clerk, Drug Preparation and Related Products";CSR
+Surveillance System Monitor;CSR
+Sewing Machine Operator;CSR
+e-Commerce Specialist;EAC
+Director of Vital Statistics;EAI
+"Manager, Records Analysis";EAI
+Patent Agent;EAI
+Insect and Disease Inspectio Supervisor;EAI
+Location Manager;EAR
+Preparation Plant Supervisor;EAR
+"Director, Council On Aging";EAS
+Music Supervisor;EAS
+Fashion Coordinator;EAS
+"Manager, Property/Community Association";EAS
+"Slaes Agent, Securities and Commodities ";EAS
+Stockbroker;EAS
+Auctioneer;EAS
+"Field Supervisor, Agricultural Workers";EAS
+"Salesperson, Apparel and Accessories";EAS
+Fashion Model;EAS
+Online Merchant;ECA
+Auditor;ECI
+Distribution Manager;ECI
+Document Management Specialist;ECI
+Electric Power Superintendent ;ECI
+"Engineer, Procurement";ECI
+"Manager, Loss Prevention";ECI
+"Manager, Regulatory Affairs";ECI
+Town Clerk;ECI
+"Appraiser, Real Estate";ECR
+Mapping Technician;ECR
+Communication Equipment Supervisor;ECR
+Executive Housekeeper;ECR
+Furniture Assembly Supervisor;ECR
+Incinerator Plant Supervisor;ECR
+Circulation Clerk;ECR
+"Dispatcher, Relay";ECR
+Job Tracer;ECR
+Maintenance Chief;ECR
+Office Assistant;ECR
+"Sampler, Minerals and earths";ECR
+"Accountant, Tax";ECS
+Energy Broker;ECS
+Funds Development Director;ECS
+Logistician;ECS
+"Maintenance of Equipment Superintendent, Motor Transportation ";ECS
+"Manager, Procurement Services";ECS
+Occupational Safety and Health Inspector;ECS
+Real Estate Broker;ECS
+"Securities Trader, Financial";ECS
+Telecommunications Specialist;ECS
+Telecommunicator Supervisor;ECS
+"Manager, Golf Club";ECS
+"Manager, Spa";ECS
+Pawnbroker;ECS
+Building Insulation Supervisor;ECS
+"Conductor, Road Freight";ECS
+"Dispatcher, Utilities Service";ECS
+Distribution Supervisor;ECS
+Gaming Supervisor;ECS
+Hospital Admitting Clerk;ECS
+Hotel/Motel Desk Clerk;ECS
+Maintenance Scheduler;ECS
+"Passenger Service Representative, Railroad Transportation";ECS
+Train Dispatcher;ECS
+Travel Agent;ECS
+Waiter/Waitress;ECS
+Barista;ECS
+"Manager, Branch Store";ECS
+Communications Consultant;EIA
+Vendor Quality Supervisor;EIA
+Chief Financial Officer;EIC
+Bank Examiner;EIC
+Business Continuity Planner;EIC
+"Engineer, Production";EIC
+Foreign Exchange Trader;EIC
+Industrial Engineering Technologist;EIC
+Information Technology Project Manager;EIC
+Logistics Manager;EIC
+Marketing Executive;EIC
+Risk Management Specialist;EIC
+Security Manager;EIC
+Drafting and Printed Circuit Design Supervisor;EIC
+Business Enterprise Officer;EIR
+Program Manager;EIR
+Contractor;EIR
+"Engineer, Industrial";EIR
+"Production Superintendent, Agriculture";EIR
+Sewer System Supervisor;EIR
+Wine Maker;EIR
+Water Treatment Plant Supervisor;EIR
+"Maintenance Supervisor, Utilities";EIR
+Utilities Service Investigator;EIR
+Controller/Comptroller;EIS
+Educational Specialist;EIS
+"Manager, Investment Fund";EIS
+Program Services Planner;EIS
+"Project Manager, Environmental Research";EIS
+"Buyer, Farm Products";EIS
+Fitness and Wellness Coordinator;EIS
+Laboratory Supervisor;EIS
+"Manager, Biomass Power Plant";EIS
+"Manager, Dental Lboratory";EIS
+"Manager, Education and Training";EIS
+Pharmaceutical Sales Represetative;EIS
+Search Marketing Strategist;EIS
+Fire Department Battalion Chief;EIS
+Nuclear Power Plant Operations Supervisor;EIS
+"Director, Food Service";EIS
+Park Superintendent;ERA
+Transportation Manager;ERA
+Marina Sales and Service Supervisor;ERA
+Railway Equipment Operator;ERA
+"Industrial, Safety and Health Technician";ERC
+Mine Inspector;ERC
+Production Manager;ERC
+Mill Supervisor;ERC
+"Dairy Farm, Supervisor";ERC
+Instrument Repair Supervisor;ERC
+Recycling Coordinator;ERC
+Semiconductor Techician;ERC
+Traffic Checker;ERC
+Clinical Research Coordinator;ERI
+"Director, Research and Development";ERI
+Drilling and Production Superintendent;ERI
+"Engineer, Chemical Equipmet Sales";ERI
+"Engineer, Sales";ERI
+"Manager, Bulk Plant";ERI
+Revenue Agent;ERI
+"Manager, Laundromat";ERI
+"Manager, Marina Dry Dock";ERI
+"Sales Representative, Security Systems";ERI
+Sanitation Supervisor;ERI
+Ship Captain;ERI
+"Special Agent, Governmental Services";ERI
+Traffic Maintenance Supervisor;ERI
+Logging Superintendent;ERI
+Road Supervisor;ERI
+Schedule Maker;ERI
+Chief Subtainability Officer;ERS
+Baggage and Mail Agent;ERS
+Camp Director;ERS
+Construction Superintendent;ERS
+"Manager, apartment";ERS
+"Manager, Harbor Department";ERS
+"Manager, Vehicle Leasing and Rental";ERS
+Oil-Well Services Superintendent;ERS
+Sanitation Inspector;ERS
+Advertising Sales Agent;ERS
+"Assembly Supervisor, Woodworking";ERS
+Chemical Supervisor;ERS
+Fire Marshal;ERS
+Intelligence Specialist;ERS
+"Pilot, Highway Patrol";ERS
+"Police Captain, Precinct";ERS
+Airport Maintenance Chief;ERS
+Appliance Service Supervisor;ERS
+Bricklayer Supervisor;ERS
+Forest Nursery Supervisor;ERS
+Garage Supervisor;ERS
+Kitchen Supervisor;ERS
+Manager of Correctional Officers;ERS
+"Manager of Framing, Fishing and Forestry Workers";ERS
+"Manager of Helpers, Laborers, and Material Movers";ERS
+"Manager, Automobile Service Station ";ERS
+Sales Correspondent;ERS
+Ship Mate;ERS
+Director of Admissions;ESA
+Foreign Service Officer;ESA
+Judge;ESA
+"Manager, Department";ESA
+Medical Social Worker;ESA
+Politician;ESA
+"Agent, Artists";ESA
+association Executive;ESA
+"Business Representative, Labor Union";ESA
+"Editor, Managing";ESA
+"Director, News";ESA
+Equal Opportunity Representative;ESA
+Interpreter/Translator;ESA
+Library Agent;ESA
+Lobbyist;ESA
+"Manager, Convention";ESA
+"Manager, e-Commerce Merchandising";ESA
+"Manager, Nursery and Greenhouse";ESA
+Placement Director;ESA
+"Producer, Film";ESA
+Recreation Supervisor;ESA
+Social Wellace Administrator;ESA
+Wholesaler;ESA
+Flight Attendant;ESA
+"Manager, Dance Studio";ESA
+Manufacture's Representative;ESA
+"Sales Representative, Footware";ESA
+"Sales Representative, Household Appliances";ESA
+"Salesperson, Cosmetics and Toileteries";ESA
+"Salesperson, General Merchandise";ESA
+"Salesperson, Musical Instrumets and Accessories";ESA
+"Salesperson, Sporting Goods";ESA
+Director of Institutional Research;ESC
+Director of Student Affairs;ESC
+"Director, Outpatient Services";ESC
+"Director, Regulatory Agency";ESC
+Distance Learning Coordinator;ESC
+Enterpreneur;ESC
+Historic Site Administrator;ESC
+"Registrar, College or University";ESC
+Buyer;ESC
+Circullation Manager;ESC
+Claims Examiner;ESC
+"Director, Day Care Center";ESC
+"Director, Radio";ESC
+"Dispatcher, Chief";ESC
+Educational Program Director;ESC
+"Educational Programming Director, Radio and TV";ESC
+Employer Relations Representative;ESC
+Employmet Manager;ESC
+Event Planner;ESC
+Financial Planner;ESC
+Home Energy Consultant Supervisor;ESC
+Labor Relations Specialist;ESC
+Legislator;ESC
+"Manager, Advertisig and Promotions";ESC
+"Manager, Condominium";ESC
+"Manager, Credit and Collection";ESC
+"Manager, Insurance Office";ESC
+Media Director;ESC
+"Sales Agent, Insurance";ESC
+Security Consultant;ESC
+Shopping Investigator;ESC
+Social Director;ESC
+Stage Manager;ESC
+"Station Manager, Railroad";ESC
+Talent Manager;ESC
+Administrative Assistant;ESC
+"Detective, Chief";ESC
+Grain Elevator Superintendent;ESC
+"Guide, Sightseeing";ESC
+"Guide, Travel";ESC
+"Loan Interviewer, Mortgage";ESC
+"Manager, Barber or Beauty Shop";ESC
+"Manager, Retail Store";ESC
+"Sales Agent, Financial Services";ESC
+"Sales Agent, Real Estate";ESC
+Solar Sales Representative and Assessor;ESC
+Bodyguard;ESC
+Concierge;ESC
+Demonstrator;ESC
+Dietary Manager;ESC
+Physical Therapy Aide;ESC
+Process Server;ESC
+"Salesperson, Books";ESC
+School Crossing Guard;ESC
+Telemarketer;ESC
+"Yard Manager, Railroad Transportation";ESC
+Automobile Rental Clerk;ESC
+"Host/Hostess, Restaurant";ESC
+"Attorney, Tax";ESI
+Chief Operating Officer;ESI
+"Department Head, College or University";ESI
+"Faculty, Law";ESI
+Lawyer;ESI
+Library Consultant;ESI
+Saritation Superintendent;ESI
+Urban Planner;ESI
+Budget Officer;ESI
+Compliance Manager;ESI
+Computer Operations Supervisor;ESI
+"Director, Industrial Relations";ESI
+"Director, Quality Assurance";ESI
+Estate Planner;ESI
+Financial Manager;ESI
+"Health Officer, Field";ESI
+Library Technical Assistat;ESI
+"Manager, Flight Operations";ESI
+Newscaster;ESI
+"Operations Manager, Motor Transportation";ESI
+Private Investigator;ESI
+Ferryboat Captain;ESI
+"Business Manager, College or University";ESR
+Deputy Insurance Commissioner;ESR
+"Director, Zoo";ESR
+"Faculty, Business";ESR
+Harbor Master;ESR
+"Manager, Bakery";ESR
+"Manager, Brokerage Office";ESR
+"President, Educational Institution";ESR
+"Program Administrator, Alcohol and Drug Abuse Assistant";ESR
+Vocational Rehabilitation Consultant;ESR
+"Agent, Athletes";ESR
+Airport Manager;ESR
+Cashier Supervisor;ESR
+Claims Adjuster;ESR
+"Coach, Youth and Amateur Sports";ESR
+Court Administrator;ESR
+"Director, Craft Center";ESR
+"Director, Sportcast";ESR
+Education Director;ESR
+Fire Warden;ESR
+"General Manager, Farm";ESR
+Human Resources Specialist;ESR
+Landscape Contractor;ESR
+Legislative Assistant;ESR
+Mailroom Supervisor;ESR
+"Manager, Customer Technical Services";ESR
+"Manager, Financial Institution";ESR
+"Manager, Hotel/Motel";ESR
+"Manager, Labor Relations";ESR
+"Manager, Social and Community Service";ESR
+"Manager, Warehouse";ESR
+Media Marketing Director;ESR
+Office Manager;ESR
+Purchasing Agent;ESR
+"Sales Representative, Farm and Garden Equipment and Supplies";ESR
+"Sales Representative, Technical and Scientific Products";ESR
+"Station Manager, Radio and TV";ESR
+Ticket Sales Supervisor;ESR
+Traffic Manager;ESR
+Transportation Director;ESR
+Volunteer Services Supervisor;ESR
+"Assembly Supervisor, Agricultural Equipment";ESR
+Bailiff;ESR
+Barber;ESR
+Court Officer/Deputy;ESR
+Electronics Processing Supervisor;ESR
+Energy Control Officer;ESR
+"Fire Marshal, Governmental Services";ESR
+Funeral Director;ESR
+"Manager, Housekeeping";ESR
+"Manager, Theater";ESR
+"Manager, Travel Agency";ESR
+Personal Shopper;ESR
+"Sales Representative, Advertising";ESR
+"Sales Representative, Hobbies and Craft";ESR
+"Sales Representative, Office Machines";ESR
+Warehouse Supervisor;ESR
+"Announcer, Amusement";ESR
+"Driver, Sales ";ESR
+"Electrician, Film";ESR
+"Manager, Food Service";ESR
+"Manager, Storage Garage";ESR
+Parts Salesperson;ESR
+Postmaster;ESR
+Production Coordinator;ESR
+Sales Clerk;ESR
+"Salesperson, Automobile";ESR
+"Salesperson, Pianos and Organs";ESR
+"Service Manager, Automobile Services";ESR
+Umpire/Referee;ESR
+"Waiter/Waitress, Head";ESR
+Oral and Maxillofacial Surgeon;IAC
+Surgeon;IAC
+Agronomist;IAC
+Anesthesiologist;IAC
+Animal Scientist;IAC
+Biochemist;IAC
+Botanist;IAC
+"Curator, Museum";IAC
+"Engineer, Human Factors/Engronomist";IAC
+Soil and Plant Scientists ;IAC
+"Faculty, Agricultural Sciences";IAC
+"Faculty, Biological Science";IAC
+"Faculty, Chemistry";IAC
+"Faculty, Computer Science";IAC
+"Faculty, Earth and Space Science";IAC
+"Faculty, Forestry and Conservation Science";IAC
+Geneticist;IAC
+Geoscientists;IAC
+Neurologist;IAC
+Obstetrician;IAC
+Parasitologist;IAC
+Plant Pathologist;IAC
+Radiologist;IAC
+Veterinarian;IAC
+Air Analyst;IAC
+Dairy Technologist;IAC
+Database Design Analyst;IAC
+Forest Ecologist;IAC
+Internet/Intranet Administrator;IAC
+"Manager, Laboratory";IAC
+Meteorologist;IAC
+Radiation Protection Specialist;IAC
+Range Manager;IAC
+Technical Writer;IAC
+Chemical Laboratory Technician;IAC
+Chemical Technician;IAC
+Fabric Tester;IAC
+"Life, Physical, and Social Science Technician";IAC
+Robot Technician;IAC
+Surgical Assistant;IAC
+Veterinary Technologist and Technician;IAC
+Acupunturist;IAC
+Anthropologist;IAC
+Archeologist;IAC
+"Architect, Marine";IAC
+Astronomer;IAC
+Biophysicist;IAC
+Dairy Scientist;IAC
+"Dentist, Public Health";IAC
+"Engineer, Environmental";IAC
+Environmental Economist;IAC
+Epidemiologist;IAC
+Ethnologist;IAC
+Geographer;IAC
+Hydrologist;IAC
+Marine Biologist;IAC
+Auto Design Detailer;IAC
+"Ballistics Expert, Forensic";IAC
+Chemist;IAC
+Computer Systems Engineer/Architect;IAC
+Computer Systems Hardware Analyst;IAC
+Conservations Scientist;IAC
+Database Administrator;IAC
+"Drafter, Electrical";IAC
+"Drafter, Mechanical";IAC
+"Engineer, Nuclear";IAC
+"Engineer, Software";IAC
+"Engineer, Water/Wastewater";IAC
+"Engineer, Wind Energy";IAC
+Electronics Technician;IAC
+"Engineer, Aerospace";IAC
+"Engineer, Agricultural";IAC
+"Engineer, Biochemical";IAC
+"Engineer, Biomedical";IAC
+"Engineer, Ceramic Design";IAC
+"Engineer, Chemical";IAC
+"Engineer, Civil";IAC
+"Engineer, Electrical";IAC
+"Engineer, Irrigation";IAC
+"Engineer, Marine";IAC
+Geologist;IAC
+Hazardous Waste Management Specialist;IAC
+Histotechnologist and Histologic Technician;IAC
+Industrial Engineering Technician;IAC
+Industrial Hygienist;IAC
+Laser Technician;IAC
+Medical Laboratory Assistant;IAC
+Metallographer;IAC
+"Metallurgist, Physical";IAC
+Operations Research Analyst ;IAC
+"Pilot, Airplane";IAC
+Pathologist;IAC
+Periodontist;IAC
+Pharmacologist;IAC
+Physiatrist;IAC
+Physicist;IAC
+Physiologist;IAC
+Seismologist;IAC
+Soil Conservationist;IAC
+Test Technician;IAC
+Tissue Technologist;IAC
+"Toxicologist, Chief";IAC
+Statistician;IAC
+"Surveyor, Geodetic";IAC
+Veterinary Livestock Inspector;IAC
+Video Game Programmer;IAC
+Zoologist;IAC
+Molecular and Cellular Biologist;IAC
+Nanotechnology Engineering Technologist ;IAC
+Non-Destructive Testing Specialist;IAC
+Material Scheduler;IAC
+Mathematical Technician;IAC
+Printed Circuit Designer;IAC
+Photogrammetrist;IAC
+Pulmonary Function Technician;IAC
+Quality Control Analyst;IAC
+Radiopharmacist;IAC
+Remote Sensing Scientist/Technologist;IAC
+Remote Sensing Technician ;IAC
+Software Developer;IAC
+Soil Conservation Technician;IAC
+Toxicologist;IAC
+Stress Analyst;IAC
+Water Resources Specialist;IAC
+Wind Energy Project Manager;IAC
+Cephalometric Analyst;IAC
+Biological Scientist;IAC
+Biostatistician;IAC
+Climate Change Analyst;IAC
+Computer Programmer;IAC
+Crime Laboratory Analyst;IAC
+Cytogenetic Technologist;IAC
+"Drafter, aeronautical";IAC
+"Drafter, Structural";IAC
+e-Commerce Project Developer;IAC
+"Engineer, Microsystems";IAC
+"Engineer, Nanosystems";IAC
+"Engineer, Robotics";IAC
+"Engineer, Validation";IAC
+"Engineering Assistant, Mechanical Equipment";IAC
+Geological Sample Test Technician;IAC
+Geospatial Information Scientist and Technologist;IAC
+Fire Investigator;IAC
+Forensic Science Technician;IAC
+Industrial Ecologist;IAC
+Biologist;IAC
+Economist;IAC
+Instructional Designer and Technologit;IAC
+Art Appraiser;IAC
+Acupressurist;IAC
+Audiologist;IAC
+Chicopractor;IAC
+Dentist;IAC
+Dermatologist;IAC
+"Dietitian, Research";IAC
+"Exercise, Psychologist";IAC
+"Faculty, Architecture";IAC
+"Faculty, Engineering";IAC
+"Faculty, Geography";IAC
+Ophthalmologist;IAC
+Orthodontist;IAC
+"Physician, Osteopathic Medicine";IAC
+"Physician, Sports Medicine";IAC
+Prosthodontist;IAC
+Urologist;IAC
+"Engineer, Airport";IAC
+"Engineer, Health and Safety";IAC
+"Engineer, Industrial Health and Safety";IAC
+"Engineer, Transportation";IAC
+Environmental Health Scientist;IAC
+Food Technologist;IAC
+Mineralogist;IAC
+Orthoptist;IAC
+Paleontologist;IAC
+Sanitarian;IAC
+Cardiopulmonary Technologist;IAC
+Food Tester;IAC
+"Nurse, Private Duty";IAC
+"Technician, Surgical";IAC
+"Faculty, Anthropology and Archeology";IAC
+Hospitalist;IAC
+Neuropsychologist;IAC
+Nurse Practitioner;IAC
+Physician Assistant;IAC
+"Physician, Internist";IAC
+"Physician, Preventive Medicine";IAC
+Psychiatrist;IAC
+Medical Technologist;IAC
+Alergist/Imunologist;IAC
+Cardiologist;IAC
+Coroner;IAC
+Endodontist;IAC
+"Faculty, Psychology";IAC
+Nurse Annesthetist;IAC
+Optometrist;IAC
+Peditrician;IAC
+"Physician, General Practioner";IAC
+"Psychologist, Chief";IAC
+Zoo Veterinarian;IAC
+Actuary;IAC
+"Education, Training and Library Worker";IAC
+"Engineer, Photographic";IAC
+"Enngineer, Product Safety";IAC
+Customs Import Specialist;IAC
+Perfurmer;IAC
+"Radiologic Technologist, Chief";IAC
+Linguist;IAC
+Microbiologist;IAC
+"Physician, Occupational";IAC
+Computer Network Support Specialist;IAC
+Market Research Analyst;IAC
+"Technician, Dialysis";IAC
+Chemical Laboratory Chief;IAC
+Industrial Therapist;IAC
+Mathematician;IAC
+Medical Scientist;IAC
+Natural Sciences Manager;IAC
+Voice Pathologist;IAC
+Business Consultant;IAC
+Chief Information Officer;IAC
+"Director, Information Resources";IAC
+"Engineer, Chief";IAC
+"Engineer, Sanitary ";IAC
+Internet Consultant;IAC
+"Manager, Computer and Information Systems";IAC
+"Manager, Land Surveying";IAC
+"Manager, Quality Control";IAC
+"Medical Technologist, Chief";IAC
+"Surveyor, Hydrographic";IAC
+"Surveyor, Land";IAC
+Systems Analyst;IAC
+Water/Sewer Systems Superintendent;IAC
+Web Administrator;IAC
+"Laboratory Supervisor, Tectiles";IAC
+"Manager, Wind Energy Operations";IAC
+"Faculty, Economics";IAC
+"Faculty, Health Specialist";IAC
+"Faculty, Mathematics";IAC
+"Faculty, Philosophy and Religion";IAC
+"Faculty, Physics";IAC
+Pharmacist;IAC
+"Psychologist, Educational";IAC
+"Psychologist, Experimental";IAC
+"Psychologist, Industrial Organizational";IAC
+Psychometrist;IAC
+Sociologist;IAC
+"Engineering Manager, Electronics";IAC
+"Manager, Safety";IAC
+Metrologist;IAC
+Network Designer;IAC
+Public Health Service Officer;IAC
+"Appraiser, Governmental Sevices";IAC
+Cryptanalyst;IAC
+"Engineer, Pollution Control";IAC
+"Manager, Biofuels/Biodiesel Technology and Product Development";IAC
+Business Intelligence Analyst;IAC
+Computer Network Architect;IAC
+"Engineer, Hghway Administrative";IAC
+"Engineer, Photogrammetic";IAC
+Logistics Engineer;IAC
+Bioinformatics Scientist;IAC
+"Analyst, Management";IAC
+"Auditor, Internal";IAC
+Cytotechnologist;IAC
+"Drafter, Chief";IAC
+"Engineer, Mechatronics";IAC
+Geographic Information Systems Technician;IAC
+Navigator;IAC
+Software Quality Assurance Engineer and Tester;IAC
+Transportation Planner;IAC
+Loss Prevention Specialist;IAC
+Bioinformatics Technician;IAC
+Immunohematologist;IAC
+Job Analyst;IAC
+Statistical Assistant;IAC
+Database Architect;IAC
+Fraud Examier/Investigator;IAC
+Intelligence Analyst;IAC
+Logistics Analyst;IAC
+Survey Researcher;IAC
+Sustainability Specialist;IAC
+Oral and Maxillofacial Surgeon;IAE
+Surgeon;IAE
+Agronomist;IAE
+Anesthesiologist;IAE
+Animal Scientist;IAE
+Biochemist;IAE
+Botanist;IAE
+"Curator, Museum";IAE
+"Engineer, Human Factors/Engronomist";IAE
+Soil and Plant Scientists ;IAE
+"Faculty, Agricultural Sciences";IAE
+"Faculty, Biological Science";IAE
+"Faculty, Chemistry";IAE
+"Faculty, Computer Science";IAE
+"Faculty, Earth and Space Science";IAE
+"Faculty, Forestry and Conservation Science";IAE
+Geneticist;IAE
+Geoscientists;IAE
+Neurologist;IAE
+Obstetrician;IAE
+Parasitologist;IAE
+Plant Pathologist;IAE
+Radiologist;IAE
+Veterinarian;IAE
+Air Analyst;IAE
+Dairy Technologist;IAE
+Database Design Analyst;IAE
+Forest Ecologist;IAE
+Internet/Intranet Administrator;IAE
+"Manager, Laboratory";IAE
+Meteorologist;IAE
+Radiation Protection Specialist;IAE
+Range Manager;IAE
+Technical Writer;IAE
+Chemical Laboratory Technician;IAE
+Chemical Technician;IAE
+Fabric Tester;IAE
+"Life, Physical, and Social Science Technician";IAE
+Robot Technician;IAE
+Surgical Assistant;IAE
+Veterinary Technologist and Technician;IAE
+Acupunturist;IAE
+Anthropologist;IAE
+Archeologist;IAE
+"Architect, Marine";IAE
+Astronomer;IAE
+Biophysicist;IAE
+Dairy Scientist;IAE
+"Dentist, Public Health";IAE
+"Engineer, Environmental";IAE
+Environmental Economist;IAE
+Epidemiologist;IAE
+Ethnologist;IAE
+Geographer;IAE
+Hydrologist;IAE
+Marine Biologist;IAE
+Auto Design Detailer;IAE
+"Ballistics Expert, Forensic";IAE
+Chemist;IAE
+Computer Systems Engineer/Architect;IAE
+Computer Systems Hardware Analyst;IAE
+Conservations Scientist;IAE
+Database Administrator;IAE
+"Drafter, Electrical";IAE
+"Drafter, Mechanical";IAE
+"Engineer, Nuclear";IAE
+"Engineer, Software";IAE
+"Engineer, Water/Wastewater";IAE
+"Engineer, Wind Energy";IAE
+Electronics Technician;IAE
+"Engineer, Aerospace";IAE
+"Engineer, Agricultural";IAE
+"Engineer, Biochemical";IAE
+"Engineer, Biomedical";IAE
+"Engineer, Ceramic Design";IAE
+"Engineer, Chemical";IAE
+"Engineer, Civil";IAE
+"Engineer, Electrical";IAE
+"Engineer, Irrigation";IAE
+"Engineer, Marine";IAE
+Geologist;IAE
+Hazardous Waste Management Specialist;IAE
+Histotechnologist and Histologic Technician;IAE
+Industrial Engineering Technician;IAE
+Industrial Hygienist;IAE
+Laser Technician;IAE
+Medical Laboratory Assistant;IAE
+Metallographer;IAE
+"Metallurgist, Physical";IAE
+Operations Research Analyst ;IAE
+"Pilot, Airplane";IAE
+Pathologist;IAE
+Periodontist;IAE
+Pharmacologist;IAE
+Physiatrist;IAE
+Physicist;IAE
+Physiologist;IAE
+Seismologist;IAE
+Soil Conservationist;IAE
+Test Technician;IAE
+Tissue Technologist;IAE
+"Toxicologist, Chief";IAE
+Statistician;IAE
+"Surveyor, Geodetic";IAE
+Veterinary Livestock Inspector;IAE
+Video Game Programmer;IAE
+Zoologist;IAE
+Molecular and Cellular Biologist;IAE
+Nanotechnology Engineering Technologist ;IAE
+Non-Destructive Testing Specialist;IAE
+Material Scheduler;IAE
+Mathematical Technician;IAE
+Printed Circuit Designer;IAE
+Photogrammetrist;IAE
+Pulmonary Function Technician;IAE
+Quality Control Analyst;IAE
+Radiopharmacist;IAE
+Remote Sensing Scientist/Technologist;IAE
+Remote Sensing Technician ;IAE
+Software Developer;IAE
+Soil Conservation Technician;IAE
+Toxicologist;IAE
+Stress Analyst;IAE
+Water Resources Specialist;IAE
+Wind Energy Project Manager;IAE
+Cephalometric Analyst;IAE
+Biological Scientist;IAE
+Biostatistician;IAE
+Climate Change Analyst;IAE
+Computer Programmer;IAE
+Crime Laboratory Analyst;IAE
+Cytogenetic Technologist;IAE
+"Drafter, aeronautical";IAE
+"Drafter, Structural";IAE
+e-Commerce Project Developer;IAE
+"Engineer, Microsystems";IAE
+"Engineer, Nanosystems";IAE
+"Engineer, Robotics";IAE
+"Engineer, Validation";IAE
+"Engineering Assistant, Mechanical Equipment";IAE
+Geological Sample Test Technician;IAE
+Geospatial Information Scientist and Technologist;IAE
+Fire Investigator;IAE
+Forensic Science Technician;IAE
+Industrial Ecologist;IAE
+Biologist;IAE
+Economist;IAE
+Instructional Designer and Technologit;IAE
+Art Appraiser;IAE
+Acupressurist;IAE
+Audiologist;IAE
+Chicopractor;IAE
+Dentist;IAE
+Dermatologist;IAE
+"Dietitian, Research";IAE
+"Exercise, Psychologist";IAE
+"Faculty, Architecture";IAE
+"Faculty, Engineering";IAE
+"Faculty, Geography";IAE
+Ophthalmologist;IAE
+Orthodontist;IAE
+"Physician, Osteopathic Medicine";IAE
+"Physician, Sports Medicine";IAE
+Prosthodontist;IAE
+Urologist;IAE
+"Engineer, Airport";IAE
+"Engineer, Health and Safety";IAE
+"Engineer, Industrial Health and Safety";IAE
+"Engineer, Transportation";IAE
+Environmental Health Scientist;IAE
+Food Technologist;IAE
+Mineralogist;IAE
+Orthoptist;IAE
+Paleontologist;IAE
+Sanitarian;IAE
+Cardiopulmonary Technologist;IAE
+Food Tester;IAE
+"Nurse, Private Duty";IAE
+"Technician, Surgical";IAE
+"Faculty, Anthropology and Archeology";IAE
+Hospitalist;IAE
+Neuropsychologist;IAE
+Nurse Practitioner;IAE
+Physician Assistant;IAE
+"Physician, Internist";IAE
+"Physician, Preventive Medicine";IAE
+Psychiatrist;IAE
+Medical Technologist;IAE
+Alergist/Imunologist;IAE
+Cardiologist;IAE
+Coroner;IAE
+Endodontist;IAE
+"Faculty, Psychology";IAE
+Nurse Annesthetist;IAE
+Optometrist;IAE
+Peditrician;IAE
+"Physician, General Practioner";IAE
+"Psychologist, Chief";IAE
+Zoo Veterinarian;IAE
+Actuary;IAE
+"Education, Training and Library Worker";IAE
+"Engineer, Photographic";IAE
+"Enngineer, Product Safety";IAE
+Customs Import Specialist;IAE
+Perfurmer;IAE
+"Radiologic Technologist, Chief";IAE
+Linguist;IAE
+Microbiologist;IAE
+"Physician, Occupational";IAE
+Computer Network Support Specialist;IAE
+Market Research Analyst;IAE
+"Technician, Dialysis";IAE
+Chemical Laboratory Chief;IAE
+Industrial Therapist;IAE
+Mathematician;IAE
+Medical Scientist;IAE
+Natural Sciences Manager;IAE
+Voice Pathologist;IAE
+Business Consultant;IAE
+Chief Information Officer;IAE
+"Director, Information Resources";IAE
+"Engineer, Chief";IAE
+"Engineer, Sanitary ";IAE
+Internet Consultant;IAE
+"Manager, Computer and Information Systems";IAE
+"Manager, Land Surveying";IAE
+"Manager, Quality Control";IAE
+"Medical Technologist, Chief";IAE
+"Surveyor, Hydrographic";IAE
+"Surveyor, Land";IAE
+Systems Analyst;IAE
+Water/Sewer Systems Superintendent;IAE
+Web Administrator;IAE
+"Laboratory Supervisor, Tectiles";IAE
+"Manager, Wind Energy Operations";IAE
+"Faculty, Economics";IAE
+"Faculty, Health Specialist";IAE
+"Faculty, Mathematics";IAE
+"Faculty, Philosophy and Religion";IAE
+"Faculty, Physics";IAE
+Pharmacist;IAE
+"Psychologist, Educational";IAE
+"Psychologist, Experimental";IAE
+"Psychologist, Industrial Organizational";IAE
+Psychometrist;IAE
+Sociologist;IAE
+"Engineering Manager, Electronics";IAE
+"Manager, Safety";IAE
+Metrologist;IAE
+Network Designer;IAE
+Public Health Service Officer;IAE
+"Appraiser, Governmental Sevices";IAE
+Cryptanalyst;IAE
+"Engineer, Pollution Control";IAE
+"Manager, Biofuels/Biodiesel Technology and Product Development";IAE
+Business Intelligence Analyst;IAE
+Computer Network Architect;IAE
+"Engineer, Hghway Administrative";IAE
+"Engineer, Photogrammetic";IAE
+Logistics Engineer;IAE
+Bioinformatics Scientist;IAE
+"Analyst, Management";IAE
+"Auditor, Internal";IAE
+Cytotechnologist;IAE
+"Drafter, Chief";IAE
+"Engineer, Mechatronics";IAE
+Geographic Information Systems Technician;IAE
+Navigator;IAE
+Software Quality Assurance Engineer and Tester;IAE
+Transportation Planner;IAE
+Loss Prevention Specialist;IAE
+Bioinformatics Technician;IAE
+Immunohematologist;IAE
+Job Analyst;IAE
+Statistical Assistant;IAE
+Database Architect;IAE
+Fraud Examier/Investigator;IAE
+Intelligence Analyst;IAE
+Logistics Analyst;IAE
+Survey Researcher;IAE
+Sustainability Specialist;IAE
+Biologist;IAR
+Architect (AIR);IAR
+Audio and Video Equipment Technician (RIA);IAR
+Costumer (ARI);IAR
+Landscape Architect (AIR);IAR
+Model Maker (ARI);IAR
+Molding and Casting Worker (ARI);IAR
+Television Technician (RIA);IAR
+Oral and Maxillofacial Surgeon;IAR
+Surgeon;IAR
+Economist;IAS
+Instructional Designer and Technologit;IAS
+Art Appraiser;IAS
+"Faculty, Anthropology and Archeology (ISA)";IAS
+Hospitalist (ISA);IAS
+Medical Technologist (ISA);IAS
+Neoropsychologist (ISA);IAS
+Nurse Practitioner (ISA);IAS
+Physician Assistant (ISA);IAS
+"Physician, Internist (ISA)";IAS
+"Physician, Preventive Medicine (ISA)";IAS
+Psychiatrist (ISA);IAS
+Philologist (AIS);IAS
+"Restorer, Paper and Prints (AIS)";IAS
+"Artist, Exhibit (ASI)";IAS
+Copywriter (ASI);IAS
+Dance Therapist (ASI);IAS
+"Faculty, English Language and Literature (ASI)";IAS
+"Faculty, Fine Arts (ASI)";IAS
+Laserist (ASI);IAS
+Painter (ASI);IAS
+Reporter/News Correspondent (ASI);IAS
+"Restorer, Ceramic (ASI)";IAS
+"Faculty, Communications (SIA)";IAS
+Genetic Counselor (SIA);IAS
+"Indpector, Heating and Refrigeration (SIA)";IAS
+"Nurse, General Duty (RN) (SIA)";IAS
+"Psychologist, Clinical (SIA)";IAS
+"Psychologist, Counseling (SIA)";IAS
+Acquisitions Librarian (SAI);IAS
+Art Therapist (SAI);IAS
+Dental Assistant (SAI);IAS
+Dental Hygienist (SAI);IAS
+Librarian (SAI);IAS
+Marriage and Family Therapist (SAI);IAS
+Speech-Language Pathologist (SAI);IAS
+Oral and Maxillofacial Surgeon;ICA
+Surgeon;ICA
+Agronomist;ICA
+Anesthesiologist;ICA
+Animal Scientist;ICA
+Biochemist;ICA
+Botanist;ICA
+"Curator, Museum";ICA
+"Engineer, Human Factors/Engronomist";ICA
+Soil and Plant Scientists ;ICA
+"Faculty, Agricultural Sciences";ICA
+"Faculty, Biological Science";ICA
+"Faculty, Chemistry";ICA
+"Faculty, Computer Science";ICA
+"Faculty, Earth and Space Science";ICA
+"Faculty, Forestry and Conservation Science";ICA
+Geneticist;ICA
+Geoscientists;ICA
+Neurologist;ICA
+Obstetrician;ICA
+Parasitologist;ICA
+Plant Pathologist;ICA
+Radiologist;ICA
+Veterinarian;ICA
+Air Analyst;ICA
+Dairy Technologist;ICA
+Database Design Analyst;ICA
+Forest Ecologist;ICA
+Internet/Intranet Administrator;ICA
+"Manager, Laboratory";ICA
+Meteorologist;ICA
+Radiation Protection Specialist;ICA
+Range Manager;ICA
+Technical Writer;ICA
+Chemical Laboratory Technician;ICA
+Chemical Technician;ICA
+Fabric Tester;ICA
+"Life, Physical, and Social Science Technician";ICA
+Robot Technician;ICA
+Surgical Assistant;ICA
+Veterinary Technologist and Technician;ICA
+Acupunturist;ICA
+Anthropologist;ICA
+Archeologist;ICA
+"Architect, Marine";ICA
+Astronomer;ICA
+Biophysicist;ICA
+Dairy Scientist;ICA
+"Dentist, Public Health";ICA
+"Engineer, Environmental";ICA
+Environmental Economist;ICA
+Epidemiologist;ICA
+Ethnologist;ICA
+Geographer;ICA
+Hydrologist;ICA
+Marine Biologist;ICA
+Auto Design Detailer;ICA
+"Ballistics Expert, Forensic";ICA
+Chemist;ICA
+Computer Systems Engineer/Architect;ICA
+Computer Systems Hardware Analyst;ICA
+Conservations Scientist;ICA
+Database Administrator;ICA
+"Drafter, Electrical";ICA
+"Drafter, Mechanical";ICA
+"Engineer, Nuclear";ICA
+"Engineer, Software";ICA
+"Engineer, Water/Wastewater";ICA
+"Engineer, Wind Energy";ICA
+Electronics Technician;ICA
+"Engineer, Aerospace";ICA
+"Engineer, Agricultural";ICA
+"Engineer, Biochemical";ICA
+"Engineer, Biomedical";ICA
+"Engineer, Ceramic Design";ICA
+"Engineer, Chemical";ICA
+"Engineer, Civil";ICA
+"Engineer, Electrical";ICA
+"Engineer, Irrigation";ICA
+"Engineer, Marine";ICA
+Geologist;ICA
+Hazardous Waste Management Specialist;ICA
+Histotechnologist and Histologic Technician;ICA
+Industrial Engineering Technician;ICA
+Industrial Hygienist;ICA
+Laser Technician;ICA
+Medical Laboratory Assistant;ICA
+Metallographer;ICA
+"Metallurgist, Physical";ICA
+Operations Research Analyst ;ICA
+"Pilot, Airplane";ICA
+Pathologist;ICA
+Periodontist;ICA
+Pharmacologist;ICA
+Physiatrist;ICA
+Physicist;ICA
+Physiologist;ICA
+Seismologist;ICA
+Soil Conservationist;ICA
+Test Technician;ICA
+Tissue Technologist;ICA
+"Toxicologist, Chief";ICA
+Statistician;ICA
+"Surveyor, Geodetic";ICA
+Veterinary Livestock Inspector;ICA
+Video Game Programmer;ICA
+Zoologist;ICA
+Molecular and Cellular Biologist;ICA
+Nanotechnology Engineering Technologist ;ICA
+Non-Destructive Testing Specialist;ICA
+Material Scheduler;ICA
+Mathematical Technician;ICA
+Printed Circuit Designer;ICA
+Photogrammetrist;ICA
+Pulmonary Function Technician;ICA
+Quality Control Analyst;ICA
+Radiopharmacist;ICA
+Remote Sensing Scientist/Technologist;ICA
+Remote Sensing Technician ;ICA
+Software Developer;ICA
+Soil Conservation Technician;ICA
+Toxicologist;ICA
+Stress Analyst;ICA
+Water Resources Specialist;ICA
+Wind Energy Project Manager;ICA
+Cephalometric Analyst;ICA
+Biological Scientist;ICA
+Biostatistician;ICA
+Climate Change Analyst;ICA
+Computer Programmer;ICA
+Crime Laboratory Analyst;ICA
+Cytogenetic Technologist;ICA
+"Drafter, aeronautical";ICA
+"Drafter, Structural";ICA
+e-Commerce Project Developer;ICA
+"Engineer, Microsystems";ICA
+"Engineer, Nanosystems";ICA
+"Engineer, Robotics";ICA
+"Engineer, Validation";ICA
+"Engineering Assistant, Mechanical Equipment";ICA
+Geological Sample Test Technician;ICA
+Geospatial Information Scientist and Technologist;ICA
+Fire Investigator;ICA
+Forensic Science Technician;ICA
+Industrial Ecologist;ICA
+Biologist;ICA
+Economist;ICA
+Instructional Designer and Technologit;ICA
+Art Appraiser;ICA
+Acupressurist;ICA
+Audiologist;ICA
+Chicopractor;ICA
+Dentist;ICA
+Dermatologist;ICA
+"Dietitian, Research";ICA
+"Exercise, Psychologist";ICA
+"Faculty, Architecture";ICA
+"Faculty, Engineering";ICA
+"Faculty, Geography";ICA
+Ophthalmologist;ICA
+Orthodontist;ICA
+"Physician, Osteopathic Medicine";ICA
+"Physician, Sports Medicine";ICA
+Prosthodontist;ICA
+Urologist;ICA
+"Engineer, Airport";ICA
+"Engineer, Health and Safety";ICA
+"Engineer, Industrial Health and Safety";ICA
+"Engineer, Transportation";ICA
+Environmental Health Scientist;ICA
+Food Technologist;ICA
+Mineralogist;ICA
+Orthoptist;ICA
+Paleontologist;ICA
+Sanitarian;ICA
+Cardiopulmonary Technologist;ICA
+Food Tester;ICA
+"Nurse, Private Duty";ICA
+"Technician, Surgical";ICA
+"Faculty, Anthropology and Archeology";ICA
+Hospitalist;ICA
+Neuropsychologist;ICA
+Nurse Practitioner;ICA
+Physician Assistant;ICA
+"Physician, Internist";ICA
+"Physician, Preventive Medicine";ICA
+Psychiatrist;ICA
+Medical Technologist;ICA
+Alergist/Imunologist;ICA
+Cardiologist;ICA
+Coroner;ICA
+Endodontist;ICA
+"Faculty, Psychology";ICA
+Nurse Annesthetist;ICA
+Optometrist;ICA
+Peditrician;ICA
+"Physician, General Practioner";ICA
+"Psychologist, Chief";ICA
+Zoo Veterinarian;ICA
+Actuary;ICA
+"Education, Training and Library Worker";ICA
+"Engineer, Photographic";ICA
+"Enngineer, Product Safety";ICA
+Customs Import Specialist;ICA
+Perfurmer;ICA
+"Radiologic Technologist, Chief";ICA
+Linguist;ICA
+Microbiologist;ICA
+"Physician, Occupational";ICA
+Computer Network Support Specialist;ICA
+Market Research Analyst;ICA
+"Technician, Dialysis";ICA
+Chemical Laboratory Chief;ICA
+Industrial Therapist;ICA
+Mathematician;ICA
+Medical Scientist;ICA
+Natural Sciences Manager;ICA
+Voice Pathologist;ICA
+Business Consultant;ICA
+Chief Information Officer;ICA
+"Director, Information Resources";ICA
+"Engineer, Chief";ICA
+"Engineer, Sanitary ";ICA
+Internet Consultant;ICA
+"Manager, Computer and Information Systems";ICA
+"Manager, Land Surveying";ICA
+"Manager, Quality Control";ICA
+"Medical Technologist, Chief";ICA
+"Surveyor, Hydrographic";ICA
+"Surveyor, Land";ICA
+Systems Analyst;ICA
+Water/Sewer Systems Superintendent;ICA
+Web Administrator;ICA
+"Laboratory Supervisor, Tectiles";ICA
+"Manager, Wind Energy Operations";ICA
+"Faculty, Economics";ICA
+"Faculty, Health Specialist";ICA
+"Faculty, Mathematics";ICA
+"Faculty, Philosophy and Religion";ICA
+"Faculty, Physics";ICA
+Pharmacist;ICA
+"Psychologist, Educational";ICA
+"Psychologist, Experimental";ICA
+"Psychologist, Industrial Organizational";ICA
+Psychometrist;ICA
+Sociologist;ICA
+"Engineering Manager, Electronics";ICA
+"Manager, Safety";ICA
+Metrologist;ICA
+Network Designer;ICA
+Public Health Service Officer;ICA
+"Appraiser, Governmental Sevices";ICA
+Cryptanalyst;ICA
+"Engineer, Pollution Control";ICA
+"Manager, Biofuels/Biodiesel Technology and Product Development";ICA
+Business Intelligence Analyst;ICA
+Computer Network Architect;ICA
+"Engineer, Hghway Administrative";ICA
+"Engineer, Photogrammetic";ICA
+Logistics Engineer;ICA
+Bioinformatics Scientist;ICA
+"Analyst, Management";ICA
+"Auditor, Internal";ICA
+Cytotechnologist;ICA
+"Drafter, Chief";ICA
+"Engineer, Mechatronics";ICA
+Geographic Information Systems Technician;ICA
+Navigator;ICA
+Software Quality Assurance Engineer and Tester;ICA
+Transportation Planner;ICA
+Loss Prevention Specialist;ICA
+Bioinformatics Technician;ICA
+Immunohematologist;ICA
+Job Analyst;ICA
+Statistical Assistant;ICA
+Database Architect;ICA
+Fraud Examier/Investigator;ICA
+Intelligence Analyst;ICA
+Logistics Analyst;ICA
+Survey Researcher;ICA
+Sustainability Specialist;ICA
+Database Architect;ICE
+Fraud Examier/Investigator;ICE
+Intelligence Analyst;ICE
+Logistics Analyst;ICE
+Survey Researcher;ICE
+Sustainability Specialist;ICE
+Cryptanalyst (IEC);ICE
+"Engineer, Pollution Control (IEC)";ICE
+"Manager, Biofuels/Biodiesel Technology and Product Development (IEC)";ICE
+Business Intelligence Analyst (IEC);ICE
+Computer Network Architect (IEC);ICE
+"Engineer, Hghway Administrative (IEC)";ICE
+"Engineer, Photogrammetic (IEC)";ICE
+Logistics Engineer (IEC);ICE
+"Accountant, Cost (CIE)";ICE
+Investment Analyst (CIE);ICE
+Building Inspector (CIE);ICE
+Investment Underwriter (CEI);ICE
+Regulatory Affairs Specialists (CEI);ICE
+Customs Inspector (CEI);ICE
+Fingerprint Clerk (CEI);ICE
+Chief Financial Officer (EIC);ICE
+Bank Examiner (EIC);ICE
+Business Continuity Planner (EIC);ICE
+"Engineer, Production (EIC)";ICE
+Foreign Exchange Trader (EIC);ICE
+Industrial Engineering Technologist (EIC);ICE
+Information Technology Project Manager (EIC);ICE
+Logistics Manager (EIC);ICE
+Marketing Executive (EIC);ICE
+Risk Management Specialist (EIC);ICE
+Security Manager (EIC);ICE
+Drafting and Printed Circuit Design Supervisor (EIC);ICE
+Auditor (ECI);ICE
+Distribution Manager (ECI);ICE
+Document Management Specialist (ECI);ICE
+Electric Power Superintendent  (ECI);ICE
+"Engineer, Procurement (ECI)";ICE
+"Manager, Loss Prevention (ECI)";ICE
+"Manager, Regulatory Affairs (ECI)";ICE
+Town Clerk (ECI);ICE
+Bioinformatics Scientist;ICR
+"Analyst, Management";ICR
+"Auditor, Internal";ICR
+Cytotechnologist;ICR
+"Drafter, Chief";ICR
+"Engineer, Mechatronics";ICR
+Geographic Information Systems Technician;ICR
+Navigator;ICR
+Software Quality Assurance Engineer and Tester;ICR
+Transportation Planner;ICR
+Loss Prevention Specialist;ICR
+Bioinformatics Technician;ICS
+Immunohematologist;ICS
+Job Analyst;ICS
+Statistical Assistant;ICS
+Computer Network Support Specialist (ISC);ICS
+Linguist (ISC);ICS
+Market Research Analyst (ISC);ICS
+Microbiologist (ISC);ICS
+"Physician, Occupational (ISC)";ICS
+"Technician, Dialysis (ISC)";ICS
+Clinical Data Manager (CIS);ICS
+Computer Security Coordinator (CIS);ICS
+Computer Security Specialist (CIS);ICS
+Opthalmic Medical Technician (CIS);ICS
+Opthalmic Medical Technologist (CIS);ICS
+Opthalmic Technician (CIS);ICS
+Polygrapgh Examiner (CIS);ICS
+Social Science Research Assistant (CIS);ICS
+Abstractor (CSI);ICS
+Accountant (CSI);ICS
+Freight Forwarder (CSI);ICS
+Medical Records Clerk (CSI);ICS
+Proofreader (CSI);ICS
+"Dispatcher, Emergency (SIC)";ICS
+"Faculty, Criminal Justice and Law Enforcement (SIC)";ICS
+Hearing Aid Specialist (SIC);ICS
+Informatics Nurse Specialist (SIC);ICS
+"Nurse, Critical Care (SIC)";ICS
+Community Health Worker (SCI);ICS
+Oral and Maxillofacial Surgeon;IEA
+Surgeon;IEA
+Agronomist;IEA
+Anesthesiologist;IEA
+Animal Scientist;IEA
+Biochemist;IEA
+Botanist;IEA
+"Curator, Museum";IEA
+"Engineer, Human Factors/Engronomist";IEA
+Soil and Plant Scientists ;IEA
+"Faculty, Agricultural Sciences";IEA
+"Faculty, Biological Science";IEA
+"Faculty, Chemistry";IEA
+"Faculty, Computer Science";IEA
+"Faculty, Earth and Space Science";IEA
+"Faculty, Forestry and Conservation Science";IEA
+Geneticist;IEA
+Geoscientists;IEA
+Neurologist;IEA
+Obstetrician;IEA
+Parasitologist;IEA
+Plant Pathologist;IEA
+Radiologist;IEA
+Veterinarian;IEA
+Air Analyst;IEA
+Dairy Technologist;IEA
+Database Design Analyst;IEA
+Forest Ecologist;IEA
+Internet/Intranet Administrator;IEA
+"Manager, Laboratory";IEA
+Meteorologist;IEA
+Radiation Protection Specialist;IEA
+Range Manager;IEA
+Technical Writer;IEA
+Chemical Laboratory Technician;IEA
+Chemical Technician;IEA
+Fabric Tester;IEA
+"Life, Physical, and Social Science Technician";IEA
+Robot Technician;IEA
+Surgical Assistant;IEA
+Veterinary Technologist and Technician;IEA
+Acupunturist;IEA
+Anthropologist;IEA
+Archeologist;IEA
+"Architect, Marine";IEA
+Astronomer;IEA
+Biophysicist;IEA
+Dairy Scientist;IEA
+"Dentist, Public Health";IEA
+"Engineer, Environmental";IEA
+Environmental Economist;IEA
+Epidemiologist;IEA
+Ethnologist;IEA
+Geographer;IEA
+Hydrologist;IEA
+Marine Biologist;IEA
+Auto Design Detailer;IEA
+"Ballistics Expert, Forensic";IEA
+Chemist;IEA
+Computer Systems Engineer/Architect;IEA
+Computer Systems Hardware Analyst;IEA
+Conservations Scientist;IEA
+Database Administrator;IEA
+"Drafter, Electrical";IEA
+"Drafter, Mechanical";IEA
+"Engineer, Nuclear";IEA
+"Engineer, Software";IEA
+"Engineer, Water/Wastewater";IEA
+"Engineer, Wind Energy";IEA
+Electronics Technician;IEA
+"Engineer, Aerospace";IEA
+"Engineer, Agricultural";IEA
+"Engineer, Biochemical";IEA
+"Engineer, Biomedical";IEA
+"Engineer, Ceramic Design";IEA
+"Engineer, Chemical";IEA
+"Engineer, Civil";IEA
+"Engineer, Electrical";IEA
+"Engineer, Irrigation";IEA
+"Engineer, Marine";IEA
+Geologist;IEA
+Hazardous Waste Management Specialist;IEA
+Histotechnologist and Histologic Technician;IEA
+Industrial Engineering Technician;IEA
+Industrial Hygienist;IEA
+Laser Technician;IEA
+Medical Laboratory Assistant;IEA
+Metallographer;IEA
+"Metallurgist, Physical";IEA
+Operations Research Analyst ;IEA
+"Pilot, Airplane";IEA
+Pathologist;IEA
+Periodontist;IEA
+Pharmacologist;IEA
+Physiatrist;IEA
+Physicist;IEA
+Physiologist;IEA
+Seismologist;IEA
+Soil Conservationist;IEA
+Test Technician;IEA
+Tissue Technologist;IEA
+"Toxicologist, Chief";IEA
+Statistician;IEA
+"Surveyor, Geodetic";IEA
+Veterinary Livestock Inspector;IEA
+Video Game Programmer;IEA
+Zoologist;IEA
+Molecular and Cellular Biologist;IEA
+Nanotechnology Engineering Technologist ;IEA
+Non-Destructive Testing Specialist;IEA
+Material Scheduler;IEA
+Mathematical Technician;IEA
+Printed Circuit Designer;IEA
+Photogrammetrist;IEA
+Pulmonary Function Technician;IEA
+Quality Control Analyst;IEA
+Radiopharmacist;IEA
+Remote Sensing Scientist/Technologist;IEA
+Remote Sensing Technician ;IEA
+Software Developer;IEA
+Soil Conservation Technician;IEA
+Toxicologist;IEA
+Stress Analyst;IEA
+Water Resources Specialist;IEA
+Wind Energy Project Manager;IEA
+Cephalometric Analyst;IEA
+Biological Scientist;IEA
+Biostatistician;IEA
+Climate Change Analyst;IEA
+Computer Programmer;IEA
+Crime Laboratory Analyst;IEA
+Cytogenetic Technologist;IEA
+"Drafter, aeronautical";IEA
+"Drafter, Structural";IEA
+e-Commerce Project Developer;IEA
+"Engineer, Microsystems";IEA
+"Engineer, Nanosystems";IEA
+"Engineer, Robotics";IEA
+"Engineer, Validation";IEA
+"Engineering Assistant, Mechanical Equipment";IEA
+Geological Sample Test Technician;IEA
+Geospatial Information Scientist and Technologist;IEA
+Fire Investigator;IEA
+Forensic Science Technician;IEA
+Industrial Ecologist;IEA
+Biologist;IEA
+Economist;IEA
+Instructional Designer and Technologit;IEA
+Art Appraiser;IEA
+Acupressurist;IEA
+Audiologist;IEA
+Chicopractor;IEA
+Dentist;IEA
+Dermatologist;IEA
+"Dietitian, Research";IEA
+"Exercise, Psychologist";IEA
+"Faculty, Architecture";IEA
+"Faculty, Engineering";IEA
+"Faculty, Geography";IEA
+Ophthalmologist;IEA
+Orthodontist;IEA
+"Physician, Osteopathic Medicine";IEA
+"Physician, Sports Medicine";IEA
+Prosthodontist;IEA
+Urologist;IEA
+"Engineer, Airport";IEA
+"Engineer, Health and Safety";IEA
+"Engineer, Industrial Health and Safety";IEA
+"Engineer, Transportation";IEA
+Environmental Health Scientist;IEA
+Food Technologist;IEA
+Mineralogist;IEA
+Orthoptist;IEA
+Paleontologist;IEA
+Sanitarian;IEA
+Cardiopulmonary Technologist;IEA
+Food Tester;IEA
+"Nurse, Private Duty";IEA
+"Technician, Surgical";IEA
+"Faculty, Anthropology and Archeology";IEA
+Hospitalist;IEA
+Neuropsychologist;IEA
+Nurse Practitioner;IEA
+Physician Assistant;IEA
+"Physician, Internist";IEA
+"Physician, Preventive Medicine";IEA
+Psychiatrist;IEA
+Medical Technologist;IEA
+Alergist/Imunologist;IEA
+Cardiologist;IEA
+Coroner;IEA
+Endodontist;IEA
+"Faculty, Psychology";IEA
+Nurse Annesthetist;IEA
+Optometrist;IEA
+Peditrician;IEA
+"Physician, General Practioner";IEA
+"Psychologist, Chief";IEA
+Zoo Veterinarian;IEA
+Actuary;IEA
+"Education, Training and Library Worker";IEA
+"Engineer, Photographic";IEA
+"Enngineer, Product Safety";IEA
+Customs Import Specialist;IEA
+Perfurmer;IEA
+"Radiologic Technologist, Chief";IEA
+Linguist;IEA
+Microbiologist;IEA
+"Physician, Occupational";IEA
+Computer Network Support Specialist;IEA
+Market Research Analyst;IEA
+"Technician, Dialysis";IEA
+Chemical Laboratory Chief;IEA
+Industrial Therapist;IEA
+Mathematician;IEA
+Medical Scientist;IEA
+Natural Sciences Manager;IEA
+Voice Pathologist;IEA
+Business Consultant;IEA
+Chief Information Officer;IEA
+"Director, Information Resources";IEA
+"Engineer, Chief";IEA
+"Engineer, Sanitary ";IEA
+Internet Consultant;IEA
+"Manager, Computer and Information Systems";IEA
+"Manager, Land Surveying";IEA
+"Manager, Quality Control";IEA
+"Medical Technologist, Chief";IEA
+"Surveyor, Hydrographic";IEA
+"Surveyor, Land";IEA
+Systems Analyst;IEA
+Water/Sewer Systems Superintendent;IEA
+Web Administrator;IEA
+"Laboratory Supervisor, Tectiles";IEA
+"Manager, Wind Energy Operations";IEA
+"Faculty, Economics";IEA
+"Faculty, Health Specialist";IEA
+"Faculty, Mathematics";IEA
+"Faculty, Philosophy and Religion";IEA
+"Faculty, Physics";IEA
+Pharmacist;IEA
+"Psychologist, Educational";IEA
+"Psychologist, Experimental";IEA
+"Psychologist, Industrial Organizational";IEA
+Psychometrist;IEA
+Sociologist;IEA
+"Engineering Manager, Electronics";IEA
+"Manager, Safety";IEA
+Metrologist;IEA
+Network Designer;IEA
+Public Health Service Officer;IEA
+"Appraiser, Governmental Sevices";IEA
+Cryptanalyst;IEA
+"Engineer, Pollution Control";IEA
+"Manager, Biofuels/Biodiesel Technology and Product Development";IEA
+Business Intelligence Analyst;IEA
+Computer Network Architect;IEA
+"Engineer, Hghway Administrative";IEA
+"Engineer, Photogrammetic";IEA
+Logistics Engineer;IEA
+Bioinformatics Scientist;IEA
+"Analyst, Management";IEA
+"Auditor, Internal";IEA
+Cytotechnologist;IEA
+"Drafter, Chief";IEA
+"Engineer, Mechatronics";IEA
+Geographic Information Systems Technician;IEA
+Navigator;IEA
+Software Quality Assurance Engineer and Tester;IEA
+Transportation Planner;IEA
+Loss Prevention Specialist;IEA
+Bioinformatics Technician;IEA
+Immunohematologist;IEA
+Job Analyst;IEA
+Statistical Assistant;IEA
+Database Architect;IEA
+Fraud Examier/Investigator;IEA
+Intelligence Analyst;IEA
+Logistics Analyst;IEA
+Survey Researcher;IEA
+Sustainability Specialist;IEA
+Cryptanalyst;IEC
+"Engineer, Pollution Control";IEC
+"Manager, Biofuels/Biodiesel Technology and Product Development";IEC
+Business Intelligence Analyst;IEC
+Computer Network Architect;IEC
+"Engineer, Hghway Administrative";IEC
+"Engineer, Photogrammetic";IEC
+Logistics Engineer;IEC
+Chemical Laboratory Chief;IER
+Industrial Therapist;IER
+Mathematician;IER
+Medical Scientist;IER
+Natural Sciences Manager;IER
+Voice Pathologist;IER
+Business Consultant;IER
+Chief Information Officer;IER
+"Director, Information Resources";IER
+"Engineer, Chief";IER
+"Engineer, Sanitary ";IER
+Internet Consultant;IER
+"Manager, Computer and Information Systems";IER
+"Manager, Land Surveying";IER
+"Manager, Quality Control";IER
+"Medical Technologist, Chief";IER
+"Surveyor, Hydrographic";IER
+"Surveyor, Land";IER
+Systems Analyst;IER
+Water/Sewer Systems Superintendent;IER
+Web Administrator;IER
+"Laboratory Supervisor, Tectiles";IER
+"Manager, Wind Energy Operations";IER
+"Faculty, Economics";IES
+"Faculty, Health Specialist";IES
+"Faculty, Mathematics";IES
+"Faculty, Philosophy and Religion";IES
+"Faculty, Physics";IES
+Pharmacist;IES
+"Psychologist, Educational";IES
+"Psychologist, Experimental";IES
+"Psychologist, Industrial Organizational";IES
+Psychometrist;IES
+Sociologist;IES
+"Engineering Manager, Electronics";IES
+"Manager, Safety";IES
+Metrologist;IES
+Network Designer;IES
+Public Health Service Officer;IES
+"Appraiser, Governmental Sevices";IES
+Oral and Maxillofacial Surgeon;IRA
+Surgeon;IRA
+Architect (AIR);IRA
+Audio and Video Equipment Technician (RIA);IRA
+Biologist (IAR);IRA
+Costumer (ARI);IRA
+Landscape Architect (AIR);IRA
+Model Maker (ARI);IRA
+Molding and Casting Worker (ARI);IRA
+Television Technician (RIA);IRA
+Molecular and Cellular Biologist;IRC
+Nanotechnology Engineering Technologist ;IRC
+Non-Destructive Testing Specialist;IRC
+Material Scheduler;IRC
+Mathematical Technician;IRC
+Printed Circuit Designer;IRC
+Photogrammetrist;IRC
+Pulmonary Function Technician;IRC
+Quality Control Analyst;IRC
+Radiopharmacist;IRC
+Remote Sensing Scientist/Technologist;IRC
+Remote Sensing Technician ;IRC
+Software Developer;IRC
+Soil Conservation Technician;IRC
+Toxicologist;IRC
+Stress Analyst;IRC
+Water Resources Specialist;IRC
+Wind Energy Project Manager;IRC
+Cephalometric Analyst;IRC
+Biological Scientist;IRC
+Biostatistician;IRC
+Climate Change Analyst;IRC
+Computer Programmer;IRC
+Crime Laboratory Analyst;IRC
+Cytogenetic Technologist;IRC
+"Drafter, aeronautical";IRC
+"Drafter, Structural";IRC
+e-Commerce Project Developer;IRC
+"Engineer, Microsystems";IRC
+"Engineer, Nanosystems";IRC
+"Engineer, Robotics";IRC
+"Engineer, Validation";IRC
+"Engineering Assistant, Mechanical Equipment";IRC
+Geological Sample Test Technician;IRC
+Geospatial Information Scientist and Technologist;IRC
+Fire Investigator;IRC
+Forensic Science Technician;IRC
+Industrial Ecologist;IRC
+Acupunturist;IRE
+Anthropologist;IRE
+Archeologist;IRE
+"Architect, Marine";IRE
+Astronomer;IRE
+Biophysicist;IRE
+Dairy Scientist;IRE
+"Dentist, Public Health";IRE
+"Engineer, Environmental";IRE
+Environmental Economist;IRE
+Epidemiologist;IRE
+Ethnologist;IRE
+Geographer;IRE
+Hydrologist;IRE
+Marine Biologist;IRE
+Auto Design Detailer;IRE
+"Ballistics Expert, Forensic";IRE
+Chemist;IRE
+Computer Systems Engineer/Architect;IRE
+Computer Systems Hardware Analyst;IRE
+Conservations Scientist;IRE
+Database Administrator;IRE
+"Drafter, Electrical";IRE
+"Drafter, Mechanical";IRE
+"Engineer, Nuclear";IRE
+"Engineer, Software";IRE
+"Engineer, Water/Wastewater";IRE
+"Engineer, Wind Energy";IRE
+Electronics Technician;IRE
+"Engineer, Aerospace";IRE
+"Engineer, Agricultural";IRE
+"Engineer, Biochemical";IRE
+"Engineer, Biomedical";IRE
+"Engineer, Ceramic Design";IRE
+"Engineer, Chemical";IRE
+"Engineer, Civil";IRE
+"Engineer, Electrical";IRE
+"Engineer, Irrigation";IRE
+"Engineer, Marine";IRE
+Geologist;IRE
+Hazardous Waste Management Specialist;IRE
+Histotechnologist and Histologic Technician;IRE
+Industrial Engineering Technician;IRE
+Industrial Hygienist;IRE
+Laser Technician;IRE
+Medical Laboratory Assistant;IRE
+Metallographer;IRE
+"Metallurgist, Physical";IRE
+Operations Research Analyst ;IRE
+"Pilot, Airplane";IRE
+Pathologist;IRE
+Periodontist;IRE
+Pharmacologist;IRE
+Physiatrist;IRE
+Physicist;IRE
+Physiologist;IRE
+Seismologist;IRE
+Soil Conservationist;IRE
+Test Technician;IRE
+Tissue Technologist;IRE
+"Toxicologist, Chief";IRE
+Statistician;IRE
+"Surveyor, Geodetic";IRE
+Veterinary Livestock Inspector;IRE
+Video Game Programmer;IRE
+Zoologist;IRE
+Agronomist;IRS
+Anesthesiologist;IRS
+Animal Scientist;IRS
+Biochemist;IRS
+Botanist;IRS
+"Curator, Museum";IRS
+"Engineer, Human Factors/Engronomist";IRS
+Soil and Plant Scientists ;IRS
+"Faculty, Agricultural Sciences";IRS
+"Faculty, Biological Science";IRS
+"Faculty, Chemistry";IRS
+"Faculty, Computer Science";IRS
+"Faculty, Earth and Space Science";IRS
+"Faculty, Forestry and Conservation Science";IRS
+Geneticist;IRS
+Geoscientists;IRS
+Neurologist;IRS
+Obstetrician;IRS
+Parasitologist;IRS
+Plant Pathologist;IRS
+Radiologist;IRS
+Veterinarian;IRS
+Air Analyst;IRS
+Dairy Technologist;IRS
+Database Design Analyst;IRS
+Forest Ecologist;IRS
+Internet/Intranet Administrator;IRS
+"Manager, Laboratory";IRS
+Meteorologist;IRS
+Radiation Protection Specialist;IRS
+Range Manager;IRS
+Technical Writer;IRS
+Chemical Laboratory Technician;IRS
+Chemical Technician;IRS
+Fabric Tester;IRS
+"Life, Physical, and Social Science Technician";IRS
+Robot Technician;IRS
+Surgical Assistant;IRS
+Veterinary Technologist and Technician;IRS
+"Faculty, Anthropology and Archeology";ISA
+Hospitalist;ISA
+Neuropsychologist;ISA
+Nurse Practitioner;ISA
+Physician Assistant;ISA
+"Physician, Internist";ISA
+"Physician, Preventive Medicine";ISA
+Psychiatrist;ISA
+Medical Technologist;ISA
+Linguist;ISC
+Microbiologist;ISC
+"Physician, Occupational";ISC
+Computer Network Support Specialist;ISC
+Market Research Analyst;ISC
+"Technician, Dialysis";ISC
+Alergist/Imunologist;ISE
+Cardiologist;ISE
+Coroner;ISE
+Endodontist;ISE
+"Faculty, Psychology";ISE
+Nurse Annesthetist;ISE
+Optometrist;ISE
+Peditrician;ISE
+"Physician, General Practioner";ISE
+"Psychologist, Chief";ISE
+Zoo Veterinarian;ISE
+Actuary;ISE
+"Education, Training and Library Worker";ISE
+"Engineer, Photographic";ISE
+"Enngineer, Product Safety";ISE
+Customs Import Specialist;ISE
+Perfurmer;ISE
+"Radiologic Technologist, Chief";ISE
+Acupressurist;ISR
+Audiologist;ISR
+Chicopractor;ISR
+Dentist;ISR
+Dermatologist;ISR
+"Dietitian, Research";ISR
+"Exercise, Psychologist";ISR
+"Faculty, Architecture";ISR
+"Faculty, Engineering";ISR
+"Faculty, Geography";ISR
+Ophthalmologist;ISR
+Orthodontist;ISR
+"Physician, Osteopathic Medicine";ISR
+"Physician, Sports Medicine";ISR
+Prosthodontist;ISR
+Urologist;ISR
+"Engineer, Airport";ISR
+"Engineer, Health and Safety";ISR
+"Engineer, Industrial Health and Safety";ISR
+"Engineer, Transportation";ISR
+Environmental Health Scientist;ISR
+Food Technologist;ISR
+Mineralogist;ISR
+Orthoptist;ISR
+Paleontologist;ISR
+Sanitarian;ISR
+Cardiopulmonary Technologist;ISR
+Food Tester;ISR
+"Nurse, Private Duty";ISR
+"Technician, Surgical";ISR
+Engrosser;RAC
+Horticulturist;RAE
+Piano Technician;RAE
+"Model Maker, Pattery ad Porcelain";RAE
+Sound Effects Technician;RAE
+Audio and Video Equipment Technician;RAI
+Television Technician;RAI
+"Engineer, Electronics";RAI
+"Engineer, Mechanical";RAI
+Forester;RAI
+Pilot/Helicopter;RAI
+Chemical Equipment Operator;RAI
+"Manager of Mechacics, Installers, and Repairers";RAI
+Cabinetmaker;RAI
+Dockworker;RAI
+"Engineer, Operating";RAI
+Elevator Techician;RAI
+Engine Tester;RAI
+"Farmer, General";RAI
+Iron and Steel Worker;RAI
+Landscape Gardener;RAI
+Multiple Machine Operator;RAI
+Nuclear Medicine Technologist;RAI
+Prospector;RAI
+Radiation Therapy Technologist;RAI
+"Repairer, Electronics and Computers ";RAI
+Telecommunications Technician;RAI
+Tools Designer;RAI
+Structural Metal Fabricator and Fitter;RAI
+"Substation Operator, Utilities";RAI
+Welder;RAI
+"Engineer, Automotive";RAI
+"Engineer, Computer Systems Hardware";RAI
+"Engineer, Petroleum";RAI
+"Engineer, Part";RAI
+"Geologist, Petroleum";RAI
+Materials Scientist;RAI
+"Pilot, Commercial Airplane";RAI
+"Pilot, Executive";RAI
+"Aircraft Mechanic, Eletrical and Radio";RAI
+Airplane and Power Plant Mechanic;RAI
+Airplane Repairer;RAI
+Tool and Die Makers;RAI
+"Drafter, Detail";RAI
+Electric Motor Repairer;RAI
+Electrical Technician;RAI
+Eletrician;RAI
+Electro-Mechanical Technician;RAI
+Laboratory Technician;RAI
+Machinist;RAI
+Manager Hydroelectric Production;RAI
+Motorcycle Mechanic;RAI
+Prosthetics Technician;RAI
+Sound Technician;RAI
+Weather Observer;RAI
+Automobile Body Repairer;RAI
+Biomedical Equipment Technician;RAI
+Blaster;RAI
+Farm Medicine Operator;RAI
+Film Projectionist;RAI
+Geosmith;RAI
+"Inspector, Missile";RAI
+"Inspector, Tester, Sorter, Sampler, and Weigher";RAI
+"Line Service Attendant, Air Transportation ";RAI
+Miner;RAI
+Nuclear Power Reactor Operator;RAI
+Pesticide Applicator;RAI
+Plating ad Coating Machine Operator;RAI
+"Radio, Cellular, and Tower Equipment Installer and Repairer";RAI
+Shipfitter;RAI
+Tailor;RAI
+Welding Machine Operator;RAI
+"Engineer, Optical";RAI
+Electrical Engineering Technologist;RAI
+Electronics Engineering Technologist;RAI
+Fuel Cell Technician;RAI
+Geological and Petroleum Technician;RAI
+Manufacturing Engineering Tecchnologist;RAI
+Mechanical Engineering Technologist;RAI
+Nanotechnology Engineering Technician;RAI
+Precision Agriculture Technician;RAI
+Quality Assurance Analyst/Tester;RAI
+Radio Frequency Identification Device Specialist;RAI
+Sollar Energy Systems Designer;RAI
+Automobile Service Station Mechanic;RAI
+Automotive Engineering Technician;RAI
+"Camera Operator, Television, Video, and Film";RAI
+Electromechanical Engineering Technologist;RAI
+Endoscopy Technician;RAI
+"Engineering Technician, Civil";RAI
+Instrumentation Technician;RAI
+Laboratory Tester;RAI
+Manufacturing Production Technician;RAI
+Agricultural Inspector;RAI
+"Assembler and Tester, Electronics";RAI
+Chemical Plant and System Operator;RAI
+Geothermal Technician;RAI
+Hydhselectic Plant Technician;RAI
+Mechanical Door Repairer;RAI
+Sewing Machine Operator;RAI
+Weatherization Installer Technician;RAI
+Wind Turbine Service Technician;RAI
+Woodworking Machine Operator;RAI
+"Painter, Electrostatic";RAI
+Cook Apprentice;RAI
+Manicurist/Pedicurist;RAI
+Pastry Chef;RAI
+Horticulturist;RAI
+Piano Technician;RAI
+"Model Maker, Pattery ad Porcelain";RAI
+Sound Effects Technician;RAI
+Engrosser;RAI
+Anesthesiologist Assistant;RAI
+Biological Aide;RAI
+Pollution Control Technician;RAI
+Bridge Inspector;RAI
+Data Communications/Telecommunications Analyst;RAI
+Display Maker;RAI
+Emergency Medical Technician (EMT);RAI
+Farmer/ Rancher;RAI
+Fire Fighter;RAI
+Ultrasound Technologist;RAI
+Waterinary Assistant;RAI
+Driver Ambulance;RAI
+Livestock Rancher;RAI
+Skincare Specialist;RAI
+Othorist;RAI
+Prosthetist;RAI
+Wildlife Control Agent;RAI
+Baker;RAI
+Electrical Appliance Repairer;RAI
+Gamekeeper;RAI
+Home Appliance Repairer;RAI
+"Police Officer, State Highway";RAI
+Butcher;RAI
+"Cook, Hotel and Restaurat";RAI
+Dressmaker;RAI
+Farmworker;RAI
+Metal-Refining Furnace Operators and Tenders;RAI
+"Cluster, Contruction";RAI
+Mover;RAI
+"Mover, Residential";RAI
+"Painter, Construction";RAI
+"Paperhanger, Construction";RAI
+Purification Operator;RAI
+Shoe Repairer;RAI
+Chef;RAI
+Magnetic Resonance Imaging Technologist;RAI
+Medical Appliance Technicians  ;RAI
+Bycycle Repairer;RAI
+"Conductor, Train";RAI
+Excavator;RAI
+Lifeguard;RAI
+Mail Handler;RAI
+Press Operator;RAI
+Rigger;RAI
+Silversmith;RAI
+"Upholsterer, Chair and Furniture";RAI
+"Engineer, Manufacturing";RAI
+"Engineer, Materials";RAI
+Generating Plant Superintendent;RAI
+Production Planner;RAI
+"Teacher, Industrial Arts";RAI
+Telecommunications Engineering Specialist;RAI
+Traffic Technician;RAI
+Electronic Home Entertainment;RAI
+Equipment Installer and Repairer;RAI
+Fireworks Display Specialist;RAI
+Fish Farmer;RAI
+Plumber;RAI
+"Repairer, Welding Equipment";RAI
+Scuba Driver;RAI
+Telecommunications Equipment Installer and Repairer;RAI
+Boat Outfitter;RAI
+Carpet Layer;RAI
+Diesel Mechanic;RAI
+"Engineer, Stationary";RAI
+Furrigator;RAI
+Gasoline Engine Repairer;RAI
+Optical Technician;RAI
+Photographic Process Worker;RAI
+"Quality Control Technician, Foof Preparation";RAI
+Sheet Metal Worker;RAI
+Ship Pilot;RAI
+Shipping and Receiving Clerk;RAI
+Telecommunications Line Installer and Repairer;RAI
+Tree Surgeon;RAI
+Watch Repairer;RAI
+Water Quality Tester;RAI
+Bricklayer;RAI
+Environmental Restoration Planner;RAI
+"Cellar Supervisor, Winemaking";RAI
+"Cook, Chief";RAI
+"Process Artist, Printing and Publishing";RAI
+Dental Ceramist Assistant;RAI
+"Engraver, Glass Products";RAI
+Livestock Yard Supervisor;RAI
+Marine Service Manager;RAI
+Building Superintendent;RAI
+"Engineer, Flight";RAI
+Fish ad Game Warden;RAI
+Logging Operations Inspector;RAI
+Airfield Operations Specialist;RAI
+Airplane Inspector;RAI
+Audio Operator;RAI
+Diver;RAI
+Energy Conservation Representative;RAI
+Foundry Supervisor;RAI
+"Guide, Hunting and Fishing";RAI
+Heating and Air Conditioning Mechanic and Installer;RAI
+Motorboat Mechanic and Service Technician;RAI
+Refrigeration Mechanic;RAI
+Animal Breeder;RAI
+Animal Trainer;RAI
+Automobile Service Station Attendant;RAI
+Boat Repairer;RAI
+Bookbinder;RAI
+Chemical Mixer;RAI
+Dock Supervisor;RAI
+"Driver, Bus";RAI
+Electrician Supervisor;RAI
+"Engineer, Locomotive";RAI
+Excavating and Loasing Machine Operator;RAI
+Exterminator;RAI
+Janitor;RAI
+Maid Housekeeper;RAI
+Maintenance Inspector;RAI
+Manufacturer's Service Representative;RAI
+Radiological Equipment Specialist;RAI
+"Refinery Operator, Grain";RAI
+Automobile Racer;RAI
+Jockey;RAI
+Laundry and Dry Cleaning Worker ;RAI
+Mason;RAI
+Platerer ad Stucco Mason;RAI
+"Manager, Orchard";RAI
+"Surveyor, Ship";RAI
+Contruction Inspector;RAI
+Jewelry Designer;RAI
+Manager of Landscaping & Groundskeeping Workers;RAI
+Pharmacy Technician;RAI
+"Safety Inspector, Truck";RAI
+Sheriff/Deputy Sheriff;RAI
+Baggage Handler;RAI
+"Bindery Worker, Printing and Publishing";RAI
+Bulldozer Operator;RAI
+Crabber;RAI
+Dental Ceramist;RAI
+Jeweler;RAI
+Locksmith;RAI
+Luggage Maker;RAI
+"Manager, Solar Energy Installation";RAI
+Pharmacy Aide;RAI
+Pipelines Supervisor;RAI
+Roofer;RAI
+Small Engine Mechanic;RAI
+Terrazzo Worker and Finisher;RAI
+Transfortation Security Officer;RAI
+Chauffeur;RAI
+"Drafter, Architectural";RAI
+"Engineer, Utilities";RAI
+Media and Communication Equipment Worker;RAI
+Nuclear Technician;RAI
+Automobile Mechanic;RAI
+Calibration Laboratory Technician;RAI
+Computer Aided Design Technician;RAI
+"Construction Checker, Utilities";RAI
+Electrocardiograph Technician;RAI
+Embalmer;RAI
+Environmental Control Installer;RAI
+Planetarium Technician;RAI
+Satellite Communications Technician;RAI
+Tool and Die Maker;RAI
+Airport Utility Worker;RAI
+"Assembler, Aircarft";RAI
+"Assembler, Engine";RAI
+"Assembler, Equipment";RAI
+Audiovisual Technician;RAI
+Biofuel Processing Technician;RAI
+Biomass Plant Technician;RAI
+Custom Van Converter;RAI
+Hazardous Material Remover;RAI
+Health Equipment Servicer;RAI
+"Inspector, Assembly";RAI
+"Inspectors, Testers, Sorters, Samplers, and Weighers ";RAI
+Insulation Worker;RAI
+Inventory Clerk;RAI
+Machine Maintenance/Repair Worker;RAI
+Maintenance Worker;RAI
+Medical Equipment Repairer;RAI
+Microelectronics Technician;RAI
+Mining Machine Operator;RAI
+Photo Technician;RAI
+Printing Machine Operator;RAI
+"Quality Control Technician, Manufactured Products";RAI
+"Service Unit Operator, Oil, Gas, and Mining";RAI
+Solar Fabrication Technician;RAI
+Solar Photovoltaic Installer;RAI
+Solar Thermal Installer/Technician;RAI
+Animal Nursery Worker;RAI
+Reinforcing Iron and Rebar Worker;RAI
+"Roustabout, Oil and Gas";RAI
+"Glass Blower, Laboratory Apparatus";RAI
+Photograph Retoucher;RAI
+Print Binding and Finishinng Worker;RAI
+Artificial Breeding Technician;RAI
+Safety Inspector;RAI
+"Assembler, Atomic Fuel";RAI
+Broadcast Technnician;RAI
+Cable Splicer;RAI
+Electroencephalographic Technologist;RAI
+Nuclear Equipment Operation Technician;RAI
+Piano Tuner;RAI
+Radiation Monitor;RAI
+Security  and Fire Alarm  Systems Installer;RAI
+Adhesive Bonding Machine Operator;RAI
+"Assembler, Electrical Accessories";RAI
+Construction Worker;RAI
+Dining Room Attendant;RAI
+"Driver, Truck";RAI
+Drywall Installer;RAI
+Food Batchmaker;RAI
+Food Cooking Machine Operator;RAI
+Furnace and Klin Operator;RAI
+Glass Blower;RAI
+Hydroelectric Station Operator;RAI
+Packer and Packager;RAI
+Parts Clerk;RAI
+Production Laborer;RAI
+Recycling and Reclamation Worker;RAI
+Refuse ad Recyclable Material Collector;RAI
+Sound Mixer;RAI
+Taper/Finisher;RAI
+Upholsterer;RAI
+Building Cleaner;RAI
+"Cook, Fast Food";RAI
+"Cook, Institution and Cafetaria";RAI
+Dishwasher;RAI
+Estimator;RAI
+Forest and Conservation Worker;RAI
+"Repairer, Art Objects";RAI
+"Automobile Tester, Governmetal Services";RAI
+"Inspector, Chief";RAI
+"Inspector, Electrical";RAI
+Pipe Fitter;RAI
+Automobile Detailer;RAI
+Camera Repairer;RAI
+Carpenter;RAI
+Construction Carpenter;RAI
+"Engraver, Machine";RAI
+Eyeglass Lens Cutter;RAI
+Film Laboratory Technician;RAI
+Garment Fitter;RAI
+"Glass Installer, Automobile Services";RAI
+Kennel Supervisor;RAI
+Laboratory Clerk;RAI
+Marine Services Technician;RAI
+Meter Ispector;RAI
+Methane/Landfill Gas Collection Systems Operator;RAI
+"Order Filler, Wholesale and Retail Sales";RAI
+Orthodontic Technician;RAI
+Paving Equipment Operator;RAI
+Picture Framer;RAI
+Pipelayer;RAI
+Radio Operator;RAI
+Stock Clerk;RAI
+Tire Repairer and Changer;RAI
+Tractor Operator;RAI
+Tree Trimmer/Pruner;RAI
+Water Treatment Plant Operator;RAI
+"Weaver, Carpet and Rug";RAI
+Boilermaker;RAI
+Electrician Assistant;RAI
+Landscaping and Groundskeeping Worker;RAI
+Mail Machine Operator;RAI
+Stonemason;RAI
+Cook Apprentice;RAS
+Manicurist/Pedicurist;RAS
+Pastry Chef;RAS
+"Glass Blower, Laboratory Apparatus";RCA
+Photograph Retoucher;RCA
+Print Binding and Finishinng Worker;RCA
+Estimator;RCE
+Forest and Conservation Worker;RCE
+"Repairer, Art Objects";RCE
+"Automobile Tester, Governmetal Services";RCE
+"Inspector, Chief";RCE
+"Inspector, Electrical";RCE
+Pipe Fitter;RCE
+Automobile Detailer;RCE
+Camera Repairer;RCE
+Carpenter;RCE
+Construction Carpenter;RCE
+"Engraver, Machine";RCE
+Eyeglass Lens Cutter;RCE
+Film Laboratory Technician;RCE
+Garment Fitter;RCE
+"Glass Installer, Automobile Services";RCE
+Kennel Supervisor;RCE
+Laboratory Clerk;RCE
+Marine Services Technician;RCE
+Meter Ispector;RCE
+Methane/Landfill Gas Collection Systems Operator;RCE
+"Order Filler, Wholesale and Retail Sales";RCE
+Orthodontic Technician;RCE
+Paving Equipment Operator;RCE
+Picture Framer;RCE
+Pipelayer;RCE
+Radio Operator;RCE
+Stock Clerk;RCE
+Tire Repairer and Changer;RCE
+Tractor Operator;RCE
+Tree Trimmer/Pruner;RCE
+Water Treatment Plant Operator;RCE
+"Weaver, Carpet and Rug";RCE
+Boilermaker;RCE
+Electrician Assistant;RCE
+Landscaping and Groundskeeping Worker;RCE
+Mail Machine Operator;RCE
+Stonemason;RCE
+"Drafter, Architectural";RCI
+"Engineer, Utilities";RCI
+Media and Communication Equipment Worker;RCI
+Nuclear Technician;RCI
+Automobile Mechanic;RCI
+Calibration Laboratory Technician;RCI
+Computer Aided Design Technician;RCI
+"Construction Checker, Utilities";RCI
+Electrocardiograph Technician;RCI
+Embalmer;RCI
+Environmental Control Installer;RCI
+Planetarium Technician;RCI
+Satellite Communications Technician;RCI
+Tool and Die Maker;RCI
+Airport Utility Worker;RCI
+"Assembler, Aircarft";RCI
+"Assembler, Engine";RCI
+"Assembler, Equipment";RCI
+Audiovisual Technician;RCI
+Biofuel Processing Technician;RCI
+Biomass Plant Technician;RCI
+Custom Van Converter;RCI
+Hazardous Material Remover;RCI
+Health Equipment Servicer;RCI
+"Inspector, Assembly";RCI
+"Inspectors, Testers, Sorters, Samplers, and Weighers ";RCI
+Insulation Worker;RCI
+Inventory Clerk;RCI
+Machine Maintenance/Repair Worker;RCI
+Maintenance Worker;RCI
+Medical Equipment Repairer;RCI
+Microelectronics Technician;RCI
+Mining Machine Operator;RCI
+Photo Technician;RCI
+Printing Machine Operator;RCI
+"Quality Control Technician, Manufactured Products";RCI
+"Service Unit Operator, Oil, Gas, and Mining";RCI
+Solar Fabrication Technician;RCI
+Solar Photovoltaic Installer;RCI
+Solar Thermal Installer/Technician;RCI
+Animal Nursery Worker;RCI
+Reinforcing Iron and Rebar Worker;RCI
+"Roustabout, Oil and Gas";RCI
+Artificial Breeding Technician;RCS
+Safety Inspector;RCS
+"Assembler, Atomic Fuel";RCS
+Broadcast Technnician;RCS
+Cable Splicer;RCS
+Electroencephalographic Technologist;RCS
+Nuclear Equipment Operation Technician;RCS
+Piano Tuner;RCS
+Radiation Monitor;RCS
+Security  and Fire Alarm  Systems Installer;RCS
+Adhesive Bonding Machine Operator;RCS
+"Assembler, Electrical Accessories";RCS
+Construction Worker;RCS
+Dining Room Attendant;RCS
+"Driver, Truck";RCS
+Drywall Installer;RCS
+Food Batchmaker;RCS
+Food Cooking Machine Operator;RCS
+Furnace and Klin Operator;RCS
+Glass Blower;RCS
+Hydroelectric Station Operator;RCS
+Packer and Packager;RCS
+Parts Clerk;RCS
+Production Laborer;RCS
+Recycling and Reclamation Worker;RCS
+Refuse ad Recyclable Material Collector;RCS
+Sound Mixer;RCS
+Taper/Finisher;RCS
+Upholsterer;RCS
+Building Cleaner;RCS
+"Cook, Fast Food";RCS
+"Cook, Institution and Cafetaria";RCS
+Dishwasher;RCS
+Environmental Restoration Planner;REA
+"Cellar Supervisor, Winemaking";REA
+"Cook, Chief";REA
+"Process Artist, Printing and Publishing";REA
+Dental Ceramist Assistant;REA
+"Engraver, Glass Products";REA
+Livestock Yard Supervisor;REA
+Marine Service Manager;REA
+"Manager, Orchard";REC
+"Surveyor, Ship";REC
+Contruction Inspector;REC
+Jewelry Designer;REC
+Manager of Landscaping & Groundskeeping Workers;REC
+Pharmacy Technician;REC
+"Safety Inspector, Truck";REC
+Sheriff/Deputy Sheriff;REC
+Baggage Handler;REC
+"Bindery Worker, Printing and Publishing";REC
+Bulldozer Operator;REC
+Crabber;REC
+Dental Ceramist;REC
+Jeweler;REC
+Locksmith;REC
+Luggage Maker;REC
+"Manager, Solar Energy Installation";REC
+Pharmacy Aide;REC
+Pipelines Supervisor;REC
+Roofer;REC
+Small Engine Mechanic;REC
+Terrazzo Worker and Finisher;REC
+Transfortation Security Officer;REC
+Chauffeur;REC
+"Engineer, Manufacturing";REI
+"Engineer, Materials";REI
+Generating Plant Superintendent;REI
+Production Planner;REI
+"Teacher, Industrial Arts";REI
+Telecommunications Engineering Specialist;REI
+Traffic Technician;REI
+Electronic Home Entertainment;REI
+Equipment Installer and Repairer;REI
+Fireworks Display Specialist;REI
+Fish Farmer;REI
+Plumber;REI
+"Repairer, Welding Equipment";REI
+Scuba Driver;REI
+Telecommunications Equipment Installer and Repairer;REI
+Boat Outfitter;REI
+Carpet Layer;REI
+Diesel Mechanic;REI
+"Engineer, Stationary";REI
+Furrigator;REI
+Gasoline Engine Repairer;REI
+Optical Technician;REI
+Photographic Process Worker;REI
+"Quality Control Technician, Foof Preparation";REI
+Sheet Metal Worker;REI
+Ship Pilot;REI
+Shipping and Receiving Clerk;REI
+Telecommunications Line Installer and Repairer;REI
+Tree Surgeon;REI
+Watch Repairer;REI
+Water Quality Tester;REI
+Bricklayer;REI
+Building Superintendent;RES
+"Engineer, Flight";RES
+Fish ad Game Warden;RES
+Logging Operations Inspector;RES
+Airfield Operations Specialist;RES
+Airplane Inspector;RES
+Audio Operator;RES
+Diver;RES
+Energy Conservation Representative;RES
+Foundry Supervisor;RES
+"Guide, Hunting and Fishing";RES
+Heating and Air Conditioning Mechanic and Installer;RES
+Motorboat Mechanic and Service Technician;RES
+Refrigeration Mechanic;RES
+Animal Breeder;RES
+Animal Trainer;RES
+Automobile Service Station Attendant;RES
+Boat Repairer;RES
+Bookbinder;RES
+Chemical Mixer;RES
+Dock Supervisor;RES
+"Driver, Bus";RES
+Electrician Supervisor;RES
+"Engineer, Locomotive";RES
+Excavating and Loasing Machine Operator;RES
+Exterminator;RES
+Janitor;RES
+Maid Housekeeper;RES
+Maintenance Inspector;RES
+Manufacturer's Service Representative;RES
+Radiological Equipment Specialist;RES
+"Refinery Operator, Grain";RES
+Automobile Racer;RES
+Jockey;RES
+Laundry and Dry Cleaning Worker ;RES
+Mason;RES
+Platerer ad Stucco Mason;RES
+Audio and Video Equipment Technician;RIA
+Television Technician;RIA
+"Engineer, Optical";RIC
+Electrical Engineering Technologist;RIC
+Electronics Engineering Technologist;RIC
+Fuel Cell Technician;RIC
+Geological and Petroleum Technician;RIC
+Manufacturing Engineering Tecchnologist;RIC
+Mechanical Engineering Technologist;RIC
+Nanotechnology Engineering Technician;RIC
+Precision Agriculture Technician;RIC
+Quality Assurance Analyst/Tester;RIC
+Radio Frequency Identification Device Specialist;RIC
+Sollar Energy Systems Designer;RIC
+Automobile Service Station Mechanic;RIC
+Automotive Engineering Technician;RIC
+"Camera Operator, Television, Video, and Film";RIC
+Electromechanical Engineering Technologist;RIC
+Endoscopy Technician;RIC
+"Engineering Technician, Civil";RIC
+Instrumentation Technician;RIC
+Laboratory Tester;RIC
+Manufacturing Production Technician;RIC
+Agricultural Inspector;RIC
+"Assembler and Tester, Electronics";RIC
+Chemical Plant and System Operator;RIC
+Geothermal Technician;RIC
+Hydhselectic Plant Technician;RIC
+Mechanical Door Repairer;RIC
+Sewing Machine Operator;RIC
+Weatherization Installer Technician;RIC
+Wind Turbine Service Technician;RIC
+Woodworking Machine Operator;RIC
+"Painter, Electrostatic";RIC
+"Engineer, Automotive";RIE
+"Engineer, Computer Systems Hardware";RIE
+"Engineer, Petroleum";RIE
+"Engineer, Part";RIE
+"Geologist, Petroleum";RIE
+Materials Scientist;RIE
+"Pilot, Commercial Airplane";RIE
+"Pilot, Executive";RIE
+"Aircraft Mechanic, Eletrical and Radio";RIE
+Airplane and Power Plant Mechanic;RIE
+Airplane Repairer;RIE
+Tool and Die Makers;RIE
+"Drafter, Detail";RIE
+Electric Motor Repairer;RIE
+Electrical Technician;RIE
+Eletrician;RIE
+Electro-Mechanical Technician;RIE
+Laboratory Technician;RIE
+Machinist;RIE
+Manager Hydroelectric Production;RIE
+Motorcycle Mechanic;RIE
+Prosthetics Technician;RIE
+Sound Technician;RIE
+Weather Observer;RIE
+Automobile Body Repairer;RIE
+Biomedical Equipment Technician;RIE
+Blaster;RIE
+Farm Medicine Operator;RIE
+Film Projectionist;RIE
+Geosmith;RIE
+"Inspector, Missile";RIE
+"Inspector, Tester, Sorter, Sampler, and Weigher";RIE
+"Line Service Attendant, Air Transportation ";RIE
+Miner;RIE
+Nuclear Power Reactor Operator;RIE
+Pesticide Applicator;RIE
+Plating ad Coating Machine Operator;RIE
+"Radio, Cellular, and Tower Equipment Installer and Repairer";RIE
+Shipfitter;RIE
+Tailor;RIE
+Welding Machine Operator;RIE
+"Engineer, Electronics";RIS
+"Engineer, Mechanical";RIS
+Forester;RIS
+Pilot/Helicopter;RIS
+Chemical Equipment Operator;RIS
+"Manager of Mechacics, Installers, and Repairers";RIS
+Cabinetmaker;RIS
+Dockworker;RIS
+"Engineer, Operating";RIS
+Elevator Techician;RIS
+Engine Tester;RIS
+"Farmer, General";RIS
+Iron and Steel Worker;RIS
+Landscape Gardener;RIS
+Multiple Machine Operator;RIS
+Nuclear Medicine Technologist;RIS
+Prospector;RIS
+Radiation Therapy Technologist;RIS
+"Repairer, Electronics and Computers ";RIS
+Telecommunications Technician;RIS
+Tools Designer;RIS
+Structural Metal Fabricator and Fitter;RIS
+"Substation Operator, Utilities";RIS
+Welder;RIS
+Skincare Specialist;RSA
+Chef;RSC
+Magnetic Resonance Imaging Technologist;RSC
+Medical Appliance Technicians  ;RSC
+Bycycle Repairer;RSC
+"Conductor, Train";RSC
+Excavator;RSC
+Lifeguard;RSC
+Mail Handler;RSC
+Press Operator;RSC
+Rigger;RSC
+Silversmith;RSC
+"Upholsterer, Chair and Furniture";RSC
+Othorist;RSE
+Prosthetist;RSE
+Wildlife Control Agent;RSE
+Baker;RSE
+Electrical Appliance Repairer;RSE
+Gamekeeper;RSE
+Home Appliance Repairer;RSE
+"Police Officer, State Highway";RSE
+Butcher;RSE
+"Cook, Hotel and Restaurat";RSE
+Dressmaker;RSE
+Farmworker;RSE
+Metal-Refining Furnace Operators and Tenders;RSE
+"Cluster, Contruction";RSE
+Mover;RSE
+"Mover, Residential";RSE
+"Painter, Construction";RSE
+"Paperhanger, Construction";RSE
+Purification Operator;RSE
+Shoe Repairer;RSE
+Anesthesiologist Assistant;RSI
+Biological Aide;RSI
+Pollution Control Technician;RSI
+Bridge Inspector;RSI
+Data Communications/Telecommunications Analyst;RSI
+Display Maker;RSI
+Emergency Medical Technician (EMT);RSI
+Farmer/ Rancher;RSI
+Fire Fighter;RSI
+Ultrasound Technologist;RSI
+Waterinary Assistant;RSI
+Driver Ambulance;RSI
+Livestock Rancher;RSI
+"Nurse, Licensed Practical";SAC
+"Teacher, Preschool";SAE
+"Teacher, Secondary School";SAE
+Clergy;SAE
+Counselor;SAE
+Day Care Worker;SAE
+Food and Drug Inspector;SAE
+Instructional Coordinator;SAE
+Music Therapist;SAE
+Mental Health Counselor;SAE
+Art Therapist;SAI
+Acquisitions Librarian;SAI
+Dental Assistant;SAI
+Dental Hygienist;SAI
+Librarian;SAI
+Marriage and Family Therapist;SAI
+Speech-Language Pathologist;SAI
+Career Counselor;SAR
+Philebotomist ;SCA
+"Psychiatric Aide, Mentally Challenged";SCA
+Radiologic Technician;SCA
+Radiologic Technologist;SCA
+Respiratory Therapy Technician;SCA
+"Special Agent, Customs";SCA
+Athletic Trainer;SCA
+Amusement Park Worker;SCA
+Chiropractor Assistant;SCA
+Border Guard;SCA
+"Coach, Professional Athletes";SCA
+Cosmetics Supervisor;SCA
+"Detective, Narcotics and Vice";SCA
+Fitness Trainer and Aerobics Instructor;SCA
+Flying Instructor;SCA
+Music Librarian;SCA
+Nanny;SCA
+Occupational Therapist;SCA
+Orderly;SCA
+Plant Supervisor;SCA
+Recruiter;SCA
+Adapted Physical Education Specialist;SCA
+"Athlete, Professional";SCA
+Audiometrist;SCA
+Locker Room/Coatroom/Dressing Room Attendant;SCA
+Job Development Specialist;SCA
+Manager of Production and Operating Workers;SCA
+Massage Therapist;SCA
+Respiratory Therapy Aide;SCA
+Speech-Language Pathology Assistant;SCA
+Casdiovascular Technologist and Technician;SCA
+Corrective Therapist;SCA
+"Evaluator, Education";SCA
+"Nurse, Midwife";SCA
+"Nurse, Acute Care";SCA
+"Nurse, Office";SCA
+Midwife;SCA
+Podiatrist;SCA
+"Physician, Naturopathic";SCA
+Respiratory Therapist;SCA
+"Faculty, Communications";SCA
+Genetic Counselor;SCA
+"Inspector, Heating and Refrigeration";SCA
+"Nurse, General Duty (RN)";SCA
+"Psychologist, Clinical";SCA
+"Psychologist, Counseling";SCA
+Clinical Nurse Specialist;SCA
+"Dietitian, Clinical";SCA
+"Dietitian, Teaching";SCA
+"Faculty, Education";SCA
+"Faculty, Library Science";SCA
+"Faculty, Sociology";SCA
+Medical Records Administrator;SCA
+"Nurse, Instructor";SCA
+Physical Therapist;SCA
+"Physician, Nurclear Medicine";SCA
+District Supervisor;SCA
+Probation/Parole Officer;SCA
+Training and Development Specialist;SCA
+"Investigator, Government Service";SCA
+"Nurse, School";SCA
+Psychiatric Technician;SCA
+"Dispatcher, Emergency";SCA
+"Faculty, Criminal Justice and Law Enforcement";SCA
+Hearing Aid Specialist;SCA
+Informatics Nurse Specialist;SCA
+"Nurse, Critical Care";SCA
+Career Counselor;SCA
+Art Therapist;SCA
+Acquisitions Librarian;SCA
+Dental Assistant;SCA
+Dental Hygienist;SCA
+Librarian;SCA
+Marriage and Family Therapist;SCA
+Speech-Language Pathologist;SCA
+"Teacher, Preschool";SCA
+"Teacher, Secondary School";SCA
+Clergy;SCA
+Counselor;SCA
+Day Care Worker;SCA
+Food and Drug Inspector;SCA
+Instructional Coordinator;SCA
+Music Therapist;SCA
+Mental Health Counselor;SCA
+"Nurse, Licensed Practical";SCA
+"Administrator, Health Care Facility";SCA
+Athletic Director;SCA
+"Director, Consumer Affairs";SCA
+"Librarian, Head";SCA
+Physical Education Instructor;SCA
+Vision Rehabilitation Therapist;SCA
+Community Worker;SCA
+Route Supervisor;SCA
+"Teacher, Adult Education";SCA
+Technical Support Specialist;SCA
+Correction Officer;SCA
+Dental Laboratory Supervisor;SCA
+Detective;SCA
+Employee Relations Specialist;SCA
+Hair Stylist;SCA
+"Manager, Department Store";SCA
+Police Officer;SCA
+Automobile Body Repair Supervisor;SCA
+Driving Instructor;SCA
+Executive Chef;SCA
+Funeral Attendant;SCA
+Home Health Aide;SCA
+"Manager, Fast Food Services";SCA
+Nurse Assistant;SCA
+"Parking Lot, Supervisor";SCA
+"Attorney, Insurance";SCA
+Chief Executive Officer;SCA
+Coordinator of Rehabilitation Services;SCA
+"Director of Guidance, Public School";SCA
+"Director, Correctional Agency";SCA
+"Faculty Member, College or University";SCA
+"Faculty, Environmental Services";SCA
+"Faculty, Ethnic and Cultural Studies";SCA
+"Faculty, History";SCA
+"Faculty, Political Science";SCA
+Political Scientist;SCA
+"President, Financial Institution";SCA
+"Psychologist, School";SCA
+School Principal;SCA
+"Faculty, Social Work";SCA
+Hearing Officer;SCA
+Historian;SCA
+"Nurse, Psychiatric";SCA
+Superintendent of Schools;SCA
+Health Educator;SCA
+Loan Officer;SCA
+"Manager, Computer Operations";SCA
+Park Naturalist;SCA
+Recreation Leader;SCA
+Research Contracts Supervisor;SCA
+"Investigator, Internal Affairs";SCA
+"Nurse, Supervisor";SCA
+"Optician, Dispensing";SCA
+Dietitian Technician;SCA
+Dean of Students;SCA
+"Faculty, Family and Consumer Sciences";SCA
+Mental Health and Substance Abuse Social Worker;SCA
+Research Director;SCA
+Substance Abuse Counselor;SCA
+Arbitrator;SCA
+"Caseworker, Family";SCA
+"Director, Community Organization";SCA
+"Director, Religious Education";SCA
+"Director, Special Education";SCA
+"Director, Television";SCA
+Field Contractor;SCA
+"Manager, Employee Welfare";SCA
+"Producer, Radio and TV";SCA
+Cosmetologist;SCA
+City Manager;SCA
+Country Agricultural Agent;SCA
+Director/Community/Health Nursing;SCA
+"Director, Library";SCA
+Financial Aid Officer;SCA
+Social Worker;SCA
+Special Education Supervisor;SCA
+Vocational Rehabilitation Counselor;SCA
+Welfare Director;SCA
+Academic Advisor;SCA
+Bank Teller Supervisor;SCA
+Casework Supervisor;SCA
+Child Development Specialist;SCA
+Claims Agent;SCA
+Community and Social Service Specialist;SCA
+Director of Philanthropy/Fundraising;SCA
+"Counselor, Camp";SCA
+"Director, Film";SCA
+Credit Counselor;SCA
+"Director, Volunteer Services";SCA
+Import-Export Agent;SCA
+"Manager, Training and Development";SCA
+Network Administrator/Network Control Supervisor;SCA
+Patient Representative;SCA
+Personnel Manager;SCA
+Recreational Therapist;SCA
+"Safety Manager, Medical Services";SCA
+Survey Worker Supervisor;SCA
+"Teacher, Elementary School, Special Education";SCA
+"Teacher, Kindergarten";SCA
+"Teacher, Middle School, Special Education";SCA
+"Teacher, Secondary School, Special Education";SCA
+Tutor;SCA
+Community Program Aide;SCA
+Paralegal;SCA
+Residential Advisor;SCA
+"Teacher, Preschool, Special Education";SCA
+Wedding Consultant;SCA
+Bartender;SCA
+Deputy United States Marshal;SCA
+"Dispatcher, Traffic or system";SCA
+Homemaker;SCA
+"Passenger Service Representative, Air Transportation";SCA
+Psychiatric Aide;SCA
+Security Guard;SCA
+Food Service/Nutrition Aide;SCA
+Medical Assistant;SCA
+Occupational Therapy Aide;SCA
+Physical Therapist Assistat;SCA
+Police Officer/Crime Prevention;SCA
+Insurance Claims Clerk;SCA
+Library Assistant/Clerical;SCA
+"Projectionist, Chief";SCA
+Lobby Attendant and Ticket Taker;SCA
+Fast Food Worker;SCA
+Recreation Aide;SCA
+Community Health Worker;SCA
+Appeals Referee;SCA
+School/Guidance Counselor;SCA
+Air Traffic Control Specialist;SCA
+"Announcer, Radio and TV Broadcasting";SCA
+Employment Interviewer;SCA
+"Interpreter, Sign Language";SCA
+Manager of Office and Administrative Support Workers;SCA
+Personnel Recruiter;SCA
+Psychiatric Aide Instructur;SCA
+Social Services Aide;SCA
+Occupational Therapy Assistant;SCA
+"Police Officer, Safety Instruction";SCA
+Teacher Aide;SCA
+Blind Aide;SCA
+Gaming and Sports Book Writer;SCA
+Gaming Dealer;SCA
+New Accounts Clerk;SCA
+Taxicab Coordinator;SCA
+Appeals Referee;SCE
+School/Guidance Counselor;SCE
+Air Traffic Control Specialist;SCE
+"Announcer, Radio and TV Broadcasting";SCE
+Employment Interviewer;SCE
+"Interpreter, Sign Language";SCE
+Manager of Office and Administrative Support Workers;SCE
+Personnel Recruiter;SCE
+Psychiatric Aide Instructur;SCE
+Social Services Aide;SCE
+Occupational Therapy Assistant;SCE
+"Police Officer, Safety Instruction";SCE
+Teacher Aide;SCE
+Blind Aide;SCE
+Gaming and Sports Book Writer;SCE
+Gaming Dealer;SCE
+New Accounts Clerk;SCE
+Taxicab Coordinator;SCE
+Community Health Worker;SCI
+Food Service/Nutrition Aide;SCR
+Medical Assistant;SCR
+Occupational Therapy Aide;SCR
+Physical Therapist Assistat;SCR
+Police Officer/Crime Prevention;SCR
+Insurance Claims Clerk;SCR
+Library Assistant/Clerical;SCR
+"Projectionist, Chief";SCR
+Lobby Attendant and Ticket Taker;SCR
+Fast Food Worker;SCR
+Recreation Aide;SCR
+Dean of Students;SEA
+"Faculty, Family and Consumer Sciences";SEA
+Mental Health and Substance Abuse Social Worker;SEA
+Research Director;SEA
+Substance Abuse Counselor;SEA
+Arbitrator;SEA
+"Caseworker, Family";SEA
+"Director, Community Organization";SEA
+"Director, Religious Education";SEA
+"Director, Special Education";SEA
+"Director, Television";SEA
+Field Contractor;SEA
+"Manager, Employee Welfare";SEA
+"Producer, Radio and TV";SEA
+Cosmetologist;SEA
+City Manager;SEC
+Country Agricultural Agent;SEC
+Director/Community/Health Nursing;SEC
+"Director, Library";SEC
+Financial Aid Officer;SEC
+Social Worker;SEC
+Special Education Supervisor;SEC
+Vocational Rehabilitation Counselor;SEC
+Welfare Director;SEC
+Academic Advisor;SEC
+Bank Teller Supervisor;SEC
+Casework Supervisor;SEC
+Child Development Specialist;SEC
+Claims Agent;SEC
+Community and Social Service Specialist;SEC
+Director of Philanthropy/Fundraising;SEC
+"Counselor, Camp";SEC
+"Director, Film";SEC
+Credit Counselor;SEC
+"Director, Volunteer Services";SEC
+Import-Export Agent;SEC
+"Manager, Training and Development";SEC
+Network Administrator/Network Control Supervisor;SEC
+Patient Representative;SEC
+Personnel Manager;SEC
+Recreational Therapist;SEC
+"Safety Manager, Medical Services";SEC
+Survey Worker Supervisor;SEC
+"Teacher, Elementary School, Special Education";SEC
+"Teacher, Kindergarten";SEC
+"Teacher, Middle School, Special Education";SEC
+"Teacher, Secondary School, Special Education";SEC
+Tutor;SEC
+Community Program Aide;SEC
+Paralegal;SEC
+Residential Advisor;SEC
+"Teacher, Preschool, Special Education";SEC
+Wedding Consultant;SEC
+Bartender;SEC
+Deputy United States Marshal;SEC
+"Dispatcher, Traffic or system";SEC
+Homemaker;SEC
+"Passenger Service Representative, Air Transportation";SEC
+Psychiatric Aide;SEC
+Security Guard;SEC
+"Attorney, Insurance";SEI
+Chief Executive Officer;SEI
+Coordinator of Rehabilitation Services;SEI
+"Director of Guidance, Public School";SEI
+"Director, Correctional Agency";SEI
+"Faculty Member, College or University";SEI
+"Faculty, Environmental Services";SEI
+"Faculty, Ethnic and Cultural Studies";SEI
+"Faculty, History";SEI
+"Faculty, Political Science";SEI
+Political Scientist;SEI
+"President, Financial Institution";SEI
+"Psychologist, School";SEI
+School Principal;SEI
+"Faculty, Social Work";SEI
+Hearing Officer;SEI
+Historian;SEI
+"Nurse, Psychiatric";SEI
+Superintendent of Schools;SEI
+Health Educator;SEI
+Loan Officer;SEI
+"Manager, Computer Operations";SEI
+Park Naturalist;SEI
+Recreation Leader;SEI
+Research Contracts Supervisor;SEI
+"Investigator, Internal Affairs";SEI
+"Nurse, Supervisor";SEI
+"Optician, Dispensing";SEI
+Dietitian Technician;SEI
+"Administrator, Health Care Facility";SER
+Athletic Director;SER
+"Director, Consumer Affairs";SER
+"Librarian, Head";SER
+Physical Education Instructor;SER
+Vision Rehabilitation Therapist;SER
+Community Worker;SER
+Route Supervisor;SER
+"Teacher, Adult Education";SER
+Technical Support Specialist;SER
+Correction Officer;SER
+Dental Laboratory Supervisor;SER
+Detective;SER
+Employee Relations Specialist;SER
+Hair Stylist;SER
+"Manager, Department Store";SER
+Police Officer;SER
+Automobile Body Repair Supervisor;SER
+Driving Instructor;SER
+Executive Chef;SER
+Funeral Attendant;SER
+Home Health Aide;SER
+"Manager, Fast Food Services";SER
+Nurse Assistant;SER
+"Parking Lot, Supervisor";SER
+"Faculty, Communications";SIA
+Genetic Counselor;SIA
+"Inspector, Heating and Refrigeration";SIA
+"Nurse, General Duty (RN)";SIA
+"Psychologist, Clinical";SIA
+"Psychologist, Counseling";SIA
+"Dispatcher, Emergency";SIC
+"Faculty, Criminal Justice and Law Enforcement";SIC
+Hearing Aid Specialist;SIC
+Informatics Nurse Specialist;SIC
+"Nurse, Critical Care";SIC
+Clinical Nurse Specialist;SIE
+"Dietitian, Clinical";SIE
+"Dietitian, Teaching";SIE
+"Faculty, Education";SIE
+"Faculty, Library Science";SIE
+"Faculty, Sociology";SIE
+Medical Records Administrator;SIE
+"Nurse, Instructor";SIE
+Physical Therapist;SIE
+"Physician, Nurclear Medicine";SIE
+District Supervisor;SIE
+Probation/Parole Officer;SIE
+Training and Development Specialist;SIE
+"Investigator, Government Service";SIE
+"Nurse, School";SIE
+Psychiatric Technician;SIE
+Casdiovascular Technologist and Technician;SIR
+Corrective Therapist;SIR
+"Evaluator, Education";SIR
+"Nurse, Midwife";SIR
+"Nurse, Acute Care";SIR
+"Nurse, Office";SIR
+Midwife;SIR
+Podiatrist;SIR
+"Physician, Naturopathic";SIR
+Respiratory Therapist;SIR
+Philebotomist ;SRA
+"Psychiatric Aide, Mentally Challenged";SRA
+Radiologic Technician;SRA
+Radiologic Technologist;SRA
+Respiratory Therapy Technician;SRA
+"Special Agent, Customs";SRA
+Athletic Trainer;SRA
+Amusement Park Worker;SRA
+Chiropractor Assistant;SRA
+Border Guard;SRA
+"Coach, Professional Athletes";SRA
+Cosmetics Supervisor;SRA
+"Detective, Narcotics and Vice";SRA
+Fitness Trainer and Aerobics Instructor;SRA
+Flying Instructor;SRA
+Music Librarian;SRA
+Nanny;SRA
+Occupational Therapist;SRA
+Orderly;SRA
+Plant Supervisor;SRA
+Recruiter;SRA
+Adapted Physical Education Specialist;SRA
+"Athlete, Professional";SRA
+Audiometrist;SRA
+Locker Room/Coatroom/Dressing Room Attendant;SRA
+Job Development Specialist;SRA
+Manager of Production and Operating Workers;SRA
+Massage Therapist;SRA
+Respiratory Therapy Aide;SRA
+Speech-Language Pathology Assistant;SRA
+Casdiovascular Technologist and Technician;SRA
+Corrective Therapist;SRA
+"Evaluator, Education";SRA
+"Nurse, Midwife";SRA
+"Nurse, Acute Care";SRA
+"Nurse, Office";SRA
+Midwife;SRA
+Podiatrist;SRA
+"Physician, Naturopathic";SRA
+Respiratory Therapist;SRA
+"Faculty, Communications";SRA
+Genetic Counselor;SRA
+"Inspector, Heating and Refrigeration";SRA
+"Nurse, General Duty (RN)";SRA
+"Psychologist, Clinical";SRA
+"Psychologist, Counseling";SRA
+Clinical Nurse Specialist;SRA
+"Dietitian, Clinical";SRA
+"Dietitian, Teaching";SRA
+"Faculty, Education";SRA
+"Faculty, Library Science";SRA
+"Faculty, Sociology";SRA
+Medical Records Administrator;SRA
+"Nurse, Instructor";SRA
+Physical Therapist;SRA
+"Physician, Nurclear Medicine";SRA
+District Supervisor;SRA
+Probation/Parole Officer;SRA
+Training and Development Specialist;SRA
+"Investigator, Government Service";SRA
+"Nurse, School";SRA
+Psychiatric Technician;SRA
+"Dispatcher, Emergency";SRA
+"Faculty, Criminal Justice and Law Enforcement";SRA
+Hearing Aid Specialist;SRA
+Informatics Nurse Specialist;SRA
+"Nurse, Critical Care";SRA
+Career Counselor;SRA
+Art Therapist;SRA
+Acquisitions Librarian;SRA
+Dental Assistant;SRA
+Dental Hygienist;SRA
+Librarian;SRA
+Marriage and Family Therapist;SRA
+Speech-Language Pathologist;SRA
+"Teacher, Preschool";SRA
+"Teacher, Secondary School";SRA
+Clergy;SRA
+Counselor;SRA
+Day Care Worker;SRA
+Food and Drug Inspector;SRA
+Instructional Coordinator;SRA
+Music Therapist;SRA
+Mental Health Counselor;SRA
+"Nurse, Licensed Practical";SRA
+"Administrator, Health Care Facility";SRA
+Athletic Director;SRA
+"Director, Consumer Affairs";SRA
+"Librarian, Head";SRA
+Physical Education Instructor;SRA
+Vision Rehabilitation Therapist;SRA
+Community Worker;SRA
+Route Supervisor;SRA
+"Teacher, Adult Education";SRA
+Technical Support Specialist;SRA
+Correction Officer;SRA
+Dental Laboratory Supervisor;SRA
+Detective;SRA
+Employee Relations Specialist;SRA
+Hair Stylist;SRA
+"Manager, Department Store";SRA
+Police Officer;SRA
+Automobile Body Repair Supervisor;SRA
+Driving Instructor;SRA
+Executive Chef;SRA
+Funeral Attendant;SRA
+Home Health Aide;SRA
+"Manager, Fast Food Services";SRA
+Nurse Assistant;SRA
+"Parking Lot, Supervisor";SRA
+"Attorney, Insurance";SRA
+Chief Executive Officer;SRA
+Coordinator of Rehabilitation Services;SRA
+"Director of Guidance, Public School";SRA
+"Director, Correctional Agency";SRA
+"Faculty Member, College or University";SRA
+"Faculty, Environmental Services";SRA
+"Faculty, Ethnic and Cultural Studies";SRA
+"Faculty, History";SRA
+"Faculty, Political Science";SRA
+Political Scientist;SRA
+"President, Financial Institution";SRA
+"Psychologist, School";SRA
+School Principal;SRA
+"Faculty, Social Work";SRA
+Hearing Officer;SRA
+Historian;SRA
+"Nurse, Psychiatric";SRA
+Superintendent of Schools;SRA
+Health Educator;SRA
+Loan Officer;SRA
+"Manager, Computer Operations";SRA
+Park Naturalist;SRA
+Recreation Leader;SRA
+Research Contracts Supervisor;SRA
+"Investigator, Internal Affairs";SRA
+"Nurse, Supervisor";SRA
+"Optician, Dispensing";SRA
+Dietitian Technician;SRA
+Dean of Students;SRA
+"Faculty, Family and Consumer Sciences";SRA
+Mental Health and Substance Abuse Social Worker;SRA
+Research Director;SRA
+Substance Abuse Counselor;SRA
+Arbitrator;SRA
+"Caseworker, Family";SRA
+"Director, Community Organization";SRA
+"Director, Religious Education";SRA
+"Director, Special Education";SRA
+"Director, Television";SRA
+Field Contractor;SRA
+"Manager, Employee Welfare";SRA
+"Producer, Radio and TV";SRA
+Cosmetologist;SRA
+City Manager;SRA
+Country Agricultural Agent;SRA
+Director/Community/Health Nursing;SRA
+"Director, Library";SRA
+Financial Aid Officer;SRA
+Social Worker;SRA
+Special Education Supervisor;SRA
+Vocational Rehabilitation Counselor;SRA
+Welfare Director;SRA
+Academic Advisor;SRA
+Bank Teller Supervisor;SRA
+Casework Supervisor;SRA
+Child Development Specialist;SRA
+Claims Agent;SRA
+Community and Social Service Specialist;SRA
+Director of Philanthropy/Fundraising;SRA
+"Counselor, Camp";SRA
+"Director, Film";SRA
+Credit Counselor;SRA
+"Director, Volunteer Services";SRA
+Import-Export Agent;SRA
+"Manager, Training and Development";SRA
+Network Administrator/Network Control Supervisor;SRA
+Patient Representative;SRA
+Personnel Manager;SRA
+Recreational Therapist;SRA
+"Safety Manager, Medical Services";SRA
+Survey Worker Supervisor;SRA
+"Teacher, Elementary School, Special Education";SRA
+"Teacher, Kindergarten";SRA
+"Teacher, Middle School, Special Education";SRA
+"Teacher, Secondary School, Special Education";SRA
+Tutor;SRA
+Community Program Aide;SRA
+Paralegal;SRA
+Residential Advisor;SRA
+"Teacher, Preschool, Special Education";SRA
+Wedding Consultant;SRA
+Bartender;SRA
+Deputy United States Marshal;SRA
+"Dispatcher, Traffic or system";SRA
+Homemaker;SRA
+"Passenger Service Representative, Air Transportation";SRA
+Psychiatric Aide;SRA
+Security Guard;SRA
+Food Service/Nutrition Aide;SRA
+Medical Assistant;SRA
+Occupational Therapy Aide;SRA
+Physical Therapist Assistat;SRA
+Police Officer/Crime Prevention;SRA
+Insurance Claims Clerk;SRA
+Library Assistant/Clerical;SRA
+"Projectionist, Chief";SRA
+Lobby Attendant and Ticket Taker;SRA
+Fast Food Worker;SRA
+Recreation Aide;SRA
+Community Health Worker;SRA
+Appeals Referee;SRA
+School/Guidance Counselor;SRA
+Air Traffic Control Specialist;SRA
+"Announcer, Radio and TV Broadcasting";SRA
+Employment Interviewer;SRA
+"Interpreter, Sign Language";SRA
+Manager of Office and Administrative Support Workers;SRA
+Personnel Recruiter;SRA
+Psychiatric Aide Instructur;SRA
+Social Services Aide;SRA
+Occupational Therapy Assistant;SRA
+"Police Officer, Safety Instruction";SRA
+Teacher Aide;SRA
+Blind Aide;SRA
+Gaming and Sports Book Writer;SRA
+Gaming Dealer;SRA
+New Accounts Clerk;SRA
+Taxicab Coordinator;SRA
+"Athlete, Professional";SRC
+Audiometrist;SRC
+Locker Room/Coatroom/Dressing Room Attendant;SRC
+Job Development Specialist;SRC
+Manager of Production and Operating Workers;SRC
+Massage Therapist;SRC
+Respiratory Therapy Aide;SRC
+Speech-Language Pathology Assistant;SRC
+Athletic Trainer;SRE
+Amusement Park Worker;SRE
+Chiropractor Assistant;SRE
+Border Guard;SRE
+"Coach, Professional Athletes";SRE
+Cosmetics Supervisor;SRE
+"Detective, Narcotics and Vice";SRE
+Fitness Trainer and Aerobics Instructor;SRE
+Flying Instructor;SRE
+Music Librarian;SRE
+Nanny;SRE
+Occupational Therapist;SRE
+Orderly;SRE
+Plant Supervisor;SRE
+Recruiter;SRE
+Adapted Physical Education Specialist;SRE
+Philebotomist ;SRI
+"Psychiatric Aide, Mentally Challenged";SRI
+Radiologic Technician;SRI
+Radiologic Technologist;SRI
+Respiratory Therapy Technician;SRI
+"Special Agent, Customs";SRI
+Intelligence Research Specialist;AEI
+Music Arranger;AEI
+Actors;AEI
+Package Designer;AEI
+Puppeteer;AEI
+Screen Writer;AEI
+Intelligence Research Specialist (AEI);AIE
+Music Arranger (AEI);AIE
+Actors (AEI);AIE
+Package Designer (AEI);AIE
+Puppeteer (AEI);AIE
+Screen Writer (AEI);AIE
+Director of Vital Statistics (EAI);AIE
+"Manager, Records Analysis (EAI)";AIE
+Patent Agent (EAI);AIE
+Insect and Disease Inspectio Supervisor (EAI);AIE
+Communications Consultant (EIA);AIE
+Vendor Quality Supervisor (EIA);AIE
+"Artist, Police";ASC
+"Musician, Instrumental";ASC
+Optical Effects Layout Person;ASC
+Singing Messenger;ASC
+"Artist, Police (ASC)";SAC
+"Musician, Instrumental (ASC)";SAC
+Optical Effects Layout Person (ASC);SAC
+Singing Messenger (ASC);SAC
+Acupunturist (IRE);SEA
+Anthropologist (IRE);SEA
+Archeologist (IRE);SEA
+"Architect, Marine (IRE)";SEA
+Astronomer (IRE);SEA
+Biophysicist (IRE);SEA
+Dairy Scientist (IRE);SEA
+"Dentist, Public Health (IRE)";SEA
+"Engineer, Environmental (IRE)";SEA
+Environmental Economist (IRE);SEA
+Epidemiologist (IRE);SEA
+Ethnologist (IRE);SEA
+Geographer (IRE);SEA
+Hydrologist (IRE);SEA
+Marine Biologist (IRE);SEA
+Auto Design Detailer (IRE);SEA
+"Ballistics Expert, Forensic (IRE)";SEA
+Chemist (IRE);SEA
+Computer Systems Engineer/Architect (IRE);SEA
+Computer Systems Hardware Analyst (IRE);SEA
+Conservations Scientist (IRE);SEA
+Database Administrator (IRE);SEA
+"Drafter, Electrical (IRE)";SEA
+"Drafter, Mechanical (IRE)";SEA
+"Engineer, Nuclear (IRE)";SEA
+"Engineer, Software (IRE)";SEA
+"Engineer, Water/Wastewater (IRE)";SEA
+"Engineer, Wind Energy (IRE)";SEA
+Electronics Technician (IRE);SEA
+"Engineer, Aerospace (IRE)";SEA
+"Engineer, Agricultural (IRE)";SEA
+"Engineer, Biochemical (IRE)";SEA
+"Engineer, Biomedical (IRE)";SEA
+"Engineer, Ceramic Design (IRE)";SEA
+"Engineer, Chemical (IRE)";SEA
+"Engineer, Civil (IRE)";SEA
+"Engineer, Electrical (IRE)";SEA
+"Engineer, Irrigation (IRE)";SEA
+"Engineer, Marine (IRE)";SEA
+Geologist (IRE);SEA
+Hazardous Waste Management Specialist (IRE);SEA
+Histotechnologist and Histologic Technician (IRE);SEA
+Industrial Engineering Technician (IRE);SEA
+Industrial Hygienist (IRE);SEA
+Laser Technician (IRE);SEA
+Medical Laboratory Assistant (IRE);SEA
+Metallographer (IRE);SEA
+"Metallurgist, Physical (IRE)";SEA
+Operations Research Analyst  (IRE);SEA
+"Pilot, Airplane (IRE)";SEA
+Pathologist (IRE);SEA
+Periodontist (IRE);SEA
+Pharmacologist (IRE);SEA
+Physiatrist (IRE);SEA
+Physicist (IRE);SEA
+Physiologist (IRE);SEA
+Seismologist (IRE);SEA
+Soil Conservationist (IRE);SEA
+Test Technician (IRE);SEA
+Tissue Technologist (IRE);SEA
+"Toxicologist, Chief (IRE)";SEA
+Statistician (IRE);SEA
+"Surveyor, Geodetic (IRE)";SEA
+Veterinary Livestock Inspector (IRE);SEA
+Video Game Programmer (IRE);SEA
+Zoologist (IRE);SEA
+Computer Network Support Specialist (ISC);SCI
+Linguist (ISC);SCI
+Market Research Analyst (ISC);SCI
+Microbiologist (ISC);SCI
+"Physician, Occupational (ISC)";SCI
+"Technician, Dialysis (ISC)";SCI
+Clinical Data Manager (CIS);SCI
+Computer Security Coordinator (CIS);SCI
+Computer Security Specialist (CIS);SCI
+Opthalmic Medical Technician (CIS);SCI
+Opthalmic Medical Technologist (CIS);SCI
+Opthalmic Technician (CIS);SCI
+Polygrapgh Examiner (CIS);SCI
+Social Science Research Assistant (CIS);SCI
+Abstractor (CSI);SCI
+Accountant (CSI);SCI
+Freight Forwarder (CSI);SCI
+Medical Records Clerk (CSI);SCI
+Proofreader (CSI);SCI
+"Dispatcher, Emergency (SIC)";SCI
+"Faculty, Criminal Justice and Law Enforcement (SIC)";SCI
+Hearing Aid Specialist (SIC);SCI
+Informatics Nurse Specialist (SIC);SCI
+"Nurse, Critical Care (SIC)";SCI
+Community Health Worker (SCI);SCI
+Location Manager (EAR);ERA
+Preparation Plant Supervisor (EAR);ERA
+Environmental Restoration Planner (REA);ERA
+"Cellar Supervisor, Winemaking (REA)";ERA
+"Cook, Chief (REA)";ERA
+"Process Artist, Printing and Publishing (REA)";ERA
+Dental Ceramist Assistant (REA);ERA
+"Engraver, Glass Products (REA)";ERA
+Livestock Yard Supervisor (REA);ERA
+Marine Service Manager (REA);ERA
+Horticulturist (RAE);ERA
+Piano Technician (RAE);ERA
+"Model Maker, Pattery ad Porcelain (RAE)";ERA
+Sound Effects Technician (RAE);ERA
+Miniature Set Constructor (ARE);ERA
+Prepress Technician (ARE);ERA
+Cake Decorator (ARE);ERA
+"Displayer, Merchandise (ARE)";ERA
+Floral Designer (ARE);ERA
+Stone Carver (ARE);ERA
+"Painter, Hand (ARE)";ERA
+"Artist, Body Makeup";AER
+"Artist, Fashion";AER
+Acrobat;AER
+Commercial Designer;AER
+Dancer;AER
+Equestrian;AER
+Fabric Designer;AER
+Graphic Designer;AER
+Illustrator;AER
+Memorial Designer;AER
+"Salesperson, Flowers";AER
+Sculptor;AER
+"Artist, Body Makeup (AER)";ERA
+"Artist, Fashion (AER)";ERA
+Acrobat (AER);ERA
+Commercial Designer (AER);ERA
+Dancer (AER);ERA
+Equestrian (AER);ERA
+Fabric Designer (AER);ERA
+Graphic Designer (AER);ERA
+Illustrator (AER);ERA
+Memorial Designer (AER);ERA
+"Salesperson, Flowers (AER)";ERA
+Sculptor (AER);ERA
+"Illustrator, Medical and Scientific (AIE)";EAI
+"Set Designer, Theater and Film (AIE)";EAI
+Video Game Designer (AIE);EAI
+"Writer, Fiction and Nonfiction (AIE)";EAI
+Intelligence Research Specialist (AEI);EAI
+Music Arranger (AEI);EAI
+Actors (AEI);EAI
+Package Designer (AEI);EAI
+Puppeteer (AEI);EAI
+Screen Writer (AEI);EAI
+Communications Consultant (EIA);EAI
+Vendor Quality Supervisor (EIA);EAI
+Clinical Data Manager (CIS);CRI
+Computer Security Coordinator (CIS);CRI
+Computer Security Specialist (CIS);CRI
+Polygraph Examiner (CIS);CRI
+Social Science Research Assistant (CIS);CRI
+Ophthalmic Medical Technician (CIS);CRI
+Ophthalmic Medical Technologist (CIS);CRI
+Ophthalmic Technician (CIS);CRI
+"Engineer, Optical (RIC)";CRI
+Electrical Engineering Technologist (RIC);CRI
+Electronics Engineering Technologist (RIC);CRI
+Fuel Cell Technician (RIC);CRI
+Geological and Petroleum Technician (RIC);CRI
+Manufacturing Engineering Tecchnologist (RIC);CRI
+Mechanical Engineering Technologist (RIC);CRI
+Nanotechnology Engineering Technician (RIC);CRI
+Precision Agriculture Technician (RIC);CRI
+Quality Assurance Analyst/Tester (RIC);CRI
+Radio Frequency Identification Device Specialist (RIC);CRI
+Sollar Energy Systems Designer (RIC);CRI
+Automobile Service Station Mechanic (RIC);CRI
+Automotive Engineering Technician (RIC);CRI
+"Camera Operator, Television, Video, and Film (RIC)";CRI
+Electromechanical Engineering Technologist (RIC);CRI
+Endoscopy Technician (RIC);CRI
+"Engineering Technician, Civil (RIC)";CRI
+Instrumentation Technician (RIC);CRI
+Laboratory Tester (RIC);CRI
+Manufacturing Production Technician (RIC);CRI
+Agricultural Inspector (RIC);CRI
+"Assembler and Tester, Electronics (RIC)";CRI
+Chemical Plant and System Operator (RIC);CRI
+Geothermal Technician (RIC);CRI
+Hydhselectic Plant Technician (RIC);CRI
+Mechanical Door Repairer (RIC);CRI
+Sewing Machine Operator (RIC);CRI
+Weatherization Installer Technician (RIC);CRI
+Wind Turbine Service Technician (RIC);CRI
+Woodworking Machine Operator (RIC);CRI
+"Painter, Electrostatic (RIC)";CRI
+"Drafter, Architectural (RCI)";CRI
+"Engineer, Utilities (RCI)";CRI
+Media and Communication Equipment Worker (RCI);CRI
+Nuclear Technician (RCI);CRI
+Automobile Mechanic (RCI);CRI
+Calibration Laboratory Technician (RCI);CRI
+Computer Aided Design Technician (RCI);CRI
+"Construction Checker, Utilities (RCI)";CRI
+Electrocardiograph Technician (RCI);CRI
+Embalmer (RCI);CRI
+Environmental Control Installer (RCI);CRI
+Planetarium Technician (RCI);CRI
+Satellite Communications Technician (RCI);CRI
+Tool and Die Maker (RCI);CRI
+Airport Utility Worker (RCI);CRI
+"Assembler, Aircarft (RCI)";CRI
+"Assembler, Engine (RCI)";CRI
+"Assembler, Equipment (RCI)";CRI
+Audiovisual Technician (RCI);CRI
+Biofuel Processing Technician (RCI);CRI
+Biomass Plant Technician (RCI);CRI
+Custom Van Converter (RCI);CRI
+Hazardous Material Remover (RCI);CRI
+Health Equipment Servicer (RCI);CRI
+"Inspector, Assembly (RCI)";CRI
+"Inspectors, Testers, Sorters, Samplers, and Weighers  (RCI)";CRI
+Insulation Worker (RCI);CRI
+Inventory Clerk (RCI);CRI
+Machine Maintenance/Repair Worker (RCI);CRI
+Maintenance Worker (RCI);CRI
+Medical Equipment Repairer (RCI);CRI
+Microelectronics Technician (RCI);CRI
+Mining Machine Operator (RCI);CRI
+Photo Technician (RCI);CRI
+Printing Machine Operator (RCI);CRI
+"Quality Control Technician, Manufactured Products (RCI)";CRI
+"Service Unit Operator, Oil, Gas, and Mining (RCI)";CRI
+Solar Fabrication Technician (RCI);CRI
+Solar Photovoltaic Installer (RCI);CRI
+Solar Thermal Installer/Technician (RCI);CRI
+Animal Nursery Worker (RCI);CRI
+Reinforcing Iron and Rebar Worker (RCI);CRI
+"Roustabout, Oil and Gas (RCI)";CRI
+Molecular and Cellular Biologist (IRC);CRI
+Nanotechnology Engineering Technologist  (IRC);CRI
+Non-Destructive Testing Specialist (IRC);CRI
+Material Scheduler (IRC);CRI
+Mathematical Technician (IRC);CRI
+Printed Circuit Designer (IRC);CRI
+Photogrammetrist (IRC);CRI
+Pulmonary Function Technician (IRC);CRI
+Quality Control Analyst (IRC);CRI
+Radiopharmacist (IRC);CRI
+Remote Sensing Scientist/Technologist (IRC);CRI
+Remote Sensing Technician  (IRC);CRI
+Software Developer (IRC);CRI
+Soil Conservation Technician (IRC);CRI
+Toxicologist (IRC);CRI
+Stress Analyst (IRC);CRI
+Water Resources Specialist (IRC);CRI
+Wind Energy Project Manager (IRC);CRI
+Cephalometric Analyst (IRC);CRI
+Biological Scientist (IRC);CRI
+Biostatistician (IRC);CRI
+Climate Change Analyst (IRC);CRI
+Computer Programmer (IRC);CRI
+Crime Laboratory Analyst (IRC);CRI
+Cytogenetic Technologist (IRC);CRI
+"Drafter, aeronautical (IRC)";CRI
+"Drafter, Structural (IRC)";CRI
+e-Commerce Project Developer (IRC);CRI
+"Engineer, Microsystems (IRC)";CRI
+"Engineer, Nanosystems (IRC)";CRI
+"Engineer, Robotics (IRC)";CRI
+"Engineer, Validation (IRC)";CRI
+"Engineering Assistant, Mechanical Equipment (IRC)";CRI
+Geological Sample Test Technician (IRC);CRI
+Geospatial Information Scientist and Technologist (IRC);CRI
+Fire Investigator (IRC);CRI
+Forensic Science Technician (IRC);CRI
+Industrial Ecologist (IRC);CRI
+Bioinformatics Scientist (ICR);CRI
+"Analyst, Management (ICR)";CRI
+"Auditor, Internal (ICR)";CRI
+Cytotechnologist (ICR);CRI
+"Drafter, Chief (ICR)";CRI
+"Engineer, Mechatronics (ICR)";CRI
+Geographic Information Systems Technician (ICR);CRI
+Navigator (ICR);CRI
+Software Quality Assurance Engineer and Tester (ICR);CRI
+Transportation Planner (ICR);CRI
+Loss Prevention Specialist (ICR);CRI
+"Engineer, Optical (RIC)";CIR
+Electrical Engineering Technologist (RIC);CIR
+Electronics Engineering Technologist (RIC);CIR
+Fuel Cell Technician (RIC);CIR
+Geological and Petroleum Technician (RIC);CIR
+Manufacturing Engineering Tecchnologist (RIC);CIR
+Mechanical Engineering Technologist (RIC);CIR
+Nanotechnology Engineering Technician (RIC);CIR
+Precision Agriculture Technician (RIC);CIR
+Quality Assurance Analyst/Tester (RIC);CIR
+Radio Frequency Identification Device Specialist (RIC);CIR
+Sollar Energy Systems Designer (RIC);CIR
+Automobile Service Station Mechanic (RIC);CIR
+Automotive Engineering Technician (RIC);CIR
+"Camera Operator, Television, Video, and Film (RIC)";CIR
+Electromechanical Engineering Technologist (RIC);CIR
+Endoscopy Technician (RIC);CIR
+"Engineering Technician, Civil (RIC)";CIR
+Instrumentation Technician (RIC);CIR
+Laboratory Tester (RIC);CIR
+Manufacturing Production Technician (RIC);CIR
+Agricultural Inspector (RIC);CIR
+"Assembler and Tester, Electronics (RIC)";CIR
+Chemical Plant and System Operator (RIC);CIR
+Geothermal Technician (RIC);CIR
+Hydhselectic Plant Technician (RIC);CIR
+Mechanical Door Repairer (RIC);CIR
+Sewing Machine Operator (RIC);CIR
+Weatherization Installer Technician (RIC);CIR
+Wind Turbine Service Technician (RIC);CIR
+Woodworking Machine Operator (RIC);CIR
+"Painter, Electrostatic (RIC)";CIR
+"Drafter, Architectural (RCI)";CIR
+"Engineer, Utilities (RCI)";CIR
+Media and Communication Equipment Worker (RCI);CIR
+Nuclear Technician (RCI);CIR
+Automobile Mechanic (RCI);CIR
+Calibration Laboratory Technician (RCI);CIR
+Computer Aided Design Technician (RCI);CIR
+"Construction Checker, Utilities (RCI)";CIR
+Electrocardiograph Technician (RCI);CIR
+Embalmer (RCI);CIR
+Environmental Control Installer (RCI);CIR
+Planetarium Technician (RCI);CIR
+Satellite Communications Technician (RCI);CIR
+Tool and Die Maker (RCI);CIR
+Airport Utility Worker (RCI);CIR
+"Assembler, Aircarft (RCI)";CIR
+"Assembler, Engine (RCI)";CIR
+"Assembler, Equipment (RCI)";CIR
+Audiovisual Technician (RCI);CIR
+Biofuel Processing Technician (RCI);CIR
+Biomass Plant Technician (RCI);CIR
+Custom Van Converter (RCI);CIR
+Hazardous Material Remover (RCI);CIR
+Health Equipment Servicer (RCI);CIR
+"Inspector, Assembly (RCI)";CIR
+"Inspectors, Testers, Sorters, Samplers, and Weighers  (RCI)";CIR
+Insulation Worker (RCI);CIR
+Inventory Clerk (RCI);CIR
+Machine Maintenance/Repair Worker (RCI);CIR
+Maintenance Worker (RCI);CIR
+Medical Equipment Repairer (RCI);CIR
+Microelectronics Technician (RCI);CIR
+Mining Machine Operator (RCI);CIR
+Photo Technician (RCI);CIR
+Printing Machine Operator (RCI);CIR
+"Quality Control Technician, Manufactured Products (RCI)";CIR
+"Service Unit Operator, Oil, Gas, and Mining (RCI)";CIR
+Solar Fabrication Technician (RCI);CIR
+Solar Photovoltaic Installer (RCI);CIR
+Solar Thermal Installer/Technician (RCI);CIR
+Animal Nursery Worker (RCI);CIR
+Reinforcing Iron and Rebar Worker (RCI);CIR
+"Roustabout, Oil and Gas (RCI)";CIR
+Molecular and Cellular Biologist (IRC);CIR
+Nanotechnology Engineering Technologist  (IRC);CIR
+Non-Destructive Testing Specialist (IRC);CIR
+Material Scheduler (IRC);CIR
+Mathematical Technician (IRC);CIR
+Printed Circuit Designer (IRC);CIR
+Photogrammetrist (IRC);CIR
+Pulmonary Function Technician (IRC);CIR
+Quality Control Analyst (IRC);CIR
+Radiopharmacist (IRC);CIR
+Remote Sensing Scientist/Technologist (IRC);CIR
+Remote Sensing Technician  (IRC);CIR
+Software Developer (IRC);CIR
+Soil Conservation Technician (IRC);CIR
+Toxicologist (IRC);CIR
+Stress Analyst (IRC);CIR
+Water Resources Specialist (IRC);CIR
+Wind Energy Project Manager (IRC);CIR
+Cephalometric Analyst (IRC);CIR
+Biological Scientist (IRC);CIR
+Biostatistician (IRC);CIR
+Climate Change Analyst (IRC);CIR
+Computer Programmer (IRC);CIR
+Crime Laboratory Analyst (IRC);CIR
+Cytogenetic Technologist (IRC);CIR
+"Drafter, aeronautical (IRC)";CIR
+"Drafter, Structural (IRC)";CIR
+e-Commerce Project Developer (IRC);CIR
+"Engineer, Microsystems (IRC)";CIR
+"Engineer, Nanosystems (IRC)";CIR
+"Engineer, Robotics (IRC)";CIR
+"Engineer, Validation (IRC)";CIR
+"Engineering Assistant, Mechanical Equipment (IRC)";CIR
+Geological Sample Test Technician (IRC);CIR
+Geospatial Information Scientist and Technologist (IRC);CIR
+Fire Investigator (IRC);CIR
+Forensic Science Technician (IRC);CIR
+Industrial Ecologist (IRC);CIR
+Bioinformatics Scientist (ICR);CIR
+"Analyst, Management (ICR)";CIR
+"Auditor, Internal (ICR)";CIR
+Cytotechnologist (ICR);CIR
+"Drafter, Chief (ICR)";CIR
+"Engineer, Mechatronics (ICR)";CIR
+Geographic Information Systems Technician (ICR);CIR
+Navigator (ICR);CIR
+Software Quality Assurance Engineer and Tester (ICR);CIR
+Transportation Planner (ICR);CIR
+Loss Prevention Specialist (ICR);CIR
+Web Developer/Designer;ACI
+Web Developer/Designer (ACI);CIA
+Investment Underwriter (CEI);CIE
+Regulatory Affairs Specialists (CEI);CIE
+Customs Inspector (CEI);CIE
+Fingerprint Clerk (CEI);CIE
+Cryptanalyst (IEC);CIE
+"Engineer, Pollution Control (IEC)";CIE
+"Manager, Biofuels/Biodiesel Technology and Product Development (IEC)";CIE
+Business Intelligence Analyst (IEC);CIE
+Computer Network Architect (IEC);CIE
+"Engineer, Hghway Administrative (IEC)";CIE
+"Engineer, Photogrammetic (IEC)";CIE
+Logistics Engineer (IEC);CIE
+Auditor (ECI);CIE
+Distribution Manager (ECI);CIE
+Document Management Specialist (ECI);CIE
+Electric Power Superintendent  (ECI);CIE
+"Engineer, Procurement (ECI)";CIE
+"Manager, Loss Prevention (ECI)";CIE
+"Manager, Regulatory Affairs (ECI)";CIE
+Town Clerk (ECI);CIE
+Chief Financial Officer (EIC);CIE
+Bank Examiner (EIC);CIE
+Business Continuity Planner (EIC);CIE
+"Engineer, Production (EIC)";CIE
+Foreign Exchange Trader (EIC);CIE
+Industrial Engineering Technologist (EIC);CIE
+Information Technology Project Manager (EIC);CIE
+Logistics Manager (EIC);CIE
+Marketing Executive (EIC);CIE
+Risk Management Specialist (EIC);CIE
+Security Manager (EIC);CIE
+Drafting and Printed Circuit Design Supervisor (EIC);CIE
+Database Architect (ICE);CIE
+Fraud Examier/Investigator (ICE);CIE
+Intelligence Analyst (ICE);CIE
+Logistics Analyst (ICE);CIE
+Survey Researcher (ICE);CIE
+Sustainability Specialist (ICE);CIE
+"Accountant, Cost (CIE)";CEI
+Investment Analyst (CIE);CEI
+Building Inspector (CIE);CEI
+Cryptanalyst (IEC);CEI
+"Engineer, Pollution Control (IEC)";CEI
+"Manager, Biofuels/Biodiesel Technology and Product Development (IEC)";CEI
+Business Intelligence Analyst (IEC);CEI
+Computer Network Architect (IEC);CEI
+"Engineer, Hghway Administrative (IEC)";CEI
+"Engineer, Photogrammetic (IEC)";CEI
+Logistics Engineer (IEC);CEI
+Auditor (ECI);CEI
+Distribution Manager (ECI);CEI
+Document Management Specialist (ECI);CEI
+Electric Power Superintendent  (ECI);CEI
+"Engineer, Procurement (ECI)";CEI
+"Manager, Loss Prevention (ECI)";CEI
+"Manager, Regulatory Affairs (ECI)";CEI
+Town Clerk (ECI);CEI
+Chief Financial Officer (EIC);CEI
+Bank Examiner (EIC);CEI
+Business Continuity Planner (EIC);CEI
+"Engineer, Production (EIC)";CEI
+Foreign Exchange Trader (EIC);CEI
+Industrial Engineering Technologist (EIC);CEI
+Information Technology Project Manager (EIC);CEI
+Logistics Manager (EIC);CEI
+Marketing Executive (EIC);CEI
+Risk Management Specialist (EIC);CEI
+Security Manager (EIC);CEI
+Drafting and Printed Circuit Design Supervisor (EIC);CEI
+Database Architect (ICE);CEI
+Fraud Examier/Investigator (ICE);CEI
+Intelligence Analyst (ICE);CEI
+Logistics Analyst (ICE);CEI
+Survey Researcher (ICE);CEI
+Sustainability Specialist (ICE);CEI

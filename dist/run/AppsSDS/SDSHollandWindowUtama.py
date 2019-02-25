@@ -957,9 +957,9 @@ class SDSHollandWindowUtama(sds.WindowUtama):
 
 		print (datetime.datetime.now().month)
 		
-		displayDatefrom = wx.DateTime.FromDMY(int(1), int(self.curr_month) - 1, int(self.curr_year))
-		displayDateuntil = wx.DateTime.FromDMY(int(31), int(self.curr_month) - 1, int(self.curr_year))
-
+		displayDatefrom = wx.DateTime.FromDMY(int(1), int(self.curr_month) , int(self.curr_year))
+		displayDateuntil = wx.DateTime.FromDMY(int(31), int(self.curr_month), int(self.curr_year))
+		print (displayDatefrom)
 		self.BukaWindowFilter.m_datePickerdaritgl.SetValue(displayDatefrom)
 		self.BukaWindowFilter.m_datePickersampaitgl.SetValue(displayDateuntil)
 
@@ -970,14 +970,12 @@ class SDSHollandWindowUtama(sds.WindowUtama):
 		
 		self.BukaWindowFilter.Show()
 		
-		
 		pass
 	
 	def m_buttonBersihkanOnButtonClick(self,event):
 		from AppsSDS.clear_data import ClearData
 		self.clear = ClearData(self)
 
-		
 		pass
 	
 	def m_SimpanPage6OnButtonClick(self,event):

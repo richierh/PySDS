@@ -101,9 +101,9 @@ class Halaman1m():
         self.hal1.m_button1.Disable()
         self.hal1.m_button3.Disable()
         self.hal1.m_button2.Enable()
-        self.hal1.m_panel1.SetBackgroundColour( wx.Colour( 243, 181, 36 ) )
-        self.hal1.SetBackgroundColour( wx.Colour( 243, 181, 36 ) )
-        self.hal1.m_panel9.SetBackgroundColour( wx.Colour( 243, 181, 36 ) )
+        self.hal1.m_panel1.SetBackgroundColour( wx.Colour( 210, 211, 213 ) )
+        self.hal1.SetBackgroundColour( wx.Colour( 210, 211, 213 ) )
+        self.hal1.m_panel9.SetBackgroundColour( wx.Colour( 210, 211, 213 ) )
         self.hal1.Refresh()
 
         self.hal1.Layout()
