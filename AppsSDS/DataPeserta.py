@@ -9,7 +9,7 @@ class DataPesertaSeleksi( sds.DataPeserta ):
 	def __init__( self, parent ):
 		sds.DataPeserta.__init__( self, parent )
 		self.SetPosition((0,0))
-		self.SetWindowStyleFlag(wx.LC_REPORT)
+		# self.SetWindowStyleFlag(wx.LC_REPORT)
 # 		self.SetSize(1000,600)
 		self.Maximize()
 		self.listcolumn=[(0,"No",50,wx.LIST_FORMAT_CENTER),
@@ -47,7 +47,7 @@ class DataPesertaTes( sds.DataPeserta ):
 	def __init__( self, parent ):
 		sds.DataPeserta.__init__( self, parent )
 		self.SetPosition((0,0))
-		self.SetWindowStyleFlag(wx.LC_REPORT)
+		# self.SetWindowStyleFlag(wx.LC_REPORT)
 
 # 		self.SetSize(1000,600)
 		self.Maximize()

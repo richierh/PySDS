@@ -1187,10 +1187,10 @@ class SDSHollandWindowUtama(sds.WindowUtama):
 		from AppsSDS import DataPesertaSeleksi
 
 		self.datpes = DataPesertaSeleksi(self)
-		self.datpes.SetWindowStyleFlag(wx.DEFAULT_FRAME_STYLE)
+		# self.datpes.SetWindowStyleFlag(wx.DEFAULT_FRAME_STYLE)
 
 		self.datpes.m_filter.Bind( wx.EVT_BUTTON, self.m_filterOnButtonClick )
-		self.datpes.m_ListDataPeserta.SetWindowStyleFlag(wx.LC_REPORT)
+		# self.datpes.m_ListDataPeserta.SetWindowStyleFlag(wx.LC_REPORT|wx.DEFAULT_FRAME_STYLE)
 		self.datpes.m_ListDataPeserta.Bind( wx.EVT_LIST_ITEM_SELECTED, self.m_ListDataPesertaOnListItemSelected )
 		self.datpes.m_buttonDetail.Bind( wx.EVT_BUTTON, self.m_buttonDetailOnButtonClick )
 		self.datpes.m_buttonLihatNilai.Bind( wx.EVT_BUTTON, self.m_buttonLihatNilaiOnButtonClick )
@@ -1204,9 +1204,9 @@ class SDSHollandWindowUtama(sds.WindowUtama):
 	def m_DataPesertaTesOnMenuSelection(self,event):
 		from AppsSDS import DataPesertaTes
 		self.buka_peserta_tes = DataPesertaTes(self)
-		self.buka_peserta_tes.SetWindowStyleFlag(wx.DEFAULT_FRAME_STYLE)
+		# self.buka_peserta_tes.SetWindowStyleFlag(wx.DEFAULT_FRAME_STYLE)
 		self.buka_peserta_tes.m_filter.Bind( wx.EVT_BUTTON, self.m_filterOnButtonClick )
-		self.buka_peserta_tes.m_ListDataPeserta.SetWindowStyleFlag(wx.LC_REPORT)
+		# self.buka_peserta_tes.m_ListDataPeserta.SetWindowStyleFlag(wx.LC_REPORT|wx.DEFAULT_FRAME_STYLE)
 		self.buka_peserta_tes.m_ListDataPeserta.Bind( wx.EVT_LIST_ITEM_SELECTED, self.m_ListDataPesertaOnListItemSelected )
 		self.buka_peserta_tes.m_buttonDetail.Bind( wx.EVT_BUTTON, self.m_buttonDetailOnButtonClick )
 		self.buka_peserta_tes.m_buttonLihatNilai.Bind( wx.EVT_BUTTON, self.m_buttonLihatNilaiOnButtonClick )

@@ -4646,7 +4646,7 @@
 		</object>
 	</object>
 	<object class="wxFrame" name="WindowsOpenFilter">
-		<style>wxCLOSE_BOX|wxRESIZE_BORDER|wxSTAY_ON_TOP|wxTAB_TRAVERSAL</style>
+		<style>wxDEFAULT_FRAME_STYLE|wxTAB_TRAVERSAL</style>
 		<size>500,500</size>
 		<title></title>
 		<centered>1</centered>

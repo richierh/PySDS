@@ -13,7 +13,7 @@ class Warningid(wx.Frame):
         super(Warningid,self).__init__(parent)
         self.SetTitle("Binakarir")
         self.SetSize(200,110)
-        self.SetWindowStyleFlag(wx.STAY_ON_TOP|wx.DEFAULT_FRAME_STYLE|wx.TAB_TRAVERSAL)
+        # self.SetWindowStyleFlag(wx.STAY_ON_TOP|wx.DEFAULT_FRAME_STYLE|wx.TAB_TRAVERSAL)
         
         self.SetSizeHints( wx.DefaultSize, wx.DefaultSize )
 
