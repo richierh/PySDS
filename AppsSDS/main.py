@@ -50,7 +50,7 @@ def close():
 
 
 # my_file = Path("/home/binakarir/Projects/PySDS/run.py")
-my_file = Path("c:\ProgramData\tes.txt")
+my_file = Path("C:\\ProgramData\\tes.txt")
 
 print (my_file)
 
