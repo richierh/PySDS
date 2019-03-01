@@ -5,7 +5,7 @@ import pathlib
 import csv
 
 path = pathlib.Path.cwd()/'controller/dataAKP.csv'
-print (path)
+# print (path)
 
 
 # Implementing Page3

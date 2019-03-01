@@ -9,7 +9,7 @@ class DataPesertaSeleksi( sds.DataPeserta ):
 	def __init__( self, parent ):
 		sds.DataPeserta.__init__( self, parent )
 		self.SetPosition((0,0))
-		self.SetWindowStyleFlag(wx.LC_REPORT)
+		# self.SetWindowStyleFlag(wx.LC_REPORT)
 # 		self.SetSize(1000,600)
 		self.Maximize()
 		self.listcolumn=[(0,"No",50,wx.LIST_FORMAT_CENTER),
@@ -23,7 +23,7 @@ class DataPesertaSeleksi( sds.DataPeserta ):
 	# 					(8,"Kota",100),
 	 					(5,"Perusahaan / Instansi",200,wx.LIST_FORMAT_CENTER),
 	 					(6,"Posisi / Jabatan",200,wx.LIST_FORMAT_CENTER),
-						(7,"rowid",100,wx.LIST_FORMAT_CENTER),]
+						(7,"rowid",0,wx.LIST_FORMAT_CENTER),]
 				
 		for lista in self.listcolumn:
 			self.m_ListDataPeserta.\
@@ -47,7 +47,7 @@ class DataPesertaTes( sds.DataPeserta ):
 	def __init__( self, parent ):
 		sds.DataPeserta.__init__( self, parent )
 		self.SetPosition((0,0))
-		self.SetWindowStyleFlag(wx.LC_REPORT)
+		# self.SetWindowStyleFlag(wx.LC_REPORT)
 
 # 		self.SetSize(1000,600)
 		self.Maximize()
@@ -65,7 +65,7 @@ class DataPesertaTes( sds.DataPeserta ):
 # 					(11,"Prestasi Akademik",100),
 # 					(12,"Prestasi Non Akademik ",100),
 # 					(13,"Ekskul Yang Diikuti ",100),
-					(7,"row id ",100,wx.LIST_FORMAT_CENTER),
+					(7,"row id ",0,wx.LIST_FORMAT_CENTER),
 					
 					]
 				

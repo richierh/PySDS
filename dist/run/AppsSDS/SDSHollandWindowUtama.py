@@ -23,11 +23,23 @@ class SDSHollandWindowUtama(sds.WindowUtama):
 		self.m_panelPage7.m_SimpanPage6.Bind( wx.EVT_BUTTON, self.m_SimpanPage6OnButtonClick )
 		self.__properties()
 
+		self.image1 = wx.Image(str(pathlib.Path.cwd()/'images/binakarir.png'))
+		self.image2 = wx.Image(str(pathlib.Path.cwd()/'images/logosds.png'))
+		self.re_image1 = self.image1.Rescale(317,103)
+		self.re_image2 = self.image2.Rescale(350,350)
+		self.m_bitmap3.SetBitmap(wx.Bitmap(self.re_image1))
+		self.m_bitmap31.SetBitmap(wx.Bitmap(self.re_image2))
+		self.Refresh()
 
-	
+		self.Layout()
+
+
+
+
 	def __properties(self):
 		self.m_panelPage7.m_statictextfromcircle1.SetLabel("___")
 		self.m_panelPage7.m_staticfromcircle2.SetLabel("___")
+		
 
 		
 		self.listmctrol = [
@@ -241,6 +253,7 @@ class SDSHollandWindowUtama(sds.WindowUtama):
 	def textctrl1OnText(self,event):
 		try:
 			self.a1 = self.m_panelPage2.textctrl1.GetValue()
+			# print (self.a1)
 			from AppsSDS.db import db
 			self.of_1 = db.QueryList()
 			self.b1,self.b2 = self.of_1.CheckQuery(self.a1,None)
@@ -356,6 +369,28 @@ class SDSHollandWindowUtama(sds.WindowUtama):
 	def m_tombolHitungOnButtonClick(self,event):
 		self.__properties()
 		from AppsSDS.controller import NewClass,NewClass2,NewClass3
+		
+################################################################################################
+		# Biodata peserta tes Pekerjaan
+		self.m_panelPage7.nama_kandidat_input.SetValue(self.nama_kandidat_input.GetValue())
+		self.m_panelPage7.no_tes_input.SetValue(self.no_tes_input.GetValue())
+		self.m_panelPage7.jenis_kelamin_input.SetSelection(\
+			self.jenis_kelamin_input.GetSelection())
+		self.m_panelPage7.tanggal_tes_input.SetValue(self.tanggal_tes_input.GetValue())
+		self.m_panelPage7.tanggal_lahir_input.SetValue(self.tanggal_lahir_input.GetValue())
+		self.m_panelPage7.pendidikan_terakhir_input.SetSelection(\
+			self.pendidikan_terakhir_input.GetSelection())
+		self.m_panelPage7.jurusan_input.SetValue(self.jurusan_input.GetValue())
+
+		# Biodata peserta tes Pendidikan
+	
+
+		self.m_panelPage7.textctrl1.SetValue(self.m_panelPage2.textctrl1.GetValue())
+		self.m_panelPage7.textctrl2.SetValue(self.m_panelPage2.textctrl2.GetValue())
+		self.m_panelPage7.textctrl3.SetValue(self.m_panelPage2.textctrl3.GetValue())
+		self.m_panelPage7.textctrl4.SetValue(self.m_panelPage2.textctrl4.GetValue())
+		self.m_panelPage7.textctrl5.SetValue(self.m_panelPage2.textctrl5.GetValue())
+
 
 ################################################################################################
 		self.lbA = NewClass(self)
@@ -957,11 +992,11 @@ class SDSHollandWindowUtama(sds.WindowUtama):
 
 		print (datetime.datetime.now().month)
 		
-		displayDatefrom = wx.DateTime.FromDMY(int(1), int(self.curr_month) , int(self.curr_year))
-		displayDateuntil = wx.DateTime.FromDMY(int(31), int(self.curr_month), int(self.curr_year))
-		print (displayDatefrom)
-		self.BukaWindowFilter.m_datePickerdaritgl.SetValue(displayDatefrom)
-		self.BukaWindowFilter.m_datePickersampaitgl.SetValue(displayDateuntil)
+		# displayDatefrom = wx.DateTime.FromDMY(int(1), int(self.curr_month) , int(self.curr_year))
+		# displayDateuntil = wx.DateTime.FromDMY(int(31), int(self.curr_month), int(self.curr_year))
+		# print (displayDatefrom)
+		# self.BukaWindowFilter.m_datePickerdaritgl.SetValue(displayDatefrom)
+		# self.BukaWindowFilter.m_datePickersampaitgl.SetValue(displayDateuntil)
 
 		self.BukaWindowFilter.m_buttonFilterBatal.Bind(wx.EVT_BUTTON, self.m_buttonFilterBatalOnButtonClick )
 		self.BukaWindowFilter.m_buttonKlikFilterTanggal.Bind( wx.EVT_BUTTON, self.m_buttonKlikFilterTanggalOnButtonClick )
@@ -1175,8 +1210,10 @@ class SDSHollandWindowUtama(sds.WindowUtama):
 		from AppsSDS import DataPesertaSeleksi
 
 		self.datpes = DataPesertaSeleksi(self)
+		# self.datpes.SetWindowStyleFlag(wx.DEFAULT_FRAME_STYLE)
+
 		self.datpes.m_filter.Bind( wx.EVT_BUTTON, self.m_filterOnButtonClick )
-		self.datpes.m_ListDataPeserta.SetWindowStyleFlag(wx.LC_REPORT)
+		# self.datpes.m_ListDataPeserta.SetWindowStyleFlag(wx.LC_REPORT|wx.DEFAULT_FRAME_STYLE)
 		self.datpes.m_ListDataPeserta.Bind( wx.EVT_LIST_ITEM_SELECTED, self.m_ListDataPesertaOnListItemSelected )
 		self.datpes.m_buttonDetail.Bind( wx.EVT_BUTTON, self.m_buttonDetailOnButtonClick )
 		self.datpes.m_buttonLihatNilai.Bind( wx.EVT_BUTTON, self.m_buttonLihatNilaiOnButtonClick )
@@ -1190,8 +1227,9 @@ class SDSHollandWindowUtama(sds.WindowUtama):
 	def m_DataPesertaTesOnMenuSelection(self,event):
 		from AppsSDS import DataPesertaTes
 		self.buka_peserta_tes = DataPesertaTes(self)
+		# self.buka_peserta_tes.SetWindowStyleFlag(wx.DEFAULT_FRAME_STYLE)
 		self.buka_peserta_tes.m_filter.Bind( wx.EVT_BUTTON, self.m_filterOnButtonClick )
-		self.buka_peserta_tes.m_ListDataPeserta.SetWindowStyleFlag(wx.LC_REPORT)
+		# self.buka_peserta_tes.m_ListDataPeserta.SetWindowStyleFlag(wx.LC_REPORT|wx.DEFAULT_FRAME_STYLE)
 		self.buka_peserta_tes.m_ListDataPeserta.Bind( wx.EVT_LIST_ITEM_SELECTED, self.m_ListDataPesertaOnListItemSelected )
 		self.buka_peserta_tes.m_buttonDetail.Bind( wx.EVT_BUTTON, self.m_buttonDetailOnButtonClick )
 		self.buka_peserta_tes.m_buttonLihatNilai.Bind( wx.EVT_BUTTON, self.m_buttonLihatNilaiOnButtonClick )
@@ -1296,6 +1334,11 @@ class SDSHollandWindowUtama(sds.WindowUtama):
 	def m_btn_ttgaplikasi(self, event):
 		from AppsSDS import TentangAplikasi
 		self.bukaTtgApl = TentangAplikasi(self)
+		self.path= pathlib.Path.cwd()/"images/binakarir.png"
+		print (str(self.path))
+		self.image = wx.Image(str(self.path))
+		self.re_image = self.image.Rescale(350,155)
+		self.bukaTtgApl.m_bitmap2.SetBitmap(wx.Bitmap(self.re_image))
 		self.bukaTtgApl.Show()
 		pass
 	
@@ -1303,6 +1346,8 @@ class SDSHollandWindowUtama(sds.WindowUtama):
 		print ("hello")
 		self.m_panel7.Hide()
 		self.m_panel8.Show()
+		self.m_panelPage7.m_panel93.Show()
+		self.m_panelPage7.m_panel92.Hide()
 		self.Layout()
 		pass
 		
@@ -1310,6 +1355,8 @@ class SDSHollandWindowUtama(sds.WindowUtama):
 		print ("I am over here")
 		self.m_panel7.Show()
 		self.m_panel8.Hide()
+		self.m_panelPage7.m_panel92.Show()
+		self.m_panelPage7.m_panel93.Hide()
 		self.Layout()
 		pass
 

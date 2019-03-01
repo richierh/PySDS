@@ -62,6 +62,11 @@ class TempListbox( temp.Listbox1 ):
         # TODO: Implement tombolok_lb
         pass
 
+    def m_textCtrlKode_listOnText(self,event):
+        print ("hhh")
+        pass
+
+
     def m_listboxselect( self, event ):
         self.Close()
         # TODO: Implement m_listboxselect
@@ -74,16 +79,25 @@ class TempListbox( temp.Listbox1 ):
         queryname = self.m_textCtrl1.GetValue()
         klik = sophitiscated_find_search_name.goapps(queryname)
         print (klik)
-        i = 0
-        for key,value in klik.items() :
-           self.m_listCtrl1.InsertStringItem(i,key)
-           print (value)
-           i+=1
-               
+        self.i = 0
+        for items in klik :
+            self.m_listCtrl1.InsertStringItem(self.i,klik[self.i][0])
+            self.m_listCtrl1.SetItem(self.i,1,klik[self.i][1])
+            self.m_listCtrl1.SetItem(self.i,2,klik[self.i][2])
+
+            # print (value)
+            self.i+=1
+
+        # for key,value in klik.items() :
+        #    self.m_listCtrl1.InsertStringItem(i,key)
+        #    print (value)
+        #    i+=1
+
         
         print ("textctrl list")
 
         pass
+
     def m_button3_cariOnButtonClick( self, event ):
         # deleted_item = self.m_listBox1.GetStringSelection()
         # numOfItems=self.m_listBox1.GetCount()
@@ -98,14 +112,23 @@ class TempListbox( temp.Listbox1 ):
         # self.m_listBox1.Update()	
         self.m_listCtrl1.DeleteAllItems()
         from AppsSDS.controller import sophitiscated_find_search_name
-        queryname = self.m_textCtrl1.GetValue()
-        klik = sophitiscated_find_search_name.goapps(queryname)
-        print (klik)
-        i = 0
-        for key,value in klik.items() :
-           self.m_listCtrl1.InsertStringItem(i,key)
-           print (value)
-           i+=1
+        queryname = self.m_button3.GetValue()
+        klik = sophitiscated_find_search_name.goapps_kode(queryname)
+        # print (klik)
+        print ("berhasil")
+        # for key,value in klik.items() :
+        #    self.m_listCtrl1.InsertStringItem(i,key)
+        #    print (value)
+        #    i+=1
+        self.i = 0
+        for items in klik :
+            self.m_listCtrl1.InsertStringItem(self.i,klik[self.i][0])
+            self.m_listCtrl1.SetItem(self.i,1,klik[self.i][1])
+            self.m_listCtrl1.SetItem(self.i,2,klik[self.i][2])
+            print (items)
+
+            # print (value)
+            self.i+=1
        
 
         print ("tombol cari on button")

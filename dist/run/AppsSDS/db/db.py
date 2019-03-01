@@ -123,20 +123,48 @@ class QueryList():
         conn = create_connection(self.db_file)
         
         if conn is not None :
-            sql = "SELECT * From fileedit"
+            sql = "SELECT * From fileedit2"
             c = create_table(conn,sql)
             getdata = c.fetchall()
 #             print (getdata)
-            listboxdata = {}
+            listboxdata = []
             for row in getdata:
 #                 print (row[0])
-                listboxdata[row[0]]=row[1]
+                print (row)
+                listboxdata.append([row[0],row[1],row[2]])
+                # listboxdata[row[0]]=row[1]
     #         print (listboxdata)
         else :
             listboxdata={}
             print("Error! cannot create the database connection.")
         conn.close()
         print ("sudah ditutup")
+        print (listboxdata)
+        return listboxdata
+
+    def query2(self):
+        
+        create_connection(self.db_file)
+        conn = create_connection(self.db_file)
+        
+        if conn is not None :
+            sql = "SELECT * From fileedit"
+            c = create_table(conn,sql)
+            getdata = c.fetchall()
+#             print (getdata)
+            listboxdata = []
+            for row in getdata:
+#                 print (row[0])
+                print (row)
+                listboxdata.append([row[0],row[1],row[2]])
+                # listboxdata[row[0]]=row[1]
+    #         print (listboxdata)
+        else :
+            listboxdata={}
+            print("Error! cannot create the database connection.")
+        conn.close()
+        print ("sudah ditutup")
+        print (listboxdata)
         return listboxdata
     
     def CheckQuery(self,prof,prof2):
@@ -146,7 +174,7 @@ class QueryList():
         conn = create_connection(self.db_file)
         
         if conn is not None :
-            sql  = "SELECT * From fileedit WHERE Profesi = '{}'".format(self.prof)
+            sql  = "SELECT * From fileedit2 WHERE Profesi = '{}'".format(self.prof)
             c = selectdata(conn,sql)
 
             getdata = c.fetchall()
@@ -155,12 +183,12 @@ class QueryList():
             listboxdata2 = {}
             
             for row in getdata:
-#                 print (row[0])
+                # print (row[0])
                 listboxdata[row[0]]=row[1]
 
 
 
-            sql2 = "SELECT * From fileedit WHERE Code = '{}'".format(self.prof2)            
+            sql2 = "SELECT * From fileedit2 WHERE Code = '{}'".format(self.prof2)            
             c = selectdata(conn,sql2)
             getdata2 = c.fetchall()
                 
