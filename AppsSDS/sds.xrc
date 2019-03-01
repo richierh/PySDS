@@ -954,7 +954,7 @@
 								<border>5</border>
 								<object class="wxScrolledWindow" name="m_scrolledWindow6">
 									<style>wxHSCROLL|wxVSCROLL</style>
-									<bg>#009443</bg>
+									<bg>#5b5570</bg>
 									<scrollrate>5,5</scrollrate>
 									<object class="wxBoxSizer">
 										<orient>wxVERTICAL</orient>
@@ -986,7 +986,7 @@
 								<border>5</border>
 								<object class="wxScrolledWindow" name="m_scrolledWindow1">
 									<style>wxHSCROLL|wxVSCROLL</style>
-									<bg>#009443</bg>
+									<bg>#5b5570</bg>
 									<scrollrate>5,5</scrollrate>
 									<object class="wxBoxSizer">
 										<orient>wxVERTICAL</orient>
@@ -1018,7 +1018,7 @@
 								<border>5</border>
 								<object class="wxScrolledWindow" name="m_scrolledWindow11">
 									<style>wxHSCROLL|wxVSCROLL</style>
-									<bg>#009443</bg>
+									<bg>#5b5570</bg>
 									<scrollrate>5,5</scrollrate>
 									<object class="wxBoxSizer">
 										<orient>wxVERTICAL</orient>
@@ -1050,7 +1050,7 @@
 								<border>5</border>
 								<object class="wxScrolledWindow" name="m_scrolledWindow71">
 									<style>wxHSCROLL|wxVSCROLL</style>
-									<bg>#009443</bg>
+									<bg>#5b5570</bg>
 									<hidden>1</hidden>
 									<scrollrate>5,5</scrollrate>
 								</object>
@@ -1061,7 +1061,7 @@
 								<border>5</border>
 								<object class="wxPanel" name="m_panel25">
 									<style>wxTAB_TRAVERSAL</style>
-									<bg>#009443</bg>
+									<bg>#5b5570</bg>
 									<object class="wxBoxSizer">
 										<orient>wxVERTICAL</orient>
 										<object class="sizeritem">
@@ -1092,7 +1092,7 @@
 								<border>5</border>
 								<object class="wxScrolledWindow" name="m_scrolledWindow8">
 									<style>wxHSCROLL|wxVSCROLL</style>
-									<bg>#009443</bg>
+									<bg>#5b5570</bg>
 									<scrollrate>5,5</scrollrate>
 									<object class="wxBoxSizer">
 										<orient>wxVERTICAL</orient>
@@ -1124,7 +1124,7 @@
 								<border>5</border>
 								<object class="wxScrolledWindow" name="m_scrolledWindow9">
 									<style>wxHSCROLL|wxVSCROLL</style>
-									<bg>#009443</bg>
+									<bg>#5b5570</bg>
 									<hidden>1</hidden>
 									<scrollrate>5,5</scrollrate>
 								</object>
@@ -1135,7 +1135,7 @@
 								<border>5</border>
 								<object class="wxPanel" name="m_panel26">
 									<style>wxTAB_TRAVERSAL</style>
-									<bg>#009443</bg>
+									<bg>#5b5570</bg>
 									<object class="wxBoxSizer">
 										<orient>wxVERTICAL</orient>
 										<object class="sizeritem">
@@ -1174,11 +1174,10 @@
 									<enabled>0</enabled>
 									<font>
 										<size>12</size>
-										<family>swiss</family>
 										<style>normal</style>
 										<weight>normal</weight>
 										<underlined>0</underlined>
-										<face>Sans</face>
+										<face>Tw Cen MT</face>
 									</font>
 									<label>Ke Awal</label>
 									<default>0</default>
@@ -1201,13 +1200,12 @@
 									<enabled>0</enabled>
 									<font>
 										<size>12</size>
-										<family>swiss</family>
 										<style>normal</style>
 										<weight>normal</weight>
 										<underlined>0</underlined>
-										<face>Sans</face>
+										<face>Tw Cen MT</face>
 									</font>
-									<label>&lt;Page Sebelumnya</label>
+									<label>&lt; Sebelumnya</label>
 									<default>0</default>
 									<markup>0</markup>
 									<bitmap />
@@ -1227,7 +1225,7 @@
 										<underlined>0</underlined>
 										<face>Tw Cen MT</face>
 									</font>
-									<label>&gt;Page Selanjutnya</label>
+									<label>&gt; Selanjutnya</label>
 									<default>0</default>
 									<markup>0</markup>
 									<bitmap />
@@ -1413,6 +1411,7 @@
 								<flag>wxALL|wxALIGN_CENTER_VERTICAL|wxALIGN_CENTER_HORIZONTAL</flag>
 								<border>5</border>
 								<object class="wxStaticText" name="label1">
+									<fg>#3c3e3c</fg>
 									<font>
 										<size>12</size>
 										<family>swiss</family>
@@ -1762,7 +1761,7 @@
 	</object>
 	<object class="wxPanel" name="Page3">
 		<style>wxTAB_TRAVERSAL</style>
-		<size>717,400</size>
+		<size>717,500</size>
 		<bg>#f9faf9</bg>
 		<object class="wxBoxSizer">
 			<orient>wxVERTICAL</orient>
@@ -1921,20 +1920,33 @@
 											</object>
 										</object>
 										<object class="sizeritem">
-											<option>0</option>
-											<flag>wxALL|wxALIGN_CENTER_VERTICAL</flag>
+											<option>1</option>
+											<flag>wxEXPAND | wxALL</flag>
 											<border>5</border>
-											<object class="wxStaticText" name="m_staticText143">
-												<font>
-													<size>12</size>
-													<family>swiss</family>
-													<style>normal</style>
-													<weight>normal</weight>
-													<underlined>0</underlined>
-													<face>Sans</face>
-												</font>
-												<label>Investigative</label>
-												<wrap>-1</wrap>
+											<object class="wxPanel" name="m_panel36">
+												<style>wxTAB_TRAVERSAL</style>
+												<bg>#f5874f</bg>
+												<object class="wxBoxSizer">
+													<orient>wxVERTICAL</orient>
+													<object class="sizeritem">
+														<option>0</option>
+														<flag>wxALL|wxALIGN_CENTER_VERTICAL</flag>
+														<border>5</border>
+														<object class="wxStaticText" name="m_staticText143">
+															<bg>#f5874f</bg>
+															<font>
+																<size>12</size>
+																<family>swiss</family>
+																<style>normal</style>
+																<weight>normal</weight>
+																<underlined>0</underlined>
+																<face>Sans</face>
+															</font>
+															<label>Investigative</label>
+															<wrap>-1</wrap>
+														</object>
+													</object>
+												</object>
 											</object>
 										</object>
 										<object class="sizeritem">
@@ -1958,20 +1970,32 @@
 											</object>
 										</object>
 										<object class="sizeritem">
-											<option>0</option>
-											<flag>wxALL|wxALIGN_CENTER_VERTICAL</flag>
+											<option>1</option>
+											<flag>wxEXPAND | wxALL</flag>
 											<border>5</border>
-											<object class="wxStaticText" name="m_staticText145">
-												<font>
-													<size>12</size>
-													<family>swiss</family>
-													<style>normal</style>
-													<weight>normal</weight>
-													<underlined>0</underlined>
-													<face>Sans</face>
-												</font>
-												<label>Artistic</label>
-												<wrap>-1</wrap>
+											<object class="wxPanel" name="m_panel37">
+												<style>wxTAB_TRAVERSAL</style>
+												<bg>#ffcc29</bg>
+												<object class="wxBoxSizer">
+													<orient>wxVERTICAL</orient>
+													<object class="sizeritem">
+														<option>0</option>
+														<flag>wxALL|wxALIGN_CENTER_VERTICAL</flag>
+														<border>5</border>
+														<object class="wxStaticText" name="m_staticText145">
+															<font>
+																<size>12</size>
+																<family>swiss</family>
+																<style>normal</style>
+																<weight>normal</weight>
+																<underlined>0</underlined>
+																<face>Sans</face>
+															</font>
+															<label>Artistic</label>
+															<wrap>-1</wrap>
+														</object>
+													</object>
+												</object>
 											</object>
 										</object>
 										<object class="sizeritem">
@@ -1995,20 +2019,33 @@
 											</object>
 										</object>
 										<object class="sizeritem">
-											<option>0</option>
-											<flag>wxALL|wxALIGN_CENTER_VERTICAL</flag>
+											<option>1</option>
+											<flag>wxEXPAND | wxALL</flag>
 											<border>5</border>
-											<object class="wxStaticText" name="m_staticText146">
-												<font>
-													<size>12</size>
-													<family>swiss</family>
-													<style>normal</style>
-													<weight>normal</weight>
-													<underlined>0</underlined>
-													<face>Sans</face>
-												</font>
-												<label>Social</label>
-												<wrap>-1</wrap>
+											<object class="wxPanel" name="m_panel38">
+												<style>wxTAB_TRAVERSAL</style>
+												<bg>#587a36</bg>
+												<object class="wxBoxSizer">
+													<orient>wxVERTICAL</orient>
+													<object class="sizeritem">
+														<option>0</option>
+														<flag>wxALL|wxALIGN_CENTER_VERTICAL</flag>
+														<border>5</border>
+														<object class="wxStaticText" name="m_staticText146">
+															<fg>#f9faf9</fg>
+															<font>
+																<size>12</size>
+																<family>swiss</family>
+																<style>normal</style>
+																<weight>normal</weight>
+																<underlined>0</underlined>
+																<face>Sans</face>
+															</font>
+															<label>Social</label>
+															<wrap>-1</wrap>
+														</object>
+													</object>
+												</object>
 											</object>
 										</object>
 										<object class="sizeritem">
@@ -2032,20 +2069,32 @@
 											</object>
 										</object>
 										<object class="sizeritem">
-											<option>0</option>
-											<flag>wxALL|wxALIGN_CENTER_VERTICAL</flag>
+											<option>1</option>
+											<flag>wxEXPAND | wxALL</flag>
 											<border>5</border>
-											<object class="wxStaticText" name="m_staticText147">
-												<font>
-													<size>12</size>
-													<family>swiss</family>
-													<style>normal</style>
-													<weight>normal</weight>
-													<underlined>0</underlined>
-													<face>Sans</face>
-												</font>
-												<label>Enterprising</label>
-												<wrap>-1</wrap>
+											<object class="wxPanel" name="m_panel39">
+												<style>wxTAB_TRAVERSAL</style>
+												<bg>#0098da</bg>
+												<object class="wxBoxSizer">
+													<orient>wxVERTICAL</orient>
+													<object class="sizeritem">
+														<option>0</option>
+														<flag>wxALL|wxALIGN_CENTER_VERTICAL</flag>
+														<border>5</border>
+														<object class="wxStaticText" name="m_staticText147">
+															<font>
+																<size>12</size>
+																<family>swiss</family>
+																<style>normal</style>
+																<weight>normal</weight>
+																<underlined>0</underlined>
+																<face>Sans</face>
+															</font>
+															<label>Enterprising</label>
+															<wrap>-1</wrap>
+														</object>
+													</object>
+												</object>
 											</object>
 										</object>
 										<object class="sizeritem">
@@ -2069,20 +2118,32 @@
 											</object>
 										</object>
 										<object class="sizeritem">
-											<option>0</option>
-											<flag>wxALL|wxALIGN_CENTER_VERTICAL</flag>
+											<option>1</option>
+											<flag>wxEXPAND | wxALL</flag>
 											<border>5</border>
-											<object class="wxStaticText" name="m_staticText148">
-												<font>
-													<size>12</size>
-													<family>swiss</family>
-													<style>normal</style>
-													<weight>normal</weight>
-													<underlined>0</underlined>
-													<face>Sans</face>
-												</font>
-												<label>Conventional</label>
-												<wrap>-1</wrap>
+											<object class="wxPanel" name="m_panel40">
+												<style>wxTAB_TRAVERSAL</style>
+												<bg>#a98aac</bg>
+												<object class="wxBoxSizer">
+													<orient>wxVERTICAL</orient>
+													<object class="sizeritem">
+														<option>0</option>
+														<flag>wxALL|wxALIGN_CENTER_VERTICAL</flag>
+														<border>5</border>
+														<object class="wxStaticText" name="m_staticText148">
+															<font>
+																<size>12</size>
+																<family>swiss</family>
+																<style>normal</style>
+																<weight>normal</weight>
+																<underlined>0</underlined>
+																<face>Sans</face>
+															</font>
+															<label>Conventional</label>
+															<wrap>-1</wrap>
+														</object>
+													</object>
+												</object>
 											</object>
 										</object>
 										<object class="sizeritem">
@@ -2124,19 +2185,32 @@
 							<orient>wxVERTICAL</orient>
 							<object class="sizeritem">
 								<option>0</option>
-								<flag>wxALL|wxALIGN_CENTER_VERTICAL|wxALIGN_CENTER_HORIZONTAL</flag>
+								<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxEXPAND</flag>
 								<border>5</border>
-								<object class="wxStaticText" name="m_staticText168">
-									<size>120,-1</size>
-									<font>
-										<size>14</size>
-										<style>normal</style>
-										<weight>bold</weight>
-										<underlined>0</underlined>
-										<face>Tw Cen MT</face>
-									</font>
-									<label>KOMPETENSI</label>
-									<wrap>-1</wrap>
+								<object class="wxPanel" name="m_panel30">
+									<style>wxTAB_TRAVERSAL</style>
+									<bg>#7d648b</bg>
+									<object class="wxBoxSizer">
+										<orient>wxVERTICAL</orient>
+										<object class="sizeritem">
+											<option>0</option>
+											<flag>wxALL|wxALIGN_CENTER_VERTICAL|wxALIGN_CENTER_HORIZONTAL</flag>
+											<border>5</border>
+											<object class="wxStaticText" name="m_staticText168">
+												<size>120,-1</size>
+												<fg>#ffffff</fg>
+												<font>
+													<size>14</size>
+													<style>normal</style>
+													<weight>bold</weight>
+													<underlined>0</underlined>
+													<face>Tw Cen MT</face>
+												</font>
+												<label>KOMPETENSI</label>
+												<wrap>-1</wrap>
+											</object>
+										</object>
+									</object>
 								</object>
 							</object>
 							<object class="spacer">
@@ -2146,236 +2220,319 @@
 								<size>0,10</size>
 							</object>
 							<object class="sizeritem">
-								<option>0</option>
-								<flag>wxALIGN_CENTER_VERTICAL</flag>
+								<option>1</option>
+								<flag>wxEXPAND | wxALL</flag>
 								<border>5</border>
-								<object class="wxFlexGridSizer">
-									<rows>0</rows>
-									<cols>2</cols>
-									<vgap>0</vgap>
-									<hgap>0</hgap>
-									<growablecols></growablecols>
-									<growablerows></growablerows>
-									<object class="sizeritem">
-										<option>0</option>
-										<flag>wxALL|wxALIGN_CENTER_VERTICAL</flag>
-										<border>5</border>
-										<object class="wxStaticText" name="m_staticText1411">
-											<font>
-												<size>12</size>
-												<family>swiss</family>
-												<style>normal</style>
-												<weight>normal</weight>
-												<underlined>0</underlined>
-												<face>Sans</face>
-											</font>
-											<label>Realistic</label>
-											<wrap>-1</wrap>
+								<object class="wxPanel" name="m_panel31">
+									<style>wxTAB_TRAVERSAL</style>
+									<bg>#7d648b</bg>
+									<object class="wxFlexGridSizer">
+										<rows>0</rows>
+										<cols>2</cols>
+										<vgap>0</vgap>
+										<hgap>0</hgap>
+										<growablecols></growablecols>
+										<growablerows></growablerows>
+										<object class="sizeritem">
+											<option>1</option>
+											<flag>wxEXPAND | wxALL</flag>
+											<border>5</border>
+											<object class="wxPanel" name="m_panel34">
+												<style>wxTAB_TRAVERSAL</style>
+												<bg>#d05742</bg>
+												<object class="wxBoxSizer">
+													<orient>wxVERTICAL</orient>
+													<object class="sizeritem">
+														<option>0</option>
+														<flag>wxALL|wxALIGN_CENTER_VERTICAL</flag>
+														<border>5</border>
+														<object class="wxStaticText" name="m_staticText1411">
+															<fg>#f9faf9</fg>
+															<font>
+																<size>12</size>
+																<family>swiss</family>
+																<style>normal</style>
+																<weight>normal</weight>
+																<underlined>0</underlined>
+																<face>Sans</face>
+															</font>
+															<label>Realistic</label>
+															<wrap>-1</wrap>
+														</object>
+													</object>
+												</object>
+											</object>
 										</object>
-									</object>
-									<object class="sizeritem">
-										<option>0</option>
-										<flag>wxALL</flag>
-										<border>5</border>
-										<object class="wxSpinCtrl" name="m_RealisticK">
-											<style>wxSP_ARROW_KEYS</style>
-											<size>75,-1</size>
-											<font>
-												<size>12</size>
-												<family>swiss</family>
-												<style>normal</style>
-												<weight>normal</weight>
-												<underlined>0</underlined>
-												<face>Sans</face>
-											</font>
-											<value>0</value>
-											<min>0</min>
-											<max>14</max>
+										<object class="sizeritem">
+											<option>0</option>
+											<flag>wxALL</flag>
+											<border>5</border>
+											<object class="wxSpinCtrl" name="m_RealisticK">
+												<style>wxSP_ARROW_KEYS</style>
+												<size>75,-1</size>
+												<font>
+													<size>12</size>
+													<family>swiss</family>
+													<style>normal</style>
+													<weight>normal</weight>
+													<underlined>0</underlined>
+													<face>Sans</face>
+												</font>
+												<value>0</value>
+												<min>0</min>
+												<max>14</max>
+											</object>
 										</object>
-									</object>
-									<object class="sizeritem">
-										<option>0</option>
-										<flag>wxALL|wxALIGN_CENTER_VERTICAL</flag>
-										<border>5</border>
-										<object class="wxStaticText" name="m_staticText1431">
-											<font>
-												<size>12</size>
-												<family>swiss</family>
-												<style>normal</style>
-												<weight>normal</weight>
-												<underlined>0</underlined>
-												<face>Sans</face>
-											</font>
-											<label>Investigative</label>
-											<wrap>-1</wrap>
+										<object class="sizeritem">
+											<option>1</option>
+											<flag>wxEXPAND | wxALL</flag>
+											<border>5</border>
+											<object class="wxPanel" name="m_panel41">
+												<style>wxTAB_TRAVERSAL</style>
+												<bg>#f5874f</bg>
+												<object class="wxBoxSizer">
+													<orient>wxVERTICAL</orient>
+													<object class="sizeritem">
+														<option>0</option>
+														<flag>wxALL|wxALIGN_CENTER_VERTICAL</flag>
+														<border>5</border>
+														<object class="wxStaticText" name="m_staticText1431">
+															<fg>#3c3e3c</fg>
+															<font>
+																<size>12</size>
+																<family>swiss</family>
+																<style>normal</style>
+																<weight>normal</weight>
+																<underlined>0</underlined>
+																<face>Sans</face>
+															</font>
+															<label>Investigative</label>
+															<wrap>-1</wrap>
+														</object>
+													</object>
+												</object>
+											</object>
 										</object>
-									</object>
-									<object class="sizeritem">
-										<option>0</option>
-										<flag>wxALL</flag>
-										<border>5</border>
-										<object class="wxSpinCtrl" name="m_InvestigativeK">
-											<style>wxSP_ARROW_KEYS</style>
-											<size>75,-1</size>
-											<font>
-												<size>12</size>
-												<family>swiss</family>
-												<style>normal</style>
-												<weight>normal</weight>
-												<underlined>0</underlined>
-												<face>Sans</face>
-											</font>
-											<value>0</value>
-											<min>0</min>
-											<max>14</max>
+										<object class="sizeritem">
+											<option>0</option>
+											<flag>wxALL</flag>
+											<border>5</border>
+											<object class="wxSpinCtrl" name="m_InvestigativeK">
+												<style>wxSP_ARROW_KEYS</style>
+												<size>75,-1</size>
+												<font>
+													<size>12</size>
+													<family>swiss</family>
+													<style>normal</style>
+													<weight>normal</weight>
+													<underlined>0</underlined>
+													<face>Sans</face>
+												</font>
+												<value>0</value>
+												<min>0</min>
+												<max>14</max>
+											</object>
 										</object>
-									</object>
-									<object class="sizeritem">
-										<option>0</option>
-										<flag>wxALL|wxALIGN_CENTER_VERTICAL</flag>
-										<border>5</border>
-										<object class="wxStaticText" name="m_staticText1451">
-											<font>
-												<size>12</size>
-												<family>swiss</family>
-												<style>normal</style>
-												<weight>normal</weight>
-												<underlined>0</underlined>
-												<face>Sans</face>
-											</font>
-											<label>Artistic</label>
-											<wrap>-1</wrap>
+										<object class="sizeritem">
+											<option>1</option>
+											<flag>wxEXPAND | wxALL</flag>
+											<border>5</border>
+											<object class="wxPanel" name="m_panel42">
+												<style>wxTAB_TRAVERSAL</style>
+												<bg>#ffcc29</bg>
+												<object class="wxBoxSizer">
+													<orient>wxVERTICAL</orient>
+													<object class="sizeritem">
+														<option>0</option>
+														<flag>wxALL|wxALIGN_CENTER_VERTICAL</flag>
+														<border>5</border>
+														<object class="wxStaticText" name="m_staticText1451">
+															<fg>#3c3e3c</fg>
+															<font>
+																<size>12</size>
+																<family>swiss</family>
+																<style>normal</style>
+																<weight>normal</weight>
+																<underlined>0</underlined>
+																<face>Sans</face>
+															</font>
+															<label>Artistic</label>
+															<wrap>-1</wrap>
+														</object>
+													</object>
+												</object>
+											</object>
 										</object>
-									</object>
-									<object class="sizeritem">
-										<option>0</option>
-										<flag>wxALL</flag>
-										<border>5</border>
-										<object class="wxSpinCtrl" name="m_ArtisticK">
-											<style>wxSP_ARROW_KEYS</style>
-											<size>75,-1</size>
-											<font>
-												<size>12</size>
-												<family>swiss</family>
-												<style>normal</style>
-												<weight>normal</weight>
-												<underlined>0</underlined>
-												<face>Sans</face>
-											</font>
-											<value>0</value>
-											<min>0</min>
-											<max>14</max>
+										<object class="sizeritem">
+											<option>0</option>
+											<flag>wxALL</flag>
+											<border>5</border>
+											<object class="wxSpinCtrl" name="m_ArtisticK">
+												<style>wxSP_ARROW_KEYS</style>
+												<size>75,-1</size>
+												<font>
+													<size>12</size>
+													<family>swiss</family>
+													<style>normal</style>
+													<weight>normal</weight>
+													<underlined>0</underlined>
+													<face>Sans</face>
+												</font>
+												<value>0</value>
+												<min>0</min>
+												<max>14</max>
+											</object>
 										</object>
-									</object>
-									<object class="sizeritem">
-										<option>0</option>
-										<flag>wxALL|wxALIGN_CENTER_VERTICAL</flag>
-										<border>5</border>
-										<object class="wxStaticText" name="m_staticText1461">
-											<font>
-												<size>12</size>
-												<family>swiss</family>
-												<style>normal</style>
-												<weight>normal</weight>
-												<underlined>0</underlined>
-												<face>Sans</face>
-											</font>
-											<label>Social</label>
-											<wrap>-1</wrap>
+										<object class="sizeritem">
+											<option>1</option>
+											<flag>wxEXPAND | wxALL</flag>
+											<border>5</border>
+											<object class="wxPanel" name="m_panel43">
+												<style>wxTAB_TRAVERSAL</style>
+												<bg>#587a36</bg>
+												<object class="wxBoxSizer">
+													<orient>wxVERTICAL</orient>
+													<object class="sizeritem">
+														<option>0</option>
+														<flag>wxALL|wxALIGN_CENTER_VERTICAL</flag>
+														<border>5</border>
+														<object class="wxStaticText" name="m_staticText1461">
+															<fg>#f9faf9</fg>
+															<font>
+																<size>12</size>
+																<family>swiss</family>
+																<style>normal</style>
+																<weight>normal</weight>
+																<underlined>0</underlined>
+																<face>Sans</face>
+															</font>
+															<label>Social</label>
+															<wrap>-1</wrap>
+														</object>
+													</object>
+												</object>
+											</object>
 										</object>
-									</object>
-									<object class="sizeritem">
-										<option>0</option>
-										<flag>wxALL</flag>
-										<border>5</border>
-										<object class="wxSpinCtrl" name="m_SocialK">
-											<style>wxSP_ARROW_KEYS</style>
-											<size>75,-1</size>
-											<font>
-												<size>12</size>
-												<family>swiss</family>
-												<style>normal</style>
-												<weight>normal</weight>
-												<underlined>0</underlined>
-												<face>Sans</face>
-											</font>
-											<value>0</value>
-											<min>0</min>
-											<max>14</max>
+										<object class="sizeritem">
+											<option>0</option>
+											<flag>wxALL</flag>
+											<border>5</border>
+											<object class="wxSpinCtrl" name="m_SocialK">
+												<style>wxSP_ARROW_KEYS</style>
+												<size>75,-1</size>
+												<font>
+													<size>12</size>
+													<family>swiss</family>
+													<style>normal</style>
+													<weight>normal</weight>
+													<underlined>0</underlined>
+													<face>Sans</face>
+												</font>
+												<value>0</value>
+												<min>0</min>
+												<max>14</max>
+											</object>
 										</object>
-									</object>
-									<object class="sizeritem">
-										<option>0</option>
-										<flag>wxALL|wxALIGN_CENTER_VERTICAL</flag>
-										<border>5</border>
-										<object class="wxStaticText" name="m_staticText1471">
-											<font>
-												<size>12</size>
-												<family>swiss</family>
-												<style>normal</style>
-												<weight>normal</weight>
-												<underlined>0</underlined>
-												<face>Sans</face>
-											</font>
-											<label>Enterprising</label>
-											<wrap>-1</wrap>
+										<object class="sizeritem">
+											<option>1</option>
+											<flag>wxEXPAND | wxALL</flag>
+											<border>5</border>
+											<object class="wxPanel" name="m_panel50">
+												<style>wxTAB_TRAVERSAL</style>
+												<bg>#0098da</bg>
+												<object class="wxBoxSizer">
+													<orient>wxVERTICAL</orient>
+													<object class="sizeritem">
+														<option>0</option>
+														<flag>wxALL|wxALIGN_CENTER_VERTICAL</flag>
+														<border>5</border>
+														<object class="wxStaticText" name="m_staticText1471">
+															<fg>#3c3e3c</fg>
+															<font>
+																<size>12</size>
+																<family>swiss</family>
+																<style>normal</style>
+																<weight>normal</weight>
+																<underlined>0</underlined>
+																<face>Sans</face>
+															</font>
+															<label>Enterprising</label>
+															<wrap>-1</wrap>
+														</object>
+													</object>
+												</object>
+											</object>
 										</object>
-									</object>
-									<object class="sizeritem">
-										<option>0</option>
-										<flag>wxALL</flag>
-										<border>5</border>
-										<object class="wxSpinCtrl" name="m_EnterprisingK">
-											<style>wxSP_ARROW_KEYS</style>
-											<size>75,-1</size>
-											<font>
-												<size>12</size>
-												<family>swiss</family>
-												<style>normal</style>
-												<weight>normal</weight>
-												<underlined>0</underlined>
-												<face>Sans</face>
-											</font>
-											<value>0</value>
-											<min>0</min>
-											<max>14</max>
+										<object class="sizeritem">
+											<option>0</option>
+											<flag>wxALL</flag>
+											<border>5</border>
+											<object class="wxSpinCtrl" name="m_EnterprisingK">
+												<style>wxSP_ARROW_KEYS</style>
+												<size>75,-1</size>
+												<font>
+													<size>12</size>
+													<family>swiss</family>
+													<style>normal</style>
+													<weight>normal</weight>
+													<underlined>0</underlined>
+													<face>Sans</face>
+												</font>
+												<value>0</value>
+												<min>0</min>
+												<max>14</max>
+											</object>
 										</object>
-									</object>
-									<object class="sizeritem">
-										<option>0</option>
-										<flag>wxALL|wxALIGN_CENTER_VERTICAL</flag>
-										<border>5</border>
-										<object class="wxStaticText" name="m_staticText1481">
-											<font>
-												<size>12</size>
-												<family>swiss</family>
-												<style>normal</style>
-												<weight>normal</weight>
-												<underlined>0</underlined>
-												<face>Sans</face>
-											</font>
-											<label>Conventional</label>
-											<wrap>-1</wrap>
+										<object class="sizeritem">
+											<option>1</option>
+											<flag>wxEXPAND | wxALL</flag>
+											<border>5</border>
+											<object class="wxPanel" name="m_panel44">
+												<style>wxTAB_TRAVERSAL</style>
+												<bg>#a98aac</bg>
+												<fg>#3c3e3c</fg>
+												<object class="wxBoxSizer">
+													<orient>wxVERTICAL</orient>
+													<object class="sizeritem">
+														<option>0</option>
+														<flag>wxALL|wxALIGN_CENTER_VERTICAL</flag>
+														<border>5</border>
+														<object class="wxStaticText" name="m_staticText1481">
+															<fg>#3c3e3c</fg>
+															<font>
+																<size>12</size>
+																<family>swiss</family>
+																<style>normal</style>
+																<weight>normal</weight>
+																<underlined>0</underlined>
+																<face>Sans</face>
+															</font>
+															<label>Conventional</label>
+															<wrap>-1</wrap>
+														</object>
+													</object>
+												</object>
+											</object>
 										</object>
-									</object>
-									<object class="sizeritem">
-										<option>0</option>
-										<flag>wxALL</flag>
-										<border>5</border>
-										<object class="wxSpinCtrl" name="m_ConventionalK">
-											<style>wxSP_ARROW_KEYS</style>
-											<size>75,-1</size>
-											<font>
-												<size>12</size>
-												<family>swiss</family>
-												<style>normal</style>
-												<weight>normal</weight>
-												<underlined>0</underlined>
-												<face>Sans</face>
-											</font>
-											<value>0</value>
-											<min>0</min>
-											<max>14</max>
+										<object class="sizeritem">
+											<option>0</option>
+											<flag>wxALL</flag>
+											<border>5</border>
+											<object class="wxSpinCtrl" name="m_ConventionalK">
+												<style>wxSP_ARROW_KEYS</style>
+												<size>75,-1</size>
+												<font>
+													<size>12</size>
+													<family>swiss</family>
+													<style>normal</style>
+													<weight>normal</weight>
+													<underlined>0</underlined>
+													<face>Sans</face>
+												</font>
+												<value>0</value>
+												<min>0</min>
+												<max>14</max>
+											</object>
 										</object>
 									</object>
 								</object>
@@ -2396,20 +2553,33 @@
 							<orient>wxVERTICAL</orient>
 							<object class="sizeritem">
 								<option>0</option>
-								<flag>wxALL|wxALIGN_CENTER_HORIZONTAL</flag>
+								<flag>wxALL|wxEXPAND</flag>
 								<border>5</border>
-								<object class="wxStaticText" name="m_staticText169">
-									<pos>-1,-1</pos>
-									<size>100,-1</size>
-									<font>
-										<size>14</size>
-										<style>normal</style>
-										<weight>bold</weight>
-										<underlined>0</underlined>
-										<face>Tw Cen MT</face>
-									</font>
-									<label>PEKERJAAN</label>
-									<wrap>-1</wrap>
+								<object class="wxPanel" name="m_panel32">
+									<style>wxTAB_TRAVERSAL</style>
+									<bg>#96989a</bg>
+									<fg>#ffffff</fg>
+									<object class="wxBoxSizer">
+										<orient>wxVERTICAL</orient>
+										<object class="sizeritem">
+											<option>0</option>
+											<flag>wxALL|wxALIGN_CENTER_HORIZONTAL</flag>
+											<border>5</border>
+											<object class="wxStaticText" name="m_staticText169">
+												<pos>-1,-1</pos>
+												<size>100,-1</size>
+												<font>
+													<size>14</size>
+													<style>normal</style>
+													<weight>bold</weight>
+													<underlined>0</underlined>
+													<face>Tw Cen MT</face>
+												</font>
+												<label>PEKERJAAN</label>
+												<wrap>-1</wrap>
+											</object>
+										</object>
+									</object>
 								</object>
 							</object>
 							<object class="spacer">
@@ -2419,236 +2589,319 @@
 								<size>0,10</size>
 							</object>
 							<object class="sizeritem">
-								<option>0</option>
-								<flag></flag>
+								<option>1</option>
+								<flag>wxEXPAND | wxALL</flag>
 								<border>5</border>
-								<object class="wxFlexGridSizer">
-									<rows>0</rows>
-									<cols>2</cols>
-									<vgap>0</vgap>
-									<hgap>0</hgap>
-									<growablecols></growablecols>
-									<growablerows></growablerows>
-									<object class="sizeritem">
-										<option>0</option>
-										<flag>wxALL|wxALIGN_CENTER_VERTICAL</flag>
-										<border>5</border>
-										<object class="wxStaticText" name="m_staticText1412">
-											<font>
-												<size>12</size>
-												<family>swiss</family>
-												<style>normal</style>
-												<weight>normal</weight>
-												<underlined>0</underlined>
-												<face>Sans</face>
-											</font>
-											<label>Realistic</label>
-											<wrap>-1</wrap>
+								<object class="wxPanel" name="m_panel33">
+									<style>wxTAB_TRAVERSAL</style>
+									<bg>#96989a</bg>
+									<fg>#f9faf9</fg>
+									<object class="wxFlexGridSizer">
+										<rows>0</rows>
+										<cols>2</cols>
+										<vgap>0</vgap>
+										<hgap>0</hgap>
+										<growablecols></growablecols>
+										<growablerows></growablerows>
+										<object class="sizeritem">
+											<option>1</option>
+											<flag>wxEXPAND | wxALL</flag>
+											<border>5</border>
+											<object class="wxPanel" name="m_panel35">
+												<style>wxTAB_TRAVERSAL</style>
+												<bg>#d05742</bg>
+												<fg>#f9faf9</fg>
+												<object class="wxBoxSizer">
+													<orient>wxVERTICAL</orient>
+													<object class="sizeritem">
+														<option>0</option>
+														<flag>wxALL|wxALIGN_CENTER_VERTICAL</flag>
+														<border>5</border>
+														<object class="wxStaticText" name="m_staticText1412">
+															<bg>#d05742</bg>
+															<font>
+																<size>12</size>
+																<family>swiss</family>
+																<style>normal</style>
+																<weight>normal</weight>
+																<underlined>0</underlined>
+																<face>Sans</face>
+															</font>
+															<label>Realistic</label>
+															<wrap>-1</wrap>
+														</object>
+													</object>
+												</object>
+											</object>
 										</object>
-									</object>
-									<object class="sizeritem">
-										<option>0</option>
-										<flag>wxALL</flag>
-										<border>5</border>
-										<object class="wxSpinCtrl" name="m_RealisticP">
-											<style>wxSP_ARROW_KEYS</style>
-											<size>75,-1</size>
-											<font>
-												<size>12</size>
-												<family>swiss</family>
-												<style>normal</style>
-												<weight>normal</weight>
-												<underlined>0</underlined>
-												<face>Sans</face>
-											</font>
-											<value>0</value>
-											<min>0</min>
-											<max>14</max>
+										<object class="sizeritem">
+											<option>0</option>
+											<flag>wxALL</flag>
+											<border>5</border>
+											<object class="wxSpinCtrl" name="m_RealisticP">
+												<style>wxSP_ARROW_KEYS</style>
+												<size>75,-1</size>
+												<font>
+													<size>12</size>
+													<family>swiss</family>
+													<style>normal</style>
+													<weight>normal</weight>
+													<underlined>0</underlined>
+													<face>Sans</face>
+												</font>
+												<value>0</value>
+												<min>0</min>
+												<max>14</max>
+											</object>
 										</object>
-									</object>
-									<object class="sizeritem">
-										<option>0</option>
-										<flag>wxALL|wxALIGN_CENTER_VERTICAL</flag>
-										<border>5</border>
-										<object class="wxStaticText" name="m_staticText1432">
-											<font>
-												<size>12</size>
-												<family>swiss</family>
-												<style>normal</style>
-												<weight>normal</weight>
-												<underlined>0</underlined>
-												<face>Sans</face>
-											</font>
-											<label>Investigative</label>
-											<wrap>-1</wrap>
+										<object class="sizeritem">
+											<option>1</option>
+											<flag>wxEXPAND | wxALL</flag>
+											<border>5</border>
+											<object class="wxPanel" name="m_panel45">
+												<style>wxTAB_TRAVERSAL</style>
+												<bg>#f5874f</bg>
+												<object class="wxBoxSizer">
+													<orient>wxVERTICAL</orient>
+													<object class="sizeritem">
+														<option>0</option>
+														<flag>wxALL|wxALIGN_CENTER_VERTICAL</flag>
+														<border>5</border>
+														<object class="wxStaticText" name="m_staticText1432">
+															<bg>#f9faf9</bg>
+															<font>
+																<size>12</size>
+																<family>swiss</family>
+																<style>normal</style>
+																<weight>normal</weight>
+																<underlined>0</underlined>
+																<face>Sans</face>
+															</font>
+															<label>Investigative</label>
+															<wrap>-1</wrap>
+														</object>
+													</object>
+												</object>
+											</object>
 										</object>
-									</object>
-									<object class="sizeritem">
-										<option>0</option>
-										<flag>wxALL</flag>
-										<border>5</border>
-										<object class="wxSpinCtrl" name="m_InvestigativeP">
-											<style>wxSP_ARROW_KEYS</style>
-											<size>75,-1</size>
-											<font>
-												<size>12</size>
-												<family>swiss</family>
-												<style>normal</style>
-												<weight>normal</weight>
-												<underlined>0</underlined>
-												<face>Sans</face>
-											</font>
-											<value>0</value>
-											<min>0</min>
-											<max>14</max>
+										<object class="sizeritem">
+											<option>0</option>
+											<flag>wxALL</flag>
+											<border>5</border>
+											<object class="wxSpinCtrl" name="m_InvestigativeP">
+												<style>wxSP_ARROW_KEYS</style>
+												<size>75,-1</size>
+												<font>
+													<size>12</size>
+													<family>swiss</family>
+													<style>normal</style>
+													<weight>normal</weight>
+													<underlined>0</underlined>
+													<face>Sans</face>
+												</font>
+												<value>0</value>
+												<min>0</min>
+												<max>14</max>
+											</object>
 										</object>
-									</object>
-									<object class="sizeritem">
-										<option>0</option>
-										<flag>wxALL|wxALIGN_CENTER_VERTICAL</flag>
-										<border>5</border>
-										<object class="wxStaticText" name="m_staticText1452">
-											<font>
-												<size>12</size>
-												<family>swiss</family>
-												<style>normal</style>
-												<weight>normal</weight>
-												<underlined>0</underlined>
-												<face>Sans</face>
-											</font>
-											<label>Artistic</label>
-											<wrap>-1</wrap>
+										<object class="sizeritem">
+											<option>1</option>
+											<flag>wxEXPAND | wxALL</flag>
+											<border>5</border>
+											<object class="wxPanel" name="m_panel49">
+												<style>wxTAB_TRAVERSAL</style>
+												<bg>#ffcc29</bg>
+												<object class="wxBoxSizer">
+													<orient>wxVERTICAL</orient>
+													<object class="sizeritem">
+														<option>0</option>
+														<flag>wxALL|wxALIGN_CENTER_VERTICAL</flag>
+														<border>5</border>
+														<object class="wxStaticText" name="m_staticText1452">
+															<font>
+																<size>12</size>
+																<family>swiss</family>
+																<style>normal</style>
+																<weight>normal</weight>
+																<underlined>0</underlined>
+																<face>Sans</face>
+															</font>
+															<label>Artistic</label>
+															<wrap>-1</wrap>
+														</object>
+													</object>
+												</object>
+											</object>
 										</object>
-									</object>
-									<object class="sizeritem">
-										<option>0</option>
-										<flag>wxALL</flag>
-										<border>5</border>
-										<object class="wxSpinCtrl" name="m_ArtisticP">
-											<style>wxSP_ARROW_KEYS</style>
-											<size>75,-1</size>
-											<font>
-												<size>12</size>
-												<family>swiss</family>
-												<style>normal</style>
-												<weight>normal</weight>
-												<underlined>0</underlined>
-												<face>Sans</face>
-											</font>
-											<value>0</value>
-											<min>0</min>
-											<max>14</max>
+										<object class="sizeritem">
+											<option>0</option>
+											<flag>wxALL</flag>
+											<border>5</border>
+											<object class="wxSpinCtrl" name="m_ArtisticP">
+												<style>wxSP_ARROW_KEYS</style>
+												<size>75,-1</size>
+												<font>
+													<size>12</size>
+													<family>swiss</family>
+													<style>normal</style>
+													<weight>normal</weight>
+													<underlined>0</underlined>
+													<face>Sans</face>
+												</font>
+												<value>0</value>
+												<min>0</min>
+												<max>14</max>
+											</object>
 										</object>
-									</object>
-									<object class="sizeritem">
-										<option>0</option>
-										<flag>wxALL|wxALIGN_CENTER_VERTICAL</flag>
-										<border>5</border>
-										<object class="wxStaticText" name="m_staticText1462">
-											<font>
-												<size>12</size>
-												<family>swiss</family>
-												<style>normal</style>
-												<weight>normal</weight>
-												<underlined>0</underlined>
-												<face>Sans</face>
-											</font>
-											<label>Social</label>
-											<wrap>-1</wrap>
+										<object class="sizeritem">
+											<option>1</option>
+											<flag>wxEXPAND | wxALL</flag>
+											<border>5</border>
+											<object class="wxPanel" name="m_panel46">
+												<style>wxTAB_TRAVERSAL</style>
+												<bg>#587a36</bg>
+												<object class="wxBoxSizer">
+													<orient>wxVERTICAL</orient>
+													<object class="sizeritem">
+														<option>0</option>
+														<flag>wxALL|wxALIGN_CENTER_VERTICAL</flag>
+														<border>5</border>
+														<object class="wxStaticText" name="m_staticText1462">
+															<fg>#f9faf9</fg>
+															<font>
+																<size>12</size>
+																<family>swiss</family>
+																<style>normal</style>
+																<weight>normal</weight>
+																<underlined>0</underlined>
+																<face>Sans</face>
+															</font>
+															<label>Social</label>
+															<wrap>-1</wrap>
+														</object>
+													</object>
+												</object>
+											</object>
 										</object>
-									</object>
-									<object class="sizeritem">
-										<option>0</option>
-										<flag>wxALL</flag>
-										<border>5</border>
-										<object class="wxSpinCtrl" name="m_SocialP">
-											<style>wxSP_ARROW_KEYS</style>
-											<size>75,-1</size>
-											<font>
-												<size>12</size>
-												<family>swiss</family>
-												<style>normal</style>
-												<weight>normal</weight>
-												<underlined>0</underlined>
-												<face>Sans</face>
-											</font>
-											<value>0</value>
-											<min>0</min>
-											<max>14</max>
+										<object class="sizeritem">
+											<option>0</option>
+											<flag>wxALL</flag>
+											<border>5</border>
+											<object class="wxSpinCtrl" name="m_SocialP">
+												<style>wxSP_ARROW_KEYS</style>
+												<size>75,-1</size>
+												<font>
+													<size>12</size>
+													<family>swiss</family>
+													<style>normal</style>
+													<weight>normal</weight>
+													<underlined>0</underlined>
+													<face>Sans</face>
+												</font>
+												<value>0</value>
+												<min>0</min>
+												<max>14</max>
+											</object>
 										</object>
-									</object>
-									<object class="sizeritem">
-										<option>0</option>
-										<flag>wxALL|wxALIGN_CENTER_VERTICAL</flag>
-										<border>5</border>
-										<object class="wxStaticText" name="m_staticText1472">
-											<font>
-												<size>12</size>
-												<family>swiss</family>
-												<style>normal</style>
-												<weight>normal</weight>
-												<underlined>0</underlined>
-												<face>Sans</face>
-											</font>
-											<label>Enterprising</label>
-											<wrap>-1</wrap>
+										<object class="sizeritem">
+											<option>1</option>
+											<flag>wxEXPAND | wxALL</flag>
+											<border>5</border>
+											<object class="wxPanel" name="m_panel47">
+												<style>wxTAB_TRAVERSAL</style>
+												<bg>#0098da</bg>
+												<fg>#f9faf9</fg>
+												<object class="wxBoxSizer">
+													<orient>wxVERTICAL</orient>
+													<object class="sizeritem">
+														<option>0</option>
+														<flag>wxALL|wxALIGN_CENTER_VERTICAL</flag>
+														<border>5</border>
+														<object class="wxStaticText" name="m_staticText1472">
+															<fg>#3c3e3c</fg>
+															<font>
+																<size>12</size>
+																<family>swiss</family>
+																<style>normal</style>
+																<weight>normal</weight>
+																<underlined>0</underlined>
+																<face>Sans</face>
+															</font>
+															<label>Enterprising</label>
+															<wrap>-1</wrap>
+														</object>
+													</object>
+												</object>
+											</object>
 										</object>
-									</object>
-									<object class="sizeritem">
-										<option>0</option>
-										<flag>wxALL</flag>
-										<border>5</border>
-										<object class="wxSpinCtrl" name="m_EnterprisingP">
-											<style>wxSP_ARROW_KEYS</style>
-											<size>75,-1</size>
-											<font>
-												<size>12</size>
-												<family>swiss</family>
-												<style>normal</style>
-												<weight>normal</weight>
-												<underlined>0</underlined>
-												<face>Sans</face>
-											</font>
-											<value>0</value>
-											<min>0</min>
-											<max>14</max>
+										<object class="sizeritem">
+											<option>0</option>
+											<flag>wxALL</flag>
+											<border>5</border>
+											<object class="wxSpinCtrl" name="m_EnterprisingP">
+												<style>wxSP_ARROW_KEYS</style>
+												<size>75,-1</size>
+												<font>
+													<size>12</size>
+													<family>swiss</family>
+													<style>normal</style>
+													<weight>normal</weight>
+													<underlined>0</underlined>
+													<face>Sans</face>
+												</font>
+												<value>0</value>
+												<min>0</min>
+												<max>14</max>
+											</object>
 										</object>
-									</object>
-									<object class="sizeritem">
-										<option>0</option>
-										<flag>wxALL|wxALIGN_CENTER_VERTICAL</flag>
-										<border>5</border>
-										<object class="wxStaticText" name="m_staticText1482">
-											<font>
-												<size>12</size>
-												<family>swiss</family>
-												<style>normal</style>
-												<weight>normal</weight>
-												<underlined>0</underlined>
-												<face>Sans</face>
-											</font>
-											<label>Conventional</label>
-											<wrap>-1</wrap>
+										<object class="sizeritem">
+											<option>1</option>
+											<flag>wxEXPAND | wxALL</flag>
+											<border>5</border>
+											<object class="wxPanel" name="m_panel48">
+												<style>wxTAB_TRAVERSAL</style>
+												<bg>#a98aac</bg>
+												<object class="wxBoxSizer">
+													<orient>wxVERTICAL</orient>
+													<object class="sizeritem">
+														<option>0</option>
+														<flag>wxALL|wxALIGN_CENTER_VERTICAL</flag>
+														<border>5</border>
+														<object class="wxStaticText" name="m_staticText1482">
+															<font>
+																<size>12</size>
+																<family>swiss</family>
+																<style>normal</style>
+																<weight>normal</weight>
+																<underlined>0</underlined>
+																<face>Sans</face>
+															</font>
+															<label>Conventional</label>
+															<wrap>-1</wrap>
+														</object>
+													</object>
+												</object>
+											</object>
 										</object>
-									</object>
-									<object class="sizeritem">
-										<option>0</option>
-										<flag>wxALL</flag>
-										<border>5</border>
-										<object class="wxSpinCtrl" name="m_ConventionalP">
-											<style>wxSP_ARROW_KEYS</style>
-											<size>75,-1</size>
-											<font>
-												<size>12</size>
-												<family>swiss</family>
-												<style>normal</style>
-												<weight>normal</weight>
-												<underlined>0</underlined>
-												<face>Sans</face>
-											</font>
-											<value>0</value>
-											<min>0</min>
-											<max>14</max>
+										<object class="sizeritem">
+											<option>0</option>
+											<flag>wxALL</flag>
+											<border>5</border>
+											<object class="wxSpinCtrl" name="m_ConventionalP">
+												<style>wxSP_ARROW_KEYS</style>
+												<size>75,-1</size>
+												<font>
+													<size>12</size>
+													<family>swiss</family>
+													<style>normal</style>
+													<weight>normal</weight>
+													<underlined>0</underlined>
+													<face>Sans</face>
+												</font>
+												<value>0</value>
+												<min>0</min>
+												<max>14</max>
+											</object>
 										</object>
 									</object>
 								</object>
@@ -2700,19 +2953,32 @@
 				<object class="wxBoxSizer">
 					<orient>wxVERTICAL</orient>
 					<object class="sizeritem">
-						<option>0</option>
-						<flag>wxALL|wxALIGN_CENTER_HORIZONTAL</flag>
+						<option>1</option>
+						<flag>wxEXPAND | wxALL</flag>
 						<border>5</border>
-						<object class="wxStaticText" name="m_staticText204">
-							<font>
-								<size>14</size>
-								<style>normal</style>
-								<weight>bold</weight>
-								<underlined>0</underlined>
-								<face>Tw Cen MT</face>
-							</font>
-							<label>BAGIAN 1</label>
-							<wrap>-1</wrap>
+						<object class="wxPanel" name="m_panel831">
+							<style>wxTAB_TRAVERSAL</style>
+							<bg>#d47149</bg>
+							<object class="wxBoxSizer">
+								<orient>wxVERTICAL</orient>
+								<object class="sizeritem">
+									<option>0</option>
+									<flag>wxALL|wxALIGN_CENTER_HORIZONTAL</flag>
+									<border>5</border>
+									<object class="wxStaticText" name="m_staticText204">
+										<fg>#f9faf9</fg>
+										<font>
+											<size>14</size>
+											<style>normal</style>
+											<weight>bold</weight>
+											<underlined>0</underlined>
+											<face>Tw Cen MT</face>
+										</font>
+										<label>BAGIAN 1</label>
+										<wrap>-1</wrap>
+									</object>
+								</object>
+							</object>
 						</object>
 					</object>
 					<object class="sizeritem">
@@ -2742,246 +3008,408 @@
 										<flag>wxALL|wxALIGN_CENTER_HORIZONTAL</flag>
 										<border>5</border>
 										<object class="wxStaticText" name="m_staticText213">
+											<bg>#3c3e3c</bg>
 											<label></label>
 											<wrap>-1</wrap>
 										</object>
 									</object>
 									<object class="sizeritem">
-										<option>0</option>
-										<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+										<option>1</option>
+										<flag>wxEXPAND | wxALL</flag>
 										<border>5</border>
-										<object class="wxStaticText" name="m_staticText214">
-											<font>
-												<size>14</size>
-												<style>normal</style>
-												<weight>normal</weight>
-												<underlined>0</underlined>
-												<face>Tw Cen MT</face>
-											</font>
-											<label>Kemampuan\n    Mekanis</label>
-											<wrap>-1</wrap>
+										<object class="wxPanel" name="m_panel57">
+											<style>wxTAB_TRAVERSAL</style>
+											<bg>#d05742</bg>
+											<fg>#f9faf9</fg>
+											<object class="wxBoxSizer">
+												<orient>wxVERTICAL</orient>
+												<object class="sizeritem">
+													<option>0</option>
+													<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+													<border>5</border>
+													<object class="wxStaticText" name="m_staticText214">
+														<font>
+															<size>14</size>
+															<style>normal</style>
+															<weight>normal</weight>
+															<underlined>0</underlined>
+															<face>Tw Cen MT</face>
+														</font>
+														<label>Kemampuan\n    Mekanis</label>
+														<wrap>-1</wrap>
+													</object>
+												</object>
+											</object>
 										</object>
 									</object>
 									<object class="sizeritem">
-										<option>0</option>
-										<flag>wxALL|wxALIGN_CENTER_VERTICAL|wxALIGN_CENTER_HORIZONTAL</flag>
+										<option>1</option>
+										<flag>wxEXPAND | wxALL</flag>
 										<border>5</border>
-										<object class="wxStaticText" name="m_staticText215">
-											<font>
-												<size>12</size>
-												<family>swiss</family>
-												<style>normal</style>
-												<weight>normal</weight>
-												<underlined>0</underlined>
-												<face>Sans</face>
-											</font>
-											<label>Kemampuan\n     Ilmiah</label>
-											<wrap>-1</wrap>
+										<object class="wxPanel" name="m_panel59">
+											<style>wxTAB_TRAVERSAL</style>
+											<bg>#f5874f</bg>
+											<fg>#f9faf9</fg>
+											<object class="wxBoxSizer">
+												<orient>wxVERTICAL</orient>
+												<object class="sizeritem">
+													<option>0</option>
+													<flag>wxALL|wxALIGN_CENTER_VERTICAL|wxALIGN_CENTER_HORIZONTAL</flag>
+													<border>5</border>
+													<object class="wxStaticText" name="m_staticText215">
+														<font>
+															<size>12</size>
+															<family>swiss</family>
+															<style>normal</style>
+															<weight>normal</weight>
+															<underlined>0</underlined>
+															<face>Sans</face>
+														</font>
+														<label>Kemampuan\n     Ilmiah</label>
+														<wrap>-1</wrap>
+													</object>
+												</object>
+											</object>
 										</object>
 									</object>
 									<object class="sizeritem">
-										<option>0</option>
-										<flag>wxALL|wxALIGN_CENTER_HORIZONTAL</flag>
+										<option>1</option>
+										<flag>wxEXPAND | wxALL</flag>
 										<border>5</border>
-										<object class="wxStaticText" name="m_staticText216">
-											<font>
-												<size>12</size>
-												<family>swiss</family>
-												<style>normal</style>
-												<weight>normal</weight>
-												<underlined>0</underlined>
-												<face>Sans</face>
-											</font>
-											<label>Kemampuan\n     Artistik</label>
-											<wrap>-1</wrap>
+										<object class="wxPanel" name="m_panel60">
+											<style>wxTAB_TRAVERSAL</style>
+											<bg>#ffcc29</bg>
+											<object class="wxBoxSizer">
+												<orient>wxVERTICAL</orient>
+												<object class="sizeritem">
+													<option>0</option>
+													<flag>wxALL|wxALIGN_CENTER_HORIZONTAL</flag>
+													<border>5</border>
+													<object class="wxStaticText" name="m_staticText216">
+														<font>
+															<size>12</size>
+															<family>swiss</family>
+															<style>normal</style>
+															<weight>normal</weight>
+															<underlined>0</underlined>
+															<face>Sans</face>
+														</font>
+														<label>Kemampuan\n     Artistik</label>
+														<wrap>-1</wrap>
+													</object>
+												</object>
+											</object>
 										</object>
 									</object>
 									<object class="sizeritem">
-										<option>0</option>
-										<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+										<option>1</option>
+										<flag>wxEXPAND | wxALL</flag>
 										<border>5</border>
-										<object class="wxStaticText" name="m_staticText217">
-											<font>
-												<size>12</size>
-												<family>swiss</family>
-												<style>normal</style>
-												<weight>normal</weight>
-												<underlined>0</underlined>
-												<face>Sans</face>
-											</font>
-											<label>Kemampuan\n   Mengajar</label>
-											<wrap>-1</wrap>
+										<object class="wxPanel" name="m_panel61">
+											<style>wxTAB_TRAVERSAL</style>
+											<bg>#587a36</bg>
+											<fg>#f9faf9</fg>
+											<object class="wxBoxSizer">
+												<orient>wxVERTICAL</orient>
+												<object class="sizeritem">
+													<option>0</option>
+													<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+													<border>5</border>
+													<object class="wxStaticText" name="m_staticText217">
+														<font>
+															<size>12</size>
+															<family>swiss</family>
+															<style>normal</style>
+															<weight>normal</weight>
+															<underlined>0</underlined>
+															<face>Sans</face>
+														</font>
+														<label>Kemampuan\n   Mengajar</label>
+														<wrap>-1</wrap>
+													</object>
+												</object>
+											</object>
 										</object>
 									</object>
 									<object class="sizeritem">
-										<option>0</option>
-										<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+										<option>1</option>
+										<flag>wxEXPAND | wxALL</flag>
 										<border>5</border>
-										<object class="wxStaticText" name="m_staticText218">
-											<font>
-												<size>12</size>
-												<family>swiss</family>
-												<style>normal</style>
-												<weight>normal</weight>
-												<underlined>0</underlined>
-												<face>Sans</face>
-											</font>
-											<label>Kemampuan\n   Penjualan</label>
-											<wrap>-1</wrap>
+										<object class="wxPanel" name="m_panel62">
+											<style>wxTAB_TRAVERSAL</style>
+											<bg>#0058da</bg>
+											<fg>#f9faf9</fg>
+											<object class="wxBoxSizer">
+												<orient>wxVERTICAL</orient>
+												<object class="sizeritem">
+													<option>0</option>
+													<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+													<border>5</border>
+													<object class="wxStaticText" name="m_staticText218">
+														<bg>#f9faf9</bg>
+														<font>
+															<size>12</size>
+															<family>swiss</family>
+															<style>normal</style>
+															<weight>normal</weight>
+															<underlined>0</underlined>
+															<face>Sans</face>
+														</font>
+														<label>Kemampuan\n   Penjualan</label>
+														<wrap>-1</wrap>
+													</object>
+												</object>
+											</object>
 										</object>
 									</object>
 									<object class="sizeritem">
-										<option>0</option>
-										<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+										<option>1</option>
+										<flag>wxEXPAND | wxALL</flag>
 										<border>5</border>
-										<object class="wxStaticText" name="m_staticText219">
-											<font>
-												<size>12</size>
-												<family>swiss</family>
-												<style>normal</style>
-												<weight>normal</weight>
-												<underlined>0</underlined>
-												<face>Sans</face>
-											</font>
-											<label>Kemampuan\nAdministrasi</label>
-											<wrap>-1</wrap>
+										<object class="wxPanel" name="m_panel63">
+											<style>wxTAB_TRAVERSAL</style>
+											<bg>#a98aac</bg>
+											<object class="wxBoxSizer">
+												<orient>wxVERTICAL</orient>
+												<object class="sizeritem">
+													<option>0</option>
+													<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+													<border>5</border>
+													<object class="wxStaticText" name="m_staticText219">
+														<font>
+															<size>12</size>
+															<family>swiss</family>
+															<style>normal</style>
+															<weight>normal</weight>
+															<underlined>0</underlined>
+															<face>Sans</face>
+														</font>
+														<label>Kemampuan\nAdministrasi</label>
+														<wrap>-1</wrap>
+													</object>
+												</object>
+											</object>
 										</object>
 									</object>
 									<object class="sizeritem">
-										<option>0</option>
-										<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+										<option>1</option>
+										<flag>wxALL|wxALIGN_CENTER_VERTICAL</flag>
 										<border>5</border>
-										<object class="wxStaticText" name="m_staticText221">
-											<font>
-												<size>12</size>
-												<family>swiss</family>
-												<style>normal</style>
-												<weight>normal</weight>
-												<underlined>0</underlined>
-												<face>Sans</face>
-											</font>
-											<label>Tingkat (1-7)</label>
-											<wrap>-1</wrap>
+										<object class="wxPanel" name="m_panel64">
+											<style>wxTAB_TRAVERSAL</style>
+											<bg>#d2d305</bg>
+											<object class="wxBoxSizer">
+												<orient>wxVERTICAL</orient>
+												<object class="sizeritem">
+													<option>0</option>
+													<flag>wxALL|wxALIGN_CENTER_VERTICAL|wxALIGN_CENTER_HORIZONTAL</flag>
+													<border>5</border>
+													<object class="wxStaticText" name="m_staticText221">
+														<font>
+															<size>12</size>
+															<family>swiss</family>
+															<style>normal</style>
+															<weight>normal</weight>
+															<underlined>0</underlined>
+															<face>Sans</face>
+														</font>
+														<label>Tingkat (1-7)</label>
+														<wrap>-1</wrap>
+													</object>
+												</object>
+											</object>
 										</object>
 									</object>
 									<object class="sizeritem">
-										<option>0</option>
-										<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+										<option>1</option>
+										<flag>wxEXPAND | wxALL</flag>
 										<border>5</border>
-										<object class="wxSpinCtrl" name="m_kmekanisb1">
-											<style>wxSP_ARROW_KEYS</style>
-											<size>75,-1</size>
-											<font>
-												<size>12</size>
-												<family>swiss</family>
-												<style>normal</style>
-												<weight>normal</weight>
-												<underlined>0</underlined>
-												<face>Sans</face>
-											</font>
-											<value>0</value>
-											<min>0</min>
-											<max>7</max>
+										<object class="wxPanel" name="m_panel65">
+											<style>wxTAB_TRAVERSAL</style>
+											<bg>#d05742</bg>
+											<object class="wxBoxSizer">
+												<orient>wxVERTICAL</orient>
+												<object class="sizeritem">
+													<option>0</option>
+													<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+													<border>5</border>
+													<object class="wxSpinCtrl" name="m_kmekanisb1">
+														<style>wxSP_ARROW_KEYS</style>
+														<size>75,-1</size>
+														<font>
+															<size>12</size>
+															<family>swiss</family>
+															<style>normal</style>
+															<weight>normal</weight>
+															<underlined>0</underlined>
+															<face>Sans</face>
+														</font>
+														<value>0</value>
+														<min>0</min>
+														<max>7</max>
+													</object>
+												</object>
+											</object>
 										</object>
 									</object>
 									<object class="sizeritem">
-										<option>0</option>
-										<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+										<option>1</option>
+										<flag>wxEXPAND | wxALL</flag>
 										<border>5</border>
-										<object class="wxSpinCtrl" name="m_kilmiahb1">
-											<style>wxSP_ARROW_KEYS</style>
-											<size>75,-1</size>
-											<font>
-												<size>12</size>
-												<family>swiss</family>
-												<style>normal</style>
-												<weight>normal</weight>
-												<underlined>0</underlined>
-												<face>Sans</face>
-											</font>
-											<value>0</value>
-											<min>0</min>
-											<max>7</max>
+										<object class="wxPanel" name="m_panel66">
+											<style>wxTAB_TRAVERSAL</style>
+											<bg>#f5874f</bg>
+											<object class="wxBoxSizer">
+												<orient>wxVERTICAL</orient>
+												<object class="sizeritem">
+													<option>0</option>
+													<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+													<border>5</border>
+													<object class="wxSpinCtrl" name="m_kilmiahb1">
+														<style>wxSP_ARROW_KEYS</style>
+														<size>75,-1</size>
+														<font>
+															<size>12</size>
+															<family>swiss</family>
+															<style>normal</style>
+															<weight>normal</weight>
+															<underlined>0</underlined>
+															<face>Sans</face>
+														</font>
+														<value>0</value>
+														<min>0</min>
+														<max>7</max>
+													</object>
+												</object>
+											</object>
 										</object>
 									</object>
 									<object class="sizeritem">
-										<option>0</option>
-										<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+										<option>1</option>
+										<flag>wxEXPAND | wxALL</flag>
 										<border>5</border>
-										<object class="wxSpinCtrl" name="m_kartistikb1">
-											<style>wxSP_ARROW_KEYS</style>
-											<size>75,-1</size>
-											<font>
-												<size>12</size>
-												<family>swiss</family>
-												<style>normal</style>
-												<weight>normal</weight>
-												<underlined>0</underlined>
-												<face>Sans</face>
-											</font>
-											<value>0</value>
-											<min>0</min>
-											<max>7</max>
+										<object class="wxPanel" name="m_panel67">
+											<style>wxTAB_TRAVERSAL</style>
+											<bg>#ffcc29</bg>
+											<object class="wxBoxSizer">
+												<orient>wxVERTICAL</orient>
+												<object class="sizeritem">
+													<option>0</option>
+													<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+													<border>5</border>
+													<object class="wxSpinCtrl" name="m_kartistikb1">
+														<style>wxSP_ARROW_KEYS</style>
+														<size>75,-1</size>
+														<font>
+															<size>12</size>
+															<family>swiss</family>
+															<style>normal</style>
+															<weight>normal</weight>
+															<underlined>0</underlined>
+															<face>Sans</face>
+														</font>
+														<value>0</value>
+														<min>0</min>
+														<max>7</max>
+													</object>
+												</object>
+											</object>
 										</object>
 									</object>
 									<object class="sizeritem">
-										<option>0</option>
-										<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+										<option>1</option>
+										<flag>wxEXPAND | wxALL</flag>
 										<border>5</border>
-										<object class="wxSpinCtrl" name="m_kmengajarb1">
-											<style>wxSP_ARROW_KEYS</style>
-											<size>75,-1</size>
-											<font>
-												<size>12</size>
-												<family>swiss</family>
-												<style>normal</style>
-												<weight>normal</weight>
-												<underlined>0</underlined>
-												<face>Sans</face>
-											</font>
-											<value>0</value>
-											<min>0</min>
-											<max>7</max>
+										<object class="wxPanel" name="m_panel68">
+											<style>wxTAB_TRAVERSAL</style>
+											<bg>#587a36</bg>
+											<object class="wxBoxSizer">
+												<orient>wxVERTICAL</orient>
+												<object class="sizeritem">
+													<option>0</option>
+													<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+													<border>5</border>
+													<object class="wxSpinCtrl" name="m_kmengajarb1">
+														<style>wxSP_ARROW_KEYS</style>
+														<size>75,-1</size>
+														<font>
+															<size>12</size>
+															<family>swiss</family>
+															<style>normal</style>
+															<weight>normal</weight>
+															<underlined>0</underlined>
+															<face>Sans</face>
+														</font>
+														<value>0</value>
+														<min>0</min>
+														<max>7</max>
+													</object>
+												</object>
+											</object>
 										</object>
 									</object>
 									<object class="sizeritem">
-										<option>0</option>
-										<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+										<option>1</option>
+										<flag>wxEXPAND | wxALL</flag>
 										<border>5</border>
-										<object class="wxSpinCtrl" name="m_kpenjualanb1">
-											<style>wxSP_ARROW_KEYS</style>
-											<size>75,-1</size>
-											<font>
-												<size>12</size>
-												<family>swiss</family>
-												<style>normal</style>
-												<weight>normal</weight>
-												<underlined>0</underlined>
-												<face>Sans</face>
-											</font>
-											<value>0</value>
-											<min>0</min>
-											<max>7</max>
+										<object class="wxPanel" name="m_panel69">
+											<style>wxTAB_TRAVERSAL</style>
+											<bg>#0058da</bg>
+											<object class="wxBoxSizer">
+												<orient>wxVERTICAL</orient>
+												<object class="sizeritem">
+													<option>0</option>
+													<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+													<border>5</border>
+													<object class="wxSpinCtrl" name="m_kpenjualanb1">
+														<style>wxSP_ARROW_KEYS</style>
+														<size>75,-1</size>
+														<font>
+															<size>12</size>
+															<family>swiss</family>
+															<style>normal</style>
+															<weight>normal</weight>
+															<underlined>0</underlined>
+															<face>Sans</face>
+														</font>
+														<value>0</value>
+														<min>0</min>
+														<max>7</max>
+													</object>
+												</object>
+											</object>
 										</object>
 									</object>
 									<object class="sizeritem">
-										<option>0</option>
-										<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+										<option>1</option>
+										<flag>wxEXPAND | wxALL</flag>
 										<border>5</border>
-										<object class="wxSpinCtrl" name="m_kadministrasib1">
-											<style>wxSP_ARROW_KEYS</style>
-											<size>75,-1</size>
-											<font>
-												<size>12</size>
-												<family>swiss</family>
-												<style>normal</style>
-												<weight>normal</weight>
-												<underlined>0</underlined>
-												<face>Sans</face>
-											</font>
-											<value>0</value>
-											<min>0</min>
-											<max>7</max>
+										<object class="wxPanel" name="m_panel70">
+											<style>wxTAB_TRAVERSAL</style>
+											<bg>#a98aac</bg>
+											<object class="wxBoxSizer">
+												<orient>wxVERTICAL</orient>
+												<object class="sizeritem">
+													<option>0</option>
+													<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+													<border>5</border>
+													<object class="wxSpinCtrl" name="m_kadministrasib1">
+														<style>wxSP_ARROW_KEYS</style>
+														<size>75,-1</size>
+														<font>
+															<size>12</size>
+															<family>swiss</family>
+															<style>normal</style>
+															<weight>normal</weight>
+															<underlined>0</underlined>
+															<face>Sans</face>
+														</font>
+														<value>0</value>
+														<min>0</min>
+														<max>7</max>
+													</object>
+												</object>
+											</object>
 										</object>
 									</object>
 								</object>
@@ -3003,19 +3431,33 @@
 				<object class="wxBoxSizer">
 					<orient>wxVERTICAL</orient>
 					<object class="sizeritem">
-						<option>0</option>
-						<flag>wxALL|wxALIGN_CENTER_HORIZONTAL</flag>
+						<option>1</option>
+						<flag>wxEXPAND | wxALL</flag>
 						<border>5</border>
-						<object class="wxStaticText" name="m_staticText205">
-							<font>
-								<size>14</size>
-								<style>normal</style>
-								<weight>bold</weight>
-								<underlined>0</underlined>
-								<face>Tw Cen MT</face>
-							</font>
-							<label>BAGIAN 2</label>
-							<wrap>-1</wrap>
+						<object class="wxPanel" name="m_panel84">
+							<style>wxTAB_TRAVERSAL</style>
+							<bg>#d69138</bg>
+							<fg>#f9faf9</fg>
+							<object class="wxBoxSizer">
+								<orient>wxVERTICAL</orient>
+								<object class="sizeritem">
+									<option>0</option>
+									<flag>wxALL|wxALIGN_CENTER_HORIZONTAL</flag>
+									<border>5</border>
+									<object class="wxStaticText" name="m_staticText205">
+										<bg>#d69138</bg>
+										<font>
+											<size>14</size>
+											<style>normal</style>
+											<weight>bold</weight>
+											<underlined>0</underlined>
+											<face>Tw Cen MT</face>
+										</font>
+										<label>BAGIAN 2</label>
+										<wrap>-1</wrap>
+									</object>
+								</object>
+							</object>
 						</object>
 					</object>
 					<object class="sizeritem">
@@ -3039,242 +3481,408 @@
 								</object>
 							</object>
 							<object class="sizeritem">
-								<option>0</option>
-								<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+								<option>1</option>
+								<flag>wxEXPAND | wxALL</flag>
 								<border>5</border>
-								<object class="wxStaticText" name="m_staticText2141">
-									<font>
-										<size>12</size>
-										<family>swiss</family>
-										<style>normal</style>
-										<weight>normal</weight>
-										<underlined>0</underlined>
-										<face>Sans</face>
-									</font>
-									<label>Keterampilan \n     Tangan</label>
-									<wrap>-1</wrap>
+								<object class="wxPanel" name="m_panel71">
+									<style>wxTAB_TRAVERSAL</style>
+									<bg>#d05742</bg>
+									<fg>#f9faf9</fg>
+									<object class="wxBoxSizer">
+										<orient>wxVERTICAL</orient>
+										<object class="sizeritem">
+											<option>0</option>
+											<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+											<border>5</border>
+											<object class="wxStaticText" name="m_staticText2141">
+												<font>
+													<size>12</size>
+													<family>swiss</family>
+													<style>normal</style>
+													<weight>normal</weight>
+													<underlined>0</underlined>
+													<face>Sans</face>
+												</font>
+												<label>Keterampilan \n     Tangan</label>
+												<wrap>-1</wrap>
+											</object>
+										</object>
+									</object>
+								</object>
+							</object>
+							<object class="sizeritem">
+								<option>1</option>
+								<flag>wxEXPAND | wxALL</flag>
+								<border>5</border>
+								<object class="wxPanel" name="m_panel72">
+									<style>wxTAB_TRAVERSAL</style>
+									<bg>#f5874f</bg>
+									<fg>#f9faf9</fg>
+									<object class="wxBoxSizer">
+										<orient>wxVERTICAL</orient>
+										<object class="sizeritem">
+											<option>0</option>
+											<flag>wxALL|wxALIGN_CENTER_VERTICAL|wxALIGN_CENTER_HORIZONTAL</flag>
+											<border>5</border>
+											<object class="wxStaticText" name="m_staticText2151">
+												<bg>#f5874f</bg>
+												<font>
+													<size>12</size>
+													<family>swiss</family>
+													<style>normal</style>
+													<weight>normal</weight>
+													<underlined>0</underlined>
+													<face>Sans</face>
+												</font>
+												<label>Kemampuan \n Matematika</label>
+												<wrap>-1</wrap>
+											</object>
+										</object>
+									</object>
+								</object>
+							</object>
+							<object class="sizeritem">
+								<option>1</option>
+								<flag>wxEXPAND | wxALL</flag>
+								<border>5</border>
+								<object class="wxPanel" name="m_panel73">
+									<style>wxTAB_TRAVERSAL</style>
+									<bg>#ffcc29</bg>
+									<object class="wxBoxSizer">
+										<orient>wxVERTICAL</orient>
+										<object class="sizeritem">
+											<option>0</option>
+											<flag>wxALL|wxALIGN_CENTER_HORIZONTAL</flag>
+											<border>5</border>
+											<object class="wxStaticText" name="m_staticText2161">
+												<bg>#ffcc29</bg>
+												<font>
+													<size>12</size>
+													<family>swiss</family>
+													<style>normal</style>
+													<weight>normal</weight>
+													<underlined>0</underlined>
+													<face>Sans</face>
+												</font>
+												<label>Kemampuan \n      Musik</label>
+												<wrap>-1</wrap>
+											</object>
+										</object>
+									</object>
+								</object>
+							</object>
+							<object class="sizeritem">
+								<option>1</option>
+								<flag>wxEXPAND | wxALL</flag>
+								<border>5</border>
+								<object class="wxPanel" name="m_panel74">
+									<style>wxTAB_TRAVERSAL</style>
+									<bg>#587a36</bg>
+									<fg>#f9faf9</fg>
+									<object class="wxBoxSizer">
+										<orient>wxVERTICAL</orient>
+										<object class="sizeritem">
+											<option>0</option>
+											<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+											<border>5</border>
+											<object class="wxStaticText" name="m_staticText2171">
+												<bg>#587a36</bg>
+												<font>
+													<size>12</size>
+													<family>swiss</family>
+													<style>normal</style>
+													<weight>normal</weight>
+													<underlined>0</underlined>
+													<face>Sans</face>
+												</font>
+												<label>Memahami\nOrang Lain</label>
+												<wrap>-1</wrap>
+											</object>
+										</object>
+									</object>
+								</object>
+							</object>
+							<object class="sizeritem">
+								<option>1</option>
+								<flag>wxEXPAND | wxALL</flag>
+								<border>5</border>
+								<object class="wxPanel" name="m_panel75">
+									<style>wxTAB_TRAVERSAL</style>
+									<bg>#0058da</bg>
+									<fg>#f9faf9</fg>
+									<object class="wxBoxSizer">
+										<orient>wxVERTICAL</orient>
+										<object class="sizeritem">
+											<option>0</option>
+											<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+											<border>5</border>
+											<object class="wxStaticText" name="m_staticText2181">
+												<bg>#0058da</bg>
+												<font>
+													<size>12</size>
+													<family>swiss</family>
+													<style>normal</style>
+													<weight>normal</weight>
+													<underlined>0</underlined>
+													<face>Sans</face>
+												</font>
+												<label>Keterampilan \n   Manajerial</label>
+												<wrap>-1</wrap>
+											</object>
+										</object>
+									</object>
+								</object>
+							</object>
+							<object class="sizeritem">
+								<option>1</option>
+								<flag>wxEXPAND | wxALL</flag>
+								<border>5</border>
+								<object class="wxPanel" name="m_panel76">
+									<style>wxTAB_TRAVERSAL</style>
+									<bg>#a98aac</bg>
+									<object class="wxBoxSizer">
+										<orient>wxVERTICAL</orient>
+										<object class="sizeritem">
+											<option>0</option>
+											<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+											<border>5</border>
+											<object class="wxStaticText" name="m_staticText2191">
+												<bg>#a98aac</bg>
+												<font>
+													<size>12</size>
+													<family>swiss</family>
+													<style>normal</style>
+													<weight>normal</weight>
+													<underlined>0</underlined>
+													<face>Sans</face>
+												</font>
+												<label>Kemampuan \nPerkantoran</label>
+												<wrap>-1</wrap>
+											</object>
+										</object>
+									</object>
 								</object>
 							</object>
 							<object class="sizeritem">
 								<option>0</option>
-								<flag>wxALL|wxALIGN_CENTER_VERTICAL|wxALIGN_CENTER_HORIZONTAL</flag>
+								<flag>wxALL|wxALIGN_CENTER_VERTICAL</flag>
 								<border>5</border>
-								<object class="wxStaticText" name="m_staticText2151">
-									<font>
-										<size>12</size>
-										<family>swiss</family>
-										<style>normal</style>
-										<weight>normal</weight>
-										<underlined>0</underlined>
-										<face>Sans</face>
-									</font>
-									<label>Kemampuan \n Matematika</label>
-									<wrap>-1</wrap>
+								<object class="wxPanel" name="m_panel77">
+									<style>wxTAB_TRAVERSAL</style>
+									<bg>#d2d305</bg>
+									<object class="wxBoxSizer">
+										<orient>wxVERTICAL</orient>
+										<object class="sizeritem">
+											<option>0</option>
+											<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+											<border>5</border>
+											<object class="wxStaticText" name="m_staticText2211">
+												<font>
+													<size>12</size>
+													<family>swiss</family>
+													<style>normal</style>
+													<weight>normal</weight>
+													<underlined>0</underlined>
+													<face>Sans</face>
+												</font>
+												<label>Tingkat (1-7)</label>
+												<wrap>-1</wrap>
+											</object>
+										</object>
+									</object>
 								</object>
 							</object>
 							<object class="sizeritem">
-								<option>0</option>
-								<flag>wxALL|wxALIGN_CENTER_HORIZONTAL</flag>
+								<option>1</option>
+								<flag>wxEXPAND | wxALL</flag>
 								<border>5</border>
-								<object class="wxStaticText" name="m_staticText2161">
-									<font>
-										<size>12</size>
-										<family>swiss</family>
-										<style>normal</style>
-										<weight>normal</weight>
-										<underlined>0</underlined>
-										<face>Sans</face>
-									</font>
-									<label>Kemampuan \n      Musik</label>
-									<wrap>-1</wrap>
+								<object class="wxPanel" name="m_panel78">
+									<style>wxTAB_TRAVERSAL</style>
+									<bg>#d05742</bg>
+									<fg>#f9faf9</fg>
+									<object class="wxBoxSizer">
+										<orient>wxVERTICAL</orient>
+										<object class="sizeritem">
+											<option>0</option>
+											<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+											<border>5</border>
+											<object class="wxSpinCtrl" name="m_ktanganb2">
+												<style>wxSP_ARROW_KEYS</style>
+												<size>75,-1</size>
+												<font>
+													<size>12</size>
+													<family>swiss</family>
+													<style>normal</style>
+													<weight>normal</weight>
+													<underlined>0</underlined>
+													<face>Sans</face>
+												</font>
+												<value>0</value>
+												<min>0</min>
+												<max>7</max>
+											</object>
+										</object>
+									</object>
 								</object>
 							</object>
 							<object class="sizeritem">
-								<option>0</option>
-								<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+								<option>1</option>
+								<flag>wxEXPAND | wxALL</flag>
 								<border>5</border>
-								<object class="wxStaticText" name="m_staticText2171">
-									<font>
-										<size>12</size>
-										<family>swiss</family>
-										<style>normal</style>
-										<weight>normal</weight>
-										<underlined>0</underlined>
-										<face>Sans</face>
-									</font>
-									<label>Memahami\nOrang Lain</label>
-									<wrap>-1</wrap>
+								<object class="wxPanel" name="m_panel79">
+									<style>wxTAB_TRAVERSAL</style>
+									<bg>#f5874f</bg>
+									<object class="wxBoxSizer">
+										<orient>wxVERTICAL</orient>
+										<object class="sizeritem">
+											<option>0</option>
+											<flag>wxALL|wxALIGN_CENTER_VERTICAL|wxALIGN_CENTER_HORIZONTAL</flag>
+											<border>5</border>
+											<object class="wxSpinCtrl" name="m_kmatematikab2">
+												<style>wxSP_ARROW_KEYS</style>
+												<size>75,-1</size>
+												<font>
+													<size>12</size>
+													<family>swiss</family>
+													<style>normal</style>
+													<weight>normal</weight>
+													<underlined>0</underlined>
+													<face>Sans</face>
+												</font>
+												<value>0</value>
+												<min>0</min>
+												<max>7</max>
+											</object>
+										</object>
+									</object>
 								</object>
 							</object>
 							<object class="sizeritem">
-								<option>0</option>
-								<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+								<option>1</option>
+								<flag>wxEXPAND | wxALL</flag>
 								<border>5</border>
-								<object class="wxStaticText" name="m_staticText2181">
-									<font>
-										<size>12</size>
-										<family>swiss</family>
-										<style>normal</style>
-										<weight>normal</weight>
-										<underlined>0</underlined>
-										<face>Sans</face>
-									</font>
-									<label>Keterampilan \n   Manajerial</label>
-									<wrap>-1</wrap>
+								<object class="wxPanel" name="m_panel80">
+									<style>wxTAB_TRAVERSAL</style>
+									<bg>#ffcc29</bg>
+									<object class="wxBoxSizer">
+										<orient>wxVERTICAL</orient>
+										<object class="sizeritem">
+											<option>0</option>
+											<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+											<border>5</border>
+											<object class="wxSpinCtrl" name="m_kmusikb2">
+												<style>wxSP_ARROW_KEYS</style>
+												<size>75,-1</size>
+												<font>
+													<size>12</size>
+													<family>swiss</family>
+													<style>normal</style>
+													<weight>normal</weight>
+													<underlined>0</underlined>
+													<face>Sans</face>
+												</font>
+												<value>0</value>
+												<min>0</min>
+												<max>7</max>
+											</object>
+										</object>
+									</object>
 								</object>
 							</object>
 							<object class="sizeritem">
-								<option>0</option>
-								<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+								<option>1</option>
+								<flag>wxEXPAND | wxALL</flag>
 								<border>5</border>
-								<object class="wxStaticText" name="m_staticText2191">
-									<font>
-										<size>12</size>
-										<family>swiss</family>
-										<style>normal</style>
-										<weight>normal</weight>
-										<underlined>0</underlined>
-										<face>Sans</face>
-									</font>
-									<label>Kemampuan \nPerkantoran</label>
-									<wrap>-1</wrap>
+								<object class="wxPanel" name="m_panel81">
+									<style>wxTAB_TRAVERSAL</style>
+									<bg>#587a36</bg>
+									<object class="wxBoxSizer">
+										<orient>wxVERTICAL</orient>
+										<object class="sizeritem">
+											<option>0</option>
+											<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+											<border>5</border>
+											<object class="wxSpinCtrl" name="m_moranglainb2">
+												<style>wxSP_ARROW_KEYS</style>
+												<size>75,-1</size>
+												<font>
+													<size>12</size>
+													<family>swiss</family>
+													<style>normal</style>
+													<weight>normal</weight>
+													<underlined>0</underlined>
+													<face>Sans</face>
+												</font>
+												<value>0</value>
+												<min>0</min>
+												<max>7</max>
+											</object>
+										</object>
+									</object>
 								</object>
 							</object>
 							<object class="sizeritem">
-								<option>0</option>
-								<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+								<option>1</option>
+								<flag>wxEXPAND | wxALL</flag>
 								<border>5</border>
-								<object class="wxStaticText" name="m_staticText2211">
-									<font>
-										<size>12</size>
-										<family>swiss</family>
-										<style>normal</style>
-										<weight>normal</weight>
-										<underlined>0</underlined>
-										<face>Sans</face>
-									</font>
-									<label>Tingkat (1-7)</label>
-									<wrap>-1</wrap>
+								<object class="wxPanel" name="m_panel82">
+									<style>wxTAB_TRAVERSAL</style>
+									<bg>#0058da</bg>
+									<object class="wxBoxSizer">
+										<orient>wxVERTICAL</orient>
+										<object class="sizeritem">
+											<option>0</option>
+											<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+											<border>5</border>
+											<object class="wxSpinCtrl" name="m_kmanajerialb2">
+												<style>wxSP_ARROW_KEYS</style>
+												<size>75,-1</size>
+												<font>
+													<size>12</size>
+													<family>swiss</family>
+													<style>normal</style>
+													<weight>normal</weight>
+													<underlined>0</underlined>
+													<face>Sans</face>
+												</font>
+												<value>0</value>
+												<min>0</min>
+												<max>7</max>
+											</object>
+										</object>
+									</object>
 								</object>
 							</object>
 							<object class="sizeritem">
-								<option>0</option>
-								<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+								<option>1</option>
+								<flag>wxEXPAND | wxALL</flag>
 								<border>5</border>
-								<object class="wxSpinCtrl" name="m_ktanganb2">
-									<style>wxSP_ARROW_KEYS</style>
-									<size>75,-1</size>
-									<font>
-										<size>12</size>
-										<family>swiss</family>
-										<style>normal</style>
-										<weight>normal</weight>
-										<underlined>0</underlined>
-										<face>Sans</face>
-									</font>
-									<value>0</value>
-									<min>0</min>
-									<max>7</max>
-								</object>
-							</object>
-							<object class="sizeritem">
-								<option>0</option>
-								<flag>wxALL|wxALIGN_CENTER_VERTICAL|wxALIGN_CENTER_HORIZONTAL</flag>
-								<border>5</border>
-								<object class="wxSpinCtrl" name="m_kmatematikab2">
-									<style>wxSP_ARROW_KEYS</style>
-									<size>75,-1</size>
-									<font>
-										<size>12</size>
-										<family>swiss</family>
-										<style>normal</style>
-										<weight>normal</weight>
-										<underlined>0</underlined>
-										<face>Sans</face>
-									</font>
-									<value>0</value>
-									<min>0</min>
-									<max>7</max>
-								</object>
-							</object>
-							<object class="sizeritem">
-								<option>0</option>
-								<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
-								<border>5</border>
-								<object class="wxSpinCtrl" name="m_kmusikb2">
-									<style>wxSP_ARROW_KEYS</style>
-									<size>75,-1</size>
-									<font>
-										<size>12</size>
-										<family>swiss</family>
-										<style>normal</style>
-										<weight>normal</weight>
-										<underlined>0</underlined>
-										<face>Sans</face>
-									</font>
-									<value>0</value>
-									<min>0</min>
-									<max>7</max>
-								</object>
-							</object>
-							<object class="sizeritem">
-								<option>0</option>
-								<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
-								<border>5</border>
-								<object class="wxSpinCtrl" name="m_moranglainb2">
-									<style>wxSP_ARROW_KEYS</style>
-									<size>75,-1</size>
-									<font>
-										<size>12</size>
-										<family>swiss</family>
-										<style>normal</style>
-										<weight>normal</weight>
-										<underlined>0</underlined>
-										<face>Sans</face>
-									</font>
-									<value>0</value>
-									<min>0</min>
-									<max>7</max>
-								</object>
-							</object>
-							<object class="sizeritem">
-								<option>0</option>
-								<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
-								<border>5</border>
-								<object class="wxSpinCtrl" name="m_kmanajerialb2">
-									<style>wxSP_ARROW_KEYS</style>
-									<size>75,-1</size>
-									<font>
-										<size>12</size>
-										<family>swiss</family>
-										<style>normal</style>
-										<weight>normal</weight>
-										<underlined>0</underlined>
-										<face>Sans</face>
-									</font>
-									<value>0</value>
-									<min>0</min>
-									<max>7</max>
-								</object>
-							</object>
-							<object class="sizeritem">
-								<option>0</option>
-								<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
-								<border>5</border>
-								<object class="wxSpinCtrl" name="m_kperkantoranb2">
-									<style>wxSP_ARROW_KEYS</style>
-									<size>75,-1</size>
-									<font>
-										<size>12</size>
-										<family>swiss</family>
-										<style>normal</style>
-										<weight>normal</weight>
-										<underlined>0</underlined>
-										<face>Sans</face>
-									</font>
-									<value>0</value>
-									<min>0</min>
-									<max>7</max>
+								<object class="wxPanel" name="m_panel83">
+									<style>wxTAB_TRAVERSAL</style>
+									<bg>#a98aac</bg>
+									<object class="wxBoxSizer">
+										<orient>wxVERTICAL</orient>
+										<object class="sizeritem">
+											<option>0</option>
+											<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+											<border>5</border>
+											<object class="wxSpinCtrl" name="m_kperkantoranb2">
+												<style>wxSP_ARROW_KEYS</style>
+												<size>75,-1</size>
+												<font>
+													<size>12</size>
+													<family>swiss</family>
+													<style>normal</style>
+													<weight>normal</weight>
+													<underlined>0</underlined>
+													<face>Sans</face>
+												</font>
+												<value>0</value>
+												<min>0</min>
+												<max>7</max>
+											</object>
+										</object>
+									</object>
 								</object>
 							</object>
 						</object>
@@ -3285,7 +3893,7 @@
 	</object>
 	<object class="wxPanel" name="Page5">
 		<style>wxTAB_TRAVERSAL</style>
-		<bg>#f9faf9</bg>
+		<bg>#ffffff</bg>
 		<font>
 			<size>10</size>
 			<style>normal</style>
@@ -3326,7 +3934,7 @@
 					<orient>wxVERTICAL</orient>
 					<object class="sizeritem">
 						<option>0</option>
-						<flag></flag>
+						<flag>wxEXPAND</flag>
 						<border>5</border>
 						<object class="wxFlexGridSizer">
 							<rows>0</rows>
@@ -3421,360 +4029,504 @@
 									<growablerows>1</growablerows>
 									<object class="sizeritem">
 										<option>1</option>
-										<flag></flag>
+										<flag>wxEXPAND | wxALL</flag>
 										<border>5</border>
-										<object class="wxFlexGridSizer">
-											<rows>0</rows>
-											<cols>2</cols>
-											<vgap>0</vgap>
-											<hgap>0</hgap>
-											<growablecols>1</growablecols>
-											<growablerows>0</growablerows>
-											<object class="sizeritem">
-												<option>1</option>
-												<flag>wxALL|wxALIGN_CENTER_VERTICAL</flag>
-												<border>5</border>
-												<object class="wxStaticText" name="m_aktivitas">
-													<font>
-														<size>14</size>
-														<style>normal</style>
-														<weight>normal</weight>
-														<underlined>0</underlined>
-														<face>Tw Cen MT</face>
-													</font>
-													<label>Aktivitas</label>
-													<wrap>-1</wrap>
+										<object class="wxPanel" name="m_panel51">
+											<style>wxTAB_TRAVERSAL</style>
+											<size>175,-1</size>
+											<bg>#585570</bg>
+											<object class="wxFlexGridSizer">
+												<rows>0</rows>
+												<cols>2</cols>
+												<vgap>0</vgap>
+												<hgap>0</hgap>
+												<growablecols>1</growablecols>
+												<growablerows>0</growablerows>
+												<object class="sizeritem">
+													<option>1</option>
+													<flag>wxALL|wxALIGN_CENTER_VERTICAL</flag>
+													<border>5</border>
+													<object class="wxStaticText" name="m_aktivitas">
+														<fg>#f9faf9</fg>
+														<font>
+															<size>14</size>
+															<style>normal</style>
+															<weight>normal</weight>
+															<underlined>0</underlined>
+															<face>Tw Cen MT</face>
+														</font>
+														<label>Aktivitas</label>
+														<wrap>-1</wrap>
+													</object>
+												</object>
+												<object class="sizeritem">
+													<option>0</option>
+													<flag>wxALL|wxALIGN_CENTER_VERTICAL|wxALIGN_RIGHT</flag>
+													<border>5</border>
+													<object class="wxButton" name="m_buttonDetailA">
+														<font>
+															<size>12</size>
+															<family>swiss</family>
+															<style>normal</style>
+															<weight>normal</weight>
+															<underlined>0</underlined>
+															<face>Sans</face>
+														</font>
+														<label>Detail</label>
+														<default>0</default>
+														<markup>0</markup>
+														<bitmap />
+													</object>
 												</object>
 											</object>
-											<object class="sizeritem">
-												<option>0</option>
-												<flag>wxALL|wxALIGN_CENTER_VERTICAL|wxALIGN_RIGHT</flag>
-												<border>5</border>
-												<object class="wxButton" name="m_buttonDetailA">
-													<font>
-														<size>12</size>
-														<family>swiss</family>
-														<style>normal</style>
-														<weight>normal</weight>
-														<underlined>0</underlined>
-														<face>Sans</face>
-													</font>
-													<label>Detail</label>
-													<default>0</default>
-													<markup>0</markup>
-													<bitmap />
-												</object>
-											</object>
-										</object>
-									</object>
-									<object class="sizeritem">
-										<option>0</option>
-										<flag></flag>
-										<border>5</border>
-										<object class="wxFlexGridSizer">
-											<rows>0</rows>
-											<cols>2</cols>
-											<vgap>0</vgap>
-											<hgap>0</hgap>
-											<growablecols>1</growablecols>
-											<growablerows>0</growablerows>
-											<object class="sizeritem">
-												<option>0</option>
-												<flag>wxALL|wxALIGN_CENTER_VERTICAL</flag>
-												<border>5</border>
-												<object class="wxStaticText" name="m_kompetensi">
-													<font>
-														<size>14</size>
-														<style>normal</style>
-														<weight>normal</weight>
-														<underlined>0</underlined>
-														<face>Tw Cen MT</face>
-													</font>
-													<label>Kompetensi</label>
-													<wrap>-1</wrap>
-												</object>
-											</object>
-											<object class="sizeritem">
-												<option>1</option>
-												<flag>wxALL|wxALIGN_CENTER_VERTICAL|wxALIGN_RIGHT|wxEXPAND</flag>
-												<border>5</border>
-												<object class="wxButton" name="m_buttonDetailK">
-													<font>
-														<size>12</size>
-														<family>swiss</family>
-														<style>normal</style>
-														<weight>normal</weight>
-														<underlined>0</underlined>
-														<face>Sans</face>
-													</font>
-													<label>Detail</label>
-													<default>0</default>
-													<markup>0</markup>
-													<bitmap />
-												</object>
-											</object>
-										</object>
-									</object>
-									<object class="sizeritem">
-										<option>0</option>
-										<flag></flag>
-										<border>5</border>
-										<object class="wxFlexGridSizer">
-											<rows>0</rows>
-											<cols>2</cols>
-											<vgap>0</vgap>
-											<hgap>0</hgap>
-											<growablecols>1</growablecols>
-											<growablerows>0</growablerows>
-											<object class="sizeritem">
-												<option>0</option>
-												<flag>wxALL|wxALIGN_CENTER_VERTICAL</flag>
-												<border>5</border>
-												<object class="wxStaticText" name="m_Pekerjaan">
-													<font>
-														<size>14</size>
-														<style>normal</style>
-														<weight>normal</weight>
-														<underlined>0</underlined>
-														<face>Tw Cen MT</face>
-													</font>
-													<label>Pekerjaan</label>
-													<wrap>-1</wrap>
-												</object>
-											</object>
-											<object class="sizeritem">
-												<option>0</option>
-												<flag>wxALL|wxALIGN_RIGHT</flag>
-												<border>5</border>
-												<object class="wxButton" name="m_buttonDetailP">
-													<font>
-														<size>12</size>
-														<family>swiss</family>
-														<style>normal</style>
-														<weight>normal</weight>
-														<underlined>0</underlined>
-														<face>Sans</face>
-													</font>
-													<label>Detail</label>
-													<default>0</default>
-													<markup>0</markup>
-													<bitmap />
-												</object>
-											</object>
-										</object>
-									</object>
-									<object class="sizeritem">
-										<option>0</option>
-										<flag></flag>
-										<border>5</border>
-										<object class="wxFlexGridSizer">
-											<rows>0</rows>
-											<cols>2</cols>
-											<vgap>0</vgap>
-											<hgap>0</hgap>
-											<growablecols>1</growablecols>
-											<growablerows>0</growablerows>
-											<object class="sizeritem">
-												<option>0</option>
-												<flag>wxALL|wxALIGN_CENTER_VERTICAL</flag>
-												<border>5</border>
-												<object class="wxStaticText" name="m_pdiribag1">
-													<font>
-														<size>14</size>
-														<style>normal</style>
-														<weight>normal</weight>
-														<underlined>0</underlined>
-														<face>Tw Cen MT</face>
-													</font>
-													<label>Penilaian Diri\n    Bagian 1</label>
-													<wrap>-1</wrap>
-												</object>
-											</object>
-											<object class="sizeritem">
-												<option>0</option>
-												<flag>wxALL|wxALIGN_RIGHT</flag>
-												<border>5</border>
-												<object class="wxButton" name="m_buttonDetailPD1">
-													<font>
-														<size>12</size>
-														<family>swiss</family>
-														<style>normal</style>
-														<weight>normal</weight>
-														<underlined>0</underlined>
-														<face>Sans</face>
-													</font>
-													<label>Detail</label>
-													<default>0</default>
-													<markup>0</markup>
-													<bitmap />
-												</object>
-											</object>
-										</object>
-									</object>
-									<object class="sizeritem">
-										<option>0</option>
-										<flag></flag>
-										<border>5</border>
-										<object class="wxFlexGridSizer">
-											<rows>0</rows>
-											<cols>2</cols>
-											<vgap>0</vgap>
-											<hgap>0</hgap>
-											<growablecols>1</growablecols>
-											<growablerows>0</growablerows>
-											<object class="sizeritem">
-												<option>0</option>
-												<flag>wxALL|wxALIGN_CENTER_VERTICAL</flag>
-												<border>5</border>
-												<object class="wxStaticText" name="m_pdiribag2">
-													<font>
-														<size>14</size>
-														<style>normal</style>
-														<weight>normal</weight>
-														<underlined>0</underlined>
-														<face>Tw Cen MT</face>
-													</font>
-													<label>Penilaian Diri \n    Bagian 2</label>
-													<wrap>-1</wrap>
-												</object>
-											</object>
-											<object class="sizeritem">
-												<option>0</option>
-												<flag>wxALL|wxALIGN_RIGHT</flag>
-												<border>5</border>
-												<object class="wxButton" name="m_buttonDetailPD2">
-													<font>
-														<size>12</size>
-														<family>swiss</family>
-														<style>normal</style>
-														<weight>normal</weight>
-														<underlined>0</underlined>
-														<face>Sans</face>
-													</font>
-													<label>Detail</label>
-													<default>0</default>
-													<markup>0</markup>
-													<bitmap />
-												</object>
-											</object>
-										</object>
-									</object>
-									<object class="sizeritem">
-										<option>0</option>
-										<flag>wxALL|wxALIGN_CENTER_VERTICAL</flag>
-										<border>5</border>
-										<object class="wxStaticText" name="m_summaryscores">
-											<font>
-												<size>14</size>
-												<style>normal</style>
-												<weight>normal</weight>
-												<underlined>0</underlined>
-												<face>Tw Cen MT</face>
-											</font>
-											<label>Summary Scores</label>
-											<wrap>-1</wrap>
 										</object>
 									</object>
 									<object class="sizeritem">
 										<option>1</option>
-										<flag>wxALL|wxEXPAND</flag>
+										<flag>wxEXPAND | wxALL</flag>
 										<border>5</border>
-										<object class="wxListBox" name="m_lbaktivitas">
-											<style>wxLB_ALWAYS_SB</style>
-											<size>200,100</size>
-											<font>
-												<size>14</size>
-												<style>normal</style>
-												<weight>normal</weight>
-												<underlined>0</underlined>
-												<face>Tw Cen MT</face>
-											</font>
-											<content />
+										<object class="wxPanel" name="m_panel54">
+											<style>wxTAB_TRAVERSAL</style>
+											<size>175,-1</size>
+											<bg>#7d648b</bg>
+											<fg>#f9faf9</fg>
+											<object class="wxFlexGridSizer">
+												<rows>0</rows>
+												<cols>2</cols>
+												<vgap>0</vgap>
+												<hgap>0</hgap>
+												<growablecols>1</growablecols>
+												<growablerows>0</growablerows>
+												<object class="sizeritem">
+													<option>0</option>
+													<flag>wxALL|wxALIGN_CENTER_VERTICAL</flag>
+													<border>5</border>
+													<object class="wxStaticText" name="m_kompetensi">
+														<font>
+															<size>14</size>
+															<style>normal</style>
+															<weight>normal</weight>
+															<underlined>0</underlined>
+															<face>Tw Cen MT</face>
+														</font>
+														<label>Kompetensi</label>
+														<wrap>-1</wrap>
+													</object>
+												</object>
+												<object class="sizeritem">
+													<option>1</option>
+													<flag>wxALL|wxALIGN_CENTER_VERTICAL|wxALIGN_RIGHT|wxEXPAND</flag>
+													<border>5</border>
+													<object class="wxButton" name="m_buttonDetailK">
+														<font>
+															<size>12</size>
+															<family>swiss</family>
+															<style>normal</style>
+															<weight>normal</weight>
+															<underlined>0</underlined>
+															<face>Sans</face>
+														</font>
+														<label>Detail</label>
+														<default>0</default>
+														<markup>0</markup>
+														<bitmap />
+													</object>
+												</object>
+											</object>
+										</object>
+									</object>
+									<object class="sizeritem">
+										<option>1</option>
+										<flag>wxEXPAND | wxALL</flag>
+										<border>5</border>
+										<object class="wxPanel" name="m_panel55">
+											<style>wxTAB_TRAVERSAL</style>
+											<size>175,-1</size>
+											<bg>#96989a</bg>
+											<fg>#f9faf9</fg>
+											<object class="wxFlexGridSizer">
+												<rows>0</rows>
+												<cols>2</cols>
+												<vgap>0</vgap>
+												<hgap>0</hgap>
+												<growablecols>1</growablecols>
+												<growablerows>0</growablerows>
+												<object class="sizeritem">
+													<option>0</option>
+													<flag>wxALL|wxALIGN_CENTER_VERTICAL</flag>
+													<border>5</border>
+													<object class="wxStaticText" name="m_Pekerjaan">
+														<font>
+															<size>14</size>
+															<style>normal</style>
+															<weight>normal</weight>
+															<underlined>0</underlined>
+															<face>Tw Cen MT</face>
+														</font>
+														<label>Pekerjaan</label>
+														<wrap>-1</wrap>
+													</object>
+												</object>
+												<object class="sizeritem">
+													<option>0</option>
+													<flag>wxALL|wxALIGN_RIGHT</flag>
+													<border>5</border>
+													<object class="wxButton" name="m_buttonDetailP">
+														<font>
+															<size>12</size>
+															<family>swiss</family>
+															<style>normal</style>
+															<weight>normal</weight>
+															<underlined>0</underlined>
+															<face>Sans</face>
+														</font>
+														<label>Detail</label>
+														<default>0</default>
+														<markup>0</markup>
+														<bitmap />
+													</object>
+												</object>
+											</object>
+										</object>
+									</object>
+									<object class="sizeritem">
+										<option>1</option>
+										<flag>wxEXPAND | wxALL</flag>
+										<border>5</border>
+										<object class="wxPanel" name="m_panel86">
+											<style>wxTAB_TRAVERSAL</style>
+											<bg>#d47149</bg>
+											<object class="wxFlexGridSizer">
+												<rows>0</rows>
+												<cols>2</cols>
+												<vgap>0</vgap>
+												<hgap>0</hgap>
+												<growablecols>1</growablecols>
+												<growablerows>0</growablerows>
+												<object class="sizeritem">
+													<option>0</option>
+													<flag>wxALL|wxALIGN_CENTER_VERTICAL</flag>
+													<border>5</border>
+													<object class="wxStaticText" name="m_pdiribag1">
+														<font>
+															<size>14</size>
+															<style>normal</style>
+															<weight>normal</weight>
+															<underlined>0</underlined>
+															<face>Tw Cen MT</face>
+														</font>
+														<label>Penilaian Diri\n    Bagian 1</label>
+														<wrap>-1</wrap>
+													</object>
+												</object>
+												<object class="sizeritem">
+													<option>0</option>
+													<flag>wxALL|wxALIGN_RIGHT</flag>
+													<border>5</border>
+													<object class="wxButton" name="m_buttonDetailPD1">
+														<font>
+															<size>12</size>
+															<family>swiss</family>
+															<style>normal</style>
+															<weight>normal</weight>
+															<underlined>0</underlined>
+															<face>Sans</face>
+														</font>
+														<label>Detail</label>
+														<default>0</default>
+														<markup>0</markup>
+														<bitmap />
+													</object>
+												</object>
+											</object>
+										</object>
+									</object>
+									<object class="sizeritem">
+										<option>1</option>
+										<flag>wxEXPAND | wxALL</flag>
+										<border>5</border>
+										<object class="wxPanel" name="m_panel88">
+											<style>wxTAB_TRAVERSAL</style>
+											<size>200,-1</size>
+											<bg>#d69138</bg>
+											<object class="wxBoxSizer">
+												<orient>wxVERTICAL</orient>
+												<object class="sizeritem">
+													<option>0</option>
+													<flag></flag>
+													<border>5</border>
+													<object class="wxFlexGridSizer">
+														<rows>0</rows>
+														<cols>2</cols>
+														<vgap>0</vgap>
+														<hgap>0</hgap>
+														<growablecols>1</growablecols>
+														<growablerows>0</growablerows>
+														<object class="sizeritem">
+															<option>0</option>
+															<flag>wxALL|wxALIGN_CENTER_VERTICAL</flag>
+															<border>5</border>
+															<object class="wxStaticText" name="m_pdiribag2">
+																<font>
+																	<size>14</size>
+																	<style>normal</style>
+																	<weight>normal</weight>
+																	<underlined>0</underlined>
+																	<face>Tw Cen MT</face>
+																</font>
+																<label>Penilaian Diri \n    Bagian 2</label>
+																<wrap>-1</wrap>
+															</object>
+														</object>
+														<object class="sizeritem">
+															<option>0</option>
+															<flag>wxALL|wxALIGN_RIGHT</flag>
+															<border>5</border>
+															<object class="wxButton" name="m_buttonDetailPD2">
+																<font>
+																	<size>12</size>
+																	<family>swiss</family>
+																	<style>normal</style>
+																	<weight>normal</weight>
+																	<underlined>0</underlined>
+																	<face>Sans</face>
+																</font>
+																<label>Detail</label>
+																<default>0</default>
+																<markup>0</markup>
+																<bitmap />
+															</object>
+														</object>
+													</object>
+												</object>
+											</object>
 										</object>
 									</object>
 									<object class="sizeritem">
 										<option>0</option>
 										<flag>wxALL|wxEXPAND</flag>
 										<border>5</border>
-										<object class="wxListBox" name="m_lbkompetensi">
-											<style>wxLB_ALWAYS_SB</style>
-											<size>200,100</size>
-											<font>
-												<size>14</size>
-												<style>normal</style>
-												<weight>normal</weight>
-												<underlined>0</underlined>
-												<face>Tw Cen MT</face>
-											</font>
-											<content />
+										<object class="wxPanel" name="m_panel90">
+											<style>wxTAB_TRAVERSAL</style>
+											<bg>#585570</bg>
+											<fg>#f9faf9</fg>
+											<object class="wxBoxSizer">
+												<orient>wxVERTICAL</orient>
+												<object class="sizeritem">
+													<option>1</option>
+													<flag>wxEXPAND</flag>
+													<border>5</border>
+													<object class="wxFlexGridSizer">
+														<rows>0</rows>
+														<cols>2</cols>
+														<vgap>0</vgap>
+														<hgap>0</hgap>
+														<growablecols>0</growablecols>
+														<growablerows>0</growablerows>
+														<object class="sizeritem">
+															<option>0</option>
+															<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+															<border>5</border>
+															<object class="wxStaticText" name="m_summaryscores">
+																<font>
+																	<size>14</size>
+																	<style>normal</style>
+																	<weight>normal</weight>
+																	<underlined>0</underlined>
+																	<face>Tw Cen MT</face>
+																</font>
+																<label>Summary Scores</label>
+																<wrap>-1</wrap>
+															</object>
+														</object>
+													</object>
+												</object>
+											</object>
 										</object>
 									</object>
 									<object class="sizeritem">
-										<option>0</option>
-										<flag>wxALL|wxEXPAND</flag>
+										<option>1</option>
+										<flag>wxEXPAND | wxALL</flag>
 										<border>5</border>
-										<object class="wxListBox" name="m_lbpekerjaan">
-											<style>wxLB_ALWAYS_SB</style>
-											<size>200,100</size>
-											<font>
-												<size>14</size>
-												<style>normal</style>
-												<weight>normal</weight>
-												<underlined>0</underlined>
-												<face>Tw Cen MT</face>
-											</font>
-											<content />
+										<object class="wxPanel" name="m_panel52">
+											<style>wxTAB_TRAVERSAL</style>
+											<bg>#585570</bg>
+											<object class="wxBoxSizer">
+												<orient>wxVERTICAL</orient>
+												<object class="sizeritem">
+													<option>1</option>
+													<flag>wxALL|wxEXPAND</flag>
+													<border>5</border>
+													<object class="wxListBox" name="m_lbaktivitas">
+														<style>wxLB_ALWAYS_SB</style>
+														<size>175,100</size>
+														<bg>#585570</bg>
+														<fg>#3c3e3c</fg>
+														<font>
+															<size>14</size>
+															<style>normal</style>
+															<weight>normal</weight>
+															<underlined>0</underlined>
+															<face>Tw Cen MT</face>
+														</font>
+														<content />
+													</object>
+												</object>
+											</object>
 										</object>
 									</object>
 									<object class="sizeritem">
-										<option>0</option>
-										<flag>wxALL|wxEXPAND</flag>
+										<option>1</option>
+										<flag>wxEXPAND | wxALL</flag>
 										<border>5</border>
-										<object class="wxListBox" name="m_lbpenilaianbag1">
-											<style>wxLB_ALWAYS_SB</style>
-											<size>200,100</size>
-											<font>
-												<size>14</size>
-												<style>normal</style>
-												<weight>normal</weight>
-												<underlined>0</underlined>
-												<face>Tw Cen MT</face>
-											</font>
-											<content />
+										<object class="wxPanel" name="m_panel53">
+											<style>wxTAB_TRAVERSAL</style>
+											<bg>#7d648b</bg>
+											<object class="wxBoxSizer">
+												<orient>wxVERTICAL</orient>
+												<object class="sizeritem">
+													<option>1</option>
+													<flag>wxALL|wxEXPAND</flag>
+													<border>5</border>
+													<object class="wxListBox" name="m_lbkompetensi">
+														<style>wxLB_ALWAYS_SB</style>
+														<size>175,100</size>
+														<bg>#7d648b</bg>
+														<fg>#3c3e3c</fg>
+														<font>
+															<size>14</size>
+															<style>normal</style>
+															<weight>normal</weight>
+															<underlined>0</underlined>
+															<face>Tw Cen MT</face>
+														</font>
+														<content />
+													</object>
+												</object>
+											</object>
 										</object>
 									</object>
 									<object class="sizeritem">
-										<option>0</option>
-										<flag>wxALL|wxEXPAND</flag>
+										<option>1</option>
+										<flag>wxEXPAND | wxALL</flag>
 										<border>5</border>
-										<object class="wxListBox" name="m_lbpenilaianbag2">
-											<style>wxLB_ALWAYS_SB</style>
-											<size>200,100</size>
-											<font>
-												<size>14</size>
-												<style>normal</style>
-												<weight>normal</weight>
-												<underlined>0</underlined>
-												<face>Tw Cen MT</face>
-											</font>
-											<content />
+										<object class="wxPanel" name="m_panel56">
+											<style>wxTAB_TRAVERSAL</style>
+											<bg>#96989a</bg>
+											<fg>#f9faf9</fg>
+											<object class="wxBoxSizer">
+												<orient>wxVERTICAL</orient>
+												<object class="sizeritem">
+													<option>1</option>
+													<flag>wxALL|wxEXPAND</flag>
+													<border>5</border>
+													<object class="wxListBox" name="m_lbpekerjaan">
+														<style>wxLB_ALWAYS_SB</style>
+														<size>175,100</size>
+														<bg>#96989a</bg>
+														<fg>#3c3e3c</fg>
+														<font>
+															<size>14</size>
+															<style>normal</style>
+															<weight>normal</weight>
+															<underlined>0</underlined>
+															<face>Tw Cen MT</face>
+														</font>
+														<content />
+													</object>
+												</object>
+											</object>
 										</object>
 									</object>
 									<object class="sizeritem">
-										<option>0</option>
-										<flag>wxALL|wxEXPAND</flag>
+										<option>1</option>
+										<flag>wxEXPAND | wxALL</flag>
 										<border>5</border>
-										<object class="wxListBox" name="m_lbsummaryscores">
-											<style>wxLB_ALWAYS_SB</style>
-											<size>200,100</size>
-											<font>
-												<size>14</size>
-												<style>normal</style>
-												<weight>normal</weight>
-												<underlined>0</underlined>
-												<face>Tw Cen MT</face>
-											</font>
-											<content />
+										<object class="wxPanel" name="m_panel85">
+											<style>wxTAB_TRAVERSAL</style>
+											<bg>#d47149</bg>
+											<object class="wxBoxSizer">
+												<orient>wxVERTICAL</orient>
+												<object class="sizeritem">
+													<option>1</option>
+													<flag>wxALL|wxEXPAND</flag>
+													<border>5</border>
+													<object class="wxListBox" name="m_lbpenilaianbag1">
+														<style>wxLB_ALWAYS_SB</style>
+														<size>175,100</size>
+														<bg>#d47149</bg>
+														<font>
+															<size>14</size>
+															<style>normal</style>
+															<weight>normal</weight>
+															<underlined>0</underlined>
+															<face>Tw Cen MT</face>
+														</font>
+														<content />
+													</object>
+												</object>
+											</object>
+										</object>
+									</object>
+									<object class="sizeritem">
+										<option>1</option>
+										<flag>wxEXPAND | wxALL</flag>
+										<border>5</border>
+										<object class="wxPanel" name="m_panel87">
+											<style>wxTAB_TRAVERSAL</style>
+											<size>200,-1</size>
+											<bg>#d69138</bg>
+											<object class="wxBoxSizer">
+												<orient>wxVERTICAL</orient>
+												<object class="sizeritem">
+													<option>1</option>
+													<flag>wxALL|wxEXPAND</flag>
+													<border>5</border>
+													<object class="wxListBox" name="m_lbpenilaianbag2">
+														<style>wxLB_ALWAYS_SB</style>
+														<size>200,100</size>
+														<bg>#d69138</bg>
+														<font>
+															<size>14</size>
+															<style>normal</style>
+															<weight>normal</weight>
+															<underlined>0</underlined>
+															<face>Tw Cen MT</face>
+														</font>
+														<content />
+													</object>
+												</object>
+											</object>
+										</object>
+									</object>
+									<object class="sizeritem">
+										<option>1</option>
+										<flag>wxEXPAND | wxALL</flag>
+										<border>5</border>
+										<object class="wxPanel" name="m_panel89">
+											<style>wxTAB_TRAVERSAL</style>
+											<bg>#585570</bg>
+											<object class="wxBoxSizer">
+												<orient>wxVERTICAL</orient>
+												<object class="sizeritem">
+													<option>1</option>
+													<flag>wxALL|wxEXPAND</flag>
+													<border>5</border>
+													<object class="wxListBox" name="m_lbsummaryscores">
+														<style>wxLB_ALWAYS_SB</style>
+														<size>200,100</size>
+														<bg>#585570</bg>
+														<font>
+															<size>14</size>
+															<style>normal</style>
+															<weight>normal</weight>
+															<underlined>0</underlined>
+															<face>Tw Cen MT</face>
+														</font>
+														<content />
+													</object>
+												</object>
+											</object>
 										</object>
 									</object>
 								</object>
@@ -3973,6 +4725,7 @@
 				<border>5</border>
 				<object class="wxScrolledWindow" name="m_scrolledWindow8">
 					<style>wxHSCROLL|wxVSCROLL</style>
+					<bg>#f9faf9</bg>
 					<scrollrate>5,5</scrollrate>
 					<object class="wxBoxSizer">
 						<orient>wxVERTICAL</orient>
@@ -4023,6 +4776,367 @@
 										<default>0</default>
 										<markup>0</markup>
 										<bitmap />
+									</object>
+								</object>
+							</object>
+						</object>
+						<object class="sizeritem">
+							<option>0</option>
+							<flag>wxALIGN_CENTER_HORIZONTAL</flag>
+							<border>5</border>
+							<object class="wxFlexGridSizer">
+								<rows>0</rows>
+								<cols>2</cols>
+								<vgap>0</vgap>
+								<hgap>0</hgap>
+								<growablecols></growablecols>
+								<growablerows></growablerows>
+								<object class="sizeritem">
+									<option>1</option>
+									<flag>wxEXPAND | wxALL</flag>
+									<border>5</border>
+									<object class="wxPanel" name="m_panel92">
+										<style>wxTAB_TRAVERSAL</style>
+									</object>
+								</object>
+								<object class="sizeritem">
+									<option>1</option>
+									<flag>wxEXPAND | wxALL</flag>
+									<border>5</border>
+									<object class="wxPanel" name="m_panel93">
+										<style>wxTAB_TRAVERSAL</style>
+									</object>
+								</object>
+								<object class="sizeritem">
+									<option>1</option>
+									<flag>wxEXPAND | wxALL</flag>
+									<border>5</border>
+									<object class="wxPanel" name="m_panel91">
+										<style>wxTAB_TRAVERSAL</style>
+										<object class="wxBoxSizer">
+											<orient>wxVERTICAL</orient>
+											<object class="spacer">
+												<option>0</option>
+												<flag></flag>
+												<border>5</border>
+												<size>0,75</size>
+											</object>
+											<object class="sizeritem">
+												<option>0</option>
+												<flag>wxALL|wxALIGN_CENTER_HORIZONTAL</flag>
+												<border>5</border>
+												<object class="wxStaticText" name="m_staticText7">
+													<font>
+														<size>16</size>
+														<style>normal</style>
+														<weight>bold</weight>
+														<underlined>0</underlined>
+														<face>Tw Cen MT</face>
+													</font>
+													<label>OCCUPATIONAL DAYDREAM</label>
+													<wrap>-1</wrap>
+												</object>
+											</object>
+											<object class="spacer">
+												<option>0</option>
+												<flag></flag>
+												<border>5</border>
+												<size>0,25</size>
+											</object>
+											<object class="sizeritem">
+												<option>0</option>
+												<flag>wxALIGN_CENTER_HORIZONTAL</flag>
+												<border>5</border>
+												<object class="wxBoxSizer">
+													<orient>wxHORIZONTAL</orient>
+													<object class="sizeritem">
+														<option>0</option>
+														<flag>wxALIGN_CENTER_VERTICAL</flag>
+														<border>5</border>
+														<object class="wxFlexGridSizer">
+															<rows>0</rows>
+															<cols>3</cols>
+															<vgap>0</vgap>
+															<hgap>0</hgap>
+															<growablecols>1</growablecols>
+															<growablerows></growablerows>
+															<object class="sizeritem">
+																<option>0</option>
+																<flag>wxALL|wxALIGN_CENTER_VERTICAL|wxALIGN_CENTER_HORIZONTAL</flag>
+																<border>5</border>
+																<object class="wxStaticText" name="m_staticText8">
+																	<label>1</label>
+																	<wrap>-1</wrap>
+																</object>
+															</object>
+															<object class="sizeritem">
+																<option>0</option>
+																<flag>wxALL|wxALIGN_CENTER_VERTICAL</flag>
+																<border>5</border>
+																<object class="wxTextCtrl" name="textctrl1">
+																	<size>300,-1</size>
+																	<font>
+																		<size>12</size>
+																		<family>swiss</family>
+																		<style>normal</style>
+																		<weight>normal</weight>
+																		<underlined>0</underlined>
+																		<face>Sans</face>
+																	</font>
+																	<value></value>
+																</object>
+															</object>
+															<object class="sizeritem">
+																<option>0</option>
+																<flag>wxALL|wxALIGN_CENTER_VERTICAL|wxALIGN_CENTER_HORIZONTAL</flag>
+																<border>5</border>
+																<object class="wxStaticText" name="label1">
+																	<font>
+																		<size>12</size>
+																		<family>swiss</family>
+																		<style>normal</style>
+																		<weight>normal</weight>
+																		<underlined>0</underlined>
+																		<face>Sans</face>
+																	</font>
+																	<label>?</label>
+																	<wrap>-1</wrap>
+																</object>
+															</object>
+															<object class="sizeritem">
+																<option>0</option>
+																<flag>wxALL|wxALIGN_CENTER_VERTICAL|wxALIGN_CENTER_HORIZONTAL</flag>
+																<border>5</border>
+																<object class="wxStaticText" name="m_staticText10">
+																	<label>2</label>
+																	<wrap>-1</wrap>
+																</object>
+															</object>
+															<object class="sizeritem">
+																<option>0</option>
+																<flag>wxALL|wxALIGN_CENTER_VERTICAL</flag>
+																<border>5</border>
+																<object class="wxTextCtrl" name="textctrl2">
+																	<size>300,-1</size>
+																	<font>
+																		<size>12</size>
+																		<family>swiss</family>
+																		<style>normal</style>
+																		<weight>normal</weight>
+																		<underlined>0</underlined>
+																		<face>Sans</face>
+																	</font>
+																	<value></value>
+																</object>
+															</object>
+															<object class="sizeritem">
+																<option>0</option>
+																<flag>wxALL|wxALIGN_CENTER_VERTICAL|wxALIGN_CENTER_HORIZONTAL</flag>
+																<border>5</border>
+																<object class="wxStaticText" name="label2">
+																	<font>
+																		<size>12</size>
+																		<family>swiss</family>
+																		<style>normal</style>
+																		<weight>normal</weight>
+																		<underlined>0</underlined>
+																		<face>Sans</face>
+																	</font>
+																	<label>?</label>
+																	<wrap>-1</wrap>
+																</object>
+															</object>
+															<object class="sizeritem">
+																<option>0</option>
+																<flag>wxALL|wxALIGN_CENTER_VERTICAL|wxALIGN_CENTER_HORIZONTAL</flag>
+																<border>5</border>
+																<object class="wxStaticText" name="m_staticText132">
+																	<label>3</label>
+																	<wrap>-1</wrap>
+																</object>
+															</object>
+															<object class="sizeritem">
+																<option>0</option>
+																<flag>wxALL|wxALIGN_CENTER_VERTICAL</flag>
+																<border>5</border>
+																<object class="wxTextCtrl" name="textctrl3">
+																	<size>300,-1</size>
+																	<font>
+																		<size>12</size>
+																		<family>swiss</family>
+																		<style>normal</style>
+																		<weight>normal</weight>
+																		<underlined>0</underlined>
+																		<face>Sans</face>
+																	</font>
+																	<value></value>
+																</object>
+															</object>
+															<object class="sizeritem">
+																<option>0</option>
+																<flag>wxALL|wxALIGN_CENTER_VERTICAL|wxALIGN_CENTER_HORIZONTAL</flag>
+																<border>5</border>
+																<object class="wxStaticText" name="label3">
+																	<font>
+																		<size>12</size>
+																		<family>swiss</family>
+																		<style>normal</style>
+																		<weight>normal</weight>
+																		<underlined>0</underlined>
+																		<face>Sans</face>
+																	</font>
+																	<label>?</label>
+																	<wrap>-1</wrap>
+																</object>
+															</object>
+															<object class="sizeritem">
+																<option>0</option>
+																<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+																<border>5</border>
+																<object class="wxStaticText" name="m_staticText134">
+																	<label>4</label>
+																	<wrap>-1</wrap>
+																</object>
+															</object>
+															<object class="sizeritem">
+																<option>0</option>
+																<flag>wxALL|wxALIGN_CENTER_VERTICAL</flag>
+																<border>5</border>
+																<object class="wxTextCtrl" name="textctrl4">
+																	<size>300,-1</size>
+																	<font>
+																		<size>12</size>
+																		<family>swiss</family>
+																		<style>normal</style>
+																		<weight>normal</weight>
+																		<underlined>0</underlined>
+																		<face>Sans</face>
+																	</font>
+																	<value></value>
+																</object>
+															</object>
+															<object class="sizeritem">
+																<option>0</option>
+																<flag>wxALL|wxALIGN_CENTER_VERTICAL|wxALIGN_CENTER_HORIZONTAL</flag>
+																<border>5</border>
+																<object class="wxStaticText" name="label4">
+																	<font>
+																		<size>12</size>
+																		<family>swiss</family>
+																		<style>normal</style>
+																		<weight>normal</weight>
+																		<underlined>0</underlined>
+																		<face>Sans</face>
+																	</font>
+																	<label>?</label>
+																	<wrap>-1</wrap>
+																</object>
+															</object>
+															<object class="sizeritem">
+																<option>0</option>
+																<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+																<border>5</border>
+																<object class="wxStaticText" name="m_staticText138">
+																	<label>5</label>
+																	<wrap>-1</wrap>
+																</object>
+															</object>
+															<object class="sizeritem">
+																<option>0</option>
+																<flag>wxALL|wxALIGN_CENTER_VERTICAL</flag>
+																<border>5</border>
+																<object class="wxTextCtrl" name="textctrl5">
+																	<size>300,-1</size>
+																	<font>
+																		<size>12</size>
+																		<family>swiss</family>
+																		<style>normal</style>
+																		<weight>normal</weight>
+																		<underlined>0</underlined>
+																		<face>Sans</face>
+																	</font>
+																	<value></value>
+																</object>
+															</object>
+															<object class="sizeritem">
+																<option>0</option>
+																<flag>wxALL|wxALIGN_CENTER_VERTICAL|wxALIGN_CENTER_HORIZONTAL</flag>
+																<border>5</border>
+																<object class="wxStaticText" name="label5">
+																	<font>
+																		<size>12</size>
+																		<family>swiss</family>
+																		<style>normal</style>
+																		<weight>normal</weight>
+																		<underlined>0</underlined>
+																		<face>Sans</face>
+																	</font>
+																	<label>?</label>
+																	<wrap>-1</wrap>
+																</object>
+															</object>
+															<object class="sizeritem">
+																<option>0</option>
+																<flag>wxALL|wxALIGN_CENTER_VERTICAL|wxALIGN_CENTER_HORIZONTAL</flag>
+																<border>5</border>
+																<object class="wxStaticText" name="m_staticText139">
+																	<label>6</label>
+																	<wrap>-1</wrap>
+																</object>
+															</object>
+															<object class="sizeritem">
+																<option>0</option>
+																<flag>wxALL|wxALIGN_CENTER_VERTICAL</flag>
+																<border>5</border>
+																<object class="wxTextCtrl" name="textctrl6">
+																	<size>300,-1</size>
+																	<font>
+																		<size>12</size>
+																		<family>swiss</family>
+																		<style>normal</style>
+																		<weight>normal</weight>
+																		<underlined>0</underlined>
+																		<face>Sans</face>
+																	</font>
+																	<value></value>
+																</object>
+															</object>
+															<object class="sizeritem">
+																<option>0</option>
+																<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+																<border>5</border>
+																<object class="wxStaticText" name="label6">
+																	<font>
+																		<size>12</size>
+																		<family>swiss</family>
+																		<style>normal</style>
+																		<weight>normal</weight>
+																		<underlined>0</underlined>
+																		<face>Sans</face>
+																	</font>
+																	<label>?</label>
+																	<wrap>-1</wrap>
+																</object>
+															</object>
+														</object>
+													</object>
+													<object class="sizeritem">
+														<option>0</option>
+														<flag></flag>
+														<border>5</border>
+														<object class="wxBoxSizer">
+															<orient>wxVERTICAL</orient>
+															<object class="spacer">
+																<option>0</option>
+																<flag>wxALIGN_CENTER_HORIZONTAL</flag>
+																<border>5</border>
+																<size>25,0</size>
+															</object>
+														</object>
+													</object>
+												</object>
+											</object>
+										</object>
 									</object>
 								</object>
 							</object>
@@ -5860,6 +6974,130 @@
 							<face>Tw Cen MT</face>
 						</font>
 						<content />
+					</object>
+				</object>
+			</object>
+		</object>
+	</object>
+	<object class="wxFrame" name="Listbox1">
+		<style>wxDEFAULT_FRAME_STYLE|wxTAB_TRAVERSAL</style>
+		<size>500,300</size>
+		<title>Cari Pekerjaan</title>
+		<centered>1</centered>
+		<aui_managed>0</aui_managed>
+		<object class="wxPanel" name="m_panel1">
+			<style>wxTAB_TRAVERSAL</style>
+			<font>
+				<size>14</size>
+				<style>normal</style>
+				<weight>normal</weight>
+				<underlined>0</underlined>
+				<face>Tw Cen MT</face>
+			</font>
+			<object class="wxBoxSizer">
+				<orient>wxVERTICAL</orient>
+				<object class="sizeritem">
+					<option>0</option>
+					<flag>wxEXPAND</flag>
+					<border>5</border>
+					<object class="wxBoxSizer">
+						<orient>wxHORIZONTAL</orient>
+						<object class="spacer">
+							<option>1</option>
+							<flag>wxEXPAND</flag>
+							<border>5</border>
+							<size>0,0</size>
+						</object>
+						<object class="sizeritem">
+							<option>0</option>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<object class="wxStaticText" name="m_staticText1">
+								<label>Cari</label>
+								<wrap>-1</wrap>
+							</object>
+						</object>
+						<object class="sizeritem">
+							<option>1</option>
+							<flag>wxALL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<object class="wxTextCtrl" name="m_textCtrl1">
+								<font>
+									<size>14</size>
+									<style>normal</style>
+									<weight>normal</weight>
+									<underlined>0</underlined>
+									<face>Tw Cen MT</face>
+								</font>
+								<value></value>
+								<maxlength>0</maxlength>
+							</object>
+						</object>
+						<object class="sizeritem">
+							<option>0</option>
+							<flag>wxALL</flag>
+							<border>5</border>
+							<object class="wxButton" name="m_button3">
+								<label></label>
+								<default>0</default>
+								<markup>0</markup>
+								<bitmap />
+							</object>
+						</object>
+					</object>
+				</object>
+				<object class="sizeritem">
+					<option>1</option>
+					<flag>wxALL|wxEXPAND</flag>
+					<border>5</border>
+					<object class="wxListBox" name="m_listBox1">
+						<style>wxLB_NEEDED_SB|wxLB_SORT</style>
+						<content>
+							<item>list&amp;of&amp;occupation</item>
+						</content>
+					</object>
+				</object>
+				<object class="sizeritem">
+					<option>0</option>
+					<flag>wxALL</flag>
+					<border>5</border>
+					<object class="wxListCtrl" name="m_listCtrl17">
+						<style>wxLC_REPORT</style>
+					</object>
+				</object>
+				<object class="sizeritem">
+					<option>0</option>
+					<flag>wxEXPAND|wxALIGN_RIGHT</flag>
+					<border>5</border>
+					<object class="wxFlexGridSizer">
+						<rows>0</rows>
+						<cols>2</cols>
+						<vgap>0</vgap>
+						<hgap>0</hgap>
+						<growablecols>0,1</growablecols>
+						<growablerows>0</growablerows>
+						<object class="sizeritem">
+							<option>0</option>
+							<flag>wxALL|wxALIGN_CENTER_VERTICAL|wxALIGN_RIGHT</flag>
+							<border>5</border>
+							<object class="wxButton" name="cancel">
+								<label>Cancel</label>
+								<default>0</default>
+								<markup>0</markup>
+								<bitmap />
+							</object>
+						</object>
+						<object class="sizeritem">
+							<option>0</option>
+							<flag>wxALL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<object class="wxButton" name="ok">
+								<label>Ok</label>
+								<default>0</default>
+								<markup>0</markup>
+								<bitmap />
+							</object>
+						</object>
 					</object>
 				</object>
 			</object>

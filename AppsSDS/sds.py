@@ -422,7 +422,7 @@ class WindowUtama ( main ):
 
 		self.m_scrolledWindow6 = wx.ScrolledWindow( self.halaman2, wx.ID_ANY, wx.DefaultPosition, wx.DefaultSize, wx.HSCROLL|wx.VSCROLL )
 		self.m_scrolledWindow6.SetScrollRate( 5, 5 )
-		self.m_scrolledWindow6.SetBackgroundColour( wx.Colour( 0, 148, 67 ) )
+		self.m_scrolledWindow6.SetBackgroundColour( wx.Colour( 91, 85, 112 ) )
 
 		bSizer311 = wx.BoxSizer( wx.VERTICAL )
 
@@ -480,7 +480,7 @@ class WindowUtama ( main ):
 
 		self.m_scrolledWindow1 = wx.ScrolledWindow( self.halaman3, wx.ID_ANY, wx.DefaultPosition, wx.DefaultSize, wx.HSCROLL|wx.VSCROLL )
 		self.m_scrolledWindow1.SetScrollRate( 5, 5 )
-		self.m_scrolledWindow1.SetBackgroundColour( wx.Colour( 0, 148, 67 ) )
+		self.m_scrolledWindow1.SetBackgroundColour( wx.Colour( 91, 85, 112 ) )
 
 		bSizer16 = wx.BoxSizer( wx.VERTICAL )
 
@@ -512,7 +512,7 @@ class WindowUtama ( main ):
 
 		self.m_scrolledWindow11 = wx.ScrolledWindow( self.halaman4, wx.ID_ANY, wx.DefaultPosition, wx.DefaultSize, wx.HSCROLL|wx.VSCROLL )
 		self.m_scrolledWindow11.SetScrollRate( 5, 5 )
-		self.m_scrolledWindow11.SetBackgroundColour( wx.Colour( 0, 148, 67 ) )
+		self.m_scrolledWindow11.SetBackgroundColour( wx.Colour( 91, 85, 112 ) )
 
 		bSizer161 = wx.BoxSizer( wx.VERTICAL )
 
@@ -542,13 +542,13 @@ class WindowUtama ( main ):
 
 		self.m_scrolledWindow71 = wx.ScrolledWindow( self.halaman5, wx.ID_ANY, wx.DefaultPosition, wx.DefaultSize, wx.HSCROLL|wx.VSCROLL )
 		self.m_scrolledWindow71.SetScrollRate( 5, 5 )
-		self.m_scrolledWindow71.SetBackgroundColour( wx.Colour( 0, 148, 67 ) )
+		self.m_scrolledWindow71.SetBackgroundColour( wx.Colour( 91, 85, 112 ) )
 		self.m_scrolledWindow71.Hide()
 
 		bSizer27.Add( self.m_scrolledWindow71, 1, wx.ALL|wx.EXPAND, 5 )
 
 		self.m_panel25 = wx.Panel( self.halaman5, wx.ID_ANY, wx.DefaultPosition, wx.DefaultSize, wx.TAB_TRAVERSAL )
-		self.m_panel25.SetBackgroundColour( wx.Colour( 0, 148, 67 ) )
+		self.m_panel25.SetBackgroundColour( wx.Colour( 91, 85, 112 ) )
 
 		bSizer29 = wx.BoxSizer( wx.VERTICAL )
 
@@ -588,7 +588,7 @@ class WindowUtama ( main ):
 
 		self.m_scrolledWindow8 = wx.ScrolledWindow( self.halaman6, wx.ID_ANY, wx.DefaultPosition, wx.DefaultSize, wx.HSCROLL|wx.VSCROLL )
 		self.m_scrolledWindow8.SetScrollRate( 5, 5 )
-		self.m_scrolledWindow8.SetBackgroundColour( wx.Colour( 0, 148, 67 ) )
+		self.m_scrolledWindow8.SetBackgroundColour( wx.Colour( 91, 85, 112 ) )
 
 		bSizer31 = wx.BoxSizer( wx.VERTICAL )
 
@@ -619,13 +619,13 @@ class WindowUtama ( main ):
 
 		self.m_scrolledWindow9 = wx.ScrolledWindow( self.halaman7, wx.ID_ANY, wx.DefaultPosition, wx.DefaultSize, wx.HSCROLL|wx.VSCROLL )
 		self.m_scrolledWindow9.SetScrollRate( 5, 5 )
-		self.m_scrolledWindow9.SetBackgroundColour( wx.Colour( 0, 148, 67 ) )
+		self.m_scrolledWindow9.SetBackgroundColour( wx.Colour( 91, 85, 112 ) )
 		self.m_scrolledWindow9.Hide()
 
 		bSizer31.Add( self.m_scrolledWindow9, 1, wx.EXPAND |wx.ALL, 5 )
 
 		self.m_panel26 = wx.Panel( self.halaman7, wx.ID_ANY, wx.DefaultPosition, wx.DefaultSize, wx.TAB_TRAVERSAL )
-		self.m_panel26.SetBackgroundColour( wx.Colour( 0, 148, 67 ) )
+		self.m_panel26.SetBackgroundColour( wx.Colour( 91, 85, 112 ) )
 
 		bSizer32 = wx.BoxSizer( wx.VERTICAL )
 
@@ -656,7 +656,7 @@ class WindowUtama ( main ):
 		bSizer5 = wx.BoxSizer( wx.HORIZONTAL )
 
 		self.m_button3 = wx.Button( self.m_panel9, wx.ID_ANY, u"Ke Awal", wx.DefaultPosition, wx.DefaultSize, 0 )
-		self.m_button3.SetFont( wx.Font( 12, wx.FONTFAMILY_SWISS, wx.FONTSTYLE_NORMAL, wx.FONTWEIGHT_NORMAL, False, "Sans" ) )
+		self.m_button3.SetFont( wx.Font( 12, wx.FONTFAMILY_DEFAULT, wx.FONTSTYLE_NORMAL, wx.FONTWEIGHT_NORMAL, False, "Tw Cen MT" ) )
 		self.m_button3.Enable( False )
 
 		bSizer5.Add( self.m_button3, 0, wx.ALL|wx.ALIGN_BOTTOM, 5 )
@@ -664,14 +664,14 @@ class WindowUtama ( main ):
 
 		bSizer5.Add( ( 0, 0), 1, wx.EXPAND, 5 )
 
-		self.m_button1 = wx.Button( self.m_panel9, wx.ID_ANY, u"<Page Sebelumnya", wx.DefaultPosition, wx.DefaultSize, 0 )
-		self.m_button1.SetFont( wx.Font( 12, wx.FONTFAMILY_SWISS, wx.FONTSTYLE_NORMAL, wx.FONTWEIGHT_NORMAL, False, "Sans" ) )
+		self.m_button1 = wx.Button( self.m_panel9, wx.ID_ANY, u"< Sebelumnya", wx.DefaultPosition, wx.DefaultSize, 0 )
+		self.m_button1.SetFont( wx.Font( 12, wx.FONTFAMILY_DEFAULT, wx.FONTSTYLE_NORMAL, wx.FONTWEIGHT_NORMAL, False, "Tw Cen MT" ) )
 		self.m_button1.SetForegroundColour( wx.SystemSettings.GetColour( wx.SYS_COLOUR_BTNTEXT ) )
 		self.m_button1.Enable( False )
 
 		bSizer5.Add( self.m_button1, 0, wx.ALL|wx.ALIGN_BOTTOM, 5 )
 
-		self.m_button2 = wx.Button( self.m_panel9, wx.ID_ANY, u">Page Selanjutnya", wx.DefaultPosition, wx.DefaultSize, 0 )
+		self.m_button2 = wx.Button( self.m_panel9, wx.ID_ANY, u"> Selanjutnya", wx.DefaultPosition, wx.DefaultSize, 0 )
 		self.m_button2.SetFont( wx.Font( 12, wx.FONTFAMILY_DEFAULT, wx.FONTSTYLE_NORMAL, wx.FONTWEIGHT_NORMAL, False, "Tw Cen MT" ) )
 		self.m_button2.SetForegroundColour( wx.SystemSettings.GetColour( wx.SYS_COLOUR_BTNTEXT ) )
 		self.m_button2.SetBackgroundColour( wx.Colour( 73, 209, 182 ) )
@@ -887,6 +887,7 @@ class Page2 ( wx.Panel ):
 		self.label1.Wrap( -1 )
 
 		self.label1.SetFont( wx.Font( 12, wx.FONTFAMILY_SWISS, wx.FONTSTYLE_NORMAL, wx.FONTWEIGHT_NORMAL, False, "Sans" ) )
+		self.label1.SetForegroundColour( wx.SystemSettings.GetColour( wx.SYS_COLOUR_WINDOWTEXT ) )
 
 		fgSizer71.Add( self.label1, 0, wx.ALL|wx.ALIGN_CENTER_VERTICAL|wx.ALIGN_CENTER_HORIZONTAL, 5 )
 
@@ -1142,7 +1143,7 @@ class Page2 ( wx.Panel ):
 
 class Page3 ( wx.Panel ):
 
-	def __init__( self, parent, id = wx.ID_ANY, pos = wx.DefaultPosition, size = wx.Size( 717,400 ), style = wx.TAB_TRAVERSAL, name = wx.EmptyString ):
+	def __init__( self, parent, id = wx.ID_ANY, pos = wx.DefaultPosition, size = wx.Size( 717,500 ), style = wx.TAB_TRAVERSAL, name = wx.EmptyString ):
 		wx.Panel.__init__ ( self, parent, id = id, pos = pos, size = size, style = style, name = name )
 
 		self.SetBackgroundColour( wx.SystemSettings.GetColour( wx.SYS_COLOUR_WINDOW ) )
@@ -1232,60 +1233,117 @@ class Page3 ( wx.Panel ):
 
 		fgSizer16.Add( self.m_RealisticA, 0, wx.ALL, 5 )
 
-		self.m_staticText143 = wx.StaticText( self.m_panel27, wx.ID_ANY, u"Investigative", wx.DefaultPosition, wx.DefaultSize, 0 )
+		self.m_panel36 = wx.Panel( self.m_panel27, wx.ID_ANY, wx.DefaultPosition, wx.DefaultSize, wx.TAB_TRAVERSAL )
+		self.m_panel36.SetBackgroundColour( wx.Colour( 245, 135, 79 ) )
+
+		bSizer62 = wx.BoxSizer( wx.VERTICAL )
+
+		self.m_staticText143 = wx.StaticText( self.m_panel36, wx.ID_ANY, u"Investigative", wx.DefaultPosition, wx.DefaultSize, 0 )
 		self.m_staticText143.Wrap( -1 )
 
 		self.m_staticText143.SetFont( wx.Font( 12, wx.FONTFAMILY_SWISS, wx.FONTSTYLE_NORMAL, wx.FONTWEIGHT_NORMAL, False, "Sans" ) )
+		self.m_staticText143.SetBackgroundColour( wx.Colour( 245, 135, 79 ) )
 
-		fgSizer16.Add( self.m_staticText143, 0, wx.ALL|wx.ALIGN_CENTER_VERTICAL, 5 )
+		bSizer62.Add( self.m_staticText143, 0, wx.ALL|wx.ALIGN_CENTER_VERTICAL, 5 )
+
+
+		self.m_panel36.SetSizer( bSizer62 )
+		self.m_panel36.Layout()
+		bSizer62.Fit( self.m_panel36 )
+		fgSizer16.Add( self.m_panel36, 1, wx.EXPAND |wx.ALL, 5 )
 
 		self.m_InvestigativeA = wx.SpinCtrl( self.m_panel27, wx.ID_ANY, wx.EmptyString, wx.DefaultPosition, wx.Size( 75,-1 ), wx.SP_ARROW_KEYS, 0, 14, 0 )
 		self.m_InvestigativeA.SetFont( wx.Font( 12, wx.FONTFAMILY_SWISS, wx.FONTSTYLE_NORMAL, wx.FONTWEIGHT_NORMAL, False, "Sans" ) )
 
 		fgSizer16.Add( self.m_InvestigativeA, 0, wx.ALL, 5 )
 
-		self.m_staticText145 = wx.StaticText( self.m_panel27, wx.ID_ANY, u"Artistic", wx.DefaultPosition, wx.DefaultSize, 0 )
+		self.m_panel37 = wx.Panel( self.m_panel27, wx.ID_ANY, wx.DefaultPosition, wx.DefaultSize, wx.TAB_TRAVERSAL )
+		self.m_panel37.SetBackgroundColour( wx.Colour( 255, 204, 41 ) )
+
+		bSizer63 = wx.BoxSizer( wx.VERTICAL )
+
+		self.m_staticText145 = wx.StaticText( self.m_panel37, wx.ID_ANY, u"Artistic", wx.DefaultPosition, wx.DefaultSize, 0 )
 		self.m_staticText145.Wrap( -1 )
 
 		self.m_staticText145.SetFont( wx.Font( 12, wx.FONTFAMILY_SWISS, wx.FONTSTYLE_NORMAL, wx.FONTWEIGHT_NORMAL, False, "Sans" ) )
 
-		fgSizer16.Add( self.m_staticText145, 0, wx.ALL|wx.ALIGN_CENTER_VERTICAL, 5 )
+		bSizer63.Add( self.m_staticText145, 0, wx.ALL|wx.ALIGN_CENTER_VERTICAL, 5 )
+
+
+		self.m_panel37.SetSizer( bSizer63 )
+		self.m_panel37.Layout()
+		bSizer63.Fit( self.m_panel37 )
+		fgSizer16.Add( self.m_panel37, 1, wx.EXPAND |wx.ALL, 5 )
 
 		self.m_ArtisticA = wx.SpinCtrl( self.m_panel27, wx.ID_ANY, wx.EmptyString, wx.DefaultPosition, wx.Size( 75,-1 ), wx.SP_ARROW_KEYS, 0, 14, 0 )
 		self.m_ArtisticA.SetFont( wx.Font( 12, wx.FONTFAMILY_SWISS, wx.FONTSTYLE_NORMAL, wx.FONTWEIGHT_NORMAL, False, "Sans" ) )
 
 		fgSizer16.Add( self.m_ArtisticA, 0, wx.ALL, 5 )
 
-		self.m_staticText146 = wx.StaticText( self.m_panel27, wx.ID_ANY, u"Social", wx.DefaultPosition, wx.DefaultSize, 0 )
+		self.m_panel38 = wx.Panel( self.m_panel27, wx.ID_ANY, wx.DefaultPosition, wx.DefaultSize, wx.TAB_TRAVERSAL )
+		self.m_panel38.SetBackgroundColour( wx.Colour( 88, 122, 54 ) )
+
+		bSizer64 = wx.BoxSizer( wx.VERTICAL )
+
+		self.m_staticText146 = wx.StaticText( self.m_panel38, wx.ID_ANY, u"Social", wx.DefaultPosition, wx.DefaultSize, 0 )
 		self.m_staticText146.Wrap( -1 )
 
 		self.m_staticText146.SetFont( wx.Font( 12, wx.FONTFAMILY_SWISS, wx.FONTSTYLE_NORMAL, wx.FONTWEIGHT_NORMAL, False, "Sans" ) )
+		self.m_staticText146.SetForegroundColour( wx.Colour( 249, 250, 249 ) )
 
-		fgSizer16.Add( self.m_staticText146, 0, wx.ALL|wx.ALIGN_CENTER_VERTICAL, 5 )
+		bSizer64.Add( self.m_staticText146, 0, wx.ALL|wx.ALIGN_CENTER_VERTICAL, 5 )
+
+
+		self.m_panel38.SetSizer( bSizer64 )
+		self.m_panel38.Layout()
+		bSizer64.Fit( self.m_panel38 )
+		fgSizer16.Add( self.m_panel38, 1, wx.EXPAND |wx.ALL, 5 )
 
 		self.m_SocialA = wx.SpinCtrl( self.m_panel27, wx.ID_ANY, wx.EmptyString, wx.DefaultPosition, wx.Size( 75,-1 ), wx.SP_ARROW_KEYS, 0, 14, 0 )
 		self.m_SocialA.SetFont( wx.Font( 12, wx.FONTFAMILY_SWISS, wx.FONTSTYLE_NORMAL, wx.FONTWEIGHT_NORMAL, False, "Sans" ) )
 
 		fgSizer16.Add( self.m_SocialA, 0, wx.ALL, 5 )
 
-		self.m_staticText147 = wx.StaticText( self.m_panel27, wx.ID_ANY, u"Enterprising", wx.DefaultPosition, wx.DefaultSize, 0 )
+		self.m_panel39 = wx.Panel( self.m_panel27, wx.ID_ANY, wx.DefaultPosition, wx.DefaultSize, wx.TAB_TRAVERSAL )
+		self.m_panel39.SetBackgroundColour( wx.Colour( 0, 152, 218 ) )
+
+		bSizer65 = wx.BoxSizer( wx.VERTICAL )
+
+		self.m_staticText147 = wx.StaticText( self.m_panel39, wx.ID_ANY, u"Enterprising", wx.DefaultPosition, wx.DefaultSize, 0 )
 		self.m_staticText147.Wrap( -1 )
 
 		self.m_staticText147.SetFont( wx.Font( 12, wx.FONTFAMILY_SWISS, wx.FONTSTYLE_NORMAL, wx.FONTWEIGHT_NORMAL, False, "Sans" ) )
 
-		fgSizer16.Add( self.m_staticText147, 0, wx.ALL|wx.ALIGN_CENTER_VERTICAL, 5 )
+		bSizer65.Add( self.m_staticText147, 0, wx.ALL|wx.ALIGN_CENTER_VERTICAL, 5 )
+
+
+		self.m_panel39.SetSizer( bSizer65 )
+		self.m_panel39.Layout()
+		bSizer65.Fit( self.m_panel39 )
+		fgSizer16.Add( self.m_panel39, 1, wx.EXPAND |wx.ALL, 5 )
 
 		self.m_EnterprisingA = wx.SpinCtrl( self.m_panel27, wx.ID_ANY, wx.EmptyString, wx.DefaultPosition, wx.Size( 75,-1 ), wx.SP_ARROW_KEYS, 0, 14, 0 )
 		self.m_EnterprisingA.SetFont( wx.Font( 12, wx.FONTFAMILY_SWISS, wx.FONTSTYLE_NORMAL, wx.FONTWEIGHT_NORMAL, False, "Sans" ) )
 
 		fgSizer16.Add( self.m_EnterprisingA, 0, wx.ALL, 5 )
 
-		self.m_staticText148 = wx.StaticText( self.m_panel27, wx.ID_ANY, u"Conventional", wx.DefaultPosition, wx.DefaultSize, 0 )
+		self.m_panel40 = wx.Panel( self.m_panel27, wx.ID_ANY, wx.DefaultPosition, wx.DefaultSize, wx.TAB_TRAVERSAL )
+		self.m_panel40.SetBackgroundColour( wx.Colour( 169, 138, 172 ) )
+
+		bSizer66 = wx.BoxSizer( wx.VERTICAL )
+
+		self.m_staticText148 = wx.StaticText( self.m_panel40, wx.ID_ANY, u"Conventional", wx.DefaultPosition, wx.DefaultSize, 0 )
 		self.m_staticText148.Wrap( -1 )
 
 		self.m_staticText148.SetFont( wx.Font( 12, wx.FONTFAMILY_SWISS, wx.FONTSTYLE_NORMAL, wx.FONTWEIGHT_NORMAL, False, "Sans" ) )
 
-		fgSizer16.Add( self.m_staticText148, 0, wx.ALL|wx.ALIGN_CENTER_VERTICAL, 5 )
+		bSizer66.Add( self.m_staticText148, 0, wx.ALL|wx.ALIGN_CENTER_VERTICAL, 5 )
+
+
+		self.m_panel40.SetSizer( bSizer66 )
+		self.m_panel40.Layout()
+		bSizer66.Fit( self.m_panel40 )
+		fgSizer16.Add( self.m_panel40, 1, wx.EXPAND |wx.ALL, 5 )
 
 		self.m_ConventionalA = wx.SpinCtrl( self.m_panel27, wx.ID_ANY, wx.EmptyString, wx.DefaultPosition, wx.Size( 75,-1 ), wx.SP_ARROW_KEYS, 0, 14, 0 )
 		self.m_ConventionalA.SetFont( wx.Font( 12, wx.FONTFAMILY_SWISS, wx.FONTSTYLE_NORMAL, wx.FONTWEIGHT_NORMAL, False, "Sans" ) )
@@ -1306,94 +1364,185 @@ class Page3 ( wx.Panel ):
 
 		bSizer53 = wx.BoxSizer( wx.VERTICAL )
 
-		self.m_staticText168 = wx.StaticText( self, wx.ID_ANY, u"KOMPETENSI", wx.DefaultPosition, wx.Size( 120,-1 ), 0 )
+		self.m_panel30 = wx.Panel( self, wx.ID_ANY, wx.DefaultPosition, wx.DefaultSize, wx.TAB_TRAVERSAL )
+		self.m_panel30.SetBackgroundColour( wx.Colour( 125, 100, 139 ) )
+
+		bSizer58 = wx.BoxSizer( wx.VERTICAL )
+
+		self.m_staticText168 = wx.StaticText( self.m_panel30, wx.ID_ANY, u"KOMPETENSI", wx.DefaultPosition, wx.Size( 120,-1 ), 0 )
 		self.m_staticText168.Wrap( -1 )
 
 		self.m_staticText168.SetFont( wx.Font( 14, wx.FONTFAMILY_DEFAULT, wx.FONTSTYLE_NORMAL, wx.FONTWEIGHT_BOLD, False, "Tw Cen MT" ) )
+		self.m_staticText168.SetForegroundColour( wx.Colour( 255, 255, 255 ) )
 
-		bSizer53.Add( self.m_staticText168, 0, wx.ALL|wx.ALIGN_CENTER_VERTICAL|wx.ALIGN_CENTER_HORIZONTAL, 5 )
+		bSizer58.Add( self.m_staticText168, 0, wx.ALL|wx.ALIGN_CENTER_VERTICAL|wx.ALIGN_CENTER_HORIZONTAL, 5 )
+
+
+		self.m_panel30.SetSizer( bSizer58 )
+		self.m_panel30.Layout()
+		bSizer58.Fit( self.m_panel30 )
+		bSizer53.Add( self.m_panel30, 0, wx.ALL|wx.ALIGN_CENTER_HORIZONTAL|wx.EXPAND, 5 )
 
 
 		bSizer53.Add( ( 0, 10), 0, 0, 5 )
+
+		self.m_panel31 = wx.Panel( self, wx.ID_ANY, wx.DefaultPosition, wx.DefaultSize, wx.TAB_TRAVERSAL )
+		self.m_panel31.SetBackgroundColour( wx.Colour( 125, 100, 139 ) )
 
 		fgSizer161 = wx.FlexGridSizer( 0, 2, 0, 0 )
 		fgSizer161.SetFlexibleDirection( wx.BOTH )
 		fgSizer161.SetNonFlexibleGrowMode( wx.FLEX_GROWMODE_SPECIFIED )
 
-		self.m_staticText1411 = wx.StaticText( self, wx.ID_ANY, u"Realistic", wx.DefaultPosition, wx.DefaultSize, 0 )
+		self.m_panel34 = wx.Panel( self.m_panel31, wx.ID_ANY, wx.DefaultPosition, wx.DefaultSize, wx.TAB_TRAVERSAL )
+		self.m_panel34.SetBackgroundColour( wx.Colour( 208, 87, 66 ) )
+
+		bSizer60 = wx.BoxSizer( wx.VERTICAL )
+
+		self.m_staticText1411 = wx.StaticText( self.m_panel34, wx.ID_ANY, u"Realistic", wx.DefaultPosition, wx.DefaultSize, 0 )
 		self.m_staticText1411.Wrap( -1 )
 
 		self.m_staticText1411.SetFont( wx.Font( 12, wx.FONTFAMILY_SWISS, wx.FONTSTYLE_NORMAL, wx.FONTWEIGHT_NORMAL, False, "Sans" ) )
+		self.m_staticText1411.SetForegroundColour( wx.Colour( 249, 250, 249 ) )
 
-		fgSizer161.Add( self.m_staticText1411, 0, wx.ALL|wx.ALIGN_CENTER_VERTICAL, 5 )
+		bSizer60.Add( self.m_staticText1411, 0, wx.ALL|wx.ALIGN_CENTER_VERTICAL, 5 )
 
-		self.m_RealisticK = wx.SpinCtrl( self, wx.ID_ANY, wx.EmptyString, wx.DefaultPosition, wx.Size( 75,-1 ), wx.SP_ARROW_KEYS, 0, 14, 0 )
+
+		self.m_panel34.SetSizer( bSizer60 )
+		self.m_panel34.Layout()
+		bSizer60.Fit( self.m_panel34 )
+		fgSizer161.Add( self.m_panel34, 1, wx.EXPAND |wx.ALL, 5 )
+
+		self.m_RealisticK = wx.SpinCtrl( self.m_panel31, wx.ID_ANY, wx.EmptyString, wx.DefaultPosition, wx.Size( 75,-1 ), wx.SP_ARROW_KEYS, 0, 14, 0 )
 		self.m_RealisticK.SetFont( wx.Font( 12, wx.FONTFAMILY_SWISS, wx.FONTSTYLE_NORMAL, wx.FONTWEIGHT_NORMAL, False, "Sans" ) )
 
 		fgSizer161.Add( self.m_RealisticK, 0, wx.ALL, 5 )
 
-		self.m_staticText1431 = wx.StaticText( self, wx.ID_ANY, u"Investigative", wx.DefaultPosition, wx.DefaultSize, 0 )
+		self.m_panel41 = wx.Panel( self.m_panel31, wx.ID_ANY, wx.DefaultPosition, wx.DefaultSize, wx.TAB_TRAVERSAL )
+		self.m_panel41.SetBackgroundColour( wx.Colour( 245, 135, 79 ) )
+
+		bSizer67 = wx.BoxSizer( wx.VERTICAL )
+
+		self.m_staticText1431 = wx.StaticText( self.m_panel41, wx.ID_ANY, u"Investigative", wx.DefaultPosition, wx.DefaultSize, 0 )
 		self.m_staticText1431.Wrap( -1 )
 
 		self.m_staticText1431.SetFont( wx.Font( 12, wx.FONTFAMILY_SWISS, wx.FONTSTYLE_NORMAL, wx.FONTWEIGHT_NORMAL, False, "Sans" ) )
+		self.m_staticText1431.SetForegroundColour( wx.SystemSettings.GetColour( wx.SYS_COLOUR_WINDOWTEXT ) )
 
-		fgSizer161.Add( self.m_staticText1431, 0, wx.ALL|wx.ALIGN_CENTER_VERTICAL, 5 )
+		bSizer67.Add( self.m_staticText1431, 0, wx.ALL|wx.ALIGN_CENTER_VERTICAL, 5 )
 
-		self.m_InvestigativeK = wx.SpinCtrl( self, wx.ID_ANY, wx.EmptyString, wx.DefaultPosition, wx.Size( 75,-1 ), wx.SP_ARROW_KEYS, 0, 14, 0 )
+
+		self.m_panel41.SetSizer( bSizer67 )
+		self.m_panel41.Layout()
+		bSizer67.Fit( self.m_panel41 )
+		fgSizer161.Add( self.m_panel41, 1, wx.EXPAND |wx.ALL, 5 )
+
+		self.m_InvestigativeK = wx.SpinCtrl( self.m_panel31, wx.ID_ANY, wx.EmptyString, wx.DefaultPosition, wx.Size( 75,-1 ), wx.SP_ARROW_KEYS, 0, 14, 0 )
 		self.m_InvestigativeK.SetFont( wx.Font( 12, wx.FONTFAMILY_SWISS, wx.FONTSTYLE_NORMAL, wx.FONTWEIGHT_NORMAL, False, "Sans" ) )
 
 		fgSizer161.Add( self.m_InvestigativeK, 0, wx.ALL, 5 )
 
-		self.m_staticText1451 = wx.StaticText( self, wx.ID_ANY, u"Artistic", wx.DefaultPosition, wx.DefaultSize, 0 )
+		self.m_panel42 = wx.Panel( self.m_panel31, wx.ID_ANY, wx.DefaultPosition, wx.DefaultSize, wx.TAB_TRAVERSAL )
+		self.m_panel42.SetBackgroundColour( wx.Colour( 255, 204, 41 ) )
+
+		bSizer68 = wx.BoxSizer( wx.VERTICAL )
+
+		self.m_staticText1451 = wx.StaticText( self.m_panel42, wx.ID_ANY, u"Artistic", wx.DefaultPosition, wx.DefaultSize, 0 )
 		self.m_staticText1451.Wrap( -1 )
 
 		self.m_staticText1451.SetFont( wx.Font( 12, wx.FONTFAMILY_SWISS, wx.FONTSTYLE_NORMAL, wx.FONTWEIGHT_NORMAL, False, "Sans" ) )
+		self.m_staticText1451.SetForegroundColour( wx.SystemSettings.GetColour( wx.SYS_COLOUR_WINDOWTEXT ) )
 
-		fgSizer161.Add( self.m_staticText1451, 0, wx.ALL|wx.ALIGN_CENTER_VERTICAL, 5 )
+		bSizer68.Add( self.m_staticText1451, 0, wx.ALL|wx.ALIGN_CENTER_VERTICAL, 5 )
 
-		self.m_ArtisticK = wx.SpinCtrl( self, wx.ID_ANY, wx.EmptyString, wx.DefaultPosition, wx.Size( 75,-1 ), wx.SP_ARROW_KEYS, 0, 14, 0 )
+
+		self.m_panel42.SetSizer( bSizer68 )
+		self.m_panel42.Layout()
+		bSizer68.Fit( self.m_panel42 )
+		fgSizer161.Add( self.m_panel42, 1, wx.EXPAND |wx.ALL, 5 )
+
+		self.m_ArtisticK = wx.SpinCtrl( self.m_panel31, wx.ID_ANY, wx.EmptyString, wx.DefaultPosition, wx.Size( 75,-1 ), wx.SP_ARROW_KEYS, 0, 14, 0 )
 		self.m_ArtisticK.SetFont( wx.Font( 12, wx.FONTFAMILY_SWISS, wx.FONTSTYLE_NORMAL, wx.FONTWEIGHT_NORMAL, False, "Sans" ) )
 
 		fgSizer161.Add( self.m_ArtisticK, 0, wx.ALL, 5 )
 
-		self.m_staticText1461 = wx.StaticText( self, wx.ID_ANY, u"Social", wx.DefaultPosition, wx.DefaultSize, 0 )
+		self.m_panel43 = wx.Panel( self.m_panel31, wx.ID_ANY, wx.DefaultPosition, wx.DefaultSize, wx.TAB_TRAVERSAL )
+		self.m_panel43.SetBackgroundColour( wx.Colour( 88, 122, 54 ) )
+
+		bSizer69 = wx.BoxSizer( wx.VERTICAL )
+
+		self.m_staticText1461 = wx.StaticText( self.m_panel43, wx.ID_ANY, u"Social", wx.DefaultPosition, wx.DefaultSize, 0 )
 		self.m_staticText1461.Wrap( -1 )
 
 		self.m_staticText1461.SetFont( wx.Font( 12, wx.FONTFAMILY_SWISS, wx.FONTSTYLE_NORMAL, wx.FONTWEIGHT_NORMAL, False, "Sans" ) )
+		self.m_staticText1461.SetForegroundColour( wx.Colour( 249, 250, 249 ) )
 
-		fgSizer161.Add( self.m_staticText1461, 0, wx.ALL|wx.ALIGN_CENTER_VERTICAL, 5 )
+		bSizer69.Add( self.m_staticText1461, 0, wx.ALL|wx.ALIGN_CENTER_VERTICAL, 5 )
 
-		self.m_SocialK = wx.SpinCtrl( self, wx.ID_ANY, wx.EmptyString, wx.DefaultPosition, wx.Size( 75,-1 ), wx.SP_ARROW_KEYS, 0, 14, 0 )
+
+		self.m_panel43.SetSizer( bSizer69 )
+		self.m_panel43.Layout()
+		bSizer69.Fit( self.m_panel43 )
+		fgSizer161.Add( self.m_panel43, 1, wx.EXPAND |wx.ALL, 5 )
+
+		self.m_SocialK = wx.SpinCtrl( self.m_panel31, wx.ID_ANY, wx.EmptyString, wx.DefaultPosition, wx.Size( 75,-1 ), wx.SP_ARROW_KEYS, 0, 14, 0 )
 		self.m_SocialK.SetFont( wx.Font( 12, wx.FONTFAMILY_SWISS, wx.FONTSTYLE_NORMAL, wx.FONTWEIGHT_NORMAL, False, "Sans" ) )
 
 		fgSizer161.Add( self.m_SocialK, 0, wx.ALL, 5 )
 
-		self.m_staticText1471 = wx.StaticText( self, wx.ID_ANY, u"Enterprising", wx.DefaultPosition, wx.DefaultSize, 0 )
+		self.m_panel50 = wx.Panel( self.m_panel31, wx.ID_ANY, wx.DefaultPosition, wx.DefaultSize, wx.TAB_TRAVERSAL )
+		self.m_panel50.SetBackgroundColour( wx.Colour( 0, 152, 218 ) )
+
+		bSizer76 = wx.BoxSizer( wx.VERTICAL )
+
+		self.m_staticText1471 = wx.StaticText( self.m_panel50, wx.ID_ANY, u"Enterprising", wx.DefaultPosition, wx.DefaultSize, 0 )
 		self.m_staticText1471.Wrap( -1 )
 
 		self.m_staticText1471.SetFont( wx.Font( 12, wx.FONTFAMILY_SWISS, wx.FONTSTYLE_NORMAL, wx.FONTWEIGHT_NORMAL, False, "Sans" ) )
+		self.m_staticText1471.SetForegroundColour( wx.SystemSettings.GetColour( wx.SYS_COLOUR_WINDOWTEXT ) )
 
-		fgSizer161.Add( self.m_staticText1471, 0, wx.ALL|wx.ALIGN_CENTER_VERTICAL, 5 )
+		bSizer76.Add( self.m_staticText1471, 0, wx.ALL|wx.ALIGN_CENTER_VERTICAL, 5 )
 
-		self.m_EnterprisingK = wx.SpinCtrl( self, wx.ID_ANY, wx.EmptyString, wx.DefaultPosition, wx.Size( 75,-1 ), wx.SP_ARROW_KEYS, 0, 14, 0 )
+
+		self.m_panel50.SetSizer( bSizer76 )
+		self.m_panel50.Layout()
+		bSizer76.Fit( self.m_panel50 )
+		fgSizer161.Add( self.m_panel50, 1, wx.EXPAND |wx.ALL, 5 )
+
+		self.m_EnterprisingK = wx.SpinCtrl( self.m_panel31, wx.ID_ANY, wx.EmptyString, wx.DefaultPosition, wx.Size( 75,-1 ), wx.SP_ARROW_KEYS, 0, 14, 0 )
 		self.m_EnterprisingK.SetFont( wx.Font( 12, wx.FONTFAMILY_SWISS, wx.FONTSTYLE_NORMAL, wx.FONTWEIGHT_NORMAL, False, "Sans" ) )
 
 		fgSizer161.Add( self.m_EnterprisingK, 0, wx.ALL, 5 )
 
-		self.m_staticText1481 = wx.StaticText( self, wx.ID_ANY, u"Conventional", wx.DefaultPosition, wx.DefaultSize, 0 )
+		self.m_panel44 = wx.Panel( self.m_panel31, wx.ID_ANY, wx.DefaultPosition, wx.DefaultSize, wx.TAB_TRAVERSAL )
+		self.m_panel44.SetForegroundColour( wx.SystemSettings.GetColour( wx.SYS_COLOUR_WINDOWTEXT ) )
+		self.m_panel44.SetBackgroundColour( wx.Colour( 169, 138, 172 ) )
+
+		bSizer70 = wx.BoxSizer( wx.VERTICAL )
+
+		self.m_staticText1481 = wx.StaticText( self.m_panel44, wx.ID_ANY, u"Conventional", wx.DefaultPosition, wx.DefaultSize, 0 )
 		self.m_staticText1481.Wrap( -1 )
 
 		self.m_staticText1481.SetFont( wx.Font( 12, wx.FONTFAMILY_SWISS, wx.FONTSTYLE_NORMAL, wx.FONTWEIGHT_NORMAL, False, "Sans" ) )
+		self.m_staticText1481.SetForegroundColour( wx.SystemSettings.GetColour( wx.SYS_COLOUR_WINDOWTEXT ) )
 
-		fgSizer161.Add( self.m_staticText1481, 0, wx.ALL|wx.ALIGN_CENTER_VERTICAL, 5 )
+		bSizer70.Add( self.m_staticText1481, 0, wx.ALL|wx.ALIGN_CENTER_VERTICAL, 5 )
 
-		self.m_ConventionalK = wx.SpinCtrl( self, wx.ID_ANY, wx.EmptyString, wx.DefaultPosition, wx.Size( 75,-1 ), wx.SP_ARROW_KEYS, 0, 14, 0 )
+
+		self.m_panel44.SetSizer( bSizer70 )
+		self.m_panel44.Layout()
+		bSizer70.Fit( self.m_panel44 )
+		fgSizer161.Add( self.m_panel44, 1, wx.EXPAND |wx.ALL, 5 )
+
+		self.m_ConventionalK = wx.SpinCtrl( self.m_panel31, wx.ID_ANY, wx.EmptyString, wx.DefaultPosition, wx.Size( 75,-1 ), wx.SP_ARROW_KEYS, 0, 14, 0 )
 		self.m_ConventionalK.SetFont( wx.Font( 12, wx.FONTFAMILY_SWISS, wx.FONTSTYLE_NORMAL, wx.FONTWEIGHT_NORMAL, False, "Sans" ) )
 
 		fgSizer161.Add( self.m_ConventionalK, 0, wx.ALL, 5 )
 
 
-		bSizer53.Add( fgSizer161, 0, wx.ALIGN_CENTER_VERTICAL, 5 )
+		self.m_panel31.SetSizer( fgSizer161 )
+		self.m_panel31.Layout()
+		fgSizer161.Fit( self.m_panel31 )
+		bSizer53.Add( self.m_panel31, 1, wx.EXPAND |wx.ALL, 5 )
 
 
 		bSizer28.Add( bSizer53, 1, wx.EXPAND, 5 )
@@ -1403,94 +1552,185 @@ class Page3 ( wx.Panel ):
 
 		bSizer54 = wx.BoxSizer( wx.VERTICAL )
 
-		self.m_staticText169 = wx.StaticText( self, wx.ID_ANY, u"PEKERJAAN", wx.Point( -1,-1 ), wx.Size( 100,-1 ), 0 )
+		self.m_panel32 = wx.Panel( self, wx.ID_ANY, wx.DefaultPosition, wx.DefaultSize, wx.TAB_TRAVERSAL )
+		self.m_panel32.SetForegroundColour( wx.Colour( 255, 255, 255 ) )
+		self.m_panel32.SetBackgroundColour( wx.Colour( 150, 152, 154 ) )
+
+		bSizer59 = wx.BoxSizer( wx.VERTICAL )
+
+		self.m_staticText169 = wx.StaticText( self.m_panel32, wx.ID_ANY, u"PEKERJAAN", wx.Point( -1,-1 ), wx.Size( 100,-1 ), 0 )
 		self.m_staticText169.Wrap( -1 )
 
 		self.m_staticText169.SetFont( wx.Font( 14, wx.FONTFAMILY_DEFAULT, wx.FONTSTYLE_NORMAL, wx.FONTWEIGHT_BOLD, False, "Tw Cen MT" ) )
 
-		bSizer54.Add( self.m_staticText169, 0, wx.ALL|wx.ALIGN_CENTER_HORIZONTAL, 5 )
+		bSizer59.Add( self.m_staticText169, 0, wx.ALL|wx.ALIGN_CENTER_HORIZONTAL, 5 )
+
+
+		self.m_panel32.SetSizer( bSizer59 )
+		self.m_panel32.Layout()
+		bSizer59.Fit( self.m_panel32 )
+		bSizer54.Add( self.m_panel32, 0, wx.ALL|wx.EXPAND, 5 )
 
 
 		bSizer54.Add( ( 0, 10), 0, 0, 5 )
+
+		self.m_panel33 = wx.Panel( self, wx.ID_ANY, wx.DefaultPosition, wx.DefaultSize, wx.TAB_TRAVERSAL )
+		self.m_panel33.SetForegroundColour( wx.Colour( 249, 250, 249 ) )
+		self.m_panel33.SetBackgroundColour( wx.Colour( 150, 152, 154 ) )
 
 		fgSizer162 = wx.FlexGridSizer( 0, 2, 0, 0 )
 		fgSizer162.SetFlexibleDirection( wx.BOTH )
 		fgSizer162.SetNonFlexibleGrowMode( wx.FLEX_GROWMODE_SPECIFIED )
 
-		self.m_staticText1412 = wx.StaticText( self, wx.ID_ANY, u"Realistic", wx.DefaultPosition, wx.DefaultSize, 0 )
+		self.m_panel35 = wx.Panel( self.m_panel33, wx.ID_ANY, wx.DefaultPosition, wx.DefaultSize, wx.TAB_TRAVERSAL )
+		self.m_panel35.SetForegroundColour( wx.Colour( 249, 250, 249 ) )
+		self.m_panel35.SetBackgroundColour( wx.Colour( 208, 87, 66 ) )
+
+		bSizer61 = wx.BoxSizer( wx.VERTICAL )
+
+		self.m_staticText1412 = wx.StaticText( self.m_panel35, wx.ID_ANY, u"Realistic", wx.DefaultPosition, wx.DefaultSize, 0 )
 		self.m_staticText1412.Wrap( -1 )
 
 		self.m_staticText1412.SetFont( wx.Font( 12, wx.FONTFAMILY_SWISS, wx.FONTSTYLE_NORMAL, wx.FONTWEIGHT_NORMAL, False, "Sans" ) )
+		self.m_staticText1412.SetBackgroundColour( wx.Colour( 208, 87, 66 ) )
 
-		fgSizer162.Add( self.m_staticText1412, 0, wx.ALL|wx.ALIGN_CENTER_VERTICAL, 5 )
+		bSizer61.Add( self.m_staticText1412, 0, wx.ALL|wx.ALIGN_CENTER_VERTICAL, 5 )
 
-		self.m_RealisticP = wx.SpinCtrl( self, wx.ID_ANY, wx.EmptyString, wx.DefaultPosition, wx.Size( 75,-1 ), wx.SP_ARROW_KEYS, 0, 14, 0 )
+
+		self.m_panel35.SetSizer( bSizer61 )
+		self.m_panel35.Layout()
+		bSizer61.Fit( self.m_panel35 )
+		fgSizer162.Add( self.m_panel35, 1, wx.EXPAND |wx.ALL, 5 )
+
+		self.m_RealisticP = wx.SpinCtrl( self.m_panel33, wx.ID_ANY, wx.EmptyString, wx.DefaultPosition, wx.Size( 75,-1 ), wx.SP_ARROW_KEYS, 0, 14, 0 )
 		self.m_RealisticP.SetFont( wx.Font( 12, wx.FONTFAMILY_SWISS, wx.FONTSTYLE_NORMAL, wx.FONTWEIGHT_NORMAL, False, "Sans" ) )
 
 		fgSizer162.Add( self.m_RealisticP, 0, wx.ALL, 5 )
 
-		self.m_staticText1432 = wx.StaticText( self, wx.ID_ANY, u"Investigative", wx.DefaultPosition, wx.DefaultSize, 0 )
+		self.m_panel45 = wx.Panel( self.m_panel33, wx.ID_ANY, wx.DefaultPosition, wx.DefaultSize, wx.TAB_TRAVERSAL )
+		self.m_panel45.SetBackgroundColour( wx.Colour( 245, 135, 79 ) )
+
+		bSizer71 = wx.BoxSizer( wx.VERTICAL )
+
+		self.m_staticText1432 = wx.StaticText( self.m_panel45, wx.ID_ANY, u"Investigative", wx.DefaultPosition, wx.DefaultSize, 0 )
 		self.m_staticText1432.Wrap( -1 )
 
 		self.m_staticText1432.SetFont( wx.Font( 12, wx.FONTFAMILY_SWISS, wx.FONTSTYLE_NORMAL, wx.FONTWEIGHT_NORMAL, False, "Sans" ) )
+		self.m_staticText1432.SetBackgroundColour( wx.SystemSettings.GetColour( wx.SYS_COLOUR_WINDOW ) )
 
-		fgSizer162.Add( self.m_staticText1432, 0, wx.ALL|wx.ALIGN_CENTER_VERTICAL, 5 )
+		bSizer71.Add( self.m_staticText1432, 0, wx.ALL|wx.ALIGN_CENTER_VERTICAL, 5 )
 
-		self.m_InvestigativeP = wx.SpinCtrl( self, wx.ID_ANY, wx.EmptyString, wx.DefaultPosition, wx.Size( 75,-1 ), wx.SP_ARROW_KEYS, 0, 14, 0 )
+
+		self.m_panel45.SetSizer( bSizer71 )
+		self.m_panel45.Layout()
+		bSizer71.Fit( self.m_panel45 )
+		fgSizer162.Add( self.m_panel45, 1, wx.EXPAND |wx.ALL, 5 )
+
+		self.m_InvestigativeP = wx.SpinCtrl( self.m_panel33, wx.ID_ANY, wx.EmptyString, wx.DefaultPosition, wx.Size( 75,-1 ), wx.SP_ARROW_KEYS, 0, 14, 0 )
 		self.m_InvestigativeP.SetFont( wx.Font( 12, wx.FONTFAMILY_SWISS, wx.FONTSTYLE_NORMAL, wx.FONTWEIGHT_NORMAL, False, "Sans" ) )
 
 		fgSizer162.Add( self.m_InvestigativeP, 0, wx.ALL, 5 )
 
-		self.m_staticText1452 = wx.StaticText( self, wx.ID_ANY, u"Artistic", wx.DefaultPosition, wx.DefaultSize, 0 )
+		self.m_panel49 = wx.Panel( self.m_panel33, wx.ID_ANY, wx.DefaultPosition, wx.DefaultSize, wx.TAB_TRAVERSAL )
+		self.m_panel49.SetBackgroundColour( wx.Colour( 255, 204, 41 ) )
+
+		bSizer75 = wx.BoxSizer( wx.VERTICAL )
+
+		self.m_staticText1452 = wx.StaticText( self.m_panel49, wx.ID_ANY, u"Artistic", wx.DefaultPosition, wx.DefaultSize, 0 )
 		self.m_staticText1452.Wrap( -1 )
 
 		self.m_staticText1452.SetFont( wx.Font( 12, wx.FONTFAMILY_SWISS, wx.FONTSTYLE_NORMAL, wx.FONTWEIGHT_NORMAL, False, "Sans" ) )
 
-		fgSizer162.Add( self.m_staticText1452, 0, wx.ALL|wx.ALIGN_CENTER_VERTICAL, 5 )
+		bSizer75.Add( self.m_staticText1452, 0, wx.ALL|wx.ALIGN_CENTER_VERTICAL, 5 )
 
-		self.m_ArtisticP = wx.SpinCtrl( self, wx.ID_ANY, wx.EmptyString, wx.DefaultPosition, wx.Size( 75,-1 ), wx.SP_ARROW_KEYS, 0, 14, 0 )
+
+		self.m_panel49.SetSizer( bSizer75 )
+		self.m_panel49.Layout()
+		bSizer75.Fit( self.m_panel49 )
+		fgSizer162.Add( self.m_panel49, 1, wx.EXPAND |wx.ALL, 5 )
+
+		self.m_ArtisticP = wx.SpinCtrl( self.m_panel33, wx.ID_ANY, wx.EmptyString, wx.DefaultPosition, wx.Size( 75,-1 ), wx.SP_ARROW_KEYS, 0, 14, 0 )
 		self.m_ArtisticP.SetFont( wx.Font( 12, wx.FONTFAMILY_SWISS, wx.FONTSTYLE_NORMAL, wx.FONTWEIGHT_NORMAL, False, "Sans" ) )
 
 		fgSizer162.Add( self.m_ArtisticP, 0, wx.ALL, 5 )
 
-		self.m_staticText1462 = wx.StaticText( self, wx.ID_ANY, u"Social", wx.DefaultPosition, wx.DefaultSize, 0 )
+		self.m_panel46 = wx.Panel( self.m_panel33, wx.ID_ANY, wx.DefaultPosition, wx.DefaultSize, wx.TAB_TRAVERSAL )
+		self.m_panel46.SetBackgroundColour( wx.Colour( 88, 122, 54 ) )
+
+		bSizer72 = wx.BoxSizer( wx.VERTICAL )
+
+		self.m_staticText1462 = wx.StaticText( self.m_panel46, wx.ID_ANY, u"Social", wx.DefaultPosition, wx.DefaultSize, 0 )
 		self.m_staticText1462.Wrap( -1 )
 
 		self.m_staticText1462.SetFont( wx.Font( 12, wx.FONTFAMILY_SWISS, wx.FONTSTYLE_NORMAL, wx.FONTWEIGHT_NORMAL, False, "Sans" ) )
+		self.m_staticText1462.SetForegroundColour( wx.Colour( 249, 250, 249 ) )
 
-		fgSizer162.Add( self.m_staticText1462, 0, wx.ALL|wx.ALIGN_CENTER_VERTICAL, 5 )
+		bSizer72.Add( self.m_staticText1462, 0, wx.ALL|wx.ALIGN_CENTER_VERTICAL, 5 )
 
-		self.m_SocialP = wx.SpinCtrl( self, wx.ID_ANY, wx.EmptyString, wx.DefaultPosition, wx.Size( 75,-1 ), wx.SP_ARROW_KEYS, 0, 14, 0 )
+
+		self.m_panel46.SetSizer( bSizer72 )
+		self.m_panel46.Layout()
+		bSizer72.Fit( self.m_panel46 )
+		fgSizer162.Add( self.m_panel46, 1, wx.EXPAND |wx.ALL, 5 )
+
+		self.m_SocialP = wx.SpinCtrl( self.m_panel33, wx.ID_ANY, wx.EmptyString, wx.DefaultPosition, wx.Size( 75,-1 ), wx.SP_ARROW_KEYS, 0, 14, 0 )
 		self.m_SocialP.SetFont( wx.Font( 12, wx.FONTFAMILY_SWISS, wx.FONTSTYLE_NORMAL, wx.FONTWEIGHT_NORMAL, False, "Sans" ) )
 
 		fgSizer162.Add( self.m_SocialP, 0, wx.ALL, 5 )
 
-		self.m_staticText1472 = wx.StaticText( self, wx.ID_ANY, u"Enterprising", wx.DefaultPosition, wx.DefaultSize, 0 )
+		self.m_panel47 = wx.Panel( self.m_panel33, wx.ID_ANY, wx.DefaultPosition, wx.DefaultSize, wx.TAB_TRAVERSAL )
+		self.m_panel47.SetForegroundColour( wx.Colour( 249, 250, 249 ) )
+		self.m_panel47.SetBackgroundColour( wx.Colour( 0, 152, 218 ) )
+
+		bSizer73 = wx.BoxSizer( wx.VERTICAL )
+
+		self.m_staticText1472 = wx.StaticText( self.m_panel47, wx.ID_ANY, u"Enterprising", wx.DefaultPosition, wx.DefaultSize, 0 )
 		self.m_staticText1472.Wrap( -1 )
 
 		self.m_staticText1472.SetFont( wx.Font( 12, wx.FONTFAMILY_SWISS, wx.FONTSTYLE_NORMAL, wx.FONTWEIGHT_NORMAL, False, "Sans" ) )
+		self.m_staticText1472.SetForegroundColour( wx.SystemSettings.GetColour( wx.SYS_COLOUR_WINDOWTEXT ) )
 
-		fgSizer162.Add( self.m_staticText1472, 0, wx.ALL|wx.ALIGN_CENTER_VERTICAL, 5 )
+		bSizer73.Add( self.m_staticText1472, 0, wx.ALL|wx.ALIGN_CENTER_VERTICAL, 5 )
 
-		self.m_EnterprisingP = wx.SpinCtrl( self, wx.ID_ANY, wx.EmptyString, wx.DefaultPosition, wx.Size( 75,-1 ), wx.SP_ARROW_KEYS, 0, 14, 0 )
+
+		self.m_panel47.SetSizer( bSizer73 )
+		self.m_panel47.Layout()
+		bSizer73.Fit( self.m_panel47 )
+		fgSizer162.Add( self.m_panel47, 1, wx.EXPAND |wx.ALL, 5 )
+
+		self.m_EnterprisingP = wx.SpinCtrl( self.m_panel33, wx.ID_ANY, wx.EmptyString, wx.DefaultPosition, wx.Size( 75,-1 ), wx.SP_ARROW_KEYS, 0, 14, 0 )
 		self.m_EnterprisingP.SetFont( wx.Font( 12, wx.FONTFAMILY_SWISS, wx.FONTSTYLE_NORMAL, wx.FONTWEIGHT_NORMAL, False, "Sans" ) )
 
 		fgSizer162.Add( self.m_EnterprisingP, 0, wx.ALL, 5 )
 
-		self.m_staticText1482 = wx.StaticText( self, wx.ID_ANY, u"Conventional", wx.DefaultPosition, wx.DefaultSize, 0 )
+		self.m_panel48 = wx.Panel( self.m_panel33, wx.ID_ANY, wx.DefaultPosition, wx.DefaultSize, wx.TAB_TRAVERSAL )
+		self.m_panel48.SetBackgroundColour( wx.Colour( 169, 138, 172 ) )
+
+		bSizer74 = wx.BoxSizer( wx.VERTICAL )
+
+		self.m_staticText1482 = wx.StaticText( self.m_panel48, wx.ID_ANY, u"Conventional", wx.DefaultPosition, wx.DefaultSize, 0 )
 		self.m_staticText1482.Wrap( -1 )
 
 		self.m_staticText1482.SetFont( wx.Font( 12, wx.FONTFAMILY_SWISS, wx.FONTSTYLE_NORMAL, wx.FONTWEIGHT_NORMAL, False, "Sans" ) )
 
-		fgSizer162.Add( self.m_staticText1482, 0, wx.ALL|wx.ALIGN_CENTER_VERTICAL, 5 )
+		bSizer74.Add( self.m_staticText1482, 0, wx.ALL|wx.ALIGN_CENTER_VERTICAL, 5 )
 
-		self.m_ConventionalP = wx.SpinCtrl( self, wx.ID_ANY, wx.EmptyString, wx.DefaultPosition, wx.Size( 75,-1 ), wx.SP_ARROW_KEYS, 0, 14, 0 )
+
+		self.m_panel48.SetSizer( bSizer74 )
+		self.m_panel48.Layout()
+		bSizer74.Fit( self.m_panel48 )
+		fgSizer162.Add( self.m_panel48, 1, wx.EXPAND |wx.ALL, 5 )
+
+		self.m_ConventionalP = wx.SpinCtrl( self.m_panel33, wx.ID_ANY, wx.EmptyString, wx.DefaultPosition, wx.Size( 75,-1 ), wx.SP_ARROW_KEYS, 0, 14, 0 )
 		self.m_ConventionalP.SetFont( wx.Font( 12, wx.FONTFAMILY_SWISS, wx.FONTSTYLE_NORMAL, wx.FONTWEIGHT_NORMAL, False, "Sans" ) )
 
 		fgSizer162.Add( self.m_ConventionalP, 0, wx.ALL, 5 )
 
 
-		bSizer54.Add( fgSizer162, 0, 0, 5 )
+		self.m_panel33.SetSizer( fgSizer162 )
+		self.m_panel33.Layout()
+		fgSizer162.Fit( self.m_panel33 )
+		bSizer54.Add( self.m_panel33, 1, wx.EXPAND |wx.ALL, 5 )
 
 
 		bSizer28.Add( bSizer54, 1, wx.EXPAND, 5 )
@@ -1606,12 +1846,24 @@ class Page4 ( wx.Panel ):
 
 		bSizer34 = wx.BoxSizer( wx.VERTICAL )
 
-		self.m_staticText204 = wx.StaticText( self, wx.ID_ANY, u"BAGIAN 1", wx.DefaultPosition, wx.Size( -1,-1 ), 0 )
+		self.m_panel831 = wx.Panel( self, wx.ID_ANY, wx.DefaultPosition, wx.DefaultSize, wx.TAB_TRAVERSAL )
+		self.m_panel831.SetBackgroundColour( wx.Colour( 212, 113, 73 ) )
+
+		bSizer1061 = wx.BoxSizer( wx.VERTICAL )
+
+		self.m_staticText204 = wx.StaticText( self.m_panel831, wx.ID_ANY, u"BAGIAN 1", wx.DefaultPosition, wx.Size( -1,-1 ), 0 )
 		self.m_staticText204.Wrap( -1 )
 
 		self.m_staticText204.SetFont( wx.Font( 14, wx.FONTFAMILY_DEFAULT, wx.FONTSTYLE_NORMAL, wx.FONTWEIGHT_BOLD, False, "Tw Cen MT" ) )
+		self.m_staticText204.SetForegroundColour( wx.Colour( 249, 250, 249 ) )
 
-		bSizer34.Add( self.m_staticText204, 0, wx.ALL|wx.ALIGN_CENTER_HORIZONTAL, 5 )
+		bSizer1061.Add( self.m_staticText204, 0, wx.ALL|wx.ALIGN_CENTER_HORIZONTAL, 5 )
+
+
+		self.m_panel831.SetSizer( bSizer1061 )
+		self.m_panel831.Layout()
+		bSizer1061.Fit( self.m_panel831 )
+		bSizer34.Add( self.m_panel831, 1, wx.EXPAND |wx.ALL, 5 )
 
 		fgSizer27 = wx.FlexGridSizer( 2, 2, 0, 0 )
 		fgSizer27.SetFlexibleDirection( wx.BOTH )
@@ -1624,86 +1876,236 @@ class Page4 ( wx.Panel ):
 		self.m_staticText213 = wx.StaticText( self, wx.ID_ANY, wx.EmptyString, wx.DefaultPosition, wx.DefaultSize, 0 )
 		self.m_staticText213.Wrap( -1 )
 
+		self.m_staticText213.SetBackgroundColour( wx.SystemSettings.GetColour( wx.SYS_COLOUR_WINDOWTEXT ) )
+
 		fgSizer29.Add( self.m_staticText213, 0, wx.ALL|wx.ALIGN_CENTER_HORIZONTAL, 5 )
 
-		self.m_staticText214 = wx.StaticText( self, wx.ID_ANY, u"Kemampuan\n    Mekanis", wx.DefaultPosition, wx.DefaultSize, 0 )
+		self.m_panel57 = wx.Panel( self, wx.ID_ANY, wx.DefaultPosition, wx.DefaultSize, wx.TAB_TRAVERSAL )
+		self.m_panel57.SetForegroundColour( wx.Colour( 249, 250, 249 ) )
+		self.m_panel57.SetBackgroundColour( wx.Colour( 208, 87, 66 ) )
+
+		bSizer81 = wx.BoxSizer( wx.VERTICAL )
+
+		self.m_staticText214 = wx.StaticText( self.m_panel57, wx.ID_ANY, u"Kemampuan\n    Mekanis", wx.DefaultPosition, wx.DefaultSize, 0 )
 		self.m_staticText214.Wrap( -1 )
 
 		self.m_staticText214.SetFont( wx.Font( 14, wx.FONTFAMILY_DEFAULT, wx.FONTSTYLE_NORMAL, wx.FONTWEIGHT_NORMAL, False, "Tw Cen MT" ) )
 
-		fgSizer29.Add( self.m_staticText214, 0, wx.ALL|wx.ALIGN_CENTER_HORIZONTAL|wx.ALIGN_CENTER_VERTICAL, 5 )
+		bSizer81.Add( self.m_staticText214, 0, wx.ALL|wx.ALIGN_CENTER_HORIZONTAL|wx.ALIGN_CENTER_VERTICAL, 5 )
 
-		self.m_staticText215 = wx.StaticText( self, wx.ID_ANY, u"Kemampuan\n     Ilmiah", wx.DefaultPosition, wx.DefaultSize, 0 )
+
+		self.m_panel57.SetSizer( bSizer81 )
+		self.m_panel57.Layout()
+		bSizer81.Fit( self.m_panel57 )
+		fgSizer29.Add( self.m_panel57, 1, wx.EXPAND |wx.ALL, 5 )
+
+		self.m_panel59 = wx.Panel( self, wx.ID_ANY, wx.DefaultPosition, wx.DefaultSize, wx.TAB_TRAVERSAL )
+		self.m_panel59.SetForegroundColour( wx.Colour( 249, 250, 249 ) )
+		self.m_panel59.SetBackgroundColour( wx.Colour( 245, 135, 79 ) )
+
+		bSizer83 = wx.BoxSizer( wx.VERTICAL )
+
+		self.m_staticText215 = wx.StaticText( self.m_panel59, wx.ID_ANY, u"Kemampuan\n     Ilmiah", wx.DefaultPosition, wx.DefaultSize, 0 )
 		self.m_staticText215.Wrap( -1 )
 
 		self.m_staticText215.SetFont( wx.Font( 12, wx.FONTFAMILY_SWISS, wx.FONTSTYLE_NORMAL, wx.FONTWEIGHT_NORMAL, False, "Sans" ) )
 
-		fgSizer29.Add( self.m_staticText215, 0, wx.ALL|wx.ALIGN_CENTER_VERTICAL|wx.ALIGN_CENTER_HORIZONTAL, 5 )
+		bSizer83.Add( self.m_staticText215, 0, wx.ALL|wx.ALIGN_CENTER_VERTICAL|wx.ALIGN_CENTER_HORIZONTAL, 5 )
 
-		self.m_staticText216 = wx.StaticText( self, wx.ID_ANY, u"Kemampuan\n     Artistik", wx.DefaultPosition, wx.DefaultSize, 0 )
+
+		self.m_panel59.SetSizer( bSizer83 )
+		self.m_panel59.Layout()
+		bSizer83.Fit( self.m_panel59 )
+		fgSizer29.Add( self.m_panel59, 1, wx.EXPAND |wx.ALL, 5 )
+
+		self.m_panel60 = wx.Panel( self, wx.ID_ANY, wx.DefaultPosition, wx.DefaultSize, wx.TAB_TRAVERSAL )
+		self.m_panel60.SetBackgroundColour( wx.Colour( 255, 204, 41 ) )
+
+		bSizer84 = wx.BoxSizer( wx.VERTICAL )
+
+		self.m_staticText216 = wx.StaticText( self.m_panel60, wx.ID_ANY, u"Kemampuan\n     Artistik", wx.DefaultPosition, wx.DefaultSize, 0 )
 		self.m_staticText216.Wrap( -1 )
 
 		self.m_staticText216.SetFont( wx.Font( 12, wx.FONTFAMILY_SWISS, wx.FONTSTYLE_NORMAL, wx.FONTWEIGHT_NORMAL, False, "Sans" ) )
 
-		fgSizer29.Add( self.m_staticText216, 0, wx.ALL|wx.ALIGN_CENTER_HORIZONTAL, 5 )
+		bSizer84.Add( self.m_staticText216, 0, wx.ALL|wx.ALIGN_CENTER_HORIZONTAL, 5 )
 
-		self.m_staticText217 = wx.StaticText( self, wx.ID_ANY, u"Kemampuan\n   Mengajar", wx.DefaultPosition, wx.DefaultSize, 0 )
+
+		self.m_panel60.SetSizer( bSizer84 )
+		self.m_panel60.Layout()
+		bSizer84.Fit( self.m_panel60 )
+		fgSizer29.Add( self.m_panel60, 1, wx.EXPAND |wx.ALL, 5 )
+
+		self.m_panel61 = wx.Panel( self, wx.ID_ANY, wx.DefaultPosition, wx.DefaultSize, wx.TAB_TRAVERSAL )
+		self.m_panel61.SetForegroundColour( wx.Colour( 249, 250, 249 ) )
+		self.m_panel61.SetBackgroundColour( wx.Colour( 88, 122, 54 ) )
+
+		bSizer85 = wx.BoxSizer( wx.VERTICAL )
+
+		self.m_staticText217 = wx.StaticText( self.m_panel61, wx.ID_ANY, u"Kemampuan\n   Mengajar", wx.DefaultPosition, wx.DefaultSize, 0 )
 		self.m_staticText217.Wrap( -1 )
 
 		self.m_staticText217.SetFont( wx.Font( 12, wx.FONTFAMILY_SWISS, wx.FONTSTYLE_NORMAL, wx.FONTWEIGHT_NORMAL, False, "Sans" ) )
 
-		fgSizer29.Add( self.m_staticText217, 0, wx.ALL|wx.ALIGN_CENTER_HORIZONTAL|wx.ALIGN_CENTER_VERTICAL, 5 )
+		bSizer85.Add( self.m_staticText217, 0, wx.ALL|wx.ALIGN_CENTER_HORIZONTAL|wx.ALIGN_CENTER_VERTICAL, 5 )
 
-		self.m_staticText218 = wx.StaticText( self, wx.ID_ANY, u"Kemampuan\n   Penjualan", wx.DefaultPosition, wx.DefaultSize, 0 )
+
+		self.m_panel61.SetSizer( bSizer85 )
+		self.m_panel61.Layout()
+		bSizer85.Fit( self.m_panel61 )
+		fgSizer29.Add( self.m_panel61, 1, wx.EXPAND |wx.ALL, 5 )
+
+		self.m_panel62 = wx.Panel( self, wx.ID_ANY, wx.DefaultPosition, wx.DefaultSize, wx.TAB_TRAVERSAL )
+		self.m_panel62.SetForegroundColour( wx.Colour( 249, 250, 249 ) )
+		self.m_panel62.SetBackgroundColour( wx.Colour( 0, 88, 218 ) )
+
+		bSizer86 = wx.BoxSizer( wx.VERTICAL )
+
+		self.m_staticText218 = wx.StaticText( self.m_panel62, wx.ID_ANY, u"Kemampuan\n   Penjualan", wx.DefaultPosition, wx.DefaultSize, 0 )
 		self.m_staticText218.Wrap( -1 )
 
 		self.m_staticText218.SetFont( wx.Font( 12, wx.FONTFAMILY_SWISS, wx.FONTSTYLE_NORMAL, wx.FONTWEIGHT_NORMAL, False, "Sans" ) )
+		self.m_staticText218.SetBackgroundColour( wx.SystemSettings.GetColour( wx.SYS_COLOUR_WINDOW ) )
 
-		fgSizer29.Add( self.m_staticText218, 0, wx.ALL|wx.ALIGN_CENTER_HORIZONTAL|wx.ALIGN_CENTER_VERTICAL, 5 )
+		bSizer86.Add( self.m_staticText218, 0, wx.ALL|wx.ALIGN_CENTER_HORIZONTAL|wx.ALIGN_CENTER_VERTICAL, 5 )
 
-		self.m_staticText219 = wx.StaticText( self, wx.ID_ANY, u"Kemampuan\nAdministrasi", wx.DefaultPosition, wx.DefaultSize, 0 )
+
+		self.m_panel62.SetSizer( bSizer86 )
+		self.m_panel62.Layout()
+		bSizer86.Fit( self.m_panel62 )
+		fgSizer29.Add( self.m_panel62, 1, wx.EXPAND |wx.ALL, 5 )
+
+		self.m_panel63 = wx.Panel( self, wx.ID_ANY, wx.DefaultPosition, wx.DefaultSize, wx.TAB_TRAVERSAL )
+		self.m_panel63.SetBackgroundColour( wx.Colour( 169, 138, 172 ) )
+
+		bSizer87 = wx.BoxSizer( wx.VERTICAL )
+
+		self.m_staticText219 = wx.StaticText( self.m_panel63, wx.ID_ANY, u"Kemampuan\nAdministrasi", wx.DefaultPosition, wx.DefaultSize, 0 )
 		self.m_staticText219.Wrap( -1 )
 
 		self.m_staticText219.SetFont( wx.Font( 12, wx.FONTFAMILY_SWISS, wx.FONTSTYLE_NORMAL, wx.FONTWEIGHT_NORMAL, False, "Sans" ) )
 
-		fgSizer29.Add( self.m_staticText219, 0, wx.ALL|wx.ALIGN_CENTER_HORIZONTAL|wx.ALIGN_CENTER_VERTICAL, 5 )
+		bSizer87.Add( self.m_staticText219, 0, wx.ALL|wx.ALIGN_CENTER_HORIZONTAL|wx.ALIGN_CENTER_VERTICAL, 5 )
 
-		self.m_staticText221 = wx.StaticText( self, wx.ID_ANY, u"Tingkat (1-7)", wx.DefaultPosition, wx.DefaultSize, 0 )
+
+		self.m_panel63.SetSizer( bSizer87 )
+		self.m_panel63.Layout()
+		bSizer87.Fit( self.m_panel63 )
+		fgSizer29.Add( self.m_panel63, 1, wx.EXPAND |wx.ALL, 5 )
+
+		self.m_panel64 = wx.Panel( self, wx.ID_ANY, wx.DefaultPosition, wx.DefaultSize, wx.TAB_TRAVERSAL )
+		self.m_panel64.SetBackgroundColour( wx.Colour( 210, 211, 5 ) )
+
+		bSizer88 = wx.BoxSizer( wx.VERTICAL )
+
+		self.m_staticText221 = wx.StaticText( self.m_panel64, wx.ID_ANY, u"Tingkat (1-7)", wx.DefaultPosition, wx.DefaultSize, 0 )
 		self.m_staticText221.Wrap( -1 )
 
 		self.m_staticText221.SetFont( wx.Font( 12, wx.FONTFAMILY_SWISS, wx.FONTSTYLE_NORMAL, wx.FONTWEIGHT_NORMAL, False, "Sans" ) )
 
-		fgSizer29.Add( self.m_staticText221, 0, wx.ALL|wx.ALIGN_CENTER_HORIZONTAL|wx.ALIGN_CENTER_VERTICAL, 5 )
+		bSizer88.Add( self.m_staticText221, 0, wx.ALL|wx.ALIGN_CENTER_VERTICAL|wx.ALIGN_CENTER_HORIZONTAL, 5 )
 
-		self.m_kmekanisb1 = wx.SpinCtrl( self, wx.ID_ANY, wx.EmptyString, wx.DefaultPosition, wx.Size( 75,-1 ), wx.SP_ARROW_KEYS, 0, 7, 0 )
+
+		self.m_panel64.SetSizer( bSizer88 )
+		self.m_panel64.Layout()
+		bSizer88.Fit( self.m_panel64 )
+		fgSizer29.Add( self.m_panel64, 1, wx.ALL|wx.ALIGN_CENTER_VERTICAL, 5 )
+
+		self.m_panel65 = wx.Panel( self, wx.ID_ANY, wx.DefaultPosition, wx.DefaultSize, wx.TAB_TRAVERSAL )
+		self.m_panel65.SetBackgroundColour( wx.Colour( 208, 87, 66 ) )
+
+		bSizer89 = wx.BoxSizer( wx.VERTICAL )
+
+		self.m_kmekanisb1 = wx.SpinCtrl( self.m_panel65, wx.ID_ANY, wx.EmptyString, wx.DefaultPosition, wx.Size( 75,-1 ), wx.SP_ARROW_KEYS, 0, 7, 0 )
 		self.m_kmekanisb1.SetFont( wx.Font( 12, wx.FONTFAMILY_SWISS, wx.FONTSTYLE_NORMAL, wx.FONTWEIGHT_NORMAL, False, "Sans" ) )
 
-		fgSizer29.Add( self.m_kmekanisb1, 0, wx.ALL|wx.ALIGN_CENTER_HORIZONTAL|wx.ALIGN_CENTER_VERTICAL, 5 )
+		bSizer89.Add( self.m_kmekanisb1, 0, wx.ALL|wx.ALIGN_CENTER_HORIZONTAL|wx.ALIGN_CENTER_VERTICAL, 5 )
 
-		self.m_kilmiahb1 = wx.SpinCtrl( self, wx.ID_ANY, wx.EmptyString, wx.DefaultPosition, wx.Size( 75,-1 ), wx.SP_ARROW_KEYS, 0, 7, 0 )
+
+		self.m_panel65.SetSizer( bSizer89 )
+		self.m_panel65.Layout()
+		bSizer89.Fit( self.m_panel65 )
+		fgSizer29.Add( self.m_panel65, 1, wx.EXPAND |wx.ALL, 5 )
+
+		self.m_panel66 = wx.Panel( self, wx.ID_ANY, wx.DefaultPosition, wx.DefaultSize, wx.TAB_TRAVERSAL )
+		self.m_panel66.SetBackgroundColour( wx.Colour( 245, 135, 79 ) )
+
+		bSizer90 = wx.BoxSizer( wx.VERTICAL )
+
+		self.m_kilmiahb1 = wx.SpinCtrl( self.m_panel66, wx.ID_ANY, wx.EmptyString, wx.DefaultPosition, wx.Size( 75,-1 ), wx.SP_ARROW_KEYS, 0, 7, 0 )
 		self.m_kilmiahb1.SetFont( wx.Font( 12, wx.FONTFAMILY_SWISS, wx.FONTSTYLE_NORMAL, wx.FONTWEIGHT_NORMAL, False, "Sans" ) )
 
-		fgSizer29.Add( self.m_kilmiahb1, 0, wx.ALL|wx.ALIGN_CENTER_HORIZONTAL|wx.ALIGN_CENTER_VERTICAL, 5 )
+		bSizer90.Add( self.m_kilmiahb1, 0, wx.ALL|wx.ALIGN_CENTER_HORIZONTAL|wx.ALIGN_CENTER_VERTICAL, 5 )
 
-		self.m_kartistikb1 = wx.SpinCtrl( self, wx.ID_ANY, wx.EmptyString, wx.DefaultPosition, wx.Size( 75,-1 ), wx.SP_ARROW_KEYS, 0, 7, 0 )
+
+		self.m_panel66.SetSizer( bSizer90 )
+		self.m_panel66.Layout()
+		bSizer90.Fit( self.m_panel66 )
+		fgSizer29.Add( self.m_panel66, 1, wx.EXPAND |wx.ALL, 5 )
+
+		self.m_panel67 = wx.Panel( self, wx.ID_ANY, wx.DefaultPosition, wx.DefaultSize, wx.TAB_TRAVERSAL )
+		self.m_panel67.SetBackgroundColour( wx.Colour( 255, 204, 41 ) )
+
+		bSizer91 = wx.BoxSizer( wx.VERTICAL )
+
+		self.m_kartistikb1 = wx.SpinCtrl( self.m_panel67, wx.ID_ANY, wx.EmptyString, wx.DefaultPosition, wx.Size( 75,-1 ), wx.SP_ARROW_KEYS, 0, 7, 0 )
 		self.m_kartistikb1.SetFont( wx.Font( 12, wx.FONTFAMILY_SWISS, wx.FONTSTYLE_NORMAL, wx.FONTWEIGHT_NORMAL, False, "Sans" ) )
 
-		fgSizer29.Add( self.m_kartistikb1, 0, wx.ALL|wx.ALIGN_CENTER_HORIZONTAL|wx.ALIGN_CENTER_VERTICAL, 5 )
+		bSizer91.Add( self.m_kartistikb1, 0, wx.ALL|wx.ALIGN_CENTER_HORIZONTAL|wx.ALIGN_CENTER_VERTICAL, 5 )
 
-		self.m_kmengajarb1 = wx.SpinCtrl( self, wx.ID_ANY, wx.EmptyString, wx.DefaultPosition, wx.Size( 75,-1 ), wx.SP_ARROW_KEYS, 0, 7, 0 )
+
+		self.m_panel67.SetSizer( bSizer91 )
+		self.m_panel67.Layout()
+		bSizer91.Fit( self.m_panel67 )
+		fgSizer29.Add( self.m_panel67, 1, wx.EXPAND |wx.ALL, 5 )
+
+		self.m_panel68 = wx.Panel( self, wx.ID_ANY, wx.DefaultPosition, wx.DefaultSize, wx.TAB_TRAVERSAL )
+		self.m_panel68.SetBackgroundColour( wx.Colour( 88, 122, 54 ) )
+
+		bSizer92 = wx.BoxSizer( wx.VERTICAL )
+
+		self.m_kmengajarb1 = wx.SpinCtrl( self.m_panel68, wx.ID_ANY, wx.EmptyString, wx.DefaultPosition, wx.Size( 75,-1 ), wx.SP_ARROW_KEYS, 0, 7, 0 )
 		self.m_kmengajarb1.SetFont( wx.Font( 12, wx.FONTFAMILY_SWISS, wx.FONTSTYLE_NORMAL, wx.FONTWEIGHT_NORMAL, False, "Sans" ) )
 
-		fgSizer29.Add( self.m_kmengajarb1, 0, wx.ALL|wx.ALIGN_CENTER_HORIZONTAL|wx.ALIGN_CENTER_VERTICAL, 5 )
+		bSizer92.Add( self.m_kmengajarb1, 0, wx.ALL|wx.ALIGN_CENTER_HORIZONTAL|wx.ALIGN_CENTER_VERTICAL, 5 )
 
-		self.m_kpenjualanb1 = wx.SpinCtrl( self, wx.ID_ANY, wx.EmptyString, wx.DefaultPosition, wx.Size( 75,-1 ), wx.SP_ARROW_KEYS, 0, 7, 0 )
+
+		self.m_panel68.SetSizer( bSizer92 )
+		self.m_panel68.Layout()
+		bSizer92.Fit( self.m_panel68 )
+		fgSizer29.Add( self.m_panel68, 1, wx.EXPAND |wx.ALL, 5 )
+
+		self.m_panel69 = wx.Panel( self, wx.ID_ANY, wx.DefaultPosition, wx.DefaultSize, wx.TAB_TRAVERSAL )
+		self.m_panel69.SetBackgroundColour( wx.Colour( 0, 88, 218 ) )
+
+		bSizer93 = wx.BoxSizer( wx.VERTICAL )
+
+		self.m_kpenjualanb1 = wx.SpinCtrl( self.m_panel69, wx.ID_ANY, wx.EmptyString, wx.DefaultPosition, wx.Size( 75,-1 ), wx.SP_ARROW_KEYS, 0, 7, 0 )
 		self.m_kpenjualanb1.SetFont( wx.Font( 12, wx.FONTFAMILY_SWISS, wx.FONTSTYLE_NORMAL, wx.FONTWEIGHT_NORMAL, False, "Sans" ) )
 
-		fgSizer29.Add( self.m_kpenjualanb1, 0, wx.ALL|wx.ALIGN_CENTER_HORIZONTAL|wx.ALIGN_CENTER_VERTICAL, 5 )
+		bSizer93.Add( self.m_kpenjualanb1, 0, wx.ALL|wx.ALIGN_CENTER_HORIZONTAL|wx.ALIGN_CENTER_VERTICAL, 5 )
 
-		self.m_kadministrasib1 = wx.SpinCtrl( self, wx.ID_ANY, wx.EmptyString, wx.DefaultPosition, wx.Size( 75,-1 ), wx.SP_ARROW_KEYS, 0, 7, 0 )
+
+		self.m_panel69.SetSizer( bSizer93 )
+		self.m_panel69.Layout()
+		bSizer93.Fit( self.m_panel69 )
+		fgSizer29.Add( self.m_panel69, 1, wx.EXPAND |wx.ALL, 5 )
+
+		self.m_panel70 = wx.Panel( self, wx.ID_ANY, wx.DefaultPosition, wx.DefaultSize, wx.TAB_TRAVERSAL )
+		self.m_panel70.SetBackgroundColour( wx.Colour( 169, 138, 172 ) )
+
+		bSizer94 = wx.BoxSizer( wx.VERTICAL )
+
+		self.m_kadministrasib1 = wx.SpinCtrl( self.m_panel70, wx.ID_ANY, wx.EmptyString, wx.DefaultPosition, wx.Size( 75,-1 ), wx.SP_ARROW_KEYS, 0, 7, 0 )
 		self.m_kadministrasib1.SetFont( wx.Font( 12, wx.FONTFAMILY_SWISS, wx.FONTSTYLE_NORMAL, wx.FONTWEIGHT_NORMAL, False, "Sans" ) )
 
-		fgSizer29.Add( self.m_kadministrasib1, 0, wx.ALL|wx.ALIGN_CENTER_HORIZONTAL|wx.ALIGN_CENTER_VERTICAL, 5 )
+		bSizer94.Add( self.m_kadministrasib1, 0, wx.ALL|wx.ALIGN_CENTER_HORIZONTAL|wx.ALIGN_CENTER_VERTICAL, 5 )
+
+
+		self.m_panel70.SetSizer( bSizer94 )
+		self.m_panel70.Layout()
+		bSizer94.Fit( self.m_panel70 )
+		fgSizer29.Add( self.m_panel70, 1, wx.EXPAND |wx.ALL, 5 )
 
 
 		fgSizer27.Add( fgSizer29, 0, wx.ALIGN_CENTER_HORIZONTAL|wx.ALIGN_CENTER_VERTICAL, 5 )
@@ -1719,12 +2121,25 @@ class Page4 ( wx.Panel ):
 
 		bSizer35 = wx.BoxSizer( wx.VERTICAL )
 
-		self.m_staticText205 = wx.StaticText( self, wx.ID_ANY, u"BAGIAN 2", wx.DefaultPosition, wx.Size( -1,-1 ), 0 )
+		self.m_panel84 = wx.Panel( self, wx.ID_ANY, wx.DefaultPosition, wx.DefaultSize, wx.TAB_TRAVERSAL )
+		self.m_panel84.SetForegroundColour( wx.Colour( 249, 250, 249 ) )
+		self.m_panel84.SetBackgroundColour( wx.Colour( 214, 145, 56 ) )
+
+		bSizer107 = wx.BoxSizer( wx.VERTICAL )
+
+		self.m_staticText205 = wx.StaticText( self.m_panel84, wx.ID_ANY, u"BAGIAN 2", wx.DefaultPosition, wx.Size( -1,-1 ), 0 )
 		self.m_staticText205.Wrap( -1 )
 
 		self.m_staticText205.SetFont( wx.Font( 14, wx.FONTFAMILY_DEFAULT, wx.FONTSTYLE_NORMAL, wx.FONTWEIGHT_BOLD, False, "Tw Cen MT" ) )
+		self.m_staticText205.SetBackgroundColour( wx.Colour( 214, 145, 56 ) )
 
-		bSizer35.Add( self.m_staticText205, 0, wx.ALL|wx.ALIGN_CENTER_HORIZONTAL, 5 )
+		bSizer107.Add( self.m_staticText205, 0, wx.ALL|wx.ALIGN_CENTER_HORIZONTAL, 5 )
+
+
+		self.m_panel84.SetSizer( bSizer107 )
+		self.m_panel84.Layout()
+		bSizer107.Fit( self.m_panel84 )
+		bSizer35.Add( self.m_panel84, 1, wx.EXPAND |wx.ALL, 5 )
 
 		fgSizer291 = wx.FlexGridSizer( 0, 7, 0, 0 )
 		fgSizer291.SetFlexibleDirection( wx.BOTH )
@@ -1735,84 +2150,237 @@ class Page4 ( wx.Panel ):
 
 		fgSizer291.Add( self.m_staticText2131, 0, wx.ALL|wx.ALIGN_CENTER_HORIZONTAL|wx.ALIGN_CENTER_VERTICAL, 5 )
 
-		self.m_staticText2141 = wx.StaticText( self, wx.ID_ANY, u"Keterampilan \n     Tangan", wx.DefaultPosition, wx.DefaultSize, 0 )
+		self.m_panel71 = wx.Panel( self, wx.ID_ANY, wx.DefaultPosition, wx.DefaultSize, wx.TAB_TRAVERSAL )
+		self.m_panel71.SetForegroundColour( wx.Colour( 249, 250, 249 ) )
+		self.m_panel71.SetBackgroundColour( wx.Colour( 208, 87, 66 ) )
+
+		bSizer95 = wx.BoxSizer( wx.VERTICAL )
+
+		self.m_staticText2141 = wx.StaticText( self.m_panel71, wx.ID_ANY, u"Keterampilan \n     Tangan", wx.DefaultPosition, wx.DefaultSize, 0 )
 		self.m_staticText2141.Wrap( -1 )
 
 		self.m_staticText2141.SetFont( wx.Font( 12, wx.FONTFAMILY_SWISS, wx.FONTSTYLE_NORMAL, wx.FONTWEIGHT_NORMAL, False, "Sans" ) )
 
-		fgSizer291.Add( self.m_staticText2141, 0, wx.ALL|wx.ALIGN_CENTER_HORIZONTAL|wx.ALIGN_CENTER_VERTICAL, 5 )
+		bSizer95.Add( self.m_staticText2141, 0, wx.ALL|wx.ALIGN_CENTER_HORIZONTAL|wx.ALIGN_CENTER_VERTICAL, 5 )
 
-		self.m_staticText2151 = wx.StaticText( self, wx.ID_ANY, u"Kemampuan \n Matematika", wx.DefaultPosition, wx.DefaultSize, 0 )
+
+		self.m_panel71.SetSizer( bSizer95 )
+		self.m_panel71.Layout()
+		bSizer95.Fit( self.m_panel71 )
+		fgSizer291.Add( self.m_panel71, 1, wx.EXPAND |wx.ALL, 5 )
+
+		self.m_panel72 = wx.Panel( self, wx.ID_ANY, wx.DefaultPosition, wx.DefaultSize, wx.TAB_TRAVERSAL )
+		self.m_panel72.SetForegroundColour( wx.Colour( 249, 250, 249 ) )
+		self.m_panel72.SetBackgroundColour( wx.Colour( 245, 135, 79 ) )
+
+		bSizer96 = wx.BoxSizer( wx.VERTICAL )
+
+		self.m_staticText2151 = wx.StaticText( self.m_panel72, wx.ID_ANY, u"Kemampuan \n Matematika", wx.DefaultPosition, wx.DefaultSize, 0 )
 		self.m_staticText2151.Wrap( -1 )
 
 		self.m_staticText2151.SetFont( wx.Font( 12, wx.FONTFAMILY_SWISS, wx.FONTSTYLE_NORMAL, wx.FONTWEIGHT_NORMAL, False, "Sans" ) )
+		self.m_staticText2151.SetBackgroundColour( wx.Colour( 245, 135, 79 ) )
 
-		fgSizer291.Add( self.m_staticText2151, 0, wx.ALL|wx.ALIGN_CENTER_VERTICAL|wx.ALIGN_CENTER_HORIZONTAL, 5 )
+		bSizer96.Add( self.m_staticText2151, 0, wx.ALL|wx.ALIGN_CENTER_VERTICAL|wx.ALIGN_CENTER_HORIZONTAL, 5 )
 
-		self.m_staticText2161 = wx.StaticText( self, wx.ID_ANY, u"Kemampuan \n      Musik", wx.DefaultPosition, wx.DefaultSize, 0 )
+
+		self.m_panel72.SetSizer( bSizer96 )
+		self.m_panel72.Layout()
+		bSizer96.Fit( self.m_panel72 )
+		fgSizer291.Add( self.m_panel72, 1, wx.EXPAND |wx.ALL, 5 )
+
+		self.m_panel73 = wx.Panel( self, wx.ID_ANY, wx.DefaultPosition, wx.DefaultSize, wx.TAB_TRAVERSAL )
+		self.m_panel73.SetBackgroundColour( wx.Colour( 255, 204, 41 ) )
+
+		bSizer97 = wx.BoxSizer( wx.VERTICAL )
+
+		self.m_staticText2161 = wx.StaticText( self.m_panel73, wx.ID_ANY, u"Kemampuan \n      Musik", wx.DefaultPosition, wx.DefaultSize, 0 )
 		self.m_staticText2161.Wrap( -1 )
 
 		self.m_staticText2161.SetFont( wx.Font( 12, wx.FONTFAMILY_SWISS, wx.FONTSTYLE_NORMAL, wx.FONTWEIGHT_NORMAL, False, "Sans" ) )
+		self.m_staticText2161.SetBackgroundColour( wx.Colour( 255, 204, 41 ) )
 
-		fgSizer291.Add( self.m_staticText2161, 0, wx.ALL|wx.ALIGN_CENTER_HORIZONTAL, 5 )
+		bSizer97.Add( self.m_staticText2161, 0, wx.ALL|wx.ALIGN_CENTER_HORIZONTAL, 5 )
 
-		self.m_staticText2171 = wx.StaticText( self, wx.ID_ANY, u"Memahami\nOrang Lain", wx.DefaultPosition, wx.DefaultSize, 0 )
+
+		self.m_panel73.SetSizer( bSizer97 )
+		self.m_panel73.Layout()
+		bSizer97.Fit( self.m_panel73 )
+		fgSizer291.Add( self.m_panel73, 1, wx.EXPAND |wx.ALL, 5 )
+
+		self.m_panel74 = wx.Panel( self, wx.ID_ANY, wx.DefaultPosition, wx.DefaultSize, wx.TAB_TRAVERSAL )
+		self.m_panel74.SetForegroundColour( wx.Colour( 249, 250, 249 ) )
+		self.m_panel74.SetBackgroundColour( wx.Colour( 88, 122, 54 ) )
+
+		bSizer98 = wx.BoxSizer( wx.VERTICAL )
+
+		self.m_staticText2171 = wx.StaticText( self.m_panel74, wx.ID_ANY, u"Memahami\nOrang Lain", wx.DefaultPosition, wx.DefaultSize, 0 )
 		self.m_staticText2171.Wrap( -1 )
 
 		self.m_staticText2171.SetFont( wx.Font( 12, wx.FONTFAMILY_SWISS, wx.FONTSTYLE_NORMAL, wx.FONTWEIGHT_NORMAL, False, "Sans" ) )
+		self.m_staticText2171.SetBackgroundColour( wx.Colour( 88, 122, 54 ) )
 
-		fgSizer291.Add( self.m_staticText2171, 0, wx.ALL|wx.ALIGN_CENTER_HORIZONTAL|wx.ALIGN_CENTER_VERTICAL, 5 )
+		bSizer98.Add( self.m_staticText2171, 0, wx.ALL|wx.ALIGN_CENTER_HORIZONTAL|wx.ALIGN_CENTER_VERTICAL, 5 )
 
-		self.m_staticText2181 = wx.StaticText( self, wx.ID_ANY, u"Keterampilan \n   Manajerial", wx.DefaultPosition, wx.DefaultSize, 0 )
+
+		self.m_panel74.SetSizer( bSizer98 )
+		self.m_panel74.Layout()
+		bSizer98.Fit( self.m_panel74 )
+		fgSizer291.Add( self.m_panel74, 1, wx.EXPAND |wx.ALL, 5 )
+
+		self.m_panel75 = wx.Panel( self, wx.ID_ANY, wx.DefaultPosition, wx.DefaultSize, wx.TAB_TRAVERSAL )
+		self.m_panel75.SetForegroundColour( wx.Colour( 249, 250, 249 ) )
+		self.m_panel75.SetBackgroundColour( wx.Colour( 0, 88, 218 ) )
+
+		bSizer99 = wx.BoxSizer( wx.VERTICAL )
+
+		self.m_staticText2181 = wx.StaticText( self.m_panel75, wx.ID_ANY, u"Keterampilan \n   Manajerial", wx.DefaultPosition, wx.DefaultSize, 0 )
 		self.m_staticText2181.Wrap( -1 )
 
 		self.m_staticText2181.SetFont( wx.Font( 12, wx.FONTFAMILY_SWISS, wx.FONTSTYLE_NORMAL, wx.FONTWEIGHT_NORMAL, False, "Sans" ) )
+		self.m_staticText2181.SetBackgroundColour( wx.Colour( 0, 88, 218 ) )
 
-		fgSizer291.Add( self.m_staticText2181, 0, wx.ALL|wx.ALIGN_CENTER_HORIZONTAL|wx.ALIGN_CENTER_VERTICAL, 5 )
+		bSizer99.Add( self.m_staticText2181, 0, wx.ALL|wx.ALIGN_CENTER_HORIZONTAL|wx.ALIGN_CENTER_VERTICAL, 5 )
 
-		self.m_staticText2191 = wx.StaticText( self, wx.ID_ANY, u"Kemampuan \nPerkantoran", wx.DefaultPosition, wx.DefaultSize, 0 )
+
+		self.m_panel75.SetSizer( bSizer99 )
+		self.m_panel75.Layout()
+		bSizer99.Fit( self.m_panel75 )
+		fgSizer291.Add( self.m_panel75, 1, wx.EXPAND |wx.ALL, 5 )
+
+		self.m_panel76 = wx.Panel( self, wx.ID_ANY, wx.DefaultPosition, wx.DefaultSize, wx.TAB_TRAVERSAL )
+		self.m_panel76.SetBackgroundColour( wx.Colour( 169, 138, 172 ) )
+
+		bSizer100 = wx.BoxSizer( wx.VERTICAL )
+
+		self.m_staticText2191 = wx.StaticText( self.m_panel76, wx.ID_ANY, u"Kemampuan \nPerkantoran", wx.DefaultPosition, wx.DefaultSize, 0 )
 		self.m_staticText2191.Wrap( -1 )
 
 		self.m_staticText2191.SetFont( wx.Font( 12, wx.FONTFAMILY_SWISS, wx.FONTSTYLE_NORMAL, wx.FONTWEIGHT_NORMAL, False, "Sans" ) )
+		self.m_staticText2191.SetBackgroundColour( wx.Colour( 169, 138, 172 ) )
 
-		fgSizer291.Add( self.m_staticText2191, 0, wx.ALL|wx.ALIGN_CENTER_HORIZONTAL|wx.ALIGN_CENTER_VERTICAL, 5 )
+		bSizer100.Add( self.m_staticText2191, 0, wx.ALL|wx.ALIGN_CENTER_HORIZONTAL|wx.ALIGN_CENTER_VERTICAL, 5 )
 
-		self.m_staticText2211 = wx.StaticText( self, wx.ID_ANY, u"Tingkat (1-7)", wx.DefaultPosition, wx.DefaultSize, 0 )
+
+		self.m_panel76.SetSizer( bSizer100 )
+		self.m_panel76.Layout()
+		bSizer100.Fit( self.m_panel76 )
+		fgSizer291.Add( self.m_panel76, 1, wx.EXPAND |wx.ALL, 5 )
+
+		self.m_panel77 = wx.Panel( self, wx.ID_ANY, wx.DefaultPosition, wx.DefaultSize, wx.TAB_TRAVERSAL )
+		self.m_panel77.SetBackgroundColour( wx.Colour( 210, 211, 5 ) )
+
+		bSizer101 = wx.BoxSizer( wx.VERTICAL )
+
+		self.m_staticText2211 = wx.StaticText( self.m_panel77, wx.ID_ANY, u"Tingkat (1-7)", wx.DefaultPosition, wx.DefaultSize, 0 )
 		self.m_staticText2211.Wrap( -1 )
 
 		self.m_staticText2211.SetFont( wx.Font( 12, wx.FONTFAMILY_SWISS, wx.FONTSTYLE_NORMAL, wx.FONTWEIGHT_NORMAL, False, "Sans" ) )
 
-		fgSizer291.Add( self.m_staticText2211, 0, wx.ALL|wx.ALIGN_CENTER_HORIZONTAL|wx.ALIGN_CENTER_VERTICAL, 5 )
+		bSizer101.Add( self.m_staticText2211, 0, wx.ALL|wx.ALIGN_CENTER_HORIZONTAL|wx.ALIGN_CENTER_VERTICAL, 5 )
 
-		self.m_ktanganb2 = wx.SpinCtrl( self, wx.ID_ANY, wx.EmptyString, wx.DefaultPosition, wx.Size( 75,-1 ), wx.SP_ARROW_KEYS, 0, 7, 0 )
+
+		self.m_panel77.SetSizer( bSizer101 )
+		self.m_panel77.Layout()
+		bSizer101.Fit( self.m_panel77 )
+		fgSizer291.Add( self.m_panel77, 0, wx.ALL|wx.ALIGN_CENTER_VERTICAL, 5 )
+
+		self.m_panel78 = wx.Panel( self, wx.ID_ANY, wx.DefaultPosition, wx.DefaultSize, wx.TAB_TRAVERSAL )
+		self.m_panel78.SetForegroundColour( wx.Colour( 249, 250, 249 ) )
+		self.m_panel78.SetBackgroundColour( wx.Colour( 208, 87, 66 ) )
+
+		bSizer103 = wx.BoxSizer( wx.VERTICAL )
+
+		self.m_ktanganb2 = wx.SpinCtrl( self.m_panel78, wx.ID_ANY, wx.EmptyString, wx.DefaultPosition, wx.Size( 75,-1 ), wx.SP_ARROW_KEYS, 0, 7, 0 )
 		self.m_ktanganb2.SetFont( wx.Font( 12, wx.FONTFAMILY_SWISS, wx.FONTSTYLE_NORMAL, wx.FONTWEIGHT_NORMAL, False, "Sans" ) )
 
-		fgSizer291.Add( self.m_ktanganb2, 0, wx.ALL|wx.ALIGN_CENTER_HORIZONTAL|wx.ALIGN_CENTER_VERTICAL, 5 )
+		bSizer103.Add( self.m_ktanganb2, 0, wx.ALL|wx.ALIGN_CENTER_HORIZONTAL|wx.ALIGN_CENTER_VERTICAL, 5 )
 
-		self.m_kmatematikab2 = wx.SpinCtrl( self, wx.ID_ANY, wx.EmptyString, wx.DefaultPosition, wx.Size( 75,-1 ), wx.SP_ARROW_KEYS, 0, 7, 0 )
+
+		self.m_panel78.SetSizer( bSizer103 )
+		self.m_panel78.Layout()
+		bSizer103.Fit( self.m_panel78 )
+		fgSizer291.Add( self.m_panel78, 1, wx.EXPAND |wx.ALL, 5 )
+
+		self.m_panel79 = wx.Panel( self, wx.ID_ANY, wx.DefaultPosition, wx.DefaultSize, wx.TAB_TRAVERSAL )
+		self.m_panel79.SetBackgroundColour( wx.Colour( 245, 135, 79 ) )
+
+		bSizer104 = wx.BoxSizer( wx.VERTICAL )
+
+		self.m_kmatematikab2 = wx.SpinCtrl( self.m_panel79, wx.ID_ANY, wx.EmptyString, wx.DefaultPosition, wx.Size( 75,-1 ), wx.SP_ARROW_KEYS, 0, 7, 0 )
 		self.m_kmatematikab2.SetFont( wx.Font( 12, wx.FONTFAMILY_SWISS, wx.FONTSTYLE_NORMAL, wx.FONTWEIGHT_NORMAL, False, "Sans" ) )
 
-		fgSizer291.Add( self.m_kmatematikab2, 0, wx.ALL|wx.ALIGN_CENTER_VERTICAL|wx.ALIGN_CENTER_HORIZONTAL, 5 )
+		bSizer104.Add( self.m_kmatematikab2, 0, wx.ALL|wx.ALIGN_CENTER_VERTICAL|wx.ALIGN_CENTER_HORIZONTAL, 5 )
 
-		self.m_kmusikb2 = wx.SpinCtrl( self, wx.ID_ANY, wx.EmptyString, wx.DefaultPosition, wx.Size( 75,-1 ), wx.SP_ARROW_KEYS, 0, 7, 0 )
+
+		self.m_panel79.SetSizer( bSizer104 )
+		self.m_panel79.Layout()
+		bSizer104.Fit( self.m_panel79 )
+		fgSizer291.Add( self.m_panel79, 1, wx.EXPAND |wx.ALL, 5 )
+
+		self.m_panel80 = wx.Panel( self, wx.ID_ANY, wx.DefaultPosition, wx.DefaultSize, wx.TAB_TRAVERSAL )
+		self.m_panel80.SetBackgroundColour( wx.Colour( 255, 204, 41 ) )
+
+		bSizer105 = wx.BoxSizer( wx.VERTICAL )
+
+		self.m_kmusikb2 = wx.SpinCtrl( self.m_panel80, wx.ID_ANY, wx.EmptyString, wx.DefaultPosition, wx.Size( 75,-1 ), wx.SP_ARROW_KEYS, 0, 7, 0 )
 		self.m_kmusikb2.SetFont( wx.Font( 12, wx.FONTFAMILY_SWISS, wx.FONTSTYLE_NORMAL, wx.FONTWEIGHT_NORMAL, False, "Sans" ) )
 
-		fgSizer291.Add( self.m_kmusikb2, 0, wx.ALL|wx.ALIGN_CENTER_HORIZONTAL|wx.ALIGN_CENTER_VERTICAL, 5 )
+		bSizer105.Add( self.m_kmusikb2, 0, wx.ALL|wx.ALIGN_CENTER_HORIZONTAL|wx.ALIGN_CENTER_VERTICAL, 5 )
 
-		self.m_moranglainb2 = wx.SpinCtrl( self, wx.ID_ANY, wx.EmptyString, wx.DefaultPosition, wx.Size( 75,-1 ), wx.SP_ARROW_KEYS, 0, 7, 0 )
+
+		self.m_panel80.SetSizer( bSizer105 )
+		self.m_panel80.Layout()
+		bSizer105.Fit( self.m_panel80 )
+		fgSizer291.Add( self.m_panel80, 1, wx.EXPAND |wx.ALL, 5 )
+
+		self.m_panel81 = wx.Panel( self, wx.ID_ANY, wx.DefaultPosition, wx.DefaultSize, wx.TAB_TRAVERSAL )
+		self.m_panel81.SetBackgroundColour( wx.Colour( 88, 122, 54 ) )
+
+		bSizer109 = wx.BoxSizer( wx.VERTICAL )
+
+		self.m_moranglainb2 = wx.SpinCtrl( self.m_panel81, wx.ID_ANY, wx.EmptyString, wx.DefaultPosition, wx.Size( 75,-1 ), wx.SP_ARROW_KEYS, 0, 7, 0 )
 		self.m_moranglainb2.SetFont( wx.Font( 12, wx.FONTFAMILY_SWISS, wx.FONTSTYLE_NORMAL, wx.FONTWEIGHT_NORMAL, False, "Sans" ) )
 
-		fgSizer291.Add( self.m_moranglainb2, 0, wx.ALL|wx.ALIGN_CENTER_HORIZONTAL|wx.ALIGN_CENTER_VERTICAL, 5 )
+		bSizer109.Add( self.m_moranglainb2, 0, wx.ALL|wx.ALIGN_CENTER_HORIZONTAL|wx.ALIGN_CENTER_VERTICAL, 5 )
 
-		self.m_kmanajerialb2 = wx.SpinCtrl( self, wx.ID_ANY, wx.EmptyString, wx.DefaultPosition, wx.Size( 75,-1 ), wx.SP_ARROW_KEYS, 0, 7, 0 )
+
+		self.m_panel81.SetSizer( bSizer109 )
+		self.m_panel81.Layout()
+		bSizer109.Fit( self.m_panel81 )
+		fgSizer291.Add( self.m_panel81, 1, wx.EXPAND |wx.ALL, 5 )
+
+		self.m_panel82 = wx.Panel( self, wx.ID_ANY, wx.DefaultPosition, wx.DefaultSize, wx.TAB_TRAVERSAL )
+		self.m_panel82.SetBackgroundColour( wx.Colour( 0, 88, 218 ) )
+
+		bSizer108 = wx.BoxSizer( wx.VERTICAL )
+
+		self.m_kmanajerialb2 = wx.SpinCtrl( self.m_panel82, wx.ID_ANY, wx.EmptyString, wx.DefaultPosition, wx.Size( 75,-1 ), wx.SP_ARROW_KEYS, 0, 7, 0 )
 		self.m_kmanajerialb2.SetFont( wx.Font( 12, wx.FONTFAMILY_SWISS, wx.FONTSTYLE_NORMAL, wx.FONTWEIGHT_NORMAL, False, "Sans" ) )
 
-		fgSizer291.Add( self.m_kmanajerialb2, 0, wx.ALL|wx.ALIGN_CENTER_HORIZONTAL|wx.ALIGN_CENTER_VERTICAL, 5 )
+		bSizer108.Add( self.m_kmanajerialb2, 0, wx.ALL|wx.ALIGN_CENTER_HORIZONTAL|wx.ALIGN_CENTER_VERTICAL, 5 )
 
-		self.m_kperkantoranb2 = wx.SpinCtrl( self, wx.ID_ANY, wx.EmptyString, wx.DefaultPosition, wx.Size( 75,-1 ), wx.SP_ARROW_KEYS, 0, 7, 0 )
+
+		self.m_panel82.SetSizer( bSizer108 )
+		self.m_panel82.Layout()
+		bSizer108.Fit( self.m_panel82 )
+		fgSizer291.Add( self.m_panel82, 1, wx.EXPAND |wx.ALL, 5 )
+
+		self.m_panel83 = wx.Panel( self, wx.ID_ANY, wx.DefaultPosition, wx.DefaultSize, wx.TAB_TRAVERSAL )
+		self.m_panel83.SetBackgroundColour( wx.Colour( 169, 138, 172 ) )
+
+		bSizer106 = wx.BoxSizer( wx.VERTICAL )
+
+		self.m_kperkantoranb2 = wx.SpinCtrl( self.m_panel83, wx.ID_ANY, wx.EmptyString, wx.DefaultPosition, wx.Size( 75,-1 ), wx.SP_ARROW_KEYS, 0, 7, 0 )
 		self.m_kperkantoranb2.SetFont( wx.Font( 12, wx.FONTFAMILY_SWISS, wx.FONTSTYLE_NORMAL, wx.FONTWEIGHT_NORMAL, False, "Sans" ) )
 
-		fgSizer291.Add( self.m_kperkantoranb2, 0, wx.ALL|wx.ALIGN_CENTER_HORIZONTAL|wx.ALIGN_CENTER_VERTICAL, 5 )
+		bSizer106.Add( self.m_kperkantoranb2, 0, wx.ALL|wx.ALIGN_CENTER_HORIZONTAL|wx.ALIGN_CENTER_VERTICAL, 5 )
+
+
+		self.m_panel83.SetSizer( bSizer106 )
+		self.m_panel83.Layout()
+		bSizer106.Fit( self.m_panel83 )
+		fgSizer291.Add( self.m_panel83, 1, wx.EXPAND |wx.ALL, 5 )
 
 
 		bSizer35.Add( fgSizer291, 0, wx.ALIGN_CENTER_HORIZONTAL, 5 )
@@ -1890,7 +2458,7 @@ class Page5 ( wx.Panel ):
 		wx.Panel.__init__ ( self, parent, id = id, pos = pos, size = size, style = style, name = name )
 
 		self.SetFont( wx.Font( 10, wx.FONTFAMILY_DEFAULT, wx.FONTSTYLE_NORMAL, wx.FONTWEIGHT_NORMAL, False, "Tw Cen MT" ) )
-		self.SetBackgroundColour( wx.Colour( 249, 250, 249 ) )
+		self.SetBackgroundColour( wx.Colour( 255, 255, 255 ) )
 
 		bSizer32 = wx.BoxSizer( wx.VERTICAL )
 
@@ -1931,7 +2499,7 @@ class Page5 ( wx.Panel ):
 		fgSizer26.Add( self.m_grafikproperties, 0, wx.ALL, 5 )
 
 
-		bSizer45.Add( fgSizer26, 0, 0, 5 )
+		bSizer45.Add( fgSizer26, 0, wx.EXPAND, 5 )
 
 		bSizer44 = wx.BoxSizer( wx.VERTICAL )
 
@@ -1947,26 +2515,36 @@ class Page5 ( wx.Panel ):
 		fgSizer31.SetNonFlexibleGrowMode( wx.FLEX_GROWMODE_SPECIFIED )
 
 		fgSizer31.SetMinSize( wx.Size( -1,200 ) )
+		self.m_panel51 = wx.Panel( self, wx.ID_ANY, wx.DefaultPosition, wx.Size( 175,-1 ), wx.TAB_TRAVERSAL )
+		self.m_panel51.SetBackgroundColour( wx.Colour( 88, 85, 112 ) )
+
 		fgSizer30 = wx.FlexGridSizer( 0, 2, 0, 0 )
 		fgSizer30.AddGrowableCol( 1 )
 		fgSizer30.AddGrowableRow( 0 )
 		fgSizer30.SetFlexibleDirection( wx.BOTH )
 		fgSizer30.SetNonFlexibleGrowMode( wx.FLEX_GROWMODE_SPECIFIED )
 
-		self.m_aktivitas = wx.StaticText( self, wx.ID_ANY, u"Aktivitas", wx.DefaultPosition, wx.DefaultSize, 0 )
+		self.m_aktivitas = wx.StaticText( self.m_panel51, wx.ID_ANY, u"Aktivitas", wx.DefaultPosition, wx.DefaultSize, 0 )
 		self.m_aktivitas.Wrap( -1 )
 
 		self.m_aktivitas.SetFont( wx.Font( 14, wx.FONTFAMILY_DEFAULT, wx.FONTSTYLE_NORMAL, wx.FONTWEIGHT_NORMAL, False, "Tw Cen MT" ) )
+		self.m_aktivitas.SetForegroundColour( wx.Colour( 249, 250, 249 ) )
 
 		fgSizer30.Add( self.m_aktivitas, 1, wx.ALL|wx.ALIGN_CENTER_VERTICAL, 5 )
 
-		self.m_buttonDetailA = wx.Button( self, wx.ID_ANY, u"Detail", wx.DefaultPosition, wx.DefaultSize, 0 )
+		self.m_buttonDetailA = wx.Button( self.m_panel51, wx.ID_ANY, u"Detail", wx.DefaultPosition, wx.DefaultSize, 0 )
 		self.m_buttonDetailA.SetFont( wx.Font( 12, wx.FONTFAMILY_SWISS, wx.FONTSTYLE_NORMAL, wx.FONTWEIGHT_NORMAL, False, "Sans" ) )
 
 		fgSizer30.Add( self.m_buttonDetailA, 0, wx.ALL|wx.ALIGN_CENTER_VERTICAL|wx.ALIGN_RIGHT, 5 )
 
 
-		fgSizer31.Add( fgSizer30, 1, 0, 5 )
+		self.m_panel51.SetSizer( fgSizer30 )
+		self.m_panel51.Layout()
+		fgSizer31.Add( self.m_panel51, 1, wx.EXPAND |wx.ALL, 5 )
+
+		self.m_panel54 = wx.Panel( self, wx.ID_ANY, wx.DefaultPosition, wx.Size( 175,-1 ), wx.TAB_TRAVERSAL )
+		self.m_panel54.SetForegroundColour( wx.Colour( 249, 250, 249 ) )
+		self.m_panel54.SetBackgroundColour( wx.Colour( 125, 100, 139 ) )
 
 		fgSizer311 = wx.FlexGridSizer( 0, 2, 0, 0 )
 		fgSizer311.AddGrowableCol( 1 )
@@ -1974,20 +2552,26 @@ class Page5 ( wx.Panel ):
 		fgSizer311.SetFlexibleDirection( wx.BOTH )
 		fgSizer311.SetNonFlexibleGrowMode( wx.FLEX_GROWMODE_SPECIFIED )
 
-		self.m_kompetensi = wx.StaticText( self, wx.ID_ANY, u"Kompetensi", wx.DefaultPosition, wx.DefaultSize, 0 )
+		self.m_kompetensi = wx.StaticText( self.m_panel54, wx.ID_ANY, u"Kompetensi", wx.DefaultPosition, wx.DefaultSize, 0 )
 		self.m_kompetensi.Wrap( -1 )
 
 		self.m_kompetensi.SetFont( wx.Font( 14, wx.FONTFAMILY_DEFAULT, wx.FONTSTYLE_NORMAL, wx.FONTWEIGHT_NORMAL, False, "Tw Cen MT" ) )
 
 		fgSizer311.Add( self.m_kompetensi, 0, wx.ALL|wx.ALIGN_CENTER_VERTICAL, 5 )
 
-		self.m_buttonDetailK = wx.Button( self, wx.ID_ANY, u"Detail", wx.DefaultPosition, wx.DefaultSize, 0 )
+		self.m_buttonDetailK = wx.Button( self.m_panel54, wx.ID_ANY, u"Detail", wx.DefaultPosition, wx.DefaultSize, 0 )
 		self.m_buttonDetailK.SetFont( wx.Font( 12, wx.FONTFAMILY_SWISS, wx.FONTSTYLE_NORMAL, wx.FONTWEIGHT_NORMAL, False, "Sans" ) )
 
 		fgSizer311.Add( self.m_buttonDetailK, 1, wx.ALL|wx.ALIGN_CENTER_VERTICAL|wx.ALIGN_RIGHT|wx.EXPAND, 5 )
 
 
-		fgSizer31.Add( fgSizer311, 0, 0, 5 )
+		self.m_panel54.SetSizer( fgSizer311 )
+		self.m_panel54.Layout()
+		fgSizer31.Add( self.m_panel54, 1, wx.EXPAND |wx.ALL, 5 )
+
+		self.m_panel55 = wx.Panel( self, wx.ID_ANY, wx.DefaultPosition, wx.Size( 175,-1 ), wx.TAB_TRAVERSAL )
+		self.m_panel55.SetForegroundColour( wx.Colour( 249, 250, 249 ) )
+		self.m_panel55.SetBackgroundColour( wx.Colour( 150, 152, 154 ) )
 
 		fgSizer32 = wx.FlexGridSizer( 0, 2, 0, 0 )
 		fgSizer32.AddGrowableCol( 1 )
@@ -1995,20 +2579,25 @@ class Page5 ( wx.Panel ):
 		fgSizer32.SetFlexibleDirection( wx.BOTH )
 		fgSizer32.SetNonFlexibleGrowMode( wx.FLEX_GROWMODE_SPECIFIED )
 
-		self.m_Pekerjaan = wx.StaticText( self, wx.ID_ANY, u"Pekerjaan", wx.DefaultPosition, wx.DefaultSize, 0 )
+		self.m_Pekerjaan = wx.StaticText( self.m_panel55, wx.ID_ANY, u"Pekerjaan", wx.DefaultPosition, wx.DefaultSize, 0 )
 		self.m_Pekerjaan.Wrap( -1 )
 
 		self.m_Pekerjaan.SetFont( wx.Font( 14, wx.FONTFAMILY_DEFAULT, wx.FONTSTYLE_NORMAL, wx.FONTWEIGHT_NORMAL, False, "Tw Cen MT" ) )
 
 		fgSizer32.Add( self.m_Pekerjaan, 0, wx.ALL|wx.ALIGN_CENTER_VERTICAL, 5 )
 
-		self.m_buttonDetailP = wx.Button( self, wx.ID_ANY, u"Detail", wx.DefaultPosition, wx.DefaultSize, 0 )
+		self.m_buttonDetailP = wx.Button( self.m_panel55, wx.ID_ANY, u"Detail", wx.DefaultPosition, wx.DefaultSize, 0 )
 		self.m_buttonDetailP.SetFont( wx.Font( 12, wx.FONTFAMILY_SWISS, wx.FONTSTYLE_NORMAL, wx.FONTWEIGHT_NORMAL, False, "Sans" ) )
 
 		fgSizer32.Add( self.m_buttonDetailP, 0, wx.ALL|wx.ALIGN_RIGHT, 5 )
 
 
-		fgSizer31.Add( fgSizer32, 0, 0, 5 )
+		self.m_panel55.SetSizer( fgSizer32 )
+		self.m_panel55.Layout()
+		fgSizer31.Add( self.m_panel55, 1, wx.EXPAND |wx.ALL, 5 )
+
+		self.m_panel86 = wx.Panel( self, wx.ID_ANY, wx.DefaultPosition, wx.DefaultSize, wx.TAB_TRAVERSAL )
+		self.m_panel86.SetBackgroundColour( wx.Colour( 212, 113, 73 ) )
 
 		fgSizer33 = wx.FlexGridSizer( 0, 2, 0, 0 )
 		fgSizer33.AddGrowableCol( 1 )
@@ -2016,20 +2605,28 @@ class Page5 ( wx.Panel ):
 		fgSizer33.SetFlexibleDirection( wx.BOTH )
 		fgSizer33.SetNonFlexibleGrowMode( wx.FLEX_GROWMODE_SPECIFIED )
 
-		self.m_pdiribag1 = wx.StaticText( self, wx.ID_ANY, u"Penilaian Diri\n    Bagian 1", wx.DefaultPosition, wx.DefaultSize, 0 )
+		self.m_pdiribag1 = wx.StaticText( self.m_panel86, wx.ID_ANY, u"Penilaian Diri\n    Bagian 1", wx.DefaultPosition, wx.DefaultSize, 0 )
 		self.m_pdiribag1.Wrap( -1 )
 
 		self.m_pdiribag1.SetFont( wx.Font( 14, wx.FONTFAMILY_DEFAULT, wx.FONTSTYLE_NORMAL, wx.FONTWEIGHT_NORMAL, False, "Tw Cen MT" ) )
 
 		fgSizer33.Add( self.m_pdiribag1, 0, wx.ALL|wx.ALIGN_CENTER_VERTICAL, 5 )
 
-		self.m_buttonDetailPD1 = wx.Button( self, wx.ID_ANY, u"Detail", wx.DefaultPosition, wx.DefaultSize, 0 )
+		self.m_buttonDetailPD1 = wx.Button( self.m_panel86, wx.ID_ANY, u"Detail", wx.DefaultPosition, wx.DefaultSize, 0 )
 		self.m_buttonDetailPD1.SetFont( wx.Font( 12, wx.FONTFAMILY_SWISS, wx.FONTSTYLE_NORMAL, wx.FONTWEIGHT_NORMAL, False, "Sans" ) )
 
 		fgSizer33.Add( self.m_buttonDetailPD1, 0, wx.ALL|wx.ALIGN_RIGHT, 5 )
 
 
-		fgSizer31.Add( fgSizer33, 0, 0, 5 )
+		self.m_panel86.SetSizer( fgSizer33 )
+		self.m_panel86.Layout()
+		fgSizer33.Fit( self.m_panel86 )
+		fgSizer31.Add( self.m_panel86, 1, wx.EXPAND |wx.ALL, 5 )
+
+		self.m_panel88 = wx.Panel( self, wx.ID_ANY, wx.DefaultPosition, wx.Size( 200,-1 ), wx.TAB_TRAVERSAL )
+		self.m_panel88.SetBackgroundColour( wx.Colour( 214, 145, 56 ) )
+
+		bSizer110 = wx.BoxSizer( wx.VERTICAL )
 
 		fgSizer34 = wx.FlexGridSizer( 0, 2, 0, 0 )
 		fgSizer34.AddGrowableCol( 1 )
@@ -2037,63 +2634,164 @@ class Page5 ( wx.Panel ):
 		fgSizer34.SetFlexibleDirection( wx.BOTH )
 		fgSizer34.SetNonFlexibleGrowMode( wx.FLEX_GROWMODE_SPECIFIED )
 
-		self.m_pdiribag2 = wx.StaticText( self, wx.ID_ANY, u"Penilaian Diri \n    Bagian 2", wx.DefaultPosition, wx.DefaultSize, 0 )
+		self.m_pdiribag2 = wx.StaticText( self.m_panel88, wx.ID_ANY, u"Penilaian Diri \n    Bagian 2", wx.DefaultPosition, wx.DefaultSize, 0 )
 		self.m_pdiribag2.Wrap( -1 )
 
 		self.m_pdiribag2.SetFont( wx.Font( 14, wx.FONTFAMILY_DEFAULT, wx.FONTSTYLE_NORMAL, wx.FONTWEIGHT_NORMAL, False, "Tw Cen MT" ) )
 
 		fgSizer34.Add( self.m_pdiribag2, 0, wx.ALL|wx.ALIGN_CENTER_VERTICAL, 5 )
 
-		self.m_buttonDetailPD2 = wx.Button( self, wx.ID_ANY, u"Detail", wx.DefaultPosition, wx.DefaultSize, 0 )
+		self.m_buttonDetailPD2 = wx.Button( self.m_panel88, wx.ID_ANY, u"Detail", wx.DefaultPosition, wx.DefaultSize, 0 )
 		self.m_buttonDetailPD2.SetFont( wx.Font( 12, wx.FONTFAMILY_SWISS, wx.FONTSTYLE_NORMAL, wx.FONTWEIGHT_NORMAL, False, "Sans" ) )
 
 		fgSizer34.Add( self.m_buttonDetailPD2, 0, wx.ALL|wx.ALIGN_RIGHT, 5 )
 
 
-		fgSizer31.Add( fgSizer34, 0, 0, 5 )
+		bSizer110.Add( fgSizer34, 0, 0, 5 )
 
-		self.m_summaryscores = wx.StaticText( self, wx.ID_ANY, u"Summary Scores", wx.DefaultPosition, wx.DefaultSize, 0 )
+
+		self.m_panel88.SetSizer( bSizer110 )
+		self.m_panel88.Layout()
+		fgSizer31.Add( self.m_panel88, 1, wx.EXPAND |wx.ALL, 5 )
+
+		self.m_panel90 = wx.Panel( self, wx.ID_ANY, wx.DefaultPosition, wx.DefaultSize, wx.TAB_TRAVERSAL )
+		self.m_panel90.SetForegroundColour( wx.Colour( 249, 250, 249 ) )
+		self.m_panel90.SetBackgroundColour( wx.Colour( 88, 85, 112 ) )
+
+		bSizer112 = wx.BoxSizer( wx.VERTICAL )
+
+		fgSizer36 = wx.FlexGridSizer( 0, 2, 0, 0 )
+		fgSizer36.AddGrowableCol( 0 )
+		fgSizer36.AddGrowableRow( 0 )
+		fgSizer36.SetFlexibleDirection( wx.BOTH )
+		fgSizer36.SetNonFlexibleGrowMode( wx.FLEX_GROWMODE_SPECIFIED )
+
+		self.m_summaryscores = wx.StaticText( self.m_panel90, wx.ID_ANY, u"Summary Scores", wx.DefaultPosition, wx.DefaultSize, 0 )
 		self.m_summaryscores.Wrap( -1 )
 
 		self.m_summaryscores.SetFont( wx.Font( 14, wx.FONTFAMILY_DEFAULT, wx.FONTSTYLE_NORMAL, wx.FONTWEIGHT_NORMAL, False, "Tw Cen MT" ) )
 
-		fgSizer31.Add( self.m_summaryscores, 0, wx.ALL|wx.ALIGN_CENTER_VERTICAL, 5 )
+		fgSizer36.Add( self.m_summaryscores, 0, wx.ALL|wx.ALIGN_CENTER_HORIZONTAL|wx.ALIGN_CENTER_VERTICAL, 5 )
+
+
+		bSizer112.Add( fgSizer36, 1, wx.EXPAND, 5 )
+
+
+		self.m_panel90.SetSizer( bSizer112 )
+		self.m_panel90.Layout()
+		bSizer112.Fit( self.m_panel90 )
+		fgSizer31.Add( self.m_panel90, 0, wx.ALL|wx.EXPAND, 5 )
+
+		self.m_panel52 = wx.Panel( self, wx.ID_ANY, wx.DefaultPosition, wx.DefaultSize, wx.TAB_TRAVERSAL )
+		self.m_panel52.SetBackgroundColour( wx.Colour( 88, 85, 112 ) )
+
+		bSizer78 = wx.BoxSizer( wx.VERTICAL )
 
 		m_lbaktivitasChoices = []
-		self.m_lbaktivitas = wx.ListBox( self, wx.ID_ANY, wx.DefaultPosition, wx.Size( 200,100 ), m_lbaktivitasChoices, wx.LB_ALWAYS_SB )
+		self.m_lbaktivitas = wx.ListBox( self.m_panel52, wx.ID_ANY, wx.DefaultPosition, wx.Size( 175,100 ), m_lbaktivitasChoices, wx.LB_ALWAYS_SB )
 		self.m_lbaktivitas.SetFont( wx.Font( 14, wx.FONTFAMILY_DEFAULT, wx.FONTSTYLE_NORMAL, wx.FONTWEIGHT_NORMAL, False, "Tw Cen MT" ) )
+		self.m_lbaktivitas.SetForegroundColour( wx.SystemSettings.GetColour( wx.SYS_COLOUR_WINDOWTEXT ) )
+		self.m_lbaktivitas.SetBackgroundColour( wx.Colour( 88, 85, 112 ) )
 
-		fgSizer31.Add( self.m_lbaktivitas, 1, wx.ALL|wx.EXPAND, 5 )
+		bSizer78.Add( self.m_lbaktivitas, 1, wx.ALL|wx.EXPAND, 5 )
+
+
+		self.m_panel52.SetSizer( bSizer78 )
+		self.m_panel52.Layout()
+		bSizer78.Fit( self.m_panel52 )
+		fgSizer31.Add( self.m_panel52, 1, wx.EXPAND |wx.ALL, 5 )
+
+		self.m_panel53 = wx.Panel( self, wx.ID_ANY, wx.DefaultPosition, wx.DefaultSize, wx.TAB_TRAVERSAL )
+		self.m_panel53.SetBackgroundColour( wx.Colour( 125, 100, 139 ) )
+
+		bSizer79 = wx.BoxSizer( wx.VERTICAL )
 
 		m_lbkompetensiChoices = []
-		self.m_lbkompetensi = wx.ListBox( self, wx.ID_ANY, wx.DefaultPosition, wx.Size( 200,100 ), m_lbkompetensiChoices, wx.LB_ALWAYS_SB )
+		self.m_lbkompetensi = wx.ListBox( self.m_panel53, wx.ID_ANY, wx.DefaultPosition, wx.Size( 175,100 ), m_lbkompetensiChoices, wx.LB_ALWAYS_SB )
 		self.m_lbkompetensi.SetFont( wx.Font( 14, wx.FONTFAMILY_DEFAULT, wx.FONTSTYLE_NORMAL, wx.FONTWEIGHT_NORMAL, False, "Tw Cen MT" ) )
+		self.m_lbkompetensi.SetForegroundColour( wx.SystemSettings.GetColour( wx.SYS_COLOUR_WINDOWTEXT ) )
+		self.m_lbkompetensi.SetBackgroundColour( wx.Colour( 125, 100, 139 ) )
 
-		fgSizer31.Add( self.m_lbkompetensi, 0, wx.ALL|wx.EXPAND, 5 )
+		bSizer79.Add( self.m_lbkompetensi, 1, wx.ALL|wx.EXPAND, 5 )
+
+
+		self.m_panel53.SetSizer( bSizer79 )
+		self.m_panel53.Layout()
+		bSizer79.Fit( self.m_panel53 )
+		fgSizer31.Add( self.m_panel53, 1, wx.EXPAND |wx.ALL, 5 )
+
+		self.m_panel56 = wx.Panel( self, wx.ID_ANY, wx.DefaultPosition, wx.DefaultSize, wx.TAB_TRAVERSAL )
+		self.m_panel56.SetForegroundColour( wx.Colour( 249, 250, 249 ) )
+		self.m_panel56.SetBackgroundColour( wx.Colour( 150, 152, 154 ) )
+
+		bSizer80 = wx.BoxSizer( wx.VERTICAL )
 
 		m_lbpekerjaanChoices = []
-		self.m_lbpekerjaan = wx.ListBox( self, wx.ID_ANY, wx.DefaultPosition, wx.Size( 200,100 ), m_lbpekerjaanChoices, wx.LB_ALWAYS_SB )
+		self.m_lbpekerjaan = wx.ListBox( self.m_panel56, wx.ID_ANY, wx.DefaultPosition, wx.Size( 175,100 ), m_lbpekerjaanChoices, wx.LB_ALWAYS_SB )
 		self.m_lbpekerjaan.SetFont( wx.Font( 14, wx.FONTFAMILY_DEFAULT, wx.FONTSTYLE_NORMAL, wx.FONTWEIGHT_NORMAL, False, "Tw Cen MT" ) )
+		self.m_lbpekerjaan.SetForegroundColour( wx.SystemSettings.GetColour( wx.SYS_COLOUR_WINDOWTEXT ) )
+		self.m_lbpekerjaan.SetBackgroundColour( wx.Colour( 150, 152, 154 ) )
 
-		fgSizer31.Add( self.m_lbpekerjaan, 0, wx.ALL|wx.EXPAND, 5 )
+		bSizer80.Add( self.m_lbpekerjaan, 1, wx.ALL|wx.EXPAND, 5 )
+
+
+		self.m_panel56.SetSizer( bSizer80 )
+		self.m_panel56.Layout()
+		bSizer80.Fit( self.m_panel56 )
+		fgSizer31.Add( self.m_panel56, 1, wx.EXPAND |wx.ALL, 5 )
+
+		self.m_panel85 = wx.Panel( self, wx.ID_ANY, wx.DefaultPosition, wx.DefaultSize, wx.TAB_TRAVERSAL )
+		self.m_panel85.SetBackgroundColour( wx.Colour( 212, 113, 73 ) )
+
+		bSizer108 = wx.BoxSizer( wx.VERTICAL )
 
 		m_lbpenilaianbag1Choices = []
-		self.m_lbpenilaianbag1 = wx.ListBox( self, wx.ID_ANY, wx.DefaultPosition, wx.Size( 200,100 ), m_lbpenilaianbag1Choices, wx.LB_ALWAYS_SB )
+		self.m_lbpenilaianbag1 = wx.ListBox( self.m_panel85, wx.ID_ANY, wx.DefaultPosition, wx.Size( 175,100 ), m_lbpenilaianbag1Choices, wx.LB_ALWAYS_SB )
 		self.m_lbpenilaianbag1.SetFont( wx.Font( 14, wx.FONTFAMILY_DEFAULT, wx.FONTSTYLE_NORMAL, wx.FONTWEIGHT_NORMAL, False, "Tw Cen MT" ) )
+		self.m_lbpenilaianbag1.SetBackgroundColour( wx.Colour( 212, 113, 73 ) )
 
-		fgSizer31.Add( self.m_lbpenilaianbag1, 0, wx.ALL|wx.EXPAND, 5 )
+		bSizer108.Add( self.m_lbpenilaianbag1, 1, wx.ALL|wx.EXPAND, 5 )
+
+
+		self.m_panel85.SetSizer( bSizer108 )
+		self.m_panel85.Layout()
+		bSizer108.Fit( self.m_panel85 )
+		fgSizer31.Add( self.m_panel85, 1, wx.EXPAND |wx.ALL, 5 )
+
+		self.m_panel87 = wx.Panel( self, wx.ID_ANY, wx.DefaultPosition, wx.Size( 200,-1 ), wx.TAB_TRAVERSAL )
+		self.m_panel87.SetBackgroundColour( wx.Colour( 214, 145, 56 ) )
+
+		bSizer109 = wx.BoxSizer( wx.VERTICAL )
 
 		m_lbpenilaianbag2Choices = []
-		self.m_lbpenilaianbag2 = wx.ListBox( self, wx.ID_ANY, wx.DefaultPosition, wx.Size( 200,100 ), m_lbpenilaianbag2Choices, wx.LB_ALWAYS_SB )
+		self.m_lbpenilaianbag2 = wx.ListBox( self.m_panel87, wx.ID_ANY, wx.DefaultPosition, wx.Size( 200,100 ), m_lbpenilaianbag2Choices, wx.LB_ALWAYS_SB )
 		self.m_lbpenilaianbag2.SetFont( wx.Font( 14, wx.FONTFAMILY_DEFAULT, wx.FONTSTYLE_NORMAL, wx.FONTWEIGHT_NORMAL, False, "Tw Cen MT" ) )
+		self.m_lbpenilaianbag2.SetBackgroundColour( wx.Colour( 214, 145, 56 ) )
 
-		fgSizer31.Add( self.m_lbpenilaianbag2, 0, wx.ALL|wx.EXPAND, 5 )
+		bSizer109.Add( self.m_lbpenilaianbag2, 1, wx.ALL|wx.EXPAND, 5 )
+
+
+		self.m_panel87.SetSizer( bSizer109 )
+		self.m_panel87.Layout()
+		fgSizer31.Add( self.m_panel87, 1, wx.EXPAND |wx.ALL, 5 )
+
+		self.m_panel89 = wx.Panel( self, wx.ID_ANY, wx.DefaultPosition, wx.DefaultSize, wx.TAB_TRAVERSAL )
+		self.m_panel89.SetBackgroundColour( wx.Colour( 88, 85, 112 ) )
+
+		bSizer111 = wx.BoxSizer( wx.VERTICAL )
 
 		m_lbsummaryscoresChoices = []
-		self.m_lbsummaryscores = wx.ListBox( self, wx.ID_ANY, wx.DefaultPosition, wx.Size( 200,100 ), m_lbsummaryscoresChoices, wx.LB_ALWAYS_SB )
+		self.m_lbsummaryscores = wx.ListBox( self.m_panel89, wx.ID_ANY, wx.DefaultPosition, wx.Size( 200,100 ), m_lbsummaryscoresChoices, wx.LB_ALWAYS_SB )
 		self.m_lbsummaryscores.SetFont( wx.Font( 14, wx.FONTFAMILY_DEFAULT, wx.FONTSTYLE_NORMAL, wx.FONTWEIGHT_NORMAL, False, "Tw Cen MT" ) )
+		self.m_lbsummaryscores.SetBackgroundColour( wx.Colour( 88, 85, 112 ) )
 
-		fgSizer31.Add( self.m_lbsummaryscores, 0, wx.ALL|wx.EXPAND, 5 )
+		bSizer111.Add( self.m_lbsummaryscores, 1, wx.ALL|wx.EXPAND, 5 )
+
+
+		self.m_panel89.SetSizer( bSizer111 )
+		self.m_panel89.Layout()
+		bSizer111.Fit( self.m_panel89 )
+		fgSizer31.Add( self.m_panel89, 1, wx.EXPAND |wx.ALL, 5 )
 
 
 		bSizer44.Add( fgSizer31, 0, wx.ALIGN_CENTER_HORIZONTAL, 5 )
@@ -2275,6 +2973,8 @@ class Page7 ( wx.Panel ):
 
 		self.m_scrolledWindow8 = wx.ScrolledWindow( self, wx.ID_ANY, wx.DefaultPosition, wx.DefaultSize, wx.HSCROLL|wx.VSCROLL )
 		self.m_scrolledWindow8.SetScrollRate( 5, 5 )
+		self.m_scrolledWindow8.SetBackgroundColour( wx.SystemSettings.GetColour( wx.SYS_COLOUR_WINDOW ) )
+
 		bSizer58 = wx.BoxSizer( wx.VERTICAL )
 
 		fgSizer29 = wx.FlexGridSizer( 1, 0, 0, 0 )
@@ -2297,6 +2997,164 @@ class Page7 ( wx.Panel ):
 
 
 		bSizer58.Add( fgSizer29, 0, wx.ALIGN_RIGHT, 5 )
+
+		fgSizer37 = wx.FlexGridSizer( 0, 2, 0, 0 )
+		fgSizer37.SetFlexibleDirection( wx.BOTH )
+		fgSizer37.SetNonFlexibleGrowMode( wx.FLEX_GROWMODE_SPECIFIED )
+
+		self.m_panel92 = wx.Panel( self.m_scrolledWindow8, wx.ID_ANY, wx.DefaultPosition, wx.DefaultSize, wx.TAB_TRAVERSAL )
+		fgSizer37.Add( self.m_panel92, 1, wx.EXPAND |wx.ALL, 5 )
+
+		self.m_panel93 = wx.Panel( self.m_scrolledWindow8, wx.ID_ANY, wx.DefaultPosition, wx.DefaultSize, wx.TAB_TRAVERSAL )
+		fgSizer37.Add( self.m_panel93, 1, wx.EXPAND |wx.ALL, 5 )
+
+		self.m_panel91 = wx.Panel( self.m_scrolledWindow8, wx.ID_ANY, wx.DefaultPosition, wx.DefaultSize, wx.TAB_TRAVERSAL )
+		bSizer10 = wx.BoxSizer( wx.VERTICAL )
+
+
+		bSizer10.Add( ( 0, 75), 0, 0, 5 )
+
+		self.m_staticText7 = wx.StaticText( self.m_panel91, wx.ID_ANY, u"OCCUPATIONAL DAYDREAM", wx.DefaultPosition, wx.DefaultSize, 0 )
+		self.m_staticText7.Wrap( -1 )
+
+		self.m_staticText7.SetFont( wx.Font( 16, wx.FONTFAMILY_DEFAULT, wx.FONTSTYLE_NORMAL, wx.FONTWEIGHT_BOLD, False, "Tw Cen MT" ) )
+
+		bSizer10.Add( self.m_staticText7, 0, wx.ALL|wx.ALIGN_CENTER_HORIZONTAL, 5 )
+
+
+		bSizer10.Add( ( 0, 25), 0, 0, 5 )
+
+		bSizer631 = wx.BoxSizer( wx.HORIZONTAL )
+
+		fgSizer71 = wx.FlexGridSizer( 0, 3, 0, 0 )
+		fgSizer71.AddGrowableCol( 1 )
+		fgSizer71.SetFlexibleDirection( wx.BOTH )
+		fgSizer71.SetNonFlexibleGrowMode( wx.FLEX_GROWMODE_SPECIFIED )
+
+		self.m_staticText8 = wx.StaticText( self.m_panel91, wx.ID_ANY, u"1", wx.DefaultPosition, wx.DefaultSize, 0 )
+		self.m_staticText8.Wrap( -1 )
+
+		fgSizer71.Add( self.m_staticText8, 0, wx.ALL|wx.ALIGN_CENTER_VERTICAL|wx.ALIGN_CENTER_HORIZONTAL, 5 )
+
+		self.textctrl1 = wx.TextCtrl( self.m_panel91, wx.ID_ANY, wx.EmptyString, wx.DefaultPosition, wx.Size( 300,-1 ), 0 )
+		self.textctrl1.SetFont( wx.Font( 12, wx.FONTFAMILY_SWISS, wx.FONTSTYLE_NORMAL, wx.FONTWEIGHT_NORMAL, False, "Sans" ) )
+
+		fgSizer71.Add( self.textctrl1, 0, wx.ALL|wx.ALIGN_CENTER_VERTICAL, 5 )
+
+		self.label1 = wx.StaticText( self.m_panel91, wx.ID_ANY, u"?", wx.DefaultPosition, wx.DefaultSize, 0 )
+		self.label1.Wrap( -1 )
+
+		self.label1.SetFont( wx.Font( 12, wx.FONTFAMILY_SWISS, wx.FONTSTYLE_NORMAL, wx.FONTWEIGHT_NORMAL, False, "Sans" ) )
+
+		fgSizer71.Add( self.label1, 0, wx.ALL|wx.ALIGN_CENTER_VERTICAL|wx.ALIGN_CENTER_HORIZONTAL, 5 )
+
+		self.m_staticText10 = wx.StaticText( self.m_panel91, wx.ID_ANY, u"2", wx.DefaultPosition, wx.DefaultSize, 0 )
+		self.m_staticText10.Wrap( -1 )
+
+		fgSizer71.Add( self.m_staticText10, 0, wx.ALL|wx.ALIGN_CENTER_VERTICAL|wx.ALIGN_CENTER_HORIZONTAL, 5 )
+
+		self.textctrl2 = wx.TextCtrl( self.m_panel91, wx.ID_ANY, wx.EmptyString, wx.DefaultPosition, wx.Size( 300,-1 ), 0 )
+		self.textctrl2.SetFont( wx.Font( 12, wx.FONTFAMILY_SWISS, wx.FONTSTYLE_NORMAL, wx.FONTWEIGHT_NORMAL, False, "Sans" ) )
+
+		fgSizer71.Add( self.textctrl2, 0, wx.ALL|wx.ALIGN_CENTER_VERTICAL, 5 )
+
+		self.label2 = wx.StaticText( self.m_panel91, wx.ID_ANY, u"?", wx.DefaultPosition, wx.DefaultSize, 0 )
+		self.label2.Wrap( -1 )
+
+		self.label2.SetFont( wx.Font( 12, wx.FONTFAMILY_SWISS, wx.FONTSTYLE_NORMAL, wx.FONTWEIGHT_NORMAL, False, "Sans" ) )
+
+		fgSizer71.Add( self.label2, 0, wx.ALL|wx.ALIGN_CENTER_VERTICAL|wx.ALIGN_CENTER_HORIZONTAL, 5 )
+
+		self.m_staticText132 = wx.StaticText( self.m_panel91, wx.ID_ANY, u"3", wx.DefaultPosition, wx.DefaultSize, 0 )
+		self.m_staticText132.Wrap( -1 )
+
+		fgSizer71.Add( self.m_staticText132, 0, wx.ALL|wx.ALIGN_CENTER_VERTICAL|wx.ALIGN_CENTER_HORIZONTAL, 5 )
+
+		self.textctrl3 = wx.TextCtrl( self.m_panel91, wx.ID_ANY, wx.EmptyString, wx.DefaultPosition, wx.Size( 300,-1 ), 0 )
+		self.textctrl3.SetFont( wx.Font( 12, wx.FONTFAMILY_SWISS, wx.FONTSTYLE_NORMAL, wx.FONTWEIGHT_NORMAL, False, "Sans" ) )
+
+		fgSizer71.Add( self.textctrl3, 0, wx.ALL|wx.ALIGN_CENTER_VERTICAL, 5 )
+
+		self.label3 = wx.StaticText( self.m_panel91, wx.ID_ANY, u"?", wx.DefaultPosition, wx.DefaultSize, 0 )
+		self.label3.Wrap( -1 )
+
+		self.label3.SetFont( wx.Font( 12, wx.FONTFAMILY_SWISS, wx.FONTSTYLE_NORMAL, wx.FONTWEIGHT_NORMAL, False, "Sans" ) )
+
+		fgSizer71.Add( self.label3, 0, wx.ALL|wx.ALIGN_CENTER_VERTICAL|wx.ALIGN_CENTER_HORIZONTAL, 5 )
+
+		self.m_staticText134 = wx.StaticText( self.m_panel91, wx.ID_ANY, u"4", wx.DefaultPosition, wx.DefaultSize, 0 )
+		self.m_staticText134.Wrap( -1 )
+
+		fgSizer71.Add( self.m_staticText134, 0, wx.ALL|wx.ALIGN_CENTER_HORIZONTAL|wx.ALIGN_CENTER_VERTICAL, 5 )
+
+		self.textctrl4 = wx.TextCtrl( self.m_panel91, wx.ID_ANY, wx.EmptyString, wx.DefaultPosition, wx.Size( 300,-1 ), 0 )
+		self.textctrl4.SetFont( wx.Font( 12, wx.FONTFAMILY_SWISS, wx.FONTSTYLE_NORMAL, wx.FONTWEIGHT_NORMAL, False, "Sans" ) )
+
+		fgSizer71.Add( self.textctrl4, 0, wx.ALL|wx.ALIGN_CENTER_VERTICAL, 5 )
+
+		self.label4 = wx.StaticText( self.m_panel91, wx.ID_ANY, u"?", wx.DefaultPosition, wx.DefaultSize, 0 )
+		self.label4.Wrap( -1 )
+
+		self.label4.SetFont( wx.Font( 12, wx.FONTFAMILY_SWISS, wx.FONTSTYLE_NORMAL, wx.FONTWEIGHT_NORMAL, False, "Sans" ) )
+
+		fgSizer71.Add( self.label4, 0, wx.ALL|wx.ALIGN_CENTER_VERTICAL|wx.ALIGN_CENTER_HORIZONTAL, 5 )
+
+		self.m_staticText138 = wx.StaticText( self.m_panel91, wx.ID_ANY, u"5", wx.DefaultPosition, wx.DefaultSize, 0 )
+		self.m_staticText138.Wrap( -1 )
+
+		fgSizer71.Add( self.m_staticText138, 0, wx.ALL|wx.ALIGN_CENTER_HORIZONTAL|wx.ALIGN_CENTER_VERTICAL, 5 )
+
+		self.textctrl5 = wx.TextCtrl( self.m_panel91, wx.ID_ANY, wx.EmptyString, wx.DefaultPosition, wx.Size( 300,-1 ), 0 )
+		self.textctrl5.SetFont( wx.Font( 12, wx.FONTFAMILY_SWISS, wx.FONTSTYLE_NORMAL, wx.FONTWEIGHT_NORMAL, False, "Sans" ) )
+
+		fgSizer71.Add( self.textctrl5, 0, wx.ALL|wx.ALIGN_CENTER_VERTICAL, 5 )
+
+		self.label5 = wx.StaticText( self.m_panel91, wx.ID_ANY, u"?", wx.DefaultPosition, wx.DefaultSize, 0 )
+		self.label5.Wrap( -1 )
+
+		self.label5.SetFont( wx.Font( 12, wx.FONTFAMILY_SWISS, wx.FONTSTYLE_NORMAL, wx.FONTWEIGHT_NORMAL, False, "Sans" ) )
+
+		fgSizer71.Add( self.label5, 0, wx.ALL|wx.ALIGN_CENTER_VERTICAL|wx.ALIGN_CENTER_HORIZONTAL, 5 )
+
+		self.m_staticText139 = wx.StaticText( self.m_panel91, wx.ID_ANY, u"6", wx.DefaultPosition, wx.DefaultSize, 0 )
+		self.m_staticText139.Wrap( -1 )
+
+		fgSizer71.Add( self.m_staticText139, 0, wx.ALL|wx.ALIGN_CENTER_VERTICAL|wx.ALIGN_CENTER_HORIZONTAL, 5 )
+
+		self.textctrl6 = wx.TextCtrl( self.m_panel91, wx.ID_ANY, wx.EmptyString, wx.DefaultPosition, wx.Size( 300,-1 ), 0 )
+		self.textctrl6.SetFont( wx.Font( 12, wx.FONTFAMILY_SWISS, wx.FONTSTYLE_NORMAL, wx.FONTWEIGHT_NORMAL, False, "Sans" ) )
+
+		fgSizer71.Add( self.textctrl6, 0, wx.ALL|wx.ALIGN_CENTER_VERTICAL, 5 )
+
+		self.label6 = wx.StaticText( self.m_panel91, wx.ID_ANY, u"?", wx.DefaultPosition, wx.DefaultSize, 0 )
+		self.label6.Wrap( -1 )
+
+		self.label6.SetFont( wx.Font( 12, wx.FONTFAMILY_SWISS, wx.FONTSTYLE_NORMAL, wx.FONTWEIGHT_NORMAL, False, "Sans" ) )
+
+		fgSizer71.Add( self.label6, 0, wx.ALL|wx.ALIGN_CENTER_HORIZONTAL|wx.ALIGN_CENTER_VERTICAL, 5 )
+
+
+		bSizer631.Add( fgSizer71, 0, wx.ALIGN_CENTER_VERTICAL, 5 )
+
+		bSizer64 = wx.BoxSizer( wx.VERTICAL )
+
+
+		bSizer64.Add( ( 25, 0), 0, wx.ALIGN_CENTER_HORIZONTAL, 5 )
+
+
+		bSizer631.Add( bSizer64, 0, 0, 5 )
+
+
+		bSizer10.Add( bSizer631, 0, wx.ALIGN_CENTER_HORIZONTAL, 5 )
+
+
+		self.m_panel91.SetSizer( bSizer10 )
+		self.m_panel91.Layout()
+		bSizer10.Fit( self.m_panel91 )
+		fgSizer37.Add( self.m_panel91, 1, wx.EXPAND |wx.ALL, 5 )
+
+
+		bSizer58.Add( fgSizer37, 0, wx.ALIGN_CENTER_HORIZONTAL, 5 )
 
 		self.m_panelA = wx.Panel( self.m_scrolledWindow8, wx.ID_ANY, wx.DefaultPosition, wx.DefaultSize, wx.TAB_TRAVERSAL )
 		self.m_panelA.SetFont( wx.Font( 12, wx.FONTFAMILY_DEFAULT, wx.FONTSTYLE_NORMAL, wx.FONTWEIGHT_NORMAL, False, "Tw Cen MT" ) )
@@ -2530,6 +3388,19 @@ class Page7 ( wx.Panel ):
 		# Connect Events
 		self.m_buttonBersihkan.Bind( wx.EVT_BUTTON, self.m_buttonBersihkanOnButtonClick )
 		self.m_SimpanPage6.Bind( wx.EVT_BUTTON, self.m_SimpanPage6OnButtonClick )
+		self.textctrl1.Bind( wx.EVT_ENTER_WINDOW, self.textctrl1OnEnterWindow )
+		self.textctrl1.Bind( wx.EVT_TEXT, self.textctrl1OnText )
+		self.label1.Bind( wx.EVT_ENTER_WINDOW, self.label1OnEnterWindow )
+		self.textctrl2.Bind( wx.EVT_ENTER_WINDOW, self.textctrl2OnEnterWindow )
+		self.textctrl2.Bind( wx.EVT_TEXT, self.textctrl2OnText )
+		self.textctrl3.Bind( wx.EVT_ENTER_WINDOW, self.textctrl3OnEnterWindow )
+		self.textctrl3.Bind( wx.EVT_TEXT, self.textctrl3OnText )
+		self.textctrl4.Bind( wx.EVT_ENTER_WINDOW, self.textctrl4OnEnterWindow )
+		self.textctrl4.Bind( wx.EVT_TEXT, self.textctrl4OnText )
+		self.textctrl5.Bind( wx.EVT_ENTER_WINDOW, self.textctrl5OnEnterWindow )
+		self.textctrl5.Bind( wx.EVT_TEXT, self.textctrl5OnText )
+		self.textctrl6.Bind( wx.EVT_ENTER_WINDOW, self.textctrl6OnEnterWindow )
+		self.textctrl6.Bind( wx.EVT_TEXT, self.textctrl6OnText )
 
 	def __del__( self ):
 		pass
@@ -2540,6 +3411,45 @@ class Page7 ( wx.Panel ):
 		event.Skip()
 
 	def m_SimpanPage6OnButtonClick( self, event ):
+		event.Skip()
+
+	def textctrl1OnEnterWindow( self, event ):
+		event.Skip()
+
+	def textctrl1OnText( self, event ):
+		event.Skip()
+
+	def label1OnEnterWindow( self, event ):
+		event.Skip()
+
+	def textctrl2OnEnterWindow( self, event ):
+		event.Skip()
+
+	def textctrl2OnText( self, event ):
+		event.Skip()
+
+	def textctrl3OnEnterWindow( self, event ):
+		event.Skip()
+
+	def textctrl3OnText( self, event ):
+		event.Skip()
+
+	def textctrl4OnEnterWindow( self, event ):
+		event.Skip()
+
+	def textctrl4OnText( self, event ):
+		event.Skip()
+
+	def textctrl5OnEnterWindow( self, event ):
+		event.Skip()
+
+	def textctrl5OnText( self, event ):
+		event.Skip()
+
+	def textctrl6OnEnterWindow( self, event ):
+		event.Skip()
+
+	def textctrl6OnText( self, event ):
 		event.Skip()
 
 
@@ -3479,6 +4389,85 @@ class PageAResult ( wx.Frame ):
 
 
 		self.SetSizer( bSizer55 )
+		self.Layout()
+
+		self.Centre( wx.BOTH )
+
+	def __del__( self ):
+		pass
+
+
+###########################################################################
+## Class Listbox1
+###########################################################################
+
+class Listbox1 ( wx.Frame ):
+
+	def __init__( self, parent ):
+		wx.Frame.__init__ ( self, parent, id = wx.ID_ANY, title = u"Cari Pekerjaan", pos = wx.DefaultPosition, size = wx.Size( 500,300 ), style = wx.DEFAULT_FRAME_STYLE|wx.TAB_TRAVERSAL )
+
+		self.SetSizeHints( wx.DefaultSize, wx.DefaultSize )
+
+		bSizer117 = wx.BoxSizer( wx.VERTICAL )
+
+		self.m_panel1 = wx.Panel( self, wx.ID_ANY, wx.DefaultPosition, wx.DefaultSize, wx.TAB_TRAVERSAL )
+		self.m_panel1.SetFont( wx.Font( 14, wx.FONTFAMILY_DEFAULT, wx.FONTSTYLE_NORMAL, wx.FONTWEIGHT_NORMAL, False, "Tw Cen MT" ) )
+
+		bSizer118 = wx.BoxSizer( wx.VERTICAL )
+
+		bSizer119 = wx.BoxSizer( wx.HORIZONTAL )
+
+
+		bSizer119.Add( ( 0, 0), 1, wx.EXPAND, 5 )
+
+		self.m_staticText1 = wx.StaticText( self.m_panel1, wx.ID_ANY, u"Cari", wx.DefaultPosition, wx.DefaultSize, 0 )
+		self.m_staticText1.Wrap( -1 )
+
+		bSizer119.Add( self.m_staticText1, 0, wx.ALL|wx.ALIGN_CENTER_HORIZONTAL|wx.ALIGN_CENTER_VERTICAL, 5 )
+
+		self.m_textCtrl1 = wx.TextCtrl( self.m_panel1, wx.ID_ANY, wx.EmptyString, wx.DefaultPosition, wx.DefaultSize, 0 )
+		self.m_textCtrl1.SetMaxLength( 0 )
+		self.m_textCtrl1.SetFont( wx.Font( 14, wx.FONTFAMILY_DEFAULT, wx.FONTSTYLE_NORMAL, wx.FONTWEIGHT_NORMAL, False, "Tw Cen MT" ) )
+
+		bSizer119.Add( self.m_textCtrl1, 1, wx.ALL|wx.ALIGN_CENTER_VERTICAL, 5 )
+
+		self.m_button3 = wx.Button( self.m_panel1, wx.ID_ANY, wx.EmptyString, wx.DefaultPosition, wx.DefaultSize, 0 )
+		bSizer119.Add( self.m_button3, 0, wx.ALL, 5 )
+
+
+		bSizer118.Add( bSizer119, 0, wx.EXPAND, 5 )
+
+		m_listBox1Choices = [ u"list&of&occupation" ]
+		self.m_listBox1 = wx.ListBox( self.m_panel1, wx.ID_ANY, wx.DefaultPosition, wx.DefaultSize, m_listBox1Choices, wx.LB_NEEDED_SB|wx.LB_SORT )
+		bSizer118.Add( self.m_listBox1, 1, wx.ALL|wx.EXPAND, 5 )
+
+		self.m_listCtrl17 = wx.ListCtrl( self.m_panel1, wx.ID_ANY, wx.DefaultPosition, wx.DefaultSize, wx.LC_REPORT )
+		bSizer118.Add( self.m_listCtrl17, 0, wx.ALL, 5 )
+
+		fgSizer40 = wx.FlexGridSizer( 0, 2, 0, 0 )
+		fgSizer40.AddGrowableCol( 0 )
+		fgSizer40.AddGrowableCol( 1 )
+		fgSizer40.AddGrowableRow( 0 )
+		fgSizer40.SetFlexibleDirection( wx.BOTH )
+		fgSizer40.SetNonFlexibleGrowMode( wx.FLEX_GROWMODE_SPECIFIED )
+
+		self.cancel = wx.Button( self.m_panel1, wx.ID_ANY, u"Cancel", wx.DefaultPosition, wx.DefaultSize, 0 )
+		fgSizer40.Add( self.cancel, 0, wx.ALL|wx.ALIGN_CENTER_VERTICAL|wx.ALIGN_RIGHT, 5 )
+
+		self.ok = wx.Button( self.m_panel1, wx.ID_ANY, u"Ok", wx.DefaultPosition, wx.DefaultSize, 0 )
+		fgSizer40.Add( self.ok, 0, wx.ALL|wx.ALIGN_CENTER_VERTICAL, 5 )
+
+
+		bSizer118.Add( fgSizer40, 0, wx.EXPAND|wx.ALIGN_RIGHT, 5 )
+
+
+		self.m_panel1.SetSizer( bSizer118 )
+		self.m_panel1.Layout()
+		bSizer118.Fit( self.m_panel1 )
+		bSizer117.Add( self.m_panel1, 1, wx.EXPAND |wx.ALL, 5 )
+
+
+		self.SetSizer( bSizer117 )
 		self.Layout()
 
 		self.Centre( wx.BOTH )

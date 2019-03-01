@@ -253,6 +253,7 @@ class SDSHollandWindowUtama(sds.WindowUtama):
 	def textctrl1OnText(self,event):
 		try:
 			self.a1 = self.m_panelPage2.textctrl1.GetValue()
+			# print (self.a1)
 			from AppsSDS.db import db
 			self.of_1 = db.QueryList()
 			self.b1,self.b2 = self.of_1.CheckQuery(self.a1,None)

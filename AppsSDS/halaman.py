@@ -11,9 +11,9 @@ class Halaman2():
         self.hal2 = parent
         
         self.hal2.panel_radiobtn_halaman1.Hide()
-        self.hal2.m_panel1.SetBackgroundColour( wx.Colour( 4, 109, 64 ) )
-        self.hal2.SetBackgroundColour( wx.Colour( 4, 109, 64 ) )
-        self.hal2.m_panel9.SetBackgroundColour( wx.Colour( 4, 109, 64 ) )
+        self.hal2.m_panel1.SetBackgroundColour( wx.Colour( 91, 85, 112 ) )
+        self.hal2.SetBackgroundColour( wx.Colour( 91, 85, 112 ) )
+        self.hal2.m_panel9.SetBackgroundColour( wx.Colour( 91, 85, 112 ) )
 #         self.hal2.m_button2.SetForegroundColour( wx.Colour( 62, 60, 60 ) )
 #         self.hal2.m_button2.SetBackgroundColour( wx.Colour( 101, 236, 101 ) )
 
@@ -31,10 +31,11 @@ class Halaman3():
         self.hal3 = parent
         self.hal3.halaman2.Hide()
         self.hal3.halaman3.Show()
-#         self.hal3.m_panel1.SetBackgroundColour( wx.Colour( 4, 109, 64 ) )
-#         self.hal3.SetBackgroundColour( wx.Colour( 4, 109, 64 ) )
-#         self.hal3.m_panel9.SetBackgroundColour( wx.Colour( 4, 109, 64 ) )
-        print ("halaman 3")
+
+        # self.hal3.m_panel1.SetBackgroundColour( wx.Colour( 91, 85, 112 ) )
+        # self.hal3.SetBackgroundColour( wx.Colour( 91, 85, 112 ) )
+        # self.hal3.m_panel9.SetBackgroundColour( wx.Colour( 91, 85, 112 ) )
+#       print ("halaman 3")
     
     
         
