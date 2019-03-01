@@ -267,7 +267,7 @@ class LihatNilaiTes():
        
             self.lihat_nilai.m_panel9.SetBackgroundColour( wx.Colour( 91, 85, 112 ) )
             self.lihat_nilai.m_panel1.SetBackgroundColour( wx.Colour( 91, 85, 112 ) )
-            self.lihat_nilai.SetBackgroundColour( wx.Colour( wx.Colour( 91, 85, 112 ) )
+            self.lihat_nilai.SetBackgroundColour( wx.Colour( 91, 85, 112 ) )
             self.lihat_nilai.panel_radiobtn_halaman1.Hide()
             self.lihat_nilai.halaman1.Hide()
             self.lihat_nilai.halaman2.Hide()
