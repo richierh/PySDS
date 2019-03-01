@@ -61,10 +61,10 @@ class Listbox1 ( wx.Frame ):
 
 		from AppsSDS.db import db
 		self.listprofesiona = db.QueryList()
-		print (self.listprofesiona.query())
+		print (self.listprofesiona.query2())
 		# print (list(self.listprofesiona.query().keys()))
 		# m_listBox1Choices = list(self.listprofesiona.query().keys())
-		m_listBox1Choices = list(self.listprofesiona.query())
+		m_listBox1Choices = list(self.listprofesiona.query2())
 
 		print(type(m_listBox1Choices))
 		# self.m_listBox1 = wx.ListBox( self, wx.ID_ANY, wx.DefaultPosition, wx.DefaultSize, m_listBox1Choices, wx.LB_NEEDED_SB|wx.LB_SORT )

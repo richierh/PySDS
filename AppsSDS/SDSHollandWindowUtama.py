@@ -369,6 +369,28 @@ class SDSHollandWindowUtama(sds.WindowUtama):
 	def m_tombolHitungOnButtonClick(self,event):
 		self.__properties()
 		from AppsSDS.controller import NewClass,NewClass2,NewClass3
+		
+################################################################################################
+		# Biodata peserta tes Pekerjaan
+		self.m_panelPage7.nama_kandidat_input.SetValue(self.nama_kandidat_input.GetValue())
+		self.m_panelPage7.no_tes_input.SetValue(self.no_tes_input.GetValue())
+		self.m_panelPage7.jenis_kelamin_input.SetSelection(\
+			self.jenis_kelamin_input.GetSelection())
+		self.m_panelPage7.tanggal_tes_input.SetValue(self.tanggal_tes_input.GetValue())
+		self.m_panelPage7.tanggal_lahir_input.SetValue(self.tanggal_lahir_input.GetValue())
+		self.m_panelPage7.pendidikan_terakhir_input.SetSelection(\
+			self.pendidikan_terakhir_input.GetSelection())
+		self.m_panelPage7.jurusan_input.SetValue(self.jurusan_input.GetValue())
+
+		# Biodata peserta tes Pendidikan
+	
+
+		self.m_panelPage7.textctrl1.SetValue(self.m_panelPage2.textctrl1.GetValue())
+		self.m_panelPage7.textctrl2.SetValue(self.m_panelPage2.textctrl2.GetValue())
+		self.m_panelPage7.textctrl3.SetValue(self.m_panelPage2.textctrl3.GetValue())
+		self.m_panelPage7.textctrl4.SetValue(self.m_panelPage2.textctrl4.GetValue())
+		self.m_panelPage7.textctrl5.SetValue(self.m_panelPage2.textctrl5.GetValue())
+
 
 ################################################################################################
 		self.lbA = NewClass(self)
@@ -1312,6 +1334,11 @@ class SDSHollandWindowUtama(sds.WindowUtama):
 	def m_btn_ttgaplikasi(self, event):
 		from AppsSDS import TentangAplikasi
 		self.bukaTtgApl = TentangAplikasi(self)
+		self.path= pathlib.Path.cwd()/"images/binakarir.png"
+		print (str(self.path))
+		self.image = wx.Image(str(self.path))
+		self.re_image = self.image.Rescale(350,155)
+		self.bukaTtgApl.m_bitmap2.SetBitmap(wx.Bitmap(self.re_image))
 		self.bukaTtgApl.Show()
 		pass
 	
@@ -1319,6 +1346,8 @@ class SDSHollandWindowUtama(sds.WindowUtama):
 		print ("hello")
 		self.m_panel7.Hide()
 		self.m_panel8.Show()
+		self.m_panelPage7.m_panel93.Show()
+		self.m_panelPage7.m_panel92.Hide()
 		self.Layout()
 		pass
 		
@@ -1326,6 +1355,8 @@ class SDSHollandWindowUtama(sds.WindowUtama):
 		print ("I am over here")
 		self.m_panel7.Show()
 		self.m_panel8.Hide()
+		self.m_panelPage7.m_panel92.Show()
+		self.m_panelPage7.m_panel93.Hide()
 		self.Layout()
 		pass
 

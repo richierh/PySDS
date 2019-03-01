@@ -141,6 +141,31 @@ class QueryList():
         print ("sudah ditutup")
         print (listboxdata)
         return listboxdata
+
+    def query2(self):
+        
+        create_connection(self.db_file)
+        conn = create_connection(self.db_file)
+        
+        if conn is not None :
+            sql = "SELECT * From fileedit"
+            c = create_table(conn,sql)
+            getdata = c.fetchall()
+#             print (getdata)
+            listboxdata = []
+            for row in getdata:
+#                 print (row[0])
+                print (row)
+                listboxdata.append([row[0],row[1],row[2]])
+                # listboxdata[row[0]]=row[1]
+    #         print (listboxdata)
+        else :
+            listboxdata={}
+            print("Error! cannot create the database connection.")
+        conn.close()
+        print ("sudah ditutup")
+        print (listboxdata)
+        return listboxdata
     
     def CheckQuery(self,prof,prof2):
         self.prof = prof

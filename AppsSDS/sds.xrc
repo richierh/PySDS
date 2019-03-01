@@ -322,6 +322,7 @@
 																<item>SD</item>
 																<item>SMP</item>
 																<item>SMA/Sederajat</item>
+																<item>Diploma</item>
 																<item>S1</item>
 																<item>S2</item>
 																<item>S3</item>
@@ -1296,7 +1297,14 @@
 						<style>wxTE_CENTER|wxTE_MULTILINE|wxTE_READONLY|wxTE_WORDWRAP</style>
 						<size>500,200</size>
 						<enabled>0</enabled>
-						<value>Kompleks Perkantoran Surapati Core blok C No. 22, jl. Phh Mustafa, Kota Bandung.\n\nEmail: careindonesiasolusi@gmail.com\nTelp. 022 8724 1354</value>
+						<font>
+							<size>14</size>
+							<style>normal</style>
+							<weight>normal</weight>
+							<underlined>0</underlined>
+							<face>Tw Cen MT</face>
+						</font>
+						<value>\nBandung - INDONESIA.\nEmail: careindonesiasolusi@gmail.com\nTelp. 022 8724 1354</value>
 					</object>
 				</object>
 			</object>
@@ -1304,7 +1312,7 @@
 	</object>
 	<object class="wxPanel" name="Page2">
 		<style>wxTAB_TRAVERSAL</style>
-		<size>500,300</size>
+		<size>500,409</size>
 		<bg>#f9faf9</bg>
 		<font>
 			<size>16</size>
@@ -1681,6 +1689,7 @@
 								<flag>wxALL|wxALIGN_CENTER_VERTICAL|wxALIGN_CENTER_HORIZONTAL</flag>
 								<border>5</border>
 								<object class="wxStaticText" name="m_staticText139">
+									<hidden>1</hidden>
 									<label>6</label>
 									<wrap>-1</wrap>
 								</object>
@@ -1691,6 +1700,7 @@
 								<border>5</border>
 								<object class="wxTextCtrl" name="textctrl6">
 									<size>300,-1</size>
+									<hidden>1</hidden>
 									<font>
 										<size>12</size>
 										<family>swiss</family>
@@ -1709,6 +1719,7 @@
 								<object class="wxButton" name="openlistbox6">
 									<bg>#f9faf9</bg>
 									<fg>#3c3e3c</fg>
+									<hidden>1</hidden>
 									<font>
 										<size>14</size>
 										<style>normal</style>
@@ -1727,6 +1738,7 @@
 								<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
 								<border>5</border>
 								<object class="wxStaticText" name="label6">
+									<hidden>1</hidden>
 									<font>
 										<size>12</size>
 										<family>swiss</family>
@@ -1875,7 +1887,7 @@
 											<object class="wxPanel" name="m_panel29">
 												<style>wxTAB_TRAVERSAL</style>
 												<bg>#d05742</bg>
-												<fg>#ffffff</fg>
+												<fg>#f9faf9</fg>
 												<object class="wxBoxSizer">
 													<orient>wxVERTICAL</orient>
 													<object class="sizeritem">
@@ -1906,6 +1918,7 @@
 											<object class="wxSpinCtrl" name="m_RealisticA">
 												<style>wxSP_ARROW_KEYS</style>
 												<size>75,-1</size>
+												<fg>#3c3e3c</fg>
 												<font>
 													<size>12</size>
 													<family>swiss</family>
@@ -1926,6 +1939,7 @@
 											<object class="wxPanel" name="m_panel36">
 												<style>wxTAB_TRAVERSAL</style>
 												<bg>#f5874f</bg>
+												<fg>#3c3e3c</fg>
 												<object class="wxBoxSizer">
 													<orient>wxVERTICAL</orient>
 													<object class="sizeritem">
@@ -1956,6 +1970,7 @@
 											<object class="wxSpinCtrl" name="m_InvestigativeA">
 												<style>wxSP_ARROW_KEYS</style>
 												<size>75,-1</size>
+												<fg>#3c3e3c</fg>
 												<font>
 													<size>12</size>
 													<family>swiss</family>
@@ -1976,6 +1991,7 @@
 											<object class="wxPanel" name="m_panel37">
 												<style>wxTAB_TRAVERSAL</style>
 												<bg>#ffcc29</bg>
+												<fg>#3c3e3c</fg>
 												<object class="wxBoxSizer">
 													<orient>wxVERTICAL</orient>
 													<object class="sizeritem">
@@ -2005,6 +2021,7 @@
 											<object class="wxSpinCtrl" name="m_ArtisticA">
 												<style>wxSP_ARROW_KEYS</style>
 												<size>75,-1</size>
+												<fg>#3c3e3c</fg>
 												<font>
 													<size>12</size>
 													<family>swiss</family>
@@ -2025,6 +2042,7 @@
 											<object class="wxPanel" name="m_panel38">
 												<style>wxTAB_TRAVERSAL</style>
 												<bg>#587a36</bg>
+												<fg>#f9faf9</fg>
 												<object class="wxBoxSizer">
 													<orient>wxVERTICAL</orient>
 													<object class="sizeritem">
@@ -2055,6 +2073,7 @@
 											<object class="wxSpinCtrl" name="m_SocialA">
 												<style>wxSP_ARROW_KEYS</style>
 												<size>75,-1</size>
+												<fg>#3c3e3c</fg>
 												<font>
 													<size>12</size>
 													<family>swiss</family>
@@ -2075,6 +2094,7 @@
 											<object class="wxPanel" name="m_panel39">
 												<style>wxTAB_TRAVERSAL</style>
 												<bg>#0098da</bg>
+												<fg>#3c3e3c</fg>
 												<object class="wxBoxSizer">
 													<orient>wxVERTICAL</orient>
 													<object class="sizeritem">
@@ -2104,6 +2124,7 @@
 											<object class="wxSpinCtrl" name="m_EnterprisingA">
 												<style>wxSP_ARROW_KEYS</style>
 												<size>75,-1</size>
+												<fg>#3c3e3c</fg>
 												<font>
 													<size>12</size>
 													<family>swiss</family>
@@ -2124,6 +2145,7 @@
 											<object class="wxPanel" name="m_panel40">
 												<style>wxTAB_TRAVERSAL</style>
 												<bg>#a98aac</bg>
+												<fg>#3c3e3c</fg>
 												<object class="wxBoxSizer">
 													<orient>wxVERTICAL</orient>
 													<object class="sizeritem">
@@ -2153,6 +2175,7 @@
 											<object class="wxSpinCtrl" name="m_ConventionalA">
 												<style>wxSP_ARROW_KEYS</style>
 												<size>75,-1</size>
+												<fg>#3c3e3c</fg>
 												<font>
 													<size>12</size>
 													<family>swiss</family>
@@ -2641,6 +2664,7 @@
 											<object class="wxSpinCtrl" name="m_RealisticP">
 												<style>wxSP_ARROW_KEYS</style>
 												<size>75,-1</size>
+												<fg>#3c3e3c</fg>
 												<font>
 													<size>12</size>
 													<family>swiss</family>
@@ -2691,6 +2715,7 @@
 											<object class="wxSpinCtrl" name="m_InvestigativeP">
 												<style>wxSP_ARROW_KEYS</style>
 												<size>75,-1</size>
+												<fg>#3c3e3c</fg>
 												<font>
 													<size>12</size>
 													<family>swiss</family>
@@ -2740,6 +2765,7 @@
 											<object class="wxSpinCtrl" name="m_ArtisticP">
 												<style>wxSP_ARROW_KEYS</style>
 												<size>75,-1</size>
+												<fg>#3c3e3c</fg>
 												<font>
 													<size>12</size>
 													<family>swiss</family>
@@ -2790,6 +2816,7 @@
 											<object class="wxSpinCtrl" name="m_SocialP">
 												<style>wxSP_ARROW_KEYS</style>
 												<size>75,-1</size>
+												<fg>#3c3e3c</fg>
 												<font>
 													<size>12</size>
 													<family>swiss</family>
@@ -2841,6 +2868,7 @@
 											<object class="wxSpinCtrl" name="m_EnterprisingP">
 												<style>wxSP_ARROW_KEYS</style>
 												<size>75,-1</size>
+												<fg>#3c3e3c</fg>
 												<font>
 													<size>12</size>
 													<family>swiss</family>
@@ -2890,6 +2918,7 @@
 											<object class="wxSpinCtrl" name="m_ConventionalP">
 												<style>wxSP_ARROW_KEYS</style>
 												<size>75,-1</size>
+												<fg>#3c3e3c</fg>
 												<font>
 													<size>12</size>
 													<family>swiss</family>
@@ -2936,7 +2965,7 @@
 						<underlined>0</underlined>
 						<face>Tw Cen MT</face>
 					</font>
-					<label>PENILAIAN ANDA</label>
+					<label>PENILAIAN DIRI ANDA</label>
 					<wrap>-1</wrap>
 				</object>
 			</object>
@@ -3709,6 +3738,7 @@
 											<object class="wxSpinCtrl" name="m_ktanganb2">
 												<style>wxSP_ARROW_KEYS</style>
 												<size>75,-1</size>
+												<fg>#3c3e3c</fg>
 												<font>
 													<size>12</size>
 													<family>swiss</family>
@@ -4786,7 +4816,7 @@
 							<border>5</border>
 							<object class="wxFlexGridSizer">
 								<rows>0</rows>
-								<cols>2</cols>
+								<cols>3</cols>
 								<vgap>0</vgap>
 								<hgap>0</hgap>
 								<growablecols></growablecols>
@@ -4797,6 +4827,391 @@
 									<border>5</border>
 									<object class="wxPanel" name="m_panel92">
 										<style>wxTAB_TRAVERSAL</style>
+										<object class="wxBoxSizer">
+											<orient>wxVERTICAL</orient>
+											<object class="sizeritem">
+												<option>0</option>
+												<flag>wxALL|wxEXPAND</flag>
+												<border>5</border>
+												<object class="wxPanel" name="m_panel97">
+													<style>wxTAB_TRAVERSAL</style>
+													<object class="wxBoxSizer">
+														<orient>wxVERTICAL</orient>
+														<object class="sizeritem">
+															<option>0</option>
+															<flag>wxALL|wxALIGN_CENTER_HORIZONTAL</flag>
+															<border>5</border>
+															<object class="wxStaticText" name="m_staticText212">
+																<font>
+																	<size>18</size>
+																	<style>normal</style>
+																	<weight>bold</weight>
+																	<underlined>0</underlined>
+																	<face>Tw Cen MT</face>
+																</font>
+																<label>BIODATA</label>
+																<wrap>-1</wrap>
+															</object>
+														</object>
+													</object>
+												</object>
+											</object>
+											<object class="sizeritem">
+												<option>1</option>
+												<flag>wxEXPAND</flag>
+												<border>5</border>
+												<object class="wxFlexGridSizer">
+													<rows>10</rows>
+													<cols>2</cols>
+													<vgap>0</vgap>
+													<hgap>0</hgap>
+													<growablecols>1</growablecols>
+													<growablerows></growablerows>
+													<object class="sizeritem">
+														<option>0</option>
+														<flag>wxALL|wxALIGN_CENTER_VERTICAL</flag>
+														<border>5</border>
+														<object class="wxStaticText" name="no_tes">
+															<font>
+																<size>16</size>
+																<style>normal</style>
+																<weight>normal</weight>
+																<underlined>0</underlined>
+																<face>Tw Cen MT</face>
+															</font>
+															<label>No Tes</label>
+															<wrap>-1</wrap>
+														</object>
+													</object>
+													<object class="sizeritem">
+														<option>0</option>
+														<flag>wxALL|wxEXPAND</flag>
+														<border>5</border>
+														<object class="wxTextCtrl" name="no_tes_input">
+															<style>wxTE_READONLY</style>
+															<size>200,-1</size>
+															<font>
+																<size>12</size>
+																<family>swiss</family>
+																<style>normal</style>
+																<weight>normal</weight>
+																<underlined>0</underlined>
+																<face>Sans</face>
+															</font>
+															<value></value>
+														</object>
+													</object>
+													<object class="sizeritem">
+														<option>0</option>
+														<flag>wxALL|wxALIGN_CENTER_VERTICAL</flag>
+														<border>5</border>
+														<object class="wxStaticText" name="tanggal_tes">
+															<font>
+																<size>16</size>
+																<style>normal</style>
+																<weight>normal</weight>
+																<underlined>0</underlined>
+																<face>Tw Cen MT</face>
+															</font>
+															<label>Tanggal Tes</label>
+															<wrap>-1</wrap>
+														</object>
+													</object>
+													<object class="sizeritem">
+														<option>0</option>
+														<flag>wxALL</flag>
+														<border>5</border>
+														<object class="wxDatePickerCtrl" name="tanggal_tes_input">
+															<style>wxDP_DEFAULT</style>
+															<size>200,-1</size>
+															<font>
+																<size>12</size>
+																<family>swiss</family>
+																<style>normal</style>
+																<weight>normal</weight>
+																<underlined>0</underlined>
+																<face>Sans</face>
+															</font>
+														</object>
+													</object>
+													<object class="sizeritem">
+														<option>0</option>
+														<flag>wxALL|wxALIGN_CENTER_VERTICAL</flag>
+														<border>5</border>
+														<object class="wxStaticText" name="nama_kandidat">
+															<font>
+																<size>16</size>
+																<style>normal</style>
+																<weight>normal</weight>
+																<underlined>0</underlined>
+																<face>Tw Cen MT</face>
+															</font>
+															<label>Nama Kandidat</label>
+															<wrap>-1</wrap>
+														</object>
+													</object>
+													<object class="sizeritem">
+														<option>0</option>
+														<flag>wxALL|wxEXPAND</flag>
+														<border>5</border>
+														<object class="wxTextCtrl" name="nama_kandidat_input">
+															<style>wxTE_READONLY</style>
+															<size>200,-1</size>
+															<font>
+																<size>12</size>
+																<family>swiss</family>
+																<style>normal</style>
+																<weight>normal</weight>
+																<underlined>0</underlined>
+																<face>Sans</face>
+															</font>
+															<value></value>
+														</object>
+													</object>
+													<object class="sizeritem">
+														<option>0</option>
+														<flag>wxALL|wxALIGN_CENTER_VERTICAL</flag>
+														<border>5</border>
+														<object class="wxStaticText" name="jenis_kelamin">
+															<font>
+																<size>16</size>
+																<style>normal</style>
+																<weight>normal</weight>
+																<underlined>0</underlined>
+																<face>Tw Cen MT</face>
+															</font>
+															<label>Jenis Kelamin</label>
+															<wrap>-1</wrap>
+														</object>
+													</object>
+													<object class="sizeritem">
+														<option>0</option>
+														<flag>wxALL</flag>
+														<border>5</border>
+														<object class="wxChoice" name="jenis_kelamin_input">
+															<font>
+																<size>12</size>
+																<family>swiss</family>
+																<style>normal</style>
+																<weight>normal</weight>
+																<underlined>0</underlined>
+																<face>Sans</face>
+															</font>
+															<selection>1</selection>
+															<content>
+																<item>Laki-Laki</item>
+																<item>Perempuan</item>
+															</content>
+														</object>
+													</object>
+													<object class="sizeritem">
+														<option>0</option>
+														<flag>wxALL</flag>
+														<border>5</border>
+														<object class="wxStaticText" name="tanggal_lahir">
+															<font>
+																<size>16</size>
+																<style>normal</style>
+																<weight>normal</weight>
+																<underlined>0</underlined>
+																<face>Tw Cen MT</face>
+															</font>
+															<label>Tanggal Lahir</label>
+															<wrap>-1</wrap>
+														</object>
+													</object>
+													<object class="sizeritem">
+														<option>0</option>
+														<flag>wxALL</flag>
+														<border>5</border>
+														<object class="wxDatePickerCtrl" name="tanggal_lahir_input">
+															<style>wxDP_DEFAULT</style>
+															<size>200,-1</size>
+															<font>
+																<size>12</size>
+																<family>swiss</family>
+																<style>normal</style>
+																<weight>normal</weight>
+																<underlined>0</underlined>
+																<face>Sans</face>
+															</font>
+														</object>
+													</object>
+													<object class="sizeritem">
+														<option>0</option>
+														<flag>wxALL|wxALIGN_CENTER_VERTICAL</flag>
+														<border>5</border>
+														<object class="wxStaticText" name="pendidikan_terakhir">
+															<font>
+																<size>16</size>
+																<style>normal</style>
+																<weight>normal</weight>
+																<underlined>0</underlined>
+																<face>Tw Cen MT</face>
+															</font>
+															<label>Pendidikan Terakhir</label>
+															<wrap>-1</wrap>
+														</object>
+													</object>
+													<object class="sizeritem">
+														<option>0</option>
+														<flag>wxALL</flag>
+														<border>5</border>
+														<object class="wxChoice" name="pendidikan_terakhir_input">
+															<font>
+																<size>12</size>
+																<family>swiss</family>
+																<style>normal</style>
+																<weight>normal</weight>
+																<underlined>0</underlined>
+																<face>Sans</face>
+															</font>
+															<selection>0</selection>
+															<content>
+																<item>SD</item>
+																<item>SMP</item>
+																<item>SMA/Sederajat</item>
+																<item>S1</item>
+																<item>S2</item>
+																<item>S3</item>
+															</content>
+														</object>
+													</object>
+													<object class="sizeritem">
+														<option>0</option>
+														<flag>wxALL|wxALIGN_CENTER_VERTICAL</flag>
+														<border>5</border>
+														<object class="wxStaticText" name="jurusan">
+															<font>
+																<size>16</size>
+																<style>normal</style>
+																<weight>normal</weight>
+																<underlined>0</underlined>
+																<face>Tw Cen MT</face>
+															</font>
+															<label>Jurusan Pendidikan</label>
+															<wrap>-1</wrap>
+														</object>
+													</object>
+													<object class="sizeritem">
+														<option>0</option>
+														<flag>wxALL|wxEXPAND</flag>
+														<border>5</border>
+														<object class="wxTextCtrl" name="jurusan_input">
+															<style>wxTE_READONLY</style>
+															<font>
+																<size>12</size>
+																<family>swiss</family>
+																<style>normal</style>
+																<weight>normal</weight>
+																<underlined>0</underlined>
+																<face>Sans</face>
+															</font>
+															<value></value>
+														</object>
+													</object>
+													<object class="sizeritem">
+														<option>0</option>
+														<flag>wxALL|wxALIGN_CENTER_VERTICAL</flag>
+														<border>5</border>
+														<object class="wxStaticText" name="kota">
+															<font>
+																<size>16</size>
+																<style>normal</style>
+																<weight>normal</weight>
+																<underlined>0</underlined>
+																<face>Tw Cen MT</face>
+															</font>
+															<label>Kota</label>
+															<wrap>-1</wrap>
+														</object>
+													</object>
+													<object class="sizeritem">
+														<option>0</option>
+														<flag>wxALL|wxEXPAND</flag>
+														<border>5</border>
+														<object class="wxTextCtrl" name="kota_input">
+															<style>wxTE_READONLY</style>
+															<font>
+																<size>12</size>
+																<family>swiss</family>
+																<style>normal</style>
+																<weight>normal</weight>
+																<underlined>0</underlined>
+																<face>Sans</face>
+															</font>
+															<value></value>
+														</object>
+													</object>
+													<object class="sizeritem">
+														<option>0</option>
+														<flag>wxALL|wxALIGN_CENTER_VERTICAL</flag>
+														<border>5</border>
+														<object class="wxStaticText" name="perusahaan_instansi">
+															<font>
+																<size>16</size>
+																<style>normal</style>
+																<weight>normal</weight>
+																<underlined>0</underlined>
+																<face>Tw Cen MT</face>
+															</font>
+															<label>Perusahaan/Instansi</label>
+															<wrap>-1</wrap>
+														</object>
+													</object>
+													<object class="sizeritem">
+														<option>0</option>
+														<flag>wxALL|wxEXPAND</flag>
+														<border>5</border>
+														<object class="wxTextCtrl" name="perusahaan_instansi_input">
+															<style>wxTE_READONLY</style>
+															<font>
+																<size>12</size>
+																<family>swiss</family>
+																<style>normal</style>
+																<weight>normal</weight>
+																<underlined>0</underlined>
+																<face>Sans</face>
+															</font>
+															<value></value>
+														</object>
+													</object>
+													<object class="sizeritem">
+														<option>0</option>
+														<flag>wxALL|wxALIGN_CENTER_VERTICAL</flag>
+														<border>5</border>
+														<object class="wxStaticText" name="posisi_jabatan">
+															<font>
+																<size>16</size>
+																<style>normal</style>
+																<weight>normal</weight>
+																<underlined>0</underlined>
+																<face>Tw Cen MT</face>
+															</font>
+															<label>Posisi/Jabatan</label>
+															<wrap>-1</wrap>
+														</object>
+													</object>
+													<object class="sizeritem">
+														<option>0</option>
+														<flag>wxALL|wxEXPAND</flag>
+														<border>5</border>
+														<object class="wxTextCtrl" name="posisi_jabatan_input">
+															<style>wxTE_READONLY</style>
+															<font>
+																<size>12</size>
+																<family>swiss</family>
+																<style>normal</style>
+																<weight>normal</weight>
+																<underlined>0</underlined>
+																<face>Sans</face>
+															</font>
+															<value></value>
+														</object>
+													</object>
+												</object>
+											</object>
+										</object>
 									</object>
 								</object>
 								<object class="sizeritem">
@@ -4805,43 +5220,519 @@
 									<border>5</border>
 									<object class="wxPanel" name="m_panel93">
 										<style>wxTAB_TRAVERSAL</style>
+										<hidden>1</hidden>
+										<object class="wxBoxSizer">
+											<orient>wxVERTICAL</orient>
+											<object class="sizeritem">
+												<option>0</option>
+												<flag>wxEXPAND | wxALL</flag>
+												<border>5</border>
+												<object class="wxPanel" name="m_panel98">
+													<style>wxTAB_TRAVERSAL</style>
+													<object class="wxBoxSizer">
+														<orient>wxVERTICAL</orient>
+														<object class="sizeritem">
+															<option>0</option>
+															<flag>wxALL|wxALIGN_CENTER_HORIZONTAL</flag>
+															<border>5</border>
+															<object class="wxStaticText" name="m_staticText213">
+																<font>
+																	<size>18</size>
+																	<style>normal</style>
+																	<weight>bold</weight>
+																	<underlined>0</underlined>
+																	<face>Tw Cen MT</face>
+																</font>
+																<label>BIODATA</label>
+																<wrap>-1</wrap>
+															</object>
+														</object>
+													</object>
+												</object>
+											</object>
+											<object class="sizeritem">
+												<option>1</option>
+												<flag>wxEXPAND</flag>
+												<border>5</border>
+												<object class="wxFlexGridSizer">
+													<rows>13</rows>
+													<cols>2</cols>
+													<vgap>0</vgap>
+													<hgap>1</hgap>
+													<growablecols></growablecols>
+													<growablerows></growablerows>
+													<object class="sizeritem">
+														<option>1</option>
+														<flag>wxALL|wxALIGN_CENTER_VERTICAL</flag>
+														<border>5</border>
+														<object class="wxStaticText" name="nama2">
+															<font>
+																<size>16</size>
+																<style>normal</style>
+																<weight>normal</weight>
+																<underlined>0</underlined>
+																<face>Tw Cen MT</face>
+															</font>
+															<label>Nama</label>
+															<wrap>-1</wrap>
+														</object>
+													</object>
+													<object class="sizeritem">
+														<option>0</option>
+														<flag>wxALL</flag>
+														<border>5</border>
+														<object class="wxTextCtrl" name="nama_input2">
+															<style>wxTE_READONLY</style>
+															<size>300,-1</size>
+															<font>
+																<size>12</size>
+																<family>swiss</family>
+																<style>normal</style>
+																<weight>normal</weight>
+																<underlined>0</underlined>
+																<face>Sans</face>
+															</font>
+															<value></value>
+														</object>
+													</object>
+													<object class="sizeritem">
+														<option>0</option>
+														<flag>wxALL|wxALIGN_CENTER_VERTICAL</flag>
+														<border>5</border>
+														<object class="wxStaticText" name="tanggal_tes2">
+															<font>
+																<size>16</size>
+																<style>normal</style>
+																<weight>normal</weight>
+																<underlined>0</underlined>
+																<face>Tw Cen MT</face>
+															</font>
+															<label>Tanggal Tes</label>
+															<wrap>-1</wrap>
+														</object>
+													</object>
+													<object class="sizeritem">
+														<option>0</option>
+														<flag>wxALL</flag>
+														<border>5</border>
+														<object class="wxDatePickerCtrl" name="tanggal_tes_input2">
+															<style>wxDP_DEFAULT</style>
+															<size>200,-1</size>
+															<font>
+																<size>12</size>
+																<family>swiss</family>
+																<style>normal</style>
+																<weight>normal</weight>
+																<underlined>0</underlined>
+																<face>Sans</face>
+															</font>
+														</object>
+													</object>
+													<object class="sizeritem">
+														<option>0</option>
+														<flag>wxALL|wxALIGN_CENTER_VERTICAL</flag>
+														<border>5</border>
+														<object class="wxStaticText" name="jenis_kelamin2">
+															<font>
+																<size>16</size>
+																<style>normal</style>
+																<weight>normal</weight>
+																<underlined>0</underlined>
+																<face>Tw Cen MT</face>
+															</font>
+															<label>Jenis Kelamin</label>
+															<wrap>-1</wrap>
+														</object>
+													</object>
+													<object class="sizeritem">
+														<option>0</option>
+														<flag>wxALL</flag>
+														<border>5</border>
+														<object class="wxChoice" name="jenis_kelamin_input2">
+															<font>
+																<size>12</size>
+																<family>swiss</family>
+																<style>normal</style>
+																<weight>normal</weight>
+																<underlined>0</underlined>
+																<face>Sans</face>
+															</font>
+															<selection>1</selection>
+															<content>
+																<item>Laki-Laki</item>
+																<item>Perempuan</item>
+															</content>
+														</object>
+													</object>
+													<object class="sizeritem">
+														<option>0</option>
+														<flag>wxALL|wxALIGN_CENTER_VERTICAL</flag>
+														<border>5</border>
+														<object class="wxStaticText" name="tanggal_lahir2">
+															<font>
+																<size>16</size>
+																<style>normal</style>
+																<weight>normal</weight>
+																<underlined>0</underlined>
+																<face>Tw Cen MT</face>
+															</font>
+															<label>Tanggal Lahir</label>
+															<wrap>-1</wrap>
+														</object>
+													</object>
+													<object class="sizeritem">
+														<option>0</option>
+														<flag>wxALL</flag>
+														<border>5</border>
+														<object class="wxDatePickerCtrl" name="tanggal_lahir_input2">
+															<style>wxDP_DEFAULT</style>
+															<size>200,-1</size>
+															<font>
+																<size>12</size>
+																<family>swiss</family>
+																<style>normal</style>
+																<weight>normal</weight>
+																<underlined>0</underlined>
+																<face>Sans</face>
+															</font>
+														</object>
+													</object>
+													<object class="sizeritem">
+														<option>0</option>
+														<flag>wxALL|wxALIGN_CENTER_VERTICAL</flag>
+														<border>5</border>
+														<object class="wxStaticText" name="asal_sekolah2">
+															<font>
+																<size>16</size>
+																<style>normal</style>
+																<weight>normal</weight>
+																<underlined>0</underlined>
+																<face>Tw Cen MT</face>
+															</font>
+															<label>Asal Sekolah</label>
+															<wrap>-1</wrap>
+														</object>
+													</object>
+													<object class="sizeritem">
+														<option>0</option>
+														<flag>wxALL|wxEXPAND</flag>
+														<border>5</border>
+														<object class="wxTextCtrl" name="asal_sekolah_input2">
+															<style>wxTE_READONLY</style>
+															<font>
+																<size>12</size>
+																<family>swiss</family>
+																<style>normal</style>
+																<weight>normal</weight>
+																<underlined>0</underlined>
+																<face>Sans</face>
+															</font>
+															<value></value>
+														</object>
+													</object>
+													<object class="sizeritem">
+														<option>0</option>
+														<flag>wxALL|wxALIGN_CENTER_VERTICAL</flag>
+														<border>5</border>
+														<object class="wxStaticText" name="jurusan21">
+															<font>
+																<size>16</size>
+																<style>normal</style>
+																<weight>normal</weight>
+																<underlined>0</underlined>
+																<face>Tw Cen MT</face>
+															</font>
+															<label>Jurusan</label>
+															<wrap>-1</wrap>
+														</object>
+													</object>
+													<object class="sizeritem">
+														<option>0</option>
+														<flag>wxALL|wxEXPAND</flag>
+														<border>5</border>
+														<object class="wxTextCtrl" name="jurusan_input21">
+															<style>wxTE_READONLY</style>
+															<font>
+																<size>12</size>
+																<family>swiss</family>
+																<style>normal</style>
+																<weight>normal</weight>
+																<underlined>0</underlined>
+																<face>Sans</face>
+															</font>
+															<value></value>
+														</object>
+													</object>
+													<object class="sizeritem">
+														<option>0</option>
+														<flag>wxALL|wxALIGN_CENTER_VERTICAL</flag>
+														<border>5</border>
+														<object class="wxStaticText" name="asal_universitas2">
+															<font>
+																<size>16</size>
+																<style>normal</style>
+																<weight>normal</weight>
+																<underlined>0</underlined>
+																<face>Tw Cen MT</face>
+															</font>
+															<label>Asal Universitas</label>
+															<wrap>-1</wrap>
+														</object>
+													</object>
+													<object class="sizeritem">
+														<option>0</option>
+														<flag>wxALL|wxEXPAND</flag>
+														<border>5</border>
+														<object class="wxTextCtrl" name="asal_universitas_input2">
+															<style>wxTE_READONLY</style>
+															<font>
+																<size>12</size>
+																<family>swiss</family>
+																<style>normal</style>
+																<weight>normal</weight>
+																<underlined>0</underlined>
+																<face>Sans</face>
+															</font>
+															<value></value>
+														</object>
+													</object>
+													<object class="sizeritem">
+														<option>0</option>
+														<flag>wxALL|wxALIGN_CENTER_VERTICAL</flag>
+														<border>5</border>
+														<object class="wxStaticText" name="jurusan2">
+															<font>
+																<size>16</size>
+																<style>normal</style>
+																<weight>normal</weight>
+																<underlined>0</underlined>
+																<face>Tw Cen MT</face>
+															</font>
+															<label>Jurusan</label>
+															<wrap>-1</wrap>
+														</object>
+													</object>
+													<object class="sizeritem">
+														<option>0</option>
+														<flag>wxALL|wxEXPAND</flag>
+														<border>5</border>
+														<object class="wxTextCtrl" name="jurusan_input2">
+															<style>wxTE_READONLY</style>
+															<font>
+																<size>12</size>
+																<family>swiss</family>
+																<style>normal</style>
+																<weight>normal</weight>
+																<underlined>0</underlined>
+																<face>Sans</face>
+															</font>
+															<value></value>
+														</object>
+													</object>
+													<object class="sizeritem">
+														<option>0</option>
+														<flag>wxALL|wxALIGN_CENTER_VERTICAL</flag>
+														<border>5</border>
+														<object class="wxStaticText" name="kota2">
+															<font>
+																<size>16</size>
+																<style>normal</style>
+																<weight>normal</weight>
+																<underlined>0</underlined>
+																<face>Tw Cen MT</face>
+															</font>
+															<label>Kota</label>
+															<wrap>-1</wrap>
+														</object>
+													</object>
+													<object class="sizeritem">
+														<option>0</option>
+														<flag>wxALL|wxEXPAND</flag>
+														<border>5</border>
+														<object class="wxTextCtrl" name="kota_input2">
+															<style>wxTE_READONLY</style>
+															<font>
+																<size>12</size>
+																<family>swiss</family>
+																<style>normal</style>
+																<weight>normal</weight>
+																<underlined>0</underlined>
+																<face>Sans</face>
+															</font>
+															<value></value>
+														</object>
+													</object>
+													<object class="sizeritem">
+														<option>0</option>
+														<flag>wxALL|wxALIGN_CENTER_VERTICAL</flag>
+														<border>5</border>
+														<object class="wxStaticText" name="hobi2">
+															<font>
+																<size>16</size>
+																<style>normal</style>
+																<weight>normal</weight>
+																<underlined>0</underlined>
+																<face>Tw Cen MT</face>
+															</font>
+															<label>Hobi</label>
+															<wrap>-1</wrap>
+														</object>
+													</object>
+													<object class="sizeritem">
+														<option>0</option>
+														<flag>wxALL|wxEXPAND</flag>
+														<border>5</border>
+														<object class="wxTextCtrl" name="hobi_input2">
+															<style>wxTE_MULTILINE|wxTE_READONLY</style>
+															<font>
+																<size>12</size>
+																<family>swiss</family>
+																<style>normal</style>
+																<weight>normal</weight>
+																<underlined>0</underlined>
+																<face>Sans</face>
+															</font>
+															<value></value>
+														</object>
+													</object>
+													<object class="sizeritem">
+														<option>0</option>
+														<flag>wxALL|wxALIGN_CENTER_VERTICAL</flag>
+														<border>5</border>
+														<object class="wxStaticText" name="prestasi_akademik2">
+															<font>
+																<size>16</size>
+																<style>normal</style>
+																<weight>normal</weight>
+																<underlined>0</underlined>
+																<face>Tw Cen MT</face>
+															</font>
+															<label>Prestasi Akademik</label>
+															<wrap>-1</wrap>
+														</object>
+													</object>
+													<object class="sizeritem">
+														<option>0</option>
+														<flag>wxALL|wxEXPAND</flag>
+														<border>5</border>
+														<object class="wxTextCtrl" name="prestasi_akademik_input2">
+															<style>wxTE_MULTILINE|wxTE_READONLY</style>
+															<font>
+																<size>12</size>
+																<family>swiss</family>
+																<style>normal</style>
+																<weight>normal</weight>
+																<underlined>0</underlined>
+																<face>Sans</face>
+															</font>
+															<value></value>
+														</object>
+													</object>
+													<object class="sizeritem">
+														<option>0</option>
+														<flag>wxALL|wxALIGN_CENTER_VERTICAL</flag>
+														<border>5</border>
+														<object class="wxStaticText" name="prestasi_non_akademik2">
+															<font>
+																<size>16</size>
+																<style>normal</style>
+																<weight>normal</weight>
+																<underlined>0</underlined>
+																<face>Tw Cen MT</face>
+															</font>
+															<label>Prestasi Non Akademik</label>
+															<wrap>-1</wrap>
+														</object>
+													</object>
+													<object class="sizeritem">
+														<option>0</option>
+														<flag>wxALL|wxEXPAND</flag>
+														<border>5</border>
+														<object class="wxTextCtrl" name="prestasi_non_akademik_input2">
+															<style>wxTE_MULTILINE|wxTE_READONLY</style>
+															<font>
+																<size>12</size>
+																<family>swiss</family>
+																<style>normal</style>
+																<weight>normal</weight>
+																<underlined>0</underlined>
+																<face>Sans</face>
+															</font>
+															<value></value>
+														</object>
+													</object>
+													<object class="sizeritem">
+														<option>0</option>
+														<flag>wxALL|wxALIGN_CENTER_VERTICAL</flag>
+														<border>5</border>
+														<object class="wxStaticText" name="ekskul_yang_diikuti2">
+															<font>
+																<size>16</size>
+																<style>normal</style>
+																<weight>normal</weight>
+																<underlined>0</underlined>
+																<face>Tw Cen MT</face>
+															</font>
+															<label>Ekskul yang Diikuti</label>
+															<wrap>-1</wrap>
+														</object>
+													</object>
+													<object class="sizeritem">
+														<option>0</option>
+														<flag>wxALL|wxEXPAND</flag>
+														<border>5</border>
+														<object class="wxTextCtrl" name="ekskul_yang_diikuti_input2">
+															<style>wxTE_MULTILINE|wxTE_READONLY</style>
+															<font>
+																<size>12</size>
+																<family>swiss</family>
+																<style>normal</style>
+																<weight>normal</weight>
+																<underlined>0</underlined>
+																<face>Sans</face>
+															</font>
+															<value></value>
+														</object>
+													</object>
+												</object>
+											</object>
+										</object>
 									</object>
 								</object>
 								<object class="sizeritem">
-									<option>1</option>
-									<flag>wxEXPAND | wxALL</flag>
+									<option>0</option>
+									<flag>wxALL</flag>
 									<border>5</border>
 									<object class="wxPanel" name="m_panel91">
 										<style>wxTAB_TRAVERSAL</style>
 										<object class="wxBoxSizer">
 											<orient>wxVERTICAL</orient>
-											<object class="spacer">
-												<option>0</option>
-												<flag></flag>
-												<border>5</border>
-												<size>0,75</size>
-											</object>
 											<object class="sizeritem">
-												<option>0</option>
-												<flag>wxALL|wxALIGN_CENTER_HORIZONTAL</flag>
+												<option>1</option>
+												<flag>wxEXPAND | wxALL</flag>
 												<border>5</border>
-												<object class="wxStaticText" name="m_staticText7">
-													<font>
-														<size>16</size>
-														<style>normal</style>
-														<weight>bold</weight>
-														<underlined>0</underlined>
-														<face>Tw Cen MT</face>
-													</font>
-													<label>OCCUPATIONAL DAYDREAM</label>
-													<wrap>-1</wrap>
+												<object class="wxPanel" name="m_panel96">
+													<style>wxTAB_TRAVERSAL</style>
+													<object class="wxBoxSizer">
+														<orient>wxVERTICAL</orient>
+														<object class="sizeritem">
+															<option>0</option>
+															<flag>wxALL|wxALIGN_CENTER_HORIZONTAL</flag>
+															<border>5</border>
+															<object class="wxStaticText" name="m_staticText7">
+																<font>
+																	<size>16</size>
+																	<style>normal</style>
+																	<weight>bold</weight>
+																	<underlined>0</underlined>
+																	<face>Tw Cen MT</face>
+																</font>
+																<label>OCCUPATIONAL DAYDREAM</label>
+																<wrap>-1</wrap>
+															</object>
+														</object>
+													</object>
 												</object>
-											</object>
-											<object class="spacer">
-												<option>0</option>
-												<flag></flag>
-												<border>5</border>
-												<size>0,25</size>
 											</object>
 											<object class="sizeritem">
 												<option>0</option>
@@ -4874,6 +5765,7 @@
 																<flag>wxALL|wxALIGN_CENTER_VERTICAL</flag>
 																<border>5</border>
 																<object class="wxTextCtrl" name="textctrl1">
+																	<style>wxTE_READONLY</style>
 																	<size>300,-1</size>
 																	<font>
 																		<size>12</size>
@@ -4917,6 +5809,7 @@
 																<flag>wxALL|wxALIGN_CENTER_VERTICAL</flag>
 																<border>5</border>
 																<object class="wxTextCtrl" name="textctrl2">
+																	<style>wxTE_READONLY</style>
 																	<size>300,-1</size>
 																	<font>
 																		<size>12</size>
@@ -4960,6 +5853,7 @@
 																<flag>wxALL|wxALIGN_CENTER_VERTICAL</flag>
 																<border>5</border>
 																<object class="wxTextCtrl" name="textctrl3">
+																	<style>wxTE_READONLY</style>
 																	<size>300,-1</size>
 																	<font>
 																		<size>12</size>
@@ -5003,6 +5897,7 @@
 																<flag>wxALL|wxALIGN_CENTER_VERTICAL</flag>
 																<border>5</border>
 																<object class="wxTextCtrl" name="textctrl4">
+																	<style>wxTE_READONLY</style>
 																	<size>300,-1</size>
 																	<font>
 																		<size>12</size>
@@ -5046,6 +5941,7 @@
 																<flag>wxALL|wxALIGN_CENTER_VERTICAL</flag>
 																<border>5</border>
 																<object class="wxTextCtrl" name="textctrl5">
+																	<style>wxTE_READONLY</style>
 																	<size>300,-1</size>
 																	<font>
 																		<size>12</size>
@@ -5080,6 +5976,7 @@
 																<flag>wxALL|wxALIGN_CENTER_VERTICAL|wxALIGN_CENTER_HORIZONTAL</flag>
 																<border>5</border>
 																<object class="wxStaticText" name="m_staticText139">
+																	<hidden>1</hidden>
 																	<label>6</label>
 																	<wrap>-1</wrap>
 																</object>
@@ -5090,6 +5987,7 @@
 																<border>5</border>
 																<object class="wxTextCtrl" name="textctrl6">
 																	<size>300,-1</size>
+																	<hidden>1</hidden>
 																	<font>
 																		<size>12</size>
 																		<family>swiss</family>
@@ -5106,6 +6004,7 @@
 																<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
 																<border>5</border>
 																<object class="wxStaticText" name="label6">
+																	<hidden>1</hidden>
 																	<font>
 																		<size>12</size>
 																		<family>swiss</family>

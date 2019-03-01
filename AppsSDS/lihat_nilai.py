@@ -1,5 +1,6 @@
 import wx
 from AppsSDS.halaman import Halaman6
+
 class LihatNilai():
     
     def __init__(self,parent):  
