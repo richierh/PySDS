@@ -34,7 +34,7 @@ def openWindows():
 	start = run(None)
 	start.Show()
 	root.MainLoop()	
-	print ("lewat sini")
+	# print ("lewat sini")
 	return None
 
 def close():
@@ -42,7 +42,7 @@ def close():
 	start = authenticationFrameWarningKey(None)
 	start.Show()
 	root.MainLoop()
-	print ("lewat close")
+	# print ("lewat close")
 	return None
 
 
@@ -50,24 +50,24 @@ def close():
 
 
 # my_file = Path("/home/binakarir/Projects/PySDS/run.py")
-my_file = Path("c:\\ProgramData\\tes.txt")
 
-print (my_file)
 
 
 
 if platform.system() == "Windows":
 	print (platform.system())
+	my_file = Path("c:\\ProgramData\\tes.txt")
 
+	# print (my_file)
 	if my_file.is_file():
-		print ("file ada")
+		# print ("file ada")
 		openWindows()
 
 	else : 
-		print ("file tidak ada")
-		KeyVerification = VerifyKey("1")
-		print (KeyVerification.Verify())
-		print (type(KeyVerification))
+		# print ("file tidak ada")
+		KeyVerification = VerifyKey("2")
+		# print (KeyVerification.Verify())
+		# print (type(KeyVerification))
 
 		if KeyVerification.Verify() == "1":
 			openWindows()
@@ -78,4 +78,21 @@ if platform.system() == "Windows":
 
 elif platform.system() == "Linux" :
 	print (platform.system())
-	openWindows()
+	my_file = Path.home()/".tes"
+	# print (my_file)
+	if my_file.is_file():
+		# print ("file ada")
+		openWindows()
+
+	else : 
+		# print ("file tidak ada")
+		KeyVerification = VerifyKey("2")
+		# print (KeyVerification.Verify())
+		# print (type(KeyVerification))
+
+
+		if KeyVerification.Verify() == "1":
+			openWindows()
+
+		else :
+			close()

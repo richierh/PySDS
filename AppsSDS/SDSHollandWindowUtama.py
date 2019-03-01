@@ -970,11 +970,11 @@ class SDSHollandWindowUtama(sds.WindowUtama):
 
 		print (datetime.datetime.now().month)
 		
-		displayDatefrom = wx.DateTime.FromDMY(int(1), int(self.curr_month) , int(self.curr_year))
-		displayDateuntil = wx.DateTime.FromDMY(int(31), int(self.curr_month), int(self.curr_year))
-		print (displayDatefrom)
-		self.BukaWindowFilter.m_datePickerdaritgl.SetValue(displayDatefrom)
-		self.BukaWindowFilter.m_datePickersampaitgl.SetValue(displayDateuntil)
+		# displayDatefrom = wx.DateTime.FromDMY(int(1), int(self.curr_month) , int(self.curr_year))
+		# displayDateuntil = wx.DateTime.FromDMY(int(31), int(self.curr_month), int(self.curr_year))
+		# print (displayDatefrom)
+		# self.BukaWindowFilter.m_datePickerdaritgl.SetValue(displayDatefrom)
+		# self.BukaWindowFilter.m_datePickersampaitgl.SetValue(displayDateuntil)
 
 		self.BukaWindowFilter.m_buttonFilterBatal.Bind(wx.EVT_BUTTON, self.m_buttonFilterBatalOnButtonClick )
 		self.BukaWindowFilter.m_buttonKlikFilterTanggal.Bind( wx.EVT_BUTTON, self.m_buttonKlikFilterTanggalOnButtonClick )

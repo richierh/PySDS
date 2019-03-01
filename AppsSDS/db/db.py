@@ -123,7 +123,7 @@ class QueryList():
         conn = create_connection(self.db_file)
         
         if conn is not None :
-            sql = "SELECT * From fileedit"
+            sql = "SELECT * From fileedit2"
             c = create_table(conn,sql)
             getdata = c.fetchall()
 #             print (getdata)
@@ -149,7 +149,7 @@ class QueryList():
         conn = create_connection(self.db_file)
         
         if conn is not None :
-            sql  = "SELECT * From fileedit WHERE Profesi = '{}'".format(self.prof)
+            sql  = "SELECT * From fileedit2 WHERE Profesi = '{}'".format(self.prof)
             c = selectdata(conn,sql)
 
             getdata = c.fetchall()
@@ -163,7 +163,7 @@ class QueryList():
 
 
 
-            sql2 = "SELECT * From fileedit WHERE Code = '{}'".format(self.prof2)            
+            sql2 = "SELECT * From fileedit2 WHERE Code = '{}'".format(self.prof2)            
             c = selectdata(conn,sql2)
             getdata2 = c.fetchall()
                 
