@@ -5,8 +5,8 @@ Account Executive;AES;Eksekutif akun
 Accountant;CSI;Akuntan
 "Accountant, Cost";CIE;Akuntan biaya
 "Accountant, Property";CER;Akuntan properti
-"Accountant, Systems";CSE;"Akuntan, sistem"
-"Accountant, Tax";ECS;"Akuntan, pajak"
+"Accountant, Systems";CSE;Akuntan
+"Accountant, Tax";ECS;Akuntan
 Accounting Clerk;CSR;Petugas Akuntansi
 Acquisitions Librarian;SAI;pustakawan akuisisi
 Acrobat;AER;akrobat
@@ -17,15 +17,15 @@ Acupunturist;IRE;Ahli Akupunktur
 Adapted Physical Education Specialist;SRE;Spesialis Pendidikan Jasmani Yang Diadaptasi
 Adhesive Bonding Machine Operator;RCS;Operator Mesin Perekat
 Administrative Assistant;ESC;Asisten administratif
-"Administrator, Health Care Facility";SER;"Administrator, Fasilitas Perawatan Kesehatan"
+"Administrator, Health Care Facility";SER;Administrator
 Advertising Sales Agent;ERS;Agen Penjualan Periklanan
-"Agent, Artists";ESA;"Agen, seniman"
-"Agent, Athletes";ESR;"Agen, atlit"
+"Agent, Artists";ESA;Agen
+"Agent, Athletes";ESR;Agen
 Agricultural Inspector;RIC;Inspektur/Pengawas Pertanian
 Agronomist;IRS;Ahli agronomi
 Air Analyst;IRS;Analis Udara
 Air Traffic Control Specialist;SCE;Spesialis Kontrol Lalu Lintas Udara
-"Aircraft Mechanic, Electrical and Radio";RIE;"Mekanik Pesawat, Listrik dan Radio"
+"Aircraft Mechanic, Electrical and Radio";RIE;Mekanik Pesawat
 Airfield Operations Specialist;RES;Spesialis Operasi Lapangan Terbang
 Airplane and Power Plant Mechanic;RIE;Mekanik pembangkit listrik dan pesawat terbang
 Airline Radio Operator;CRE;Operator Radio Penerbangan
@@ -35,7 +35,7 @@ Airport Manager;ESR;Manajer Bandara
 Airport Utility Worker;RCI;Pekerja Utilitas Bandara
 Alergist/Imunologist;ISE;Ahli Alergi / Imunologi
 Amusement Park Worker;SRE;Pekerja Taman Hiburan
-"Analyst, Management";ICR;"Analis, Manajemen"
+"Analyst, Management";ICR;Analis
 Anesthesiologist;IRS;Ahli anestesi
 Anesthesiologist Assistant;RSI;Asisten Ahli anestesi
 Animal Breeder;RES;Peternak Hewan
@@ -46,7 +46,7 @@ Animal Trainer;RES;Pelatih Hewan
 "Announcer, Radio and TV Broadcasting";SCE;Penyiar
 Anthropologist;IRE;Antropolog
 Appeals Referee;SCE;Wasit Banding
-Appliance Repairer;RIE;#N/A
+Appliance Repairer;RIE;Tukang Reparasi Perkakas
 Appliance Service Supervisor;ERS;Pengawas Layanan Perkakas
 Appraiser;CIR;juru taksir
 "Appraiser, Governmental Sevices";IES;Penilai
@@ -60,37 +60,37 @@ Art Appraiser;IAS;Penilai Seni
 Art Director;AES;sutradara seni
 Art Therapist;SAI;Terapis Seni
 Artificial Breeding Technician;RCS;Teknisi pembiakan buatan
-"Artist and Repertoire Manager, Music";AES;"Artis dan Manajer Repertoar, Musik"
-"Artist, Body Makeup";AER;"Seniman, Rias Tubuh"
-"Artist, Exhibit";ASI;"Seniman, pameran"
-"Artist, Fashion";AER;"Seniman, Busana"
-"Artist, Police";ASC;"Seniman, Polisi"
-"Artist, Quick Sketch";ASE;"Seniman, sketsa cepat"
-"Artist, Stained Glass";ASE;#N/A
-"Artist, TatToo";AEC;#N/A
+"Artist and Repertoire Manager, Music";AES;Artis dan Manajer Repertoar
+"Artist, Body Makeup";AER;Seniman
+"Artist, Exhibit";ASI;Seniman
+"Artist, Fashion";AER;Seniman
+"Artist, Police";ASC;Seniman
+"Artist, Quick Sketch";ASE;Seniman
+"Artist, Stained Glass";ASE;"Seniman, kaca berwarna"
+"Artist, TatToo";AEC;"Seniman, tato"
 "Assembler and Tester, Electronics";RIC;Perakit dan Penguji elektronik
-"Assembler, Aircraft";RCI;#N/A
+"Assembler, Aircraft";RCI;"Perakit, pesawat terbang"
 "Assembler, Atomic Fuel";RCS;Perakit Bahan Bakar Atom
 "Assembler, Electric Signs";CRS;Perakit Tanda listrik
 "Assembler, Electrical Accessories";RCS;Perakit Aksesori Listrik
 "Assembler, Electronics";CRE;Perakit elektronik
-"Assembler, Engine";RCI;"Perakit, mesin"
+"Assembler, Engine";RCI;Perakit
 "Assembler, Equipment";RCI;Perakit Peralatan
-"Assembler, Leather Goods";CRE;"Perakit, barang-barang kulit"
-"Assembler, Musical Instruments";CRS;"Perakit, alat musik"
-"Assembler, Small Products";CRS;#N/A
+"Assembler, Leather Goods";CRE;Perakit
+"Assembler, Musical Instruments";CRS;Perakit
+"Assembler, Small Products";CRS;"Perakit, produk kecil"
 "Assembler, Switchboard Contact";CRE;Perakit kontak weselbor
 Assembly Line Inspector;CRS;Inspektur/Peninjau Jalur Perakitan
-"Assembly Supervisor, Agricultural Equipment";ESR;"Pengawas Majelis, Peralatan Pertanian"
-"Assembly Supervisor, Woodworking";ERS;"Pengawas Majelis, Peralatan Pertanian"
-"Assignment Clerk, Motor Transportation";CSR;"Petugas juru tulis, Transportasi motor"
+"Assembly Supervisor, Agricultural Equipment";ESR;Pengawas Majelis
+"Assembly Supervisor, Woodworking";ERS;Pengawas Majelis
+"Assignment Clerk, Motor Transportation";CSR;Petugas juru tulis
 Association Executive;ESA;Asosiasi eksekutif
 Astronomer;IRE;Ahli astronomi
 "Athlete, Professional";SRC;Atlet Profesional
 Athletic Director;SER;Direktur Atletik
 Athletic Trainer;SRE;Pelatih Atletik
-"Attorney, Insurance";SEI;"Pengacara, asuransi"
-"Attorney, Tax";ESI;"Pengacara, asuransi"
+"Attorney, Insurance";SEI;Pengacara
+"Attorney, Tax";ESI;Pengacara
 Auctioneer;EAS;Juru lelang
 Audio and Video Equipment Technician;RIA;Teknisi Peralatan Audio dan Video
 Audio Operator;RES;Operator Audio
@@ -109,13 +109,13 @@ Automobile Racer;RES;Pembalap mobil
 Automobile Rental Clerk;ESC;Petugas Penyewaan Mobil
 Automobile Service Station Attendant;RES;Petugas Bengkel Servis Mobil
 Automobile Service Station Mechanic;RIC;Petugas Bengkel Servis Mobil
-"Automobile Tester, Governmental Services";RCE;#N/A
-Automobile Engineering Technician;RIC;#N/A
+"Automobile Tester, Governmental Services";RCE;"Penguji Otomotif, Layanan Pemerintah"
+Automobile Engineering Technician;RIC;Teknisi Rekayasa Mobil
 Baggage and Mail Agent;ERS;Agen Bagasi dan Surat
 Baggage Handler;REC;Penangan Bagasi
 Bailiff;ESR;Juru sita
 Baker;RSE;Tukang roti
-"Ballistics Expert, Forensic";IRE;"Pakar Balistik, Forensik"
+"Ballistics Expert, Forensic";IRE;Pakar Balistik
 Bank Examiner;EIC;Pemeriksa Bank
 Bank Teller;CSE;Teller Bank
 Bank Teller Supervisor;SEC;Pengawas Bank Teller
@@ -123,9 +123,9 @@ Barber;ESR;Tukang cukur
 Barista;ECS;Barista
 Bartender;SEC;Pelayan Bar
 Bibliographer;CSR;ahli bibliografi
-Bicycle Repairer;RSC;#N/A
-Billing Clerk;CRS;#N/A
-"Bindery Worker, Printing and Publishing";REC;"Bindery Worker, Printing and Publishing"
+Bicycle Repairer;RSC;Tukang reparasi Sepeda
+Billing Clerk;CRS;Petugas Penagihan
+"Bindery Worker, Printing and Publishing";REC;Bindery Worker
 Biochemist;IRS;Biochemist
 Biofuel Processing Technician;RCI;Biofuel Processing Technician
 Bioinformatics Scientist;ICR;Bioinformatics Scientist
@@ -151,7 +151,7 @@ Bricklayer Supervisor;ERS;Bricklayer Supervisor
 Bridge Inspector;RSI;Bridge Inspector
 Broadcast Checker;CER;Broadcast Checker
 Broadcast News Analyst;AES;Broadcast News Analyst
-Broadcast Technician;RCS;#N/A
+Broadcast Technician;RCS;Teknisi Penyiaran
 Brokerage Clerk;CSR;Brokerage Clerk
 Budget Analyst;CER;Budget Analyst
 Budget Clerk;CSR;Budget Clerk
@@ -166,17 +166,17 @@ Business Consultant;IER;Business Consultant
 Business Continuity Planner;EIC;Business Continuity Planner
 Business Enterprise Officer;EIR;Business Enterprise Officer
 Business Intelligence Analyst;IEC;Business Intelligence Analyst
-"Business Manager, College or University";ESR;"Business Manager, College or University"
-"Business Representative, Labor Union";ESA;"Business Representative, Labor Union"
+"Business Manager, College or University";ESR;Business Manager
+"Business Representative, Labor Union";ESA;Business Representative
 Butcher;RSE;Butcher
 Buyer;ESC;Buyer
-"Buyer, Farm Products";EIS;"Buyer, Farm Products"
+"Buyer, Farm Products";EIS;Buyer
 Cabinet Assembler;CSR;Cabinet Assembler
 Cabinetmaker;RIS;Cabinetmaker
 Cable Splicer;RCS;Cable Splicer
 Cake Decorator;ARE;Cake Decorator
 Calibration Laboratory Technician;RCI;Calibration Laboratory Technician
-"Camera Operator, Television, Video, and Film";RIC;"Camera Operator, Television, Video, and Film"
+"Camera Operator, Television, Video, and Film";RIC;Camera Operator
 Camera Repairer;RCE;Camera Repairer
 Camp Director;ERS;Camp Director
 Cardiologist;ISE;Cardiologist
@@ -188,11 +188,11 @@ Carpenter;RCE;Carpenter
 Carpet Layer;REI;Carpet Layer
 Cartoonist;AES;Cartoonist
 Casework Supervisor;SEC;Casework Supervisor
-"Caseworker, Family";SEA;"Caseworker, Family"
+"Caseworker, Family";SEA;Caseworker
 Cashier;CES;Cashier
 Cashier Supervisor;ESR;Cashier Supervisor
 Casino Booth Cashier;CES;Casino Booth Cashier
-"Cellar Supervisor, Winemaking";REA;"Cellar Supervisor, Winemaking"
+"Cellar Supervisor, Winemaking";REA;Cellar Supervisor
 Central Supply Worker;CER;Central Supply Worker
 Cephalometric Analyst;IRC;Cephalometric Analyst
 Chauffeur;REC;Chauffeur
@@ -209,14 +209,14 @@ Chief Executive Officer;SEI;Chief Executive Officer
 Chief Financial Officer;EIC;Chief Financial Officer
 Chief Information Officer;IER;Chief Information Officer
 Chief Operating Officer;ESI;Chief Operating Officer
-Chief Sustainability Officer;ERS;#N/A
+Chief Sustainability Officer;ERS;Kepala Staf Keberlanjutan
 Child Development Specialist;SEC;Child Development Specialist
-Chiropractor;ISR;#N/A
+Chiropractor;ISR;Chiropractor
 Chiropractor Assistant;SRE;Chiropractor Assistant
 Choral Director;AES;Choral Director
 Choreographer;AES;Choreographer
 Circulation Clerk;ECR;Circulation Clerk
-Circulation Manager;ESC;#N/A
+Circulation Manager;ESC;Manajer Sirkulasi
 City Manager;SEC;City Manager
 Claims Adjuster;ESR;Claims Adjuster
 Claims Agent;SEC;Claims Agent
@@ -226,21 +226,21 @@ Climate Change Analyst;IRC;Climate Change Analyst
 Clinical Data Manager;CIS;Clinical Data Manager
 Clinical Nurse Specialist;SIE;Clinical Nurse Specialist
 Clinical Research Coordinator;ERI;Clinical Research Coordinator
-"Coach, Professional Athletes";SRE;"Coach, Professional Athletes"
-"Coach, Youth and Amateur Sports";ESR;"Coach, Youth and Amateur Sports"
+"Coach, Professional Athletes";SRE;Coach
+"Coach, Youth and Amateur Sports";ESR;Coach
 Collection Clerk;CSR;Collection Clerk
 Comedian;AES;Comedian
 Commercial Designer;AER;Commercial Designer
 Communication Equipment Supervisor;ACR;Communication Equipment Supervisor
 Communications Consultant;EIA;Communications Consultant
-Communications Equipment Operator;CRE;#N/A
+Communications Equipment Operator;CRE;Operator Peralatan Komunikasi
 Community and Social Service Specialist;SEC;Community and Social Service Specialist
 Community Health Worker;SCI;Community Health Worker
 Community Program Aide;SEC;Community Program Aide
 Community Worker;SER;Community Worker
 Compliance Manager;ESI;Compliance Manager
-Composer;ASE;#N/A
-Computer Aided Design Tecchnician;RCI;#N/A
+Composer;ASE;Komposer
+Computer Aided Design Technician;RCI;Teknisi Desain Bantuan Komputer
 Computer Network Architect;IEC;Computer Network Architect
 Computer Network Support Specialist;ISC;Computer Network Support Specialist
 Computer Operations Supervisor;ESI;Computer Operations Supervisor
@@ -252,24 +252,24 @@ Computer Security Specialist;CIS;Computer Security Specialist
 Computer Systems Engineer/Architect;IRE;Computer Systems Engineer/Architect
 Computer Systems Hardware Analyst;IRE;Computer Systems Hardware Analyst
 Concierge;ESC;Concierge
-"Conductor, Orchestra";AES;"Conductor, Orchestra"
-"Conductor, Road Freight";ECS;"Conductor, Road Freight"
-"Conductor, Train";RSC;"Conductor, Train"
+"Conductor, Orchestra";AES;Conductor
+"Conductor, Road Freight";ECS;Conductor
+"Conductor, Train";RSC;Conductor
 Congressional District Aide;CES;Congressional District Aide
 Conservations Scientist;IRE;Conservations Scientist
 Construction Carpenter;RCE;Construction Carpenter
-"Construction Checker, Utilities";RCI;"Construction Checker, Utilities"
-Construction Inspector;REC;#N/A
+"Construction Checker, Utilities";RCI;Construction Checker
+Construction Inspector;REC;Inspektur Konstruksi
 Construction Superintendent;ERS;Construction Superintendent
 Construction Worker;RCS;Construction Worker
 Continuity Writer;AES;Continuity Writer
 Contractor;EIR;Contractor
 Controller/Comptroller;EIS;Controller/Comptroller
 Cook Apprentice;RAS;Cook Apprentice
-"Cook, Chief";REA;"Cook, Chief"
-"Cook, Fast Food";RCS;"Cook, Fast Food"
-"Cook, Hotel and Restaurant";RSE;#N/A
-"Cook, Institution and Cafetaria";RCS;"Cook, Institution and Cafetaria"
+"Cook, Chief";REA;Cook
+"Cook, Fast Food";RCS;Cook
+"Cook, Hotel and Restaurant";RSE;"Pemasak, Hotel dan Restoran"
+"Cook, Institution and Cafetaria";RCS;Cook
 Coordinator of Rehabilitation Services;SEI;Coordinator of Rehabilitation Services
 Copywriter;ASI;Copywriter
 Coroner;ISE;Coroner
@@ -281,9 +281,9 @@ Cosmetologist;SEA;Cosmetologist
 Cost Clerk;CRS;Cost Clerk
 Costumer;ARI;Costumer
 Counselor;SAE;Counselor
-"Counselor, Camp";SEC;"Counselor, Camp"
+"Counselor, Camp";SEC;Counselor
 Counter Attendant;CER;Counter Attendant
-"Counter Clerk, Photofinishing";CRE;#N/A
+"Counter Clerk, Photofinishing";CRE;"Petugas Counter, Photofinishing"
 Country Agricultural Agent;SEC;Country Agricultural Agent
 Court Administrator;ESR;Court Administrator
 Court Clerk;CSE;Court Clerk
@@ -292,25 +292,25 @@ Court Reporter;CSE;Court Reporter
 Crabber;REC;Crabber
 Crane and Tower Operator;CRE;Crane and Tower Operator
 Creative Director;AES;Creative Director
-Credit Analyst;CRS;#N/A
+Credit Analyst;CRS;Analis Kredit
 Credit Authorizer;CES;Credit Authorizer
 Credit Card Clerk;CER;Credit Card Clerk
 Credit Counselor;SEC;Credit Counselor
 Crew Scheduler;CRS;Crew Scheduler
 Crime Laboratory Analyst;IRC;Crime Laboratory Analyst
 Cryptanalyst;IEC;Cryptanalyst
-"Curator, Museum";IRS;"Curator, Museum"
+"Curator, Museum";IRS;Curator
 Custom Van Converter;RCI;Custom Van Converter
-Customer Service Representative;CSR;#N/A
+Customer Service Representative;CSR;Perwakilan Layanan Pelanggan
 Customs Broker;CSR;Customs Broker
 Customs Import Specialist;ISE;Customs Import Specialist
 Customs Inspector;CEI;Customs Inspector
 Cytogenetic Technologist;IRC;Cytogenetic Technologist
 Cytotechnologist;ICR;Cytotechnologist
-Dairy Farm Supervisor;ERC;#N/A
+Dairy Farm Supervisor;ERC;Pengawas Peternakan Sapi Perah
 Dairy Scientist;IRE;Dairy Scientist
 Dairy Technologist;IRS;Dairy Technologist
-Dance Instructor;ASE;#N/A
+Dance Instructor;ASE;Instruktur Tari
 Dance Therapist;ASI;Dance Therapist
 Dancer;AER;Dancer
 Data Communications/Telecommunications Analyst;RSI;Data Communications/Telecommunications Analyst
@@ -329,68 +329,68 @@ Dental Ceramist Assistant;REA;Dental Ceramist Assistant
 Dental Hygienist;SAI;Dental Hygienist
 Dental Laboratory Supervisor;SER;Dental Laboratory Supervisor
 Dentist;ISR;Dentist
-"Dentist, Public Health";IRE;"Dentist, Public Health"
-"Department Head, College or University";ESI;"Department Head, College or University"
-Deputy Insurance Commisioner;ESR;#N/A
+"Dentist, Public Health";IRE;Dentist
+"Department Head, College or University";ESI;Department Head
+Deputy Insurance Commisioner;ESR;Wakil Komisaris Asuransi
 Deputy United States Marshal;SEC;Deputy United States Marshal
 Dermatologist;ISR;Dermatologist
 Desktop Publisher;CRS;Desktop Publisher
 Detective;SER;Detective
-"Detective, Chief";ESC;"Detective, Chief"
-"Detective, Narcotics and Vice";SRE;"Detective, Narcotics and Vice"
-"Die Maker, Jewelry";RIE;#N/A
+"Detective, Chief";ESC;Detective
+"Detective, Narcotics and Vice";SRE;Detective
+"Die Maker, Jewelry";RIE;"Die Maker, perhiasan"
 Diesel Mechanic;REI;Diesel Mechanic
 Dietary Manager;ESC;Dietary Manager
-Dietetic Technician;SEI;#N/A
-"Dietitian, Clinical";SIE;"Dietitian, Clinical"
-"Dietitian, Research";ISR;"Dietitian, Research"
-"Dietitian, Teaching";SIE;"Dietitian, Teaching"
+Dietetic Technician;SEI;Teknisi Diet
+"Dietitian, Clinical";SIE;Dietitian
+"Dietitian, Research";ISR;Dietitian
+"Dietitian, Teaching";SIE;Dietitian
 Dining Room Attendant;RCS;Dining Room Attendant
 Direct Mail Clerk;CRE;Direct Mail Clerk
 Director of Admissions;ESA;Director of Admissions
-"Director of Guidance, Public Schools";SEI;#N/A
+"Director of Guidance, Public Schools";SEI;"Direktur Bimbingan, Sekolah Umum"
 Director of Institutional Research;ESC;Director of Institutional Research
 Director of Philanthropy/Fundraising;SEC;Director of Philanthropy/Fundraising
 Director of Photography;AES;Director of Photography
 Director of Student Affairs;ESC;Director of Student Affairs
 Director of Vital Statistics;EAI;Director of Vital Statistics
-"Director, Community Health Nursing";SEC;#N/A
-"Director, Community Organization";SEA;"Director, Community Organization"
-"Director, Consumer Affairs";SER;"Director, Consumer Affairs"
-"Director, Correctional Agency";SEI;"Director, Correctional Agency"
-"Director, Council On Aging";EAS;"Director, Council On Aging"
-"Director, Craft Center";ESR;"Director, Craft Center"
-"Director, Day Care Center";ESC;"Director, Day Care Center"
-"Director, Film";SEC;"Director, Film"
-"Director, Food Service";EIS;"Director, Food Service"
-"Director, Industrial Relations";ESI;"Director, Industrial Relations"
-"Director, Information Resources";IER;"Director, Information Resources"
-"Director, Library";SEC;"Director, Library"
-"Director, Music";AES;"Director, Music"
-"Director, News";ESA;"Director, News"
-"Director, Outpatient Services";ESC;"Director, Outpatient Services"
-"Director, Quality Assurance";ESI;"Director, Quality Assurance"
-"Director, Radio";ESC;"Director, Radio"
-"Director, Regulatory Agency";ESC;"Director, Regulatory Agency"
-"Director, Religious Education";SEA;"Director, Religious Education"
-"Director, Research and Development";ERI;"Director, Research and Development"
-"Direcctor, Special Education";SEA;#N/A
-"Director, Sportcast";ESR;"Director, Sportcast"
-"Director, Stage";AES;"Director, Stage"
-"Director, Television";SEA;"Director, Television"
-"Director, Volunteer Services";SEC;"Director, Volunteer Services"
-"Director, Zoo";ESR;"Director, Zoo"
-Directory Assistance Operator;CER;#N/A
-Dishwaser;RCS;#N/A
-"Dispatcher, Chief";ESC;"Dispatcher, Chief"
-"Dispatcher, Emergency";SIC;"Dispatcher, Emergency"
-"Dispatcher, Amintenance Service";CES;#N/A
-"Dispatcher, Relay";ECR;"Dispatcher, Relay"
-"Dispatcher, Traffic or System";SEC;"Dispatcher, Traffic or system"
-"Dispatcher, Utilities Service";ECS;"Dispatcher, Utilities Service"
+"Director, Community Health Nursing";SEC;"Direktur, Perawatan Kesehatan Masyarakat"
+"Director, Community Organization";SEA;Director
+"Director, Consumer Affairs";SER;Director
+"Director, Correctional Agency";SEI;Director
+"Director, Council On Aging";EAS;Director
+"Director, Craft Center";ESR;Director
+"Director, Day Care Center";ESC;Director
+"Director, Film";SEC;Director
+"Director, Food Service";EIS;Director
+"Director, Industrial Relations";ESI;Director
+"Director, Information Resources";IER;Director
+"Director, Library";SEC;Director
+"Director, Music";AES;Director
+"Director, News";ESA;Director
+"Director, Outpatient Services";ESC;Director
+"Director, Quality Assurance";ESI;Director
+"Director, Radio";ESC;Director
+"Director, Regulatory Agency";ESC;Director
+"Director, Religious Education";SEA;Director
+"Director, Research and Development";ERI;Director
+"Director, Special Education";SEA;"Direktur, Pendidikan Khusus"
+"Director, Sportcast";ESR;Director
+"Director, Stage";AES;Director
+"Director, Television";SEA;Director
+"Director, Volunteer Services";SEC;Director
+"Director, Zoo";ESR;Director
+Directory Assistance Operator;CER;Operator Bantuan Direktori
+Dishwaser;RCS;Pencuci piring
+"Dispatcher, Chief";ESC;Dispatcher
+"Dispatcher, Emergency";SIC;Dispatcher
+"Dispatcher, Maintenance Service";CES;"Dispatcher, Layanan Pemeliharaan"
+"Dispatcher, Relay";ECR;Dispatcher
+"Dispatcher, Traffic or System";SEC;Dispatcher
+"Dispatcher, Utilities Service";ECS;Dispatcher
 Display Maker;RSI;Display Maker
 Display Manager;AES;Display Manager
-"Displayer, Merchandise";ARE;"Displayer, Merchandise"
+"Displayer, Merchandise";ARE;Displayer
 Distance Learning Coordinator;ESC;Distance Learning Coordinator
 Distribution Manager;ECI;Distribution Manager
 Distribution Supervisor;ECS;Distribution Supervisor
@@ -399,56 +399,56 @@ Diver;RES;Diver
 Dock Supervisor;RES;Dock Supervisor
 Dockworker;RIS;Dockworker
 Document Management Specialist;ECI;Document Management Specialist
-"Drafter, aeronautical";IRC;"Drafter, aeronautical"
-"Drafter, Architectural";RCI;"Drafter, Architectural"
-"Drafter, Chief";ICR;"Drafter, Chief"
-"Drafter, Detail";RIE;"Drafter, Detail"
-"Drafter, Electrical";IRE;"Drafter, Electrical"
-"Drafter, Mechanical";IRE;"Drafter, Mechanical"
-"Drafter, Structural";IRC;"Drafter, Structural"
+"Drafter, aeronautical";IRC;Drafter
+"Drafter, Architectural";RCI;Drafter
+"Drafter, Chief";ICR;Drafter
+"Drafter, Detail";RIE;Drafter
+"Drafter, Electrical";IRE;Drafter
+"Drafter, Mechanical";IRE;Drafter
+"Drafter, Structural";IRC;Drafter
 Drafting and Printed Circuit Design Supervisor;EIC;Drafting and Printed Circuit Design Supervisor
 Drama Coach;ASE;Drama Coach
 Dressmaker;RSE;Dressmaker
 Drilling and Production Superintendent;ERI;Drilling and Production Superintendent
-"Driver, Ambulance";RSI;#N/A
-"Driver, Bus";RES;"Driver, Bus"
-"Driver, Sales Route";ESR;#N/A
-"Driver, Truck";RCS;"Driver, Truck"
+"Driver, Ambulance";RSI;"Pengemudi, Ambulans"
+"Driver, Bus";RES;Driver
+"Driver, Sales Route";ESR;"Pengemudi, Rute Penjualan"
+"Driver, Truck";RCS;Driver
 Driving Instructor;SER;Driving Instructor
 Drywall Installer;RCS;Drywall Installer
 e-Commerce Project Developer;IRC;e-Commerce Project Developer
 e-Commerce Specialist;EAC;e-Commerce Specialist
 Economist;IAS;Economist
-"Editor, Book";AES;"Editor, Book"
-"Editor, Journal or Magazine";AES;"Editor, Journal or Magazine"
-"Editor, Managing";ESA;"Editor, Managing"
-"Editor, News";AES;"Editor, News"
-"Editor, Newspaper";AES;"Editor, Newspaper"
-"Editor, Story";ASE;"Editor, Story"
-"Editor, Technical and Scientific Publications";ASE;"Editor, Technical and Scientific Publications"
-"Editor, Web site";CIA;"Editor, Web Site"
-Editorial Assistant;CIA;#N/A
+"Editor, Book";AES;Editor
+"Editor, Journal or Magazine";AES;Editor
+"Editor, Managing";ESA;Editor
+"Editor, News";AES;Editor
+"Editor, Newspaper";AES;Editor
+"Editor, Story";ASE;Editor
+"Editor, Technical and Scientific Publications";ASE;Editor
+"Editor, Web site";CIA;Editor
+Editorial Assistant;CIA;Asisten Editorial
 Editorial Writer;AES;Editorial Writer
 Education Director;ESR;Education Director
-"Education, Training, and Library Worker";ISE;#N/A
+"Education, Training, and Library Worker";ISE;"Pendidikan, Pelatihan, dan Pekerja Perpustakaan"
 Educational Program Director;ESC;Educational Program Director
-"Educational Programming Director, Radio and TV";ESC;"Educational Programming Director, Radio and TV"
+"Educational Programming Director, Radio and TV";ESC;Educational Programming Director
 Educational Specialist;EIS;Educational Specialist
 Electric Motor Repairer;RIE;Electric Motor Repairer
-Electric Power Superintendent;ECI;#N/A
+Electric Power Superintendent;ECI;Pengawas Tenaga Listrik
 Electrical Appliance Repairer;RSE;Electrical Appliance Repairer
 Electrical Engineering Technologist;RIC;Electrical Engineering Technologist
-Electrical Technician;RIE;#N/A
-Electrician;RIE;#N/A
-Electrician Assistant;RCE;#N/A
+Electrical Technician;RIE;Teknisi Elektrik
+Electrician;RIE;Montir listrik
+Electrician Assistant;RCE;"Asisten, Montir listrik"
 Electrician Supervisor;RES;Electrician Supervisor
-"Electrician, Film";ESR;#N/A
+"Electrician, Film";ESR;"Montir listrik, film"
 Electrocardiograph Technician;RCI;Electrocardiograph Technician
 Electroencephalographic Technologist;RCS;Electroencephalographic Technologist
 Electrologist;CRE;Electrologist
 Electromechanical Engineering Technologist;RIC;Electromechanical Engineering Technologist
 Electro-Mechanical Technician;RIE;Electro-Mechanical Technician
-Electronic Home Entertainment Equipment Installer and Repairer;REI;#N/A
+Electronic Home Entertainment Equipment Installer and Repairer;REI;Pemasang dan Pereparasi Peralatan Hiburan Rumah Elektronik
 Electronics Engineering Technologist;RIC;Electronics Engineering Technologist
 Electronics Processing Supervisor;ESR;Electronics Processing Supervisor
 Electronics Technician;IRE;Electronics Technician
@@ -459,72 +459,72 @@ Employee Relations Specialist;SER;Employee Relations Specialist
 Employer Relations Representative;ESC;Employer Relations Representative
 Employment Clerk;CES;Employment Clerk
 Employment Interviewer;SCE;Employment Interviewer
-Employment Manager;ESC;#N/A
+Employment Manager;ESC;Manajer Pekerjaan
 Endodontist;ISE;Endodontist
 Endoscopy Technician;RIC;Endoscopy Technician
 Energy Broker;ECS;Energy Broker
 Energy Conservation Representative;RES;Energy Conservation Representative
 Energy Control Officer;ESR;Energy Control Officer
 Engine Tester;RIS;Engine Tester
-"Engineer, Aerospace";IRE;"Engineer, Aerospace"
-"Engineer, Agricultural";IRE;"Engineer, Agricultural"
-"Engineer, Airport";ISR;"Engineer, Airport"
-"Engineer, Automotive";RIE;"Engineer, Automotive"
-"Engineer, Biochemical";IRE;"Engineer, Biochemical"
-"Engineer, Biomedical";IRE;"Engineer, Biomedical"
-"Engineer, Ceramic Design";IRE;"Engineer, Ceramic Design"
-"Engineer, Chemical";IRE;"Engineer, Chemical"
-"Engineer, Chemical Equipment Sales";ERI;#N/A
-"Engineer, Chief";IER;"Engineer, Chief"
-"Engineer, Civil";IRE;"Engineer, Civil"
-"Engineer, Computer Systems Hardware";RIE;"Engineer, Computer Systems Hardware"
-"Engineer, Electrical";IRE;"Engineer, Electrical"
-"Engineer, Electronics";RIS;"Engineer, Electronics"
-"Engineer, Environmental";IRE;"Engineer, Environmental"
-"Engineer, Fire Prevention/Protection";CES;#N/A
-"Engineer, Flight";RES;"Engineer, Flight"
-"Engineer, Health and Safety";ISR;"Engineer, Health and Safety"
-"Engineer, Highway Administrative";IEC;"Engineer, Highway Administrative"
-"Engineer, Human Factors/Ergonomist";IRS;#N/A
-"Engineer, Industrial";EIR;"Engineer, Industrial"
-"Engineer, Industrial Health and Safety";ISR;"Engineer, Industrial Health and Safety"
-"Engineer, Irrigation";IRE;"Engineer, Irrigation"
-"Engineer, Locomotive";RES;"Engineer, Locomotive"
-"Engineer, Manufacturing";REI;"Engineer, Manufacturing"
-"Engineer, Marine";IRE;"Engineer, Marine"
-"Engineer, Materials";REI;"Engineer, Materials"
-"Engineer, Mechanical";RIS;"Engineer, Mechanical"
-"Engineer, Mechatronics";ICR;"Engineer, Mechatronics"
-"Engineer, Microsystems";IRC;"Engineer, Microsystems"
-"Engineer, Nanosystems";IRC;"Engineer, Nanosystems"
-"Engineer, Nuclear";IRE;"Engineer, Nuclear"
-"Engineer, Operating";RIS;"Engineer, Operating"
-"Engineer, Optical";RIC;"Engineer, Optical"
-"Engineer, Petroleum";RIE;"Engineer, Petroleum"
-"Engineer, Photogrammetric";IEC;#N/A
-"Engineer, Photographic";ISE;"Engineer, Photographic"
-"Engineer, Plant";RIE;#N/A
-"Engineer, Pollution Control";IEC;"Engineer, Pollution Control"
-"Engineer, Procurement";ECI;"Engineer, Procurement"
-"Engineer, Product Safety";ISE;#N/A
-"Engineer, Production";EIC;"Engineer, Production"
-"Engineer, Robotics";IRC;"Engineer, Robotics"
-"Engineer, Sales";ERI;"Engineer, Sales"
-"Engineer, Sanitary";IER;#N/A
-"Engineer, Software";IRE;"Engineer, Software"
-"Engineer, Stationary";REI;"Engineer, Stationary"
-"Engineer, Transportation";ISR;"Engineer, Transportation"
-"Engineer, Utilities";RCI;"Engineer, Utilities"
-"Engineer, Validation";IRC;"Engineer, Validation"
-"Engineer, Water/Wastewater";IRE;"Engineer, Water/Wastewater"
-"Engineer, Wind Energy";IRE;"Engineer, Wind Energy"
-"Engineering Assistant, Mechanical Equipment";IRC;"Engineering Assistant, Mechanical Equipment"
-"Engineering Manager, Electronics";IES;"Engineering Manager, Electronics"
-"Engineering Technician, Civil";RIC;"Engineering Technician, Civil"
-"Engraver, Glass Products";REA;"Engraver, Glass Products"
-Engraver Machine;RCE;#N/A
+"Engineer, Aerospace";IRE;Engineer
+"Engineer, Agricultural";IRE;Engineer
+"Engineer, Airport";ISR;Engineer
+"Engineer, Automotive";RIE;Engineer
+"Engineer, Biochemical";IRE;Engineer
+"Engineer, Biomedical";IRE;Engineer
+"Engineer, Ceramic Design";IRE;Engineer
+"Engineer, Chemical";IRE;Engineer
+"Engineer, Chemical Equipment Sales";ERI;"Insinyur, Penjualan Peralatan Kimia"
+"Engineer, Chief";IER;Engineer
+"Engineer, Civil";IRE;Engineer
+"Engineer, Computer Systems Hardware";RIE;Engineer
+"Engineer, Electrical";IRE;Engineer
+"Engineer, Electronics";RIS;Engineer
+"Engineer, Environmental";IRE;Engineer
+"Engineer, Fire Prevention/Protection";CES;"Insinyur, Pencegahan / Perlindungan Kebakaran"
+"Engineer, Flight";RES;Engineer
+"Engineer, Health and Safety";ISR;Engineer
+"Engineer, Highway Administrative";IEC;Engineer
+"Engineer, Human Factors/Ergonomist";IRS;"Insinyur, Faktor Manusia / Ergonomis"
+"Engineer, Industrial";EIR;Engineer
+"Engineer, Industrial Health and Safety";ISR;Engineer
+"Engineer, Irrigation";IRE;Engineer
+"Engineer, Locomotive";RES;Engineer
+"Engineer, Manufacturing";REI;Engineer
+"Engineer, Marine";IRE;Engineer
+"Engineer, Materials";REI;Engineer
+"Engineer, Mechanical";RIS;Engineer
+"Engineer, Mechatronics";ICR;Engineer
+"Engineer, Microsystems";IRC;Engineer
+"Engineer, Nanosystems";IRC;Engineer
+"Engineer, Nuclear";IRE;Engineer
+"Engineer, Operating";RIS;Engineer
+"Engineer, Optical";RIC;Engineer
+"Engineer, Petroleum";RIE;Engineer
+"Engineer, Photogrammetric";IEC;"Insinyur, Fotogrametri"
+"Engineer, Photographic";ISE;Engineer
+"Engineer, Plant";RIE;"Insinyur, Pabrik"
+"Engineer, Pollution Control";IEC;Engineer
+"Engineer, Procurement";ECI;Engineer
+"Engineer, Product Safety";ISE;"Insinyur, Keamanan Produk"
+"Engineer, Production";EIC;Engineer
+"Engineer, Robotics";IRC;Engineer
+"Engineer, Sales";ERI;Engineer
+"Engineer, Sanitary";IER;"Insinyur, Sanitasi"
+"Engineer, Software";IRE;Engineer
+"Engineer, Stationary";REI;Engineer
+"Engineer, Transportation";ISR;Engineer
+"Engineer, Utilities";RCI;Engineer
+"Engineer, Validation";IRC;Engineer
+"Engineer, Water/Wastewater";IRE;Engineer
+"Engineer, Wind Energy";IRE;Engineer
+"Engineering Assistant, Mechanical Equipment";IRC;Engineering Assistant
+"Engineering Manager, Electronics";IES;Engineering Manager
+"Engineering Technician, Civil";RIC;Engineering Technician
+"Engraver, Glass Products";REA;Engraver
+Engraver Machine;RCE;Mesin Pengukir
 Engrosser;RAC;Engrosser
-Entomologist;IRS;#N/A
+Entomologist;IRS;Ahli ilmu serangga
 Enterpreneur;ESC;Enterpreneur
 Environmental Control Installer;RCI;Environmental Control Installer
 Environmental Economist;IRE;Environmental Economist
@@ -536,13 +536,13 @@ Equestrian;AER;Equestrian
 Estate Planner;ESI;Estate Planner
 Estimator;RCE;Estimator
 Ethnologist;IRE;Ethnologist
-"Evaluator, Education";SIR;"Evaluator, Education"
+"Evaluator, Education";SIR;Evaluator
 Event Planner;ESC;Event Planner
-Excavating and Loading Machine Operator;RES;#N/A
+Excavating and Loading Machine Operator;RES;Penggali dan Memuat Operator Mesin
 Excavator;RSC;Excavator
 Executive Chef;SER;Executive Chef
 Executive Housekeeper;ECR;Executive Housekeeper
-Exercise Physiologist;ISR;#N/A
+Exercise Physiologist;ISR;Pelatih Fisiologi
 Exhibit Builder;ASR;Exhibit Builder
 Exhibit Designer;ASE;Exhibit Designer
 Expediter;SCE;Expediter
@@ -551,42 +551,42 @@ Eyeglass Lens Cutter;RCE;Eyeglass Lens Cutter
 Fabric Designer;AER;Fabric Designer
 Fabric Inspector;CRE;Fabric Inspector
 Fabric Tester;IRS;Fabric Tester
-"Faculty Member, College or University";SEI;"Faculty Member, College or University"
-"Faculty, Agricultural Sciences";IRS;"Faculty, Agricultural Sciences"
-"Faculty, Anthropology and Archeology";ISA;"Faculty, Anthropology and Archeology"
-"Faculty, Architecture";ISR;"Faculty, Architecture"
-"Faculty, Biological Science";IRS;"Faculty, Biological Science"
-"Faculty, Business";ESR;"Faculty, Business"
-"Faculty, Chemistry";IRS;"Faculty, Chemistry"
-"Faculty, Communications";SIA;"Faculty, Communications"
-"Faculty, Computer Sciece";IRS;#N/A
-"Faculty, Criminal Justice and Law Enforcement";SIC;"Faculty, Criminal Justice and Law Enforcement"
-"Faculty, Earth and Space Science";IRS;"Faculty, Earth and Space Science"
-"Faculty, Economics";IES;"Faculty, Economics"
-"Faculty, Education";SIE;"Faculty, Education"
-"Faculty, Engineering";ISR;"Faculty, Engineering"
-"Faculty, English Language and Literature";ASI;"Faculty, English Language and Literature"
-"Faculty, Environmental Science";SIE;#N/A
-"Faculty, Ethnic and Cultural Studies";SEI;"Faculty, Ethnic and Cultural Studies"
-"Faculty, Family and Consumer Sciences";SEA;"Faculty, Family and Consumer Sciences"
-"Faculty, Fine Arts";ASI;"Faculty, Fine Arts"
-"Faculty, Foreign Language and Literature";ASE;#N/A
-"Faculty, Forestry and Conservation Science";IRS;"Faculty, Forestry and Conservation Science"
-"Faculty, Geography";ISR;"Faculty, Geography"
-"Faculty, Health Specialties";IES;#N/A
-"Faculty, History";SEI;"Faculty, History"
-"Faculty, Law";ESI;"Faculty, Law"
-"Faculty, Library Science";SIE;"Faculty, Library Science"
-"Faculty, Mathematics";IES;"Faculty, Mathematics"
-"Faculty, Philosophy and Religion";IES;"Faculty, Philosophy and Religion"
-"Faculty, Physics";IES;"Faculty, Physics"
-"Faculty, Political Science";SEI;"Faculty, Political Science"
-"Faculty, Psychology";ISE;"Faculty, Psychology"
-"Faculty, Social Work";SEI;"Faculty, Social Work"
-"Faculty, Sociology";SIE;"Faculty, Sociology"
-Farm Machine Operator;RIE;#N/A
-"Farmer, General";RIS;"Farmer, General"
-Farmer/Rancher;RSI;#N/A
+"Faculty Member, College or University";SEI;Faculty Member
+"Faculty, Agricultural Sciences";IRS;Faculty
+"Faculty, Anthropology and Archeology";ISA;Faculty
+"Faculty, Architecture";ISR;Faculty
+"Faculty, Biological Science";IRS;Faculty
+"Faculty, Business";ESR;Faculty
+"Faculty, Chemistry";IRS;Faculty
+"Faculty, Communications";SIA;Faculty
+"Faculty, Computer Sciece";IRS;"Staf Fakultas, Ilmu Komputer"
+"Faculty, Criminal Justice and Law Enforcement";SIC;Faculty
+"Faculty, Earth and Space Science";IRS;Faculty
+"Faculty, Economics";IES;Faculty
+"Faculty, Education";SIE;Faculty
+"Faculty, Engineering";ISR;Faculty
+"Faculty, English Language and Literature";ASI;Faculty
+"Faculty, Environmental Science";SIE;"Staf Fakultas, Ilmu Lingkungan"
+"Faculty, Ethnic and Cultural Studies";SEI;Faculty
+"Faculty, Family and Consumer Sciences";SEA;Faculty
+"Faculty, Fine Arts";ASI;Faculty
+"Faculty, Foreign Language and Literature";ASE;"Staf Fakultas, Bahasa dan Sastra Asing"
+"Faculty, Forestry and Conservation Science";IRS;Faculty
+"Faculty, Geography";ISR;Faculty
+"Faculty, Health Specialties";IES;"Staf Fakultas, Spesialisasi Kesehatan"
+"Faculty, History";SEI;Faculty
+"Faculty, Law";ESI;Faculty
+"Faculty, Library Science";SIE;Faculty
+"Faculty, Mathematics";IES;Faculty
+"Faculty, Philosophy and Religion";IES;Faculty
+"Faculty, Physics";IES;Faculty
+"Faculty, Political Science";SEI;Faculty
+"Faculty, Psychology";ISE;Faculty
+"Faculty, Social Work";SEI;Faculty
+"Faculty, Sociology";SIE;Faculty
+Farm Machine Operator;RIE;Operator Mesin Pertanian
+"Farmer, General";RIS;Farmer
+Farmer/Rancher;RSI;Petani / Peternakan
 Farmworker;RSE;Farmworker
 Fashion Coordinator;EAS;Fashion Coordinator
 Fashion Designer;ASR;Fashion Designer
@@ -594,9 +594,9 @@ Fashion Model;EAS;Fashion Model
 Fast Food Worker;SCR;Fast Food Worker
 Ferryboat Captain;ESI;Ferryboat Captain
 Field Contractor;SEA;Field Contractor
-"Field Supervisor, Agricultural Workers";EAS;"Field Supervisor, Agricultural Workers"
+"Field Supervisor, Agricultural Workers";EAS;Field Supervisor
 File Clerk;CSR;File Clerk
-Film and Video Editor;ASE;#N/A
+Film and Video Editor;ASE;Editor Film dan Video
 Film Laboratory Technician;RCE;Film Laboratory Technician
 Film Projectionist;RIE;Film Projectionist
 Financial Aid Officer;SEC;Financial Aid Officer
@@ -608,11 +608,11 @@ Fire Fighter;RSI;Fire Fighter
 Fire Inspector;CES;Fire Inspector
 Fire Investigator;IRC;Fire Investigator
 Fire Marshal;ERS;Fire Marshal
-"Fire Marshal, Governmental Services";ESR;"Fire Marshal, Governmental Services"
+"Fire Marshal, Governmental Services";ESR;Fire Marshal
 Fire Protection Engineering Technician;CRI;Fire Protection Engineering Technician
 Fire Warden;ESR;Fire Warden
 Fireworks Display Specialist;REI;Fireworks Display Specialist
-Fish and Game Warden;RES;#N/A
+Fish and Game Warden;RES;Fish and Game Warden
 Fish Farmer;REI;Fish Farmer
 Fitness and Wellness Coordinator;EIS;Fitness and Wellness Coordinator
 Fitness Trainer and Aerobics Instructor;SRE;Fitness Trainer and Aerobics Instructor
@@ -629,30 +629,30 @@ Foreign Exchange Trader;EIC;Foreign Exchange Trader
 Foreign Service Officer;ESA;Foreign Service Officer
 Forensic Science Technician;IRC;Forensic Science Technician
 Forest and Conservation Worker;RCE;Forest and Conservation Worker
-Forest Echologist;IRS;#N/A
-Forest Nursery Supervisor;ERS;#N/A
+Forest Echologist;IRS;Ekologi Hutan
+Forest Nursery Supervisor;ERS;Pengawas Pembibitan Hutan
 Forester;RIS;Forester
-Foundry Supervisor;RES;#N/A
-Fraud Examiner/Investigator;ICE;#N/A
-Freight and Cargo Inspector;RSE;#N/A
-Freight Forwarder;CSI;#N/A
-Fuel Cell Technician;RIC;#N/A
-Fumigator;REI;#N/A
-Funds Development Director;ECS;#N/A
-Funeral Attendant;SER;#N/A
-Funeral Director;ESR;#N/A
-Furnace and Klin Operator;RCS;#N/A
-Furnace Operator;RSE;#N/A
-Furniture Assembler;CRS;#N/A
-Furniture Assembly Supervisor;ECR;#N/A
-Gamekeeper;RSE;#N/A
-Gaming and Sports Book Writer;SCE;#N/A
-Gaming Dealer;SCE;#N/A
-Gaming Supervisor;ECS;#N/A
-Garage Supervisor;ERS;#N/A
-Garment Fitter;RCE;#N/A
-Gasoline Engine Repairer;REI;#N/A
-"General Manager, Farm";ESR;#N/A
+Foundry Supervisor;RES;Pengawas Pengecoran
+Fraud Examiner/Investigator;ICE;Pemeriksa / Penyelidik Penipuan
+Freight and Cargo Inspector;RSE;Inspektur Pengiriman dan Kargo
+Freight Forwarder;CSI;Penerus Muatan
+Fuel Cell Technician;RIC;Teknisi Sel Bahan Bakar
+Fumigator;REI;Fumigator
+Funds Development Director;ECS;Direktur Pengembangan Dana
+Funeral Attendant;SER;Petugas Pemakaman
+Funeral Director;ESR;Direktur Pemakaman
+Furnace and Klin Operator;RCS;Operator Tungku dan Klin
+Furnace Operator;RSE;Operator Tungku
+Furniture Assembler;CRS;Perakit furnitur
+Furniture Assembly Supervisor;ECR;pengawas perakit furnitur
+Gamekeeper;RSE;Polisi kehutanan
+Gaming and Sports Book Writer;SCE;Penulis buku Game dan Olahraga
+Gaming Dealer;SCE;Gaming Dealer
+Gaming Supervisor;ECS; Supervisor Gaming
+Garage Supervisor;ERS;Pengawas Garasi
+Garment Fitter;RCE;Tukang jahit kain
+Gasoline Engine Repairer;REI;Tukang reparasi Mesin Bensin
+"General Manager, Farm";ESR;"Manajer Umum, Peternakan"
 Generating Plant Superintendent;REI;Generating Plant Superintendent
 Genetic Counselor;SIA;Genetic Counselor
 Geneticist;IRS;Geneticist
@@ -661,27 +661,27 @@ Geographic Information Systems Technician;ICR;Geographic Information Systems Tec
 Geological and Petroleum Technician;RIC;Geological and Petroleum Technician
 Geological Sample Test Technician;IRC;Geological Sample Test Technician
 Geologist;IRE;Geologist
-"Geologist, Petroleum";RIE;"Geologist, Petroleum"
-Geophysicist;IRS;#N/A
+"Geologist, Petroleum";RIE;Geologist
+Geophysicist;IRS;Ahli geofisika
 Geospatial Information Scientist and Technologist;IRC;Geospatial Information Scientist and Technologist
 Geothermal Technician;RIC;Geothermal Technician
 Glass Blower;RCS;Glass Blower
-"Glass Blower, Laboratory Apparatus";RCA;"Glass Blower, Laboratory Apparatus"
-"Glass Installer, Automobile Services";RCE;"Glass Installer, Automobile Services"
-"Glazier, Construction";RSE;#N/A
-"Grain Elevator, Superintendent";ESC;#N/A
+"Glass Blower, Laboratory Apparatus";RCA;Glass Blower
+"Glass Installer, Automobile Services";RCE;Glass Installer
+"Glazier, Construction";RSE;"Tukang kaca, Konstruksi"
+"Grain Elevator, Superintendent";ESC;Inspektur Lift biji-bijian
 Graphic Designer;AER;Graphic Designer
-"Guide, Hunting and Fishing";RES;"Guide, Hunting and Fishing"
-"Guide, Sightseeing";ESC;"Guide, Sightseeing"
-"Guide, Travel";ESC;"Guide, Travel"
-Gunsmith;RIE;#N/A
+"Guide, Hunting and Fishing";RES;Guide
+"Guide, Sightseeing";ESC;Guide
+"Guide, Travel";ESC;Guide
+Gunsmith;RIE;pandai senjata
 Hair Stylist;SER;Hair Stylist
 Harbor Master;ESR;Harbor Master
 Hazardous Material Remover;RCI;Hazardous Material Remover
 Hazardous Waste Management Specialist;IRE;Hazardous Waste Management Specialist
 Health Educator;SEI;Health Educator
 Health Equipment Servicer;RCI;Health Equipment Servicer
-"Health Officer, Field";ESI;"Health Officer, Field"
+"Health Officer, Field";ESI;Health Officer
 Hearing Aid Specialist;SIC;Hearing Aid Specialist
 Hearing Officer;SEI;Hearing Officer
 Heating and Air Conditioning Mechanic and Installer;RES;Heating and Air Conditioning Mechanic and Installer
@@ -689,21 +689,21 @@ Historian;SEI;Historian
 Historic Site Administrator;ESC;Historic Site Administrator
 Histotechnologist and Histologic Technician;IRE;Histotechnologist and Histologic Technician
 Home Appliance Repairer;RSE;Home Appliance Repairer
-Home Eergy Consultant Supervisor;ESC;#N/A
+Home Energy Consultant Supervisor;ESC;Pengawas Konsultan Energi Rumah
 Home Health Aide;SER;Home Health Aide
 Homemaker;SEC;Homemaker
 Horticulturist;RAE;Horticulturist
 Hospital Admitting Clerk;ECS;Hospital Admitting Clerk
 Hospitalist;ISA;Hospitalist
-"Host/Hostess, Restaurant";ESC;"Host/Hostess, Restaurant"
+"Host/Hostess, Restaurant";ESC;Host/Hostess
 Hotel/Motel Desk Clerk;ECS;Hotel/Motel Desk Clerk
 Human Resources Specialist;ESR;Human Resources Specialist
-Humorist;ASE;#N/A
-Hydroelectric Plant Technician;RIC;#N/A
+Humorist;ASE;Pelawak
+Hydroelectric Plant Technician;RIC;Teknisi Pembangkit Listrik Tenaga Air
 Hydroelectric Station Operator;RCS;Hydroelectric Station Operator
 Hydrologist;IRE;Hydrologist
 Illustrator;AER;Illustrator
-"Illustrator, Medical and Scientific";AIE;"Illustrator, Medical and Scientific"
+"Illustrator, Medical and Scientific";AIE;Illustrator
 Immunohematologist;ICS;Immunohematologist
 Import-Export Agent;SEC;Import-Export Agent
 Incinerator Plant Supervisor;ECR;Incinerator Plant Supervisor
@@ -712,20 +712,20 @@ Industrial Ecologist;IRC;Industrial Ecologist
 Industrial Engineering Technician;IRE;Industrial Engineering Technician
 Industrial Engineering Technologist;EIC;Industrial Engineering Technologist
 Industrial Hygienist;IRE;Industrial Hygienist
-Industrial Safety and Health Technician;ERC;#N/A
+Industrial Safety and Health Technician;ERC;Teknisi Kesehatan dan Keselamatan Industri
 Industrial Therapist;IER;Industrial Therapist
 Informatics Nurse Specialist;SIC;Informatics Nurse Specialist
-"Information Clerk, Motor Transportation";CES;"Information Clerk, Motor Transportation"
+"Information Clerk, Motor Transportation";CES;Information Clerk
 Information Technology Project Manager;EIC;Information Technology Project Manager
 Insect and Disease Inspection Supervisor;EAI;Insect and Disease Inspection Supervisor
-"Inspector, Assembly";RCI;"Inspector, Assembly"
-"Inspector, Chief";RCE;"Inspector, Chief"
-"Inspector, Electrical";RCE;"Inspector, Electrical"
-"Inspector, Fireams";RCI;#N/A
-"Indpector, Heating and Refrigeration";SIA;#N/A
-"Inspector, Missile";RIE;"Inspector, Missile"
-"Inspector, Screen Printing";CRA;"Inspector, Screen Printing"
-"Inspector, Tester, Sorter, Sampler, ad Weigher";RIE;#N/A
+"Inspector, Assembly";RCI;Inspector
+"Inspector, Chief";RCE;Inspector
+"Inspector, Electrical";RCE;Inspector
+"Inspector, Firearms";RCI;"Inspektur, Senjata Api"
+"Inspector, Heating and Refrigeration";SIA;"Inspektur, Pemanasan dan Pendinginan"
+"Inspector, Missile";RIE;Inspector
+"Inspector, Screen Printing";CRA;Inspector
+"Inspector, Tester, Sorter, Sampler, ad Weigher";RIE;"Inspektur, Penguji, Penyortir, Sampler, dan Penimbang iklan"
 Instructional Coordinator;SAE;Instructional Coordinator
 Instructional Designer and Technologist;IAS;Instructional Designer and Technologist
 Instrument Repair Supervisor;ERC;Instrument Repair Supervisor
@@ -740,12 +740,12 @@ Intelligence Specialist;ERS;Intelligence Specialist
 Interior Designer;AES;Interior Designer
 Internet Consultant;IER;Internet Consultant
 Internet/Intranet Administrator;IRS;Internet/Intranet Administrator
-"Interpreter, Sign Language";SCE;"Interpreter, Sign Language"
+"Interpreter, Sign Language";SCE;Interpreter
 Interpreter/Translator;ESA;Interpreter/Translator
 Inventory Clerk;RCI;Inventory Clerk
-"Investigator, Dealer Accounts";CER;#N/A
-"Investigator, Government Service";SIE;"Investigator, Government Service"
-"Investigator, Internal Affairs";SEI;"Investigator, Internal Affairs"
+"Investigator, Dealer Accounts";CER;"Investigator, Akun Dealer"
+"Investigator, Government Service";SIE;Investigator
+"Investigator, Internal Affairs";SEI;Investigator
 Investment Analyst;CIE;Investment Analyst
 Investment Underwriter;CEI;Investment Underwriter
 Iron and Steel Worker;RIS;Iron and Steel Worker
@@ -760,11 +760,11 @@ Judge;ESA;Judge
 Judicial Law Clerk;CIR;Judicial Law Clerk
 Kennel Supervisor;RCE;Kennel Supervisor
 Kitchen Supervisor;ERS;Kitchen Supervisor
-"Knitter, Hand";CRE;"Knitter, Hand"
+"Knitter, Hand";CRE;Knitter
 Labor Relations Specialist;ESC;Labor Relations Specialist
 Laboratory Clerk;RCE;Laboratory Clerk
 Laboratory Supervisor;EIS;Laboratory Supervisor
-"Laboratory Supervisor, Textiles";IER;#N/A
+"Laboratory Supervisor, Textiles";IER;"Pengawas Laboratorium, Tekstil"
 Laboratory Technician;RIE;Laboratory Technician
 Laboratory Tester;RIC;Laboratory Tester
 Landscape Architect;AIR;Landscape Architect
@@ -774,31 +774,31 @@ Landscape Specialist;CRS;Landscape Specialist
 Landscaping and Groundskeeping Worker;RCE;Landscaping and Groundskeeping Worker
 Laser Technician;IRE;Laser Technician
 Laserist;ASI;Laserist
-Laundry and Dry Cleaning Worker;RES;#N/A
+Laundry and Dry Cleaning Worker;RES;Pekerja Laundry dan Dry Cleaning
 Lawyer;ESI;Lawyer
 Legislative Assistant;ESR;Legislative Assistant
 Legislator;ESC;Legislator
 Librarian;SAI;Librarian
-"Librarian, Head";SER;"Librarian, Head"
+"Librarian, Head";SER;Librarian
 Library Assistant;CSE;Library Assistant
-"Library Assistant, Clerical";SCR;#N/A
+"Library Assistant, Clerical";SCR;"Asisten Perpustakaan, administrasi"
 Library Consultant;ESI;Library Consultant
 Library Technical Assistant;ESI;Library Technical Assistant
-License Clerk;CSE;#N/A
-"Life, Physical, and Social Science Technician";IRS;"Life, Physical, and Social Science Technician"
+License Clerk;CSE;Petugas Lisensi
+"Life, Physical, and Social Science Technician";IRS;Life
 Lifeguard;RSC;Lifeguard
-"Line Service Attendant, Air Transportation";RIE;#N/A
+"Line Service Attendant, Air Transportation";RIE;"Petugas Servis Lini, Transportasi Udara"
 Linguist;ISC;Linguist
-Literary Agent;ESA;#N/A
+Literary Agent;ESA;Agen Sastra
 Livestock Rancher;RSI;Livestock Rancher
 Livestock Yard Supervisor;REA;Livestock Yard Supervisor
-"Loan Interviewer, Mortgage";ESC;"Loan Interviewer, Mortgage"
+"Loan Interviewer, Mortgage";ESC;Loan Interviewer
 Loan Officer;SEI;Loan Officer
 Lobbyist;ESA;Lobbyist
 Location Manager;EAR;Location Manager
 Locker Room/Coatroom/Dressing Room Attendant;SRC;Locker Room/Coatroom/Dressing Room Attendant
 Locksmith;REC;Locksmith
-Loggig Operations Inspector;RES;#N/A
+Logging Operations Inspector;RES;Inspektur Operasi Penebangan
 Logging Superintendent;ERI;Logging Superintendent
 Logistician;ECS;Logistician
 Logistics Analyst;ICE;Logistics Analyst
@@ -806,91 +806,91 @@ Logistics Engineer;IEC;Logistics Engineer
 Logistics Manager;EIC;Logistics Manager
 Loss Prevention Specialist;ICR;Loss Prevention Specialist
 Luggage Maker;REC;Luggage Maker
-Lyricist;ASE;#N/A
+Lyricist;ASE;Penulis lirik
 Machine Maintenance/Repair Worker;RCI;Machine Maintenance/Repair Worker
 Machinist;RIE;Machinist
 Magician;AES;Magician
 Magnetic Resonance Imaging Technologist;RSC;Magnetic Resonance Imaging Technologist
-Maid/Housekeeper;RES;#N/A
+Maid/Housekeeper;RES;Pembantu Rumah Tangga
 Mail Clerk;CRE;Mail Clerk
 Mail Handler;RSC;Mail Handler
 Mail Machine Operator;RCE;Mail Machine Operator
 Mailroom Supervisor;ESR;Mailroom Supervisor
 Maintenance Chief;ECR;Maintenance Chief
 Maintenance Inspector;RES;Maintenance Inspector
-"Maintenance of Equipment Superintendent, Motor Transportation";ECS;#N/A
+"Maintenance of Equipment Superintendent, Motor Transportation";ECS;"Pemeliharaan Peralatan Inspektur, Transportasi Motor"
 Maintenance Scheduler;ECS;Maintenance Scheduler
-"Maintenance Supervisor, Utilities";EIR;"Maintenance Supervisor, Utilities"
+"Maintenance Supervisor, Utilities";EIR;Maintenance Supervisor
 Maintenance Worker;RCI;Maintenance Worker
 Manager of Correctional Officers;ERS;Manager of Correctional Officers
-"Manager of Farming, Fishing, and Forestry Workers";ERS;#N/A
-"Manager of Helpers, Laborers, and Material Movers";ERS;"Manager of Helpers, Laborers, and Material Movers"
-Manager of Landscaping and Groundskeeping Workers;REC;#N/A
-"Manager of Mechacics, Installers, and Repairers";RIS;"Manager of Mechacics, Installers, and Repairers"
+"Manager of Farming, Fishing, and Forestry Workers";ERS;"Manajer Pekerja Pertanian, Perikanan, dan Kehutanan"
+"Manager of Helpers, Laborers, and Material Movers";ERS;Manager of Helpers
+Manager of Landscaping and Groundskeeping Workers;REC;Manajer Pekerja Lansekap dan Pemeliharaan Lahan
+"Manager of Mechacics, Installers, and Repairers";RIS;Manager of Mechacics
 Manager of Office and Administrative Support Workers;SCE;Manager of Office and Administrative Support Workers
 Manager of Production and Operating Workers;SRC;Manager of Production and Operating Workers
-"Manager, Advertising Agency";AES;"Manager, Advertising Agency"
-"Manager, Advertising and Promotions";ESC;"Manager, Advertising and Promotions"
-"Manager, Apartment";ERS;"Manager, apartment"
-"Manager, Automobile Service Station";ERS;#N/A
-"Manager, Bakery";ESR;"Manager, Bakery"
-"Manager, Barber or Beauty Shop";ESC;"Manager, Barber or Beauty Shop"
-"Manager, Biofules/Biodiesel Technology and Product Development";IEC;#N/A
-"Manager, Biomass Power Plant";EIS;"Manager, Biomass Power Plant"
-"Manager, Branch Store";ECS;"Manager, Branch Store"
-"Manager, Brokerage Office";ESR;"Manager, Brokerage Office"
-"Manager, Bulk Plant";ERI;"Manager, Bulk Plant"
-"Manager, Computer and Information Systems";IER;"Manager, Computer and Information Systems"
-"Manager, Computer Operations";SEI;"Manager, Computer Operations"
-"Manager, Conddominium";ESC;#N/A
-"Manager, Convention";ESA;"Manager, Convention"
-"Manager, Credit and Collection";ESC;"Manager, Credit and Collection"
-"Manager, Customer Technical Services";ESR;"Manager, Customer Technical Services"
-"Manager, Dance Studio";ESA;"Manager, Dance Studio"
-"Manager, Dental Laboratory";EIS;"Manager, Dental Laboratory"
-"Manager, Department";ESA;"Manager, Department"
-"Manager, Department Store";SER;"Manager, Department Store"
-"Manager, e-Commerce Merchandising";ESA;"Manager, e-Commerce Merchandising"
-"Manager, Education and Training";EIS;"Manager, Education and Training"
-"Manager, Employee Welfare";SEA;"Manager, Employee Welfare"
-"Manager, Fast Food Services";SER;"Manager, Fast Food Services"
-"Manager, Financial Institution";ESR;"Manager, Financial Institution"
-"Manager, Flight Operations";ESI;"Manager, Flight Operations"
-"Manager, Food Service";ESR;"Manager, Food Service"
-"Manager, Golf Club";ECS;"Manager, Golf Club"
-"Manager, Harbor Department";ERS;"Manager, Harbor Department"
-"Manager, Hotel/Motel";ESR;"Manager, Hotel/Motel"
-Manager. Housekeeping;ESR;#N/A
-"Manager, Hydroelectric Production";RIE;#N/A
-"Manager, Insurance office";ESC;"Manager, Insurance Office"
-"Manager, Investment Fund";EIS;"Manager, Investment Fund"
-"Manager, Labor Relations";ESR;"Manager, Labor Relations"
-"Manager, Laboratory";IRS;"Manager, Laboratory"
-"Manager, Land Surveying";IER;"Manager, Land Surveying"
-"Manager, Laundromat";ERI;"Manager, Laundromat"
-"Manager, Loss Prevention";ECI;"Manager, Loss Prevention"
-"Manager, Marina Dry Dock";ERI;"Manager, Marina Dry Dock"
-"Manager, Nursery and Greenhouse";ESA;"Manager, Nursery and Greenhouse"
-"Manager, Orchard";REC;"Manager, Orchard"
-"Manager, Procurement Services";ECS;"Manager, Procurement Services"
-"Manager, Property/Community Association";EAS;"Manager, Property/Community Association"
-"Manager, Quality Control";IER;"Manager, Quality Control"
-"Manager, Records Analysis";EAI;"Manager, Records Analysis"
-"Manager, Regulatory Affairs";ECI;"Manager, Regulatory Affairs"
-"Manager, Retail Store";ESC;"Manager, Retail Store"
-"Manager, Safety";IES;"Manager, Safety"
-"Manager, Social and Community Service";ESR;"Manager, Social and Community Service"
-"Manager, Solar Energy Installation";REC;"Manager, Solar Energy Installation"
-"Manager, spa";ECS;"Manager, Spa"
-"Manager, Storage Garage";ESR;"Manager, Storage Garage"
-"Manager, Theater";ESR;"Manager, Theater"
-"Manager, Training and Development";SEC;"Manager, Training and Development"
-"Manager, Travel Agency";ESR;"Manager, Travel Agency"
-"Manager, Vehicle Leasing and Rental";ERS;"Manager, Vehicle Leasing and Rental"
-"Manager, Warehouse";ESR;"Manager, Warehouse"
-"Manager, Wind Energy Operations";IER;"Manager, Wind Energy Operations"
+"Manager, Advertising Agency";AES;Manager
+"Manager, Advertising and Promotions";ESC;Manager
+"Manager, Apartment";ERS;Manager
+"Manager, Automobile Service Station";ERS;"Manajer, Bengkel Servis Mobil"
+"Manager, Bakery";ESR;Manager
+"Manager, Barber or Beauty Shop";ESC;Manager
+"Manager, Biofules/Biodiesel Technology and Product Development";IEC;"Manajer, Biofuels / Teknologi Biodiesel dan Pengembangan Produk"
+"Manager, Biomass Power Plant";EIS;Manager
+"Manager, Branch Store";ECS;Manager
+"Manager, Brokerage Office";ESR;Manager
+"Manager, Bulk Plant";ERI;Manager
+"Manager, Computer and Information Systems";IER;Manager
+"Manager, Computer Operations";SEI;Manager
+"Manager, Condominium";ESC;"Manajer, Kondominium"
+"Manager, Convention";ESA;Manager
+"Manager, Credit and Collection";ESC;Manager
+"Manager, Customer Technical Services";ESR;Manager
+"Manager, Dance Studio";ESA;Manager
+"Manager, Dental Laboratory";EIS;Manager
+"Manager, Department";ESA;Manager
+"Manager, Department Store";SER;Manager
+"Manager, e-Commerce Merchandising";ESA;Manager
+"Manager, Education and Training";EIS;Manager
+"Manager, Employee Welfare";SEA;Manager
+"Manager, Fast Food Services";SER;Manager
+"Manager, Financial Institution";ESR;Manager
+"Manager, Flight Operations";ESI;Manager
+"Manager, Food Service";ESR;Manager
+"Manager, Golf Club";ECS;Manager
+"Manager, Harbor Department";ERS;Manager
+"Manager, Hotel/Motel";ESR;Manager
+"Manager, Housekeeping";ESR;"Manajer, Tata graha"
+"Manager, Hydroelectric Production";RIE;"Manajer, Produksi PLTA"
+"Manager, Insurance office";ESC;Manager
+"Manager, Investment Fund";EIS;Manager
+"Manager, Labor Relations";ESR;Manager
+"Manager, Laboratory";IRS;Manager
+"Manager, Land Surveying";IER;Manager
+"Manager, Laundromat";ERI;Manager
+"Manager, Loss Prevention";ECI;Manager
+"Manager, Marina Dry Dock";ERI;Manager
+"Manager, Nursery and Greenhouse";ESA;Manager
+"Manager, Orchard";REC;Manager
+"Manager, Procurement Services";ECS;Manager
+"Manager, Property/Community Association";EAS;Manager
+"Manager, Quality Control";IER;Manager
+"Manager, Records Analysis";EAI;Manager
+"Manager, Regulatory Affairs";ECI;Manager
+"Manager, Retail Store";ESC;Manager
+"Manager, Safety";IES;Manager
+"Manager, Social and Community Service";ESR;Manager
+"Manager, Solar Energy Installation";REC;Manager
+"Manager, spa";ECS;Manager
+"Manager, Storage Garage";ESR;Manager
+"Manager, Theater";ESR;Manager
+"Manager, Training and Development";SEC;Manager
+"Manager, Travel Agency";ESR;Manager
+"Manager, Vehicle Leasing and Rental";ERS;Manager
+"Manager, Warehouse";ESR;Manager
+"Manager, Wind Energy Operations";IER;Manager
 Manicurist/Pedicurist;RAS;Manicurist/Pedicurist
-Manufacturer's Representative;ESA;#N/A
+Manufacturer's Representative;ESA;Perwakilan Manufaktur
 Manufacturer's Service Representative;RES;Manufacturer's Service Representative
 Manufacturing Engineering Technologist;RIC;Manufacturing Engineering Technologist
 Manufacturing Production Technician;RIC;Manufacturing Production Technician
@@ -898,7 +898,7 @@ Mapping Technician;ECR;Mapping Technician
 Marina Sales and Service Supervisor;ERA;Marina Sales and Service Supervisor
 Marine Biologist;IRE;Marine Biologist
 Marine Service Manager;REA;Marine Service Manager
-Marine Service Technician;RCE;#N/A
+Marine Service Technician;RCE;Teknisi Layanan Kelautan
 Market Research Analyst;ISC;Market Research Analyst
 Marketing Executive;EIC;Marketing Executive
 Marriage and Family Therapist;SAI;Marriage and Family Therapist
@@ -911,7 +911,7 @@ Mathematician;IER;Mathematician
 Mechanical Door Repairer;RIC;Mechanical Door Repairer
 Mechanical Engineering Technologist;RIC;Mechanical Engineering Technologist
 Media and Communication Equipment Worker;RCI;Media and Communication Equipment Worker
-Media Coordinator;CSE;#N/A
+Media Coordinator;CSE;Koordinator Media
 Media Director;ESC;Media Director
 Media Marketing Director;ESR;Media Marketing Director
 Medical Assistant;SCR;Medical Assistant
@@ -919,20 +919,20 @@ Medical Equipment Repairer;RCI;Medical Equipment Repairer
 Medical Laboratory Assistant;IRE;Medical Laboratory Assistant
 Medical Records Administrator;SIE;Medical Records Administrator
 Medical Records Clerk;CSI;Medical Records Clerk
-Medical Records Technician;CIR;#N/A
+Medical Records Technician;CIR;Teknisi Rekam Medis
 Medical Scientist;IER;Medical Scientist
 Medical Secretary;CES;Medical Secretary
 Medical Social Worker;ESA;Medical Social Worker
 Medical Technologist;ISA;Medical Technologist
-"Medical Technologist, Chief";IER;"Medical Technologist, Chief"
+"Medical Technologist, Chief";IER;Medical Technologist
 Medical Transcriptionist;CSR;Medical Transcriptionist
 Memorial Designer;AER;Memorial Designer
 Mental Health and Substance Abuse Social Worker;SEA;Mental Health and Substance Abuse Social Worker
 Mental Health Counselor;SAE;Mental Health Counselor
 Metallographer;IRE;Metallographer
-"Metallurgist, Physical";IRE;"Metallurgist, Physical"
+"Metallurgist, Physical";IRE;Metallurgist
 Meteorologist;IRS;Meteorologist
-Meter Inspector;RCE;#N/A
+Meter Inspector;RCE;Inspektur meter
 Meter Reader;CSE;Meter Reader
 Methane/Landfill Gas Collection Systems Operator;RCE;Methane/Landfill Gas Collection Systems Operator
 Metrologist;IES;Metrologist
@@ -940,42 +940,42 @@ Microbiologist;ISC;Microbiologist
 Microelectronics Technician;RCI;Microelectronics Technician
 Midwife;SIR;Midwife
 Mill Supervisor;ERC;Mill Supervisor
-Mime;AEI;#N/A
+Mime;AEI;Pantomim
 Mine Inspector;ERC;Mine Inspector
 Miner;RIE;Miner
 Mineralogist;ISR;Mineralogist
 Miniature Set Constructor;ARE;Miniature Set Constructor
 Mining Machine Operator;RCI;Mining Machine Operator
 Model Maker;ARI;Model Maker
-"Model Maker, Pottery and Porcelain";RAE;#N/A
-"Model, Photographers";AES;"Model, Photographers"
-Modeling Instructor;ASE;#N/A
+"Model Maker, Pottery and Porcelain";RAE;"Pembuat Model, Tembikar dan Porselen"
+"Model, Photographers";AES;Model
+Modeling Instructor;ASE;Instruktur Pemodelan
 Molding and Casting Worker;ARI;Molding and Casting Worker
 Molecular and Cellular Biologist;IRC;Molecular and Cellular Biologist
 Mortgage Clerk;CRS;Mortgage Clerk
 Motorboat Mechanic and Service Technician;RES;Motorboat Mechanic and Service Technician
 Motorcycle Mechanic;RIE;Motorcycle Mechanic
 Mover;RSE;Mover
-"Mover, Residential";RSE;"Mover, Residential"
+"Mover, Residential";RSE;Mover
 Multiple Machine Operator;RIS;Multiple Machine Operator
 Music Arranger;AEI;Music Arranger
 Music Copyist;CRS;Music Copyist
 Music Librarian;SRE;Music Librarian
 Music Supervisor;EAS;Music Supervisor
 Music Therapist;SAE;Music Therapist
-"Musician, Instrumental";ASC;"Musician, Instrumental"
+"Musician, Instrumental";ASC;Musician
 Nanny;SRE;Nanny
 Nanotechnology Engineering Technician;RIC;Nanotechnology Engineering Technician
-Nonotechnology Engineering Technologist;IRC;#N/A
+Nonotechnology Engineering Technologist;IRC;Teknisi Rekayasa Nonoteknologi
 Narrator;AES;Narrator
-Natural Science Manager;IER;#N/A
+Natural Science Manager;IER;Manajer Ilmu Pengetahuan Alam
 Navigator;ICR;Navigator
 Network Administrator/Network Control Supervisor;SEC;Network Administrator/Network Control Supervisor
 Network Designer;IES;Network Designer
-Neorologist;IRS;#N/A
-Neoropsychologist;ISA;#N/A
+Neorologist;IRS;Ahli Neorologi
+Neoropsychologist;ISA;Ahli Neoropsikologi
 New Accounts Clerk;SCE;New Accounts Clerk
-Newcaster;ESI;#N/A
+Newscaster;ESI;Penyiar warta berita
 Night Auditor;CRS;Night Auditor
 Non-Destructive Testing Specialist;IRC;Non-Destructive Testing Specialist
 Nuclear Equipment Operation Technician;RCS;Nuclear Equipment Operation Technician
@@ -983,22 +983,22 @@ Nuclear Medicine Technologist;RIS;Nuclear Medicine Technologist
 Nuclear Power Plant Operations Supervisor;EIS;Nuclear Power Plant Operations Supervisor
 Nuclear Power Reactor Operator;RIE;Nuclear Power Reactor Operator
 Nuclear Technician;RCI;Nuclear Technician
-Nurse Anesthetist;ISE;#N/A
+Nurse Anesthetist;ISE;Perawat Anestesi
 Nurse Assistant;SER;Nurse Assistant
-Nurse Midwife;SIR;#N/A
+Nurse Midwife;SIR;"Bidan, Perawat"
 Nurse Practitioner;ISA;Nurse Practitioner
-"Nurse, Acute Care";SIR;"Nurse, Acute Care"
-"Nurse, Critical Care";SIC;"Nurse, Critical Care"
-"Nurse, General Duty (RN)";SIA;"Nurse, General Duty (RN)"
-"Nurse, Instructor";SIE;"Nurse, Instructor"
-"Nurse, Licensed Practical";SAC;"Nurse, Licensed Practical"
-"Nurse, Office";SIR;"Nurse, Office"
-"Nurse, Private Duty";ISR;"Nurse, Private Duty"
-"Nurse, Psychiatric";SEI;"Nurse, Psychiatric"
-"Nurse, School";SIE;"Nurse, School"
-"Nurse, Supervisor";SEI;"Nurse, Supervisor"
+"Nurse, Acute Care";SIR;Nurse
+"Nurse, Critical Care";SIC;Nurse
+"Nurse, General Duty (RN)";SIA;Nurse
+"Nurse, Instructor";SIE;Nurse
+"Nurse, Licensed Practical";SAC;Nurse
+"Nurse, Office";SIR;Nurse
+"Nurse, Private Duty";ISR;Nurse
+"Nurse, Psychiatric";SEI;Nurse
+"Nurse, School";SIE;Nurse
+"Nurse, Supervisor";SEI;Nurse
 Obstetrician;IRS;Obstetrician
-Occupational Health and Safety Technician;CES;#N/A
+Occupational Health and Safety Technician;CES;Teknisi Kesehatan dan Keselamatan Kerja
 Occupational Safety and Health Inspector;ECS;Occupational Safety and Health Inspector
 Occupational Therapist;SRE;Occupational Therapist
 Occupational Therapy Aide;SCR;Occupational Therapy Aide
@@ -1008,47 +1008,47 @@ Office Clerk;CRS;Office Clerk
 Office Manager;ESR;Office Manager
 Oil-Well Services Superintendent;ERS;Oil-Well Services Superintendent
 Online Merchant;ECA;Online Merchant
-"Operations Manager, Motor Transportation";ESI;"Operations Manager, Motor Transportation"
-Operations Research Analyst;IRE;#N/A
-Opthalmic Medical Technician;CIS;#N/A
-Opthalmic Medical Technologist;CIS;#N/A
-Opthalmic Technician;CIS;#N/A
-Opthalmologist;ISR;#N/A
+"Operations Manager, Motor Transportation";ESI;Operations Manager
+Operations Research Analyst;IRE;Analis Riset Operasi
+Opthalmic Medical Technician;CIS;Teknisi Medis Kedokteran Mata
+Opthalmic Medical Technologist;CIS;Teknologi Medis Kedokteran Mata
+Opthalmic Technician;CIS;Teknisi Kedokteran Mata
+Opthalmologist;ISR;Dokter mata
 Optical Effects Camera Operator;ASR;Optical Effects Camera Operator
 Optical Effects Layout Person;ASC;Optical Effects Layout Person
 Optical Technician;REI;Optical Technician
-"Optician, Dispensing";SEI;"Optician, Dispensing"
-Optometric Assistant;SCI;#N/A
+"Optician, Dispensing";SEI;Optician
+Optometric Assistant;SCI;Asisten Optometri
 Optometrist;ISE;Optometrist
-Oral and Maxilofacial Surgeon;IRA;#N/A
-"Order Filer, Wholesale and Rental Sales";RCE;#N/A
+Oral and Maxilofacial Surgeon;IRA;Ahli Bedah Oral dan Maksilofasial
+"Order Filer, Wholesale and Rental Sales";RCE;"Pemesanan Filer, Penjualan Grosir dan Sewa"
 Orderly;SRE;Orderly
 Ornamental Metalwork Designer;ARS;Ornamental Metalwork Designer
 Orthodontic Technician;RCE;Orthodontic Technician
 Orthodontist;ISR;Orthodontist
 Orthoptist;ISR;Orthoptist
-Orthotics Technician;RSC;#N/A
-Orthotist;RSE;#N/A
+Orthotics Technician;RSC;Teknisi Orthotics
+Orthotist;RSE;Ahli Orthosis
 Package Designer;AEI;Package Designer
-Packer and Package;RCS;#N/A
-Painter;ASI;#N/A
-"Painter, Animater Cartoons";CER;#N/A
-"Painter, Construction";RSE;"Painter, Construction"
-"Painter, Electrostatic";RIC;"Painter, Electrostatic"
-"Painter, Hand";ARE;"Painter, Hand"
+Packer and Package;RCS;Pengemas
+Painter;ASI;Pelukis
+"Painter, Animater Cartoons";CER;"Pelukis, animator Kartun "
+"Painter, Construction";RSE;Painter
+"Painter, Electrostatic";RIC;Painter
+"Painter, Hand";ARE;Painter
 Painting Instructor;AES;Painting Instructor
 Paleontologist;ISR;Paleontologist
-"Paperhanger, Construction";RSE;"Paperhanger, Construction"
+"Paperhanger, Construction";RSE;Paperhanger
 Paralegal;SEC;Paralegal
 Parasitologist;IRS;Parasitologist
-Park Narutalist;SEI;#N/A
+Park Narutalist;SEI;Narutalis Taman 
 Park Superintendent;ERA;Park Superintendent
 Parking Lot attendant;CRE;Parking Lot Attendant
-Parking Lot Supervisor;SER;#N/A
+Parking Lot Supervisor;SER;Pengawas Tempat Parkir
 Parts Clerk;RCS;Parts Clerk
 Parts Salesperson;ESR;Parts Salesperson
-"Passenger Service Representative, Air Transportation";SEC;"Passenger Service Representative, Air Transportation"
-"Passenger Service Representative, Railroad Transportation";ECS;"Passenger Service Representative, Railroad Transportation"
+"Passenger Service Representative, Air Transportation";SEC;Passenger Service Representative
+"Passenger Service Representative, Railroad Transportation";ECS;Passenger Service Representative
 Passport Application Examiner;CES;Passport Application Examiner
 Pastry Chef;RAS;Pastry Chef
 Patent Agent;EAI;Patent Agent
@@ -1057,54 +1057,54 @@ Patient Representative;SEC;Patient Representative
 Paving Equipment Operator;RCE;Paving Equipment Operator
 Pawnbroker;ECS;Pawnbroker
 Payroll Clerk;CRE;Payroll Clerk
-Pediatrician;ISE;#N/A
-Perfumer;ISE;#N/A
+Pediatrician;ISE;Dokter anak
+Perfumer;ISE;Pembuat parfum
 Periodontist;IRE;Periodontist
 Personal Shopper;ESR;Personal Shopper
 Personnel Clerk;CSE;Personnel Clerk
 Personnel Manager;SEC;Personnel Manager
-Personnerl Recruiter;SCE;#N/A
+Personnel Recruiter;SCE;Perekrut Personalia
 Pesticide Applicator;RIE;Pesticide Applicator
 Pesticide Control Inspector;CIR;Pesticide Control Inspector
 Petroleum Inspector;CSE;Petroleum Inspector
 Pewterer;ASR;Pewterer
-Pharmaceutical Sales Representative;EIS;#N/A
+Pharmaceutical Sales Representative;EIS;Perwakilan Penjualan Farmasi
 Pharmacist;IES;Pharmacist
 Pharmacologist;IRE;Pharmacologist
 Pharmacy Aide;REC;Pharmacy Aide
 Pharmacy Technician;REC;Pharmacy Technician
 Philologist;AIS;Philologist
-Philebotomist;SRI;#N/A
+Philebotomist;SRI;Filebotomis
 Photo Technician;RCI;Photo Technician
 Photogrammetrist;IRC;Photogrammetrist
 Photograph Retoucher;RCA;Photograph Retoucher
-"Photographer, Still";ARS;"Photographer, Still"
+"Photographer, Still";ARS;Photographer
 Photographic Process Worker;REI;Photographic Process Worker
-Photojournalist;AEC;#N/A
-Physitrist;IRE;#N/A
-Physical Eeductaion Instructor;SER;#N/A
+Photojournalist;AEC;Jurnalis foto
+Physitrist;IRE;Ahli fisika
+Physical Education Instructor;SER;Instruktur Pendidikan Jasmani
 Physical Therapist;SIE;Physical Therapist
-Physical Therapist Assistant;SCR;#N/A
+Physical Therapist Assistant;SCR;Asisten Ahli Terapi Fisik
 Physical Therapy Aide;ESC;Physical Therapy Aide
 Physician Assistant;ISA;Physician Assistant
-"Physician, General Practioner";ISE;"Physician, General Practioner"
-"Physician, Internist";ISA;"Physician, Internist"
-"Physician, Naturopathic";SIR;"Physician, Naturopathic"
-"Physician, Nuclear Medicine";SIE;#N/A
-"Physician, Occupational";ISC;"Physician, Occupational"
-"Physician, Osteopathic Medicine";ISR;"Physician, Osteopathic Medicine"
-"Physician, Preventive Medicine";ISA;"Physician, Preventive Medicine"
-"Physician, Sports Medicine";ISR;"Physician, Sports Medicine"
+"Physician, General Practioner";ISE;Physician
+"Physician, Internist";ISA;Physician
+"Physician, Naturopathic";SIR;Physician
+"Physician, Nuclear Medicine";SIE;"Dokter, pengobatan Nuklir"
+"Physician, Occupational";ISC;Physician
+"Physician, Osteopathic Medicine";ISR;Physician
+"Physician, Preventive Medicine";ISA;Physician
+"Physician, Sports Medicine";ISR;Physician
 Physicist;IRE;Physicist
 Physiologist;IRE;Physiologist
 Piano Technician;RAE;Piano Technician
 Piano Tuner;RCS;Piano Tuner
 Picture Framer;RCE;Picture Framer
-"Pilot, Airplane";IRE;"Pilot, Airplane"
-"Pilot, Commercial Airplane";RIE;"Pilot, Commercial Airplane"
-"Pilot, Executive";RIE;"Pilot, Executive"
-"Pilot, Helicopter";RIS;#N/A
-"Pilot, Highway Patrol";ERS;"Pilot, Highway Patrol"
+"Pilot, Airplane";IRE;Pilot
+"Pilot, Commercial Airplane";RIE;Pilot
+"Pilot, Executive";RIE;Pilot
+"Pilot, Helicopter";RIS;"Pilot, Helikopter"
+"Pilot, Highway Patrol";ERS;Pilot
 Pipe Fitter;RCE;Pipe Fitter
 Pipelayer;RCE;Pipelayer
 Pipelines Supervisor;REC;Pipelines Supervisor
@@ -1112,55 +1112,55 @@ Placement Director;ESA;Placement Director
 Planetarium Technician;RCI;Planetarium Technician
 Plant Pathologist;IRS;Plant Pathologist
 Plant Supervisor;SRE;Plant Supervisor
-Plasterer and Stucco Mason;RES;#N/A
+Plasterer and Stucco Mason;RES;Plester dan Stucco Mason
 Plating and Coating Machine Operator;RIE;Plating and Coating Machine Operator
-Playwright;ASE;#N/A
+Playwright;ASE;Dramawan
 Plumber;REI;Plumber
 Podiatrist;SIR;Podiatrist
 Poet;AES;Poet
-"Police Captain, Precinct";ERS;"Police Captain, Precinct"
+"Police Captain, Precinct";ERS;Police Captain
 Police Officer;SER;Police Officer
-"Police Officer, Crime Prevention";SCR;#N/A
-"Police Officer, Safety Instruction";SCE;"Police Officer, Safety Instruction"
-"Police Officer, State Highway";RSE;"Police Officer, State Highway"
+"Police Officer, Crime Prevention";SCR;"Polisi, Pencegahan Kejahatan"
+"Police Officer, Safety Instruction";SCE;Police Officer
+"Police Officer, State Highway";RSE;Police Officer
 Political Scientist;SEI;Political Scientist
 Politician;ESA;Politician
-Pllution Control Technician;RSI;#N/A
-Polygrapgh Examiner;CIS;#N/A
+Pollution Control Technician;RSI;Teknisi Pengendalian Polusi
+Polygrapgh Examiner;CIS;Pemeriksa Poligraf
 Post Office Clerk;CSE;Post Office Clerk
 Postal Service Mail Carrier;CRS;Postal Service Mail Carrier
-Pstmaster;ESR;#N/A
+Postmaster;ESR;Kepala kantor pos
 Precision Agriculture Technician;RIC;Precision Agriculture Technician
 Preparation Plant Supervisor;EAR;Preparation Plant Supervisor
 Prepress Technician;ARE;Prepress Technician
-"President, Educational Institution";ESR;"President, Educational Institution"
-"President, Financial Institution";SEI;"President, Financial Institution"
+"President, Educational Institution";ESR;President
+"President, Financial Institution";SEI;President
 Press Operator;RSC;Press Operator
 Preventive Maintenance Coordinator;CRE;Preventive Maintenance Coordinator
-Print Binding and Finishing Worker;RCA;#N/A
-Printed Circuit Desiger;IRC;#N/A
+Print Binding and Finishing Worker;RCA;Pekerja Print Binding dan Finishing
+Printed Circuit Designer;IRC;Perancang Sirkuit Cetak
 Printing Machine Operator;RCI;Printing Machine Operator
 Printmaker;AES;Printmaker
 Private Investigator;ESI;Private Investigator
 Probation/Parole Officer;SIE;Probation/Parole Officer
-"Process Artist, Printing and Publishing";REA;"Process Artist, Printing and Publishing"
+"Process Artist, Printing and Publishing";REA;Process Artist
 Process Server;ESC;Process Server
 Procurement Clerk;CES;Procurement Clerk
-"Producer, Film";ESA;"Producer, Film"
-"Producer, Radio and TV";SEA;"Producer, Radio and TV"
+"Producer, Film";ESA;Producer
+"Producer, Radio and TV";SEA;Producer
 Production Clerk;CSR;Production Clerk
 Production Coordinator;ESR;Production Coordinator
 Production Laborer;RCS;Production Laborer
 Production Manager;ERC;Production Manager
-"Production Manager, Advertising";ASE;#N/A
+"Production Manager, Advertising";ASE;"Manajer Produksi, Periklanan"
 Production Planner;REI;Production Planner
-"Production Superintendent, Agriculture";EIR;"Production Superintendent, Agriculture"
-"Program Administrator, Alcohol and Drug Abuse Assistance";ESR;#N/A
-"Program Coordinator, Amusement and Recreation";AES;"Program Coordinator, Amusement and Recreation"
+"Production Superintendent, Agriculture";EIR;Production Superintendent
+"Program Administrator, Alcohol and Drug Abuse Assistance";ESR;"Administrator Program, Alkohol dan Bantuan Penyalahgunaan Narkoba"
+"Program Coordinator, Amusement and Recreation";AES;Program Coordinator
 Program Manager;EIR;Program Manager
 Program Services Planner;EIS;Program Services Planner
-"Project Manager, Environmental Research";EIS;"Project Manager, Environmental Research"
-"Projectionist, Chief";SCR;"Projectionist, Chief"
+"Project Manager, Environmental Research";EIS;Project Manager
+"Projectionist, Chief";SCR;Projectionist
 Proofreader;CSI;Proofreader
 Property Clerk;CRS;Property Clerk
 Prospector;RIS;Prospector
@@ -1168,20 +1168,20 @@ Prosthetics Technician;RIE;Prosthetics Technician
 Prosthetist;RSE;Prosthetist
 Prosthodontist;ISR;Prosthodontist
 Psychiatric Aide;SEC;Psychiatric Aide
-Psychiatric Aide Instructor;SCE;#N/A
-"Psychiatric Aide, Mentally Challenged";SRI;"Psychiatric Aide, Mentally Challenged"
+Psychiatric Aide Instructor;SCE;Instruktur Pembantu Psikiatri
+"Psychiatric Aide, Mentally Challenged";SRI;Psychiatric Aide
 Psychiatric Technician;SIE;Psychiatric Technician
 Psychiatrist;ISA;Psychiatrist
-"Psychologist, Chief";ISE;"Psychologist, Chief"
-"Psychologist, Clinical";SIA;"Psychologist, Clinical"
-"Psychologist, Counseling";SIA;"Psychologist, Counseling"
-"Psychologist, Educational";IES;"Psychologist, Educational"
-"Psychologist, Experimental";IES;"Psychologist, Experimental"
-"Psychologist, Industrial-Organizational";IES;#N/A
-"Psychologist, School";SEI;"Psychologist, School"
+"Psychologist, Chief";ISE;Psychologist
+"Psychologist, Clinical";SIA;Psychologist
+"Psychologist, Counseling";SIA;Psychologist
+"Psychologist, Educational";IES;Psychologist
+"Psychologist, Experimental";IES;Psychologist
+"Psychologist, Industrial-Organizational";IES;"Psikolog, Industri-Organisasi"
+"Psychologist, School";SEI;Psychologist
 Psychometrist;IES;Psychometrist
 Public Health Service Officer;IES;Public Health Service Officer
-Public Relations Representative;ASE;#N/A
+Public Relations Representative;ASE;Perwakilan Hubungan Masyarakat
 Public Relations Specialist;AES;Public Relations Specialist
 Pulmonary Function Technician;IRC;Pulmonary Function Technician
 Puppeteer;AEI;Puppeteer
@@ -1189,25 +1189,25 @@ Purchasing Agent;ESR;Purchasing Agent
 Purification Operator;RSE;Purification Operator
 Quality Assurance Analyst/Tester;RIC;Quality Assurance Analyst/Tester
 Quality Control Analyst;IRC;Quality Control Analyst
-"Quality Control Clerk, Drug Preparation and Relate prodducts";CSR;#N/A
+"Quality Control Clerk, Drug Preparation and Relate products";CSR;"Petugas Kendali Mutu, Penyiapan Obat dan Produk yang Berhubungan"
 Quality Control Coordinator;CES;Quality Control Coordinator
-"Quality Control Technician, Food Preparation";REI;"Quality Control Technician, Food Preparation"
-"Quality Control Technician, Manufactured Products";RCI;"Quality Control Technician, Manufactured Products"
+"Quality Control Technician, Food Preparation";REI;Quality Control Technician
+"Quality Control Technician, Manufactured Products";RCI;Quality Control Technician
 Radiation Monitor;RCS;Radiation Monitor
 Radiation Protection Specialist;IRS;Radiation Protection Specialist
 Radiation Therapy Technologist;RIS;Radiation Therapy Technologist
 Radio Frequency Identification Device Specialist;RIC;Radio Frequency Identification Device Specialist
 Radio Operator;RCE;Radio Operator
-"Radio Cellular, and Tower Equipment Installer and Repairer";RIE;#N/A
+"Radio Cellular, and Tower Equipment Installer and Repairer";RIE;"Pemasang dan Perbaikan Peralatan Radio Seluler, dan Menara"
 Radiologic Technician;SRI;Radiologic Technician
 Radiologic Technologist;SRI;Radiologic Technologist
-"Radiologic Technologist, Chief";ISE;"Radiologic Technologist, Chief"
+"Radiologic Technologist, Chief";ISE;Radiologic Technologist
 Radiological Equipment Specialist;RES;Radiological Equipment Specialist
 Radiologist;IRS;Radiologist
 Radiopharmacist;IRC;Radiopharmacist
 Railway Equipment Operator;ERA;Railway Equipment Operator
 Range Manager;IRS;Range Manager
-"Rate Analyst, Freight";CSE;"Rate Analyst, Freight"
+"Rate Analyst, Freight";CSE;Rate Analyst
 Real Estate Broker;ECS;Real Estate Broker
 Receipt and Report Clerk;CRI;Receipt and Report Clerk
 Receptionist;CSE;Receptionist
@@ -1218,98 +1218,98 @@ Recreational Therapist;SEC;Recreational Therapist
 Recruiter;SRE;Recruiter
 Recycling and Reclamation Worker;RCS;Recycling and Reclamation Worker
 Recycling Coordinator;ERC;Recycling Coordinator
-"Referral Clerk, Temporary Employment Agency";CES;#N/A
-"Refinery Operator, Grain";RES;"Refinery Operator, Grain"
+"Referral Clerk, Temporary Employment Agency";CES;"Petugas Rujukan, Agen Tenaga Kerja Sementara"
+"Refinery Operator, Grain";RES;Refinery Operator
 Refrigeration Mechanic;RES;Refrigeration Mechanic
 Refuse and Recyclable Material Collector;RCS;Refuse and Recyclable Material Collector
-"Registrar, College or University";ESC;"Registrar, College or University"
-"Registrar, Museum";CER;"Registrar, Museum"
+"Registrar, College or University";ESC;Registrar
+"Registrar, Museum";CER;Registrar
 Regulatory Affairs Specialists;CEI;Regulatory Affairs Specialists
 Reinforcing Iron and Rebar Worker;RCI;Reinforcing Iron and Rebar Worker
 Remote Sensing Scientist/Technologist;IRC;Remote Sensing Scientist/Technologist
-Remote Sensing Technician;IRC;#N/A
-"Repairer, Art Objects";RCE;"Repairer, Art Objects"
-"Repairer, Electronics and Computers";RIS;#N/A
-"Repairer, Welding Equipment";REI;"Repairer, Welding Equipment"
+Remote Sensing Technician;IRC;Teknisi remote sensing
+"Repairer, Art Objects";RCE;Repairer
+"Repairer, Electronics and Computers";RIS;"Perbaikan, Elektronik dan Komputer"
+"Repairer, Welding Equipment";REI;Repairer
 Reporter/News Correspondent;ASI;Reporter/News Correspondent
 Research Contracts Supervisor;SEI;Research Contracts Supervisor
 Research Director;SEA;Research Director
 Reservation Clerk;CES;Reservation Clerk
-"Reservations Agent, Air Transportation";CES;"Reservations Agent, Air Transportation"
-Residental Advisor;SEC;#N/A
+"Reservations Agent, Air Transportation";CES;Reservations Agent
+Residental Advisor;SEC;Penasihat Penduduk
 Respiratory Therapist;SIR;Respiratory Therapist
 Respiratory Therapy Aide;SRC;Respiratory Therapy Aide
 Respiratory Therapy Technician;SRI;Respiratory Therapy Technician
-"Restorer, Ceramic";ASI;"Restorer, Ceramic"
-"Restorer, Paintings";ASR;#N/A
-"Restorer, Paper and Prints";AIS;"Restorer, Paper and Prints"
+"Restorer, Ceramic";ASI;Restorer
+"Restorer, Paintings";ASR;"Pemulih, Lukisan"
+"Restorer, Paper and Prints";AIS;Restorer
 Revenue Agent;ERI;Revenue Agent
 Rigger;RSC;Rigger
 Risk Management Specialist;EIC;Risk Management Specialist
 Road Supervisor;ERI;Road Supervisor
 Robot Technician;IRS;Robot Technician
 Roofer;REC;Roofer
-"Roustabout, Oil and Gas";RCI;"Roustabout, Oil and Gas"
+"Roustabout, Oil and Gas";RCI;Roustabout
 Route Supervisor;SER;Route Supervisor
-Safety Clothing and Equipment Designer;AER;#N/A
+Safety Clothing and Equipment Designer;AER;Desainer Pakaian dan Peralatan Keselamatan
 Safety Inspector;RCS;Safety Inspector
-"Safety Inspector, Truck";REC;"Safety Inspector, Truck"
-"Safety Manager, Medical Services";SEC;"Safety Manager, Medical Services"
-"Sales Agent, Financial Services";ESC;"Sales Agent, Financial Services"
-"Sales Agent, Insurance";ESC;"Sales Agent, Insurance"
-"Sales Agent, Real Estate";ESC;"Sales Agent, Real Estate"
-"Sales Agent, Securities and Commodities";EAS;#N/A
-Sales Clerk;ESR;Sales Clerk
-Sales Correspondent;ERS;Sales Correspondent
-"Sales Representative , Advertising";ESR;#N/A
-"Sales Representative, Farm and Garden Equipment and Supplies";ESR;"Sales Representative, Farm and Garden Equipment and Supplies"
-"Sales Representative, Footwear";ESA;#N/A
-"Sales Representative, Graphic Art";AES;"Sales Representative, Graphic Art"
-"Sales Representative, Hobbies and Crafts";ESR;#N/A
-"Sales Representative, Household Appliances";ESA;"Sales Representative, Household Appliances"
-"Sales Representative, Office Machines";ESR;"Sales Representative, Office Machines"
-"Sales Representative, Security Systems";ERI;"Sales Representative, Security Systems"
-"Sales Representative, Technical and Scientific Products";ESR;"Sales Representative, Technical and Scientific Products"
-"Salesperson, Apparel and Accessories";EAS;"Salesperson, Apparel and Accessories"
-"Salesperson, Automobiles";ESR;#N/A
-"Salesperson, Books";ESC;"Salesperson, Books"
-"Salesperson, Cosmetics and Toiletries";ESA;#N/A
-"Salesperson, Flowers";AER;"Salesperson, Flowers"
-"Salesperson, General Merchandise";ESA;"Salesperson, General Merchandise"
-"Salesperson, Musical Instruments and Accessories";ESA;#N/A
-"Salesperson, Pianos and Organs";ESR;"Salesperson, Pianos and Organs"
-"Salesperson, Sporting Goods";ESA;"Salesperson, Sporting Goods"
-"Sampler, Minerals and Eraths";ECR;#N/A
+"Safety Inspector, Truck";REC;Safety Inspector
+"Safety Manager, Medical Services";SEC;Safety Manager
+"Sales Agent, Financial Services";ESC;Sales Agent
+"Sales Agent, Insurance";ESC;Sales Agent
+"Sales Agent, Real Estate";ESC;Sales Agent
+"Sales Agent, Securities and Commodities";EAS;"Agen Penjualan, Efek dan Komoditas"
+Sales Clerk;ESR;"Perwakilan Penjualan, Periklanan"
+Sales Correspondent;ERS;"Perwakilan Penjualan, Alas Kaki"
+"Sales Representative , Advertising";ESR;"Perwakilan Penjualan, Periklanan"
+"Sales Representative, Farm and Garden Equipment and Supplies";ESR;"Tenaga penjual, Mobil"
+"Sales Representative, Footwear";ESA;"Perwakilan Penjualan, Alas Kaki"
+"Sales Representative, Graphic Art";AES;"Tenaga penjual, Alat Musik, dan Aksesori"
+"Sales Representative, Hobbies and Crafts";ESR;"Perwakilan Penjualan, Hobi dan Kerajinan"
+"Sales Representative, Household Appliances";ESA;Inspektur Sanitasi
+"Sales Representative, Office Machines";ESR;Operator Mesin Jahit
+"Sales Representative, Security Systems";ERI;Sales Representative
+"Sales Representative, Technical and Scientific Products";ESR;Sales Representative
+"Salesperson, Apparel and Accessories";EAS;Salesperson
+"Salesperson, Automobiles";ESR;"Tenaga penjual, Mobil"
+"Salesperson, Books";ESC;Salesperson
+"Salesperson, Cosmetics and Toiletries";ESA;"Tenaga penjual, Kosmetik, dan Peralatan Mandi"
+"Salesperson, Flowers";AER;Salesperson
+"Salesperson, General Merchandise";ESA;Salesperson
+"Salesperson, Musical Instruments and Accessories";ESA;"Tenaga penjual, Alat Musik, dan Aksesori"
+"Salesperson, Pianos and Organs";ESR;Salesperson
+"Salesperson, Sporting Goods";ESA;Salesperson
+"Sampler, Minerals and Earths";ECR;Pencoba air mineral dan bumi
 Sanitarian;ISR;Sanitarian
 Sanitation Inspector;ERS;Sanitation Inspector
-Sanitation Superintendent;ESI;#N/A
+Sanitation Superintendent;ESI;Inspektur Sanitasi
 Sanitation Supervisor;ERI;Sanitation Supervisor
 Satellite Communications Technician;RCI;Satellite Communications Technician
-Sawing Machine Operator;RIC;#N/A
+Sewing Machine Operator;RIC;Operator Mesin Jahit
 Scenic Arts Supervisor;AES;Scenic Arts Supervisor
 Schedule Maker;ERI;Schedule Maker
 School Crossing Guard;ESC;School Crossing Guard
 School Principal;SEI;School Principal
 School/Guidance Counselor;SCE;School/Guidance Counselor
 Screen Writer;AEI;Screen Writer
-Scuba Diver;REI;#N/A
+Scuba Diver;REI;Penyelam Scuba
 Sculptor;AER;Sculptor
 Search Marketing Strategist;EIS;Search Marketing Strategist
 Secretary;CSE;Secretary
 Securities Clerk;CSE;Securities Clerk
-"Securities Trader, Financial";ECS;"Securities Trader, Financial"
-Security and Fire Alarm Systems Installer;RCS;#N/A
+"Securities Trader, Financial";ECS;Securities Trader
+Security and Fire Alarm Systems Installer;RCS;Pemasang Sistem Keamanan dan Alarm Kebakaran
 Security Consultant;ESC;Security Consultant
 Security Guard;SEC;Security Guard
 Security Manager;EIC;Security Manager
 Seismologist;IRE;Seismologist
 Semiconductor Technician;ERC;Semiconductor Technician
-"Service Manager, Automobile Services";ESR;"Service Manager, Automobile Services"
-"Service Unit Operator, Oil, Gas, and Mining";RCI;"Service Unit Operator, Oil, Gas, and Mining"
-"Set Decorator, Theater and Film";AES;"Set Decorator, Theater and Film"
-"Set Designer, Theater and Film";AIE;"Set Designer, Theater and Film"
+"Service Manager, Automobile Services";ESR;Service Manager
+"Service Unit Operator, Oil, Gas, and Mining";RCI;Service Unit Operator
+"Set Decorator, Theater and Film";AES;Set Decorator
+"Set Designer, Theater and Film";AIE;Set Designer
 Sewer System Supervisor;EIR;Sewer System Supervisor
-Sewing Machine Operator;CSR;Sewing Machine Operator
+Sewing Machine Operator;CSR;Operator Mesin Jahit
 Sheet Metal Worker;REI;Sheet Metal Worker
 Sheriff/Deputy Sheriff;REC;Sheriff/Deputy Sheriff
 Ship Captain;ERI;Ship Captain
@@ -1317,20 +1317,20 @@ Ship Mate;ERS;Ship Mate
 Ship Pilot;REI;Ship Pilot
 Shipfitter;RIE;Shipfitter
 Shipping and Receiving Clerk;REI;Shipping and Receiving Clerk
-"Shipping anf Receiving, Order Clerk";CES;#N/A
+"Shipping and Receiving, Order Clerk";CES;"Pegawai Pengiriman dan Penerimaan, Pesanan "
 Shoe Repairer;RSE;Shoe Repairer
 Shopping Investigator;ESC;Shopping Investigator
-Show Operations Supervisor;ASE;#N/A
+Show Operations Supervisor;ASE;Tampilkan Pengawas Operasi
 Sign Shop Supervisor;AES;Sign Shop Supervisor
 Silversmith;RSC;Silversmith
-Siger;AES;#N/A
+Singer;AES;Penyanyi
 Singing Messenger;ASC;Singing Messenger
-Skin Care Specialist;RSA;#N/A
+Skin Care Specialist;RSA;Spesialis Perawatan Kulit
 Small Engine Mechanic;REC;Small Engine Mechanic
 Social Director;ESC;Social Director
 Social Science Research Assistant;CIS;Social Science Research Assistant
 Social Services Aide;SCE;Social Services Aide
-Social Welfare Administrator;ESA;#N/A
+Social Welfare Administrator;ESA;Administrator Kesejahteraan Sosial
 Social Worker;SEC;Social Worker
 Sociologist;IES;Sociologist
 Software Developer;IRC;Software Developer
@@ -1346,16 +1346,16 @@ Solderer and Brazer;CRS;Solderer and Brazer
 Sound Effects Technician;RAE;Sound Effects Technician
 Sound Mixer;RCS;Sound Mixer
 Sound Technician;RIE;Sound Technician
-"Special Agent, Customs";SRI;"Special Agent, Customs"
-"Special Agent, Governmental Services";ERI;"Special Agent, Governmental Services"
+"Special Agent, Customs";SRI;Special Agent
+"Special Agent, Governmental Services";ERI;Special Agent
 Special Education Supervisor;SEC;Special Education Supervisor
 Speech-Language Pathologist;SAI;Speech-Language Pathologist
 Speech-Language Pathology Assistant;SRC;Speech-Language Pathology Assistant
 Stage Manager;ESC;Stage Manager
 Stage Technician;ARS;Stage Technician
 Statement Clerk;CSE;Statement Clerk
-"Station Manager, Radio and TV";ESR;"Station Manager, Radio and TV"
-"Station Manager, Railroad";ESC;"Station Manager, Railroad"
+"Station Manager, Radio and TV";ESR;Station Manager
+"Station Manager, Railroad";ESC;Station Manager
 Statistical Assistant;ICS;Statistical Assistant
 Statistician;IRE;Statistician
 Stock Clerk;RCE;Stock Clerk
@@ -1367,43 +1367,43 @@ Stonemason;RCE;Stonemason
 Stress Analyst;IRC;Stress Analyst
 Structural Metal Fabricator and Fitter;RIS;Structural Metal Fabricator and Fitter
 Substance Abuse Counselor;SEA;Substance Abuse Counselor
-"Substation Operator, Utilities";RIS;"Substation Operator, Utilities"
+"Substation Operator, Utilities";RIS;Substation Operator
 Superintendent of Schools;SEI;Superintendent of Schools
 Surgeon;IRA;Surgeon
 Surgical Assistant;IRS;Surgical Assistant
 Surveillance System Monitor;CSR;Surveillance System Monitor
 Survey Researcher;ICE;Survey Researcher
 Survey Worker Supervisor;SEC;Survey Worker Supervisor
-"Surveyor, Geodetic";IRE;"Surveyor, Geodetic"
-"Surveyor, Hydrographic";IER;"Surveyor, Hydrographic"
-"Surveyor, Land";IER;"Surveyor, Land"
-"Surveyor, Ship";REC;"Surveyor, Ship"
+"Surveyor, Geodetic";IRE;Surveyor
+"Surveyor, Hydrographic";IER;Surveyor
+"Surveyor, Land";IER;Surveyor
+"Surveyor, Ship";REC;Surveyor
 Sustainability Specialist;ICE;Sustainability Specialist
 Switchboard Operator/Answering Service Operator;CSE;Switchboard Operator/Answering Service Operator
 systems Analyst;IER;Systems Analyst
 Tailor;RIE;Tailor
 Talent Manager;ESC;Talent Manager
 Taper/Finisher;RCS;Taper/Finisher
-Tax Preparer;CES;#N/A
+Tax Preparer;CES;Penyedia Pajak
 Taxicab Coordinator;SCE;Taxicab Coordinator
 Teacher Aide;SCE;Teacher Aide
-"Teacher, Adult Education";SER;"Teacher, Adult Education"
-"Teacher, Art";ASE;#N/A
-"Teacher, Drama";ASE;#N/A
-"Teacher, Elementary School";SAE;#N/A
-"Teacher, Elementary School, Special Education";SEC;"Teacher, Elementary School, Special Education"
-"Teacher, Industrial Arts";REI;"Teacher, Industrial Arts"
-"Teacher, Kindergarten";SEC;"Teacher, Kindergarten"
-"Teacher, Middle School, Special Education";SEC;"Teacher, Middle School, Special Education"
-"Teacher, Music";AES;"Teacher, Music"
-"Teacher, Preschool";SAE;"Teacher, Preschool"
-"Teacher, Preschool, Special Education";SEC;"Teacher, Preschool, Special Education"
-"Teacher, Secondary School";SAE;"Teacher, Secondary School"
-"Teacher, Secondaru School, Special Education";SEC;#N/A
-Techical Support Specialist;SER;#N/A
+"Teacher, Adult Education";SER;Teacher
+"Teacher, Art";ASE;"Guru, Seni"
+"Teacher, Drama";ASE;"Guru, Drama"
+"Teacher, Elementary School";SAE;"Guru, Sekolah Dasar"
+"Teacher, Elementary School, Special Education";SEC;Teacher
+"Teacher, Industrial Arts";REI;Teacher
+"Teacher, Kindergarten";SEC;Teacher
+"Teacher, Middle School, Special Education";SEC;Teacher
+"Teacher, Music";AES;Teacher
+"Teacher, Preschool";SAE;Teacher
+"Teacher, Preschool, Special Education";SEC;Teacher
+"Teacher, Secondary School";SAE;Teacher
+"Teacher, Secondary School, Special Education";SEC;"Guru, Sekolah Menengah, Pendidikan Khusus"
+Technical Support Specialist;SER;Spesialis Dukungan Teknis
 Technical Writer;IRS;Technical Writer
-"Technician, Dialysis";ISC;"Technician, Dialysis"
-"Technician, Surgical";ISR;"Technician, Surgical"
+"Technician, Dialysis";ISC;Technician
+"Technician, Surgical";ISR;Technician
 Telecommunications Engineering Specialist;REI;Telecommunications Engineering Specialist
 Telecommunications Equipment Installer and Repairer;REI;Telecommunications Equipment Installer and Repairer
 Telecommunications Line Installer and Repairer;REI;Telecommunications Line Installer and Repairer
@@ -1413,7 +1413,7 @@ Telecommunicator Supervisor;ECS;Telecommunicator Supervisor
 Telemarketer;ESC;Telemarketer
 Television Production Clerk;CRS;Television Production Clerk
 Television Technician;RIA;Television Technician
-Terrazo Worker and Finisher;REC;#N/A
+Terrazo Worker and Finisher;REC;Pekerja dan Finisher Terrazzo
 Test Technician;IRE;Test Technician
 Ticket Sales Agent;CSE;Ticket Sales Agent
 Ticket Sales Supervisor;ESR;Ticket Sales Supervisor
@@ -1422,13 +1422,13 @@ Tissue Technologist;IRE;Tissue Technologist
 Title Examiner;CSE;Title Examiner
 Tool and Die Maker;RCI;Tool and Die Maker
 Tools Designer;RIS;Tools Designer
-"Tools Programmer, Numerical Control";IRE;#N/A
+"Tools Programmer, Numerical Control";IRE;"Alat Programmer, Kontrol Numerik"
 Town Clerk;ECI;Town Clerk
 Toxicologist;IRC;Toxicologist
-"Toxicologist, Chief";IRE;"Toxicologist, Chief"
+"Toxicologist, Chief";IRE;Toxicologist
 Tractor Operator;RCE;Tractor Operator
 Traffic Checker;ERC;Traffic Checker
-Traffer Clerk;CRS;#N/A
+Traffer Clerk;CRS;Petugas Traffer
 Traffic Maintenance Supervisor;ERI;Traffic Maintenance Supervisor
 Traffic Manager;ESR;Traffic Manager
 Traffic Technician;REI;Traffic Technician
@@ -1448,14 +1448,14 @@ Ultrasound Technologist;RSI;Ultrasound Technologist
 Umpire/Referee;ESR;Umpire/Referee
 Underwriter;CSE;Underwriter
 Upholsterer;RCS;Upholsterer
-"Upholsterer, Chair and Furiture";RSC;#N/A
+"Upholsterer, Chair and Furiture";RSC;"Pelapis, Kursi dan Mebel"
 Urban Planner;ESI;Urban Planner
 Urologist;ISR;Urologist
-"Usher, Lobby Attendant, and Ticket Taker";SCR;#N/A
+"Usher, Lobby Attendant, and Ticket Taker";SCR;"Ushers, Lobby Attendants, dan Ticket Taker"
 Utilities Service Investigator;EIR;Utilities Service Investigator
 Utility Clerk;CER;Utility Clerk
 Vendor Quality Supervisor;EIA;Vendor Quality Supervisor
-Veteranian;IRS;#N/A
+Veteranian;IRS;Dokter hewan
 Veterinary Assistant;RSI;Veterinary Assistant
 Veterinary Livestock Inspector;IRE;Veterinary Livestock Inspector
 Veterinary Technologist and Technician;IRS;Veterinary Technologist and Technician
@@ -1467,7 +1467,7 @@ Vocational Rehabilitation Counselor;SEC;Vocational Rehabilitation Counselor
 Voice Pathologist;IER;Voice Pathologist
 Volunteer Services Supervisor;ESR;Volunteer Services Supervisor
 Waiter/Waitress;ESC;Waiter/Waitress
-"Waiter/Waitress, Head";ESR;"Waiter/Waitress, Head"
+"Waiter/Waitress, Head";ESR;Waiter/Waitress
 Warehouse Supervisor;ESR;Warehouse Supervisor
 Watch Repairer;REI;Watch Repairer
 Water Quality Tester;REI;Water Quality Tester
@@ -1476,8 +1476,8 @@ Water Treatment Plant Operator;RCE;Water Treatment Plant Operator
 Water Treatment Plant Supervisor;EIR;Water Treatment Plant Supervisor
 Water/Sewer Systems Superintendent;IER;Water/Sewer Systems Superintendent
 Weather Observer;RIE;Weather Observer
-Weatherization Installer/Technician;RIC;#N/A
-"Weaver, Carpet and Rug";RCE;"Weaver, Carpet and Rug"
+Weatherization Installer/Technician;RIC;Pemasang / Teknisi Cuaca
+"Weaver, Carpet and Rug";RCE;Weaver
 Web Administrator;IER;Web Administrator
 Web Developer/Designer;ACI;Web Developer/Designer
 Wedding Consultant;SEC;Wedding Consultant
@@ -1490,7 +1490,7 @@ Wind Energy Project Manager;IRC;Wind Energy Project Manager
 Wind Turbine Service Technician;RIC;Wind Turbine Service Technician
 Wine Maker;EIR;Wine Maker
 Woodworking Machine Operator;RIC;Woodworking Machine Operator
-"Winter, Fiction and Nonfiction";AIE;#N/A
-"Yard Manager, Railroad Transportation";ESC;"Yard Manager, Railroad Transportation"
+"Writer, Fiction and Nonfiction";AIE;"Penulis, Fiksi, dan Nonfiksi"
+"Yard Manager, Railroad Transportation";ESC;Yard Manager
 Zoo Veterinarian;ISE;Zoo Veterinarian
 Zoologist;IRE;Zoologist
