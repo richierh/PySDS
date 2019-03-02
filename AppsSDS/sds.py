@@ -1219,7 +1219,7 @@ class Page3 ( wx.Panel ):
 		fgSizer16.SetNonFlexibleGrowMode( wx.FLEX_GROWMODE_SPECIFIED )
 
 		self.m_panel29 = wx.Panel( self.m_panel27, wx.ID_ANY, wx.DefaultPosition, wx.DefaultSize, wx.TAB_TRAVERSAL )
-		self.m_panel29.SetForegroundColour( wx.SystemSettings.GetColour( wx.SYS_COLOUR_WINDOW ) )
+		self.m_panel29.SetForegroundColour( wx.Colour( 249, 250, 249 ) )
 		self.m_panel29.SetBackgroundColour( wx.Colour( 208, 87, 66 ) )
 
 		bSizer57 = wx.BoxSizer( wx.VERTICAL )
