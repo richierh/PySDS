@@ -3179,7 +3179,8 @@
 													<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
 													<border>5</border>
 													<object class="wxStaticText" name="m_staticText218">
-														<bg>#f9faf9</bg>
+														<bg>#0058da</bg>
+														<fg>#f9faf9</fg>
 														<font>
 															<size>12</size>
 															<family>swiss</family>

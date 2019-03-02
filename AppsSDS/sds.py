@@ -1996,7 +1996,8 @@ class Page4 ( wx.Panel ):
 		self.m_staticText218.Wrap( -1 )
 
 		self.m_staticText218.SetFont( wx.Font( 12, wx.FONTFAMILY_SWISS, wx.FONTSTYLE_NORMAL, wx.FONTWEIGHT_NORMAL, False, "Sans" ) )
-		self.m_staticText218.SetBackgroundColour( wx.SystemSettings.GetColour( wx.SYS_COLOUR_WINDOW ) )
+		self.m_staticText218.SetForegroundColour( wx.Colour( 249, 250, 249 ) )
+		self.m_staticText218.SetBackgroundColour( wx.Colour( 0, 88, 218 ) )
 
 		bSizer86.Add( self.m_staticText218, 0, wx.ALL|wx.ALIGN_CENTER_HORIZONTAL|wx.ALIGN_CENTER_VERTICAL, 5 )
 
