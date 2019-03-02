@@ -1228,7 +1228,8 @@ class Page3 ( wx.Panel ):
 		self.m_staticText141.Wrap( -1 )
 
 		self.m_staticText141.SetFont( wx.Font( 12, wx.FONTFAMILY_SWISS, wx.FONTSTYLE_NORMAL, wx.FONTWEIGHT_NORMAL, False, "Sans" ) )
-		self.m_staticText141.SetBackgroundColour( wx.SystemSettings.GetColour( wx.SYS_COLOUR_WINDOW ) )
+		self.m_staticText141.SetForegroundColour( wx.Colour( 249, 250, 249 ) )
+		self.m_staticText141.SetBackgroundColour( wx.Colour( 208, 87, 66 ) )
 
 		bSizer57.Add( self.m_staticText141, 0, wx.ALL|wx.ALIGN_CENTER_VERTICAL, 5 )
 
@@ -1424,6 +1425,7 @@ class Page3 ( wx.Panel ):
 
 		self.m_staticText1411.SetFont( wx.Font( 12, wx.FONTFAMILY_SWISS, wx.FONTSTYLE_NORMAL, wx.FONTWEIGHT_NORMAL, False, "Sans" ) )
 		self.m_staticText1411.SetForegroundColour( wx.Colour( 249, 250, 249 ) )
+		self.m_staticText1411.SetBackgroundColour( wx.Colour( 208, 87, 66 ) )
 
 		bSizer60.Add( self.m_staticText1411, 0, wx.ALL|wx.ALIGN_CENTER_VERTICAL, 5 )
 

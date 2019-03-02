@@ -381,6 +381,35 @@ class SDSHollandWindowUtama(sds.WindowUtama):
 		self.m_panelPage7.pendidikan_terakhir_input.SetSelection(\
 			self.pendidikan_terakhir_input.GetSelection())
 		self.m_panelPage7.jurusan_input.SetValue(self.jurusan_input.GetValue())
+		self.m_panelPage7.kota_input.SetValue(self.kota_input.GetValue())
+		self.m_panelPage7.perusahaan_instansi_input.SetValue(self.perusahaan_instansi_input.GetValue())
+		self.m_panelPage7.posisi_jabatan_input.SetValue(self.posisi_jabatan_input.GetValue())
+
+
+		self.m_panelPage7.nama_input2.SetValue(self.nama_input2.GetValue())
+		self.m_panelPage7.nama_input2.SetValue(self.nama_input2.GetValue())
+		self.m_panelPage7.tanggal_tes_input2.SetValue(self.tanggal_tes_input2.GetValue())
+		self.m_panelPage7.jenis_kelamin_input2.SetSelection(\
+			self.jenis_kelamin_input2.GetSelection())
+		self.m_panelPage7.tanggal_lahir_input2.SetValue(self.tanggal_lahir_input2.GetValue())
+		self.m_panelPage7.asal_sekolah_input2.SetValue(self.asal_sekolah_input2.GetValue())
+		self.m_panelPage7.jurusan_input2.SetValue(self.jurusan_input2.GetValue())		
+		self.m_panelPage7.kota_input2.SetValue(self.kota_input2.GetValue())
+		self.m_panelPage7.hobi_input2.SetValue(self.hobi_input2.GetValue())
+		self.m_panelPage7.prestasi_akademik_input2.SetValue(self.prestasi_akademik_input2.GetValue())
+		self.m_panelPage7.prestasi_akademik_input2.SetValue(self.prestasi_akademik_input2.GetValue())
+		self.m_panelPage7.prestasi_non_akademik_input2.SetValue(self.prestasi_non_akademik_input2.GetValue())
+		self.m_panelPage7.ekskul_yang_diikuti_input2.SetValue(self.ekskul_yang_diikuti_input2.GetValue())
+
+		self.m_panelPage7.label1.SetLabel(self.m_panelPage2.label1.GetLabel())
+		self.m_panelPage7.label2.SetLabel(self.m_panelPage2.label2.GetLabel())
+		self.m_panelPage7.label3.SetLabel(self.m_panelPage2.label3.GetLabel())
+		self.m_panelPage7.label4.SetLabel(self.m_panelPage2.label4.GetLabel())
+		self.m_panelPage7.label5.SetLabel(self.m_panelPage2.label5.GetLabel())
+
+
+
+		# self.m_panelPage7.label1.SetLabel(self.label1.GetLabel())
 
 		# Biodata peserta tes Pendidikan
 	
@@ -1017,7 +1046,7 @@ class SDSHollandWindowUtama(sds.WindowUtama):
 # 		"Tombol Simpan seluruh data yang sudah dimasukkan ke dalam database"
 		self.simpan = SimpanData(self)
 		self.simpan.simpan_data()
-
+		self.m_buttonBersihkanOnButtonClick(self)
 # 		print ("ini yang terakhir di proses {}".format(self.cek_rowid))
 		pass
 	
