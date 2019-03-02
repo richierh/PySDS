@@ -796,9 +796,9 @@ class WindowUtama ( main ):
 		event.Skip()
 
 
-##########################################################################
+###########################################################################
 ## Class TentangAplikasi
-##################################s#########################################
+###########################################################################
 
 class TentangAplikasi ( wx.Frame ):
 
@@ -1632,6 +1632,7 @@ class Page3 ( wx.Panel ):
 		fgSizer162.Add( self.m_RealisticP, 0, wx.ALL, 5 )
 
 		self.m_panel45 = wx.Panel( self.m_panel33, wx.ID_ANY, wx.DefaultPosition, wx.DefaultSize, wx.TAB_TRAVERSAL )
+		self.m_panel45.SetForegroundColour( wx.Colour( 249, 250, 249 ) )
 		self.m_panel45.SetBackgroundColour( wx.Colour( 245, 135, 79 ) )
 
 		bSizer71 = wx.BoxSizer( wx.VERTICAL )
@@ -1640,7 +1641,8 @@ class Page3 ( wx.Panel ):
 		self.m_staticText1432.Wrap( -1 )
 
 		self.m_staticText1432.SetFont( wx.Font( 12, wx.FONTFAMILY_SWISS, wx.FONTSTYLE_NORMAL, wx.FONTWEIGHT_NORMAL, False, "Sans" ) )
-		self.m_staticText1432.SetBackgroundColour( wx.SystemSettings.GetColour( wx.SYS_COLOUR_WINDOW ) )
+		self.m_staticText1432.SetForegroundColour( wx.Colour( 249, 250, 249 ) )
+		self.m_staticText1432.SetBackgroundColour( wx.Colour( 245, 135, 79 ) )
 
 		bSizer71.Add( self.m_staticText1432, 0, wx.ALL|wx.ALIGN_CENTER_VERTICAL, 5 )
 
