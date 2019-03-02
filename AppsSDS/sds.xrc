@@ -3962,621 +3962,625 @@
 				</object>
 			</object>
 			<object class="sizeritem">
-				<option>0</option>
-				<flag>wxALIGN_CENTER_HORIZONTAL</flag>
+				<option>1</option>
+				<flag>wxEXPAND | wxALL</flag>
 				<border>5</border>
-				<object class="wxBoxSizer">
-					<orient>wxVERTICAL</orient>
-					<object class="sizeritem">
-						<option>0</option>
-						<flag>wxEXPAND</flag>
-						<border>5</border>
-						<object class="wxFlexGridSizer">
-							<rows>0</rows>
-							<cols>4</cols>
-							<vgap>0</vgap>
-							<hgap>0</hgap>
-							<growablecols></growablecols>
-							<growablerows>0</growablerows>
-							<object class="sizeritem">
-								<option>0</option>
-								<flag>wxALL</flag>
-								<border>5</border>
-								<object class="wxButton" name="m_tombolHitung">
-									<bg>#f9faf9</bg>
-									<font>
-										<size>12</size>
-										<family>swiss</family>
-										<style>normal</style>
-										<weight>normal</weight>
-										<underlined>0</underlined>
-										<face>Sans</face>
-									</font>
-									<label>Hitung</label>
-									<default>0</default>
-									<markup>0</markup>
-									<bitmap />
+				<object class="wxScrolledWindow" name="m_scrolledWindow9">
+					<style>wxHSCROLL|wxVSCROLL</style>
+					<scrollrate>5,5</scrollrate>
+					<object class="wxBoxSizer">
+						<orient>wxVERTICAL</orient>
+						<object class="sizeritem">
+							<option>0</option>
+							<flag>wxEXPAND</flag>
+							<border>5</border>
+							<object class="wxFlexGridSizer">
+								<rows>0</rows>
+								<cols>4</cols>
+								<vgap>0</vgap>
+								<hgap>0</hgap>
+								<growablecols></growablecols>
+								<growablerows>0</growablerows>
+								<object class="sizeritem">
+									<option>0</option>
+									<flag>wxALL</flag>
+									<border>5</border>
+									<object class="wxButton" name="m_tombolHitung">
+										<bg>#f9faf9</bg>
+										<font>
+											<size>12</size>
+											<family>swiss</family>
+											<style>normal</style>
+											<weight>normal</weight>
+											<underlined>0</underlined>
+											<face>Sans</face>
+										</font>
+										<label>Hitung</label>
+										<default>0</default>
+										<markup>0</markup>
+										<bitmap />
+									</object>
 								</object>
-							</object>
-							<object class="spacer">
-								<option>1</option>
-								<flag>wxEXPAND</flag>
-								<border>5</border>
-								<size>950,0</size>
-							</object>
-							<object class="sizeritem">
-								<option>0</option>
-								<flag>wxALL</flag>
-								<border>5</border>
-								<object class="wxButton" name="m_tampilgrafik">
-									<font>
-										<size>12</size>
-										<family>swiss</family>
-										<style>normal</style>
-										<weight>normal</weight>
-										<underlined>0</underlined>
-										<face>Sans</face>
-									</font>
-									<label>Detail Grafik</label>
-									<default>0</default>
-									<markup>0</markup>
-									<bitmap />
+								<object class="spacer">
+									<option>1</option>
+									<flag>wxEXPAND</flag>
+									<border>5</border>
+									<size>950,0</size>
 								</object>
-							</object>
-							<object class="sizeritem">
-								<option>0</option>
-								<flag>wxALL</flag>
-								<border>5</border>
-								<object class="wxButton" name="m_grafikproperties">
-									<font>
-										<size>12</size>
-										<family>swiss</family>
-										<style>normal</style>
-										<weight>normal</weight>
-										<underlined>0</underlined>
-										<face>Sans</face>
-									</font>
-									<label>Print Grafik</label>
-									<default>0</default>
-									<markup>0</markup>
-									<bitmap />
+								<object class="sizeritem">
+									<option>0</option>
+									<flag>wxALL</flag>
+									<border>5</border>
+									<object class="wxButton" name="m_tampilgrafik">
+										<font>
+											<size>12</size>
+											<family>swiss</family>
+											<style>normal</style>
+											<weight>normal</weight>
+											<underlined>0</underlined>
+											<face>Sans</face>
+										</font>
+										<label>Detail Grafik</label>
+										<default>0</default>
+										<markup>0</markup>
+										<bitmap />
+									</object>
+								</object>
+								<object class="sizeritem">
+									<option>0</option>
+									<flag>wxALL</flag>
+									<border>5</border>
+									<object class="wxButton" name="m_grafikproperties">
+										<font>
+											<size>12</size>
+											<family>swiss</family>
+											<style>normal</style>
+											<weight>normal</weight>
+											<underlined>0</underlined>
+											<face>Sans</face>
+										</font>
+										<label>Print Grafik</label>
+										<default>0</default>
+										<markup>0</markup>
+										<bitmap />
+									</object>
 								</object>
 							</object>
 						</object>
-					</object>
-					<object class="sizeritem">
-						<option>0</option>
-						<flag>wxALIGN_CENTER_HORIZONTAL</flag>
-						<border>5</border>
-						<object class="wxBoxSizer">
-							<orient>wxVERTICAL</orient>
-							<object class="sizeritem">
-								<option>0</option>
-								<flag>wxALIGN_CENTER_HORIZONTAL</flag>
-								<border>5</border>
-								<object class="wxFlexGridSizer">
-									<rows>2</rows>
-									<cols>6</cols>
-									<minsize>-1,200</minsize>
-									<vgap>0</vgap>
-									<hgap>0</hgap>
-									<growablecols>0,1,2,3,4,5</growablecols>
-									<growablerows>1</growablerows>
-									<object class="sizeritem">
-										<option>1</option>
-										<flag>wxEXPAND | wxALL</flag>
-										<border>5</border>
-										<object class="wxPanel" name="m_panel51">
-											<style>wxTAB_TRAVERSAL</style>
-											<size>175,-1</size>
-											<bg>#585570</bg>
-											<object class="wxFlexGridSizer">
-												<rows>0</rows>
-												<cols>2</cols>
-												<vgap>0</vgap>
-												<hgap>0</hgap>
-												<growablecols>1</growablecols>
-												<growablerows>0</growablerows>
-												<object class="sizeritem">
-													<option>1</option>
-													<flag>wxALL|wxALIGN_CENTER_VERTICAL</flag>
-													<border>5</border>
-													<object class="wxStaticText" name="m_aktivitas">
-														<fg>#f9faf9</fg>
-														<font>
-															<size>14</size>
-															<style>normal</style>
-															<weight>normal</weight>
-															<underlined>0</underlined>
-															<face>Tw Cen MT</face>
-														</font>
-														<label>Aktivitas</label>
-														<wrap>-1</wrap>
-													</object>
-												</object>
-												<object class="sizeritem">
-													<option>0</option>
-													<flag>wxALL|wxALIGN_CENTER_VERTICAL|wxALIGN_RIGHT</flag>
-													<border>5</border>
-													<object class="wxButton" name="m_buttonDetailA">
-														<font>
-															<size>12</size>
-															<family>swiss</family>
-															<style>normal</style>
-															<weight>normal</weight>
-															<underlined>0</underlined>
-															<face>Sans</face>
-														</font>
-														<label>Detail</label>
-														<default>0</default>
-														<markup>0</markup>
-														<bitmap />
-													</object>
-												</object>
-											</object>
-										</object>
-									</object>
-									<object class="sizeritem">
-										<option>1</option>
-										<flag>wxEXPAND | wxALL</flag>
-										<border>5</border>
-										<object class="wxPanel" name="m_panel54">
-											<style>wxTAB_TRAVERSAL</style>
-											<size>175,-1</size>
-											<bg>#7d648b</bg>
-											<fg>#f9faf9</fg>
-											<object class="wxFlexGridSizer">
-												<rows>0</rows>
-												<cols>2</cols>
-												<vgap>0</vgap>
-												<hgap>0</hgap>
-												<growablecols>1</growablecols>
-												<growablerows>0</growablerows>
-												<object class="sizeritem">
-													<option>0</option>
-													<flag>wxALL|wxALIGN_CENTER_VERTICAL</flag>
-													<border>5</border>
-													<object class="wxStaticText" name="m_kompetensi">
-														<font>
-															<size>14</size>
-															<style>normal</style>
-															<weight>normal</weight>
-															<underlined>0</underlined>
-															<face>Tw Cen MT</face>
-														</font>
-														<label>Kompetensi</label>
-														<wrap>-1</wrap>
-													</object>
-												</object>
-												<object class="sizeritem">
-													<option>1</option>
-													<flag>wxALL|wxALIGN_CENTER_VERTICAL|wxALIGN_RIGHT|wxEXPAND</flag>
-													<border>5</border>
-													<object class="wxButton" name="m_buttonDetailK">
-														<font>
-															<size>12</size>
-															<family>swiss</family>
-															<style>normal</style>
-															<weight>normal</weight>
-															<underlined>0</underlined>
-															<face>Sans</face>
-														</font>
-														<label>Detail</label>
-														<default>0</default>
-														<markup>0</markup>
-														<bitmap />
-													</object>
-												</object>
-											</object>
-										</object>
-									</object>
-									<object class="sizeritem">
-										<option>1</option>
-										<flag>wxEXPAND | wxALL</flag>
-										<border>5</border>
-										<object class="wxPanel" name="m_panel55">
-											<style>wxTAB_TRAVERSAL</style>
-											<size>175,-1</size>
-											<bg>#96989a</bg>
-											<fg>#f9faf9</fg>
-											<object class="wxFlexGridSizer">
-												<rows>0</rows>
-												<cols>2</cols>
-												<vgap>0</vgap>
-												<hgap>0</hgap>
-												<growablecols>1</growablecols>
-												<growablerows>0</growablerows>
-												<object class="sizeritem">
-													<option>0</option>
-													<flag>wxALL|wxALIGN_CENTER_VERTICAL</flag>
-													<border>5</border>
-													<object class="wxStaticText" name="m_Pekerjaan">
-														<font>
-															<size>14</size>
-															<style>normal</style>
-															<weight>normal</weight>
-															<underlined>0</underlined>
-															<face>Tw Cen MT</face>
-														</font>
-														<label>Pekerjaan</label>
-														<wrap>-1</wrap>
-													</object>
-												</object>
-												<object class="sizeritem">
-													<option>0</option>
-													<flag>wxALL|wxALIGN_RIGHT</flag>
-													<border>5</border>
-													<object class="wxButton" name="m_buttonDetailP">
-														<font>
-															<size>12</size>
-															<family>swiss</family>
-															<style>normal</style>
-															<weight>normal</weight>
-															<underlined>0</underlined>
-															<face>Sans</face>
-														</font>
-														<label>Detail</label>
-														<default>0</default>
-														<markup>0</markup>
-														<bitmap />
-													</object>
-												</object>
-											</object>
-										</object>
-									</object>
-									<object class="sizeritem">
-										<option>1</option>
-										<flag>wxEXPAND | wxALL</flag>
-										<border>5</border>
-										<object class="wxPanel" name="m_panel86">
-											<style>wxTAB_TRAVERSAL</style>
-											<bg>#d47149</bg>
-											<object class="wxFlexGridSizer">
-												<rows>0</rows>
-												<cols>2</cols>
-												<vgap>0</vgap>
-												<hgap>0</hgap>
-												<growablecols>1</growablecols>
-												<growablerows>0</growablerows>
-												<object class="sizeritem">
-													<option>0</option>
-													<flag>wxALL|wxALIGN_CENTER_VERTICAL</flag>
-													<border>5</border>
-													<object class="wxStaticText" name="m_pdiribag1">
-														<font>
-															<size>14</size>
-															<style>normal</style>
-															<weight>normal</weight>
-															<underlined>0</underlined>
-															<face>Tw Cen MT</face>
-														</font>
-														<label>Penilaian Diri\n    Bagian 1</label>
-														<wrap>-1</wrap>
-													</object>
-												</object>
-												<object class="sizeritem">
-													<option>0</option>
-													<flag>wxALL|wxALIGN_RIGHT</flag>
-													<border>5</border>
-													<object class="wxButton" name="m_buttonDetailPD1">
-														<font>
-															<size>12</size>
-															<family>swiss</family>
-															<style>normal</style>
-															<weight>normal</weight>
-															<underlined>0</underlined>
-															<face>Sans</face>
-														</font>
-														<label>Detail</label>
-														<default>0</default>
-														<markup>0</markup>
-														<bitmap />
-													</object>
-												</object>
-											</object>
-										</object>
-									</object>
-									<object class="sizeritem">
-										<option>1</option>
-										<flag>wxEXPAND | wxALL</flag>
-										<border>5</border>
-										<object class="wxPanel" name="m_panel88">
-											<style>wxTAB_TRAVERSAL</style>
-											<size>200,-1</size>
-											<bg>#d69138</bg>
-											<object class="wxBoxSizer">
-												<orient>wxVERTICAL</orient>
-												<object class="sizeritem">
-													<option>0</option>
-													<flag></flag>
-													<border>5</border>
-													<object class="wxFlexGridSizer">
-														<rows>0</rows>
-														<cols>2</cols>
-														<vgap>0</vgap>
-														<hgap>0</hgap>
-														<growablecols>1</growablecols>
-														<growablerows>0</growablerows>
-														<object class="sizeritem">
-															<option>0</option>
-															<flag>wxALL|wxALIGN_CENTER_VERTICAL</flag>
-															<border>5</border>
-															<object class="wxStaticText" name="m_pdiribag2">
-																<font>
-																	<size>14</size>
-																	<style>normal</style>
-																	<weight>normal</weight>
-																	<underlined>0</underlined>
-																	<face>Tw Cen MT</face>
-																</font>
-																<label>Penilaian Diri \n    Bagian 2</label>
-																<wrap>-1</wrap>
-															</object>
+						<object class="sizeritem">
+							<option>0</option>
+							<flag>wxALIGN_CENTER_HORIZONTAL</flag>
+							<border>5</border>
+							<object class="wxBoxSizer">
+								<orient>wxVERTICAL</orient>
+								<object class="sizeritem">
+									<option>0</option>
+									<flag>wxALIGN_CENTER_HORIZONTAL</flag>
+									<border>5</border>
+									<object class="wxFlexGridSizer">
+										<rows>2</rows>
+										<cols>6</cols>
+										<minsize>-1,200</minsize>
+										<vgap>0</vgap>
+										<hgap>0</hgap>
+										<growablecols>0,1,2,3,4,5</growablecols>
+										<growablerows>1</growablerows>
+										<object class="sizeritem">
+											<option>1</option>
+											<flag>wxEXPAND | wxALL</flag>
+											<border>5</border>
+											<object class="wxPanel" name="m_panel51">
+												<style>wxTAB_TRAVERSAL</style>
+												<size>175,-1</size>
+												<bg>#585570</bg>
+												<object class="wxFlexGridSizer">
+													<rows>0</rows>
+													<cols>2</cols>
+													<vgap>0</vgap>
+													<hgap>0</hgap>
+													<growablecols>1</growablecols>
+													<growablerows>0</growablerows>
+													<object class="sizeritem">
+														<option>1</option>
+														<flag>wxALL|wxALIGN_CENTER_VERTICAL</flag>
+														<border>5</border>
+														<object class="wxStaticText" name="m_aktivitas">
+															<fg>#f9faf9</fg>
+															<font>
+																<size>14</size>
+																<style>normal</style>
+																<weight>normal</weight>
+																<underlined>0</underlined>
+																<face>Tw Cen MT</face>
+															</font>
+															<label>Aktivitas</label>
+															<wrap>-1</wrap>
 														</object>
-														<object class="sizeritem">
-															<option>0</option>
-															<flag>wxALL|wxALIGN_RIGHT</flag>
-															<border>5</border>
-															<object class="wxButton" name="m_buttonDetailPD2">
-																<font>
-																	<size>12</size>
-																	<family>swiss</family>
-																	<style>normal</style>
-																	<weight>normal</weight>
-																	<underlined>0</underlined>
-																	<face>Sans</face>
-																</font>
-																<label>Detail</label>
-																<default>0</default>
-																<markup>0</markup>
-																<bitmap />
-															</object>
+													</object>
+													<object class="sizeritem">
+														<option>0</option>
+														<flag>wxALL|wxALIGN_CENTER_VERTICAL|wxALIGN_RIGHT</flag>
+														<border>5</border>
+														<object class="wxButton" name="m_buttonDetailA">
+															<font>
+																<size>12</size>
+																<family>swiss</family>
+																<style>normal</style>
+																<weight>normal</weight>
+																<underlined>0</underlined>
+																<face>Sans</face>
+															</font>
+															<label>Detail</label>
+															<default>0</default>
+															<markup>0</markup>
+															<bitmap />
 														</object>
 													</object>
 												</object>
 											</object>
 										</object>
-									</object>
-									<object class="sizeritem">
-										<option>0</option>
-										<flag>wxALL|wxEXPAND</flag>
-										<border>5</border>
-										<object class="wxPanel" name="m_panel90">
-											<style>wxTAB_TRAVERSAL</style>
-											<bg>#585570</bg>
-											<fg>#f9faf9</fg>
-											<object class="wxBoxSizer">
-												<orient>wxVERTICAL</orient>
-												<object class="sizeritem">
-													<option>1</option>
-													<flag>wxEXPAND</flag>
-													<border>5</border>
-													<object class="wxFlexGridSizer">
-														<rows>0</rows>
-														<cols>2</cols>
-														<vgap>0</vgap>
-														<hgap>0</hgap>
-														<growablecols>0</growablecols>
-														<growablerows>0</growablerows>
-														<object class="sizeritem">
-															<option>0</option>
-															<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
-															<border>5</border>
-															<object class="wxStaticText" name="m_summaryscores">
-																<font>
-																	<size>14</size>
-																	<style>normal</style>
-																	<weight>normal</weight>
-																	<underlined>0</underlined>
-																	<face>Tw Cen MT</face>
-																</font>
-																<label>Summary Scores</label>
-																<wrap>-1</wrap>
+										<object class="sizeritem">
+											<option>1</option>
+											<flag>wxEXPAND | wxALL</flag>
+											<border>5</border>
+											<object class="wxPanel" name="m_panel54">
+												<style>wxTAB_TRAVERSAL</style>
+												<size>175,-1</size>
+												<bg>#7d648b</bg>
+												<fg>#f9faf9</fg>
+												<object class="wxFlexGridSizer">
+													<rows>0</rows>
+													<cols>2</cols>
+													<vgap>0</vgap>
+													<hgap>0</hgap>
+													<growablecols>1</growablecols>
+													<growablerows>0</growablerows>
+													<object class="sizeritem">
+														<option>0</option>
+														<flag>wxALL|wxALIGN_CENTER_VERTICAL</flag>
+														<border>5</border>
+														<object class="wxStaticText" name="m_kompetensi">
+															<font>
+																<size>14</size>
+																<style>normal</style>
+																<weight>normal</weight>
+																<underlined>0</underlined>
+																<face>Tw Cen MT</face>
+															</font>
+															<label>Kompetensi</label>
+															<wrap>-1</wrap>
+														</object>
+													</object>
+													<object class="sizeritem">
+														<option>1</option>
+														<flag>wxALL|wxALIGN_CENTER_VERTICAL|wxALIGN_RIGHT|wxEXPAND</flag>
+														<border>5</border>
+														<object class="wxButton" name="m_buttonDetailK">
+															<font>
+																<size>12</size>
+																<family>swiss</family>
+																<style>normal</style>
+																<weight>normal</weight>
+																<underlined>0</underlined>
+																<face>Sans</face>
+															</font>
+															<label>Detail</label>
+															<default>0</default>
+															<markup>0</markup>
+															<bitmap />
+														</object>
+													</object>
+												</object>
+											</object>
+										</object>
+										<object class="sizeritem">
+											<option>1</option>
+											<flag>wxEXPAND | wxALL</flag>
+											<border>5</border>
+											<object class="wxPanel" name="m_panel55">
+												<style>wxTAB_TRAVERSAL</style>
+												<size>175,-1</size>
+												<bg>#96989a</bg>
+												<fg>#f9faf9</fg>
+												<object class="wxFlexGridSizer">
+													<rows>0</rows>
+													<cols>2</cols>
+													<vgap>0</vgap>
+													<hgap>0</hgap>
+													<growablecols>1</growablecols>
+													<growablerows>0</growablerows>
+													<object class="sizeritem">
+														<option>0</option>
+														<flag>wxALL|wxALIGN_CENTER_VERTICAL</flag>
+														<border>5</border>
+														<object class="wxStaticText" name="m_Pekerjaan">
+															<font>
+																<size>14</size>
+																<style>normal</style>
+																<weight>normal</weight>
+																<underlined>0</underlined>
+																<face>Tw Cen MT</face>
+															</font>
+															<label>Pekerjaan</label>
+															<wrap>-1</wrap>
+														</object>
+													</object>
+													<object class="sizeritem">
+														<option>0</option>
+														<flag>wxALL|wxALIGN_RIGHT</flag>
+														<border>5</border>
+														<object class="wxButton" name="m_buttonDetailP">
+															<font>
+																<size>12</size>
+																<family>swiss</family>
+																<style>normal</style>
+																<weight>normal</weight>
+																<underlined>0</underlined>
+																<face>Sans</face>
+															</font>
+															<label>Detail</label>
+															<default>0</default>
+															<markup>0</markup>
+															<bitmap />
+														</object>
+													</object>
+												</object>
+											</object>
+										</object>
+										<object class="sizeritem">
+											<option>1</option>
+											<flag>wxEXPAND | wxALL</flag>
+											<border>5</border>
+											<object class="wxPanel" name="m_panel86">
+												<style>wxTAB_TRAVERSAL</style>
+												<bg>#d47149</bg>
+												<object class="wxFlexGridSizer">
+													<rows>0</rows>
+													<cols>2</cols>
+													<vgap>0</vgap>
+													<hgap>0</hgap>
+													<growablecols>1</growablecols>
+													<growablerows>0</growablerows>
+													<object class="sizeritem">
+														<option>0</option>
+														<flag>wxALL|wxALIGN_CENTER_VERTICAL</flag>
+														<border>5</border>
+														<object class="wxStaticText" name="m_pdiribag1">
+															<font>
+																<size>14</size>
+																<style>normal</style>
+																<weight>normal</weight>
+																<underlined>0</underlined>
+																<face>Tw Cen MT</face>
+															</font>
+															<label>Penilaian Diri\n    Bagian 1</label>
+															<wrap>-1</wrap>
+														</object>
+													</object>
+													<object class="sizeritem">
+														<option>0</option>
+														<flag>wxALL|wxALIGN_RIGHT</flag>
+														<border>5</border>
+														<object class="wxButton" name="m_buttonDetailPD1">
+															<font>
+																<size>12</size>
+																<family>swiss</family>
+																<style>normal</style>
+																<weight>normal</weight>
+																<underlined>0</underlined>
+																<face>Sans</face>
+															</font>
+															<label>Detail</label>
+															<default>0</default>
+															<markup>0</markup>
+															<bitmap />
+														</object>
+													</object>
+												</object>
+											</object>
+										</object>
+										<object class="sizeritem">
+											<option>1</option>
+											<flag>wxEXPAND | wxALL</flag>
+											<border>5</border>
+											<object class="wxPanel" name="m_panel88">
+												<style>wxTAB_TRAVERSAL</style>
+												<size>200,-1</size>
+												<bg>#d69138</bg>
+												<object class="wxBoxSizer">
+													<orient>wxVERTICAL</orient>
+													<object class="sizeritem">
+														<option>0</option>
+														<flag></flag>
+														<border>5</border>
+														<object class="wxFlexGridSizer">
+															<rows>0</rows>
+															<cols>2</cols>
+															<vgap>0</vgap>
+															<hgap>0</hgap>
+															<growablecols>1</growablecols>
+															<growablerows>0</growablerows>
+															<object class="sizeritem">
+																<option>0</option>
+																<flag>wxALL|wxALIGN_CENTER_VERTICAL</flag>
+																<border>5</border>
+																<object class="wxStaticText" name="m_pdiribag2">
+																	<font>
+																		<size>14</size>
+																		<style>normal</style>
+																		<weight>normal</weight>
+																		<underlined>0</underlined>
+																		<face>Tw Cen MT</face>
+																	</font>
+																	<label>Penilaian Diri \n    Bagian 2</label>
+																	<wrap>-1</wrap>
+																</object>
+															</object>
+															<object class="sizeritem">
+																<option>0</option>
+																<flag>wxALL|wxALIGN_RIGHT</flag>
+																<border>5</border>
+																<object class="wxButton" name="m_buttonDetailPD2">
+																	<font>
+																		<size>12</size>
+																		<family>swiss</family>
+																		<style>normal</style>
+																		<weight>normal</weight>
+																		<underlined>0</underlined>
+																		<face>Sans</face>
+																	</font>
+																	<label>Detail</label>
+																	<default>0</default>
+																	<markup>0</markup>
+																	<bitmap />
+																</object>
 															</object>
 														</object>
 													</object>
 												</object>
 											</object>
 										</object>
-									</object>
-									<object class="sizeritem">
-										<option>1</option>
-										<flag>wxEXPAND | wxALL</flag>
-										<border>5</border>
-										<object class="wxPanel" name="m_panel52">
-											<style>wxTAB_TRAVERSAL</style>
-											<bg>#585570</bg>
-											<object class="wxBoxSizer">
-												<orient>wxVERTICAL</orient>
-												<object class="sizeritem">
-													<option>1</option>
-													<flag>wxALL|wxEXPAND</flag>
-													<border>5</border>
-													<object class="wxListBox" name="m_lbaktivitas">
-														<style>wxLB_ALWAYS_SB</style>
-														<size>175,100</size>
-														<bg>#585570</bg>
-														<fg>#3c3e3c</fg>
-														<font>
-															<size>14</size>
-															<style>normal</style>
-															<weight>normal</weight>
-															<underlined>0</underlined>
-															<face>Tw Cen MT</face>
-														</font>
-														<content />
+										<object class="sizeritem">
+											<option>0</option>
+											<flag>wxALL|wxEXPAND</flag>
+											<border>5</border>
+											<object class="wxPanel" name="m_panel90">
+												<style>wxTAB_TRAVERSAL</style>
+												<bg>#585570</bg>
+												<fg>#f9faf9</fg>
+												<object class="wxBoxSizer">
+													<orient>wxVERTICAL</orient>
+													<object class="sizeritem">
+														<option>1</option>
+														<flag>wxEXPAND</flag>
+														<border>5</border>
+														<object class="wxFlexGridSizer">
+															<rows>0</rows>
+															<cols>2</cols>
+															<vgap>0</vgap>
+															<hgap>0</hgap>
+															<growablecols>0</growablecols>
+															<growablerows>0</growablerows>
+															<object class="sizeritem">
+																<option>0</option>
+																<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+																<border>5</border>
+																<object class="wxStaticText" name="m_summaryscores">
+																	<font>
+																		<size>14</size>
+																		<style>normal</style>
+																		<weight>normal</weight>
+																		<underlined>0</underlined>
+																		<face>Tw Cen MT</face>
+																	</font>
+																	<label>Summary Scores</label>
+																	<wrap>-1</wrap>
+																</object>
+															</object>
+														</object>
 													</object>
 												</object>
 											</object>
 										</object>
-									</object>
-									<object class="sizeritem">
-										<option>1</option>
-										<flag>wxEXPAND | wxALL</flag>
-										<border>5</border>
-										<object class="wxPanel" name="m_panel53">
-											<style>wxTAB_TRAVERSAL</style>
-											<bg>#7d648b</bg>
-											<object class="wxBoxSizer">
-												<orient>wxVERTICAL</orient>
-												<object class="sizeritem">
-													<option>1</option>
-													<flag>wxALL|wxEXPAND</flag>
-													<border>5</border>
-													<object class="wxListBox" name="m_lbkompetensi">
-														<style>wxLB_ALWAYS_SB</style>
-														<size>175,100</size>
-														<bg>#7d648b</bg>
-														<fg>#3c3e3c</fg>
-														<font>
-															<size>14</size>
-															<style>normal</style>
-															<weight>normal</weight>
-															<underlined>0</underlined>
-															<face>Tw Cen MT</face>
-														</font>
-														<content />
+										<object class="sizeritem">
+											<option>1</option>
+											<flag>wxEXPAND | wxALL</flag>
+											<border>5</border>
+											<object class="wxPanel" name="m_panel52">
+												<style>wxTAB_TRAVERSAL</style>
+												<bg>#585570</bg>
+												<object class="wxBoxSizer">
+													<orient>wxVERTICAL</orient>
+													<object class="sizeritem">
+														<option>1</option>
+														<flag>wxALL|wxEXPAND</flag>
+														<border>5</border>
+														<object class="wxListBox" name="m_lbaktivitas">
+															<style>wxLB_ALWAYS_SB</style>
+															<size>175,100</size>
+															<bg>#585570</bg>
+															<fg>#3c3e3c</fg>
+															<font>
+																<size>14</size>
+																<style>normal</style>
+																<weight>normal</weight>
+																<underlined>0</underlined>
+																<face>Tw Cen MT</face>
+															</font>
+															<content />
+														</object>
 													</object>
 												</object>
 											</object>
 										</object>
-									</object>
-									<object class="sizeritem">
-										<option>1</option>
-										<flag>wxEXPAND | wxALL</flag>
-										<border>5</border>
-										<object class="wxPanel" name="m_panel56">
-											<style>wxTAB_TRAVERSAL</style>
-											<bg>#96989a</bg>
-											<fg>#f9faf9</fg>
-											<object class="wxBoxSizer">
-												<orient>wxVERTICAL</orient>
-												<object class="sizeritem">
-													<option>1</option>
-													<flag>wxALL|wxEXPAND</flag>
-													<border>5</border>
-													<object class="wxListBox" name="m_lbpekerjaan">
-														<style>wxLB_ALWAYS_SB</style>
-														<size>175,100</size>
-														<bg>#96989a</bg>
-														<fg>#3c3e3c</fg>
-														<font>
-															<size>14</size>
-															<style>normal</style>
-															<weight>normal</weight>
-															<underlined>0</underlined>
-															<face>Tw Cen MT</face>
-														</font>
-														<content />
+										<object class="sizeritem">
+											<option>1</option>
+											<flag>wxEXPAND | wxALL</flag>
+											<border>5</border>
+											<object class="wxPanel" name="m_panel53">
+												<style>wxTAB_TRAVERSAL</style>
+												<bg>#7d648b</bg>
+												<object class="wxBoxSizer">
+													<orient>wxVERTICAL</orient>
+													<object class="sizeritem">
+														<option>1</option>
+														<flag>wxALL|wxEXPAND</flag>
+														<border>5</border>
+														<object class="wxListBox" name="m_lbkompetensi">
+															<style>wxLB_ALWAYS_SB</style>
+															<size>175,100</size>
+															<bg>#7d648b</bg>
+															<fg>#3c3e3c</fg>
+															<font>
+																<size>14</size>
+																<style>normal</style>
+																<weight>normal</weight>
+																<underlined>0</underlined>
+																<face>Tw Cen MT</face>
+															</font>
+															<content />
+														</object>
 													</object>
 												</object>
 											</object>
 										</object>
-									</object>
-									<object class="sizeritem">
-										<option>1</option>
-										<flag>wxEXPAND | wxALL</flag>
-										<border>5</border>
-										<object class="wxPanel" name="m_panel85">
-											<style>wxTAB_TRAVERSAL</style>
-											<bg>#d47149</bg>
-											<object class="wxBoxSizer">
-												<orient>wxVERTICAL</orient>
-												<object class="sizeritem">
-													<option>1</option>
-													<flag>wxALL|wxEXPAND</flag>
-													<border>5</border>
-													<object class="wxListBox" name="m_lbpenilaianbag1">
-														<style>wxLB_ALWAYS_SB</style>
-														<size>175,100</size>
-														<bg>#d47149</bg>
-														<font>
-															<size>14</size>
-															<style>normal</style>
-															<weight>normal</weight>
-															<underlined>0</underlined>
-															<face>Tw Cen MT</face>
-														</font>
-														<content />
+										<object class="sizeritem">
+											<option>1</option>
+											<flag>wxEXPAND | wxALL</flag>
+											<border>5</border>
+											<object class="wxPanel" name="m_panel56">
+												<style>wxTAB_TRAVERSAL</style>
+												<bg>#96989a</bg>
+												<fg>#f9faf9</fg>
+												<object class="wxBoxSizer">
+													<orient>wxVERTICAL</orient>
+													<object class="sizeritem">
+														<option>1</option>
+														<flag>wxALL|wxEXPAND</flag>
+														<border>5</border>
+														<object class="wxListBox" name="m_lbpekerjaan">
+															<style>wxLB_ALWAYS_SB</style>
+															<size>175,100</size>
+															<bg>#96989a</bg>
+															<fg>#3c3e3c</fg>
+															<font>
+																<size>14</size>
+																<style>normal</style>
+																<weight>normal</weight>
+																<underlined>0</underlined>
+																<face>Tw Cen MT</face>
+															</font>
+															<content />
+														</object>
 													</object>
 												</object>
 											</object>
 										</object>
-									</object>
-									<object class="sizeritem">
-										<option>1</option>
-										<flag>wxEXPAND | wxALL</flag>
-										<border>5</border>
-										<object class="wxPanel" name="m_panel87">
-											<style>wxTAB_TRAVERSAL</style>
-											<size>200,-1</size>
-											<bg>#d69138</bg>
-											<object class="wxBoxSizer">
-												<orient>wxVERTICAL</orient>
-												<object class="sizeritem">
-													<option>1</option>
-													<flag>wxALL|wxEXPAND</flag>
-													<border>5</border>
-													<object class="wxListBox" name="m_lbpenilaianbag2">
-														<style>wxLB_ALWAYS_SB</style>
-														<size>200,100</size>
-														<bg>#d69138</bg>
-														<font>
-															<size>14</size>
-															<style>normal</style>
-															<weight>normal</weight>
-															<underlined>0</underlined>
-															<face>Tw Cen MT</face>
-														</font>
-														<content />
+										<object class="sizeritem">
+											<option>1</option>
+											<flag>wxEXPAND | wxALL</flag>
+											<border>5</border>
+											<object class="wxPanel" name="m_panel85">
+												<style>wxTAB_TRAVERSAL</style>
+												<bg>#d47149</bg>
+												<object class="wxBoxSizer">
+													<orient>wxVERTICAL</orient>
+													<object class="sizeritem">
+														<option>1</option>
+														<flag>wxALL|wxEXPAND</flag>
+														<border>5</border>
+														<object class="wxListBox" name="m_lbpenilaianbag1">
+															<style>wxLB_ALWAYS_SB</style>
+															<size>175,100</size>
+															<bg>#d47149</bg>
+															<font>
+																<size>14</size>
+																<style>normal</style>
+																<weight>normal</weight>
+																<underlined>0</underlined>
+																<face>Tw Cen MT</face>
+															</font>
+															<content />
+														</object>
 													</object>
 												</object>
 											</object>
 										</object>
-									</object>
-									<object class="sizeritem">
-										<option>1</option>
-										<flag>wxEXPAND | wxALL</flag>
-										<border>5</border>
-										<object class="wxPanel" name="m_panel89">
-											<style>wxTAB_TRAVERSAL</style>
-											<bg>#585570</bg>
-											<object class="wxBoxSizer">
-												<orient>wxVERTICAL</orient>
-												<object class="sizeritem">
-													<option>1</option>
-													<flag>wxALL|wxEXPAND</flag>
-													<border>5</border>
-													<object class="wxListBox" name="m_lbsummaryscores">
-														<style>wxLB_ALWAYS_SB</style>
-														<size>200,100</size>
-														<bg>#585570</bg>
-														<font>
-															<size>14</size>
-															<style>normal</style>
-															<weight>normal</weight>
-															<underlined>0</underlined>
-															<face>Tw Cen MT</face>
-														</font>
-														<content />
+										<object class="sizeritem">
+											<option>1</option>
+											<flag>wxEXPAND | wxALL</flag>
+											<border>5</border>
+											<object class="wxPanel" name="m_panel87">
+												<style>wxTAB_TRAVERSAL</style>
+												<size>200,-1</size>
+												<bg>#d69138</bg>
+												<object class="wxBoxSizer">
+													<orient>wxVERTICAL</orient>
+													<object class="sizeritem">
+														<option>1</option>
+														<flag>wxALL|wxEXPAND</flag>
+														<border>5</border>
+														<object class="wxListBox" name="m_lbpenilaianbag2">
+															<style>wxLB_ALWAYS_SB</style>
+															<size>200,100</size>
+															<bg>#d69138</bg>
+															<font>
+																<size>14</size>
+																<style>normal</style>
+																<weight>normal</weight>
+																<underlined>0</underlined>
+																<face>Tw Cen MT</face>
+															</font>
+															<content />
+														</object>
+													</object>
+												</object>
+											</object>
+										</object>
+										<object class="sizeritem">
+											<option>1</option>
+											<flag>wxEXPAND | wxALL</flag>
+											<border>5</border>
+											<object class="wxPanel" name="m_panel89">
+												<style>wxTAB_TRAVERSAL</style>
+												<bg>#585570</bg>
+												<object class="wxBoxSizer">
+													<orient>wxVERTICAL</orient>
+													<object class="sizeritem">
+														<option>1</option>
+														<flag>wxALL|wxEXPAND</flag>
+														<border>5</border>
+														<object class="wxListBox" name="m_lbsummaryscores">
+															<style>wxLB_ALWAYS_SB</style>
+															<size>200,100</size>
+															<bg>#585570</bg>
+															<font>
+																<size>14</size>
+																<style>normal</style>
+																<weight>normal</weight>
+																<underlined>0</underlined>
+																<face>Tw Cen MT</face>
+															</font>
+															<content />
+														</object>
 													</object>
 												</object>
 											</object>
 										</object>
 									</object>
 								</object>
-							</object>
-							<object class="sizeritem">
-								<option>1</option>
-								<flag>wxALL|wxEXPAND</flag>
-								<border>5</border>
-								<object class="" name="m_plota" />
-							</object>
-							<object class="sizeritem">
-								<option>1</option>
-								<flag>wxALL|wxEXPAND</flag>
-								<border>5</border>
-								<object class="" name="m_plotb" />
+								<object class="sizeritem">
+									<option>1</option>
+									<flag>wxALL|wxEXPAND</flag>
+									<border>5</border>
+									<object class="" name="m_plota" />
+								</object>
+								<object class="sizeritem">
+									<option>1</option>
+									<flag>wxALL|wxEXPAND</flag>
+									<border>5</border>
+									<object class="" name="m_plotb" />
+								</object>
 							</object>
 						</object>
 					</object>
