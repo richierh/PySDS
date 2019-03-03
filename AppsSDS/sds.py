@@ -543,17 +543,11 @@ class WindowUtama ( main ):
 		self.m_scrolledWindow71 = wx.ScrolledWindow( self.halaman5, wx.ID_ANY, wx.DefaultPosition, wx.DefaultSize, wx.HSCROLL|wx.VSCROLL )
 		self.m_scrolledWindow71.SetScrollRate( 5, 5 )
 		self.m_scrolledWindow71.SetBackgroundColour( wx.Colour( 91, 85, 112 ) )
-		self.m_scrolledWindow71.Hide()
-
-		bSizer27.Add( self.m_scrolledWindow71, 1, wx.ALL|wx.EXPAND, 5 )
-
-		self.m_panel25 = wx.Panel( self.halaman5, wx.ID_ANY, wx.DefaultPosition, wx.DefaultSize, wx.TAB_TRAVERSAL )
-		self.m_panel25.SetBackgroundColour( wx.Colour( 91, 85, 112 ) )
 
 		bSizer29 = wx.BoxSizer( wx.VERTICAL )
 
 		from AppsSDS.dPage5 import dPage5
-		self.m_panelPage5 = dPage5( self.m_panel25)
+		self.m_panelPage5 = dPage5( self.m_scrolledWindow71)
 		self.m_panelPage5.m_tombolHitung.Bind( wx.EVT_BUTTON, self.m_tombolHitungOnButtonClick )
 
 		self.m_panelPage5.m_tampilgrafik.Bind( wx.EVT_BUTTON, self.m_tampilgrafikOnButtonClick )
@@ -569,9 +563,15 @@ class WindowUtama ( main ):
 		bSizer29.Add( self.m_panelPage5, 1, wx.ALL|wx.EXPAND, 5 )
 
 
-		self.m_panel25.SetSizer( bSizer29 )
-		self.m_panel25.Layout()
-		bSizer29.Fit( self.m_panel25 )
+		self.m_scrolledWindow71.SetSizer( bSizer29 )
+		self.m_scrolledWindow71.Layout()
+		bSizer29.Fit( self.m_scrolledWindow71 )
+		bSizer27.Add( self.m_scrolledWindow71, 1, wx.ALL|wx.EXPAND, 5 )
+
+		self.m_panel25 = wx.Panel( self.halaman5, wx.ID_ANY, wx.DefaultPosition, wx.DefaultSize, wx.TAB_TRAVERSAL )
+		self.m_panel25.SetBackgroundColour( wx.Colour( 91, 85, 112 ) )
+		self.m_panel25.Hide()
+
 		bSizer27.Add( self.m_panel25, 1, wx.EXPAND |wx.ALL, 5 )
 
 
@@ -2505,8 +2505,6 @@ class Page5 ( wx.Panel ):
 
 		bSizer32.Add( self.m_staticText193, 0, wx.ALL|wx.ALIGN_CENTER_HORIZONTAL, 5 )
 
-		self.m_scrolledWindow9 = wx.ScrolledWindow( self, wx.ID_ANY, wx.DefaultPosition, wx.DefaultSize, wx.HSCROLL|wx.VSCROLL )
-		self.m_scrolledWindow9.SetScrollRate( 5, 5 )
 		bSizer45 = wx.BoxSizer( wx.VERTICAL )
 
 		fgSizer26 = wx.FlexGridSizer( 0, 4, 0, 0 )
@@ -2514,7 +2512,7 @@ class Page5 ( wx.Panel ):
 		fgSizer26.SetFlexibleDirection( wx.BOTH )
 		fgSizer26.SetNonFlexibleGrowMode( wx.FLEX_GROWMODE_SPECIFIED )
 
-		self.m_tombolHitung = wx.Button( self.m_scrolledWindow9, wx.ID_ANY, u"Hitung", wx.DefaultPosition, wx.DefaultSize, 0 )
+		self.m_tombolHitung = wx.Button( self, wx.ID_ANY, u"Hitung", wx.DefaultPosition, wx.DefaultSize, 0 )
 		self.m_tombolHitung.SetFont( wx.Font( 12, wx.FONTFAMILY_SWISS, wx.FONTSTYLE_NORMAL, wx.FONTWEIGHT_NORMAL, False, "Sans" ) )
 		self.m_tombolHitung.SetBackgroundColour( wx.Colour( 249, 250, 249 ) )
 
@@ -2523,12 +2521,12 @@ class Page5 ( wx.Panel ):
 
 		fgSizer26.Add( ( 950, 0), 1, wx.EXPAND, 5 )
 
-		self.m_tampilgrafik = wx.Button( self.m_scrolledWindow9, wx.ID_ANY, u"Detail Grafik", wx.DefaultPosition, wx.DefaultSize, 0 )
+		self.m_tampilgrafik = wx.Button( self, wx.ID_ANY, u"Detail Grafik", wx.DefaultPosition, wx.DefaultSize, 0 )
 		self.m_tampilgrafik.SetFont( wx.Font( 12, wx.FONTFAMILY_SWISS, wx.FONTSTYLE_NORMAL, wx.FONTWEIGHT_NORMAL, False, "Sans" ) )
 
 		fgSizer26.Add( self.m_tampilgrafik, 0, wx.ALL, 5 )
 
-		self.m_grafikproperties = wx.Button( self.m_scrolledWindow9, wx.ID_ANY, u"Print Grafik", wx.DefaultPosition, wx.DefaultSize, 0 )
+		self.m_grafikproperties = wx.Button( self, wx.ID_ANY, u"Print Grafik", wx.DefaultPosition, wx.DefaultSize, 0 )
 		self.m_grafikproperties.SetFont( wx.Font( 12, wx.FONTFAMILY_SWISS, wx.FONTSTYLE_NORMAL, wx.FONTWEIGHT_NORMAL, False, "Sans" ) )
 
 		fgSizer26.Add( self.m_grafikproperties, 0, wx.ALL, 5 )
@@ -2550,7 +2548,7 @@ class Page5 ( wx.Panel ):
 		fgSizer31.SetNonFlexibleGrowMode( wx.FLEX_GROWMODE_SPECIFIED )
 
 		fgSizer31.SetMinSize( wx.Size( -1,200 ) )
-		self.m_panel51 = wx.Panel( self.m_scrolledWindow9, wx.ID_ANY, wx.DefaultPosition, wx.Size( 175,-1 ), wx.TAB_TRAVERSAL )
+		self.m_panel51 = wx.Panel( self, wx.ID_ANY, wx.DefaultPosition, wx.Size( 175,-1 ), wx.TAB_TRAVERSAL )
 		self.m_panel51.SetBackgroundColour( wx.Colour( 88, 85, 112 ) )
 
 		fgSizer30 = wx.FlexGridSizer( 0, 2, 0, 0 )
@@ -2577,7 +2575,7 @@ class Page5 ( wx.Panel ):
 		self.m_panel51.Layout()
 		fgSizer31.Add( self.m_panel51, 1, wx.EXPAND |wx.ALL, 5 )
 
-		self.m_panel54 = wx.Panel( self.m_scrolledWindow9, wx.ID_ANY, wx.DefaultPosition, wx.Size( 175,-1 ), wx.TAB_TRAVERSAL )
+		self.m_panel54 = wx.Panel( self, wx.ID_ANY, wx.DefaultPosition, wx.Size( 175,-1 ), wx.TAB_TRAVERSAL )
 		self.m_panel54.SetForegroundColour( wx.Colour( 249, 250, 249 ) )
 		self.m_panel54.SetBackgroundColour( wx.Colour( 125, 100, 139 ) )
 
@@ -2604,7 +2602,7 @@ class Page5 ( wx.Panel ):
 		self.m_panel54.Layout()
 		fgSizer31.Add( self.m_panel54, 1, wx.EXPAND |wx.ALL, 5 )
 
-		self.m_panel55 = wx.Panel( self.m_scrolledWindow9, wx.ID_ANY, wx.DefaultPosition, wx.Size( 175,-1 ), wx.TAB_TRAVERSAL )
+		self.m_panel55 = wx.Panel( self, wx.ID_ANY, wx.DefaultPosition, wx.Size( 175,-1 ), wx.TAB_TRAVERSAL )
 		self.m_panel55.SetForegroundColour( wx.Colour( 249, 250, 249 ) )
 		self.m_panel55.SetBackgroundColour( wx.Colour( 150, 152, 154 ) )
 
@@ -2631,7 +2629,7 @@ class Page5 ( wx.Panel ):
 		self.m_panel55.Layout()
 		fgSizer31.Add( self.m_panel55, 1, wx.EXPAND |wx.ALL, 5 )
 
-		self.m_panel86 = wx.Panel( self.m_scrolledWindow9, wx.ID_ANY, wx.DefaultPosition, wx.DefaultSize, wx.TAB_TRAVERSAL )
+		self.m_panel86 = wx.Panel( self, wx.ID_ANY, wx.DefaultPosition, wx.DefaultSize, wx.TAB_TRAVERSAL )
 		self.m_panel86.SetBackgroundColour( wx.Colour( 212, 113, 73 ) )
 
 		fgSizer33 = wx.FlexGridSizer( 0, 2, 0, 0 )
@@ -2658,7 +2656,7 @@ class Page5 ( wx.Panel ):
 		fgSizer33.Fit( self.m_panel86 )
 		fgSizer31.Add( self.m_panel86, 1, wx.EXPAND |wx.ALL, 5 )
 
-		self.m_panel88 = wx.Panel( self.m_scrolledWindow9, wx.ID_ANY, wx.DefaultPosition, wx.Size( 200,-1 ), wx.TAB_TRAVERSAL )
+		self.m_panel88 = wx.Panel( self, wx.ID_ANY, wx.DefaultPosition, wx.Size( 200,-1 ), wx.TAB_TRAVERSAL )
 		self.m_panel88.SetBackgroundColour( wx.Colour( 214, 145, 56 ) )
 
 		bSizer110 = wx.BoxSizer( wx.VERTICAL )
@@ -2689,7 +2687,7 @@ class Page5 ( wx.Panel ):
 		self.m_panel88.Layout()
 		fgSizer31.Add( self.m_panel88, 1, wx.EXPAND |wx.ALL, 5 )
 
-		self.m_panel90 = wx.Panel( self.m_scrolledWindow9, wx.ID_ANY, wx.DefaultPosition, wx.DefaultSize, wx.TAB_TRAVERSAL )
+		self.m_panel90 = wx.Panel( self, wx.ID_ANY, wx.DefaultPosition, wx.DefaultSize, wx.TAB_TRAVERSAL )
 		self.m_panel90.SetForegroundColour( wx.Colour( 249, 250, 249 ) )
 		self.m_panel90.SetBackgroundColour( wx.Colour( 88, 85, 112 ) )
 
@@ -2717,7 +2715,7 @@ class Page5 ( wx.Panel ):
 		bSizer112.Fit( self.m_panel90 )
 		fgSizer31.Add( self.m_panel90, 0, wx.ALL|wx.EXPAND, 5 )
 
-		self.m_panel52 = wx.Panel( self.m_scrolledWindow9, wx.ID_ANY, wx.DefaultPosition, wx.DefaultSize, wx.TAB_TRAVERSAL )
+		self.m_panel52 = wx.Panel( self, wx.ID_ANY, wx.DefaultPosition, wx.DefaultSize, wx.TAB_TRAVERSAL )
 		self.m_panel52.SetBackgroundColour( wx.Colour( 88, 85, 112 ) )
 
 		bSizer78 = wx.BoxSizer( wx.VERTICAL )
@@ -2736,7 +2734,7 @@ class Page5 ( wx.Panel ):
 		bSizer78.Fit( self.m_panel52 )
 		fgSizer31.Add( self.m_panel52, 1, wx.EXPAND |wx.ALL, 5 )
 
-		self.m_panel53 = wx.Panel( self.m_scrolledWindow9, wx.ID_ANY, wx.DefaultPosition, wx.DefaultSize, wx.TAB_TRAVERSAL )
+		self.m_panel53 = wx.Panel( self, wx.ID_ANY, wx.DefaultPosition, wx.DefaultSize, wx.TAB_TRAVERSAL )
 		self.m_panel53.SetBackgroundColour( wx.Colour( 125, 100, 139 ) )
 
 		bSizer79 = wx.BoxSizer( wx.VERTICAL )
@@ -2755,7 +2753,7 @@ class Page5 ( wx.Panel ):
 		bSizer79.Fit( self.m_panel53 )
 		fgSizer31.Add( self.m_panel53, 1, wx.EXPAND |wx.ALL, 5 )
 
-		self.m_panel56 = wx.Panel( self.m_scrolledWindow9, wx.ID_ANY, wx.DefaultPosition, wx.DefaultSize, wx.TAB_TRAVERSAL )
+		self.m_panel56 = wx.Panel( self, wx.ID_ANY, wx.DefaultPosition, wx.DefaultSize, wx.TAB_TRAVERSAL )
 		self.m_panel56.SetForegroundColour( wx.Colour( 249, 250, 249 ) )
 		self.m_panel56.SetBackgroundColour( wx.Colour( 150, 152, 154 ) )
 
@@ -2775,7 +2773,7 @@ class Page5 ( wx.Panel ):
 		bSizer80.Fit( self.m_panel56 )
 		fgSizer31.Add( self.m_panel56, 1, wx.EXPAND |wx.ALL, 5 )
 
-		self.m_panel85 = wx.Panel( self.m_scrolledWindow9, wx.ID_ANY, wx.DefaultPosition, wx.DefaultSize, wx.TAB_TRAVERSAL )
+		self.m_panel85 = wx.Panel( self, wx.ID_ANY, wx.DefaultPosition, wx.DefaultSize, wx.TAB_TRAVERSAL )
 		self.m_panel85.SetBackgroundColour( wx.Colour( 212, 113, 73 ) )
 
 		bSizer108 = wx.BoxSizer( wx.VERTICAL )
@@ -2793,7 +2791,7 @@ class Page5 ( wx.Panel ):
 		bSizer108.Fit( self.m_panel85 )
 		fgSizer31.Add( self.m_panel85, 1, wx.EXPAND |wx.ALL, 5 )
 
-		self.m_panel87 = wx.Panel( self.m_scrolledWindow9, wx.ID_ANY, wx.DefaultPosition, wx.Size( 200,-1 ), wx.TAB_TRAVERSAL )
+		self.m_panel87 = wx.Panel( self, wx.ID_ANY, wx.DefaultPosition, wx.Size( 200,-1 ), wx.TAB_TRAVERSAL )
 		self.m_panel87.SetBackgroundColour( wx.Colour( 214, 145, 56 ) )
 
 		bSizer109 = wx.BoxSizer( wx.VERTICAL )
@@ -2810,7 +2808,7 @@ class Page5 ( wx.Panel ):
 		self.m_panel87.Layout()
 		fgSizer31.Add( self.m_panel87, 1, wx.EXPAND |wx.ALL, 5 )
 
-		self.m_panel89 = wx.Panel( self.m_scrolledWindow9, wx.ID_ANY, wx.DefaultPosition, wx.DefaultSize, wx.TAB_TRAVERSAL )
+		self.m_panel89 = wx.Panel( self, wx.ID_ANY, wx.DefaultPosition, wx.DefaultSize, wx.TAB_TRAVERSAL )
 		self.m_panel89.SetBackgroundColour( wx.Colour( 88, 85, 112 ) )
 
 		bSizer111 = wx.BoxSizer( wx.VERTICAL )
@@ -2851,9 +2849,12 @@ class Page5 ( wx.Panel ):
 		bSizer45.Add( bSizer44, 0, wx.ALIGN_CENTER_HORIZONTAL, 5 )
 
 
-		self.m_scrolledWindow9.SetSizer( bSizer45 )
-		self.m_scrolledWindow9.Layout()
-		bSizer45.Fit( self.m_scrolledWindow9 )
+		bSizer32.Add( bSizer45, 1, wx.EXPAND, 5 )
+
+		self.m_scrolledWindow9 = wx.ScrolledWindow( self, wx.ID_ANY, wx.DefaultPosition, wx.DefaultSize, wx.HSCROLL|wx.VSCROLL )
+		self.m_scrolledWindow9.SetScrollRate( 5, 5 )
+		self.m_scrolledWindow9.Hide()
+
 		bSizer32.Add( self.m_scrolledWindow9, 1, wx.EXPAND |wx.ALL, 5 )
 
 

@@ -18,6 +18,12 @@ class SDSHollandWindowUtama(sds.WindowUtama):
 		sds.WindowUtama.__init__(self, parent)
 		self.db_file=pathlib.Path.cwd()/"db/riasec.db"
 		self.i=0
+		self.pathimage=pathlib.Path.cwd()/"images/logosds.ico"
+		print (self.pathimage)
+		self.icon = wx.Icon()
+		# self.icon.CopyFromBitmap(wx.Bitmap(self.pathimage, wx.BITMAP_TYPE_ANY))
+		self.SetIcon(self.icon)
+
 		print ("halaman 1")
 		self.m_panelPage7.m_buttonBersihkan.Bind( wx.EVT_BUTTON, self.m_buttonBersihkanOnButtonClick )
 		self.m_panelPage7.m_SimpanPage6.Bind( wx.EVT_BUTTON, self.m_SimpanPage6OnButtonClick )
