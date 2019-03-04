@@ -65,6 +65,8 @@ if platform.system() == "Windows":
 
 	else : 
 		# print ("file tidak ada")
+
+		
 		KeyVerification = VerifyKey("2")
 		# print (KeyVerification.Verify())
 		# print (type(KeyVerification))

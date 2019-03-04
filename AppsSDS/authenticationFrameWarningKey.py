@@ -8,7 +8,7 @@ import random
 class authenticationFrameWarningKey( FrameKey.FrameWarningKey ):
 	def __init__( self, parent ):
 		FrameKey.FrameWarningKey.__init__( self, parent )
-		self.nilai = random.randint(1000,9999)
+		self.nilai = random.randint(1700,1900)
 		print (self.nilai)
 		self.lisennombor = self.nilai*4 + 223445435
 		self.m_staticText144.SetLabel(str(self.lisennombor))
@@ -22,10 +22,18 @@ class authenticationFrameWarningKey( FrameKey.FrameWarningKey ):
 	def m_button38OnButtonClick( self, event ):
 		# TODO: Implement m_button38OnButtonClick
 		print ("batal")
+		self.Close()
 		pass
 
 	def m_button39OnButtonClick( self, event ):
 		# TODO: Implement m_button39OnButtonClick
+		global lisensi
+		from AppsSDS.keygenapps.keygen import Key
+		self.keynumber = self.m_textCtrl49.GetValue()
+		print (self.keynumber)
+		self.gen = Key(self.keynumber)
+		# print (self.gen.verify())
+
 		print ("validasi")
 		pass
 
