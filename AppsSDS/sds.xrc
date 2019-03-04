@@ -6162,7 +6162,7 @@
 													<style>wxLC_AUTOARRANGE|wxLC_NO_HEADER|wxLC_REPORT|wxLC_SINGLE_SEL</style>
 													<size>300,-1</size>
 													<bg>#52658c</bg>
-													<fg>#000000</fg>
+													<fg>#ffffff</fg>
 													<font>
 														<size>12</size>
 														<style>normal</style>
@@ -6180,7 +6180,7 @@
 													<style>wxLC_AUTOARRANGE|wxLC_NO_HEADER|wxLC_REPORT|wxLC_SINGLE_SEL</style>
 													<size>300,-1</size>
 													<bg>#96989a</bg>
-													<fg>#000000</fg>
+													<fg>#ffffff</fg>
 													<font>
 														<size>12</size>
 														<style>normal</style>

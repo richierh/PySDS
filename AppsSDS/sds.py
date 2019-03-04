@@ -3597,14 +3597,14 @@ class Page7 ( wx.Panel ):
 
 		self.m_listCtrl1 = wx.ListCtrl( self.m_panelA, wx.ID_ANY, wx.DefaultPosition, wx.Size( 300,-1 ), wx.LC_AUTOARRANGE|wx.LC_NO_HEADER|wx.LC_REPORT|wx.LC_SINGLE_SEL )
 		self.m_listCtrl1.SetFont( wx.Font( 12, wx.FONTFAMILY_DEFAULT, wx.FONTSTYLE_NORMAL, wx.FONTWEIGHT_NORMAL, False, "Tw Cen MT" ) )
-		self.m_listCtrl1.SetForegroundColour( wx.Colour( 0, 0, 0 ) )
+		self.m_listCtrl1.SetForegroundColour( wx.Colour( 255, 255, 255 ) )
 		self.m_listCtrl1.SetBackgroundColour( wx.Colour( 82, 101, 140 ) )
 
 		fgSizer35.Add( self.m_listCtrl1, 0, wx.ALL, 5 )
 
 		self.m_listCtrl2 = wx.ListCtrl( self.m_panelA, wx.ID_ANY, wx.DefaultPosition, wx.Size( 300,-1 ), wx.LC_AUTOARRANGE|wx.LC_NO_HEADER|wx.LC_REPORT|wx.LC_SINGLE_SEL )
 		self.m_listCtrl2.SetFont( wx.Font( 12, wx.FONTFAMILY_DEFAULT, wx.FONTSTYLE_NORMAL, wx.FONTWEIGHT_NORMAL, False, "Tw Cen MT" ) )
-		self.m_listCtrl2.SetForegroundColour( wx.Colour( 0, 0, 0 ) )
+		self.m_listCtrl2.SetForegroundColour( wx.Colour( 255, 255, 255 ) )
 		self.m_listCtrl2.SetBackgroundColour( wx.Colour( 150, 152, 154 ) )
 
 		fgSizer35.Add( self.m_listCtrl2, 0, wx.ALL, 5 )
