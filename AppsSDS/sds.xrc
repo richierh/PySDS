@@ -4842,6 +4842,8 @@
 									<border>5</border>
 									<object class="wxPanel" name="m_panel92">
 										<style>wxTAB_TRAVERSAL</style>
+										<bg>#585570</bg>
+										<fg>#f9faf9</fg>
 										<object class="wxBoxSizer">
 											<orient>wxVERTICAL</orient>
 											<object class="sizeritem">
@@ -5720,6 +5722,8 @@
 									<border>5</border>
 									<object class="wxPanel" name="m_panel91">
 										<style>wxTAB_TRAVERSAL</style>
+										<bg>#7d648b</bg>
+										<fg>#f9faf9</fg>
 										<object class="wxBoxSizer">
 											<orient>wxVERTICAL</orient>
 											<object class="sizeritem">
@@ -5751,300 +5755,305 @@
 											</object>
 											<object class="sizeritem">
 												<option>0</option>
-												<flag>wxALIGN_CENTER_HORIZONTAL</flag>
+												<flag>wxALL</flag>
 												<border>5</border>
-												<object class="wxBoxSizer">
-													<orient>wxHORIZONTAL</orient>
-													<object class="sizeritem">
-														<option>0</option>
-														<flag>wxALIGN_CENTER_VERTICAL</flag>
-														<border>5</border>
-														<object class="wxFlexGridSizer">
-															<rows>0</rows>
-															<cols>3</cols>
-															<vgap>0</vgap>
-															<hgap>0</hgap>
-															<growablecols>1</growablecols>
-															<growablerows></growablerows>
-															<object class="sizeritem">
-																<option>0</option>
-																<flag>wxALL|wxALIGN_CENTER_VERTICAL|wxALIGN_CENTER_HORIZONTAL</flag>
-																<border>5</border>
-																<object class="wxStaticText" name="m_staticText8">
-																	<label>1</label>
-																	<wrap>-1</wrap>
+												<object class="wxPanel" name="m_panel981">
+													<style>wxTAB_TRAVERSAL</style>
+													<bg>#7d648b</bg>
+													<fg>#f9faf9</fg>
+													<object class="wxBoxSizer">
+														<orient>wxHORIZONTAL</orient>
+														<object class="sizeritem">
+															<option>0</option>
+															<flag>wxALIGN_CENTER_VERTICAL</flag>
+															<border>5</border>
+															<object class="wxFlexGridSizer">
+																<rows>0</rows>
+																<cols>3</cols>
+																<vgap>0</vgap>
+																<hgap>0</hgap>
+																<growablecols>1</growablecols>
+																<growablerows></growablerows>
+																<object class="sizeritem">
+																	<option>0</option>
+																	<flag>wxALL|wxALIGN_CENTER_VERTICAL|wxALIGN_CENTER_HORIZONTAL</flag>
+																	<border>5</border>
+																	<object class="wxStaticText" name="m_staticText8">
+																		<label>1</label>
+																		<wrap>-1</wrap>
+																	</object>
 																</object>
-															</object>
-															<object class="sizeritem">
-																<option>0</option>
-																<flag>wxALL|wxALIGN_CENTER_VERTICAL</flag>
-																<border>5</border>
-																<object class="wxTextCtrl" name="textctrl1">
-																	<style>wxTE_READONLY</style>
-																	<size>300,-1</size>
-																	<font>
-																		<size>12</size>
-																		<family>swiss</family>
-																		<style>normal</style>
-																		<weight>normal</weight>
-																		<underlined>0</underlined>
-																		<face>Sans</face>
-																	</font>
-																	<value></value>
+																<object class="sizeritem">
+																	<option>0</option>
+																	<flag>wxALL|wxALIGN_CENTER_VERTICAL</flag>
+																	<border>5</border>
+																	<object class="wxTextCtrl" name="textctrl1">
+																		<style>wxTE_READONLY</style>
+																		<size>300,-1</size>
+																		<font>
+																			<size>12</size>
+																			<family>swiss</family>
+																			<style>normal</style>
+																			<weight>normal</weight>
+																			<underlined>0</underlined>
+																			<face>Sans</face>
+																		</font>
+																		<value></value>
+																	</object>
 																</object>
-															</object>
-															<object class="sizeritem">
-																<option>0</option>
-																<flag>wxALL|wxALIGN_CENTER_VERTICAL|wxALIGN_CENTER_HORIZONTAL</flag>
-																<border>5</border>
-																<object class="wxStaticText" name="label1">
-																	<font>
-																		<size>12</size>
-																		<family>swiss</family>
-																		<style>normal</style>
-																		<weight>normal</weight>
-																		<underlined>0</underlined>
-																		<face>Sans</face>
-																	</font>
-																	<label>?</label>
-																	<wrap>-1</wrap>
+																<object class="sizeritem">
+																	<option>0</option>
+																	<flag>wxALL|wxALIGN_CENTER_VERTICAL|wxALIGN_CENTER_HORIZONTAL</flag>
+																	<border>5</border>
+																	<object class="wxStaticText" name="label1">
+																		<font>
+																			<size>12</size>
+																			<family>swiss</family>
+																			<style>normal</style>
+																			<weight>normal</weight>
+																			<underlined>0</underlined>
+																			<face>Sans</face>
+																		</font>
+																		<label>?</label>
+																		<wrap>-1</wrap>
+																	</object>
 																</object>
-															</object>
-															<object class="sizeritem">
-																<option>0</option>
-																<flag>wxALL|wxALIGN_CENTER_VERTICAL|wxALIGN_CENTER_HORIZONTAL</flag>
-																<border>5</border>
-																<object class="wxStaticText" name="m_staticText10">
-																	<label>2</label>
-																	<wrap>-1</wrap>
+																<object class="sizeritem">
+																	<option>0</option>
+																	<flag>wxALL|wxALIGN_CENTER_VERTICAL|wxALIGN_CENTER_HORIZONTAL</flag>
+																	<border>5</border>
+																	<object class="wxStaticText" name="m_staticText10">
+																		<label>2</label>
+																		<wrap>-1</wrap>
+																	</object>
 																</object>
-															</object>
-															<object class="sizeritem">
-																<option>0</option>
-																<flag>wxALL|wxALIGN_CENTER_VERTICAL</flag>
-																<border>5</border>
-																<object class="wxTextCtrl" name="textctrl2">
-																	<style>wxTE_READONLY</style>
-																	<size>300,-1</size>
-																	<font>
-																		<size>12</size>
-																		<family>swiss</family>
-																		<style>normal</style>
-																		<weight>normal</weight>
-																		<underlined>0</underlined>
-																		<face>Sans</face>
-																	</font>
-																	<value></value>
+																<object class="sizeritem">
+																	<option>0</option>
+																	<flag>wxALL|wxALIGN_CENTER_VERTICAL</flag>
+																	<border>5</border>
+																	<object class="wxTextCtrl" name="textctrl2">
+																		<style>wxTE_READONLY</style>
+																		<size>300,-1</size>
+																		<font>
+																			<size>12</size>
+																			<family>swiss</family>
+																			<style>normal</style>
+																			<weight>normal</weight>
+																			<underlined>0</underlined>
+																			<face>Sans</face>
+																		</font>
+																		<value></value>
+																	</object>
 																</object>
-															</object>
-															<object class="sizeritem">
-																<option>0</option>
-																<flag>wxALL|wxALIGN_CENTER_VERTICAL|wxALIGN_CENTER_HORIZONTAL</flag>
-																<border>5</border>
-																<object class="wxStaticText" name="label2">
-																	<font>
-																		<size>12</size>
-																		<family>swiss</family>
-																		<style>normal</style>
-																		<weight>normal</weight>
-																		<underlined>0</underlined>
-																		<face>Sans</face>
-																	</font>
-																	<label>?</label>
-																	<wrap>-1</wrap>
+																<object class="sizeritem">
+																	<option>0</option>
+																	<flag>wxALL|wxALIGN_CENTER_VERTICAL|wxALIGN_CENTER_HORIZONTAL</flag>
+																	<border>5</border>
+																	<object class="wxStaticText" name="label2">
+																		<font>
+																			<size>12</size>
+																			<family>swiss</family>
+																			<style>normal</style>
+																			<weight>normal</weight>
+																			<underlined>0</underlined>
+																			<face>Sans</face>
+																		</font>
+																		<label>?</label>
+																		<wrap>-1</wrap>
+																	</object>
 																</object>
-															</object>
-															<object class="sizeritem">
-																<option>0</option>
-																<flag>wxALL|wxALIGN_CENTER_VERTICAL|wxALIGN_CENTER_HORIZONTAL</flag>
-																<border>5</border>
-																<object class="wxStaticText" name="m_staticText132">
-																	<label>3</label>
-																	<wrap>-1</wrap>
+																<object class="sizeritem">
+																	<option>0</option>
+																	<flag>wxALL|wxALIGN_CENTER_VERTICAL|wxALIGN_CENTER_HORIZONTAL</flag>
+																	<border>5</border>
+																	<object class="wxStaticText" name="m_staticText132">
+																		<label>3</label>
+																		<wrap>-1</wrap>
+																	</object>
 																</object>
-															</object>
-															<object class="sizeritem">
-																<option>0</option>
-																<flag>wxALL|wxALIGN_CENTER_VERTICAL</flag>
-																<border>5</border>
-																<object class="wxTextCtrl" name="textctrl3">
-																	<style>wxTE_READONLY</style>
-																	<size>300,-1</size>
-																	<font>
-																		<size>12</size>
-																		<family>swiss</family>
-																		<style>normal</style>
-																		<weight>normal</weight>
-																		<underlined>0</underlined>
-																		<face>Sans</face>
-																	</font>
-																	<value></value>
+																<object class="sizeritem">
+																	<option>0</option>
+																	<flag>wxALL|wxALIGN_CENTER_VERTICAL</flag>
+																	<border>5</border>
+																	<object class="wxTextCtrl" name="textctrl3">
+																		<style>wxTE_READONLY</style>
+																		<size>300,-1</size>
+																		<font>
+																			<size>12</size>
+																			<family>swiss</family>
+																			<style>normal</style>
+																			<weight>normal</weight>
+																			<underlined>0</underlined>
+																			<face>Sans</face>
+																		</font>
+																		<value></value>
+																	</object>
 																</object>
-															</object>
-															<object class="sizeritem">
-																<option>0</option>
-																<flag>wxALL|wxALIGN_CENTER_VERTICAL|wxALIGN_CENTER_HORIZONTAL</flag>
-																<border>5</border>
-																<object class="wxStaticText" name="label3">
-																	<font>
-																		<size>12</size>
-																		<family>swiss</family>
-																		<style>normal</style>
-																		<weight>normal</weight>
-																		<underlined>0</underlined>
-																		<face>Sans</face>
-																	</font>
-																	<label>?</label>
-																	<wrap>-1</wrap>
+																<object class="sizeritem">
+																	<option>0</option>
+																	<flag>wxALL|wxALIGN_CENTER_VERTICAL|wxALIGN_CENTER_HORIZONTAL</flag>
+																	<border>5</border>
+																	<object class="wxStaticText" name="label3">
+																		<font>
+																			<size>12</size>
+																			<family>swiss</family>
+																			<style>normal</style>
+																			<weight>normal</weight>
+																			<underlined>0</underlined>
+																			<face>Sans</face>
+																		</font>
+																		<label>?</label>
+																		<wrap>-1</wrap>
+																	</object>
 																</object>
-															</object>
-															<object class="sizeritem">
-																<option>0</option>
-																<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
-																<border>5</border>
-																<object class="wxStaticText" name="m_staticText134">
-																	<label>4</label>
-																	<wrap>-1</wrap>
+																<object class="sizeritem">
+																	<option>0</option>
+																	<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+																	<border>5</border>
+																	<object class="wxStaticText" name="m_staticText134">
+																		<label>4</label>
+																		<wrap>-1</wrap>
+																	</object>
 																</object>
-															</object>
-															<object class="sizeritem">
-																<option>0</option>
-																<flag>wxALL|wxALIGN_CENTER_VERTICAL</flag>
-																<border>5</border>
-																<object class="wxTextCtrl" name="textctrl4">
-																	<style>wxTE_READONLY</style>
-																	<size>300,-1</size>
-																	<font>
-																		<size>12</size>
-																		<family>swiss</family>
-																		<style>normal</style>
-																		<weight>normal</weight>
-																		<underlined>0</underlined>
-																		<face>Sans</face>
-																	</font>
-																	<value></value>
+																<object class="sizeritem">
+																	<option>0</option>
+																	<flag>wxALL|wxALIGN_CENTER_VERTICAL</flag>
+																	<border>5</border>
+																	<object class="wxTextCtrl" name="textctrl4">
+																		<style>wxTE_READONLY</style>
+																		<size>300,-1</size>
+																		<font>
+																			<size>12</size>
+																			<family>swiss</family>
+																			<style>normal</style>
+																			<weight>normal</weight>
+																			<underlined>0</underlined>
+																			<face>Sans</face>
+																		</font>
+																		<value></value>
+																	</object>
 																</object>
-															</object>
-															<object class="sizeritem">
-																<option>0</option>
-																<flag>wxALL|wxALIGN_CENTER_VERTICAL|wxALIGN_CENTER_HORIZONTAL</flag>
-																<border>5</border>
-																<object class="wxStaticText" name="label4">
-																	<font>
-																		<size>12</size>
-																		<family>swiss</family>
-																		<style>normal</style>
-																		<weight>normal</weight>
-																		<underlined>0</underlined>
-																		<face>Sans</face>
-																	</font>
-																	<label>?</label>
-																	<wrap>-1</wrap>
+																<object class="sizeritem">
+																	<option>0</option>
+																	<flag>wxALL|wxALIGN_CENTER_VERTICAL|wxALIGN_CENTER_HORIZONTAL</flag>
+																	<border>5</border>
+																	<object class="wxStaticText" name="label4">
+																		<font>
+																			<size>12</size>
+																			<family>swiss</family>
+																			<style>normal</style>
+																			<weight>normal</weight>
+																			<underlined>0</underlined>
+																			<face>Sans</face>
+																		</font>
+																		<label>?</label>
+																		<wrap>-1</wrap>
+																	</object>
 																</object>
-															</object>
-															<object class="sizeritem">
-																<option>0</option>
-																<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
-																<border>5</border>
-																<object class="wxStaticText" name="m_staticText138">
-																	<label>5</label>
-																	<wrap>-1</wrap>
+																<object class="sizeritem">
+																	<option>0</option>
+																	<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+																	<border>5</border>
+																	<object class="wxStaticText" name="m_staticText138">
+																		<label>5</label>
+																		<wrap>-1</wrap>
+																	</object>
 																</object>
-															</object>
-															<object class="sizeritem">
-																<option>0</option>
-																<flag>wxALL|wxALIGN_CENTER_VERTICAL</flag>
-																<border>5</border>
-																<object class="wxTextCtrl" name="textctrl5">
-																	<style>wxTE_READONLY</style>
-																	<size>300,-1</size>
-																	<font>
-																		<size>12</size>
-																		<family>swiss</family>
-																		<style>normal</style>
-																		<weight>normal</weight>
-																		<underlined>0</underlined>
-																		<face>Sans</face>
-																	</font>
-																	<value></value>
+																<object class="sizeritem">
+																	<option>0</option>
+																	<flag>wxALL|wxALIGN_CENTER_VERTICAL</flag>
+																	<border>5</border>
+																	<object class="wxTextCtrl" name="textctrl5">
+																		<style>wxTE_READONLY</style>
+																		<size>300,-1</size>
+																		<font>
+																			<size>12</size>
+																			<family>swiss</family>
+																			<style>normal</style>
+																			<weight>normal</weight>
+																			<underlined>0</underlined>
+																			<face>Sans</face>
+																		</font>
+																		<value></value>
+																	</object>
 																</object>
-															</object>
-															<object class="sizeritem">
-																<option>0</option>
-																<flag>wxALL|wxALIGN_CENTER_VERTICAL|wxALIGN_CENTER_HORIZONTAL</flag>
-																<border>5</border>
-																<object class="wxStaticText" name="label5">
-																	<font>
-																		<size>12</size>
-																		<family>swiss</family>
-																		<style>normal</style>
-																		<weight>normal</weight>
-																		<underlined>0</underlined>
-																		<face>Sans</face>
-																	</font>
-																	<label>?</label>
-																	<wrap>-1</wrap>
+																<object class="sizeritem">
+																	<option>0</option>
+																	<flag>wxALL|wxALIGN_CENTER_VERTICAL|wxALIGN_CENTER_HORIZONTAL</flag>
+																	<border>5</border>
+																	<object class="wxStaticText" name="label5">
+																		<font>
+																			<size>12</size>
+																			<family>swiss</family>
+																			<style>normal</style>
+																			<weight>normal</weight>
+																			<underlined>0</underlined>
+																			<face>Sans</face>
+																		</font>
+																		<label>?</label>
+																		<wrap>-1</wrap>
+																	</object>
 																</object>
-															</object>
-															<object class="sizeritem">
-																<option>0</option>
-																<flag>wxALL|wxALIGN_CENTER_VERTICAL|wxALIGN_CENTER_HORIZONTAL</flag>
-																<border>5</border>
-																<object class="wxStaticText" name="m_staticText139">
-																	<hidden>1</hidden>
-																	<label>6</label>
-																	<wrap>-1</wrap>
+																<object class="sizeritem">
+																	<option>0</option>
+																	<flag>wxALL|wxALIGN_CENTER_VERTICAL|wxALIGN_CENTER_HORIZONTAL</flag>
+																	<border>5</border>
+																	<object class="wxStaticText" name="m_staticText139">
+																		<hidden>1</hidden>
+																		<label>6</label>
+																		<wrap>-1</wrap>
+																	</object>
 																</object>
-															</object>
-															<object class="sizeritem">
-																<option>0</option>
-																<flag>wxALL|wxALIGN_CENTER_VERTICAL</flag>
-																<border>5</border>
-																<object class="wxTextCtrl" name="textctrl6">
-																	<size>300,-1</size>
-																	<hidden>1</hidden>
-																	<font>
-																		<size>12</size>
-																		<family>swiss</family>
-																		<style>normal</style>
-																		<weight>normal</weight>
-																		<underlined>0</underlined>
-																		<face>Sans</face>
-																	</font>
-																	<value></value>
+																<object class="sizeritem">
+																	<option>0</option>
+																	<flag>wxALL|wxALIGN_CENTER_VERTICAL</flag>
+																	<border>5</border>
+																	<object class="wxTextCtrl" name="textctrl6">
+																		<size>300,-1</size>
+																		<hidden>1</hidden>
+																		<font>
+																			<size>12</size>
+																			<family>swiss</family>
+																			<style>normal</style>
+																			<weight>normal</weight>
+																			<underlined>0</underlined>
+																			<face>Sans</face>
+																		</font>
+																		<value></value>
+																	</object>
 																</object>
-															</object>
-															<object class="sizeritem">
-																<option>0</option>
-																<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
-																<border>5</border>
-																<object class="wxStaticText" name="label6">
-																	<hidden>1</hidden>
-																	<font>
-																		<size>12</size>
-																		<family>swiss</family>
-																		<style>normal</style>
-																		<weight>normal</weight>
-																		<underlined>0</underlined>
-																		<face>Sans</face>
-																	</font>
-																	<label>?</label>
-																	<wrap>-1</wrap>
+																<object class="sizeritem">
+																	<option>0</option>
+																	<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+																	<border>5</border>
+																	<object class="wxStaticText" name="label6">
+																		<hidden>1</hidden>
+																		<font>
+																			<size>12</size>
+																			<family>swiss</family>
+																			<style>normal</style>
+																			<weight>normal</weight>
+																			<underlined>0</underlined>
+																			<face>Sans</face>
+																		</font>
+																		<label>?</label>
+																		<wrap>-1</wrap>
+																	</object>
 																</object>
 															</object>
 														</object>
-													</object>
-													<object class="sizeritem">
-														<option>0</option>
-														<flag></flag>
-														<border>5</border>
-														<object class="wxBoxSizer">
-															<orient>wxVERTICAL</orient>
-															<object class="spacer">
-																<option>0</option>
-																<flag>wxALIGN_CENTER_HORIZONTAL</flag>
-																<border>5</border>
-																<size>25,0</size>
+														<object class="sizeritem">
+															<option>0</option>
+															<flag></flag>
+															<border>5</border>
+															<object class="wxBoxSizer">
+																<orient>wxVERTICAL</orient>
+																<object class="spacer">
+																	<option>0</option>
+																	<flag>wxALIGN_CENTER_HORIZONTAL</flag>
+																	<border>5</border>
+																	<size>25,0</size>
+																</object>
 															</object>
 														</object>
 													</object>
@@ -6152,8 +6161,8 @@
 												<object class="wxListCtrl" name="m_listCtrl1">
 													<style>wxLC_AUTOARRANGE|wxLC_NO_HEADER|wxLC_REPORT|wxLC_SINGLE_SEL</style>
 													<size>300,-1</size>
-													<bg>#009443</bg>
-													<fg>#ffffff</fg>
+													<bg>#52658c</bg>
+													<fg>#000000</fg>
 													<font>
 														<size>12</size>
 														<style>normal</style>
@@ -6170,8 +6179,8 @@
 												<object class="wxListCtrl" name="m_listCtrl2">
 													<style>wxLC_AUTOARRANGE|wxLC_NO_HEADER|wxLC_REPORT|wxLC_SINGLE_SEL</style>
 													<size>300,-1</size>
-													<bg>#009443</bg>
-													<fg>#ffffff</fg>
+													<bg>#96989a</bg>
+													<fg>#000000</fg>
 													<font>
 														<size>12</size>
 														<style>normal</style>
@@ -6188,8 +6197,8 @@
 												<object class="wxListCtrl" name="m_listCtrl3">
 													<style>wxLC_AUTOARRANGE|wxLC_NO_HEADER|wxLC_REPORT|wxLC_SINGLE_SEL</style>
 													<size>300,-1</size>
-													<bg>#009443</bg>
-													<fg>#ffffff</fg>
+													<bg>#e6e7e8</bg>
+													<fg>#000000</fg>
 													<font>
 														<size>12</size>
 														<style>normal</style>
