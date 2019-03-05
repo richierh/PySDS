@@ -31,12 +31,16 @@ class authenticationFrameWarningKey( FrameKey.FrameWarningKey ):
 		from AppsSDS.keygenapps.keygen import Key
 		self.keynumber = self.m_textCtrl49.GetValue()
 		print (self.keynumber)
+		lisensi =  (self.lisennombor - 223445435)/4
+		print (lisensi)
 		self.gen = Key(self.keynumber)
-		# print (self.gen.verify())
 
+		print (self.gen.verify(lisensi))
+
+		self.verify = self.gen.verify(lisensi)
+		
 		print ("validasi")
 		pass
-
 
 if __name__ == "__main__":
     root = wx.App()

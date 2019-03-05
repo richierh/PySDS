@@ -16,8 +16,6 @@ class ActivatorKeygenAct( KeyGen.KeygenAct ):
 		self.Close()
 		pass
 
-
-
 	def m_button2OnButtonClick( self, event ):
 		# TODO: Implement m_button2OnButtonClick
 		print ("generate")

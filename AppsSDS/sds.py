@@ -3015,7 +3015,7 @@ class Page6 ( wx.Panel ):
 
 class Page7 ( wx.Panel ):
 
-	def __init__( self, parent, id = wx.ID_ANY, pos = wx.DefaultPosition, size = wx.Size( 1289,600 ), style = wx.TAB_TRAVERSAL, name = wx.EmptyString ):
+	def __init__( self, parent, id = wx.ID_ANY, pos = wx.DefaultPosition, size = wx.Size( 1289,3000 ), style = wx.TAB_TRAVERSAL, name = wx.EmptyString ):
 		wx.Panel.__init__ ( self, parent, id = id, pos = pos, size = size, style = style, name = name )
 
 		self.SetFont( wx.Font( 12, wx.FONTFAMILY_DEFAULT, wx.FONTSTYLE_NORMAL, wx.FONTWEIGHT_NORMAL, False, "Tw Cen MT" ) )
@@ -3151,7 +3151,7 @@ class Page7 ( wx.Panel ):
 
 		pendidikan_terakhir_inputChoices = [ u"SD", u"SMP", u"SMA/Sederajat", u"S1", u"S2", u"S3" ]
 		self.pendidikan_terakhir_input = wx.Choice( self.m_panel92, wx.ID_ANY, wx.DefaultPosition, wx.DefaultSize, pendidikan_terakhir_inputChoices, 0 )
-		self.pendidikan_terakhir_input.SetSelection( 0 )
+		self.pendidikan_terakhir_input.SetSelection( 5 )
 		self.pendidikan_terakhir_input.SetFont( wx.Font( 12, wx.FONTFAMILY_SWISS, wx.FONTSTYLE_NORMAL, wx.FONTWEIGHT_NORMAL, False, "Sans" ) )
 
 		fgSizer4.Add( self.pendidikan_terakhir_input, 0, wx.ALL, 5 )
@@ -3214,6 +3214,8 @@ class Page7 ( wx.Panel ):
 		fgSizer37.Add( self.m_panel92, 1, wx.EXPAND |wx.ALL, 5 )
 
 		self.m_panel93 = wx.Panel( self.m_scrolledWindow8, wx.ID_ANY, wx.DefaultPosition, wx.DefaultSize, wx.TAB_TRAVERSAL )
+		self.m_panel93.SetForegroundColour( wx.Colour( 249, 250, 249 ) )
+		self.m_panel93.SetBackgroundColour( wx.Colour( 88, 85, 112 ) )
 		self.m_panel93.Hide()
 
 		bSizer121 = wx.BoxSizer( wx.VERTICAL )
@@ -3570,6 +3572,9 @@ class Page7 ( wx.Panel ):
 
 		bSizer58.Add( fgSizer37, 0, wx.ALIGN_CENTER_HORIZONTAL, 5 )
 
+
+		bSizer58.Add( ( 0, 75), 0, 0, 5 )
+
 		self.m_panelA = wx.Panel( self.m_scrolledWindow8, wx.ID_ANY, wx.DefaultPosition, wx.DefaultSize, wx.TAB_TRAVERSAL )
 		self.m_panelA.SetFont( wx.Font( 12, wx.FONTFAMILY_DEFAULT, wx.FONTSTYLE_NORMAL, wx.FONTWEIGHT_NORMAL, False, "Tw Cen MT" ) )
 
@@ -3580,7 +3585,7 @@ class Page7 ( wx.Panel ):
 		self.m_statictextfromcircle1 = wx.StaticText( self.m_panelA, wx.ID_ANY, u"MyLabel", wx.DefaultPosition, wx.DefaultSize, 0 )
 		self.m_statictextfromcircle1.Wrap( -1 )
 
-		self.m_statictextfromcircle1.SetFont( wx.Font( 16, wx.FONTFAMILY_DEFAULT, wx.FONTSTYLE_NORMAL, wx.FONTWEIGHT_NORMAL, False, "Tw Cen MT" ) )
+		self.m_statictextfromcircle1.SetFont( wx.Font( 18, wx.FONTFAMILY_DEFAULT, wx.FONTSTYLE_NORMAL, wx.FONTWEIGHT_NORMAL, False, "Tw Cen MT" ) )
 
 		bSizer171.Add( self.m_statictextfromcircle1, 0, wx.ALL|wx.ALIGN_CENTER_HORIZONTAL|wx.ALIGN_CENTER_VERTICAL, 5 )
 
@@ -3702,7 +3707,7 @@ class Page7 ( wx.Panel ):
 		self.m_staticfromcircle2 = wx.StaticText( self.m_panelA1, wx.ID_ANY, u"MyLabel", wx.DefaultPosition, wx.DefaultSize, 0 )
 		self.m_staticfromcircle2.Wrap( -1 )
 
-		self.m_staticfromcircle2.SetFont( wx.Font( 16, wx.FONTFAMILY_DEFAULT, wx.FONTSTYLE_NORMAL, wx.FONTWEIGHT_NORMAL, False, "Tw Cen MT" ) )
+		self.m_staticfromcircle2.SetFont( wx.Font( 18, wx.FONTFAMILY_DEFAULT, wx.FONTSTYLE_NORMAL, wx.FONTWEIGHT_NORMAL, False, "Tw Cen MT" ) )
 
 		bSizer172.Add( self.m_staticfromcircle2, 0, wx.ALL|wx.ALIGN_CENTER_HORIZONTAL, 5 )
 
@@ -3825,7 +3830,7 @@ class Page7 ( wx.Panel ):
 
 		self.m_panel921 = wx.Panel( self.m_scrolledWindow8, wx.ID_ANY, wx.DefaultPosition, wx.DefaultSize, wx.TAB_TRAVERSAL )
 		self.m_panel921.SetForegroundColour( wx.Colour( 249, 250, 249 ) )
-		self.m_panel921.SetBackgroundColour( wx.Colour( 88, 85, 112 ) )
+		self.m_panel921.SetBackgroundColour( wx.Colour( 72, 136, 123 ) )
 
 		bSizer1191 = wx.BoxSizer( wx.VERTICAL )
 
@@ -3984,6 +3989,8 @@ class Page7 ( wx.Panel ):
 		fgSizer371.Add( self.m_panel921, 1, wx.EXPAND |wx.ALL, 5 )
 
 		self.m_panel931 = wx.Panel( self.m_scrolledWindow8, wx.ID_ANY, wx.DefaultPosition, wx.DefaultSize, wx.TAB_TRAVERSAL )
+		self.m_panel931.SetForegroundColour( wx.Colour( 249, 250, 249 ) )
+		self.m_panel931.SetBackgroundColour( wx.Colour( 72, 136, 123 ) )
 		self.m_panel931.Hide()
 
 		bSizer1211 = wx.BoxSizer( wx.VERTICAL )
@@ -4341,6 +4348,9 @@ class Page7 ( wx.Panel ):
 
 		bSizer58.Add( fgSizer371, 0, wx.ALIGN_CENTER_HORIZONTAL, 5 )
 
+
+		bSizer58.Add( ( 0, 75), 0, 0, 5 )
+
 		self.m_panelA2 = wx.Panel( self.m_scrolledWindow8, wx.ID_ANY, wx.DefaultPosition, wx.DefaultSize, wx.TAB_TRAVERSAL )
 		self.m_panelA2.SetFont( wx.Font( 12, wx.FONTFAMILY_DEFAULT, wx.FONTSTYLE_NORMAL, wx.FONTWEIGHT_NORMAL, False, "Tw Cen MT" ) )
 
@@ -4351,11 +4361,11 @@ class Page7 ( wx.Panel ):
 		self.m_statictextfromcircle11 = wx.StaticText( self.m_panelA2, wx.ID_ANY, u"MyLabel", wx.DefaultPosition, wx.DefaultSize, 0 )
 		self.m_statictextfromcircle11.Wrap( -1 )
 
-		self.m_statictextfromcircle11.SetFont( wx.Font( 16, wx.FONTFAMILY_DEFAULT, wx.FONTSTYLE_NORMAL, wx.FONTWEIGHT_NORMAL, False, "Tw Cen MT" ) )
+		self.m_statictextfromcircle11.SetFont( wx.Font( 18, wx.FONTFAMILY_DEFAULT, wx.FONTSTYLE_NORMAL, wx.FONTWEIGHT_NORMAL, False, "Tw Cen MT" ) )
 
 		bSizer173.Add( self.m_statictextfromcircle11, 0, wx.ALL|wx.ALIGN_CENTER_HORIZONTAL, 5 )
 
-		self.m_staticText406 = wx.StaticText( self.m_panelA2, wx.ID_ANY, u"*Kode dalam kurung adalah pekerjaan untuk dipertimbangkan", wx.DefaultPosition, wx.DefaultSize, 0 )
+		self.m_staticText406 = wx.StaticText( self.m_panelA2, wx.ID_ANY, u"\"kode dalam kurung adalah program studi untuk dipertimbangkan\"", wx.DefaultPosition, wx.DefaultSize, 0 )
 		self.m_staticText406.Wrap( -1 )
 
 		self.m_staticText406.SetFont( wx.Font( 10, wx.FONTFAMILY_DEFAULT, wx.FONTSTYLE_ITALIC, wx.FONTWEIGHT_NORMAL, False, "Tw Cen MT" ) )
@@ -4393,21 +4403,21 @@ class Page7 ( wx.Panel ):
 		self.m_listCtrl13 = wx.ListCtrl( self.m_panelA2, wx.ID_ANY, wx.DefaultPosition, wx.Size( 300,-1 ), wx.LC_AUTOARRANGE|wx.LC_NO_HEADER|wx.LC_REPORT|wx.LC_SINGLE_SEL )
 		self.m_listCtrl13.SetFont( wx.Font( 12, wx.FONTFAMILY_DEFAULT, wx.FONTSTYLE_NORMAL, wx.FONTWEIGHT_NORMAL, False, "Tw Cen MT" ) )
 		self.m_listCtrl13.SetForegroundColour( wx.Colour( 255, 255, 255 ) )
-		self.m_listCtrl13.SetBackgroundColour( wx.Colour( 82, 101, 140 ) )
+		self.m_listCtrl13.SetBackgroundColour( wx.Colour( 91, 122, 54 ) )
 
 		fgSizer352.Add( self.m_listCtrl13, 0, wx.ALL, 5 )
 
 		self.m_listCtrl21 = wx.ListCtrl( self.m_panelA2, wx.ID_ANY, wx.DefaultPosition, wx.Size( 300,-1 ), wx.LC_AUTOARRANGE|wx.LC_NO_HEADER|wx.LC_REPORT|wx.LC_SINGLE_SEL )
 		self.m_listCtrl21.SetFont( wx.Font( 12, wx.FONTFAMILY_DEFAULT, wx.FONTSTYLE_NORMAL, wx.FONTWEIGHT_NORMAL, False, "Tw Cen MT" ) )
-		self.m_listCtrl21.SetForegroundColour( wx.Colour( 255, 255, 255 ) )
-		self.m_listCtrl21.SetBackgroundColour( wx.Colour( 150, 152, 154 ) )
+		self.m_listCtrl21.SetForegroundColour( wx.Colour( 0, 0, 0 ) )
+		self.m_listCtrl21.SetBackgroundColour( wx.Colour( 168, 207, 69 ) )
 
 		fgSizer352.Add( self.m_listCtrl21, 0, wx.ALL, 5 )
 
 		self.m_listCtrl31 = wx.ListCtrl( self.m_panelA2, wx.ID_ANY, wx.DefaultPosition, wx.Size( 300,-1 ), wx.LC_AUTOARRANGE|wx.LC_NO_HEADER|wx.LC_REPORT|wx.LC_SINGLE_SEL )
 		self.m_listCtrl31.SetFont( wx.Font( 12, wx.FONTFAMILY_DEFAULT, wx.FONTSTYLE_NORMAL, wx.FONTWEIGHT_NORMAL, False, "Tw Cen MT" ) )
 		self.m_listCtrl31.SetForegroundColour( wx.Colour( 0, 0, 0 ) )
-		self.m_listCtrl31.SetBackgroundColour( wx.Colour( 230, 231, 232 ) )
+		self.m_listCtrl31.SetBackgroundColour( wx.Colour( 185, 199, 130 ) )
 
 		fgSizer352.Add( self.m_listCtrl31, 0, wx.ALL, 5 )
 
@@ -4435,21 +4445,21 @@ class Page7 ( wx.Panel ):
 		self.m_listCtrl41 = wx.ListCtrl( self.m_panelA2, wx.ID_ANY, wx.DefaultPosition, wx.Size( 300,-1 ), wx.LC_AUTOARRANGE|wx.LC_NO_HEADER|wx.LC_REPORT|wx.LC_SINGLE_SEL )
 		self.m_listCtrl41.SetFont( wx.Font( 12, wx.FONTFAMILY_DEFAULT, wx.FONTSTYLE_NORMAL, wx.FONTWEIGHT_NORMAL, False, "Tw Cen MT" ) )
 		self.m_listCtrl41.SetForegroundColour( wx.Colour( 255, 255, 255 ) )
-		self.m_listCtrl41.SetBackgroundColour( wx.Colour( 82, 101, 140 ) )
+		self.m_listCtrl41.SetBackgroundColour( wx.Colour( 91, 122, 54 ) )
 
 		fgSizer352.Add( self.m_listCtrl41, 0, wx.ALL, 5 )
 
 		self.m_listCtrl51 = wx.ListCtrl( self.m_panelA2, wx.ID_ANY, wx.DefaultPosition, wx.Size( 300,-1 ), wx.LC_AUTOARRANGE|wx.LC_NO_HEADER|wx.LC_REPORT|wx.LC_SINGLE_SEL )
 		self.m_listCtrl51.SetFont( wx.Font( 12, wx.FONTFAMILY_DEFAULT, wx.FONTSTYLE_NORMAL, wx.FONTWEIGHT_NORMAL, False, "Tw Cen MT" ) )
-		self.m_listCtrl51.SetForegroundColour( wx.Colour( 255, 255, 255 ) )
-		self.m_listCtrl51.SetBackgroundColour( wx.Colour( 150, 152, 154 ) )
+		self.m_listCtrl51.SetForegroundColour( wx.Colour( 0, 0, 0 ) )
+		self.m_listCtrl51.SetBackgroundColour( wx.Colour( 168, 207, 69 ) )
 
 		fgSizer352.Add( self.m_listCtrl51, 0, wx.ALL, 5 )
 
 		self.m_listCtrl61 = wx.ListCtrl( self.m_panelA2, wx.ID_ANY, wx.DefaultPosition, wx.Size( 300,-1 ), wx.LC_AUTOARRANGE|wx.LC_NO_HEADER|wx.LC_REPORT|wx.LC_SINGLE_SEL )
 		self.m_listCtrl61.SetFont( wx.Font( 12, wx.FONTFAMILY_DEFAULT, wx.FONTSTYLE_NORMAL, wx.FONTWEIGHT_NORMAL, False, "Tw Cen MT" ) )
 		self.m_listCtrl61.SetForegroundColour( wx.Colour( 0, 0, 0 ) )
-		self.m_listCtrl61.SetBackgroundColour( wx.Colour( 230, 231, 232 ) )
+		self.m_listCtrl61.SetBackgroundColour( wx.Colour( 185, 199, 130 ) )
 
 		fgSizer352.Add( self.m_listCtrl61, 0, wx.ALL, 5 )
 
@@ -4473,11 +4483,11 @@ class Page7 ( wx.Panel ):
 		self.m_staticfromcircle21 = wx.StaticText( self.m_panelA11, wx.ID_ANY, u"MyLabel", wx.DefaultPosition, wx.DefaultSize, 0 )
 		self.m_staticfromcircle21.Wrap( -1 )
 
-		self.m_staticfromcircle21.SetFont( wx.Font( 16, wx.FONTFAMILY_DEFAULT, wx.FONTSTYLE_NORMAL, wx.FONTWEIGHT_NORMAL, False, "Tw Cen MT" ) )
+		self.m_staticfromcircle21.SetFont( wx.Font( 18, wx.FONTFAMILY_DEFAULT, wx.FONTSTYLE_NORMAL, wx.FONTWEIGHT_NORMAL, False, "Tw Cen MT" ) )
 
 		bSizer175.Add( self.m_staticfromcircle21, 0, wx.ALL|wx.ALIGN_CENTER_HORIZONTAL, 5 )
 
-		self.m_staticText407 = wx.StaticText( self.m_panelA11, wx.ID_ANY, u"*Kode dalam kurung adalah pekerjaan untuk dipertimbangkan", wx.DefaultPosition, wx.DefaultSize, 0 )
+		self.m_staticText407 = wx.StaticText( self.m_panelA11, wx.ID_ANY, u"\"kode dalam kurung adalah program studi untuk dipertimbangkan\"", wx.DefaultPosition, wx.DefaultSize, 0 )
 		self.m_staticText407.Wrap( -1 )
 
 		self.m_staticText407.SetFont( wx.Font( 10, wx.FONTFAMILY_DEFAULT, wx.FONTSTYLE_ITALIC, wx.FONTWEIGHT_NORMAL, False, "Tw Cen MT" ) )
@@ -4515,21 +4525,21 @@ class Page7 ( wx.Panel ):
 		self.m_listCtrl71 = wx.ListCtrl( self.m_panelA11, wx.ID_ANY, wx.DefaultPosition, wx.Size( 300,-1 ), wx.LC_AUTOARRANGE|wx.LC_NO_HEADER|wx.LC_REPORT|wx.LC_SINGLE_SEL )
 		self.m_listCtrl71.SetFont( wx.Font( 12, wx.FONTFAMILY_DEFAULT, wx.FONTSTYLE_NORMAL, wx.FONTWEIGHT_NORMAL, False, "Tw Cen MT" ) )
 		self.m_listCtrl71.SetForegroundColour( wx.Colour( 255, 255, 255 ) )
-		self.m_listCtrl71.SetBackgroundColour( wx.Colour( 82, 101, 140 ) )
+		self.m_listCtrl71.SetBackgroundColour( wx.Colour( 91, 122, 54 ) )
 
 		fgSizer3511.Add( self.m_listCtrl71, 0, wx.ALL, 5 )
 
 		self.m_listCtrl81 = wx.ListCtrl( self.m_panelA11, wx.ID_ANY, wx.DefaultPosition, wx.Size( 300,-1 ), wx.LC_AUTOARRANGE|wx.LC_NO_HEADER|wx.LC_REPORT|wx.LC_SINGLE_SEL )
 		self.m_listCtrl81.SetFont( wx.Font( 12, wx.FONTFAMILY_DEFAULT, wx.FONTSTYLE_NORMAL, wx.FONTWEIGHT_NORMAL, False, "Tw Cen MT" ) )
-		self.m_listCtrl81.SetForegroundColour( wx.Colour( 255, 255, 255 ) )
-		self.m_listCtrl81.SetBackgroundColour( wx.Colour( 150, 152, 154 ) )
+		self.m_listCtrl81.SetForegroundColour( wx.Colour( 0, 0, 0 ) )
+		self.m_listCtrl81.SetBackgroundColour( wx.Colour( 168, 207, 69 ) )
 
 		fgSizer3511.Add( self.m_listCtrl81, 0, wx.ALL, 5 )
 
 		self.m_listCtrl91 = wx.ListCtrl( self.m_panelA11, wx.ID_ANY, wx.DefaultPosition, wx.Size( 300,-1 ), wx.LC_AUTOARRANGE|wx.LC_NO_HEADER|wx.LC_REPORT|wx.LC_SINGLE_SEL )
 		self.m_listCtrl91.SetFont( wx.Font( 12, wx.FONTFAMILY_DEFAULT, wx.FONTSTYLE_NORMAL, wx.FONTWEIGHT_NORMAL, False, "Tw Cen MT" ) )
 		self.m_listCtrl91.SetForegroundColour( wx.Colour( 0, 0, 0 ) )
-		self.m_listCtrl91.SetBackgroundColour( wx.Colour( 230, 231, 232 ) )
+		self.m_listCtrl91.SetBackgroundColour( wx.Colour( 185, 199, 130 ) )
 
 		fgSizer3511.Add( self.m_listCtrl91, 0, wx.ALL, 5 )
 
@@ -4557,21 +4567,21 @@ class Page7 ( wx.Panel ):
 		self.m_listCtrl101 = wx.ListCtrl( self.m_panelA11, wx.ID_ANY, wx.DefaultPosition, wx.Size( 300,-1 ), wx.LC_AUTOARRANGE|wx.LC_NO_HEADER|wx.LC_REPORT|wx.LC_SINGLE_SEL )
 		self.m_listCtrl101.SetFont( wx.Font( 12, wx.FONTFAMILY_DEFAULT, wx.FONTSTYLE_NORMAL, wx.FONTWEIGHT_NORMAL, False, "Tw Cen MT" ) )
 		self.m_listCtrl101.SetForegroundColour( wx.Colour( 255, 255, 255 ) )
-		self.m_listCtrl101.SetBackgroundColour( wx.Colour( 82, 101, 140 ) )
+		self.m_listCtrl101.SetBackgroundColour( wx.Colour( 91, 122, 54 ) )
 
 		fgSizer3511.Add( self.m_listCtrl101, 0, wx.ALL, 5 )
 
 		self.m_listCtrl111 = wx.ListCtrl( self.m_panelA11, wx.ID_ANY, wx.DefaultPosition, wx.Size( 300,-1 ), wx.LC_AUTOARRANGE|wx.LC_NO_HEADER|wx.LC_REPORT|wx.LC_SINGLE_SEL )
 		self.m_listCtrl111.SetFont( wx.Font( 12, wx.FONTFAMILY_DEFAULT, wx.FONTSTYLE_NORMAL, wx.FONTWEIGHT_NORMAL, False, "Tw Cen MT" ) )
-		self.m_listCtrl111.SetForegroundColour( wx.Colour( 255, 255, 255 ) )
-		self.m_listCtrl111.SetBackgroundColour( wx.Colour( 150, 152, 154 ) )
+		self.m_listCtrl111.SetForegroundColour( wx.Colour( 0, 0, 0 ) )
+		self.m_listCtrl111.SetBackgroundColour( wx.Colour( 168, 207, 69 ) )
 
 		fgSizer3511.Add( self.m_listCtrl111, 0, wx.ALL, 5 )
 
 		self.m_listCtrl121 = wx.ListCtrl( self.m_panelA11, wx.ID_ANY, wx.DefaultPosition, wx.Size( 300,-1 ), wx.LC_AUTOARRANGE|wx.LC_NO_HEADER|wx.LC_REPORT|wx.LC_SINGLE_SEL )
 		self.m_listCtrl121.SetFont( wx.Font( 12, wx.FONTFAMILY_DEFAULT, wx.FONTSTYLE_NORMAL, wx.FONTWEIGHT_NORMAL, False, "Tw Cen MT" ) )
 		self.m_listCtrl121.SetForegroundColour( wx.Colour( 0, 0, 0 ) )
-		self.m_listCtrl121.SetBackgroundColour( wx.Colour( 230, 231, 232 ) )
+		self.m_listCtrl121.SetBackgroundColour( wx.Colour( 185, 199, 130 ) )
 
 		fgSizer3511.Add( self.m_listCtrl121, 0, wx.ALL, 5 )
 

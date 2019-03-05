@@ -4778,7 +4778,7 @@
 	</object>
 	<object class="wxPanel" name="Page7">
 		<style>wxTAB_TRAVERSAL</style>
-		<size>1289,600</size>
+		<size>1289,3000</size>
 		<font>
 			<size>12</size>
 			<style>normal</style>
@@ -5107,7 +5107,7 @@
 																<underlined>0</underlined>
 																<face>Sans</face>
 															</font>
-															<selection>0</selection>
+															<selection>5</selection>
 															<content>
 																<item>SD</item>
 																<item>SMP</item>
@@ -5261,6 +5261,8 @@
 									<border>5</border>
 									<object class="wxPanel" name="m_panel93">
 										<style>wxTAB_TRAVERSAL</style>
+										<bg>#585570</bg>
+										<fg>#f9faf9</fg>
 										<hidden>1</hidden>
 										<object class="wxBoxSizer">
 											<orient>wxVERTICAL</orient>
@@ -6088,6 +6090,12 @@
 								</object>
 							</object>
 						</object>
+						<object class="spacer">
+							<option>0</option>
+							<flag></flag>
+							<border>5</border>
+							<size>0,75</size>
+						</object>
 						<object class="sizeritem">
 							<option>1</option>
 							<flag>wxALL|wxEXPAND</flag>
@@ -6115,7 +6123,7 @@
 												<border>5</border>
 												<object class="wxStaticText" name="m_statictextfromcircle1">
 													<font>
-														<size>16</size>
+														<size>18</size>
 														<style>normal</style>
 														<weight>normal</weight>
 														<underlined>0</underlined>
@@ -6391,7 +6399,7 @@
 												<border>5</border>
 												<object class="wxStaticText" name="m_staticfromcircle2">
 													<font>
-														<size>16</size>
+														<size>18</size>
 														<style>normal</style>
 														<weight>normal</weight>
 														<underlined>0</underlined>
@@ -6670,7 +6678,7 @@
 									<border>5</border>
 									<object class="wxPanel" name="m_panel921">
 										<style>wxTAB_TRAVERSAL</style>
-										<bg>#585570</bg>
+										<bg>#48887b</bg>
 										<fg>#f9faf9</fg>
 										<object class="wxBoxSizer">
 											<orient>wxVERTICAL</orient>
@@ -7065,6 +7073,8 @@
 									<border>5</border>
 									<object class="wxPanel" name="m_panel931">
 										<style>wxTAB_TRAVERSAL</style>
+										<bg>#48887b</bg>
+										<fg>#f9faf9</fg>
 										<hidden>1</hidden>
 										<object class="wxBoxSizer">
 											<orient>wxVERTICAL</orient>
@@ -7893,6 +7903,12 @@
 								</object>
 							</object>
 						</object>
+						<object class="spacer">
+							<option>0</option>
+							<flag></flag>
+							<border>5</border>
+							<size>0,75</size>
+						</object>
 						<object class="sizeritem">
 							<option>1</option>
 							<flag>wxEXPAND | wxALL</flag>
@@ -7920,7 +7936,7 @@
 												<border>5</border>
 												<object class="wxStaticText" name="m_statictextfromcircle11">
 													<font>
-														<size>16</size>
+														<size>18</size>
 														<style>normal</style>
 														<weight>normal</weight>
 														<underlined>0</underlined>
@@ -7942,7 +7958,7 @@
 														<underlined>0</underlined>
 														<face>Tw Cen MT</face>
 													</font>
-													<label>*Kode dalam kurung adalah pekerjaan untuk dipertimbangkan</label>
+													<label>&quot;kode dalam kurung adalah program studi untuk dipertimbangkan&quot;</label>
 													<wrap>-1</wrap>
 												</object>
 											</object>
@@ -8014,7 +8030,7 @@
 												<object class="wxListCtrl" name="m_listCtrl13">
 													<style>wxLC_AUTOARRANGE|wxLC_NO_HEADER|wxLC_REPORT|wxLC_SINGLE_SEL</style>
 													<size>300,-1</size>
-													<bg>#52658c</bg>
+													<bg>#5b7a36</bg>
 													<fg>#ffffff</fg>
 													<font>
 														<size>12</size>
@@ -8032,8 +8048,8 @@
 												<object class="wxListCtrl" name="m_listCtrl21">
 													<style>wxLC_AUTOARRANGE|wxLC_NO_HEADER|wxLC_REPORT|wxLC_SINGLE_SEL</style>
 													<size>300,-1</size>
-													<bg>#96989a</bg>
-													<fg>#ffffff</fg>
+													<bg>#a8cf45</bg>
+													<fg>#000000</fg>
 													<font>
 														<size>12</size>
 														<style>normal</style>
@@ -8050,7 +8066,7 @@
 												<object class="wxListCtrl" name="m_listCtrl31">
 													<style>wxLC_AUTOARRANGE|wxLC_NO_HEADER|wxLC_REPORT|wxLC_SINGLE_SEL</style>
 													<size>300,-1</size>
-													<bg>#e6e7e8</bg>
+													<bg>#b9c782</bg>
 													<fg>#000000</fg>
 													<font>
 														<size>12</size>
@@ -8116,7 +8132,7 @@
 												<object class="wxListCtrl" name="m_listCtrl41">
 													<style>wxLC_AUTOARRANGE|wxLC_NO_HEADER|wxLC_REPORT|wxLC_SINGLE_SEL</style>
 													<size>300,-1</size>
-													<bg>#52658c</bg>
+													<bg>#5b7a36</bg>
 													<fg>#ffffff</fg>
 													<font>
 														<size>12</size>
@@ -8134,8 +8150,8 @@
 												<object class="wxListCtrl" name="m_listCtrl51">
 													<style>wxLC_AUTOARRANGE|wxLC_NO_HEADER|wxLC_REPORT|wxLC_SINGLE_SEL</style>
 													<size>300,-1</size>
-													<bg>#96989a</bg>
-													<fg>#ffffff</fg>
+													<bg>#a8cf45</bg>
+													<fg>#000000</fg>
 													<font>
 														<size>12</size>
 														<style>normal</style>
@@ -8152,7 +8168,7 @@
 												<object class="wxListCtrl" name="m_listCtrl61">
 													<style>wxLC_AUTOARRANGE|wxLC_NO_HEADER|wxLC_REPORT|wxLC_SINGLE_SEL</style>
 													<size>300,-1</size>
-													<bg>#e6e7e8</bg>
+													<bg>#b9c782</bg>
 													<fg>#000000</fg>
 													<font>
 														<size>12</size>
@@ -8196,7 +8212,7 @@
 												<border>5</border>
 												<object class="wxStaticText" name="m_staticfromcircle21">
 													<font>
-														<size>16</size>
+														<size>18</size>
 														<style>normal</style>
 														<weight>normal</weight>
 														<underlined>0</underlined>
@@ -8218,7 +8234,7 @@
 														<underlined>0</underlined>
 														<face>Tw Cen MT</face>
 													</font>
-													<label>*Kode dalam kurung adalah pekerjaan untuk dipertimbangkan</label>
+													<label>&quot;kode dalam kurung adalah program studi untuk dipertimbangkan&quot;</label>
 													<wrap>-1</wrap>
 												</object>
 											</object>
@@ -8290,7 +8306,7 @@
 												<object class="wxListCtrl" name="m_listCtrl71">
 													<style>wxLC_AUTOARRANGE|wxLC_NO_HEADER|wxLC_REPORT|wxLC_SINGLE_SEL</style>
 													<size>300,-1</size>
-													<bg>#52658c</bg>
+													<bg>#5b7a36</bg>
 													<fg>#ffffff</fg>
 													<font>
 														<size>12</size>
@@ -8308,8 +8324,8 @@
 												<object class="wxListCtrl" name="m_listCtrl81">
 													<style>wxLC_AUTOARRANGE|wxLC_NO_HEADER|wxLC_REPORT|wxLC_SINGLE_SEL</style>
 													<size>300,-1</size>
-													<bg>#96989a</bg>
-													<fg>#ffffff</fg>
+													<bg>#a8cf45</bg>
+													<fg>#000000</fg>
 													<font>
 														<size>12</size>
 														<style>normal</style>
@@ -8326,7 +8342,7 @@
 												<object class="wxListCtrl" name="m_listCtrl91">
 													<style>wxLC_AUTOARRANGE|wxLC_NO_HEADER|wxLC_REPORT|wxLC_SINGLE_SEL</style>
 													<size>300,-1</size>
-													<bg>#e6e7e8</bg>
+													<bg>#b9c782</bg>
 													<fg>#000000</fg>
 													<font>
 														<size>12</size>
@@ -8392,7 +8408,7 @@
 												<object class="wxListCtrl" name="m_listCtrl101">
 													<style>wxLC_AUTOARRANGE|wxLC_NO_HEADER|wxLC_REPORT|wxLC_SINGLE_SEL</style>
 													<size>300,-1</size>
-													<bg>#52658c</bg>
+													<bg>#5b7a36</bg>
 													<fg>#ffffff</fg>
 													<font>
 														<size>12</size>
@@ -8410,8 +8426,8 @@
 												<object class="wxListCtrl" name="m_listCtrl111">
 													<style>wxLC_AUTOARRANGE|wxLC_NO_HEADER|wxLC_REPORT|wxLC_SINGLE_SEL</style>
 													<size>300,-1</size>
-													<bg>#96989a</bg>
-													<fg>#ffffff</fg>
+													<bg>#a8cf45</bg>
+													<fg>#000000</fg>
 													<font>
 														<size>12</size>
 														<style>normal</style>
@@ -8428,7 +8444,7 @@
 												<object class="wxListCtrl" name="m_listCtrl121">
 													<style>wxLC_AUTOARRANGE|wxLC_NO_HEADER|wxLC_REPORT|wxLC_SINGLE_SEL</style>
 													<size>300,-1</size>
-													<bg>#e6e7e8</bg>
+													<bg>#b9c782</bg>
 													<fg>#000000</fg>
 													<font>
 														<size>12</size>

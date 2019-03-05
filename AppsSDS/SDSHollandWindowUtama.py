@@ -45,7 +45,8 @@ class SDSHollandWindowUtama(sds.WindowUtama):
 	def __properties(self):
 		self.m_panelPage7.m_statictextfromcircle1.SetLabel("___")
 		self.m_panelPage7.m_staticfromcircle2.SetLabel("___")
-		
+		self.m_panelPage7.m_statictextfromcircle11.SetLabel("___")
+		self.m_panelPage7.m_staticfromcircle21.SetLabel("___")		
 
 		
 		self.listmctrol = [
@@ -78,7 +79,54 @@ class SDSHollandWindowUtama(sds.WindowUtama):
 			self.m_panelPage7.m_staticA11,
 			self.m_panelPage7.m_staticA12	
 			]
+
+
+		
+		self.listmctroledu = [
+			self.m_panelPage7.m_listCtrl13,
+			self.m_panelPage7.m_listCtrl21,
+			self.m_panelPage7.m_listCtrl31,
+			self.m_panelPage7.m_listCtrl41,
+			self.m_panelPage7.m_listCtrl51,
+			self.m_panelPage7.m_listCtrl61,
+			self.m_panelPage7.m_listCtrl71,
+			self.m_panelPage7.m_listCtrl81,
+			self.m_panelPage7.m_listCtrl91,
+			self.m_panelPage7.m_listCtrl101,
+			self.m_panelPage7.m_listCtrl111,
+			self.m_panelPage7.m_listCtrl121
+			]
+
+		
+		self.listlabeledu = [
+			self.m_panelPage7.m_staticA1,
+			self.m_panelPage7.m_staticA21,
+			self.m_panelPage7.m_staticA31,
+			self.m_panelPage7.m_staticA41,
+			self.m_panelPage7.m_staticA51,
+			self.m_panelPage7.m_staticA61,
+			self.m_panelPage7.m_staticA71,
+			self.m_panelPage7.m_staticA81,
+			self.m_panelPage7.m_staticA91,
+			self.m_panelPage7.m_staticA101,
+			self.m_panelPage7.m_staticA111,
+			self.m_panelPage7.m_staticA121	
+			]
+
 		self.index = 0
+		for setval in self.listlabeledu :
+			
+			self.listlabeledu[self.index].SetLabel("___")
+			self.index+=1
+
+		self.index = 0
+		for setval in self.listmctroledu :
+			self.listmctroledu[self.index].InsertColumn(0,"___")
+			self.listmctroledu[self.index].SetLabel("___")
+			self.index+=1		
+		self.index = 0
+
+
 		for setval in self.listlabel :
 			
 			self.listlabel[self.index].SetLabel("___")
@@ -414,6 +462,37 @@ class SDSHollandWindowUtama(sds.WindowUtama):
 		self.m_panelPage7.label5.SetLabel(self.m_panelPage2.label5.GetLabel())
 
 
+		# bagian bawah nampilkan biodata
+		self.m_panelPage7.nama_kandidat_input1.SetValue(self.nama_kandidat_input.GetValue())
+		self.m_panelPage7.no_tes_input1.SetValue(self.no_tes_input.GetValue())
+		self.m_panelPage7.jenis_kelamin_input1.SetSelection(\
+			self.jenis_kelamin_input.GetSelection())
+		self.m_panelPage7.tanggal_tes_input1.SetValue(self.tanggal_tes_input.GetValue())
+		self.m_panelPage7.tanggal_lahir_input1.SetValue(self.tanggal_lahir_input.GetValue())
+		self.m_panelPage7.pendidikan_terakhir_input1.SetSelection(\
+			self.pendidikan_terakhir_input.GetSelection())
+		self.m_panelPage7.jurusan_input1.SetValue(self.jurusan_input.GetValue())
+		self.m_panelPage7.kota_input1.SetValue(self.kota_input.GetValue())
+		self.m_panelPage7.perusahaan_instansi_input1.SetValue(self.perusahaan_instansi_input.GetValue())
+		self.m_panelPage7.posisi_jabatan_input1.SetValue(self.posisi_jabatan_input.GetValue())
+
+
+		self.m_panelPage7.nama_input21.SetValue(self.nama_input2.GetValue())
+		self.m_panelPage7.nama_input21.SetValue(self.nama_input2.GetValue())
+		self.m_panelPage7.tanggal_tes_input21.SetValue(self.tanggal_tes_input2.GetValue())
+		self.m_panelPage7.jenis_kelamin_input21.SetSelection(\
+			self.jenis_kelamin_input2.GetSelection())
+		self.m_panelPage7.tanggal_lahir_input21.SetValue(self.tanggal_lahir_input2.GetValue())
+		self.m_panelPage7.asal_sekolah_input21.SetValue(self.asal_sekolah_input2.GetValue())
+		self.m_panelPage7.jurusan_input21.SetValue(self.jurusan_input2.GetValue())		
+		self.m_panelPage7.kota_input21.SetValue(self.kota_input2.GetValue())
+		self.m_panelPage7.hobi_input21.SetValue(self.hobi_input2.GetValue())
+		self.m_panelPage7.prestasi_akademik_input21.SetValue(self.prestasi_akademik_input2.GetValue())
+		self.m_panelPage7.prestasi_akademik_input21.SetValue(self.prestasi_akademik_input2.GetValue())
+		self.m_panelPage7.prestasi_non_akademik_input21.SetValue(self.prestasi_non_akademik_input2.GetValue())
+		self.m_panelPage7.ekskul_yang_diikuti_input21.SetValue(self.ekskul_yang_diikuti_input2.GetValue())
+
+
 
 		# self.m_panelPage7.label1.SetLabel(self.label1.GetLabel())
 
@@ -564,6 +643,7 @@ class SDSHollandWindowUtama(sds.WindowUtama):
 			self.result1="None"
 		
 			pass
+
 		self.result0="".join(self.riasec0)
 		self.result1="".join(self.riasec1)
 		self.riasec = [self.result0]#,self.result1]
@@ -579,6 +659,7 @@ class SDSHollandWindowUtama(sds.WindowUtama):
 						"E" : self.nilai_EnterprisingA,
 						"C" : self.nilai_ConventionalA 
 					}
+
 		self.dataK = {
 						"R" : self.nilai_RealisticK,	  
 						"I" : self.nilai_InvestigativeK,
@@ -587,6 +668,7 @@ class SDSHollandWindowUtama(sds.WindowUtama):
 						"E" : self.nilai_EnterprisingK,
 						"C" : self.nilai_ConventionalK 
 					}
+
 		self.dataP = {
 						"R" : self.nilai_RealisticK,	  
 						"I" : self.nilai_InvestigativeK,
@@ -595,6 +677,7 @@ class SDSHollandWindowUtama(sds.WindowUtama):
 						"E" : self.nilai_EnterprisingK,
 						"C" : self.nilai_ConventionalK 
 					}
+
 		self.dataPD = {
 				"R" : self.nilai_Kmekanisb1,	  
 				"I" : self.nilai_Kilmiahb1,
@@ -603,6 +686,7 @@ class SDSHollandWindowUtama(sds.WindowUtama):
 				"E" : self.nilai_Kpenjualan,
 				"C" : self.nilai_Kadministrasib1 
 				}
+
 		self.dataPD2 = {
 				"R" : self.nilai_Ktanganb2,	  
 				"I" : self.nilai_Kmatematikab2,
@@ -634,6 +718,8 @@ class SDSHollandWindowUtama(sds.WindowUtama):
 		
 		self.HasilCircle1 = []
 		self.HasilCircle2 = []
+
+
 		for listcircle1 in self.HasilHitung:
 			self.HasilCircle1.append(listcircle1[0])
 		
@@ -660,12 +746,17 @@ class SDSHollandWindowUtama(sds.WindowUtama):
 			print ("atau ini")
 		else :
 			pass
-		
+		# permutasi selanjutnya digabung disini mulainya
 		try :
 			from AppsSDS.db.db import QueryList
 			self.listofjob = QueryList()
 			self.x,self.HasilListJob=self.listofjob.CheckQuery(None, self.LabelCircle1)
 			self.x,self.HasilListJob2=self.listofjob.CheckQuery(None, self.LabelCircle2)
+			self.y,self.HasilListJobedu=self.listofjob.CheckQueryedu(None, self.LabelCircle1)
+			self.y,self.HasilListJob2edu=self.listofjob.CheckQueryedu(None, self.LabelCircle2)
+
+
+
 		except :
 			pass
 		print (self.HasilListJob)
@@ -680,20 +771,37 @@ class SDSHollandWindowUtama(sds.WindowUtama):
 		
 		self.m_panelPage6.m_listCtrlCR1.DeleteAllItems()
 		self.m_panelPage6.m_listCtrlCR2.DeleteAllItems()
+
 		self.m_panelPage7.m_listCtrl1.DeleteAllItems()
 		self.m_panelPage7.m_listCtrl2.DeleteAllItems()
 		self.m_panelPage7.m_listCtrl3.DeleteAllItems()
 		self.m_panelPage7.m_listCtrl4.DeleteAllItems()
 		self.m_panelPage7.m_listCtrl5.DeleteAllItems()
 		self.m_panelPage7.m_listCtrl6.DeleteAllItems()
+
+
 		self.m_panelPage7.m_listCtrl7.DeleteAllItems()
-		
-		
 		self.m_panelPage7.m_listCtrl8.DeleteAllItems()
 		self.m_panelPage7.m_listCtrl9.DeleteAllItems()
 		self.m_panelPage7.m_listCtrl10.DeleteAllItems()
 		self.m_panelPage7.m_listCtrl11.DeleteAllItems()
 		self.m_panelPage7.m_listCtrl12.DeleteAllItems()
+
+
+		self.m_panelPage7.m_listCtrl13.DeleteAllItems()
+		self.m_panelPage7.m_listCtrl21.DeleteAllItems()
+		self.m_panelPage7.m_listCtrl31.DeleteAllItems()
+		self.m_panelPage7.m_listCtrl41.DeleteAllItems()
+		self.m_panelPage7.m_listCtrl51.DeleteAllItems()
+		self.m_panelPage7.m_listCtrl61.DeleteAllItems()
+
+
+		self.m_panelPage7.m_listCtrl71.DeleteAllItems()
+		self.m_panelPage7.m_listCtrl81.DeleteAllItems()
+		self.m_panelPage7.m_listCtrl91.DeleteAllItems()
+		self.m_panelPage7.m_listCtrl101.DeleteAllItems()
+		self.m_panelPage7.m_listCtrl111.DeleteAllItems()
+		self.m_panelPage7.m_listCtrl121.DeleteAllItems()
 		
 		
 		print (self.HasilListJob.keys())
@@ -718,18 +826,20 @@ class SDSHollandWindowUtama(sds.WindowUtama):
 		from AppsSDS.controller.permutation import CustomPermutation
 		self.m_panelPage7.m_statictextfromcircle1.SetLabel(self.LabelCircle1)
 		self.m_panelPage7.m_staticfromcircle2.SetLabel(self.LabelCircle2)
+		self.m_panelPage7.m_statictextfromcircle11.SetLabel(self.LabelCircle1)
+		self.m_panelPage7.m_staticfromcircle21.SetLabel(self.LabelCircle2)
 
 		runcircle1 = CustomPermutation(self.LabelCircle1)
 		self.runcircle1 = runcircle1.readpermutation()[0]
 		runcircle2 = CustomPermutation(self.LabelCircle2)
 		self.runcircle2 = runcircle2.readpermutation()[0]
 
-		
+		# hasil kode pekerjaan di permutasi lagi disini
 		j = 0
-		self.indexpage7l =0
+		self.indexpage7l = 0
 
 		for setlbl in self.runcircle1:
-			self.indexpage7 =0
+			self.indexpage7 = 0
 
 			if j == 6:
 				break
@@ -767,6 +877,52 @@ class SDSHollandWindowUtama(sds.WindowUtama):
 		
 			k+=1
 
+		jedu = 0
+		self.indexpage7ledu = 0
+		print (self.runcircle1)
+		for setlbl in self.runcircle1:
+			self.indexpage7edu = 0
+
+			if jedu == 6:
+				break
+			self.listmctroledu[self.indexpage7ledu].InsertColumn(0,setlbl,width = 300)
+		
+			self.listlabeledu[jedu].SetLabel(setlbl)
+
+			self.y,self.hasil1edu=self.listofjob.CheckQuery(None,setlbl)
+			
+			# self.y,self.hasil1edu=self.listofjob.CheckQueryedu(None,setlbl)
+# 			print (self.hasil1.keys())			
+				
+			for listjob in self.hasil1edu.keys():
+			
+				self.listmctroledu[self.indexpage7ledu].InsertItem(self.indexpage7edu,listjob)
+				self.indexpage7edu+=1
+			self.indexpage7ledu+=1
+			jedu+=1
+		self.indexpage7edu+=1
+
+		kedu = 6
+		self.indexpage7lkedu=6
+		for setlbl in self.runcircle2:
+			self.indexpage7aedu=0
+			if kedu==12:
+				break
+			self.listmctroledu[self.indexpage7lkedu].InsertColumn(0,setlbl,width = 300)
+			
+			self.listlabeledu[kedu].SetLabel(setlbl)
+
+			self.y,self.hasil2edu=self.listofjob.CheckQuery(None,setlbl)
+
+			# self.y,self.hasil2edu=self.listofjob.CheckQueryedu(None,setlbl)
+# 			print (self.hasil2.keys())			
+				
+			for listjob in self.hasil2edu.keys():
+				self.listmctroledu[self.indexpage7lkedu].InsertItem(self.indexpage7aedu,listjob)
+				self.indexpage7aedu+=1
+			self.indexpage7lkedu+=1
+		
+			kedu+=1
 		
 	def btn_kembaliawal(self, event):
 		from AppsSDS import Halaman1m
@@ -1383,6 +1539,9 @@ class SDSHollandWindowUtama(sds.WindowUtama):
 		self.m_panel8.Show()
 		self.m_panelPage7.m_panel93.Show()
 		self.m_panelPage7.m_panel92.Hide()
+		self.m_panelPage7.m_panel931.Show()
+		self.m_panelPage7.m_panel921.Hide()
+
 		self.Layout()
 		pass
 		
@@ -1392,6 +1551,9 @@ class SDSHollandWindowUtama(sds.WindowUtama):
 		self.m_panel8.Hide()
 		self.m_panelPage7.m_panel92.Show()
 		self.m_panelPage7.m_panel93.Hide()
+		self.m_panelPage7.m_panel921.Show()
+		self.m_panelPage7.m_panel931.Hide()
+
 		self.Layout()
 		pass
 

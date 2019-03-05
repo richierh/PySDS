@@ -209,8 +209,47 @@ class QueryList():
         
         return listboxdata,listboxdata2   
         
+    def CheckQueryedu(self,prof,prof2):
+        self.prof = prof
+        self.prof2=prof2
+        create_connection(self.db_file)
+        conn = create_connection(self.db_file)
         
-        return
+        if conn is not None :
+            sql  = "SELECT * From pendidikan WHERE 'Program Studi' = '{}'".format(self.prof)
+            c = selectdata(conn,sql)
+
+            getdata = c.fetchall()
+#             print (getdata)
+            listboxdata  = {}
+            listboxdata2 = {}
+            
+            for row in getdata:
+                # print (row[0])
+                listboxdata[row[0]]=row[1]
+
+
+
+            sql2 = "SELECT * From pendidikan WHERE Kode = '{}'".format(self.prof2)            
+            c = selectdata(conn,sql2)
+            getdata2 = c.fetchall()
+                
+            for rowa in getdata2:
+                listboxdata2[rowa[0]]=rowa[1]
+
+        
+        else :
+            listboxdata={}
+            listboxdata2={}
+            print("Error! cannot create the database connection.")
+            
+            
+        conn.close()
+        print ("sudah ditutup")
+        
+        
+        
+        return listboxdata,listboxdata2           
 
 def Deletedbtes(db_file,row_id):
     print ("Will delete row based on Id number {}".format(row_id))

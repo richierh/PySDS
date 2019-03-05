@@ -56,7 +56,7 @@ def close():
 
 if platform.system() == "Windows":
 	print (platform.system())
-	my_file = Path("c:\\ProgramData\\tes.txt")
+	my_file = Path("C:\\ProgramData\\tes.txt")
 
 	# print (my_file)
 	if my_file.is_file():
