@@ -5,7 +5,6 @@ import pathlib
 
 class TempelFile():
 
-
     def __init__(self,parent):
         self.parent = parent
         print (self.parent)
@@ -13,26 +12,34 @@ class TempelFile():
         pass
 
     def compilefile(self):
-        if platform.system()=="Windows":
-            print("te")
-            print(platform.system())
-            self.write = pathlib.Path("C:\\ProgramData\\tes.txt")
-            f= open(self.write,"w+")
-            f.close()
 
-        
-        elif platform.system()=="Linux":
-            print ("tess ini adalah linux")
-            print(platform.system())
-            self.write = pathlib.Path.home()/".tes"
-            f= open(self.write,"w+")
-            f.close()
+        if self.parent==True :
+            print (True)
+            if platform.system()=="Windows":
+                print("te")
+                print(platform.system())
+                self.write = pathlib.Path("C:\\ProgramData\\tes.txt")
+                f= open(self.write,"w+")
+                f.close()
 
-        elif platform.system()=="Mac OS" :
-            print ("tessss")
+            
+            elif platform.system()=="Linux":
+                print ("tess ini adalah linux")
+                print(platform.system())
+                self.write = pathlib.Path.home()/".tes"
+                f= open(self.write,"w+")
+                f.close()
+
+            elif platform.system()=="Mac OS" :
+                print ("tessss")
+            
+            else :
+                print ("System Operasi tidak dikenali")
         
         else :
-            print ("System Operasi tidak dikenali")
+            print ("False gagal")
+
+
         pass
 
 if __name__ == "__main__":

@@ -5,6 +5,7 @@ import FrameKey
 import random
 
 # Implementing FrameWarningKey
+
 class authenticationFrameWarningKey( FrameKey.FrameWarningKey ):
 	def __init__( self, parent ):
 		FrameKey.FrameWarningKey.__init__( self, parent )
@@ -14,21 +15,27 @@ class authenticationFrameWarningKey( FrameKey.FrameWarningKey ):
 		self.m_staticText144.SetLabel(str(self.lisennombor))
 
 
-	# Handlers for FrameWarningKey events.
+	# Handlers for FrameWarningKey events
+
 	def m_textCtrl49OnText( self, event ):
 		# TODO: Implement m_textCtrl49OnText
+
 		pass
 
 	def m_button38OnButtonClick( self, event ):
 		# TODO: Implement m_button38OnButtonClick
+
 		print ("batal")
 		self.Close()
 		pass
 
 	def m_button39OnButtonClick( self, event ):
 		# TODO: Implement m_button39OnButtonClick
+
 		global lisensi
 		from AppsSDS.keygenapps.keygen import Key
+		from AppsSDS.tempelfile import TempelFile
+
 		self.keynumber = self.m_textCtrl49.GetValue()
 		print (self.keynumber)
 		lisensi =  (self.lisennombor - 223445435)/4
@@ -38,7 +45,9 @@ class authenticationFrameWarningKey( FrameKey.FrameWarningKey ):
 		print (self.gen.verify(lisensi))
 
 		self.verify = self.gen.verify(lisensi)
-		
+		# print (self.verify)
+		self.yes = TempelFile(self.verify)
+		self.yes.compilefile()
 		print ("validasi")
 		pass
 
