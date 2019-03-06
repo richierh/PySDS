@@ -889,9 +889,9 @@ class SDSHollandWindowUtama(sds.WindowUtama):
 		
 			self.listlabeledu[jedu].SetLabel(setlbl)
 
-			self.y,self.hasil1edu=self.listofjob.CheckQuery(None,setlbl)
+			# self.y,self.hasil1edu=self.listofjob.CheckQuery(None,setlbl)
 			
-			# self.y,self.hasil1edu=self.listofjob.CheckQueryedu(None,setlbl)
+			self.y,self.hasil1edu=self.listofjob.CheckQueryedu(None,setlbl)
 # 			print (self.hasil1.keys())			
 				
 			for listjob in self.hasil1edu.keys():
@@ -912,9 +912,9 @@ class SDSHollandWindowUtama(sds.WindowUtama):
 			
 			self.listlabeledu[kedu].SetLabel(setlbl)
 
-			self.y,self.hasil2edu=self.listofjob.CheckQuery(None,setlbl)
+			# self.y,self.hasil2edu=self.listofjob.CheckQuery(None,setlbl)
 
-			# self.y,self.hasil2edu=self.listofjob.CheckQueryedu(None,setlbl)
+			self.y,self.hasil2edu=self.listofjob.CheckQueryedu(None,setlbl)
 # 			print (self.hasil2.keys())			
 				
 			for listjob in self.hasil2edu.keys():

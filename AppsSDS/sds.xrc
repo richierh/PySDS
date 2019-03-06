@@ -6112,6 +6112,50 @@
 								<object class="wxBoxSizer">
 									<orient>wxVERTICAL</orient>
 									<object class="sizeritem">
+										<option>0</option>
+										<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxEXPAND</flag>
+										<border>5</border>
+										<object class="wxPanel" name="m_panel117">
+											<style>wxTAB_TRAVERSAL</style>
+											<bg>#52658c</bg>
+											<fg>#f9faf9</fg>
+											<font>
+												<size>20</size>
+												<family>swiss</family>
+												<style>normal</style>
+												<weight>normal</weight>
+												<underlined>0</underlined>
+												<face>Sans</face>
+											</font>
+											<object class="wxBoxSizer">
+												<orient>wxVERTICAL</orient>
+												<object class="sizeritem">
+													<option>0</option>
+													<flag>wxALL|wxALIGN_CENTER_HORIZONTAL</flag>
+													<border>5</border>
+													<object class="wxStaticText" name="m_staticText290">
+														<fg>#ffffff</fg>
+														<font>
+															<size>18</size>
+															<style>normal</style>
+															<weight>bold</weight>
+															<underlined>0</underlined>
+															<face>Tw Cen MT</face>
+														</font>
+														<label>OCCUPATIONAL FINDER</label>
+														<wrap>-1</wrap>
+													</object>
+												</object>
+											</object>
+										</object>
+									</object>
+									<object class="spacer">
+										<option>0</option>
+										<flag></flag>
+										<border>5</border>
+										<size>0,25</size>
+									</object>
+									<object class="sizeritem">
 										<option>1</option>
 										<flag>wxALIGN_CENTER_HORIZONTAL</flag>
 										<border>5</border>
@@ -7924,6 +7968,41 @@
 								</font>
 								<object class="wxBoxSizer">
 									<orient>wxVERTICAL</orient>
+									<object class="sizeritem">
+										<option>0</option>
+										<flag>wxALL|wxEXPAND</flag>
+										<border>5</border>
+										<object class="wxPanel" name="m_panel118">
+											<style>wxTAB_TRAVERSAL</style>
+											<bg>#5b7a36</bg>
+											<object class="wxBoxSizer">
+												<orient>wxVERTICAL</orient>
+												<object class="sizeritem">
+													<option>0</option>
+													<flag>wxALL|wxALIGN_CENTER_HORIZONTAL</flag>
+													<border>5</border>
+													<object class="wxStaticText" name="m_staticText291">
+														<fg>#f9faf9</fg>
+														<font>
+															<size>18</size>
+															<style>normal</style>
+															<weight>bold</weight>
+															<underlined>0</underlined>
+															<face>Tw Cen MT</face>
+														</font>
+														<label>EDUCATIONAL FINDER</label>
+														<wrap>-1</wrap>
+													</object>
+												</object>
+											</object>
+										</object>
+									</object>
+									<object class="spacer">
+										<option>0</option>
+										<flag></flag>
+										<border>5</border>
+										<size>0,50</size>
+									</object>
 									<object class="sizeritem">
 										<option>1</option>
 										<flag>wxALIGN_CENTER_HORIZONTAL</flag>

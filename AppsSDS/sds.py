@@ -3580,6 +3580,30 @@ class Page7 ( wx.Panel ):
 
 		bSizer61 = wx.BoxSizer( wx.VERTICAL )
 
+		self.m_panel117 = wx.Panel( self.m_panelA, wx.ID_ANY, wx.DefaultPosition, wx.DefaultSize, wx.TAB_TRAVERSAL )
+		self.m_panel117.SetFont( wx.Font( 20, wx.FONTFAMILY_SWISS, wx.FONTSTYLE_NORMAL, wx.FONTWEIGHT_NORMAL, False, "Sans" ) )
+		self.m_panel117.SetForegroundColour( wx.Colour( 249, 250, 249 ) )
+		self.m_panel117.SetBackgroundColour( wx.Colour( 82, 101, 140 ) )
+
+		bSizer152 = wx.BoxSizer( wx.VERTICAL )
+
+		self.m_staticText290 = wx.StaticText( self.m_panel117, wx.ID_ANY, u"OCCUPATIONAL FINDER", wx.DefaultPosition, wx.DefaultSize, 0 )
+		self.m_staticText290.Wrap( -1 )
+
+		self.m_staticText290.SetFont( wx.Font( 18, wx.FONTFAMILY_DEFAULT, wx.FONTSTYLE_NORMAL, wx.FONTWEIGHT_BOLD, False, "Tw Cen MT" ) )
+		self.m_staticText290.SetForegroundColour( wx.Colour( 255, 255, 255 ) )
+
+		bSizer152.Add( self.m_staticText290, 0, wx.ALL|wx.ALIGN_CENTER_HORIZONTAL, 5 )
+
+
+		self.m_panel117.SetSizer( bSizer152 )
+		self.m_panel117.Layout()
+		bSizer152.Fit( self.m_panel117 )
+		bSizer61.Add( self.m_panel117, 0, wx.ALL|wx.ALIGN_CENTER_HORIZONTAL|wx.EXPAND, 5 )
+
+
+		bSizer61.Add( ( 0, 25), 0, 0, 5 )
+
 		bSizer171 = wx.BoxSizer( wx.HORIZONTAL )
 
 		self.m_statictextfromcircle1 = wx.StaticText( self.m_panelA, wx.ID_ANY, u"MyLabel", wx.DefaultPosition, wx.DefaultSize, 0 )
@@ -4355,6 +4379,28 @@ class Page7 ( wx.Panel ):
 		self.m_panelA2.SetFont( wx.Font( 12, wx.FONTFAMILY_DEFAULT, wx.FONTSTYLE_NORMAL, wx.FONTWEIGHT_NORMAL, False, "Tw Cen MT" ) )
 
 		bSizer611 = wx.BoxSizer( wx.VERTICAL )
+
+		self.m_panel118 = wx.Panel( self.m_panelA2, wx.ID_ANY, wx.DefaultPosition, wx.DefaultSize, wx.TAB_TRAVERSAL )
+		self.m_panel118.SetBackgroundColour( wx.Colour( 91, 122, 54 ) )
+
+		bSizer153 = wx.BoxSizer( wx.VERTICAL )
+
+		self.m_staticText291 = wx.StaticText( self.m_panel118, wx.ID_ANY, u"EDUCATIONAL FINDER", wx.DefaultPosition, wx.DefaultSize, 0 )
+		self.m_staticText291.Wrap( -1 )
+
+		self.m_staticText291.SetFont( wx.Font( 18, wx.FONTFAMILY_DEFAULT, wx.FONTSTYLE_NORMAL, wx.FONTWEIGHT_BOLD, False, "Tw Cen MT" ) )
+		self.m_staticText291.SetForegroundColour( wx.Colour( 249, 250, 249 ) )
+
+		bSizer153.Add( self.m_staticText291, 0, wx.ALL|wx.ALIGN_CENTER_HORIZONTAL, 5 )
+
+
+		self.m_panel118.SetSizer( bSizer153 )
+		self.m_panel118.Layout()
+		bSizer153.Fit( self.m_panel118 )
+		bSizer611.Add( self.m_panel118, 0, wx.ALL|wx.EXPAND, 5 )
+
+
+		bSizer611.Add( ( 0, 50), 0, 0, 5 )
 
 		bSizer173 = wx.BoxSizer( wx.HORIZONTAL )
 
