@@ -39,7 +39,7 @@ class FrameWarningKey ( wx.Frame ):
 
 		bSizer57.Add( ( 0, 25), 0, 0, 5 )
 
-		fgSizer36 = wx.FlexGridSizer( 2, 2, 0, 0 )
+		fgSizer36 = wx.FlexGridSizer( 3, 2, 0, 0 )
 		fgSizer36.SetFlexibleDirection( wx.BOTH )
 		fgSizer36.SetNonFlexibleGrowMode( wx.FLEX_GROWMODE_SPECIFIED )
 
@@ -62,6 +62,27 @@ class FrameWarningKey ( wx.Frame ):
 		fgSizer36.Add( self.m_textCtrl49, 0, wx.ALL|wx.ALIGN_CENTER_VERTICAL, 5 )
 
 
+		fgSizer36.Add( ( 0, 0), 1, wx.EXPAND, 5 )
+
+		bSizer3 = wx.BoxSizer( wx.HORIZONTAL )
+
+		self.m_staticText146 = wx.StaticText( self.m_panel27, wx.ID_ANY, u"status validasi :", wx.DefaultPosition, wx.DefaultSize, 0 )
+		self.m_staticText146.Wrap( -1 )
+
+		bSizer3.Add( self.m_staticText146, 0, wx.ALL|wx.ALIGN_CENTER_VERTICAL|wx.ALIGN_RIGHT, 5 )
+
+		self.m_staticText6 = wx.StaticText( self.m_panel27, wx.ID_ANY, u"MyLabel", wx.DefaultPosition, wx.DefaultSize, 0 )
+		self.m_staticText6.Wrap( -1 )
+
+		bSizer3.Add( self.m_staticText6, 0, wx.ALL|wx.ALIGN_CENTER_VERTICAL, 5 )
+
+		self.m_bitmap1 = wx.StaticBitmap( self.m_panel27, wx.ID_ANY, wx.NullBitmap, wx.DefaultPosition, wx.DefaultSize, 0 )
+		bSizer3.Add( self.m_bitmap1, 0, wx.ALL, 5 )
+
+
+		fgSizer36.Add( bSizer3, 1, wx.ALIGN_RIGHT, 5 )
+
+
 		bSizer57.Add( fgSizer36, 1, wx.ALIGN_CENTER_HORIZONTAL, 5 )
 
 		fgSizer37 = wx.FlexGridSizer( 0, 2, 0, 0 )
@@ -76,11 +97,6 @@ class FrameWarningKey ( wx.Frame ):
 
 
 		bSizer57.Add( fgSizer37, 0, wx.ALIGN_RIGHT, 5 )
-
-		self.m_staticText146 = wx.StaticText( self.m_panel27, wx.ID_ANY, u"Hubungi Binakarir untuk memperoleh Nomor Lisensi di", wx.DefaultPosition, wx.DefaultSize, 0 )
-		self.m_staticText146.Wrap( -1 )
-
-		bSizer57.Add( self.m_staticText146, 0, wx.ALL, 5 )
 
 
 		self.m_panel27.SetSizer( bSizer57 )

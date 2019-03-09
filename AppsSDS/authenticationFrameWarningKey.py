@@ -3,7 +3,7 @@
 import wx
 import FrameKey
 import random
-
+import pathlib
 # Implementing FrameWarningKey
 
 class authenticationFrameWarningKey( FrameKey.FrameWarningKey ):
@@ -14,8 +14,17 @@ class authenticationFrameWarningKey( FrameKey.FrameWarningKey ):
 		self.lisennombor = self.nilai*4 + 223445435
 		self.m_staticText144.SetLabel(str(self.lisennombor))
 
+		# https://www.flaticon.com/authors/pixel-buddha
+		# Icon made by [author link] from www.flaticon.com Icon made by [author link] from www.flaticon.com Icon made by [author link] from www.flaticon.com 
+		# Icon made by [author link] from www.flaticon.com 
 
-	# Handlers for FrameWarningKey events
+		# Handlers for FrameWarningKey events
+		self.pathimage = pathlib.Path.cwd()/"images/symbol/checked.png"
+		self.image1 = wx.Image(str(self.pathimage))
+		self.re_image1 = self.image1.Rescale(50,50,quality=wx.Imag)
+		print (self.pathimage)
+
+		pass
 
 	def m_textCtrl49OnText( self, event ):
 		# TODO: Implement m_textCtrl49OnText
