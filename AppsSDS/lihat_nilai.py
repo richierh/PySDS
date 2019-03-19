@@ -12,7 +12,7 @@ class LihatNilai():
             self.item = self.lihat_nilai.datpes.m_ListDataPeserta.GetItem(self.item,3).GetText()
             from AppsSDS.db import db
                  
-            self.db_file = db.pathdb()
+            self.db_file = str(db.pathdb())
             self.nama_orang = self.item
             self.date_from = None
             self.date_end = None
@@ -36,7 +36,7 @@ class LihatNilai():
             self.item = self.lihat_nilai.buka_peserta_tes.m_ListDataPeserta.GetItem(self.item,1).GetText()
             from AppsSDS.db import db
                  
-            self.db_file = db.pathdb()
+            self.db_file = str(db.pathdb())
             self.nama_orang = self.item
             self.date_from = None
             self.date_end = None
@@ -193,7 +193,7 @@ class LihatNilaiTes():
         self.item = self.lihat_nilai.buka_peserta_tes.m_ListDataPeserta.GetItem(self.item,1).GetText()
         from AppsSDS.db import db
              
-        self.db_file = db.pathdb()
+        self.db_file = str(db.pathdb())
         self.nama_orang = self.item
         self.date_from = None
         self.date_end = None

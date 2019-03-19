@@ -368,7 +368,7 @@ def Insertdbtes(db_file,*data):
 def Insertdb(db_file,*data):
 #     db_file=pathlib.Path.cwd()/"db/riasec.db"
     print (db_file)
-    conn = create_connection(db_file)
+    conn = create_connection(str(db_file))
     if conn is not None :
         print ("conn is not none, ready to insert data into sql")
         sql  = "INSERT INTO databasekandidat1(`NoTes` , `TanggalTes`,`NamaKandidat`,"\
@@ -400,7 +400,7 @@ def querydbtes(db_file,nama_orang,date_from,date_end):
 #     db_file=pathlib.Path.cwd()/"db/riasec.db"
     print(db_file)
     print (nama_orang)
-    conn = create_connection(db_file)
+    conn = create_connection(str(db_file))
     if conn is not None :
         print ("conn to databasekandidat2 is not none, is still working")
         

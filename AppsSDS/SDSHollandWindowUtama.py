@@ -1266,7 +1266,7 @@ class SDSHollandWindowUtama(sds.WindowUtama):
 			self.buka_detail=RincianData(self)
 			self.buka_detail.Show()
 			try :
-				self.db_file = db.pathdb()
+				self.db_file = str(db.pathdb())
 				self.nama_orang = self.item
 				self.date_from = None
 				self.date_end = None
@@ -1307,7 +1307,7 @@ class SDSHollandWindowUtama(sds.WindowUtama):
 			self.buka_detail2=RincianDataTes(self)
 			self.buka_detail2.Show()
 			try :
-				self.db_file = db.pathdb()
+				self.db_file = str(db.pathdb())
 				self.nama_orang = self.item
 				self.date_from = None
 				self.date_end = None
