@@ -15,7 +15,7 @@ path= pathlib.Path.cwd()/'AppsSDS'
 
 sys.path.append(str(path))
 sys.path
-# print (sys.path)
+print (sys.path)
 # os.getcwd()
 # cd = "{}{}".format(os.getcwd(), "/AppsSDS")
 cd = pathlib.Path.cwd()/"AppsSDS"
