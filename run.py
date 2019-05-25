@@ -10,7 +10,7 @@ import pathlib
 
 # path = "{}{}".format(os.getcwd(), "/AppsSDS")
 # print (type(path))
-path= pathlib.Path.cwd()/'AppsSDS'
+path = pathlib.Path.cwd() / 'AppsSDS'
 # print (type(path))
 
 sys.path.append(str(path))
@@ -18,7 +18,7 @@ sys.path
 print (sys.path)
 # os.getcwd()
 # cd = "{}{}".format(os.getcwd(), "/AppsSDS")
-cd = pathlib.Path.cwd()/"AppsSDS"
+cd = pathlib.Path.cwd() / "AppsSDS"
 os.chdir(str(cd))
 
 from AppsSDS.main import run

@@ -3,27 +3,25 @@
 
 # datainput = checkfile()
 
-
 import csv
 import os
 # import platform
 import pathlib
 
 
-
 class CheckCSV():
 
     def __init__(self):
-        super(CheckCSV,self).__init__()
+        super(CheckCSV, self).__init__()
         self.file = 'ckh.py'
         pass
 
     def checkfile(self):
-        self.file = pathlib.Path(os.getcwd()+"/ckh.py")
+        self.file = pathlib.Path(os.getcwd() + "/ckh.py")
         print (self.file)
         if self.file.is_file():
             self.read_file()
-            self.result="file is exist"
+            self.result = "file is exist"
         else :
             self.result = "file not exist"
         return self.result
@@ -40,7 +38,7 @@ class CheckCSV():
     def write(self):
         
         row = [[self.myIDHw]]
-        lines=row
+        lines = row
 #         print ([row])
 #         row = ['jjkjskdfjl']
         '''        
@@ -58,7 +56,6 @@ class CheckCSV():
 
         return self.myIDHw
     
-    
 # datapassword = input ("Masukkan password")
 # print(datapassword)
 
@@ -67,31 +64,33 @@ class CheckCSV():
 # else :
 #     print ("False")
 
-tanggal=["default"]
-password=["default"]
 
+tanggal = ["default"]
+password = ["default"]
 
 Keluar = 0
 while Keluar == 0 :
+
 # while True:
     class Setting():
 
-        def __init__(self,parent,*args):
+        def __init__(self, parent, *args):
             self.set = parent
-            self.tanggal=args[0]
-            self.password=args[1]
+            self.tanggal = args[0]
+            self.password = args[1]
  
-            if self.set=="SetTgl":
+            if self.set == "SetTgl":
                 self.SetTgl()
             
-            elif self.set=="SetPasswd":
+            elif self.set == "SetPasswd":
                 self.SetPasswd()
             
-            elif self.set=="Keluar" :
+            elif self.set == "Keluar" :
                 self.Keluar()
             
-            elif self.set=="Lihat Konfigurasi":
+            elif self.set == "Lihat Konfigurasi":
                 self.LihatKonf()
+
         def SetTgl(self):
             self.tanggaltambah = input ("set tanggal dd/mm/yyyy")
             del self.tanggal[0]
@@ -111,15 +110,14 @@ while Keluar == 0 :
             global Keluar
             Keluar = 11
             
-    if __name__=="__main__":
+    if __name__ == "__main__":
         
         datatanggal = input ('silahkan pilih :\n'\
                         '1. Setting Tanggal\n2. Setting Password\n3. Keluar & Simpan\n4. Lihat Konfigurasi\n')
-        dictionary = {"1":"SetTgl","2":"SetPasswd","3":"Keluar","4":"Lihat Konfigurasi"}
+        dictionary = {"1":"SetTgl", "2":"SetPasswd", "3":"Keluar", "4":"Lihat Konfigurasi"}
         
 #         print (dictionary.get(datatanggal,"Not Found"))
     
-        k = dictionary.get(datatanggal,"Not Found")
-        go = Setting(k,tanggal,password)
-        
+        k = dictionary.get(datatanggal, "Not Found")
+        go = Setting(k, tanggal, password)
         

@@ -6,12 +6,14 @@ import random
 import pathlib
 # Implementing FrameWarningKey
 
-class authenticationFrameWarningKey( FrameKey.FrameWarningKey ):
-	def __init__( self, parent ):
-		FrameKey.FrameWarningKey.__init__( self, parent )
-		self.nilai = random.randint(1700,1900)
+
+class authenticationFrameWarningKey(FrameKey.FrameWarningKey):
+
+	def __init__(self, parent):
+		FrameKey.FrameWarningKey.__init__(self, parent)
+		self.nilai = random.randint(1700, 1900)
 		print (self.nilai)
-		self.lisennombor = self.nilai*4 + 223445435
+		self.lisennombor = self.nilai * 4 + 223445435
 		self.m_staticText144.SetLabel(str(self.lisennombor))
 
 		# https://www.flaticon.com/authors/pixel-buddha
@@ -19,26 +21,26 @@ class authenticationFrameWarningKey( FrameKey.FrameWarningKey ):
 		# Icon made by [author link] from www.flaticon.com 
 
 		# Handlers for FrameWarningKey events
-		self.pathimage = pathlib.Path.cwd()/"images/symbol/checked.png"
+		self.pathimage = pathlib.Path.cwd() / "images/symbol/checked.png"
 		self.image1 = wx.Image(str(self.pathimage))
-		self.re_image1 = self.image1.Rescale(50,50,quality=wx.IMAGE_QUALITY_NORMAL)
+		self.re_image1 = self.image1.Rescale(50, 50, quality=wx.IMAGE_QUALITY_NORMAL)
 		print (self.pathimage)
 
 		pass
 
-	def m_textCtrl49OnText( self, event ):
+	def m_textCtrl49OnText(self, event):
 		# TODO: Implement m_textCtrl49OnText
 
 		pass
 
-	def m_button38OnButtonClick( self, event ):
+	def m_button38OnButtonClick(self, event):
 		# TODO: Implement m_button38OnButtonClick
 
 		print ("batal")
 		self.Close()
 		pass
 
-	def m_button39OnButtonClick( self, event ):
+	def m_button39OnButtonClick(self, event):
 		# TODO: Implement m_button39OnButtonClick
 
 		global lisensi
@@ -47,7 +49,7 @@ class authenticationFrameWarningKey( FrameKey.FrameWarningKey ):
 
 		self.keynumber = self.m_textCtrl49.GetValue()
 		print (self.keynumber)
-		lisensi =  (self.lisennombor - 223445435)/4
+		lisensi = (self.lisennombor - 223445435) / 4
 		print (lisensi)
 		self.gen = Key(self.keynumber)
 
@@ -59,6 +61,7 @@ class authenticationFrameWarningKey( FrameKey.FrameWarningKey ):
 		self.yes.compilefile()
 		print ("validasi")
 		pass
+
 
 if __name__ == "__main__":
     root = wx.App()

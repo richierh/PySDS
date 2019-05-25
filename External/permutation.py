@@ -28,7 +28,8 @@ class CustomPermutation(itertools.permutations):
         for j in self.listcomp:
             self.listformat.append("".join(j))
             print (self.listformat)
-        return self.listformat,self.listcomp    
+        return self.listformat, self.listcomp    
+
  
 if __name__ == "__main__":
     itter = ("ric")

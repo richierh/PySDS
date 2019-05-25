@@ -14,15 +14,13 @@ class ActivatorKonfigurasi(Activator.Konfigurasi):
 		self.m_sdbSizer1OK.SetLabel("Simpan")
 		self.m_sdbSizer1Cancel.SetLabel("Batal")
 		
-		
 		self.WindowUtama = parent
 # 		Ini adalah kondisi untuk melihat apakah sudah menyimpan 
 # 		tanggal apa belum ?
 		self.kondisiwaktu = FileDate()
-		self.x,self.y=self.kondisiwaktu.check_date()
-		self.passwd,self.p =self.kondisiwaktu.check_password()
-		print (self.x,self.y)
-		
+		self.x, self.y = self.kondisiwaktu.check_date()
+		self.passwd, self.p = self.kondisiwaktu.check_password()
+		print (self.x, self.y)
 	
 		if self.y == "ada":
 			self.tanggal_aktif.SetLabel(self.x[0])
@@ -39,7 +37,6 @@ class ActivatorKonfigurasi(Activator.Konfigurasi):
 			print ("file tidak ada")
 			self.password.SetLabel("")
 
-
 		self.Layout()
 	
 	def m_datechange(self, event):
@@ -50,10 +47,7 @@ class ActivatorKonfigurasi(Activator.Konfigurasi):
 		self.tanggal_aktif.SetLabel(self.setdatekonf)
 		self.Layout()
 		
-		
 		pass
-		
-		
 
 	# Handlers for Konfigurasi events.
 	def btn_lanjut(self, event):
@@ -86,8 +80,8 @@ class ActivatorKonfigurasi(Activator.Konfigurasi):
 		pass
 
 
-if __name__=="__main__":
-	root=wx.App()
-	run=ActivatorKonfigurasi(None)
+if __name__ == "__main__":
+	root = wx.App()
+	run = ActivatorKonfigurasi(None)
 	run.Show()
 	root.MainLoop()

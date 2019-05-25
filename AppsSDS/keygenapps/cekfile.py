@@ -1,9 +1,8 @@
 import os
 import pathlib
 
+pathloc = pathlib.Path.cwd() / "nem.txt"
 
-
-pathloc = pathlib.Path.cwd()/"nem.txt"
 
 def loc():
     
@@ -14,8 +13,7 @@ def loc():
 
 
 def createfile():
-    f = open(pathloc,mode = "w+")
-    
+    f = open(pathloc, mode="w+")
     
     f.close()
 

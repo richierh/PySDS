@@ -4,18 +4,18 @@ import AppsSDS.sds as sds
 import pathlib
 import csv
 
-path = pathlib.Path.cwd()/'controller/dataAKP.csv'
+path = pathlib.Path.cwd() / 'controller/dataAKP.csv'
 # print (path)
 
 
 # Implementing Page3
-class dPage3( sds.Page3 ):
-	def __init__( self, parent ):
-		sds.Page3.__init__( self, parent )
+class dPage3(sds.Page3):
 
+	def __init__(self, parent):
+		sds.Page3.__init__(self, parent)
 
 	# Handlers for Page3 events.
-	def m_RealisticAOnText( self, event ):
+	def m_RealisticAOnText(self, event):
 		print("a")
 		self.m_TotalAktifitas.Enable()
 		self.Total_RKP()		
@@ -25,11 +25,11 @@ class dPage3( sds.Page3 ):
 		self.__read_txt()
 
 	def Total_RKP(self):
-		self.TotalRealitas = self.m_RealisticA.GetValue()+\
-					self.m_InvestigativeA.GetValue()+\
-					self.m_ArtisticA.GetValue()+\
-					self.m_SocialA.GetValue()+\
-					self.m_EnterprisingA.GetValue()+\
+		self.TotalRealitas = self.m_RealisticA.GetValue() + \
+					self.m_InvestigativeA.GetValue() + \
+					self.m_ArtisticA.GetValue() + \
+					self.m_SocialA.GetValue() + \
+					self.m_EnterprisingA.GetValue() + \
 					self.m_ConventionalA.GetValue()
 		return self.TotalRealitas
 		
@@ -52,72 +52,71 @@ class dPage3( sds.Page3 ):
 		
 		pass
 
-	def m_InvestigativeAOnText( self, event ):
+	def m_InvestigativeAOnText(self, event):
 		# TODO: Implement m_InvestigativeAOnText
 		pass
 
-	def m_ArtisticAOnText( self, event ):
+	def m_ArtisticAOnText(self, event):
 		# TODO: Implement m_ArtisticAOnText
 		pass
 
-	def m_SocialAOnText( self, event ):
+	def m_SocialAOnText(self, event):
 		# TODO: Implement m_SocialAOnText
 		pass
 
-	def m_EnterprisingAOnText( self, event ):
+	def m_EnterprisingAOnText(self, event):
 		# TODO: Implement m_EnterprisingAOnText
 		pass
 
-	def m_ConventionalAOnText( self, event ):
+	def m_ConventionalAOnText(self, event):
 		# TODO: Implement m_ConventionalAOnText
 		pass
 
-	def m_RealisticKOnText( self, event ):
+	def m_RealisticKOnText(self, event):
 		# TODO: Implement m_RealisticKOnText
 		pass
 
-	def m_InvestigativeKOnText( self, event ):
+	def m_InvestigativeKOnText(self, event):
 		# TODO: Implement m_InvestigativeKOnText
 		pass
 
-	def m_ArtisticKOnText( self, event ):
+	def m_ArtisticKOnText(self, event):
 		# TODO: Implement m_ArtisticKOnText
 		pass
 
-	def m_SocialKOnText( self, event ):
+	def m_SocialKOnText(self, event):
 		# TODO: Implement m_SocialKOnText
 		pass
 
-	def m_EnterprisingKOnText( self, event ):
+	def m_EnterprisingKOnText(self, event):
 		# TODO: Implement m_EnterprisingKOnText
 		pass
 
-	def m_ConventionalKOnText( self, event ):
+	def m_ConventionalKOnText(self, event):
 		# TODO: Implement m_ConventionalKOnText
 		pass
 
-	def m_RealisticPOnText( self, event ):
+	def m_RealisticPOnText(self, event):
 		# TODO: Implement m_RealisticPOnText
 		pass
 
-	def m_InvestigativePOnText( self, event ):
+	def m_InvestigativePOnText(self, event):
 		# TODO: Implement m_InvestigativePOnText
 		pass
 
-	def m_ArtisticPOnText( self, event ):
+	def m_ArtisticPOnText(self, event):
 		# TODO: Implement m_ArtisticPOnText
 		pass
 
-	def m_SocialPOnText( self, event ):
+	def m_SocialPOnText(self, event):
 		# TODO: Implement m_SocialPOnText
 		pass
 
-	def m_EnterprisingPOnText( self, event ):
+	def m_EnterprisingPOnText(self, event):
 		# TODO: Implement m_EnterprisingPOnText
 		pass
 
-	def m_ConventionalPOnText( self, event ):
+	def m_ConventionalPOnText(self, event):
 		# TODO: Implement m_ConventionalPOnText
 		pass
-
 

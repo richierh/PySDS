@@ -9,13 +9,12 @@ from matplotlib.figure import Figure
 from matplotlib.backends.backend_wxagg import FigureCanvasWxAgg as FigureCanvas
 
 
-
 class MatplotPanelA(wx.Panel):
+
     def __init__(self, parent):
         wx.Panel.__init__(self, parent)
-        
        
-        self.sizer = wx.BoxSizer( wx.VERTICAL )
+        self.sizer = wx.BoxSizer(wx.VERTICAL)
          
         self.figure = Figure()
 # 
@@ -41,7 +40,6 @@ class MatplotPanelA(wx.Panel):
 #         self.axes1.legend(loc = 'upper left')
 #         self.axes2.legend(loc = "upper left")
         
-        
         self.canvas = FigureCanvas(self, -1, self.figure)
         self.sizer.Add(self.canvas, 1, wx.LEFT | wx.TOP | wx.GROW)
         self.SetSizer(self.sizer)
@@ -57,11 +55,11 @@ class MatplotPanelA(wx.Panel):
     
 
 class MatplotPanelB(wx.Panel):
+
     def __init__(self, parent):
         wx.Panel.__init__(self, parent)
-        
        
-        self.sizer = wx.BoxSizer( wx.VERTICAL )
+        self.sizer = wx.BoxSizer(wx.VERTICAL)
         
         self.figure = Figure()
 
@@ -75,7 +73,6 @@ class MatplotPanelB(wx.Panel):
 #         self.y3 = (2,3,4,5,6,7)
 #         self.y4 = (2,3,4,5,6,7)
 #         self.ysum=self.y4
-        
 
 #         self.axes1.hist(self.x,50,normed=1, facecolor='blue', alpha=0.75,label="contoh a")
 #         self.axes1.hist(self.x, facecolor='blue', label="contoh a")
@@ -86,7 +83,6 @@ class MatplotPanelB(wx.Panel):
 # #         self.axes2.plot(self.x,self.ysum,'-o',label = "Summary Scores")
 #         self.axes1.legend(loc = 'upper left')
 #         self.axes2.legend(loc = "upper left")
-        
         
         self.canvas = FigureCanvas(self, -1, self.figure)
         self.sizer.Add(self.canvas, 1, wx.LEFT | wx.TOP | wx.GROW)

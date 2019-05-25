@@ -2,19 +2,16 @@ from AppsSDS.simpan_data import SimpanData
 from _datetime import datetime
 
 
-
-
 class ClearData(SimpanData):
     
-    
-    def __init__(self,parent):
-        super(ClearData,self).__init__(parent)
-        self.parent.cek_rowid=""
+    def __init__(self, parent):
+        super(ClearData, self).__init__(parent)
+        self.parent.cek_rowid = ""
         self.parent.no_tes_input.SetValue("")
-        self.parent.tanggal_tes_input.SetValue(datetime.now())#datetime.strptime(datetime.now(),'%Y/%m/%d'))
+        self.parent.tanggal_tes_input.SetValue(datetime.now())  # datetime.strptime(datetime.now(),'%Y/%m/%d'))
         self.parent.nama_kandidat_input.SetValue("")
         self.parent.jenis_kelamin_input.SetSelection(0)
-        self.parent.tanggal_lahir_input.SetValue(datetime.now())#strptime(datetime.now(),'%Y/%m/%d'))
+        self.parent.tanggal_lahir_input.SetValue(datetime.now())  # strptime(datetime.now(),'%Y/%m/%d'))
         self.parent.pendidikan_terakhir_input.SetSelection(0)
         self.parent.jurusan_input.SetValue("")
         self.parent.kota_input.SetValue("")
@@ -35,7 +32,7 @@ class ClearData(SimpanData):
         self.parent.ekskul_yang_diikuti_input2.SetValue("")
         print ("nilai {}".format(self.parent.cek_rowid))
         
-        self.listcontrol= [
+        self.listcontrol = [
         self.parent.m_panelPage2.textctrl1,
         self.parent.m_panelPage2.textctrl2,
         self.parent.m_panelPage2.textctrl3,
@@ -59,7 +56,7 @@ class ClearData(SimpanData):
         self.parent.m_panelPage3.m_ArtisticP,
         self.parent.m_panelPage3.m_SocialP,
         self.parent.m_panelPage3.m_EnterprisingP,
-        self.parent.m_panelPage3.m_ConventionalP ,       
+        self.parent.m_panelPage3.m_ConventionalP ,
         self.parent.m_panelPage4.m_kmekanisb1,
         self.parent.m_panelPage4.m_kilmiahb1,
         self.parent.m_panelPage4.m_kartistikb1,
@@ -77,7 +74,6 @@ class ClearData(SimpanData):
             clear.SetValue("")
 #             print (clear.GetValue())
         print ("lewat sini")
-
         
         self.parent.m_tombolHitungOnButtonClick(self)
         

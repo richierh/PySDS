@@ -2,8 +2,6 @@
 import os
 import sys
 
-
-
 path = "{}{}".format(os.getcwd(), "/Aplc")
 sys.path.append(path)
 sys.path

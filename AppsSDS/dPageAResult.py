@@ -3,8 +3,10 @@
 import wx
 import sds
 
+
 # Implementing PageAResult
-class dPageAResult( sds.PageAResult ):
-	def __init__( self, parent ):
-		sds.PageAResult.__init__( self, parent )
+class dPageAResult(sds.PageAResult):
+
+	def __init__(self, parent):
+		sds.PageAResult.__init__(self, parent)
 

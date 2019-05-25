@@ -1,15 +1,16 @@
 import wx
 from AppsSDS.halaman import Halaman6
 
+
 class LihatNilai():
     
-    def __init__(self,parent):  
+    def __init__(self, parent):  
         print ("You have choose Lihat Nilai")
         self.lihat_nilai = parent
         try :
             
             self.item = self.lihat_nilai.datpes.m_ListDataPeserta.GetFocusedItem()
-            self.item = self.lihat_nilai.datpes.m_ListDataPeserta.GetItem(self.item,3).GetText()
+            self.item = self.lihat_nilai.datpes.m_ListDataPeserta.GetItem(self.item, 3).GetText()
             from AppsSDS.db import db
                  
             self.db_file = str(db.pathdb())
@@ -22,7 +23,6 @@ class LihatNilai():
             
             print (self.querydb)
             
-            
             for i in self.querydb:
                 print (i)
             print (self.item)    
@@ -33,7 +33,7 @@ class LihatNilai():
         try :
             print ("hello apa kabar")
             self.item = self.lihat_nilai.buka_peserta_tes.m_ListDataPeserta.GetFocusedItem()
-            self.item = self.lihat_nilai.buka_peserta_tes.m_ListDataPeserta.GetItem(self.item,1).GetText()
+            self.item = self.lihat_nilai.buka_peserta_tes.m_ListDataPeserta.GetItem(self.item, 1).GetText()
             from AppsSDS.db import db
                  
             self.db_file = str(db.pathdb())
@@ -46,14 +46,12 @@ class LihatNilai():
             
             print (self.querydb)
             
-            
             for i in self.querydb:
                 print (i)
             print (self.item)               
             
         except:
             pass
-            
      
     def insert_value(self):    
         from datetime import datetime
@@ -61,30 +59,30 @@ class LihatNilai():
             self.lihat_nilai.no_tes_input.SetValue(self.querydb[0])
             self.lihat_nilai.tanggal_tes_input.SetValue(datetime.strptime(self.querydb[1], '%Y/%m/%d'))
             self.lihat_nilai.nama_kandidat_input.SetValue(self.querydb[2])
-            if self.querydb[3]=="Laki-Laki":
-                self.n=0
+            if self.querydb[3] == "Laki-Laki":
+                self.n = 0
             elif self.querydb[3] == "Perempuan" :
-                self.n=1
+                self.n = 1
             else :
-                self.n=0
+                self.n = 0
              
             self.lihat_nilai.jenis_kelamin_input.SetSelection(self.n)
             self.lihat_nilai.tanggal_lahir_input.SetValue(datetime.strptime(self.querydb[4], '%Y/%m/%d'))
              
             if self.querydb[5] == "SD" :
-                self.n=0
+                self.n = 0
             elif self.querydb[5] == "SMP":
-                self.lihat_nilai.n=1
-            elif self.querydb[5] =="SMA/Sederajat":
-                self.n=2
+                self.lihat_nilai.n = 1
+            elif self.querydb[5] == "SMA/Sederajat":
+                self.n = 2
             elif self.querydb[5] == "S1":
-                self.n =3
+                self.n = 3
             elif self.querydb[5] == "S2":
-                self.n=4
+                self.n = 4
             elif self.querydb[5] == "S3":
-                self.n=4
+                self.n = 4
             else :
-                self.n=0
+                self.n = 0
             self.lihat_nilai.pendidikan_terakhir_input.SetSelection(self.n)
             self.lihat_nilai.jurusan_input.SetValue(self.querydb[6])
             self.lihat_nilai.kota_input.SetValue(self.querydb[7])
@@ -92,7 +90,6 @@ class LihatNilai():
             self.lihat_nilai.posisi_jabatan_input.SetValue(self.querydb[9])
         except:
             pass
-        
         
         try :
             print (self.lihat_nilai.nama_input2.SetValue(self.querydb[0]))
@@ -155,9 +152,9 @@ class LihatNilai():
             self.lihat_nilai.m_button3.Enable()     
             self.lihat_nilai.m_button2.Enable()
        
-            self.lihat_nilai.m_panel9.SetBackgroundColour( wx.Colour( 91, 85, 112 ) )
-            self.lihat_nilai.m_panel1.SetBackgroundColour( wx.Colour( 91, 85, 112 ) )
-            self.lihat_nilai.SetBackgroundColour(wx.Colour( 91, 85, 112 ) )
+            self.lihat_nilai.m_panel9.SetBackgroundColour(wx.Colour(91, 85, 112))
+            self.lihat_nilai.m_panel1.SetBackgroundColour(wx.Colour(91, 85, 112))
+            self.lihat_nilai.SetBackgroundColour(wx.Colour(91, 85, 112))
             self.lihat_nilai.panel_radiobtn_halaman1.Hide()
             self.lihat_nilai.halaman1.Hide()
             self.lihat_nilai.halaman2.Hide()
@@ -183,14 +180,13 @@ class LihatNilai():
 
 class LihatNilaiTes():
     
-    def __init__(self,parent):  
+    def __init__(self, parent):  
         print ("You have choose Lihat Nilai")
         self.lihat_nilai = parent
-        
 
         print ("hello apa kabar")
         self.item = self.lihat_nilai.buka_peserta_tes.m_ListDataPeserta.GetFocusedItem()
-        self.item = self.lihat_nilai.buka_peserta_tes.m_ListDataPeserta.GetItem(self.item,1).GetText()
+        self.item = self.lihat_nilai.buka_peserta_tes.m_ListDataPeserta.GetItem(self.item, 1).GetText()
         from AppsSDS.db import db
              
         self.db_file = str(db.pathdb())
@@ -203,17 +199,13 @@ class LihatNilaiTes():
         
         print (self.querydb)
         
-        
         for i in self.querydb:
             print (i)
         print (self.item)               
-        
-   
  
     def insert_value(self):    
         from datetime import datetime
         print (self.lihat_nilai.nama_input2.SetValue(self.querydb[0]))
-            
  
         from AppsSDS.db.db import QueryList
         try :
@@ -266,9 +258,9 @@ class LihatNilaiTes():
             self.lihat_nilai.m_button3.Enable()     
             self.lihat_nilai.m_button2.Enable()
        
-            self.lihat_nilai.m_panel9.SetBackgroundColour( wx.Colour( 91, 85, 112 ) )
-            self.lihat_nilai.m_panel1.SetBackgroundColour( wx.Colour( 91, 85, 112 ) )
-            self.lihat_nilai.SetBackgroundColour( wx.Colour( 91, 85, 112 ) )
+            self.lihat_nilai.m_panel9.SetBackgroundColour(wx.Colour(91, 85, 112))
+            self.lihat_nilai.m_panel1.SetBackgroundColour(wx.Colour(91, 85, 112))
+            self.lihat_nilai.SetBackgroundColour(wx.Colour(91, 85, 112))
             self.lihat_nilai.panel_radiobtn_halaman1.Hide()
             self.lihat_nilai.halaman1.Hide()
             self.lihat_nilai.halaman2.Hide()

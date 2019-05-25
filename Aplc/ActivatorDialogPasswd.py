@@ -7,9 +7,10 @@ import Aplc.Activator as Activator
 class ActivatorDialogPasswd(Activator.DialogPasswd):
 
 	def __init__(self, parent):
-		Activator.DialogPasswd.__init__(self,parent)
+		Activator.DialogPasswd.__init__(self, parent)
 		self.root = parent
 		self.root.Hide()
+
 	# Handlers for DialogPasswd events.
 	def btn_passwd(self, event):
 		# TODO: Implement btn_passwd

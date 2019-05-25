@@ -5,7 +5,7 @@ global lisensi
 
 class Lisensi():
 
-	def __init__(self,parent):
+	def __init__(self, parent):
 
 		lisensi = parent
 		self.hasil()
@@ -13,16 +13,17 @@ class Lisensi():
 	def hasil(self):
 		return lisensi
 
+
 class Key():
 
 	def __init__(self, key=''):
 		print ("sukses")
 		if key == '':
-			self.key= self.generate()
+			self.key = self.generate()
 		else:
 			self.key = key.lower()
 
-	def verify(self,lisensi):
+	def verify(self, lisensi):
 		lisensi = lisensi
 		print ("lewat sini")
 		score = 0
@@ -66,13 +67,14 @@ class Key():
 			valid = 'Valid'
 			
 		return self.key.upper() + ':' + valid
+
 		
 if __name__ == "__main__":
 	key = Key('K2UN-9I2O-78GZ-E93H-JFKK')	
 	# key = Key('0CQD-04NL-743Y-YQVT-H0ED')
 	# key = Key('')
 	# global lisensi
-	lisensi = 1762
+	lisensi = 1813
 	total = 223452987
 	# lisensi = self.nilai*4 + 223445435
 	# lisensi = (total - 223445435)/4

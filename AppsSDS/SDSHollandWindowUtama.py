@@ -10,44 +10,40 @@ from AppsSDS.controller.hitung_addlistbox import NewClass4, NewClass5
 from AppsSDS.controller import Grafik1
 from AppsSDS.warning import Warningid
 
+
 class SDSHollandWindowUtama(sds.WindowUtama):
 	"""Inherit from sds file and inheriting sds.WindowUtama"""
 	
-	
 	def __init__(self, parent):
 		sds.WindowUtama.__init__(self, parent)
-		self.db_file=pathlib.Path.cwd()/"db/riasec.db"
-		self.i=0
-		self.pathimage=pathlib.Path.cwd()/"images/logosds.ico"
+		self.db_file = pathlib.Path.cwd() / "db/riasec.db"
+		self.i = 0
+		self.pathimage = pathlib.Path.cwd() / "images/logosds.ico"
 		print (self.pathimage)
 		self.icon = wx.Icon()
 		# self.icon.CopyFromBitmap(wx.Bitmap(self.pathimage, wx.BITMAP_TYPE_ANY))
 		self.SetIcon(self.icon)
 
 		print ("halaman 1")
-		self.m_panelPage7.m_buttonBersihkan.Bind( wx.EVT_BUTTON, self.m_buttonBersihkanOnButtonClick )
-		self.m_panelPage7.m_SimpanPage6.Bind( wx.EVT_BUTTON, self.m_SimpanPage6OnButtonClick )
+		self.m_panelPage7.m_buttonBersihkan.Bind(wx.EVT_BUTTON, self.m_buttonBersihkanOnButtonClick)
+		self.m_panelPage7.m_SimpanPage6.Bind(wx.EVT_BUTTON, self.m_SimpanPage6OnButtonClick)
 		self.__properties()
 
-		self.image1 = wx.Image(str(pathlib.Path.cwd()/'images/binakarir.png'))
-		self.image2 = wx.Image(str(pathlib.Path.cwd()/'images/logosds.png'))
-		self.re_image1 = self.image1.Rescale(317,103)
-		self.re_image2 = self.image2.Rescale(350,350)
+		self.image1 = wx.Image(str(pathlib.Path.cwd() / 'images/binakarir.png'))
+		self.image2 = wx.Image(str(pathlib.Path.cwd() / 'images/logosds.png'))
+		self.re_image1 = self.image1.Rescale(317, 103)
+		self.re_image2 = self.image2.Rescale(350, 350)
 		self.m_bitmap3.SetBitmap(wx.Bitmap(self.re_image1))
 		self.m_bitmap31.SetBitmap(wx.Bitmap(self.re_image2))
 		self.Refresh()
 
 		self.Layout()
 
-
-
-
 	def __properties(self):
 		self.m_panelPage7.m_statictextfromcircle1.SetLabel("___")
 		self.m_panelPage7.m_staticfromcircle2.SetLabel("___")
 		self.m_panelPage7.m_statictextfromcircle11.SetLabel("___")
 		self.m_panelPage7.m_staticfromcircle21.SetLabel("___")		
-
 		
 		self.listmctrol = [
 			self.m_panelPage7.m_listCtrl1,
@@ -63,7 +59,6 @@ class SDSHollandWindowUtama(sds.WindowUtama):
 			self.m_panelPage7.m_listCtrl11,
 			self.m_panelPage7.m_listCtrl12
 			]
-
 		
 		self.listlabel = [
 			self.m_panelPage7.m_staticA,
@@ -79,8 +74,6 @@ class SDSHollandWindowUtama(sds.WindowUtama):
 			self.m_panelPage7.m_staticA11,
 			self.m_panelPage7.m_staticA12	
 			]
-
-
 		
 		self.listmctroledu = [
 			self.m_panelPage7.m_listCtrl13,
@@ -96,7 +89,6 @@ class SDSHollandWindowUtama(sds.WindowUtama):
 			self.m_panelPage7.m_listCtrl111,
 			self.m_panelPage7.m_listCtrl121
 			]
-
 		
 		self.listlabeledu = [
 			self.m_panelPage7.m_staticA1,
@@ -117,71 +109,70 @@ class SDSHollandWindowUtama(sds.WindowUtama):
 		for setval in self.listlabeledu :
 			
 			self.listlabeledu[self.index].SetLabel("___")
-			self.index+=1
+			self.index += 1
 
 		self.index = 0
 		for setval in self.listmctroledu :
-			self.listmctroledu[self.index].InsertColumn(0,"___")
+			self.listmctroledu[self.index].InsertColumn(0, "___")
 			self.listmctroledu[self.index].SetLabel("___")
-			self.index+=1		
+			self.index += 1		
 		self.index = 0
-
 
 		for setval in self.listlabel :
 			
 			self.listlabel[self.index].SetLabel("___")
-			self.index+=1
+			self.index += 1
 
 		self.index = 0
 		for setval in self.listmctrol :
-			self.listmctrol[self.index].InsertColumn(0,"___")
+			self.listmctrol[self.index].InsertColumn(0, "___")
 			self.listmctrol[self.index].SetLabel("___")
-			self.index+=1		
+			self.index += 1		
 
 		self.m_panelPage6.m_staticCR1.SetLabel("___")
 		self.m_panelPage6.m_staticCR2.SetLabel("___")
 
-		self.m_panelPage6.m_panelWarnaHasil.SetBackgroundColour(wx.Colour(219,227,37))
+		self.m_panelPage6.m_panelWarnaHasil.SetBackgroundColour(wx.Colour(219, 227, 37))
 	
-		self.m_panelPage6.m_stHasil1.SetBackgroundColour(wx.Colour( 73, 181, 73 ))
+		self.m_panelPage6.m_stHasil1.SetBackgroundColour(wx.Colour(73, 181, 73))
 
-		self.nilai_RealisticA	  = self.m_panelPage3.m_RealisticA.GetValue()
+		self.nilai_RealisticA	 = self.m_panelPage3.m_RealisticA.GetValue()
 		self.nilai_InvestigativeA = self.m_panelPage3.m_InvestigativeA.GetValue()
-		self.nilai_ArtisticA	  = self.m_panelPage3.m_ArtisticA.GetValue()
-		self.nilai_SocialA		  = self.m_panelPage3.m_SocialA.GetValue()
-		self.nilai_EnterprisingA  = self.m_panelPage3.m_EnterprisingA.GetValue()
-		self.nilai_ConventionalA  = self.m_panelPage3.m_ConventionalA.GetValue()
+		self.nilai_ArtisticA	 = self.m_panelPage3.m_ArtisticA.GetValue()
+		self.nilai_SocialA		 = self.m_panelPage3.m_SocialA.GetValue()
+		self.nilai_EnterprisingA = self.m_panelPage3.m_EnterprisingA.GetValue()
+		self.nilai_ConventionalA = self.m_panelPage3.m_ConventionalA.GetValue()
 
 		self.nilai_RealisticK	 = self.m_panelPage3.m_RealisticK.GetValue()
 		self.nilai_InvestigativeK = self.m_panelPage3.m_InvestigativeK.GetValue()
-		self.nilai_ArtisticK	  = self.m_panelPage3.m_ArtisticK.GetValue()
-		self.nilai_SocialK		= self.m_panelPage3.m_SocialK.GetValue()
-		self.nilai_EnterprisingK  = self.m_panelPage3.m_EnterprisingK.GetValue()
-		self.nilai_ConventionalK  = self.m_panelPage3.m_ConventionalK.GetValue()
+		self.nilai_ArtisticK	 = self.m_panelPage3.m_ArtisticK.GetValue()
+		self.nilai_SocialK		 = self.m_panelPage3.m_SocialK.GetValue()
+		self.nilai_EnterprisingK = self.m_panelPage3.m_EnterprisingK.GetValue()
+		self.nilai_ConventionalK = self.m_panelPage3.m_ConventionalK.GetValue()
 		
 		self.nilai_RealisticP	 = self.m_panelPage3.m_RealisticP.GetValue()
 		self.nilai_InvestigativeP = self.m_panelPage3.m_InvestigativeP.GetValue()
-		self.nilai_ArtisticP	  = self.m_panelPage3.m_ArtisticP.GetValue()
-		self.nilai_SocialP		= self.m_panelPage3.m_SocialP.GetValue()
-		self.nilai_EnterprisingP  = self.m_panelPage3.m_EnterprisingP.GetValue()
-		self.nilai_ConventionalP  = self.m_panelPage3.m_ConventionalP.GetValue()		
+		self.nilai_ArtisticP	 = self.m_panelPage3.m_ArtisticP.GetValue()
+		self.nilai_SocialP		 = self.m_panelPage3.m_SocialP.GetValue()
+		self.nilai_EnterprisingP = self.m_panelPage3.m_EnterprisingP.GetValue()
+		self.nilai_ConventionalP = self.m_panelPage3.m_ConventionalP.GetValue()		
 	
 		self.nilai_Kmekanisb1	 = self.m_panelPage4.m_kmekanisb1.GetValue()
-		self.nilai_Kilmiahb1	  = self.m_panelPage4.m_kilmiahb1.GetValue()
-		self.nilai_Kartistikb1	  = self.m_panelPage4.m_kartistikb1.GetValue()
-		self.nilai_Kmengajarb1	= self.m_panelPage4.m_kmengajarb1.GetValue()
-		self.nilai_Kpenjualan	  = self.m_panelPage4.m_kpenjualanb1.GetValue()
-		self.nilai_Kadministrasib1= self.m_panelPage4.m_kadministrasib1.GetValue()		
+		self.nilai_Kilmiahb1	 = self.m_panelPage4.m_kilmiahb1.GetValue()
+		self.nilai_Kartistikb1	 = self.m_panelPage4.m_kartistikb1.GetValue()
+		self.nilai_Kmengajarb1	 = self.m_panelPage4.m_kmengajarb1.GetValue()
+		self.nilai_Kpenjualan	 = self.m_panelPage4.m_kpenjualanb1.GetValue()
+		self.nilai_Kadministrasib1 = self.m_panelPage4.m_kadministrasib1.GetValue()		
 		
-		self.nilai_Ktanganb2	  = self.m_panelPage4.m_ktanganb2.GetValue()
-		self.nilai_Kmatematikab2  = self.m_panelPage4.m_kmatematikab2.GetValue()
-		self.nilai_Kmusikb2 	  = self.m_panelPage4.m_kmusikb2.GetValue()
-		self.nilai_Moranglain	  = self.m_panelPage4.m_moranglainb2.GetValue()
-		self.nilai_Kmanajerial	  = self.m_panelPage4.m_kmanajerialb2.GetValue()
-		self.nilai_Kperkantoran	  = self.m_panelPage4.m_kperkantoranb2.GetValue()	
+		self.nilai_Ktanganb2	 = self.m_panelPage4.m_ktanganb2.GetValue()
+		self.nilai_Kmatematikab2 = self.m_panelPage4.m_kmatematikab2.GetValue()
+		self.nilai_Kmusikb2 	 = self.m_panelPage4.m_kmusikb2.GetValue()
+		self.nilai_Moranglain	 = self.m_panelPage4.m_moranglainb2.GetValue()
+		self.nilai_Kmanajerial	 = self.m_panelPage4.m_kmanajerialb2.GetValue()
+		self.nilai_Kperkantoran	 = self.m_panelPage4.m_kperkantoranb2.GetValue()	
 		pass
 					
-	def openlistbox1OnButtonClick( self, event ):
+	def openlistbox1OnButtonClick(self, event):
 		print("tes 1")
 		self.op_tomb = 1
 
@@ -190,81 +181,78 @@ class SDSHollandWindowUtama(sds.WindowUtama):
 		
 		event.Skip()
 		
-	def openlistbox1OnEnterWindow(self,event):
+	def openlistbox1OnEnterWindow(self, event):
 
 		tooltip = "cari jenis pekerjaan disini"
 		event.GetEventObject().SetToolTip(tooltip)
 		event.Skip()
 		
-	def openlistbox2OnEnterWindow(self,event):
+	def openlistbox2OnEnterWindow(self, event):
 
 		tooltip = "cari jenis pekerjaan disini"
 		event.GetEventObject().SetToolTip(tooltip)
 		event.Skip()
 		
-	def openlistbox3OnEnterWindow(self,event):
+	def openlistbox3OnEnterWindow(self, event):
 
 		tooltip = "cari jenis pekerjaan disini"
 		event.GetEventObject().SetToolTip(tooltip)
 		event.Skip()
 
-	def openlistbox4OnEnterWindow(self,event):
+	def openlistbox4OnEnterWindow(self, event):
 
 		tooltip = "cari jenis pekerjaan disini"
 		event.GetEventObject().SetToolTip(tooltip)
 		event.Skip()
 
-	def openlistbox5OnEnterWindow(self,event):
+	def openlistbox5OnEnterWindow(self, event):
 
 		tooltip = "cari jenis pekerjaan disini"
 		event.GetEventObject().SetToolTip(tooltip)
 		event.Skip()
 		
-	def openlistbox6OnEnterWindow(self,event):
+	def openlistbox6OnEnterWindow(self, event):
 
 		tooltip = "cari jenis pekerjaan disini"
 		event.GetEventObject().SetToolTip(tooltip)
 		event.Skip()
 
-	def textctrl1OnEnterWindow(self,event ):
+	def textctrl1OnEnterWindow(self, event):
 		tooltip = "Untuk mengisi form ini silahkan klik cari"
 		event.GetEventObject().SetToolTip(tooltip)
 		event.Skip()
 
-
-	def textctrl2OnEnterWindow(self,event):
+	def textctrl2OnEnterWindow(self, event):
 
 		tooltip = "Untuk mengisi form ini silahkan klik cari"
 		event.GetEventObject().SetToolTip(tooltip)
 		event.Skip()
 
-	def textctrl3OnEnterWindow(self,event):
-
+	def textctrl3OnEnterWindow(self, event):
 	
 		tooltip = "Untuk mengisi form ini silahkan klik cari"
 		event.GetEventObject().SetToolTip(tooltip)
 		event.Skip()
 
-	def textctrl4OnEnterWindow(self,event):
+	def textctrl4OnEnterWindow(self, event):
 
 		tooltip = "Untuk mengisi form ini silahkan klik cari"
 		event.GetEventObject().SetToolTip(tooltip)
 		event.Skip()
 
-	def textctrl5OnEnterWindow(self,event):
+	def textctrl5OnEnterWindow(self, event):
 	
 		tooltip = "Untuk mengisi form ini silahkan klik cari"
 		event.GetEventObject().SetToolTip(tooltip)
 		event.Skip()
 
-	def textctrl6OnEnterWindow(self,event):
+	def textctrl6OnEnterWindow(self, event):
 
 		tooltip = "Untuk mengisi form ini silahkan klik cari"
 		event.GetEventObject().SetToolTip(tooltip)
 		event.Skip()
 
-
-	def openlistbox2OnButtonClick( self, event ):
+	def openlistbox2OnButtonClick(self, event):
 		print("tes2")
 		self.op_tomb = 2
 
@@ -272,8 +260,7 @@ class SDSHollandWindowUtama(sds.WindowUtama):
 		self.runList.Show()
 		event.Skip()
 
-
-	def openlistbox3OnButtonClick( self, event ):
+	def openlistbox3OnButtonClick(self, event):
 		print("tes3")
 
 		self.op_tomb = 3
@@ -282,14 +269,14 @@ class SDSHollandWindowUtama(sds.WindowUtama):
 		self.runList.Show()
 		event.Skip()
 
-	def openlistbox4OnButtonClick( self, event ):
+	def openlistbox4OnButtonClick(self, event):
 		print("tes4")
 		self.op_tomb = 4
 		self.runList = TempListbox(self)
 		self.runList.Show()
 		event.Skip()
 
-	def openlistbox5OnButtonClick( self, event ):
+	def openlistbox5OnButtonClick(self, event):
 		print("tes5")
 		self.op_tomb = 5
 
@@ -297,22 +284,22 @@ class SDSHollandWindowUtama(sds.WindowUtama):
 		self.runList.Show()
 		event.Skip()
 	
-	def openlistbox6OnButtonClick( self, event ):
+	def openlistbox6OnButtonClick(self, event):
 		print("tes6")
 		self.op_tomb = 6
 		self.runList = TempListbox(self)
 		self.runList.Show()
 		event.Skip()
 		
-	def textctrl1OnText(self,event):
+	def textctrl1OnText(self, event):
 		try:
 			self.a1 = self.m_panelPage2.textctrl1.GetValue()
 			# print (self.a1)
 			from AppsSDS.db import db
 			self.of_1 = db.QueryList()
-			self.b1,self.b2 = self.of_1.CheckQuery(self.a1,None)
+			self.b1, self.b2 = self.of_1.CheckQuery(self.a1, None)
 	# 		self.b1=self.m_panelPage2.listprofesiona.get(self.a1)
-	#		print (self.listprofesiona.get(self.a1))
+	# 		print (self.listprofesiona.get(self.a1))
 	# 		print (self.b1.get(self.a1))
 			self.b1 = self.b1.get(self.a1)
 			self.m_panelPage2.label1.SetLabel(self.b1)
@@ -321,90 +308,88 @@ class SDSHollandWindowUtama(sds.WindowUtama):
 		self.Layout()
 		pass
 	
-
-	
-	def label1OnEnterWindow(self,event):
+	def label1OnEnterWindow(self, event):
 		print ("hjhahasdf")
 		pass
 
-	def textctrl2OnText(self,event):
+	def textctrl2OnText(self, event):
 		try:
 			self.a2 = self.m_panelPage2.textctrl2.GetValue()
 			
 			from AppsSDS.db import db
 			self.of_1 = db.QueryList()
-			self.b1,self.b2 = self.of_1.CheckQuery(self.a2,None)
-			self.b1=self.b1.get(self.a2)
+			self.b1, self.b2 = self.of_1.CheckQuery(self.a2, None)
+			self.b1 = self.b1.get(self.a2)
 			self.m_panelPage2.label2.SetLabel(self.b1)
 		except :
 			self.m_panelPage2.label2.SetLabel("")
 		self.Layout()
 		pass
 	
-	def textctrl3OnText(self,event):
+	def textctrl3OnText(self, event):
 		try:
 			self.a3 = self.m_panelPage2.textctrl3.GetValue()
 			print ("hello world")
 			from AppsSDS.db import db
 			self.of_1 = db.QueryList()
-			self.b1,self.b2 = self.of_1.CheckQuery(self.a3,None)
-			self.b1=self.b1.get(self.a3)
+			self.b1, self.b2 = self.of_1.CheckQuery(self.a3, None)
+			self.b1 = self.b1.get(self.a3)
 			self.m_panelPage2.label3.SetLabel(self.b1)
 		except :
 			self.m_panelPage2.label3.SetLabel("")		
 		self.Layout()
 		pass
 	
-	def textctrl4OnText(self,event):
+	def textctrl4OnText(self, event):
 		try:
 			self.a4 = self.m_panelPage2.textctrl4.GetValue()
 			from AppsSDS.db import db
 			self.of_1 = db.QueryList()
-			self.b1,self.b2 = self.of_1.CheckQuery(self.a4,None)
-			self.b1=self.b1.get(self.a4)
+			self.b1, self.b2 = self.of_1.CheckQuery(self.a4, None)
+			self.b1 = self.b1.get(self.a4)
 			self.m_panelPage2.label4.SetLabel(self.b1)
 		except :
 			self.m_panelPage2.label4.SetLabel("")
 		self.Layout()
 		pass
 	
-	def textctrl5OnText(self,event):
+	def textctrl5OnText(self, event):
 		try:
 			self.a5 = self.m_panelPage2.textctrl5.GetValue()
 			from AppsSDS.db import db
 			self.of_1 = db.QueryList()
-			self.b1,self.b2 = self.of_1.CheckQuery(self.a5,None)
-			self.b1=self.b1.get(self.a5)
+			self.b1, self.b2 = self.of_1.CheckQuery(self.a5, None)
+			self.b1 = self.b1.get(self.a5)
 			self.m_panelPage2.label5.SetLabel(self.b1)
 		except :
 			self.m_panelPage2.label5.SetLabel("")
 		self.Layout()
 		pass
 	
-	def textctrl6OnText(self,event):
+	def textctrl6OnText(self, event):
 		try :
 			self.a6 = self.m_panelPage2.textctrl6.GetValue()
 			from AppsSDS.db import db
 			self.of_1 = db.QueryList()
-			self.b1,self.b2 = self.of_1.CheckQuery(self.a6,None)
-			self.b1=self.b1.get(self.a6)
+			self.b1, self.b2 = self.of_1.CheckQuery(self.a6, None)
+			self.b1 = self.b1.get(self.a6)
 			self.m_panelPage2.label6.SetLabel(self.b1)
 		except :
 			self.m_panelPage2.label6.SetLabel("")
 		self.Layout()
 		pass
 
-	def m_tampilgrafikOnButtonClick(self,event):
+	def m_tampilgrafikOnButtonClick(self, event):
 		print("working")
 # 		print (self.m_panelPage5.m_plota.Show())
 # 		print (self.m_panelPage5.m_plotb.Show())
 
-		if self.m_panelPage5.m_plota.IsShown()==True:
+		if self.m_panelPage5.m_plota.IsShown() == True:
 			self.m_panelPage5.m_plotb.Show()
 			self.m_panelPage5.m_plota.Hide()
 			print ("plota tersembunyi")
  		
-		elif self.m_panelPage5.m_plotb.IsShown()==True:
+		elif self.m_panelPage5.m_plotb.IsShown() == True:
 			print ("plotb tersembunyi")
 			self.m_panelPage5.m_plota.Show()
 			self.m_panelPage5.m_plotb.Hide()
@@ -416,13 +401,11 @@ class SDSHollandWindowUtama(sds.WindowUtama):
 		
 		pass		
 		
-		
-		
 # 		print("working a")
 
-	def m_tombolHitungOnButtonClick(self,event):
+	def m_tombolHitungOnButtonClick(self, event):
 		self.__properties()
-		from AppsSDS.controller import NewClass,NewClass2,NewClass3
+		from AppsSDS.controller import NewClass, NewClass2, NewClass3
 		
 ################################################################################################
 		# Biodata peserta tes Pekerjaan
@@ -438,7 +421,6 @@ class SDSHollandWindowUtama(sds.WindowUtama):
 		self.m_panelPage7.kota_input.SetValue(self.kota_input.GetValue())
 		self.m_panelPage7.perusahaan_instansi_input.SetValue(self.perusahaan_instansi_input.GetValue())
 		self.m_panelPage7.posisi_jabatan_input.SetValue(self.posisi_jabatan_input.GetValue())
-
 
 		self.m_panelPage7.nama_input2.SetValue(self.nama_input2.GetValue())
 		self.m_panelPage7.nama_input2.SetValue(self.nama_input2.GetValue())
@@ -461,7 +443,6 @@ class SDSHollandWindowUtama(sds.WindowUtama):
 		self.m_panelPage7.label4.SetLabel(self.m_panelPage2.label4.GetLabel())
 		self.m_panelPage7.label5.SetLabel(self.m_panelPage2.label5.GetLabel())
 
-
 		# bagian bawah nampilkan biodata
 		self.m_panelPage7.nama_kandidat_input1.SetValue(self.nama_kandidat_input.GetValue())
 		self.m_panelPage7.no_tes_input1.SetValue(self.no_tes_input.GetValue())
@@ -475,7 +456,6 @@ class SDSHollandWindowUtama(sds.WindowUtama):
 		self.m_panelPage7.kota_input1.SetValue(self.kota_input.GetValue())
 		self.m_panelPage7.perusahaan_instansi_input1.SetValue(self.perusahaan_instansi_input.GetValue())
 		self.m_panelPage7.posisi_jabatan_input1.SetValue(self.posisi_jabatan_input.GetValue())
-
 
 		self.m_panelPage7.nama_input21.SetValue(self.nama_input2.GetValue())
 		self.m_panelPage7.nama_input21.SetValue(self.nama_input2.GetValue())
@@ -492,19 +472,15 @@ class SDSHollandWindowUtama(sds.WindowUtama):
 		self.m_panelPage7.prestasi_non_akademik_input21.SetValue(self.prestasi_non_akademik_input2.GetValue())
 		self.m_panelPage7.ekskul_yang_diikuti_input21.SetValue(self.ekskul_yang_diikuti_input2.GetValue())
 
-
-
 		# self.m_panelPage7.label1.SetLabel(self.label1.GetLabel())
 
 		# Biodata peserta tes Pendidikan
-	
 
 		self.m_panelPage7.textctrl1.SetValue(self.m_panelPage2.textctrl1.GetValue())
 		self.m_panelPage7.textctrl2.SetValue(self.m_panelPage2.textctrl2.GetValue())
 		self.m_panelPage7.textctrl3.SetValue(self.m_panelPage2.textctrl3.GetValue())
 		self.m_panelPage7.textctrl4.SetValue(self.m_panelPage2.textctrl4.GetValue())
 		self.m_panelPage7.textctrl5.SetValue(self.m_panelPage2.textctrl5.GetValue())
-
 
 ################################################################################################
 		self.lbA = NewClass(self)
@@ -534,9 +510,8 @@ class SDSHollandWindowUtama(sds.WindowUtama):
 		self.nilaiRPDB1 = self.m_panelPage4.m_kmekanisb1.GetValue()
 		self.nilaiRPDB2 = self.m_panelPage4.m_ktanganb2.GetValue()
 		
-		self.sumscoresR = self.nilaiRA+self.nilaiRK+\
-						  self.nilaiRP+self.nilaiRPDB1+self.nilaiRPDB2
-		
+		self.sumscoresR = self.nilaiRA + self.nilaiRK + \
+						  self.nilaiRP + self.nilaiRPDB1 + self.nilaiRPDB2
 		
 		self.nilaiIA = self.m_panelPage3.m_InvestigativeA.GetValue()
 		self.nilaiIK = self.m_panelPage3.m_InvestigativeK.GetValue()
@@ -544,8 +519,8 @@ class SDSHollandWindowUtama(sds.WindowUtama):
 		self.nilaiIPDB1 = self.m_panelPage4.m_kilmiahb1.GetValue()
 		self.nilaiIPDB2 = self.m_panelPage4.m_kmatematikab2.GetValue()
 		
-		self.sumscoresI = self.nilaiIA + self.nilaiIK+\
-						  self.nilaiIP +self.nilaiIPDB1+self.nilaiIPDB2
+		self.sumscoresI = self.nilaiIA + self.nilaiIK + \
+						  self.nilaiIP + self.nilaiIPDB1 + self.nilaiIPDB2
 		
 		self.nilaiAA = self.m_panelPage3.m_ArtisticA.GetValue()
 		self.nilaiAK = self.m_panelPage3.m_ArtisticK.GetValue()
@@ -553,7 +528,7 @@ class SDSHollandWindowUtama(sds.WindowUtama):
 		self.nilaiAPDB1 = self.m_panelPage4.m_kartistikb1.GetValue()
 		self.nilaiAPDB2 = self.m_panelPage4.m_kmusikb2.GetValue()
 		
-		self.sumscoresA = self.nilaiAA + self.nilaiAK+\
+		self.sumscoresA = self.nilaiAA + self.nilaiAK + \
 						  self.nilaiAP + self.nilaiAPDB1 + self.nilaiAPDB2
 			
 		self.nilaiSA = self.m_panelPage3.m_SocialA.GetValue()
@@ -591,16 +566,16 @@ class SDSHollandWindowUtama(sds.WindowUtama):
 						"C  =  {}".format(self.sumscoresC)
 						)
 	
-		if not self.m_panelPage5.m_lbsummaryscores.GetCount()>0 : 
+		if not self.m_panelPage5.m_lbsummaryscores.GetCount() > 0 : 
 # 			print("hh")			
 			pass
 		
 		else :
-			for index in range(0,6):
+			for index in range(0, 6):
 # 				print (index)
 				self.m_panelPage5.m_lbsummaryscores.Delete(0)		
 		
-		self.m_panelPage5.m_lbsummaryscores.InsertItems(self.listsum,0)
+		self.m_panelPage5.m_lbsummaryscores.InsertItems(self.listsum, 0)
 
 #############################################################
 # menampilkan grafik 
@@ -620,7 +595,7 @@ class SDSHollandWindowUtama(sds.WindowUtama):
 		try :
 			self.appCircle = CircleValue(**self.RIASEC)
 
-			self.HasilHitung,self.HasilHitung2,self.ListHasilHitungS = self.appCircle.hasilhitung()
+			self.HasilHitung, self.HasilHitung2, self.ListHasilHitungS = self.appCircle.hasilhitung()
 		except :
 			
 			pass
@@ -631,7 +606,7 @@ class SDSHollandWindowUtama(sds.WindowUtama):
 				self.riasec0.append(self.ListHasilHitung[0])
 				self.riasec1.append(str(self.ListHasilHitung[1]))
 			
-			if self.riasec0 == ["N"] or self.riasec0==["None"]:
+			if self.riasec0 == ["N"] or self.riasec0 == ["None"]:
 				self.riasec0.remove("N")
 				self.riasec0.append("Anda belum Meng-Klik Hitung")
 
@@ -639,59 +614,59 @@ class SDSHollandWindowUtama(sds.WindowUtama):
 # 			print ("".join(self.riasec1))
 
 		except:
-			self.result0="None"
-			self.result1="None"
+			self.result0 = "None"
+			self.result1 = "None"
 		
 			pass
 
-		self.result0="".join(self.riasec0)
-		self.result1="".join(self.riasec1)
-		self.riasec = [self.result0]#,self.result1]
+		self.result0 = "".join(self.riasec0)
+		self.result1 = "".join(self.riasec1)
+		self.riasec = [self.result0]  # ,self.result1]
 
 		self.m_panelPage6.m_stHasil1.SetLabel(self.riasec[0])
 		
 		from AppsSDS.controller.sequence import CalculationRIASEC
 		self.dataA = {
-						"R" : self.nilai_RealisticA,	  
+						"R" : self.nilai_RealisticA, 	  
 						"I" : self.nilai_InvestigativeA,
 						"A" : self.nilai_ArtisticA,
-						"S" : self.nilai_SocialA,		 
+						"S" : self.nilai_SocialA, 		 
 						"E" : self.nilai_EnterprisingA,
 						"C" : self.nilai_ConventionalA 
 					}
 
 		self.dataK = {
-						"R" : self.nilai_RealisticK,	  
+						"R" : self.nilai_RealisticK, 	  
 						"I" : self.nilai_InvestigativeK,
 						"A" : self.nilai_ArtisticK,
-						"S" : self.nilai_SocialK,		 
+						"S" : self.nilai_SocialK, 		 
 						"E" : self.nilai_EnterprisingK,
 						"C" : self.nilai_ConventionalK 
 					}
 
 		self.dataP = {
-						"R" : self.nilai_RealisticK,	  
+						"R" : self.nilai_RealisticK, 	  
 						"I" : self.nilai_InvestigativeK,
 						"A" : self.nilai_ArtisticK,
-						"S" : self.nilai_SocialK,		 
+						"S" : self.nilai_SocialK, 		 
 						"E" : self.nilai_EnterprisingK,
 						"C" : self.nilai_ConventionalK 
 					}
 
 		self.dataPD = {
-				"R" : self.nilai_Kmekanisb1,	  
+				"R" : self.nilai_Kmekanisb1, 	  
 				"I" : self.nilai_Kilmiahb1,
 				"A" : self.nilai_Kartistikb1,
-				"S" : self.nilai_Kmengajarb1,		 
+				"S" : self.nilai_Kmengajarb1, 		 
 				"E" : self.nilai_Kpenjualan,
 				"C" : self.nilai_Kadministrasib1 
 				}
 
 		self.dataPD2 = {
-				"R" : self.nilai_Ktanganb2,	  
+				"R" : self.nilai_Ktanganb2, 	  
 				"I" : self.nilai_Kmatematikab2,
 				"A" : self.nilai_Kmusikb2,
-				"S" : self.nilai_Moranglain,		 
+				"S" : self.nilai_Moranglain, 		 
 				"E" : self.nilai_Kmanajerial,
 				"C" : self.nilai_Kperkantoran 
 				}
@@ -718,7 +693,6 @@ class SDSHollandWindowUtama(sds.WindowUtama):
 		
 		self.HasilCircle1 = []
 		self.HasilCircle2 = []
-
 
 		for listcircle1 in self.HasilHitung:
 			self.HasilCircle1.append(listcircle1[0])
@@ -750,12 +724,10 @@ class SDSHollandWindowUtama(sds.WindowUtama):
 		try :
 			from AppsSDS.db.db import QueryList
 			self.listofjob = QueryList()
-			self.x,self.HasilListJob=self.listofjob.CheckQuery(None, self.LabelCircle1)
-			self.x,self.HasilListJob2=self.listofjob.CheckQuery(None, self.LabelCircle2)
-			self.y,self.HasilListJobedu=self.listofjob.CheckQueryedu(None, self.LabelCircle1)
-			self.y,self.HasilListJob2edu=self.listofjob.CheckQueryedu(None, self.LabelCircle2)
-
-
+			self.x, self.HasilListJob = self.listofjob.CheckQuery(None, self.LabelCircle1)
+			self.x, self.HasilListJob2 = self.listofjob.CheckQuery(None, self.LabelCircle2)
+			self.y, self.HasilListJobedu = self.listofjob.CheckQueryedu(None, self.LabelCircle1)
+			self.y, self.HasilListJob2edu = self.listofjob.CheckQueryedu(None, self.LabelCircle2)
 
 		except :
 			pass
@@ -767,7 +739,6 @@ class SDSHollandWindowUtama(sds.WindowUtama):
 				self.warning.Show()
 		except :
 			pass
-	
 		
 		self.m_panelPage6.m_listCtrlCR1.DeleteAllItems()
 		self.m_panelPage6.m_listCtrlCR2.DeleteAllItems()
@@ -779,14 +750,12 @@ class SDSHollandWindowUtama(sds.WindowUtama):
 		self.m_panelPage7.m_listCtrl5.DeleteAllItems()
 		self.m_panelPage7.m_listCtrl6.DeleteAllItems()
 
-
 		self.m_panelPage7.m_listCtrl7.DeleteAllItems()
 		self.m_panelPage7.m_listCtrl8.DeleteAllItems()
 		self.m_panelPage7.m_listCtrl9.DeleteAllItems()
 		self.m_panelPage7.m_listCtrl10.DeleteAllItems()
 		self.m_panelPage7.m_listCtrl11.DeleteAllItems()
 		self.m_panelPage7.m_listCtrl12.DeleteAllItems()
-
 
 		self.m_panelPage7.m_listCtrl13.DeleteAllItems()
 		self.m_panelPage7.m_listCtrl21.DeleteAllItems()
@@ -795,7 +764,6 @@ class SDSHollandWindowUtama(sds.WindowUtama):
 		self.m_panelPage7.m_listCtrl51.DeleteAllItems()
 		self.m_panelPage7.m_listCtrl61.DeleteAllItems()
 
-
 		self.m_panelPage7.m_listCtrl71.DeleteAllItems()
 		self.m_panelPage7.m_listCtrl81.DeleteAllItems()
 		self.m_panelPage7.m_listCtrl91.DeleteAllItems()
@@ -803,22 +771,21 @@ class SDSHollandWindowUtama(sds.WindowUtama):
 		self.m_panelPage7.m_listCtrl111.DeleteAllItems()
 		self.m_panelPage7.m_listCtrl121.DeleteAllItems()
 		
-		
 		print (self.HasilListJob.keys())
 		print (self.HasilListJob2.keys())
-		self.m_panelPage6.m_listCtrlCR1.InsertColumn(0,self.LabelCircle1,width = 300)
-		self.m_panelPage6.m_listCtrlCR2.InsertColumn(0,self.LabelCircle2,width = 300)
+		self.m_panelPage6.m_listCtrlCR1.InsertColumn(0, self.LabelCircle1, width=300)
+		self.m_panelPage6.m_listCtrlCR2.InsertColumn(0, self.LabelCircle2, width=300)
 
 		self.index = 0
 		for Joblist in self.HasilListJob.keys():
-			self.m_panelPage6.m_listCtrlCR1.InsertItem(self.index,Joblist)
-			self.index+=1
+			self.m_panelPage6.m_listCtrlCR1.InsertItem(self.index, Joblist)
+			self.index += 1
 
 		self.index2 = 0
 		for Joblist2 in self.HasilListJob2.keys():
-			self.m_panelPage6.m_listCtrlCR2.InsertItem(self.index2,Joblist2)
+			self.m_panelPage6.m_listCtrlCR2.InsertItem(self.index2, Joblist2)
 			print (Joblist2)
-			self.index2+=1
+			self.index2 += 1
 
 		self.m_panelPage6.m_staticCR1.SetLabel(self.LabelCircle1)
 		self.m_panelPage6.m_staticCR2.SetLabel(self.LabelCircle2)
@@ -843,39 +810,39 @@ class SDSHollandWindowUtama(sds.WindowUtama):
 
 			if j == 6:
 				break
-			self.listmctrol[self.indexpage7l].InsertColumn(0,setlbl,width = 300)
+			self.listmctrol[self.indexpage7l].InsertColumn(0, setlbl, width=300)
 		
 			self.listlabel[j].SetLabel(setlbl)
 			
-			self.x,self.hasil1=self.listofjob.CheckQuery(None,setlbl)
+			self.x, self.hasil1 = self.listofjob.CheckQuery(None, setlbl)
 # 			print (self.hasil1.keys())			
 				
 			for listjob in self.hasil1.keys():
 			
-				self.listmctrol[self.indexpage7l].InsertItem(self.indexpage7,listjob)
-				self.indexpage7+=1
-			self.indexpage7l+=1
-			j+=1
-		self.indexpage7+=1
+				self.listmctrol[self.indexpage7l].InsertItem(self.indexpage7, listjob)
+				self.indexpage7 += 1
+			self.indexpage7l += 1
+			j += 1
+		self.indexpage7 += 1
 
 		k = 6
-		self.indexpage7lk=6
+		self.indexpage7lk = 6
 		for setlbl in self.runcircle2:
-			self.indexpage7a=0
-			if k==12:
+			self.indexpage7a = 0
+			if k == 12:
 				break
-			self.listmctrol[self.indexpage7lk].InsertColumn(0,setlbl,width = 300)
+			self.listmctrol[self.indexpage7lk].InsertColumn(0, setlbl, width=300)
 			
 			self.listlabel[k].SetLabel(setlbl)
-			self.x,self.hasil2=self.listofjob.CheckQuery(None,setlbl)
+			self.x, self.hasil2 = self.listofjob.CheckQuery(None, setlbl)
 # 			print (self.hasil2.keys())			
 				
 			for listjob in self.hasil2.keys():
-				self.listmctrol[self.indexpage7lk].InsertItem(self.indexpage7a,listjob)
-				self.indexpage7a+=1
-			self.indexpage7lk+=1
+				self.listmctrol[self.indexpage7lk].InsertItem(self.indexpage7a, listjob)
+				self.indexpage7a += 1
+			self.indexpage7lk += 1
 		
-			k+=1
+			k += 1
 
 		jedu = 0
 		self.indexpage7ledu = 0
@@ -885,44 +852,44 @@ class SDSHollandWindowUtama(sds.WindowUtama):
 
 			if jedu == 6:
 				break
-			self.listmctroledu[self.indexpage7ledu].InsertColumn(0,setlbl,width = 300)
+			self.listmctroledu[self.indexpage7ledu].InsertColumn(0, setlbl, width=300)
 		
 			self.listlabeledu[jedu].SetLabel(setlbl)
 
 			# self.y,self.hasil1edu=self.listofjob.CheckQuery(None,setlbl)
 			
-			self.y,self.hasil1edu=self.listofjob.CheckQueryedu(None,setlbl)
+			self.y, self.hasil1edu = self.listofjob.CheckQueryedu(None, setlbl)
 # 			print (self.hasil1.keys())			
 				
 			for listjob in self.hasil1edu.keys():
 			
-				self.listmctroledu[self.indexpage7ledu].InsertItem(self.indexpage7edu,listjob)
-				self.indexpage7edu+=1
-			self.indexpage7ledu+=1
-			jedu+=1
-		self.indexpage7edu+=1
+				self.listmctroledu[self.indexpage7ledu].InsertItem(self.indexpage7edu, listjob)
+				self.indexpage7edu += 1
+			self.indexpage7ledu += 1
+			jedu += 1
+		self.indexpage7edu += 1
 
 		kedu = 6
-		self.indexpage7lkedu=6
+		self.indexpage7lkedu = 6
 		for setlbl in self.runcircle2:
-			self.indexpage7aedu=0
-			if kedu==12:
+			self.indexpage7aedu = 0
+			if kedu == 12:
 				break
-			self.listmctroledu[self.indexpage7lkedu].InsertColumn(0,setlbl,width = 300)
+			self.listmctroledu[self.indexpage7lkedu].InsertColumn(0, setlbl, width=300)
 			
 			self.listlabeledu[kedu].SetLabel(setlbl)
 
 			# self.y,self.hasil2edu=self.listofjob.CheckQuery(None,setlbl)
 
-			self.y,self.hasil2edu=self.listofjob.CheckQueryedu(None,setlbl)
+			self.y, self.hasil2edu = self.listofjob.CheckQueryedu(None, setlbl)
 # 			print (self.hasil2.keys())			
 				
 			for listjob in self.hasil2edu.keys():
-				self.listmctroledu[self.indexpage7lkedu].InsertItem(self.indexpage7aedu,listjob)
-				self.indexpage7aedu+=1
-			self.indexpage7lkedu+=1
+				self.listmctroledu[self.indexpage7lkedu].InsertItem(self.indexpage7aedu, listjob)
+				self.indexpage7aedu += 1
+			self.indexpage7lkedu += 1
 		
-			kedu+=1
+			kedu += 1
 		
 	def btn_kembaliawal(self, event):
 		from AppsSDS import Halaman1m
@@ -930,32 +897,31 @@ class SDSHollandWindowUtama(sds.WindowUtama):
 # 		print ("berapa")
 		pass
 	
-	def m_grafikpropertiesOnButtonClick(self,event):
+	def m_grafikpropertiesOnButtonClick(self, event):
 # 		print ("grafik properties")
 		import matplotlib.pyplot as plt
 		
-		self.sumbux = ("R","I","A","S","E","C")
+		self.sumbux = ("R", "I", "A", "S", "E", "C")
 		
 # 		self.m_tombolHitungOnButtonClick(self)
 		self.__properties()
-		self.sumbuySumscores = (self.sumscoresR,self.sumscoresI,self.sumscoresA,self.sumscoresS,self.sumscoresE,self.sumscoresC)
+		self.sumbuySumscores = (self.sumscoresR, self.sumscoresI, self.sumscoresA, self.sumscoresS, self.sumscoresE, self.sumscoresC)
 # 		self.sumbuyAktivitas = (self.nilai_RealisticA,self.nilai_InvestigativeA,self.nilai_ArtisticA,self.nilai_SocialA,\
 # 								self.nilai_EnterprisingA,self.nilai_ConventionalA)
 
 		self.plt = plt
-		self.linesSumscores = self.plt.plot(self.sumbux,self.sumbuySumscores)
+		self.linesSumscores = self.plt.plot(self.sumbux, self.sumbuySumscores)
 # 		self.linesAktivitas = self.plt.plot(self.sumbux,self.sumbuyAktivitas)
 		
-		self.plt.setp(self.linesSumscores,color ="red")
+		self.plt.setp(self.linesSumscores, color="red")
 # 		self.plt.setp(self.linesAktivitas,color ="blue")
 		
-		
-		self.plt.xlabel(xlabel = "Summary Scores")
+		self.plt.xlabel(xlabel="Summary Scores")
 		self.plt.show()
 		
 		pass
 	
-	def m_buttonLihatDataBulanIniOnButtonClick(self,event):
+	def m_buttonLihatDataBulanIniOnButtonClick(self, event):
 		print ("filter on this month")
 		import datetime
 		from AppsSDS.db import db
@@ -964,122 +930,121 @@ class SDSHollandWindowUtama(sds.WindowUtama):
 		try :
 			print (db_file)
 			self.nama_orang = None
-			self.date_from = "{}/{}/01".format(datetime.datetime.now().strftime('%Y'),datetime.datetime.now().strftime('%m'))
-			self.date_end= "{}/{}/31".format(datetime.datetime.now().strftime('%Y'),datetime.datetime.now().strftime('%m'))
-			self.no_tes=None
+			self.date_from = "{}/{}/01".format(datetime.datetime.now().strftime('%Y'), datetime.datetime.now().strftime('%m'))
+			self.date_end = "{}/{}/31".format(datetime.datetime.now().strftime('%Y'), datetime.datetime.now().strftime('%m'))
+			self.no_tes = None
 			self.datpes.m_ListDataPeserta.DeleteAllItems()
-			self.dbdatpes = db.querydb(str(db_file), self.nama_orang, self.date_from, self.date_end,self.no_tes)[1]
+			self.dbdatpes = db.querydb(str(db_file), self.nama_orang, self.date_from, self.date_end, self.no_tes)[1]
 			print (self.date_from)
 			print (self.date_end)
 			print (self.dbdatpes)
 			print (len(self.dbdatpes))
 			index = 0
 			for index in range(len(self.dbdatpes)):
-				self.index = self.datpes.m_ListDataPeserta.InsertItem(0,"{}".format(len(self.dbdatpes)-index))
-				self.datpes.m_ListDataPeserta.SetItem(self.index,1,self.dbdatpes[index][0])
-				self.datpes.m_ListDataPeserta.SetItem(self.index,2,self.dbdatpes[index][1])
-				self.datpes.m_ListDataPeserta.SetItem(self.index,3,self.dbdatpes[index][2])
-				self.datpes.m_ListDataPeserta.SetItem(self.index,4,self.dbdatpes[index][3])
-				self.datpes.m_ListDataPeserta.SetItem(self.index,5,self.dbdatpes[index][8])
-				self.datpes.m_ListDataPeserta.SetItem(self.index,6,self.dbdatpes[index][9])
-				self.datpes.m_ListDataPeserta.SetItem(self.index,7,str(self.dbdatpes[index][46]))
-				index+=1
+				self.index = self.datpes.m_ListDataPeserta.InsertItem(0, "{}".format(len(self.dbdatpes) - index))
+				self.datpes.m_ListDataPeserta.SetItem(self.index, 1, self.dbdatpes[index][0])
+				self.datpes.m_ListDataPeserta.SetItem(self.index, 2, self.dbdatpes[index][1])
+				self.datpes.m_ListDataPeserta.SetItem(self.index, 3, self.dbdatpes[index][2])
+				self.datpes.m_ListDataPeserta.SetItem(self.index, 4, self.dbdatpes[index][3])
+				self.datpes.m_ListDataPeserta.SetItem(self.index, 5, self.dbdatpes[index][8])
+				self.datpes.m_ListDataPeserta.SetItem(self.index, 6, self.dbdatpes[index][9])
+				self.datpes.m_ListDataPeserta.SetItem(self.index, 7, str(self.dbdatpes[index][46]))
+				index += 1
 		except :
 			pass
 		
 		try :
 			print (db_file)
 			self.nama_orang = None
-			self.date_from = "{}/{}/01".format(datetime.datetime.now().strftime('%Y'),datetime.datetime.now().strftime('%m'))
-			self.date_end= "{}/{}/31".format(datetime.datetime.now().strftime('%Y'),datetime.datetime.now().strftime('%m'))
-			self.no_tes=None
+			self.date_from = "{}/{}/01".format(datetime.datetime.now().strftime('%Y'), datetime.datetime.now().strftime('%m'))
+			self.date_end = "{}/{}/31".format(datetime.datetime.now().strftime('%Y'), datetime.datetime.now().strftime('%m'))
+			self.no_tes = None
 			self.buka_peserta_tes.m_ListDataPeserta.DeleteAllItems()
-			self.database_peserta_tes =db.querydbtes(str(db_file), self.nama_orang, self.date_from, self.date_end)[1]
+			self.database_peserta_tes = db.querydbtes(str(db_file), self.nama_orang, self.date_from, self.date_end)[1]
 			index = 0
 			print (self.database_peserta_tes)
 			for self.index in range(len(self.database_peserta_tes)):
-				self.index = self.buka_peserta_tes.m_ListDataPeserta.InsertItem(0,"{}".format(len(self.database_peserta_tes)-index))
-				self.buka_peserta_tes.m_ListDataPeserta.SetItem(self.index,1,self.database_peserta_tes[index][0])
-				self.buka_peserta_tes.m_ListDataPeserta.SetItem(self.index,2,self.database_peserta_tes[index][1])
-				self.buka_peserta_tes.m_ListDataPeserta.SetItem(self.index,3,self.database_peserta_tes[index][2])
-				self.buka_peserta_tes.m_ListDataPeserta.SetItem(self.index,4,self.database_peserta_tes[index][4])
-				self.buka_peserta_tes.m_ListDataPeserta.SetItem(self.index,5,self.database_peserta_tes[index][6])
-				self.buka_peserta_tes.m_ListDataPeserta.SetItem(self.index,6,self.database_peserta_tes[index][7])
-				self.buka_peserta_tes.m_ListDataPeserta.SetItem(self.index,7,str(self.database_peserta_tes[index][49]))
+				self.index = self.buka_peserta_tes.m_ListDataPeserta.InsertItem(0, "{}".format(len(self.database_peserta_tes) - index))
+				self.buka_peserta_tes.m_ListDataPeserta.SetItem(self.index, 1, self.database_peserta_tes[index][0])
+				self.buka_peserta_tes.m_ListDataPeserta.SetItem(self.index, 2, self.database_peserta_tes[index][1])
+				self.buka_peserta_tes.m_ListDataPeserta.SetItem(self.index, 3, self.database_peserta_tes[index][2])
+				self.buka_peserta_tes.m_ListDataPeserta.SetItem(self.index, 4, self.database_peserta_tes[index][4])
+				self.buka_peserta_tes.m_ListDataPeserta.SetItem(self.index, 5, self.database_peserta_tes[index][6])
+				self.buka_peserta_tes.m_ListDataPeserta.SetItem(self.index, 6, self.database_peserta_tes[index][7])
+				self.buka_peserta_tes.m_ListDataPeserta.SetItem(self.index, 7, str(self.database_peserta_tes[index][49]))
 				
-				index+=1
+				index += 1
 				
 		except:
 			pass
 	
 		pass
 	
-	def m_buttonFilterBatalOnButtonClick(self,events):
+	def m_buttonFilterBatalOnButtonClick(self, events):
 		print ("Close Filter Window")
 		self.BukaWindowFilter.Close()
 		pass
 	
-	def m_buttonKlikFilterTanggalOnButtonClick(self,events):
+	def m_buttonKlikFilterTanggalOnButtonClick(self, events):
 		from AppsSDS.db import db
 		print ("Filtering base on Date")
 
 		try :
 			self.date_from = self.BukaWindowFilter.m_datePickerdaritgl.GetValue().Format("%Y/%m/%d")
-			self.date_end= self.BukaWindowFilter.m_datePickersampaitgl.GetValue().Format("%Y/%m/%d")
-			print (self.BukaWindowFilter.m_datePickerdaritgl.GetValue().Format("%Y/%m/%d"),\
+			self.date_end = self.BukaWindowFilter.m_datePickersampaitgl.GetValue().Format("%Y/%m/%d")
+			print (self.BukaWindowFilter.m_datePickerdaritgl.GetValue().Format("%Y/%m/%d"), \
 			self.BukaWindowFilter.m_datePickersampaitgl.GetValue().Format("%Y/%m/%d"))
-			self.no_tes=None
+			self.no_tes = None
 			self.datpes.m_ListDataPeserta.DeleteAllItems()
 	
 			db_file = db.pathdb()
 			self.nama_orang = ""
-			self.dbdatpes = db.querydb(str(db_file), self.nama_orang, self.date_from, self.date_end,self.no_tes)[1]
+			self.dbdatpes = db.querydb(str(db_file), self.nama_orang, self.date_from, self.date_end, self.no_tes)[1]
 	# 		print (self.dbdatpes[5][46])
 			index = 0
 			for index in range(len(self.dbdatpes)):
-				self.index = self.datpes.m_ListDataPeserta.InsertItem(0,"{}".format(len(self.dbdatpes)-index))
-				self.datpes.m_ListDataPeserta.SetItem(self.index,1,self.dbdatpes[index][0])
-				self.datpes.m_ListDataPeserta.SetItem(self.index,2,self.dbdatpes[index][1])
-				self.datpes.m_ListDataPeserta.SetItem(self.index,3,self.dbdatpes[index][2])
-				self.datpes.m_ListDataPeserta.SetItem(self.index,4,self.dbdatpes[index][3])
-				self.datpes.m_ListDataPeserta.SetItem(self.index,5,self.dbdatpes[index][8])
-				self.datpes.m_ListDataPeserta.SetItem(self.index,6,self.dbdatpes[index][9])
-				self.datpes.m_ListDataPeserta.SetItem(self.index,7,str(self.dbdatpes[index][46]))
+				self.index = self.datpes.m_ListDataPeserta.InsertItem(0, "{}".format(len(self.dbdatpes) - index))
+				self.datpes.m_ListDataPeserta.SetItem(self.index, 1, self.dbdatpes[index][0])
+				self.datpes.m_ListDataPeserta.SetItem(self.index, 2, self.dbdatpes[index][1])
+				self.datpes.m_ListDataPeserta.SetItem(self.index, 3, self.dbdatpes[index][2])
+				self.datpes.m_ListDataPeserta.SetItem(self.index, 4, self.dbdatpes[index][3])
+				self.datpes.m_ListDataPeserta.SetItem(self.index, 5, self.dbdatpes[index][8])
+				self.datpes.m_ListDataPeserta.SetItem(self.index, 6, self.dbdatpes[index][9])
+				self.datpes.m_ListDataPeserta.SetItem(self.index, 7, str(self.dbdatpes[index][46]))
 	 			
-				index+=1
+				index += 1
 		except:
 			pass
 		
 		try :
 			self.buka_peserta_tes.m_ListDataPeserta.DeleteAllItems()
 			self.date_from = self.BukaWindowFilter.m_datePickerdaritgl.GetValue().Format("%Y/%m/%d")
-			self.date_end= self.BukaWindowFilter.m_datePickersampaitgl.GetValue().Format("%Y/%m/%d")
-			print (self.BukaWindowFilter.m_datePickerdaritgl.GetValue().Format("%Y/%m/%d"),\
+			self.date_end = self.BukaWindowFilter.m_datePickersampaitgl.GetValue().Format("%Y/%m/%d")
+			print (self.BukaWindowFilter.m_datePickerdaritgl.GetValue().Format("%Y/%m/%d"), \
 			self.BukaWindowFilter.m_datePickersampaitgl.GetValue().Format("%Y/%m/%d"))
-			self.nama_orang=None
+			self.nama_orang = None
 			self.database_peserta_tes = db.querydbtes(str(self.db_file), self.nama_orang, self.date_from, self.date_end)[1]
 			index = 0
 			print (self.database_peserta_tes)
 			for self.index in range(len(self.database_peserta_tes)):
-				self.index = self.buka_peserta_tes.m_ListDataPeserta.InsertItem(0,"{}".format(len(self.database_peserta_tes)-index))
-				self.buka_peserta_tes.m_ListDataPeserta.SetItem(self.index,1,self.database_peserta_tes[index][0])
-				self.buka_peserta_tes.m_ListDataPeserta.SetItem(self.index,2,self.database_peserta_tes[index][1])
-				self.buka_peserta_tes.m_ListDataPeserta.SetItem(self.index,3,self.database_peserta_tes[index][2])
-				self.buka_peserta_tes.m_ListDataPeserta.SetItem(self.index,4,self.database_peserta_tes[index][4])
-				self.buka_peserta_tes.m_ListDataPeserta.SetItem(self.index,5,self.database_peserta_tes[index][6])
-				self.buka_peserta_tes.m_ListDataPeserta.SetItem(self.index,6,self.database_peserta_tes[index][7])
-				self.buka_peserta_tes.m_ListDataPeserta.SetItem(self.index,7,str(self.database_peserta_tes[index][49]))
+				self.index = self.buka_peserta_tes.m_ListDataPeserta.InsertItem(0, "{}".format(len(self.database_peserta_tes) - index))
+				self.buka_peserta_tes.m_ListDataPeserta.SetItem(self.index, 1, self.database_peserta_tes[index][0])
+				self.buka_peserta_tes.m_ListDataPeserta.SetItem(self.index, 2, self.database_peserta_tes[index][1])
+				self.buka_peserta_tes.m_ListDataPeserta.SetItem(self.index, 3, self.database_peserta_tes[index][2])
+				self.buka_peserta_tes.m_ListDataPeserta.SetItem(self.index, 4, self.database_peserta_tes[index][4])
+				self.buka_peserta_tes.m_ListDataPeserta.SetItem(self.index, 5, self.database_peserta_tes[index][6])
+				self.buka_peserta_tes.m_ListDataPeserta.SetItem(self.index, 6, self.database_peserta_tes[index][7])
+				self.buka_peserta_tes.m_ListDataPeserta.SetItem(self.index, 7, str(self.database_peserta_tes[index][49]))
 				
-				index+=1
+				index += 1
 				
 		except :
 			print ("pass")
 			pass
- 			
 	
 		pass
 	
-	def m_buttonKlikFilterOrangOnButtonClick(self,events):
+	def m_buttonKlikFilterOrangOnButtonClick(self, events):
 		print ("Filtering based on Name Person")
 
 		from AppsSDS.db import db
@@ -1088,56 +1053,56 @@ class SDSHollandWindowUtama(sds.WindowUtama):
 			self.datpes.m_ListDataPeserta.DeleteAllItems()
 			self.nama_orang = str(self.BukaWindowFilter.m_textCtrlnamaorang.GetValue())
 			db_file = db.pathdb()
-			self.date_from=None
-			self.date_end=None
-			self.no_tes=None
+			self.date_from = None
+			self.date_end = None
+			self.no_tes = None
 			print (self.nama_orang)
-			self.dbdatpes = db.querydb(str(db_file), self.nama_orang, self.date_from, self.date_end,self.no_tes)[0]
+			self.dbdatpes = db.querydb(str(db_file), self.nama_orang, self.date_from, self.date_end, self.no_tes)[0]
 			print (self.dbdatpes)
 			index = 0
 			for index in range(len(self.dbdatpes)):
-				self.index = self.datpes.m_ListDataPeserta.InsertItem(0,"{}".format(len(self.dbdatpes)-index))
-				self.datpes.m_ListDataPeserta.SetItem(self.index,1,self.dbdatpes[index][0])
-				self.datpes.m_ListDataPeserta.SetItem(self.index,2,self.dbdatpes[index][1])
-				self.datpes.m_ListDataPeserta.SetItem(self.index,3,self.dbdatpes[index][2])
-				self.datpes.m_ListDataPeserta.SetItem(self.index,4,self.dbdatpes[index][3])
-				self.datpes.m_ListDataPeserta.SetItem(self.index,5,self.dbdatpes[index][8])
-				self.datpes.m_ListDataPeserta.SetItem(self.index,6,self.dbdatpes[index][9])
-				self.datpes.m_ListDataPeserta.SetItem(self.index,7,str(self.dbdatpes[index][46]))
+				self.index = self.datpes.m_ListDataPeserta.InsertItem(0, "{}".format(len(self.dbdatpes) - index))
+				self.datpes.m_ListDataPeserta.SetItem(self.index, 1, self.dbdatpes[index][0])
+				self.datpes.m_ListDataPeserta.SetItem(self.index, 2, self.dbdatpes[index][1])
+				self.datpes.m_ListDataPeserta.SetItem(self.index, 3, self.dbdatpes[index][2])
+				self.datpes.m_ListDataPeserta.SetItem(self.index, 4, self.dbdatpes[index][3])
+				self.datpes.m_ListDataPeserta.SetItem(self.index, 5, self.dbdatpes[index][8])
+				self.datpes.m_ListDataPeserta.SetItem(self.index, 6, self.dbdatpes[index][9])
+				self.datpes.m_ListDataPeserta.SetItem(self.index, 7, str(self.dbdatpes[index][46]))
 	 			
-				index+=1
+				index += 1
 		except :
 			print ("pass to ")
 			pass
 		
 		try :
 			self.buka_peserta_tes.m_ListDataPeserta.DeleteAllItems()
-			self.nama_orang= str(self.BukaWindowFilter.m_textCtrlnamaorang.GetValue())
+			self.nama_orang = str(self.BukaWindowFilter.m_textCtrlnamaorang.GetValue())
 			print (self.nama_orang)
 			self.db_file = db.pathdb()
-			self.date_from=None
-			self.date_end=None
+			self.date_from = None
+			self.date_end = None
 			self.database_peserta_tes = db.querydbtes(str(self.db_file), self.nama_orang, self.date_from, self.date_end)[0]
 			index = 0
 			print (self.database_peserta_tes)
 			for self.index in range(len(self.database_peserta_tes)):
-				self.index = self.buka_peserta_tes.m_ListDataPeserta.InsertItem(0,"{}".format(len(self.database_peserta_tes)-index))
-				self.buka_peserta_tes.m_ListDataPeserta.SetItem(self.index,1,self.database_peserta_tes[index][0])
-				self.buka_peserta_tes.m_ListDataPeserta.SetItem(self.index,2,self.database_peserta_tes[index][1])
-				self.buka_peserta_tes.m_ListDataPeserta.SetItem(self.index,3,self.database_peserta_tes[index][2])
-				self.buka_peserta_tes.m_ListDataPeserta.SetItem(self.index,4,self.database_peserta_tes[index][4])
-				self.buka_peserta_tes.m_ListDataPeserta.SetItem(self.index,5,self.database_peserta_tes[index][6])
-				self.buka_peserta_tes.m_ListDataPeserta.SetItem(self.index,6,self.database_peserta_tes[index][7])
-				self.buka_peserta_tes.m_ListDataPeserta.SetItem(self.index,7,str(self.database_peserta_tes[index][49]))
+				self.index = self.buka_peserta_tes.m_ListDataPeserta.InsertItem(0, "{}".format(len(self.database_peserta_tes) - index))
+				self.buka_peserta_tes.m_ListDataPeserta.SetItem(self.index, 1, self.database_peserta_tes[index][0])
+				self.buka_peserta_tes.m_ListDataPeserta.SetItem(self.index, 2, self.database_peserta_tes[index][1])
+				self.buka_peserta_tes.m_ListDataPeserta.SetItem(self.index, 3, self.database_peserta_tes[index][2])
+				self.buka_peserta_tes.m_ListDataPeserta.SetItem(self.index, 4, self.database_peserta_tes[index][4])
+				self.buka_peserta_tes.m_ListDataPeserta.SetItem(self.index, 5, self.database_peserta_tes[index][6])
+				self.buka_peserta_tes.m_ListDataPeserta.SetItem(self.index, 6, self.database_peserta_tes[index][7])
+				self.buka_peserta_tes.m_ListDataPeserta.SetItem(self.index, 7, str(self.database_peserta_tes[index][49]))
 				
-				index+=1
+				index += 1
 				
 		except :
 			print ("pass")
 			pass
 		pass
 	
-	def m_buttonKlikFilterNoTesOnButtonClick(self,events):
+	def m_buttonKlikFilterNoTesOnButtonClick(self, events):
 		from AppsSDS.db import db
 		
 		try:
@@ -1145,37 +1110,36 @@ class SDSHollandWindowUtama(sds.WindowUtama):
 			self.datpes.m_ListDataPeserta.DeleteAllItems()
 			self.nama_orang = None
 			db_file = db.pathdb()
-			self.date_from=None
-			self.date_end=None
+			self.date_from = None
+			self.date_end = None
 			self.no_tes = str(self.BukaWindowFilter.m_textCtrlnomortes.GetValue())
 			print (self.no_tes)
-			self.dbdatpes = db.querydb(str(db_file), self.nama_orang, self.date_from, self.date_end,self.no_tes)[2]
+			self.dbdatpes = db.querydb(str(db_file), self.nama_orang, self.date_from, self.date_end, self.no_tes)[2]
 			print (self.dbdatpes)
 			index = 0
 			for index in range(len(self.dbdatpes)):
-				self.index = self.datpes.m_ListDataPeserta.InsertItem(0,"{}".format(len(self.dbdatpes)-index))
-				self.datpes.m_ListDataPeserta.SetItem(self.index,1,self.dbdatpes[index][0])
-				self.datpes.m_ListDataPeserta.SetItem(self.index,2,self.dbdatpes[index][1])
-				self.datpes.m_ListDataPeserta.SetItem(self.index,3,self.dbdatpes[index][2])
-				self.datpes.m_ListDataPeserta.SetItem(self.index,4,self.dbdatpes[index][3])
-				self.datpes.m_ListDataPeserta.SetItem(self.index,5,self.dbdatpes[index][8])
-				self.datpes.m_ListDataPeserta.SetItem(self.index,6,self.dbdatpes[index][9])
-				self.datpes.m_ListDataPeserta.SetItem(self.index,7,str(self.dbdatpes[index][46]))
+				self.index = self.datpes.m_ListDataPeserta.InsertItem(0, "{}".format(len(self.dbdatpes) - index))
+				self.datpes.m_ListDataPeserta.SetItem(self.index, 1, self.dbdatpes[index][0])
+				self.datpes.m_ListDataPeserta.SetItem(self.index, 2, self.dbdatpes[index][1])
+				self.datpes.m_ListDataPeserta.SetItem(self.index, 3, self.dbdatpes[index][2])
+				self.datpes.m_ListDataPeserta.SetItem(self.index, 4, self.dbdatpes[index][3])
+				self.datpes.m_ListDataPeserta.SetItem(self.index, 5, self.dbdatpes[index][8])
+				self.datpes.m_ListDataPeserta.SetItem(self.index, 6, self.dbdatpes[index][9])
+				self.datpes.m_ListDataPeserta.SetItem(self.index, 7, str(self.dbdatpes[index][46]))
 	 			
-				index+=1
+				index += 1
 		except :
 			pass
-
 		
 		pass	
 	
 ######## HERE ARE THE CONTROL WIDGETS BIND IN FILTER WINDOWS
-	def m_filterOnButtonClick(self,event):
+	def m_filterOnButtonClick(self, event):
 		print ("click to filter on Line 701")
 		import datetime
 		from AppsSDS.sds import WindowsOpenFilter
 		
-		self.BukaWindowFilter=WindowsOpenFilter(self)
+		self.BukaWindowFilter = WindowsOpenFilter(self)
 		# Connect Events
 		self.curr_month = datetime.datetime.now().month
 		self.curr_day = datetime.datetime.now().day
@@ -1189,22 +1153,22 @@ class SDSHollandWindowUtama(sds.WindowUtama):
 		# self.BukaWindowFilter.m_datePickerdaritgl.SetValue(displayDatefrom)
 		# self.BukaWindowFilter.m_datePickersampaitgl.SetValue(displayDateuntil)
 
-		self.BukaWindowFilter.m_buttonFilterBatal.Bind(wx.EVT_BUTTON, self.m_buttonFilterBatalOnButtonClick )
-		self.BukaWindowFilter.m_buttonKlikFilterTanggal.Bind( wx.EVT_BUTTON, self.m_buttonKlikFilterTanggalOnButtonClick )
-		self.BukaWindowFilter.m_buttonKlikFilterOrang.Bind( wx.EVT_BUTTON, self.m_buttonKlikFilterOrangOnButtonClick )
-		self.BukaWindowFilter.m_buttonKlikFilterNoTes.Bind( wx.EVT_BUTTON, self.m_buttonKlikFilterNoTesOnButtonClick )
+		self.BukaWindowFilter.m_buttonFilterBatal.Bind(wx.EVT_BUTTON, self.m_buttonFilterBatalOnButtonClick)
+		self.BukaWindowFilter.m_buttonKlikFilterTanggal.Bind(wx.EVT_BUTTON, self.m_buttonKlikFilterTanggalOnButtonClick)
+		self.BukaWindowFilter.m_buttonKlikFilterOrang.Bind(wx.EVT_BUTTON, self.m_buttonKlikFilterOrangOnButtonClick)
+		self.BukaWindowFilter.m_buttonKlikFilterNoTes.Bind(wx.EVT_BUTTON, self.m_buttonKlikFilterNoTesOnButtonClick)
 		
 		self.BukaWindowFilter.Show()
 		
 		pass
 	
-	def m_buttonBersihkanOnButtonClick(self,event):
+	def m_buttonBersihkanOnButtonClick(self, event):
 		from AppsSDS.clear_data import ClearData
 		self.clear = ClearData(self)
 
 		pass
 	
-	def m_SimpanPage6OnButtonClick(self,event):
+	def m_SimpanPage6OnButtonClick(self, event):
 # 		"Tombol Simpan seluruh data yang sudah dimasukkan ke dalam database"
 		self.simpan = SimpanData(self)
 		self.simpan.simpan_data()
@@ -1244,18 +1208,18 @@ class SDSHollandWindowUtama(sds.WindowUtama):
 			from AppsSDS.halaman import Halaman7
 			self.bukahalaman7 = Halaman7(self)
 
-
 		self.Refresh()
 		self.Layout()
 
 		pass
-	def m_buttonDetailOnButtonClick(self,event):
+
+	def m_buttonDetailOnButtonClick(self, event):
 		print ("You have choose Klik Detail")
 		print (self.seleksi)
-		if self.seleksi ==1 :
+		if self.seleksi == 1 :
 			try :
 				self.item = self.datpes.m_ListDataPeserta.GetFocusedItem()
-				self.item = self.datpes.m_ListDataPeserta.GetItem(self.item,3).GetText()
+				self.item = self.datpes.m_ListDataPeserta.GetItem(self.item, 3).GetText()
 			except :
 				self.item = None
 				pass
@@ -1263,7 +1227,7 @@ class SDSHollandWindowUtama(sds.WindowUtama):
 			from AppsSDS.sds import RincianData
 	
 			from AppsSDS.db import db
-			self.buka_detail=RincianData(self)
+			self.buka_detail = RincianData(self)
 			self.buka_detail.Show()
 			try :
 				self.db_file = str(db.pathdb())
@@ -1287,16 +1251,16 @@ class SDSHollandWindowUtama(sds.WindowUtama):
 				self.buka_detail.perusahaan_instansi.SetValue(self.querydb[8])
 				self.buka_detail.posisi_jabatan.SetValue(self.querydb[9])
 				
-				self.buka_detail.m_buttonTutupDetail.Bind(wx.EVT_BUTTON,self.m_buttonTutupDetailOnButtonClick)
-				self.buka_detail.m_buttonHapus.Bind( wx.EVT_BUTTON, self.m_buttonHapusOnButtonClick )
+				self.buka_detail.m_buttonTutupDetail.Bind(wx.EVT_BUTTON, self.m_buttonTutupDetailOnButtonClick)
+				self.buka_detail.m_buttonHapus.Bind(wx.EVT_BUTTON, self.m_buttonHapusOnButtonClick)
 				
 			except:
 				pass
 			
-		elif self.seleksi==2 :
+		elif self.seleksi == 2 :
 			try :
 				self.item = self.buka_peserta_tes.m_ListDataPeserta.GetFocusedItem()
-				self.item = self.buka_peserta_tes.m_ListDataPeserta.GetItem(self.item,1).GetText()
+				self.item = self.buka_peserta_tes.m_ListDataPeserta.GetItem(self.item, 1).GetText()
 			except :
 				self.item = None
 				pass
@@ -1304,7 +1268,7 @@ class SDSHollandWindowUtama(sds.WindowUtama):
 			from AppsSDS.sds import RincianDataTes
 	
 			from AppsSDS.db import db
-			self.buka_detail2=RincianDataTes(self)
+			self.buka_detail2 = RincianDataTes(self)
 			self.buka_detail2.Show()
 			try :
 				self.db_file = str(db.pathdb())
@@ -1330,10 +1294,9 @@ class SDSHollandWindowUtama(sds.WindowUtama):
 				self.buka_detail2.prestasi_akademik.SetValue(self.querydb[10])
 				self.buka_detail2.prestasi_non_akademik.SetValue(self.querydb[11])
 				self.buka_detail2.ekskul_yang_diikuti.SetValue(self.querydb[12])
-
 				
-				self.buka_detail2.m_buttonTutupDetail.Bind(wx.EVT_BUTTON,self.m_buttonTutupDetailOnButtonClick)
-				self.buka_detail2.m_buttonHapus.Bind( wx.EVT_BUTTON, self.m_buttonHapusOnButtonClick )
+				self.buka_detail2.m_buttonTutupDetail.Bind(wx.EVT_BUTTON, self.m_buttonTutupDetailOnButtonClick)
+				self.buka_detail2.m_buttonHapus.Bind(wx.EVT_BUTTON, self.m_buttonHapusOnButtonClick)
 				print ("look over here")
 				
 			except:
@@ -1341,7 +1304,7 @@ class SDSHollandWindowUtama(sds.WindowUtama):
 		
 		pass
 
-	def m_buttonTutupDetailOnButtonClick(self,event):
+	def m_buttonTutupDetailOnButtonClick(self, event):
 		try :
 			self.buka_detail.Close()
 		except :
@@ -1353,44 +1316,43 @@ class SDSHollandWindowUtama(sds.WindowUtama):
 		try :
 			self.cek_rowid
 		except:
-			self.cek_rowid=""
+			self.cek_rowid = ""
 			pass
 		return self.cek_rowid
 	
-	def m_buttonLihatNilaiOnButtonClick(self,event):
+	def m_buttonLihatNilaiOnButtonClick(self, event):
 		print ("This klik will execute and import data from AppsSDS.lihat_nilai import LihatNilai")
 		from AppsSDS.lihat_nilai import LihatNilai
-		if self.seleksi ==1 :
+		if self.seleksi == 1 :
 			self.m_radioBtn1.SetValue(True)
 			self.btnradio_formtes(self)
-			self.buka=LihatNilai(self)
+			self.buka = LihatNilai(self)
 			self.buka.insert_value()
-			self.cek_rowid= self.buka.cek_rowid()
+			self.cek_rowid = self.buka.cek_rowid()
 			self.cek_rowiddata()
 			self.m_buttonTutupDetailOnButtonClick(self)
 			self.BukaWindowFilter.Close()
 			self.datpes.Close()
-		elif self.seleksi ==2 :
+		elif self.seleksi == 2 :
 			self.m_radioBtn2.SetValue(True)
 			self.btnradio_formseleksi(self)
-			self.bukates=LihatNilaiTes(self)
+			self.bukates = LihatNilaiTes(self)
 			self.bukates.insert_value()
-			self.cek_rowid= self.bukates.cek_rowidtes()
+			self.cek_rowid = self.bukates.cek_rowidtes()
 			self.cek_rowiddata()
 			self.m_buttonTutupDetailOnButtonClick(self)
 			self.BukaWindowFilter.Close()
 			self.buka_peserta_tes.Close()			
-			
 	
 		pass
 	
-	def m_ListDataPesertaOnListItemSelected(self,event):
+	def m_ListDataPesertaOnListItemSelected(self, event):
 		print ("item selected")
 # 		print (event.GetItem())
 # 		print (self.datpes.m_ListDataPeserta.GetColumn(1).GetText())
 		try:
 			self.item = self.datpes.m_ListDataPeserta.GetFocusedItem()
-			self.item = self.datpes.m_ListDataPeserta.GetItem(self.item,3).GetText()
+			self.item = self.datpes.m_ListDataPeserta.GetItem(self.item, 3).GetText()
 			print (self.item)
 		# 		print (self.datpes.m_ListDataPeserta.GetItem(2).GetText())
 		except :
@@ -1403,44 +1365,44 @@ class SDSHollandWindowUtama(sds.WindowUtama):
 		self.datpes = DataPesertaSeleksi(self)
 		# self.datpes.SetWindowStyleFlag(wx.DEFAULT_FRAME_STYLE)
 
-		self.datpes.m_filter.Bind( wx.EVT_BUTTON, self.m_filterOnButtonClick )
+		self.datpes.m_filter.Bind(wx.EVT_BUTTON, self.m_filterOnButtonClick)
 		# self.datpes.m_ListDataPeserta.SetWindowStyleFlag(wx.LC_REPORT|wx.DEFAULT_FRAME_STYLE)
-		self.datpes.m_ListDataPeserta.Bind( wx.EVT_LIST_ITEM_SELECTED, self.m_ListDataPesertaOnListItemSelected )
-		self.datpes.m_buttonDetail.Bind( wx.EVT_BUTTON, self.m_buttonDetailOnButtonClick )
-		self.datpes.m_buttonLihatNilai.Bind( wx.EVT_BUTTON, self.m_buttonLihatNilaiOnButtonClick )
+		self.datpes.m_ListDataPeserta.Bind(wx.EVT_LIST_ITEM_SELECTED, self.m_ListDataPesertaOnListItemSelected)
+		self.datpes.m_buttonDetail.Bind(wx.EVT_BUTTON, self.m_buttonDetailOnButtonClick)
+		self.datpes.m_buttonLihatNilai.Bind(wx.EVT_BUTTON, self.m_buttonLihatNilaiOnButtonClick)
 
-		self.datpes.m_buttonLihatDataBulanIni.Bind( wx.EVT_BUTTON, self.m_buttonLihatDataBulanIniOnButtonClick )
+		self.datpes.m_buttonLihatDataBulanIni.Bind(wx.EVT_BUTTON, self.m_buttonLihatDataBulanIniOnButtonClick)
 		self.datpes.Show()
 		self.seleksi = 1
 		print ("hello")
 		pass
 	
-	def m_DataPesertaTesOnMenuSelection(self,event):
+	def m_DataPesertaTesOnMenuSelection(self, event):
 		from AppsSDS import DataPesertaTes
 		self.buka_peserta_tes = DataPesertaTes(self)
 		# self.buka_peserta_tes.SetWindowStyleFlag(wx.DEFAULT_FRAME_STYLE)
-		self.buka_peserta_tes.m_filter.Bind( wx.EVT_BUTTON, self.m_filterOnButtonClick )
+		self.buka_peserta_tes.m_filter.Bind(wx.EVT_BUTTON, self.m_filterOnButtonClick)
 		# self.buka_peserta_tes.m_ListDataPeserta.SetWindowStyleFlag(wx.LC_REPORT|wx.DEFAULT_FRAME_STYLE)
-		self.buka_peserta_tes.m_ListDataPeserta.Bind( wx.EVT_LIST_ITEM_SELECTED, self.m_ListDataPesertaOnListItemSelected )
-		self.buka_peserta_tes.m_buttonDetail.Bind( wx.EVT_BUTTON, self.m_buttonDetailOnButtonClick )
-		self.buka_peserta_tes.m_buttonLihatNilai.Bind( wx.EVT_BUTTON, self.m_buttonLihatNilaiOnButtonClick )
+		self.buka_peserta_tes.m_ListDataPeserta.Bind(wx.EVT_LIST_ITEM_SELECTED, self.m_ListDataPesertaOnListItemSelected)
+		self.buka_peserta_tes.m_buttonDetail.Bind(wx.EVT_BUTTON, self.m_buttonDetailOnButtonClick)
+		self.buka_peserta_tes.m_buttonLihatNilai.Bind(wx.EVT_BUTTON, self.m_buttonLihatNilaiOnButtonClick)
 
-		self.buka_peserta_tes.m_buttonLihatDataBulanIni.Bind( wx.EVT_BUTTON, self.m_buttonLihatDataBulanIniOnButtonClick )
+		self.buka_peserta_tes.m_buttonLihatDataBulanIni.Bind(wx.EVT_BUTTON, self.m_buttonLihatDataBulanIniOnButtonClick)
 		self.seleksi = 2
 		self.buka_peserta_tes.Show()
 		print ("hello")	
 		pass
 
-	def m_buttonHapusOnButtonClick(self,event):
+	def m_buttonHapusOnButtonClick(self, event):
 		print ("this is to delete the data") 
 		try :
 			self.row_id = self.datpes.m_ListDataPeserta.GetFocusedItem()
-			self.row_id = self.datpes.m_ListDataPeserta.GetItem(self.row_id,7).GetText()
+			self.row_id = self.datpes.m_ListDataPeserta.GetItem(self.row_id, 7).GetText()
 			print (self.row_id)
 	# 		self.buka_detail.Close()
 			self.datpes.m_ListDataPeserta.DeleteItem(self.datpes.m_ListDataPeserta.GetFocusedItem())
 
-			from AppsSDS.db.db import Deletedb,pathdb
+			from AppsSDS.db.db import Deletedb, pathdb
 			self.db_file = pathdb()
 			self.Delete = Deletedb(self.db_file, self.row_id)
 	
@@ -1450,12 +1412,12 @@ class SDSHollandWindowUtama(sds.WindowUtama):
 		
 		try :
 			self.row_id = self.buka_peserta_tes.m_ListDataPeserta.GetFocusedItem()
-			self.row_id = self.buka_peserta_tes.m_ListDataPeserta.GetItem(self.row_id,7).GetText()
+			self.row_id = self.buka_peserta_tes.m_ListDataPeserta.GetItem(self.row_id, 7).GetText()
 			print (self.row_id)
 	# 		self.buka_detail.Close()
 			self.buka_peserta_tes.m_ListDataPeserta.DeleteItem(self.buka_peserta_tes.m_ListDataPeserta.GetFocusedItem())
 	
-			from AppsSDS.db.db import Deletedbtes,pathdb
+			from AppsSDS.db.db import Deletedbtes, pathdb
 			self.db_file = pathdb()
 			self.Delete = Deletedbtes(self.db_file, self.row_id)
 	
@@ -1478,11 +1440,11 @@ class SDSHollandWindowUtama(sds.WindowUtama):
 			print ("Batal tutup aplikasi seluruhnya")
 			pass
 
-	def WindowUtamaOnClose(self,event):
+	def WindowUtamaOnClose(self, event):
 		import sys
 		sys.exit()	
 
-	def m_btn_bukadatabase(self,event):
+	def m_btn_bukadatabase(self, event):
 		from AppsSDS import KonfigDatabase as BukaJendelaDatabase
 	
 		self.bukaDb = BukaJendelaDatabase(self)
@@ -1497,25 +1459,23 @@ class SDSHollandWindowUtama(sds.WindowUtama):
 	
 		elif self.halaman3.IsShown() :
 			from AppsSDS import Halaman2m
-			self.bukahalaman2 =Halaman2m(self)
+			self.bukahalaman2 = Halaman2m(self)
 				
 		elif self.halaman4.IsShown():
 			from AppsSDS import Halaman3m
 			self.bukahalaman3 = Halaman3m(self)
-
 			
 		elif self.halaman5.IsShown():
 			from AppsSDS import Halaman4m
-			self.bukahalaman4=Halaman4m(self)
+			self.bukahalaman4 = Halaman4m(self)
 			
 		elif self.halaman6.IsShown():
 			from AppsSDS import Halaman5m
-			self.bukahalaman5=Halaman5m(self)
+			self.bukahalaman5 = Halaman5m(self)
 
 		elif self.halaman7.IsShown():
 			from AppsSDS import Halaman6m
-			self.bukahalaman6=Halaman6m(self)
-		
+			self.bukahalaman6 = Halaman6m(self)
 
 		self.Refresh()
 		self.Layout()
@@ -1525,10 +1485,10 @@ class SDSHollandWindowUtama(sds.WindowUtama):
 	def m_btn_ttgaplikasi(self, event):
 		from AppsSDS import TentangAplikasi
 		self.bukaTtgApl = TentangAplikasi(self)
-		self.path= pathlib.Path.cwd()/"images/binakarir.png"
+		self.path = pathlib.Path.cwd() / "images/binakarir.png"
 		print (str(self.path))
 		self.image = wx.Image(str(self.path))
-		self.re_image = self.image.Rescale(350,155)
+		self.re_image = self.image.Rescale(350, 155)
 		self.bukaTtgApl.m_bitmap2.SetBitmap(wx.Bitmap(self.re_image))
 		self.bukaTtgApl.Show()
 		pass
@@ -1557,21 +1517,20 @@ class SDSHollandWindowUtama(sds.WindowUtama):
 		self.Layout()
 		pass
 
-	def m_buttonDetailAOnButtonClick(self,event):
+	def m_buttonDetailAOnButtonClick(self, event):
 		print ("result Aktivities")
 		
-		self.listA = {'R':self.nilai_RealisticA,\
-					 'I':self.nilai_InvestigativeA,\
-					 'A':self.nilai_ArtisticA,\
-					 'S':self.nilai_SocialA,\
-					 'E':self.nilai_EnterprisingA,\
+		self.listA = {'R':self.nilai_RealisticA, \
+					 'I':self.nilai_InvestigativeA, \
+					 'A':self.nilai_ArtisticA, \
+					 'S':self.nilai_SocialA, \
+					 'E':self.nilai_EnterprisingA, \
 					 'C':self.nilai_ConventionalA
 					 }
 		self.sum = 0
-		for key,values in self.listA.items():
+		for key, values in self.listA.items():
 			self.sum += values
 			print (self.sum)
-			
 		
 		from AppsSDS.controller.sequence import CalculationRIASEC
 		self.CalculationA = CalculationRIASEC(**self.listA)
@@ -1584,34 +1543,30 @@ class SDSHollandWindowUtama(sds.WindowUtama):
 		print (self.listpermut[0])
 		print (self.listpermut[1])
 		
-		
-		
 		from AppsSDS.dPageAresult import dPageAresult
 		self.buka = dPageAresult(self)
 		self.buka.m_panelA.Show()
 		self.buka.Show()
 		
-		
 		self.Refresh()
 		self.Layout()
 		pass
 	
-	def m_buttonDetailKOnButtonClick(self,event):
+	def m_buttonDetailKOnButtonClick(self, event):
 		print ("result Kompetensi")						
 	
-		self.listA = {'R':self.nilai_RealisticK,\
-					  'I':self.nilai_InvestigativeK,\
-					  'A':self.nilai_ArtisticK,\
-					  'S':self.nilai_SocialK,\
-					  'E':self.nilai_EnterprisingK,\
+		self.listA = {'R':self.nilai_RealisticK, \
+					  'I':self.nilai_InvestigativeK, \
+					  'A':self.nilai_ArtisticK, \
+					  'S':self.nilai_SocialK, \
+					  'E':self.nilai_EnterprisingK, \
 					  'C':self.nilai_ConventionalK
 					 }
 
 		self.sum = 0
-		for key,values in self.listA.items():
+		for key, values in self.listA.items():
 			self.sum += values
 			print (self.sum)
-
 		
 		from AppsSDS.controller.sequence import CalculationRIASEC
 		self.CalculationA = CalculationRIASEC(**self.listA)
@@ -1620,34 +1575,31 @@ class SDSHollandWindowUtama(sds.WindowUtama):
 		from AppsSDS.controller.permutation import CustomPermutation
 		self.permut = CustomPermutation(self.itter)
 		self.listpermut = self.permut.readpermutation()[0]	
-			
 
 		from AppsSDS.dPageAresult import dPageBresult
 		self.buka = dPageBresult(self)
 		self.buka.m_panelA.Show()
 		self.buka.Show()
 		
-		
 		self.Refresh()
 		self.Layout()
 		pass
 	
-	def m_buttonDetailPOnButtonClick(self,event):
+	def m_buttonDetailPOnButtonClick(self, event):
 		print ("result Pekerjaan")
 								
-		self.listA = {'R':self.nilai_RealisticP,\
-					  'I':self.nilai_InvestigativeP,\
-					  'A':self.nilai_ArtisticP,\
-					  'S':self.nilai_SocialP,\
-					  'E':self.nilai_EnterprisingP,\
+		self.listA = {'R':self.nilai_RealisticP, \
+					  'I':self.nilai_InvestigativeP, \
+					  'A':self.nilai_ArtisticP, \
+					  'S':self.nilai_SocialP, \
+					  'E':self.nilai_EnterprisingP, \
 					  'C':self.nilai_ConventionalP
 					 }
 		
 		self.sum = 0
-		for key,values in self.listA.items():
+		for key, values in self.listA.items():
 			self.sum += values
 			print (self.sum)
-		
 
 		from AppsSDS.controller.sequence import CalculationRIASEC
 		self.CalculationA = CalculationRIASEC(**self.listA)
@@ -1656,35 +1608,32 @@ class SDSHollandWindowUtama(sds.WindowUtama):
 		from AppsSDS.controller.permutation import CustomPermutation
 		self.permut = CustomPermutation(self.itter)
 		self.listpermut = self.permut.readpermutation()[0]	
-			
 
 		from AppsSDS.dPageAresult import dPageCresult
 		self.buka = dPageCresult(self)
 		self.buka.m_panelA.Show()
 		self.buka.Show()
 		
-		
 		self.Refresh()
 		self.Layout()
 		pass
 		pass
 	
-	def m_buttonDetailPD1OnButtonClick(self,event):
+	def m_buttonDetailPD1OnButtonClick(self, event):
 		print ("result Penilaian Diri1")	
 							
-		self.listA = {'R':self.nilai_Kmekanisb1,\
-					  'I':self.nilai_Kilmiahb1,\
-					  'A':self.nilai_Kartistikb1,\
-					  'S':self.nilai_Kmengajarb1,\
-					  'E':self.nilai_Kpenjualan,\
+		self.listA = {'R':self.nilai_Kmekanisb1, \
+					  'I':self.nilai_Kilmiahb1, \
+					  'A':self.nilai_Kartistikb1, \
+					  'S':self.nilai_Kmengajarb1, \
+					  'E':self.nilai_Kpenjualan, \
 					  'C':self.nilai_Kadministrasib1
 					 }
 		
 		self.sum = 0
-		for key,values in self.listA.items():
+		for key, values in self.listA.items():
 			self.sum += values
 			print (self.sum)
-
 		
 		from AppsSDS.controller.sequence import CalculationRIASEC
 		self.CalculationA = CalculationRIASEC(**self.listA)
@@ -1693,35 +1642,32 @@ class SDSHollandWindowUtama(sds.WindowUtama):
 		from AppsSDS.controller.permutation import CustomPermutation
 		self.permut = CustomPermutation(self.itter)
 		self.listpermut = self.permut.readpermutation()[0]	
-			
 
 		from AppsSDS.dPageAresult import dPageDresult
 		self.buka = dPageDresult(self)
 		self.buka.m_panelA.Show()
 		self.buka.Show()
 		
-		
 		self.Refresh()
 		self.Layout()
 		
 		pass
 	
-	def m_buttonDetailPD2OnButtonClick(self,event):
+	def m_buttonDetailPD2OnButtonClick(self, event):
 		print ("result Penilaian Diri2")	
 							
-		self.listA = {'R':self.nilai_Ktanganb2,\
-					  'I':self.nilai_Kmatematikab2,\
-					  'A':self.nilai_Kmusikb2,\
-					  'S':self.nilai_Moranglain,\
-					  'E':self.nilai_Kmanajerial,\
+		self.listA = {'R':self.nilai_Ktanganb2, \
+					  'I':self.nilai_Kmatematikab2, \
+					  'A':self.nilai_Kmusikb2, \
+					  'S':self.nilai_Moranglain, \
+					  'E':self.nilai_Kmanajerial, \
 					  'C':self.nilai_Kperkantoran
 					 }
 
 		self.sum = 0
-		for key,values in self.listA.items():
+		for key, values in self.listA.items():
 			self.sum += values
 			print (self.sum)
-
 		
 		from AppsSDS.controller.sequence import CalculationRIASEC
 		self.CalculationA = CalculationRIASEC(**self.listA)
@@ -1730,13 +1676,11 @@ class SDSHollandWindowUtama(sds.WindowUtama):
 		from AppsSDS.controller.permutation import CustomPermutation
 		self.permut = CustomPermutation(self.itter)
 		self.listpermut = self.permut.readpermutation()[0]	
-			
 
 		from AppsSDS.dPageAresult import dPageEresult
 		self.buka = dPageEresult(self)
 		self.buka.m_panelA.Show()
 		self.buka.Show()
-		
 		
 		self.Refresh()
 		self.Layout()

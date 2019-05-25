@@ -4,19 +4,21 @@ import wx
 import KeyGen
 import keygen
 
+
 # Implementing KeygenAct
-class ActivatorKeygenAct( KeyGen.KeygenAct ):
-	def __init__( self, parent ):
-		KeyGen.KeygenAct.__init__( self, parent )
+class ActivatorKeygenAct(KeyGen.KeygenAct):
+
+	def __init__(self, parent):
+		KeyGen.KeygenAct.__init__(self, parent)
 
 	# Handlers for KeygenAct events.
-	def m_button1OnButtonClick( self, event ):
+	def m_button1OnButtonClick(self, event):
 		# TODO: Implement m_button1OnButtonClick
 		print ("cancel")
 		self.Close()
 		pass
 
-	def m_button2OnButtonClick( self, event ):
+	def m_button2OnButtonClick(self, event):
 		# TODO: Implement m_button2OnButtonClick
 		print ("generate")
 		if self.m_textCtrl1.GetValue() != "":
@@ -30,7 +32,7 @@ class ActivatorKeygenAct( KeyGen.KeygenAct ):
 		pass
 
 
-if __name__=='__main__':
+if __name__ == '__main__':
 	root = wx.App()
 	run = ActivatorKeygenAct(None)
 	run.Show()

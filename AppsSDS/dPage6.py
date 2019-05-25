@@ -3,8 +3,10 @@
 import wx
 import sds
 
+
 # Implementing Page6
-class dPage6( sds.Page6 ):
-	def __init__( self, parent ):
-		sds.Page6.__init__( self, parent )
+class dPage6(sds.Page6):
+
+	def __init__(self, parent):
+		sds.Page6.__init__(self, parent)
 

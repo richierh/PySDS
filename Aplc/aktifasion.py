@@ -6,7 +6,6 @@ import platform
 import pathlib
 
 
-
 class getId():
 # class to get ID of HDD
 
@@ -17,15 +16,15 @@ class getId():
     
     def __check_os(self):
         
-        if platform.system()=='Windows':
-            self.myIDHw = os.popen('vol '+'c:', 'r').read_file()
+        if platform.system() == 'Windows':
+            self.myIDHw = os.popen('vol ' + 'c:', 'r').read_file()
             self.myIDHw = self.myIDHw.split()
-            self.myIDHw[len(self.myIDHw)-1:]
-            print (self.test[len(self.myIDHw)-1:])
+            self.myIDHw[len(self.myIDHw) - 1:]
+            print (self.test[len(self.myIDHw) - 1:])
             print (platform.system())
        
-        elif platform.system()=='Linux':
-            self.myIDHw=platform.system()
+        elif platform.system() == 'Linux':
+            self.myIDHw = platform.system()
 #             print (platform.system())
 
         return self.myIDHw
@@ -33,26 +32,28 @@ class getId():
     def resultIDHDW(self):
 #         print ("hee")
 #         print (self.myIDHw)
-        self.myIDHw=[self.myIDHw]
+        self.myIDHw = [self.myIDHw]
     
         return self.myIDHw
+
 
 a = getId()
 a.resultIDHDW()
 
+
 class csvfile(getId):
 
     def __init__(self):
-        super(csvfile,self).__init__()
+        super(csvfile, self).__init__()
         self.file = 'tk.py'
         pass
 
     def checkfile(self):
-        self.file = pathlib.Path(os.getcwd()+"/tk.py")
+        self.file = pathlib.Path(os.getcwd() + "/tk.py")
         print (self.file)
         if self.file.is_file():
             self.read_file()
-            self.result="file is exist"
+            self.result = "file is exist"
         else :
             self.result = "file not exist"
         return self.result
@@ -69,7 +70,7 @@ class csvfile(getId):
     def write(self):
         
         row = [[self.myIDHw]]
-        lines=row
+        lines = row
 #         print ([row])
 #         row = ['jjkjskdfjl']
         '''        

@@ -8,7 +8,6 @@ print (my_file)
 
 print (platform.system())
 
-
 if platform.system() == "Windows":
     if my_file.is_file():
         print ("file ada")

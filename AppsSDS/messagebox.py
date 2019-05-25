@@ -12,7 +12,6 @@ class MessBx(wx.MessageDialog):
         self.SetTitle(self.judul)
         self.SetMessage(self.pesan)
         
-        
         self.SetOKCancelLabels("Iya", "Tidak")
 
     def getiddestroy(self):

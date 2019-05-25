@@ -3,48 +3,27 @@
 
 class CalculationRIASEC():
     
-    def __init__(self,**kwds):
+    def __init__(self, **kwds):
         self.data = kwds
         pass
     
-    
     def SortRIASEC(self):
             
-        sorted_dict = sorted(self.data.items(),key = lambda x: x[1],reverse=True)
+        sorted_dict = sorted(self.data.items(), key=lambda x: x[1], reverse=True)
 #         sorted_dict =dict(sorted_dict)
 #         print (sorted_dict[0:3])
-        sorted_dict=dict(sorted_dict[0:3])
+        sorted_dict = dict(sorted_dict[0:3])
 #         print (sorted_dict)
         return sorted_dict
     
         
-if __name__=="__main__":
+if __name__ == "__main__":
    
-    data ={"R":3,"I":3,"A":2,"S":3,"E":2,"C":8}
-
+    data = {"R":3, "I":3, "A":2, "S":3, "E":2, "C":8}
     
-    ClassInit= CalculationRIASEC(**data)
+    ClassInit = CalculationRIASEC(**data)
     print (ClassInit.SortRIASEC())
     print ("".join(ClassInit.SortRIASEC().keys()))
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # #!usr/bin/python
 # import wx

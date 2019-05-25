@@ -3,17 +3,18 @@
 import wx
 import AppsSDS.sds as sds
 
+
 # Implementing DialogError
-class dDialogError( sds.DialogError ):
-	def __init__( self, parent ):
-		sds.DialogError.__init__( self, parent )
+class dDialogError(sds.DialogError):
+
+	def __init__(self, parent):
+		sds.DialogError.__init__(self, parent)
 
 	# Handlers for DialogError events.
-	def m_okuntukerrorOnButtonClick( self, event ):
+	def m_okuntukerrorOnButtonClick(self, event):
 		print ("close")
 		
 		self.Close()
 		# TODO: Implement m_okuntukerrorOnButtonClick
 		pass
-
 

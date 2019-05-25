@@ -4,11 +4,9 @@ import keygen
 # global lisensi
 
 
-
 class AkLisen():
 
-
-    def __init__(self,parent):
+    def __init__(self, parent):
         self.parent = parent
         self.__method__()
 
@@ -25,7 +23,7 @@ class AkLisen():
         self.cek.verify()
         print (self.parent.m_textCtrl1.GetValue())
 
-        if  self.cek.verify() == True and self.parent.m_textCtrl1.GetValue()!="":
+        if  self.cek.verify() == True and self.parent.m_textCtrl1.GetValue() != "":
             self.valid = "Valid"
             self.parent.m_staticText4.SetLabel("Valid")
         else :
