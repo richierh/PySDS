@@ -31,10 +31,33 @@ class SDSHollandWindowUtama(sds.WindowUtama):
 
 		self.image1 = wx.Image(str(pathlib.Path.cwd() / 'images/binakarir.png'))
 		self.image2 = wx.Image(str(pathlib.Path.cwd() / 'images/logosds.png'))
+		self.image3 = wx.Image(str(pathlib.Path.cwd() / 'images/binakarir.png'))
+		self.image4 = wx.Image(str(pathlib.Path.cwd() / 'images/binakarir.png'))
+		self.image5 = wx.Image(str(pathlib.Path.cwd() / 'images/binakarir.png'))
+		self.image6 = wx.Image(str(pathlib.Path.cwd() / 'images/binakarir.png'))
+		self.image7 = wx.Image(str(pathlib.Path.cwd() / 'images/binakarir.png'))
+		self.image7_1 = wx.Image(str(pathlib.Path.cwd() / 'images/binakarir.png'))
+
+
 		self.re_image1 = self.image1.Rescale(317, 103)
 		self.re_image2 = self.image2.Rescale(350, 350)
+		self.re_image3 = self.image3.Rescale(100,50)
+		self.re_image4 = self.image4.Rescale(100,50)
+		self.re_image5 = self.image5.Rescale(100,50)
+		self.re_image6 = self.image6.Rescale(100,50)
+		self.re_image7 = self.image7.Rescale(100,50)
+		self.re_image7_1 = self.image7_1.Rescale(100,50)
+
+
 		self.m_bitmap3.SetBitmap(wx.Bitmap(self.re_image1))
 		self.m_bitmap31.SetBitmap(wx.Bitmap(self.re_image2))
+		self.m_panelPage4.m_bitmap_hal4.SetBitmap(wx.Bitmap(self.re_image3))
+		self.m_panelPage5.m_bitmap_hal5.SetBitmap(wx.Bitmap(self.re_image5))
+		self.m_panelPage6.m_bitmap_hal6.SetBitmap(wx.Bitmap(self.re_image6))
+		self.m_panelPage7.m_bitmap_hal7.SetBitmap(wx.Bitmap(self.re_image7))
+		self.m_panelPage7.m_bitmap_hal7_1.SetBitmap(wx.Bitmap(self.re_image7))
+
+
 		self.Refresh()
 
 		self.Layout()

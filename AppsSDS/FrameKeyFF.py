@@ -67,7 +67,7 @@ class FrameWarningKey (wx.Frame):
 		self.m_staticText146 = wx.StaticText(self.m_panel27, wx.ID_ANY, u"status validasi :", wx.DefaultPosition, wx.DefaultSize, 0)
 		self.m_staticText146.Wrap(-1)
 
-		bSizer3.Add(self.m_staticText146, 0, wx.ALL | wx.EXPAND |  wx.ALIGN_CENTER_VERTICAL | wx.ALIGN_LEFT, 5)
+		bSizer3.Add(self.m_staticText146, 0, wx.ALL | wx.ALIGN_CENTER_VERTICAL | wx.ALIGN_RIGHT, 5)
 
 		self.m_staticText6 = wx.StaticText(self.m_panel27, wx.ID_ANY, u"MyLabel", wx.DefaultPosition, wx.DefaultSize, 0)
 		self.m_staticText6.Wrap(-1)
@@ -77,16 +77,11 @@ class FrameWarningKey (wx.Frame):
 		self.m_bitmap1 = wx.StaticBitmap(self.m_panel27, wx.ID_ANY, wx.NullBitmap, wx.DefaultPosition, wx.DefaultSize, 0)
 		bSizer3.Add(self.m_bitmap1, 0, wx.ALL, 5)
 
-		self.m_staticText146 = wx.StaticText(self.m_panel27, wx.ID_ANY, u"            ", wx.DefaultPosition, wx.DefaultSize, 0)
-		self.m_staticText146.Wrap(-1)
-
-		bSizer3.Add(self.m_staticText146, 0, wx.ALL | wx.EXPAND |  wx.ALIGN_CENTER_VERTICAL | wx.ALIGN_LEFT, 5)
-
 		fgSizer36.Add(bSizer3, 1, wx.ALIGN_RIGHT, 5)
 
 		bSizer57.Add(fgSizer36, 1, wx.ALIGN_CENTER_HORIZONTAL, 5)
 
-		fgSizer37 = wx.FlexGridSizer(0, 3, 0, 0)
+		fgSizer37 = wx.FlexGridSizer(0, 2, 0, 0)
 		fgSizer37.SetFlexibleDirection(wx.BOTH)
 		fgSizer37.SetNonFlexibleGrowMode(wx.FLEX_GROWMODE_SPECIFIED)
 
@@ -95,10 +90,7 @@ class FrameWarningKey (wx.Frame):
 
 		self.m_button39 = wx.Button(self.m_panel27, wx.ID_ANY, u"Validasi", wx.DefaultPosition, wx.DefaultSize, 0)
 		fgSizer37.Add(self.m_button39, 0, wx.ALL | wx.ALIGN_BOTTOM | wx.ALIGN_RIGHT, 5)
-		
-		self.m_button40 = wx.Button(self.m_panel27, wx.ID_ANY, u"Tutup", wx.DefaultPosition, wx.DefaultSize, 0)
-		fgSizer37.Add(self.m_button40,0 , wx.ALL|wx.ALIGN_BOTTOM | wx.ALIGN_RIGHT, 5)
-		
+
 		bSizer57.Add(fgSizer37, 0, wx.ALIGN_RIGHT, 5)
 
 		self.m_panel27.SetSizer(bSizer57)
@@ -115,15 +107,11 @@ class FrameWarningKey (wx.Frame):
 		self.m_textCtrl49.Bind(wx.EVT_TEXT, self.m_textCtrl49OnText)
 		self.m_button38.Bind(wx.EVT_BUTTON, self.m_button38OnButtonClick)
 		self.m_button39.Bind(wx.EVT_BUTTON, self.m_button39OnButtonClick)
-		self.m_button40.Bind(wx.EVT_BUTTON, self.m_button40OnButtonClick)
-	
+
 	def __del__(self):
 		pass
 
 	# Virtual event handlers, overide them in your derived class
-	def m_button40OnButtonClick(self,event):
-		event.Skip()
-	
 	def m_textCtrl49OnText(self, event):
 		event.Skip()
 
@@ -132,5 +120,4 @@ class FrameWarningKey (wx.Frame):
 
 	def m_button39OnButtonClick(self, event):
 		event.Skip()
-
 

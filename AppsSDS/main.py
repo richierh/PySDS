@@ -83,7 +83,7 @@ elif platform.system() == "Linux" :
 		print ("le")
 	else : 
 		# print ("file tidak ada")
-# 		KeyVerification = VerifyKey("2")
+		KeyVerification = VerifyKey("2")
 		# print (KeyVerification.Verify())
 		# print (type(KeyVerification))
 
