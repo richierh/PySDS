@@ -75,6 +75,8 @@ if __name__ == "__main__":
 	# key = Key('')
 	# global lisensi
 	lisensi = 1813
+	lisensi = input("masukkan nilai")
+
 	total = 223452987
 	# lisensi = self.nilai*4 + 223445435
 	# lisensi = (total - 223445435)/4
@@ -83,4 +85,5 @@ if __name__ == "__main__":
 	print (Key())
 	print (lisensi)
 	print (key.verify(lisensi))
+	close = input("")	
 	pass

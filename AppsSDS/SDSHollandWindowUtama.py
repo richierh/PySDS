@@ -5,7 +5,9 @@ import AppsSDS.sds as sds
 from AppsSDS.TempListbox import TempListbox
 from AppsSDS.simpan_data import SimpanData
 import pathlib
-from AppsSDS.lihat_nilai import LihatNilaiTes
+# from AppsSDS.lihat_nilai import LihatNilai
+
+# from AppsSDS.lihat_nilai import LihatNilaiTes
 from AppsSDS.controller.hitung_addlistbox import NewClass4, NewClass5
 from AppsSDS.controller import Grafik1
 from AppsSDS.warning import Warningid
@@ -445,14 +447,19 @@ class SDSHollandWindowUtama(sds.WindowUtama):
 		self.m_panelPage7.perusahaan_instansi_input.SetValue(self.perusahaan_instansi_input.GetValue())
 		self.m_panelPage7.posisi_jabatan_input.SetValue(self.posisi_jabatan_input.GetValue())
 
-		self.m_panelPage7.nama_input2.SetValue(self.nama_input2.GetValue())
+		# self.m_panelPage7.nama_input2.SetValue(self.nama_input2.GetValue())
 		self.m_panelPage7.nama_input2.SetValue(self.nama_input2.GetValue())
 		self.m_panelPage7.tanggal_tes_input2.SetValue(self.tanggal_tes_input2.GetValue())
 		self.m_panelPage7.jenis_kelamin_input2.SetSelection(\
 			self.jenis_kelamin_input2.GetSelection())
 		self.m_panelPage7.tanggal_lahir_input2.SetValue(self.tanggal_lahir_input2.GetValue())
 		self.m_panelPage7.asal_sekolah_input2.SetValue(self.asal_sekolah_input2.GetValue())
+		print ("lewat sini")
+		print (self.m_panelPage7.jurusan_input21.SetValue(self.jurusan_input21l.GetValue()))	
+		self.m_panelPage7.asal_universitas_input2.SetValue(self.asal_universitas_input2.GetValue())
 		self.m_panelPage7.jurusan_input2.SetValue(self.jurusan_input2.GetValue())		
+		
+
 		self.m_panelPage7.kota_input2.SetValue(self.kota_input2.GetValue())
 		self.m_panelPage7.hobi_input2.SetValue(self.hobi_input2.GetValue())
 		self.m_panelPage7.prestasi_akademik_input2.SetValue(self.prestasi_akademik_input2.GetValue())
@@ -487,7 +494,10 @@ class SDSHollandWindowUtama(sds.WindowUtama):
 			self.jenis_kelamin_input2.GetSelection())
 		self.m_panelPage7.tanggal_lahir_input21.SetValue(self.tanggal_lahir_input2.GetValue())
 		self.m_panelPage7.asal_sekolah_input21.SetValue(self.asal_sekolah_input2.GetValue())
-		self.m_panelPage7.jurusan_input21.SetValue(self.jurusan_input2.GetValue())		
+		self.m_panelPage7.jurusan_input211.SetValue(self.jurusan_input21l.GetValue())		
+		self.m_panelPage7.asal_universitas_input21.SetValue(self.asal_universitas_input2.GetValue())
+		self.m_panelPage7.jurusan_input22.SetValue(self.jurusan_input2.GetValue())		
+
 		self.m_panelPage7.kota_input21.SetValue(self.kota_input2.GetValue())
 		self.m_panelPage7.hobi_input21.SetValue(self.hobi_input2.GetValue())
 		self.m_panelPage7.prestasi_akademik_input21.SetValue(self.prestasi_akademik_input2.GetValue())
@@ -1291,8 +1301,8 @@ class SDSHollandWindowUtama(sds.WindowUtama):
 			from AppsSDS.sds import RincianDataTes
 	
 			from AppsSDS.db import db
-			self.buka_detail2 = RincianDataTes(self)
-			self.buka_detail2.Show()
+			self.buka_detail = RincianDataTes(self)
+			self.buka_detail.Show()
 			try :
 				self.db_file = str(db.pathdb())
 				self.nama_orang = self.item
@@ -1304,22 +1314,22 @@ class SDSHollandWindowUtama(sds.WindowUtama):
 			
 				print (self.querydb)
 			
-				self.buka_detail2.nama.SetValue(self.querydb[0])
-				self.buka_detail2.tanggal_tes.SetValue(self.querydb[1])
-				self.buka_detail2.jenis_kelamin.SetValue(self.querydb[2])
-				self.buka_detail2.tanggal_lahir.SetValue(self.querydb[3])
-				self.buka_detail2.asal_sekolah.SetValue(self.querydb[4])
-				self.buka_detail2.jurusan.SetValue(self.querydb[5])
-				self.buka_detail2.asal_universitas.SetValue(self.querydb[6])
-				self.buka_detail2.jurusan2.SetValue(self.querydb[7])
-				self.buka_detail2.kota.SetValue(self.querydb[8])
-				self.buka_detail2.hobi.SetValue(self.querydb[9])
-				self.buka_detail2.prestasi_akademik.SetValue(self.querydb[10])
-				self.buka_detail2.prestasi_non_akademik.SetValue(self.querydb[11])
-				self.buka_detail2.ekskul_yang_diikuti.SetValue(self.querydb[12])
+				self.buka_detail.nama.SetValue(self.querydb[0])
+				self.buka_detail.tanggal_tes.SetValue(self.querydb[1])
+				self.buka_detail.jenis_kelamin.SetValue(self.querydb[2])
+				self.buka_detail.tanggal_lahir.SetValue(self.querydb[3])
+				self.buka_detail.asal_sekolah.SetValue(self.querydb[4])
+				self.buka_detail.jurusan.SetValue(self.querydb[5])
+				self.buka_detail.asal_universitas.SetValue(self.querydb[6])
+				self.buka_detail.jurusan2.SetValue(self.querydb[7])
+				self.buka_detail.kota.SetValue(self.querydb[8])
+				self.buka_detail.hobi.SetValue(self.querydb[9])
+				self.buka_detail.prestasi_akademik.SetValue(self.querydb[10])
+				self.buka_detail.prestasi_non_akademik.SetValue(self.querydb[11])
+				self.buka_detail.ekskul_yang_diikuti.SetValue(self.querydb[12])
 				
-				self.buka_detail2.m_buttonTutupDetail.Bind(wx.EVT_BUTTON, self.m_buttonTutupDetailOnButtonClick)
-				self.buka_detail2.m_buttonHapus.Bind(wx.EVT_BUTTON, self.m_buttonHapusOnButtonClick)
+				self.buka_detail.m_buttonTutupDetail.Bind(wx.EVT_BUTTON, self.m_buttonTutupDetailOnButtonClick)
+				self.buka_detail.m_buttonHapus.Bind(wx.EVT_BUTTON, self.m_buttonHapusOnButtonClick)
 				print ("look over here")
 				
 			except:
@@ -1331,7 +1341,8 @@ class SDSHollandWindowUtama(sds.WindowUtama):
 		try :
 			self.buka_detail.Close()
 		except :
-			self.buka_detail2.Close()
+			# self.buka_detail.Close()
+			pass
 		pass
 	
 	def cek_rowiddata(self):
@@ -1345,8 +1356,10 @@ class SDSHollandWindowUtama(sds.WindowUtama):
 	
 	def m_buttonLihatNilaiOnButtonClick(self, event):
 		print ("This klik will execute and import data from AppsSDS.lihat_nilai import LihatNilai")
-		from AppsSDS.lihat_nilai import LihatNilai
 		if self.seleksi == 1 :
+			from AppsSDS.lihat_nilai import LihatNilai
+
+			print ("kesini")
 			self.m_radioBtn1.SetValue(True)
 			self.btnradio_formtes(self)
 			self.buka = LihatNilai(self)
@@ -1357,6 +1370,8 @@ class SDSHollandWindowUtama(sds.WindowUtama):
 			self.BukaWindowFilter.Close()
 			self.datpes.Close()
 		elif self.seleksi == 2 :
+			from AppsSDS.lihat_nilai import LihatNilaiTes
+			print ("apa kesini")
 			self.m_radioBtn2.SetValue(True)
 			self.btnradio_formseleksi(self)
 			self.bukates = LihatNilaiTes(self)
@@ -1364,7 +1379,7 @@ class SDSHollandWindowUtama(sds.WindowUtama):
 			self.cek_rowid = self.bukates.cek_rowidtes()
 			self.cek_rowiddata()
 			self.m_buttonTutupDetailOnButtonClick(self)
-			self.BukaWindowFilter.Close()
+			# self.BukaWindowFilter.Close()
 			self.buka_peserta_tes.Close()			
 	
 		pass

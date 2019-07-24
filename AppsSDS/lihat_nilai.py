@@ -88,6 +88,7 @@ class LihatNilai():
             self.lihat_nilai.kota_input.SetValue(self.querydb[7])
             self.lihat_nilai.perusahaan_instansi_input.SetValue(self.querydb[8])
             self.lihat_nilai.posisi_jabatan_input.SetValue(self.querydb[9])
+
         except:
             pass
         
@@ -160,12 +161,17 @@ class LihatNilai():
             self.lihat_nilai.halaman2.Hide()
             self.lihat_nilai.halaman3.Hide()
             self.lihat_nilai.halaman6.Hide()
+            self.lihat_nilai.halaman7.Hide()
+
     
             self.lihat_nilai.halaman4.Show()
             
             self.lihat_nilai.btn_selanjutnya(self)
-            self.lihat_nilai.m_tombolHitungOnButtonClick(self)
+            print ("sdds")
+            self.lihat_nilai.m_tombolHitungOnButtonClick(self.lihat_nilai)
+            print ("sdds")
         except :
+            print("kesini")
             pass
         
         try:
@@ -182,31 +188,55 @@ class LihatNilaiTes():
     
     def __init__(self, parent):  
         print ("You have choose Lihat Nilai")
-        self.lihat_nilai = parent
+        try :
+            self.lihat_nilai = parent
 
-        print ("hello apa kabar")
-        self.item = self.lihat_nilai.buka_peserta_tes.m_ListDataPeserta.GetFocusedItem()
-        self.item = self.lihat_nilai.buka_peserta_tes.m_ListDataPeserta.GetItem(self.item, 1).GetText()
-        from AppsSDS.db import db
-             
-        self.db_file = str(db.pathdb())
-        self.nama_orang = self.item
-        self.date_from = None
-        self.date_end = None
-        self.no_tes = None
-        
-        self.querydb = db.querydbtes(self.db_file, self.nama_orang, self.date_from, self.date_end)[0][0]
-        
-        print (self.querydb)
-        
-        for i in self.querydb:
-            print (i)
-        print (self.item)               
- 
+            print ("hello apa kabar")
+            self.item = self.lihat_nilai.buka_peserta_tes.m_ListDataPeserta.GetFocusedItem()
+            self.item = self.lihat_nilai.buka_peserta_tes.m_ListDataPeserta.GetItem(self.item, 1).GetText()
+            from AppsSDS.db import db
+                
+            self.db_file = str(db.pathdb())
+            self.nama_orang = self.item
+            self.date_from = None
+            self.date_end = None
+            self.no_tes = None
+            
+            self.querydb = db.querydbtes(self.db_file, self.nama_orang, self.date_from, self.date_end)[0][0]
+            
+            print (self.querydb)
+            
+            for i in self.querydb:
+                print (i)
+            print (self.item)               
+        except:
+            pass
+
     def insert_value(self):    
         from datetime import datetime
+  
         print (self.lihat_nilai.nama_input2.SetValue(self.querydb[0]))
- 
+        self.lihat_nilai.tanggal_tes_input2.SetValue(datetime.strptime(self.querydb[1], '%Y/%m/%d'))
+        if self.querydb[2] == "Laki-Laki":
+            self.n = 0
+        elif self.querydb[2] == "Perempuan" :
+            self.n = 1
+        else :
+            self.n = 0
+            
+        self.lihat_nilai.jenis_kelamin_input2.SetSelection(self.n)
+        self.lihat_nilai.tanggal_lahir_input2.SetValue(datetime.strptime(self.querydb[3], '%Y/%m/%d'))
+        self.lihat_nilai.asal_sekolah_input2.SetValue(self.querydb[4])
+        self.lihat_nilai.jurusan_input21l.SetValue(self.querydb[5])
+        self.lihat_nilai.asal_universitas_input2.SetValue(self.querydb[6])
+        self.lihat_nilai.jurusan_input2.SetValue(self.querydb[7])
+        self.lihat_nilai.kota_input2.SetValue(self.querydb[8])
+        self.lihat_nilai.hobi_input2.SetValue(self.querydb[9])
+        self.lihat_nilai.prestasi_akademik_input2.SetValue(self.querydb[10])
+        self.lihat_nilai.prestasi_non_akademik_input2.SetValue(self.querydb[11])
+        self.lihat_nilai.ekskul_yang_diikuti_input2.SetValue(self.querydb[12])
+
+
         from AppsSDS.db.db import QueryList
         try :
             self.querylist = QueryList()
@@ -266,11 +296,13 @@ class LihatNilaiTes():
             self.lihat_nilai.halaman2.Hide()
             self.lihat_nilai.halaman3.Hide()
             self.lihat_nilai.halaman6.Hide()
+            self.lihat_nilai.halaman7.Hide()
     
             self.lihat_nilai.halaman4.Show()
             
             self.lihat_nilai.btn_selanjutnya(self)
-            self.lihat_nilai.m_tombolHitungOnButtonClick(self)
+            print ("sdds")
+            self.lihat_nilai.m_tombolHitungOnButtonClick(self.lihat_nilai)
         except :
             pass
        

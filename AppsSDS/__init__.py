@@ -8,7 +8,7 @@ from AppsSDS.KonfigDatabase import *
 from AppsSDS.messagebox import *
 from AppsSDS.Page2 import *
 from AppsSDS.SDSHollandOccupationFinder import *
-from AppsSDS.SDSHollandWindowUtama import *
+# from AppsSDS.SDSHollandWindowUtama import *
 from AppsSDS.style import *
 from AppsSDS.temp import *
 from AppsSDS.TempListbox import *

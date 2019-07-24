@@ -290,10 +290,10 @@ class WindowUtama ( main ):
 
 		fgSizer15.Add( self.jurusan21, 0, wx.ALL|wx.ALIGN_CENTER_VERTICAL, 5 )
 
-		self.jurusan_input21 = wx.TextCtrl( self.m_panel8, wx.ID_ANY, wx.EmptyString, wx.DefaultPosition, wx.DefaultSize, 0 )
-		self.jurusan_input21.SetFont( wx.Font( 12, wx.FONTFAMILY_SWISS, wx.FONTSTYLE_NORMAL, wx.FONTWEIGHT_NORMAL, False, "Sans" ) )
+		self.jurusan_input21l = wx.TextCtrl( self.m_panel8, wx.ID_ANY, wx.EmptyString, wx.DefaultPosition, wx.DefaultSize, 0 )
+		self.jurusan_input21l.SetFont( wx.Font( 12, wx.FONTFAMILY_SWISS, wx.FONTSTYLE_NORMAL, wx.FONTWEIGHT_NORMAL, False, "Sans" ) )
 
-		fgSizer15.Add( self.jurusan_input21, 0, wx.ALL|wx.EXPAND, 5 )
+		fgSizer15.Add( self.jurusan_input21l, 0, wx.ALL|wx.EXPAND, 5 )
 
 		self.asal_universitas2 = wx.StaticText( self.m_panel8, wx.ID_ANY, u"Asal Universitas", wx.DefaultPosition, wx.DefaultSize, 0 )
 		self.asal_universitas2.Wrap( -1 )

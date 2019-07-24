@@ -22,7 +22,7 @@ class ClearData(SimpanData):
         self.parent.jenis_kelamin_input2.SetSelection(0)
         self.parent.tanggal_lahir_input2.SetValue(datetime.now())
         self.parent.asal_sekolah_input2.SetValue("")
-        self.parent.jurusan_input21.SetValue("")
+        self.parent.jurusan_input21l.SetValue("")
         self.parent.asal_universitas_input2.SetValue("")
         self.parent.jurusan_input2.SetValue("")
         self.parent.kota_input2.SetValue("")

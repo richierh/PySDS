@@ -662,7 +662,7 @@
 														<option>0</option>
 														<flag>wxALL|wxEXPAND</flag>
 														<border>5</border>
-														<object class="wxTextCtrl" name="jurusan_input21">
+														<object class="wxTextCtrl" name="jurusan_input21l">
 															<font>
 																<size>12</size>
 																<family>swiss</family>

@@ -35,7 +35,7 @@ class SimpanData():
             self.parent.jenis_kelamin_input2.GetString(self.parent.jenis_kelamin_input2.GetSelection()),
             self.parent.tanggal_lahir_input2.GetValue().Format("%Y/%m/%d"),
             self.parent.asal_sekolah_input2.GetValue(),
-            self.parent.jurusan_input21.GetValue(),
+            self.parent.jurusan_input21l.GetValue(),
             self.parent.asal_universitas_input2.GetValue(),
             self.parent.jurusan_input2.GetValue(),
             self.parent.kota_input2.GetValue(),
