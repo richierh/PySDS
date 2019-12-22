@@ -1197,7 +1197,7 @@
 								<flag>wxALL|wxALIGN_BOTTOM</flag>
 								<border>5</border>
 								<object class="wxButton" name="m_button1">
-									<fg>#303030</fg>
+									<fg>#414c51</fg>
 									<enabled>0</enabled>
 									<font>
 										<size>12</size>
@@ -1218,7 +1218,7 @@
 								<border>5</border>
 								<object class="wxButton" name="m_button2">
 									<bg>#49d1b6</bg>
-									<fg>#303030</fg>
+									<fg>#414c51</fg>
 									<font>
 										<size>12</size>
 										<style>normal</style>
@@ -1400,7 +1400,7 @@
 								<border>5</border>
 								<object class="wxButton" name="openlistbox1">
 									<bg>#ffffff</bg>
-									<fg>#303030</fg>
+									<fg>#414c51</fg>
 									<font>
 										<size>14</size>
 										<style>normal</style>
@@ -1419,7 +1419,7 @@
 								<flag>wxALL|wxALIGN_CENTER_VERTICAL|wxALIGN_CENTER_HORIZONTAL</flag>
 								<border>5</border>
 								<object class="wxStaticText" name="label1">
-									<fg>#303030</fg>
+									<fg>#414c51</fg>
 									<font>
 										<size>12</size>
 										<family>swiss</family>
@@ -1464,7 +1464,7 @@
 								<border>5</border>
 								<object class="wxButton" name="openlistbox2">
 									<bg>#ffffff</bg>
-									<fg>#303030</fg>
+									<fg>#414c51</fg>
 									<font>
 										<size>14</size>
 										<style>normal</style>
@@ -1527,7 +1527,7 @@
 								<border>5</border>
 								<object class="wxButton" name="openlistbox3">
 									<bg>#ffffff</bg>
-									<fg>#303030</fg>
+									<fg>#414c51</fg>
 									<font>
 										<size>14</size>
 										<style>normal</style>
@@ -1590,7 +1590,7 @@
 								<border>5</border>
 								<object class="wxButton" name="openlistbox4">
 									<bg>#ffffff</bg>
-									<fg>#303030</fg>
+									<fg>#414c51</fg>
 									<font>
 										<size>14</size>
 										<style>normal</style>
@@ -1653,7 +1653,7 @@
 								<border>5</border>
 								<object class="wxButton" name="openlistbox5">
 									<bg>#ffffff</bg>
-									<fg>#303030</fg>
+									<fg>#414c51</fg>
 									<font>
 										<size>14</size>
 										<style>normal</style>
@@ -1718,7 +1718,7 @@
 								<border>5</border>
 								<object class="wxButton" name="openlistbox6">
 									<bg>#ffffff</bg>
-									<fg>#303030</fg>
+									<fg>#414c51</fg>
 									<hidden>1</hidden>
 									<font>
 										<size>14</size>
@@ -1919,7 +1919,7 @@
 											<object class="wxSpinCtrl" name="m_RealisticA">
 												<style>wxSP_ARROW_KEYS</style>
 												<size>75,-1</size>
-												<fg>#303030</fg>
+												<fg>#414c51</fg>
 												<font>
 													<size>12</size>
 													<family>swiss</family>
@@ -1940,7 +1940,7 @@
 											<object class="wxPanel" name="m_panel36">
 												<style>wxTAB_TRAVERSAL</style>
 												<bg>#f5874f</bg>
-												<fg>#303030</fg>
+												<fg>#414c51</fg>
 												<object class="wxBoxSizer">
 													<orient>wxVERTICAL</orient>
 													<object class="sizeritem">
@@ -1971,7 +1971,7 @@
 											<object class="wxSpinCtrl" name="m_InvestigativeA">
 												<style>wxSP_ARROW_KEYS</style>
 												<size>75,-1</size>
-												<fg>#303030</fg>
+												<fg>#414c51</fg>
 												<font>
 													<size>12</size>
 													<family>swiss</family>
@@ -1992,7 +1992,7 @@
 											<object class="wxPanel" name="m_panel37">
 												<style>wxTAB_TRAVERSAL</style>
 												<bg>#ffcc29</bg>
-												<fg>#303030</fg>
+												<fg>#414c51</fg>
 												<object class="wxBoxSizer">
 													<orient>wxVERTICAL</orient>
 													<object class="sizeritem">
@@ -2022,7 +2022,7 @@
 											<object class="wxSpinCtrl" name="m_ArtisticA">
 												<style>wxSP_ARROW_KEYS</style>
 												<size>75,-1</size>
-												<fg>#303030</fg>
+												<fg>#414c51</fg>
 												<font>
 													<size>12</size>
 													<family>swiss</family>
@@ -2074,7 +2074,7 @@
 											<object class="wxSpinCtrl" name="m_SocialA">
 												<style>wxSP_ARROW_KEYS</style>
 												<size>75,-1</size>
-												<fg>#303030</fg>
+												<fg>#414c51</fg>
 												<font>
 													<size>12</size>
 													<family>swiss</family>
@@ -2095,7 +2095,7 @@
 											<object class="wxPanel" name="m_panel39">
 												<style>wxTAB_TRAVERSAL</style>
 												<bg>#0098da</bg>
-												<fg>#303030</fg>
+												<fg>#414c51</fg>
 												<object class="wxBoxSizer">
 													<orient>wxVERTICAL</orient>
 													<object class="sizeritem">
@@ -2125,7 +2125,7 @@
 											<object class="wxSpinCtrl" name="m_EnterprisingA">
 												<style>wxSP_ARROW_KEYS</style>
 												<size>75,-1</size>
-												<fg>#303030</fg>
+												<fg>#414c51</fg>
 												<font>
 													<size>12</size>
 													<family>swiss</family>
@@ -2146,7 +2146,7 @@
 											<object class="wxPanel" name="m_panel40">
 												<style>wxTAB_TRAVERSAL</style>
 												<bg>#a98aac</bg>
-												<fg>#303030</fg>
+												<fg>#414c51</fg>
 												<object class="wxBoxSizer">
 													<orient>wxVERTICAL</orient>
 													<object class="sizeritem">
@@ -2176,7 +2176,7 @@
 											<object class="wxSpinCtrl" name="m_ConventionalA">
 												<style>wxSP_ARROW_KEYS</style>
 												<size>75,-1</size>
-												<fg>#303030</fg>
+												<fg>#414c51</fg>
 												<font>
 													<size>12</size>
 													<family>swiss</family>
@@ -2322,7 +2322,7 @@
 														<flag>wxALL|wxALIGN_CENTER_VERTICAL</flag>
 														<border>5</border>
 														<object class="wxStaticText" name="m_staticText1431">
-															<fg>#303030</fg>
+															<fg>#414c51</fg>
 															<font>
 																<size>12</size>
 																<family>swiss</family>
@@ -2372,7 +2372,7 @@
 														<flag>wxALL|wxALIGN_CENTER_VERTICAL</flag>
 														<border>5</border>
 														<object class="wxStaticText" name="m_staticText1451">
-															<fg>#303030</fg>
+															<fg>#414c51</fg>
 															<font>
 																<size>12</size>
 																<family>swiss</family>
@@ -2472,7 +2472,7 @@
 														<flag>wxALL|wxALIGN_CENTER_VERTICAL</flag>
 														<border>5</border>
 														<object class="wxStaticText" name="m_staticText1471">
-															<fg>#303030</fg>
+															<fg>#414c51</fg>
 															<font>
 																<size>12</size>
 																<family>swiss</family>
@@ -2515,7 +2515,7 @@
 											<object class="wxPanel" name="m_panel44">
 												<style>wxTAB_TRAVERSAL</style>
 												<bg>#a98aac</bg>
-												<fg>#303030</fg>
+												<fg>#414c51</fg>
 												<object class="wxBoxSizer">
 													<orient>wxVERTICAL</orient>
 													<object class="sizeritem">
@@ -2523,7 +2523,7 @@
 														<flag>wxALL|wxALIGN_CENTER_VERTICAL</flag>
 														<border>5</border>
 														<object class="wxStaticText" name="m_staticText1481">
-															<fg>#303030</fg>
+															<fg>#414c51</fg>
 															<font>
 																<size>12</size>
 																<family>swiss</family>
@@ -2666,7 +2666,7 @@
 											<object class="wxSpinCtrl" name="m_RealisticP">
 												<style>wxSP_ARROW_KEYS</style>
 												<size>75,-1</size>
-												<fg>#303030</fg>
+												<fg>#414c51</fg>
 												<font>
 													<size>12</size>
 													<family>swiss</family>
@@ -2719,7 +2719,7 @@
 											<object class="wxSpinCtrl" name="m_InvestigativeP">
 												<style>wxSP_ARROW_KEYS</style>
 												<size>75,-1</size>
-												<fg>#303030</fg>
+												<fg>#414c51</fg>
 												<font>
 													<size>12</size>
 													<family>swiss</family>
@@ -2769,7 +2769,7 @@
 											<object class="wxSpinCtrl" name="m_ArtisticP">
 												<style>wxSP_ARROW_KEYS</style>
 												<size>75,-1</size>
-												<fg>#303030</fg>
+												<fg>#414c51</fg>
 												<font>
 													<size>12</size>
 													<family>swiss</family>
@@ -2820,7 +2820,7 @@
 											<object class="wxSpinCtrl" name="m_SocialP">
 												<style>wxSP_ARROW_KEYS</style>
 												<size>75,-1</size>
-												<fg>#303030</fg>
+												<fg>#414c51</fg>
 												<font>
 													<size>12</size>
 													<family>swiss</family>
@@ -2849,7 +2849,7 @@
 														<flag>wxALL|wxALIGN_CENTER_VERTICAL</flag>
 														<border>5</border>
 														<object class="wxStaticText" name="m_staticText1472">
-															<fg>#303030</fg>
+															<fg>#414c51</fg>
 															<font>
 																<size>12</size>
 																<family>swiss</family>
@@ -2872,7 +2872,7 @@
 											<object class="wxSpinCtrl" name="m_EnterprisingP">
 												<style>wxSP_ARROW_KEYS</style>
 												<size>75,-1</size>
-												<fg>#303030</fg>
+												<fg>#414c51</fg>
 												<font>
 													<size>12</size>
 													<family>swiss</family>
@@ -2922,7 +2922,7 @@
 											<object class="wxSpinCtrl" name="m_ConventionalP">
 												<style>wxSP_ARROW_KEYS</style>
 												<size>75,-1</size>
-												<fg>#303030</fg>
+												<fg>#414c51</fg>
 												<font>
 													<size>12</size>
 													<family>swiss</family>
@@ -3041,7 +3041,7 @@
 										<flag>wxALL|wxALIGN_CENTER_HORIZONTAL</flag>
 										<border>5</border>
 										<object class="wxStaticText" name="m_staticText213">
-											<bg>#303030</bg>
+											<bg>#414c51</bg>
 											<label></label>
 											<wrap>-1</wrap>
 										</object>
@@ -3765,7 +3765,7 @@
 											<object class="wxSpinCtrl" name="m_ktanganb2">
 												<style>wxSP_ARROW_KEYS</style>
 												<size>75,-1</size>
-												<fg>#303030</fg>
+												<fg>#414c51</fg>
 												<font>
 													<size>12</size>
 													<family>swiss</family>
@@ -4426,7 +4426,7 @@
 														<style>wxLB_ALWAYS_SB</style>
 														<size>175,100</size>
 														<bg>#585570</bg>
-														<fg>#303030</fg>
+														<fg>#414c51</fg>
 														<font>
 															<size>14</size>
 															<style>normal</style>
@@ -4457,7 +4457,7 @@
 														<style>wxLB_ALWAYS_SB</style>
 														<size>175,100</size>
 														<bg>#7d648b</bg>
-														<fg>#303030</fg>
+														<fg>#414c51</fg>
 														<font>
 															<size>14</size>
 															<style>normal</style>
@@ -4489,7 +4489,7 @@
 														<style>wxLB_ALWAYS_SB</style>
 														<size>175,100</size>
 														<bg>#96989a</bg>
-														<fg>#303030</fg>
+														<fg>#414c51</fg>
 														<font>
 															<size>14</size>
 															<style>normal</style>
@@ -4879,7 +4879,7 @@
 									<border>5</border>
 									<object class="wxButton" name="m_SimpanPage6">
 										<bg>#ffffff</bg>
-										<fg>#303030</fg>
+										<fg>#414c51</fg>
 										<font>
 											<size>14</size>
 											<style>normal</style>
@@ -4976,7 +4976,6 @@
 														<border>5</border>
 														<object class="wxTextCtrl" name="no_tes_input">
 															<style>wxTE_READONLY</style>
-															<size>200,-1</size>
 															<font>
 																<size>12</size>
 																<family>swiss</family>
@@ -5010,7 +5009,6 @@
 														<border>5</border>
 														<object class="wxDatePickerCtrl" name="tanggal_tes_input">
 															<style>wxDP_DEFAULT</style>
-															<size>200,-1</size>
 															<font>
 																<size>12</size>
 																<family>swiss</family>
@@ -5043,7 +5041,6 @@
 														<border>5</border>
 														<object class="wxTextCtrl" name="nama_kandidat_input">
 															<style>wxTE_READONLY</style>
-															<size>200,-1</size>
 															<font>
 																<size>12</size>
 																<family>swiss</family>
@@ -5113,7 +5110,6 @@
 														<border>5</border>
 														<object class="wxDatePickerCtrl" name="tanggal_lahir_input">
 															<style>wxDP_DEFAULT</style>
-															<size>200,-1</size>
 															<font>
 																<size>12</size>
 																<family>swiss</family>
@@ -8663,7 +8659,7 @@
 									<border>5</border>
 									<object class="wxButton" name="m_SimpanPage6">
 										<bg>#ffffff</bg>
-										<fg>#303030</fg>
+										<fg>#414c51</fg>
 										<font>
 											<size>14</size>
 											<style>normal</style>

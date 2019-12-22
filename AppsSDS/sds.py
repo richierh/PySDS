@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 ###########################################################################
-## Python code generated with wxFormBuilder (version Jun 15 2019)
+## Python code generated with wxFormBuilder (version Aug 22 2019)
 ## http://www.wxformbuilder.org/
 ##
 ## PLEASE DO *NOT* EDIT THIS FILE!
@@ -3107,7 +3107,7 @@ class Page7 ( wx.Panel ):
 
 		fgSizer4.Add( self.no_tes, 0, wx.ALL|wx.ALIGN_CENTER_VERTICAL, 5 )
 
-		self.no_tes_input = wx.TextCtrl( self.m_panel92, wx.ID_ANY, wx.EmptyString, wx.DefaultPosition, wx.Size( 200,-1 ), wx.TE_READONLY )
+		self.no_tes_input = wx.TextCtrl( self.m_panel92, wx.ID_ANY, wx.EmptyString, wx.DefaultPosition, wx.Size( -1,-1 ), wx.TE_READONLY )
 		self.no_tes_input.SetFont( wx.Font( 12, wx.FONTFAMILY_SWISS, wx.FONTSTYLE_NORMAL, wx.FONTWEIGHT_NORMAL, False, "Sans" ) )
 
 		fgSizer4.Add( self.no_tes_input, 0, wx.ALL|wx.EXPAND, 5 )
@@ -3119,7 +3119,7 @@ class Page7 ( wx.Panel ):
 
 		fgSizer4.Add( self.tanggal_tes, 0, wx.ALL|wx.ALIGN_CENTER_VERTICAL, 5 )
 
-		self.tanggal_tes_input = wx.adv.DatePickerCtrl( self.m_panel92, wx.ID_ANY, wx.DefaultDateTime, wx.DefaultPosition, wx.Size( 200,-1 ), wx.adv.DP_DEFAULT )
+		self.tanggal_tes_input = wx.adv.DatePickerCtrl( self.m_panel92, wx.ID_ANY, wx.DefaultDateTime, wx.DefaultPosition, wx.Size( -1,-1 ), wx.adv.DP_DEFAULT )
 		self.tanggal_tes_input.SetFont( wx.Font( 12, wx.FONTFAMILY_SWISS, wx.FONTSTYLE_NORMAL, wx.FONTWEIGHT_NORMAL, False, "Sans" ) )
 
 		fgSizer4.Add( self.tanggal_tes_input, 0, wx.ALL, 5 )
@@ -3131,7 +3131,7 @@ class Page7 ( wx.Panel ):
 
 		fgSizer4.Add( self.nama_kandidat, 0, wx.ALL|wx.ALIGN_CENTER_VERTICAL, 5 )
 
-		self.nama_kandidat_input = wx.TextCtrl( self.m_panel92, wx.ID_ANY, wx.EmptyString, wx.DefaultPosition, wx.Size( 200,-1 ), wx.TE_READONLY )
+		self.nama_kandidat_input = wx.TextCtrl( self.m_panel92, wx.ID_ANY, wx.EmptyString, wx.DefaultPosition, wx.Size( -1,-1 ), wx.TE_READONLY )
 		self.nama_kandidat_input.SetFont( wx.Font( 12, wx.FONTFAMILY_SWISS, wx.FONTSTYLE_NORMAL, wx.FONTWEIGHT_NORMAL, False, "Sans" ) )
 
 		fgSizer4.Add( self.nama_kandidat_input, 0, wx.ALL|wx.EXPAND, 5 )
@@ -3157,7 +3157,7 @@ class Page7 ( wx.Panel ):
 
 		fgSizer4.Add( self.tanggal_lahir, 0, wx.ALL, 5 )
 
-		self.tanggal_lahir_input = wx.adv.DatePickerCtrl( self.m_panel92, wx.ID_ANY, wx.DefaultDateTime, wx.DefaultPosition, wx.Size( 200,-1 ), wx.adv.DP_DEFAULT )
+		self.tanggal_lahir_input = wx.adv.DatePickerCtrl( self.m_panel92, wx.ID_ANY, wx.DefaultDateTime, wx.DefaultPosition, wx.Size( -1,-1 ), wx.adv.DP_DEFAULT )
 		self.tanggal_lahir_input.SetFont( wx.Font( 12, wx.FONTFAMILY_SWISS, wx.FONTSTYLE_NORMAL, wx.FONTWEIGHT_NORMAL, False, "Sans" ) )
 
 		fgSizer4.Add( self.tanggal_lahir_input, 0, wx.ALL, 5 )
