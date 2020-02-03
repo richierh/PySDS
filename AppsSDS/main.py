@@ -53,7 +53,7 @@ def close():
 
 if platform.system() == "Windows":
 	print (platform.system())
-	my_file = Path("C:\\ProgramData\\tes.txt")
+	my_file = Path("C:\\ProgramData\\4444.txt")
 
 	# print (my_file)
 	if my_file.is_file():
@@ -75,7 +75,7 @@ if platform.system() == "Windows":
 
 elif platform.system() == "Linux" :
 	print (platform.system())
-	my_file = Path.home() / ".tes"
+	my_file = Path.home() / ".4444"
 	# print (my_file)
 	if my_file.is_file():
 		# print ("file ada")

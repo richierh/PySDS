@@ -21,4 +21,5 @@ print (sys.path)
 cd = pathlib.Path.cwd() / "AppsSDS"
 os.chdir(str(cd))
 
-from AppsSDS.main import run
+import AppsSDS.main 
+#import run
